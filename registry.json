@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": 0.1,
-  "updated": "2014-12-05",
+  "version": 0.2,
+  "updated": "2015-05-13",
   "packages": [
     {
       "name": "alm",
@@ -154,7 +154,7 @@
       "email": "myrmecocystus@gmail.com",
       "status": "good",
       "category": "infrastructure",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/elastic",
       "description": "An R client for Elasticsearch In early development"
@@ -208,6 +208,18 @@
       "description": "An high level R interface to many different sources for full text (or nearly) scholarly texts, including PLOS, PMC, PeerJ, eLife, arXiv, and many more"
     },
     {
+      "name": "geojsonio",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "visualization",
+      "on_cran": true,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/geojsonio",
+      "description": "A package to convert many data formats to geoJSON or Bostock's topoJSON"
+    },
+    {
       "name": "gender",
       "type": "package",
       "maintainer": "Lincoln Mullen",
@@ -250,7 +262,7 @@
       "email": "myrmecocystus@gmail.com",
       "status": "good",
       "category": "reproducibility",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/gistr",
       "description": "gistr is a light interface to GitHub's gists for R"
@@ -262,7 +274,7 @@
       "email": "myrmecocystus@gmail.com",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/git2r",
       "description": "Git bindings from R"
@@ -346,7 +358,7 @@
       "email": "goring@wisc.edu",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/neotoma",
       "description": "Search for sites and download data for use in analytical workflows of paleoecological research using the Neotoma Paleoecological Database"
@@ -502,7 +514,7 @@
       "email": "kyle.hamilton@gmail.com",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/RCryptsy",
       "description": null
@@ -682,7 +694,7 @@
       "email": "jhpoelen+rglobi@gmail.com",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rglobi",
       "description": null
@@ -1048,18 +1060,6 @@
       "description": "A test suite to ensure that tabular data are correctly formatted"
     },
     {
-      "name": "togeojson",
-      "type": "package",
-      "maintainer": "Scott Chamberlain",
-      "email": "myrmecocystus@gmail.com",
-      "status": "good",
-      "category": "visualization",
-      "on_cran": false,
-      "cran_archived": null,
-      "url": "https://github.com/ropensci/togeojson",
-      "description": "A package to convert many data formats to geoJSON or Bostock's topoJSON"
-    },
-    {
       "name": "traits",
       "type": "package",
       "maintainer": "Scott Chamberlain",
@@ -1126,7 +1126,7 @@
       "email": "mwpennell@gmail.com",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/chromer",
       "description": null
@@ -1192,7 +1192,7 @@
       "description": "An R client to interact with Digital Public Library of America (DPLA) metadata"
     },
     {
-      "name": "redland-binding",
+      "name": "redland-bindings",
       "type": "package",
       "maintainer": "Matthew Jones",
       "email": "jones@nceas.ucsb.edu",
@@ -1200,7 +1200,7 @@
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
-      "url": "https://github.com/ropensci/binding",
+      "url": "https://github.com/ropensci/redland-bindings",
       "description": null
     },
     {
@@ -1210,7 +1210,7 @@
       "email": "myrmecocystus@gmail.com",
       "status": "good",
       "category": "biology",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rerddap",
       "description": null
@@ -1246,7 +1246,7 @@
       "email": "kyle.hamilton@gmail.com",
       "status": "good",
       "category": "astronomy",
-      "on_cran": false,
+      "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/RStars",
       "description": null
@@ -1274,6 +1274,282 @@
       "cran_archived": null,
       "url": "https://github.com/ropensci/webmockr",
       "description": null
+    },
+    {
+      "name": "binomen",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "taxonomy",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/binomen",
+      "description": "taxonomic name classes and parsing methods"
+    },
+    {
+      "name": "cartographer",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "category": "maps",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/cartographer",
+      "description": "A wrapper around d3-carto-map and the d3.js visualization library to create interactive maps at the R console and in R documents."
+    },
+    {
+      "name": "csl",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "literature",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/csl",
+      "description": "Parse CSL Styles"
+    },
+    {
+      "name": "elasticdsl",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "databases",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/elasticdsl",
+      "description": "Elasticsearch DSL"
+    },
+    {
+      "name": "etseed",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "databases",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/etseed",
+      "description": "R client to interact with the etcd key-value data store"
+    },
+    {
+      "name": "finch",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "ecology",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/finch",
+      "description": "Parse and create Darwin Core Simple and Archive Files"
+    },
+    {
+      "name": "genderdata",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "category": "history",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/genderdata",
+      "description": "Historical data sets for the study of gender"
+    },
+    {
+      "name": "hathi",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "literature",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/hathi",
+      "description": "An R client for HathiTrust API"
+    },
+    {
+      "name": "internetarchive",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "category": "history",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/internetarchive",
+      "description": "An API Client for the Internet Archive"
+    },
+    {
+      "name": "jqr",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "utilities",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/jqr",
+      "description": "An R client for jq"
+    },
+    {
+      "name": "lawn",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "maps",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/lawn",
+      "description": "R Client for turf.js for Geospatial Analysis"
+    },
+    {
+      "name": "nodbi",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "databases",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/nodbi",
+      "description": "Simplified document database manipulation and analysis"
+    },
+    {
+      "name": "opencontext",
+      "type": "package",
+      "maintainer": "Ben Marwick",
+      "email": "bmarwick@uw.edu",
+      "status": "good",
+      "category": "archeology",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/opencontext",
+      "description": "API Client for the Open Context Archeological Database"
+    },
+    {
+      "name": "parasiteR",
+      "type": "package",
+      "maintainer": "Tad Dallas",
+      "email": "tdallas@uga.edu",
+      "status": "good",
+      "category": "ecology",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/parasiteR",
+      "description": "Parasite occurrence records from the London Natural History Museum's Host-Parasite database"
+    },
+    {
+      "name": "proj",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "maps",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/proj",
+      "description": "R Client for proj4js"
+    },
+    {
+      "name": "rchie",
+      "type": "package",
+      "maintainer": "Noam Ross",
+      "email": "noam.ross@gmail.com",
+      "status": "good",
+      "category": "literature",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/rchie",
+      "description": "A Parser for ArchieML"
+    },
+    {
+      "name": "rdopa",
+      "type": "package",
+      "maintainer": "Joona Lehtomaki",
+      "email": "joona.lehtomaki@gmail.com",
+      "status": "good",
+      "category": "ecology",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/rdopa",
+      "description": "R client to Joint Research Centre's DOPA REST API"
+    },
+    {
+      "name": "RedisAPI",
+      "type": "package",
+      "maintainer": "Rich FitzJohn",
+      "email": "rich.fitzjohn@gmail.com",
+      "status": "good",
+      "category": "databases",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/RedisAPI",
+      "description": "Wrapper For Redis API"
+    },
+    {
+      "name": "rif",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "neuroscience",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/rif",
+      "description": "Client for Neuroscience Information Framework APIs"
+    },
+    {
+      "name": "rrlite",
+      "type": "package",
+      "maintainer": "Rich FitzJohn",
+      "email": "rich.fitzjohn@gmail.com",
+      "status": "good",
+      "category": "history",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/rrlite",
+      "description": "R Bindings to rlite"
+    },
+    {
+      "name": "sofa",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "databases",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/sofa",
+      "description": "Easy R Connector to CouchDB"
+    },
+    {
+      "name": "webchem",
+      "type": "package",
+      "maintainer": "Eduard Szoecs",
+      "email": "eduardszoecs@gmail.com",
+      "status": "good",
+      "category": "chemistry",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/webchem",
+      "description": "Chemical Information from the Web"
+    },
+    {
+      "name": "wellknown",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "category": "maps",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/wellknown",
+      "description": "Convert Between WKT to GeoJSON"
     }
   ]
 }
