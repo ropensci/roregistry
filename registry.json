@@ -1,7 +1,29 @@
 {
   "name": "ropensci_registry",
-  "version": 0.2,
-  "updated": "2015-05-13",
+  "version": "0.2.1",
+  "updated": "2015-05-26",
+  "meta": {
+    "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
+    "type": "Category - only packages included for now, may include others later",
+    "maintainer": "Package maintainer name",
+    "email": "Package maintainer email",
+    "status": {
+      "description": "Current state of the package, different from installable",
+      "levels": {
+        "good": "Everything is good, everything should work fine",
+        "hiatus": "Taking a break for a reason, e.g., waiting for next version of an API",
+        "deprecated": "Not maintaining any longer, though may still be installable"
+      }
+    },
+    "installable": "Logical - should the package install",
+    "category": "Category - what the package does/data it deals with",
+    "on_cran": "Logical - is the package on CRAN",
+    "cran_archived": "Logical - if the package is on CRAN, is it archived?",
+    "url": "Code repository URL, usually a GitHub repository",
+    "root": "Path to root of the R package (if an R package exists). If in root of repo, then zero length string",
+    "fork": "Logical - is the repo a fork",
+    "description": "Brief description of the package"
+  },
   "packages": [
     {
       "name": "alm",
@@ -9,10 +31,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "altmetrics",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/alm",
+      "root": "",
+      "fork": false,
       "description": "R wrapper to the almetrics API platform developed by PLoS  API -other publishers have built on this and work out of the box: CrossRef, Copernicus Publishers, and the Public Knowledge Project (PKP)"
     },
     {
@@ -21,10 +46,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/AntWeb",
+      "root": "",
+      "fork": false,
       "description": "Access data from the world's largest ant database. Maintained and developed by the California Academy of Science"
     },
     {
@@ -33,10 +61,13 @@
       "maintainer": "Karl Broman",
       "email": "kbroman@biostat.wisc.edu",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/aRxiv",
+      "root": "",
+      "fork": false,
       "description": "Access to the aRxiv preprint repository"
     },
     {
@@ -45,10 +76,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
-      "on_cran": true,
+      "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/bmc",
+      "root": "",
+      "fork": false,
       "description": "An R interface to Biomed Central (BMC) search API and full text XML"
     },
     {
@@ -57,10 +91,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/bold",
+      "root": "",
+      "fork": false,
       "description": "R client for BOLD Systems (Barcode Of Life Database)."
     },
     {
@@ -69,10 +106,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "altmetrics",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/citeulike",
+      "root": "",
+      "fork": false,
       "description": "R interface to CiteULike"
     },
     {
@@ -81,10 +121,13 @@
       "maintainer": "Blake Seers",
       "email": "blake.seers@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
-      "on_cran": false,
-      "cran_archived": null,
+      "on_cran": true,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/clifro",
+      "root": "",
+      "fork": false,
       "description": "An R client for New Zealand's National Climate Database"
     },
     {
@@ -93,22 +136,28 @@
       "maintainer": "Matthew Jones",
       "email": "jones@nceas.ucsb.edu",
       "status": "good",
+      "installable": true,
       "category": "infrastructure",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/datapackage",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "An R package to handle data packages"
     },
     {
       "name": "dependencies",
       "type": "package",
       "maintainer": "Gavin Simpson",
       "email": "ucfagls@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "infrastructure",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/dependencies",
+      "root": "",
+      "fork": false,
       "description": null
     },
     {
@@ -117,10 +166,13 @@
       "maintainer": "Thomas J. Leeper",
       "email": "thosjleeper@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "publication",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/dvn",
+      "root": "",
+      "fork": false,
       "description": "Programmatic interface to the DataVerse Network."
     },
     {
@@ -129,10 +181,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/ecoengine",
+      "root": "",
+      "fork": false,
       "description": "Retrieve 3+ MM records, checklists and photos from Berkeley's ecoengine"
     },
     {
@@ -141,10 +196,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/ecoretriever",
+      "root": "",
+      "fork": false,
       "description": "R client wrapping the Python Ecoretriever software."
     },
     {
@@ -153,10 +211,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "infrastructure",
+      "installable": true,
+      "category": ["infrastructure","databases"],
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/elastic",
+      "root": "",
+      "fork": false,
       "description": "An R client for Elasticsearch In early development"
     },
     {
@@ -165,10 +226,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/elife",
+      "root": "",
+      "fork": false,
       "description": "R interface to the eLife API"
     },
     {
@@ -177,10 +241,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "publication",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/EML",
+      "root": "",
+      "fork": false,
       "description": "An R package for reading, writing, integrating and publishing data using the Ecological Metadata Language (EML) format."
     },
     {
@@ -188,12 +255,15 @@
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/floras",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Web page scraping for eFloras, including the Flora of North America"
     },
     {
       "name": "fulltext",
@@ -201,10 +271,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/fulltext",
+      "root": "",
+      "fork": false,
       "description": "An high level R interface to many different sources for full text (or nearly) scholarly texts, including PLOS, PMC, PeerJ, eLife, arXiv, and many more"
     },
     {
@@ -213,10 +286,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "visualization",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/geojsonio",
+      "root": "",
+      "fork": false,
       "description": "A package to convert many data formats to geoJSON or Bostock's topoJSON"
     },
     {
@@ -225,10 +301,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/gender",
+      "root": "",
+      "fork": false,
       "description": "gender is an R package to encode gender based on names and dates of birth"
     },
     {
@@ -237,10 +316,13 @@
       "maintainer": "Barry Rowlingson",
       "email": "b.rowlingson@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "infrastructure",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/geonames",
+      "root": "",
+      "fork": false,
       "description": "Grab data from the GeoNames geographical database which covers all countries and contains over eight million placenames"
     },
     {
@@ -248,11 +330,14 @@
       "type": "package",
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/gigadb",
+      "root": "",
+      "fork": false,
       "description": null
     },
     {
@@ -261,10 +346,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "reproducibility",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/gistr",
+      "root": "",
+      "fork": false,
       "description": "gistr is a light interface to GitHub's gists for R"
     },
     {
@@ -273,10 +361,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/git2r",
+      "root": "",
+      "fork": false,
       "description": "Git bindings from R"
     },
     {
@@ -285,11 +376,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "reproducibility",
-      "on_cran": false,
-      "cran_archived": null,
+      "on_cran": true,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/gitr",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "git/github from R"
     },
     {
       "name": "historydata",
@@ -297,10 +391,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/historydata",
+      "root": "",
+      "fork": false,
       "description": "An R package with datasets of interest to historians. It is primarily intended for pedagogic purposes in teaching historians how to use R"
     },
     {
@@ -308,12 +405,15 @@
       "type": "package",
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": false,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ICES",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R interface to the ICES DATA PORTAL"
     },
     {
       "name": "IEEER",
@@ -321,10 +421,13 @@
       "maintainer": "Saul Wiggin",
       "email": "saulwiggin@googlemail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/IEEER",
+      "root": "",
+      "fork": false,
       "description": "Interface to the IEEE Xplore Gateway"
     },
     {
@@ -332,24 +435,30 @@
       "type": "package",
       "maintainer": "Edmund Hart",
       "email": "edmund.m.hart@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/mdextract",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "package to extract metadata from data"
     },
     {
       "name": "mocker",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "good",
+      "status": "deprecated",
+      "installable": true,
       "category": "infrastructure",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/mocker",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Cache API calls to the web"
     },
     {
       "name": "neotoma",
@@ -357,10 +466,13 @@
       "maintainer": "Simon Goring",
       "email": "goring@wisc.edu",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/neotoma",
+      "root": "",
+      "fork": false,
       "description": "Search for sites and download data for use in analytical workflows of paleoecological research using the Neotoma Paleoecological Database"
     },
     {
@@ -369,11 +481,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ots",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "ocean time series datasets"
     },
     {
       "name": "paleobioDB",
@@ -381,10 +496,13 @@
       "maintainer": "Sara Varela",
       "email": "svarela@paleobiogeography.org",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/paleobioDB",
+      "root": "",
+      "fork": false,
       "description": "Access data from the Paleobiology Database, a warehouse of paleobiology database"
     },
     {
@@ -393,10 +511,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/pangaear",
+      "root": "",
+      "fork": false,
       "description": "An R client to interact with the Pangaea database.  In early development"
     },
     {
@@ -405,10 +526,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "archeology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/pleiades",
+      "root": "",
+      "fork": false,
       "description": "Search for and retrieve metadata and spatial location data on archeological places and names from Pleiades.  "
     },
     {
@@ -417,10 +541,13 @@
       "maintainer": "Chris Parmer",
       "email": "chris@plot.ly",
       "status": "good",
+      "installable": true,
       "category": "visualization",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/plotly",
+      "root": "",
+      "fork": false,
       "description": "Programmatic interface to the Plot.ly API -construct plots with ggplot2 and push to Plot.ly for an interactive plot with a few lines of code"
     },
     {
@@ -429,11 +556,14 @@
       "maintainer": "Edmund Hart",
       "email": "edmund.m.hart@gmail.com",
       "status": "good",
+      "installable": false,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/prism",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Download data from the Oregon PRISM climate data project http://www.prism.oregonstate.edu/"
     },
     {
       "name": "rAltmetric",
@@ -441,10 +571,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "altmetrics",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rAltmetric",
+      "root": "",
+      "fork": false,
       "description": "Programmatic interface to article-evel metrics data from Altmetric.com"
     },
     {
@@ -453,10 +586,13 @@
       "maintainer": "Sara Varela",
       "email": "svarela@paleobiogeography.org",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rAvis",
+      "root": "",
+      "fork": false,
       "description": "Download occurrence data for bird species, and associated metadata from ProyectoAvis, a citizen science bird project in Spain."
     },
     {
@@ -465,10 +601,13 @@
       "maintainer": "Claas-Thido Pfaff",
       "email": "claas-thido.pfaff@idiv-biodiversity.de",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rbefdata",
+      "root": "rbefdata",
+      "fork": true,
       "description": "Connects to instances of BEFdata portals for collaborative data management (e.g BEF-hina and FUNdiv)"
     },
     {
@@ -477,10 +616,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rbhl",
+      "root": "",
+      "fork": false,
       "description": "Access full text and metadata on scanned and OCR text for biodiversity literature from Biodiversity Heritage Library"
     },
     {
@@ -489,10 +631,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rbison",
+      "root": "",
+      "fork": false,
       "description": "R client for USGS's BISON (Biodiversity Information Serving Our Nation)."
     },
     {
@@ -501,10 +646,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rcrossref",
+      "root": "",
+      "fork": false,
       "description": "An R interface to Crossref metadata search API"
     },
     {
@@ -513,22 +661,28 @@
       "maintainer": "William Kyle Hamilton",
       "email": "kyle.hamilton@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/RCryptsy",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Basic Public API for the Crypto-Currency exchange Cryptsy "
     },
     {
       "name": "rDat",
       "type": "package",
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
-      "status": "good",
-      "category": "biology",
+      "status": "hiatus",
+      "installable": true,
+      "category": ["infrastructure","databases"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rDat",
+      "root": "",
+      "fork": false,
       "description": null
     },
     {
@@ -537,10 +691,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rdatacite",
+      "root": "",
+      "fork": false,
       "description": "Wrapper to DataCite metadata"
     },
     {
@@ -548,12 +705,15 @@
       "type": "package",
       "maintainer": "Matthew Jones",
       "email": "jones@nceas.ucsb.edu",
-      "status": "good",
+      "status": "hiatus",
+      "installable": false,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rdataone",
-      "description": null
+      "root": "",
+      "fork": true,
+      "description": "R package for reading and writing data at DataONE data repositories"
     },
     {
       "name": "rdryad",
@@ -561,10 +721,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rdryad",
+      "root": "dataone",
+      "fork": false,
       "description": "Push data to and get data from Dryad a repository of data associated with published scholarly papers. Development pending upcoming API changes."
     },
     {
@@ -573,10 +736,13 @@
       "maintainer": "Najko Jahn",
       "email": "najko.jahn@uni-bielefeld.de",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rebi",
+      "root": "",
+      "fork": true,
       "description": "Access to the European PubMed Central database of papers and metadata"
     },
     {
@@ -585,10 +751,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rebird",
+      "root": "",
+      "fork": false,
       "description": "Search and acquire occurrence records of bird sightings collated in the eBird database"
     },
     {
@@ -597,10 +766,13 @@
       "maintainer": "David Winter",
       "email": "david.winter@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rentrez",
+      "root": "",
+      "fork": false,
       "description": "rentrez provides functions that work with the NCBI eutils to search or download data from various NCBI databases"
     },
     {
@@ -609,10 +781,13 @@
       "maintainer": "Barb Banbury",
       "email": "darwinthesun@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/reol",
+      "root": "",
+      "fork": false,
       "description": "R client to the Encyclopedia of Life a website and database of data/images/descriptions of species."
     },
     {
@@ -621,10 +796,13 @@
       "maintainer": "Carl Boettiger",
       "email": "cboettig at gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": ["literature","databases"],
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rfigshare",
+      "root": "",
+      "fork": false,
       "description": "Push data, figures, and text to, and search and retrieve data from, Figshare from R"
     },
     {
@@ -633,10 +811,13 @@
       "maintainer": "Carl Boettiger",
       "email": "cboettig@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rfishbase",
+      "root": "",
+      "fork": false,
       "description": "Access any fish data from Fishbase.org, including occurrence records, habitat data, and more"
     },
     {
@@ -645,10 +826,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rfisheries",
+      "root": "",
+      "fork": false,
       "description": "Search and retrieve data from the OpenFisheries.org, currently providing access to global capture fishing landings from the Food and Agriculture Organization (FAO) of the United Nations"
     },
     {
@@ -657,11 +841,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rflybase",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "A wrapper to FlyBase data"
     },
     {
       "name": "rgauges",
@@ -669,11 +856,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "analytics",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rgauges",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Interface to Gaug.es API"
     },
     {
       "name": "rgbif",
@@ -681,10 +871,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rgbif",
+      "root": "",
+      "fork": false,
       "description": "Access more than 400 million species occurrence records from across the globe in one place, from the Global Biodiversity Information Facility"
     },
     {
@@ -693,23 +886,29 @@
       "maintainer": "Jorrit Poelen",
       "email": "jhpoelen+rglobi@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rglobi",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R library to access species interaction data of http://globalbioticinteractions.org"
     },
     {
       "name": "rgpdd",
       "type": "package",
       "maintainer": "Carl Boettiger",
       "email": "cboettig@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rgpdd",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Interface to the Global Population Dynamics Database, http://www3.imperial.ac.uk/cpb/databases/gpdd"
     },
     {
       "name": "rhindawi",
@@ -717,10 +916,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
-      "category": "biology",
+      "installable": true,
+      "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rhindawi",
+      "root": "",
+      "fork": false,
       "description": "R interface to the Hindawi Journals metadata and corpus"
     },
     {
@@ -729,10 +931,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "altmetrics",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rImpactStory",
+      "root": "",
+      "fork": false,
       "description": "Programmatic interface to ImpactStory"
     },
     {
@@ -741,10 +946,13 @@
       "maintainer": "Edmund Hart",
       "email": "edmund.m.hart@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rinat",
+      "root": "",
+      "fork": false,
       "description": "A programmatic interface to the API provided by iNaturalist."
     },
     {
@@ -753,11 +961,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ritis",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Wrapper to the Integrated Taxonomic Information Service (ITIS) API"
     },
     {
       "name": "RMendeley",
@@ -765,10 +976,13 @@
       "maintainer": "Carl Boettiger",
       "email": "cboettig@gmail.com",
       "status": "good",
+      "installable": false,
       "category": "literature",
       "on_cran": true,
       "cran_archived": true,
       "url": "https://github.com/ropensci/RMendeley",
+      "root": "",
+      "fork": false,
       "description": "This package is now deprecated. Programmatic interface to the Mendeley network -push up data to Mendeley as well as search and retrieve data from your private data and public Mendeley records. Updates pending upcoming API changes."
     },
     {
@@ -777,10 +991,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rmetadata",
+      "root": "",
+      "fork": false,
       "description": "A high level R interface to many different scholarly metadata sources, which will include Crossref, any OAI-MH provider, Digital Public Library of America, Hathi Trust, Europeana, and more"
     },
     {
@@ -789,11 +1006,14 @@
       "maintainer": "Jan Wijffels",
       "email": "jwijffels@bnosac.be",
       "status": "good",
+      "installable": false,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": true,
       "url": "https://github.com/ropensci/RMETAR",
-      "description": null
+      "root": "pkg",
+      "fork": true,
+      "description": "A METAR decoder for R users, connecting to mdsplib (METAR Decoder Software Package Library - http://mdsplib.sourceforge.net/)"
     },
     {
       "name": "rnbn",
@@ -801,10 +1021,13 @@
       "maintainer": "Tom August",
       "email": "tomaug@ceh.ac.uk",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rnbn",
+      "root": "",
+      "fork": true,
       "description": "Access to the United Kingdom's National Biodiversity Network data."
     },
     {
@@ -813,10 +1036,13 @@
       "maintainer": "Carl Boettiger",
       "email": "cboettig@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/RNeXML",
+      "root": "",
+      "fork": false,
       "description": "Semantically rich NeXML I/O in R -next generation XML for Phylogenetic data."
     },
     {
@@ -825,10 +1051,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rnoaa",
+      "root": "",
+      "fork": false,
       "description": "Access climate data from NOAA, including temperature and precipitation, as well as sea ice cover data, and extreme weather events"
     },
     {
@@ -836,11 +1065,14 @@
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rnpn",
+      "root": "",
+      "fork": false,
       "description": "Access phenological data from US National Phenology Network for plants and animals"
     },
     {
@@ -848,12 +1080,15 @@
       "type": "package",
       "maintainer": "Kate Crosby",
       "email": "kate.crosby@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rOBIS",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R interface to the Ocean Biogeographic Information System"
     },
     {
       "name": "rorcid",
@@ -861,10 +1096,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rorcid",
+      "root": "",
+      "fork": false,
       "description": "A programmatic interface the Orcid.org"
     },
     {
@@ -873,10 +1111,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rpensoft",
+      "root": "",
+      "fork": false,
       "description": "Access to Pensoft journals full text and metadata. Not in active development."
     },
     {
@@ -885,10 +1126,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rplos",
+      "root": "",
+      "fork": false,
       "description": "Connects to the full-ext API of the Public Library of Science (PLOS). They provide a powerful search engine by exposing Solr search endpoints"
     },
     {
@@ -897,23 +1141,29 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rpmc",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R interface to PubMed Central article metadata."
     },
     {
       "name": "rpwt",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "good",
-      "category": "publication",
+      "status": "hiatus",
+      "installable": true,
+      "category": ["publication","literature"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rpwt",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Pensoft Writing Tool R client"
     },
     {
       "name": "rrdf",
@@ -921,11 +1171,14 @@
       "maintainer": "Egon Willighagen",
       "email": "egon.willighagen@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "infrastructure",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": true,
       "url": "https://github.com/ropensci/rrdf",
-      "description": null
+      "root": "rrdf",
+      "fork": true,
+      "description": "R package for handling RDF data."
     },
     {
       "name": "RSelenium",
@@ -933,10 +1186,13 @@
       "maintainer": "John Harrison",
       "email": "johndharrison0@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "infrastructure",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/RSelenium",
+      "root": "",
+      "fork": false,
       "description": "An R client for Selenium Remote WebDriver"
     },
     {
@@ -945,10 +1201,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rsnps",
+      "root": "",
+      "fork": false,
       "description": "Search and retrieve Single Nucleotide Polymorphism data from openSNP, a repository of direct-o-ustomer genetic test results"
     },
     {
@@ -957,10 +1216,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": false,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rspringer",
+      "root": "",
+      "fork": false,
       "description": "Full-ext access to Springer journals. Development pending upcoming API changes."
     },
     {
@@ -968,11 +1230,14 @@
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "hiatus",
+      "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rvertnet",
+      "root": "",
+      "fork": false,
       "description": "Access to specimen records for vertebrates across many museums though VertNet"
     },
     {
@@ -981,10 +1246,13 @@
       "maintainer": "Edmund Hart",
       "email": "edmund.m.hart@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rWBclimate",
+      "root": "",
+      "fork": false,
       "description": "Programmatic interface to the World Bank climate data used in the World Bank climate knowledge portal."
     },
     {
@@ -993,23 +1261,29 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "deprecated",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/sandbox",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Interface to many altmetrics data services."
     },
     {
       "name": "sheetseeR",
       "type": "package",
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/sheetseeR",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "A quick and easy interface to Google Docs + SheetSee.js"
     },
     {
       "name": "solr",
@@ -1017,10 +1291,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "infrastructure",
+      "installable": true,
+      "category": ["infrastructure","databases"],
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/solr",
+      "root": "",
+      "fork": false,
       "description": "An R client for Apache Solr"
     },
     {
@@ -1029,10 +1306,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/spocc",
+      "root": "",
+      "fork": false,
       "description": "Collect and map species occurrence data from GBIF, iNaturalist, Ecoengine, AntWeb, eBird, and USGS's BISON."
     },
     {
@@ -1041,10 +1321,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/taxize",
+      "root": "",
+      "fork": false,
       "description": "Get taxonomic identifiers from many different databases; taxonomic synonyms; taxonomic hierarchies; retrieve common names, and more. Access to a dozen different sources"
     },
     {
@@ -1053,10 +1336,13 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": "infrastructure",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/testdat",
+      "root": "",
+      "fork": false,
       "description": "A test suite to ensure that tabular data are correctly formatted"
     },
     {
@@ -1065,10 +1351,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/traits",
+      "root": "",
+      "fork": false,
       "description": "A high level R package to acquire species trait data from many sources, including Polytraits, BETTYdb, NCBI, Phylomatic, and more."
     },
     {
@@ -1077,10 +1366,13 @@
       "maintainer": "Carl Boettiger",
       "email": "cboettig@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/treeBASE",
+      "root": "",
+      "fork": true,
       "description": "Programmatic interface to Treebase -a database of phylogenetic trees"
     },
     {
@@ -1088,11 +1380,14 @@
       "type": "package",
       "maintainer": "Luís Paulo F. Garcia",
       "email": "lpfgarcia@gmail.com",
-      "status": "good",
-      "category": "biology",
+      "status": "hiatus",
+      "installable": true,
+      "category": "computer science",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ucipp",
+      "root": "",
+      "fork": false,
       "description": null
     },
     {
@@ -1101,10 +1396,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/USAboundaries",
+      "root": "",
+      "fork": false,
       "description": "Historical boundaries of the United States. Map the United States (or the colonies that became the United States) on any date from 1629 to 2000. Contains both county and state/territory level polygons."
     },
     {
@@ -1113,11 +1411,14 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/zenodo",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Deposit data (or any research object) into Zenodo"
     },
     {
       "name": "chromer",
@@ -1125,11 +1426,14 @@
       "maintainer": "Matthew Pennell",
       "email": "mwpennell@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/chromer",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "package for interacting with the chromosome counts database (CCDB) at http://ccdb.tau.ac.il"
     },
     {
       "name": "ckanr",
@@ -1137,11 +1441,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": ["infrastructure","databases"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ckanr",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R client for CKAN RESTful API"
     },
     {
       "name": "dashboard",
@@ -1149,11 +1456,14 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/dashboard",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "A R package dashboard generator"
     },
     {
       "name": "ggit",
@@ -1161,11 +1471,14 @@
       "maintainer": "Karthik Ram",
       "email": "karthik.ram@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "reproducibility",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/ggit",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Git visualization tools for git2r"
     },
     {
       "name": "musemeta",
@@ -1173,10 +1486,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/musemeta",
+      "root": "",
+      "fork": false,
       "description": "R Client for Scraping Museum Metadata, including The Metropolitan Museum of Art, the Canadian Science & Technology Museum Corporation, the National Gallery of Art, and the Getty Museum, and more to come"
     },
     {
@@ -1185,10 +1501,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rdpla",
+      "root": "",
+      "fork": false,
       "description": "An R client to interact with Digital Public Library of America (DPLA) metadata"
     },
     {
@@ -1197,11 +1516,14 @@
       "maintainer": "Matthew Jones",
       "email": "jones@nceas.ucsb.edu",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": ["biology","infrastructure","databases"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/redland-bindings",
-      "description": null
+      "root": "",
+      "fork": true,
+      "description": "Redland librdf language bindings"
     },
     {
       "name": "rerddap",
@@ -1209,11 +1531,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "biology",
+      "installable": true,
+      "category": ["biology","infrastructure","databases"],
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/rerddap",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "R client for working with ERDDAP servers"
     },
     {
       "name": "reuropeana",
@@ -1221,10 +1546,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/reuropeana",
+      "root": "",
+      "fork": false,
       "description": "An R client to interact with Europeana metadata"
     },
     {
@@ -1233,11 +1561,14 @@
       "maintainer": "Abaghan Ghahraman",
       "email": "abaghan@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "economics",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rGEM",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "A wrapper around GEM data"
     },
     {
       "name": "RStars",
@@ -1245,11 +1576,14 @@
       "maintainer": "William Kyle Hamilton",
       "email": "kyle.hamilton@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "astronomy",
       "on_cran": true,
-      "cran_archived": null,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/RStars",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "Access to the Digital Universe Data set"
     },
     {
       "name": "taxizesoap",
@@ -1257,22 +1591,28 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "biology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/taxizesoap",
-      "description": null
+      "root": "",
+      "fork": false,
+      "description": "taxize but for SOAP data sources"
     },
     {
       "name": "webmockr",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
-      "status": "good",
+      "status": "hiatus",
+      "installable": false,
       "category": "infrastructure",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/webmockr",
+      "root": "",
+      "fork": false,
       "description": null
     },
     {
@@ -1281,11 +1621,14 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "taxonomy",
+      "installable": true,
+      "category": ["taxonomy","biology"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/binomen",
-      "description": "taxonomic name classes and parsing methods"
+      "root": "",
+      "fork": false,
+      "description": "Taxonomic name classes and parsing methods"
     },
     {
       "name": "cartographer",
@@ -1293,10 +1636,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
+      "installable": true,
       "category": "maps",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/cartographer",
+      "root": "",
+      "fork": false,
       "description": "A wrapper around d3-carto-map and the d3.js visualization library to create interactive maps at the R console and in R documents."
     },
     {
@@ -1305,10 +1651,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/csl",
+      "root": "",
+      "fork": false,
       "description": "Parse CSL Styles"
     },
     {
@@ -1317,10 +1666,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/elasticdsl",
+      "root": "",
+      "fork": false,
       "description": "Elasticsearch DSL"
     },
     {
@@ -1329,10 +1681,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/etseed",
+      "root": "",
+      "fork": false,
       "description": "R client to interact with the etcd key-value data store"
     },
     {
@@ -1341,10 +1696,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "ecology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/finch",
+      "root": "",
+      "fork": false,
       "description": "Parse and create Darwin Core Simple and Archive Files"
     },
     {
@@ -1353,10 +1711,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
+      "installable": true,
       "category": "history",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/genderdata",
+      "root": "",
+      "fork": true,
       "description": "Historical data sets for the study of gender"
     },
     {
@@ -1365,10 +1726,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
-      "category": "literature",
+      "installable": true,
+      "category": ["literature","history"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/hathi",
+      "root": "",
+      "fork": false,
       "description": "An R client for HathiTrust API"
     },
     {
@@ -1377,10 +1741,13 @@
       "maintainer": "Lincoln Mullen",
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
-      "category": "history",
-      "on_cran": false,
-      "cran_archived": null,
+      "installable": true,
+      "category": ["history","literature"],
+      "on_cran": true,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/internetarchive",
+      "root": "",
+      "fork": false,
       "description": "An API Client for the Internet Archive"
     },
     {
@@ -1389,10 +1756,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "utilities",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/jqr",
+      "root": "",
+      "fork": false,
       "description": "An R client for jq"
     },
     {
@@ -1401,10 +1771,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "maps",
-      "on_cran": false,
-      "cran_archived": null,
+      "on_cran": true,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/lawn",
+      "root": "",
+      "fork": false,
       "description": "R Client for turf.js for Geospatial Analysis"
     },
     {
@@ -1413,10 +1786,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/nodbi",
+      "root": "",
+      "fork": false,
       "description": "Simplified document database manipulation and analysis"
     },
     {
@@ -1425,10 +1801,13 @@
       "maintainer": "Ben Marwick",
       "email": "bmarwick@uw.edu",
       "status": "good",
+      "installable": true,
       "category": "archeology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/opencontext",
+      "root": "",
+      "fork": false,
       "description": "API Client for the Open Context Archeological Database"
     },
     {
@@ -1437,10 +1816,13 @@
       "maintainer": "Tad Dallas",
       "email": "tdallas@uga.edu",
       "status": "good",
-      "category": "ecology",
+      "installable": true,
+      "category": ["biology","ecology"],
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/parasiteR",
+      "root": "",
+      "fork": false,
       "description": "Parasite occurrence records from the London Natural History Museum's Host-Parasite database"
     },
     {
@@ -1449,10 +1831,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "maps",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/proj",
+      "root": "",
+      "fork": false,
       "description": "R Client for proj4js"
     },
     {
@@ -1461,10 +1846,13 @@
       "maintainer": "Noam Ross",
       "email": "noam.ross@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "literature",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rchie",
+      "root": "",
+      "fork": false,
       "description": "A Parser for ArchieML"
     },
     {
@@ -1473,10 +1861,13 @@
       "maintainer": "Joona Lehtomaki",
       "email": "joona.lehtomaki@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "ecology",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rdopa",
+      "root": "",
+      "fork": false,
       "description": "R client to Joint Research Centre's DOPA REST API"
     },
     {
@@ -1485,10 +1876,13 @@
       "maintainer": "Rich FitzJohn",
       "email": "rich.fitzjohn@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/RedisAPI",
+      "root": "",
+      "fork": false,
       "description": "Wrapper For Redis API"
     },
     {
@@ -1497,10 +1891,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "neuroscience",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rif",
+      "root": "",
+      "fork": false,
       "description": "Client for Neuroscience Information Framework APIs"
     },
     {
@@ -1509,10 +1906,13 @@
       "maintainer": "Rich FitzJohn",
       "email": "rich.fitzjohn@gmail.com",
       "status": "good",
-      "category": "history",
+      "installable": true,
+      "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/rrlite",
+      "root": "",
+      "fork": false,
       "description": "R Bindings to rlite"
     },
     {
@@ -1521,10 +1921,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "databases",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/sofa",
+      "root": "",
+      "fork": false,
       "description": "Easy R Connector to CouchDB"
     },
     {
@@ -1533,10 +1936,13 @@
       "maintainer": "Eduard Szoecs",
       "email": "eduardszoecs@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "chemistry",
-      "on_cran": false,
-      "cran_archived": null,
+      "on_cran": true,
+      "cran_archived": false,
       "url": "https://github.com/ropensci/webchem",
+      "root": "",
+      "fork": false,
       "description": "Chemical Information from the Web"
     },
     {
@@ -1545,10 +1951,13 @@
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
       "status": "good",
+      "installable": true,
       "category": "maps",
       "on_cran": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/wellknown",
+      "root": "",
+      "fork": false,
       "description": "Convert Between WKT to GeoJSON"
     }
   ]
