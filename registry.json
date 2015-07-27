@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.1",
-  "updated": "2015-05-26",
+  "version": "0.2.2",
+  "updated": "2015-07-27",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -1367,13 +1367,28 @@
       "email": "lincoln@lincolnmullen.com",
       "status": "good",
       "installable": true,
-      "category": "history",
+      "category": ["history","maps"],
       "on_cran": true,
       "cran_archived": false,
       "url": "https://github.com/ropensci/USAboundaries",
       "root": "",
       "fork": false,
       "description": "Historical boundaries of the United States. Map the United States (or the colonies that became the United States) on any date from 1629 to 2000. Contains both county and state/territory level polygons."
+    },
+    {
+      "name": "USAboundariesData",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "installable": true,
+      "category": ["history","maps"],
+      "on_cran": true,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/USAboundariesData",
+      "root": "",
+      "fork": false,
+      "description": "Datasets for the 'USAboundaries' package"
     },
     {
       "name": "zenodo",
