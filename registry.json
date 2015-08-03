@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.2",
-  "updated": "2015-07-27",
+  "version": "0.2.3",
+  "updated": "2015-08-03",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -1959,6 +1959,21 @@
       "root": "",
       "fork": false,
       "description": "Interface to Open Tree of Life API"
+    },
+    {
+      "name": "ropkgs",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": "infrastructure",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/ropkgs",
+      "root": "",
+      "fork": false,
+      "description": "ropensci registry"
     }
   ]
 }
