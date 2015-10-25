@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.3",
-  "updated": "2015-08-11",
+  "version": "0.2.4",
+  "updated": "2015-10-25",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -1989,6 +1989,21 @@
       "root": "",
       "fork": false,
       "description": "Interface to USDA Databases"
+    },
+    {
+      "name": "oai",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["literature","data"],
+      "on_cran": true,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/oai",
+      "root": "",
+      "fork": false,
+      "description": "R client to work with OAI-PMH services"
     }
   ]
 }
