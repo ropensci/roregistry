@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.4",
-  "updated": "2015-10-25",
+  "version": "0.2.5",
+  "updated": "2016-03-22",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2004,6 +2004,21 @@
       "root": "",
       "fork": false,
       "description": "R client to work with OAI-PMH services"
+    },
+    {
+      "name": "rnaturalearthhires",
+      "type": "package",
+      "maintainer": "Andy South",
+      "email": "southandy@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["maps","data"],
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/AndySouth/rnaturalearthhires",
+      "root": "",
+      "fork": false,
+      "description": "high resolution naturalearth data for rnaturalearth"
     }
   ]
 }
