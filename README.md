@@ -1,11 +1,15 @@
 ropensci registry
 ======
 
-The ropensci registry...
+__The ropensci registry__
 
-To get the raw JSON of the registry, go to [https://raw.githubusercontent.com/ropensci/roregistry/master/registry.json](https://raw.githubusercontent.com/ropensci/roregistry/master/registry.json)
+You can access this data via the R package [ropkgs](https://github.com/ropensci/ropkgs) - see the [README](https://github.com/ropensci/ropkgs#installation) to get started
 
-To read in from R:
+To get stats (CRAN details, downloads, GitHub stats, etc.) on rOpenSci pkgs check out the package [rostats](https://github.com/ropensci/rostats)
+
+To get just the raw JSON of the registry, go to [https://raw.githubusercontent.com/ropensci/roregistry/master/registry.json](https://raw.githubusercontent.com/ropensci/roregistry/master/registry.json)
+
+To read in from R with `jsonlite`:
 
 ```r
 url <- "https://raw.githubusercontent.com/ropensci/roregistry/master/registry.json"
