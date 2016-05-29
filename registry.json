@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.6",
-  "updated": "2016-05-18",
+  "version": "0.2.7",
+  "updated": "2016-05-29",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2724,6 +2724,51 @@
       "root": "",
       "fork": false,
       "description": "Record test suite 'HTTP' requests and replay them during future test runs"
+    },
+    {
+      "name": "dissem",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": "literature",
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/dissem",
+      "root": "",
+      "fork": false,
+      "description": "dissem.in client for R"
+    },
+    {
+      "name": "sparqldsl",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["dsl","utilities"],
+      "on_cran": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/sparqldsl",
+      "root": "",
+      "fork": false,
+      "description": "SPARQL DSL client for R"
+    },
+    {
+      "name": "riem",
+      "type": "package",
+      "maintainer": "Maëlle Salmon",
+      "email": "maelle.salmon@yahoo.se",
+      "status": "good",
+      "installable": true,
+      "category": ["testing","infrastructure","utilities"],
+      "on_cran": true,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/riem",
+      "root": "",
+      "fork": false,
+      "description": "Accesses Weather Data from the Iowa Environment Mesonet"
     }
   ]
 }
