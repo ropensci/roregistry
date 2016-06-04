@@ -1,0 +1,22 @@
+{
+    "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
+    "type": "Category - only packages included for now, may include others later",
+    "maintainer": "Package maintainer name",
+    "email": "Package maintainer email",
+    "status": {
+      "description": "Current state of the package, different from installable",
+      "levels": {
+        "good": "Everything is good, everything should work fine",
+        "hiatus": "Taking a break for a reason, e.g., waiting for next version of an API",
+        "deprecated": "Not maintaining any longer, though may still be installable"
+      }
+    },
+    "installable": "Logical - should the package install",
+    "category": "Category - what the package does/data it deals with",
+    "on_cran": "Logical - is the package on CRAN",
+    "cran_archived": "Logical - if the package is on CRAN, is it archived?",
+    "url": "Code repository URL, usually a GitHub repository",
+    "root": "Path to root of the R package (if an R package exists). If in root of repo, then zero length string",
+    "fork": "Logical - is the repo a fork",
+    "description": "Brief description of the package"
+}
