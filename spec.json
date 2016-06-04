@@ -1,8 +1,8 @@
 {
-    "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
-    "type": "Category - only packages included for now, may include others later",
-    "maintainer": "Package maintainer name",
-    "email": "Package maintainer email",
+    "name": "[str] Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
+    "type": "[str] Type - only 'package' allowed now, may include others later",
+    "maintainer": "[str] Package maintainer name",
+    "email": "[str] Package maintainer email",
     "status": {
       "description": "Current state of the package, different from installable",
       "levels": {
@@ -11,12 +11,14 @@
         "deprecated": "Not maintaining any longer, though may still be installable"
       }
     },
-    "installable": "Logical - should the package install",
-    "category": "Category - what the package does/data it deals with",
-    "on_cran": "Logical - is the package on CRAN",
-    "cran_archived": "Logical - if the package is on CRAN, is it archived?",
-    "url": "Code repository URL, usually a GitHub repository",
-    "root": "Path to root of the R package (if an R package exists). If in root of repo, then zero length string",
-    "fork": "Logical - is the repo a fork",
-    "description": "Brief description of the package"
+    "installable": "[bool] Should the package install",
+    "on_cran": "[bool] Is the package on CRAN",
+    "cran_archived": "[bool] If the package is on CRAN, is it archived?",
+    "url": "[str] Code repository URL, usually a GitHub repository",
+    "root": "[str] Path to root of the R package (if an R package exists). If in root of repo, then zero length string",
+    "fork": "[bool] Is the repo a fork",
+    "description": "[str] Brief description of the package",
+    "system_dependencies": "[str] System dependencies, e.g., libcurl, libgdal",
+    "category": "[array[str]] Category - what the package does/data it deals with",
+    "data": "[hash] Data available via this package, broken out by different categories: taxonomy, spatial, historical, geopolitical, etc.",
 }
