@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.2.8",
-  "updated": "2016-08-08",
+  "version": "0.2.9",
+  "updated": "2016-08-15",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -1723,7 +1723,7 @@
       "description": "A wrapper around d3-carto-map and the d3.js visualization library to create interactive maps at the R console and in R documents."
     },
     {
-      "name": "csl",
+      "name": "seasl",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
@@ -1733,7 +1733,7 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": null,
-      "url": "https://github.com/ropensci/csl",
+      "url": "https://github.com/ropenscilabs/seasl",
       "root": "",
       "fork": false,
       "description": "Parse CSL Styles"
@@ -2546,7 +2546,7 @@
       "status": "good",
       "installable": true,
       "category": ["conservation","data","ecology"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
       "url": "https://github.com/ropenscilabs/mregions",
@@ -3033,6 +3033,70 @@
       "root": "",
       "fork": false,
       "description": "Interface to the Geoparser.io API for Identifying and Disambiguating Places Mentioned in Text"
+    },
+    {
+      "name": "magick",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen.ooms@stat.ucla.edu",
+      "status": "good",
+      "installable": true,
+      "category": ["image","plot","visualization"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/magick",
+      "root": "",
+      "fork": false,
+      "description": "Advanced Image-Processing in R, using the imagemagick library"
+    },
+    {
+      "name": "tokenizers",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "installable": true,
+      "category": ["text","text-mining"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/tokenizers",
+      "root": "",
+      "fork": false,
+      "description": "A Consistent Interface to Tokenize Natural Language Text"
+    },
+    {
+      "name": "laselva",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["biodiversity","data","datasets"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/laselva",
+      "root": "",
+      "fork": false,
+      "description": "FIA (Forest Inventory and Analysis) data client"
+    },
+    {
+      "name": "hoasts",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["biodiversity","data","datasets"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/hoasts",
+      "root": "",
+      "fork": false,
+      "description": "host/parasite data from occurrence databases"
     }
   ]
 }
