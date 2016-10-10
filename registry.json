@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.3.0",
-  "updated": "2016-09-28",
+  "version": "0.3.3",
+  "updated": "2016-10-10",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3234,13 +3234,61 @@
       "status": "good",
       "installable": true,
       "category": ["api","tools","compiled","c++"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
       "url": "https://github.com/ropensci/graphql",
       "root": "",
       "fork": false,
       "description": "Bindings to libgraphqlparser"
+    },
+    {
+      "name": "plater",
+      "type": "package",
+      "maintainer": "Sean Hughes",
+      "email": "smhughes@uw.edu",
+      "status": "good",
+      "installable": true,
+      "category": ["lab","tidy"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/plater",
+      "root": "",
+      "fork": false,
+      "description": "Read, Tidy, and Display Data from Microtiter Plates"
+    },
+    {
+      "name": "dbhydroR",
+      "type": "package",
+      "maintainer": "Joseph Stachelek",
+      "email": "stachel2@msu.edu",
+      "status": "good",
+      "installable": true,
+      "category": ["water","hydrology","data","government"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/dbhydroR",
+      "root": "",
+      "fork": false,
+      "description": "Client for programmatic access to the South Florida Water Management District's DBHYDRO database"
+    },
+    {
+      "name": "crevents",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["data","api","altmetrics"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/crevents",
+      "root": "",
+      "fork": false,
+      "description": "Client for the Crossref Events API"
     }
   ]
 }
