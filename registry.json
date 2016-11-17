@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.3.9",
-  "updated": "2016-11-08",
+  "version": "0.4.0",
+  "updated": "2016-11-17",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2386,7 +2386,7 @@
       "status": "good",
       "installable": true,
       "category": ["geospatial","data"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
       "url": "https://github.com/ropenscilabs/geojson",
@@ -3314,7 +3314,7 @@
       "status": "good",
       "installable": true,
       "category": ["data","http","api","tools"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
       "url": "https://github.com/ropenscilabs/crul",
@@ -3337,6 +3337,22 @@
       "root": "",
       "fork": false,
       "description": "Set Up Travis for R package"
+    },
+    {
+      "name": "tic",
+      "type": "package",
+      "maintainer": "Kirill Müller",
+      "email": "krlmlr+r@mailbox.org",
+      "status": "good",
+      "installable": true,
+      "category": ["tools"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/tic",
+      "root": "",
+      "fork": false,
+      "description": "Tasks Integrating Continuously"
     },
     {
       "name": "crminer",
@@ -3417,6 +3433,22 @@
       "root": "",
       "fork": false,
       "description": "Encrypted Key-Value Store for Sensitive Data"
+    },
+    {
+      "name": "fauxpas",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["tools", "http", "api"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/fauxpas",
+      "root": "",
+      "fork": false,
+      "description": "HTTP error helpers"
     }
   ]
 }
