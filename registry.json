@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.4.4",
-  "updated": "2016-12-02",
+  "version": "0.4.5",
+  "updated": "2016-12-05",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3465,6 +3465,70 @@
       "root": "",
       "fork": false,
       "description": "Client for CAMS Radiation Service"
+    },
+    {
+      "name": "phylocomr",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen.ooms@stat.ucla.edu",
+      "status": "good",
+      "installable": true,
+      "category": ["ecology", "evolution", "compiled"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/phylocomr",
+      "root": "",
+      "fork": false,
+      "description": "Client for Phylocom"
+    },
+    {
+      "name": "geofilter",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["geospatial"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/geofilter",
+      "root": "",
+      "fork": false,
+      "description": "filter/sift GeoJSON in R"
+    },
+    {
+      "name": "scatr",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["literature", "humanities", "text-mining"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/scatr",
+      "root": "",
+      "fork": false,
+      "description": "client for Scholastic Commentaries and Texts Archive http://scta.info/"
+    },
+    {
+      "name": "rbace",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["literature", "text-mining", "journals"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/rbace",
+      "root": "",
+      "fork": false,
+      "description": "BASE (https://www.base-search.net/about/download/base_interface.pdf) R client"
     }
   ]
 }
