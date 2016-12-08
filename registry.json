@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.4.6",
-  "updated": "2016-12-06",
+  "version": "0.4.7",
+  "updated": "2016-12-08",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3529,6 +3529,22 @@
       "root": "",
       "fork": false,
       "description": "BASE (https://www.base-search.net/about/download/base_interface.pdf) R client"
+    },
+    {
+      "name": "ridb",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["ecology", "ecosystem", "remote-sensing"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/ridb",
+      "root": "",
+      "fork": false,
+      "description": "Client for Index Database (<http://www.indexdatabase.de/>) of remote sensing indices"
     }
   ]
 }
