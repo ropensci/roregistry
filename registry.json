@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.5.1",
-  "updated": "2016-12-20",
+  "version": "0.5.2",
+  "updated": "2016-12-30",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3561,6 +3561,70 @@
       "root": "",
       "fork": false,
       "description": "R wrapper for jsonld.js JavaScript library"
+    },
+    {
+      "name": "wikitaxa",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["biology", "taxonomy"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/wikitaxa",
+      "root": "",
+      "fork": false,
+      "description": "Taxonomic information from Wikipedia, Wikidata, and Wikispecies"
+    },
+    {
+      "name": "charlatan",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["data", "tools"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/charlatan",
+      "root": "",
+      "fork": false,
+      "description": "Make fake data"
+    },
+    {
+      "name": "zissou",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["data", "biology", "species", "scraping"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropenscilabs/zissou",
+      "root": "",
+      "fork": false,
+      "description": "AquaMaps (http://www.aquamaps.org/) R Interface"
+    },
+    {
+      "name": "worrms",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["biology", "taxonomy"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/worrms",
+      "root": "",
+      "fork": false,
+      "description": "World Register of Marine Species R client"
     }
   ]
 }
