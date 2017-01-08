@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.5.3",
-  "updated": "2017-01-03",
+  "version": "0.5.4",
+  "updated": "2017-01-07",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3625,6 +3625,22 @@
       "root": "",
       "fork": false,
       "description": "World Register of Marine Species R client"
+    },
+    {
+      "name": "xslt",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen.ooms@stat.ucla.edu",
+      "status": "good",
+      "installable": true,
+      "category": ["infrastructure", "tools", "XML"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/xslt",
+      "root": "",
+      "fork": false,
+      "description": "An extension for the xml2 package to transform XML documents by applying an XSL stylesheet"
     }
   ]
 }
