@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.5.5",
-  "updated": "2017-01-08",
+  "version": "0.5.6",
+  "updated": "2017-01-12",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3673,6 +3673,22 @@
       "root": "",
       "fork": false,
       "description": "Consumer for APIs that Follow the JSON API Specification"
+    },
+    {
+      "name": "hoard",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["tools","infrastructure"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/hoard",
+      "root": "",
+      "fork": false,
+      "description": "Manage Cached Files"
     }
   ]
 }
