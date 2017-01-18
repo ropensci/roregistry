@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.5.7",
-  "updated": "2017-01-17",
+  "version": "0.5.8",
+  "updated": "2017-01-18",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3689,6 +3689,38 @@
       "root": "",
       "fork": false,
       "description": "Manage Cached Files"
+    },
+    {
+      "name": "hddtools",
+      "type": "package",
+      "maintainer": "Claudia Vitolo",
+      "email": "cvitolodev@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["data","hydrology","water"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/hddtools",
+      "root": "",
+      "fork": false,
+      "description": "Hydrological Data Discovery Tools"
+    },
+    {
+      "name": "GSODR",
+      "type": "package",
+      "maintainer": "Adam Sparks",
+      "email": "adamhsparks@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["data","climate","weather","NOAA"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": null,
+      "url": "https://github.com/ropensci/GSODR",
+      "root": "",
+      "fork": false,
+      "description": "Global Summary Daily Weather Data in R"
     }
   ]
 }
