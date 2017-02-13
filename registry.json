@@ -1,6 +1,6 @@
 {
   "name": "ropensci_registry",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "updated": "2017-02-13",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
@@ -187,20 +187,20 @@
       "description": "Retrieve 3+ MM records, checklists and photos from Berkeley's ecoengine"
     },
     {
-      "name": "ecoretriever",
+      "name": "rdataretriever",
       "type": "package",
-      "maintainer": "Karthik Ram",
-      "email": "karthik.ram@gmail.com",
+      "maintainer": "Daniel McGlinn",
+      "email": "danmcglinn@gmail.com",
       "status": "good",
       "installable": true,
       "category": "biology",
       "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
-      "url": "https://github.com/ropensci/ecoretriever",
+      "url": "https://github.com/ropensci/rdataretriever",
       "root": "",
       "fork": false,
-      "description": "R client wrapping the Python Ecoretriever software."
+      "description": "R Interface to the Data Retriever"
     },
     {
       "name": "elastic",
