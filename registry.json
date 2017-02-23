@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.6.5",
-  "updated": "2017-02-20",
+  "version": "0.6.6",
+  "updated": "2017-02-23",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2197,13 +2197,13 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": null,
-      "url": "https://github.com/ropenscilabs/ccafs",
+      "url": "https://github.com/ropensci/ccafs",
       "root": "",
       "fork": false,
       "description": "Client for Climate Change, Agriculture, and Food Security (CCAFS) General Circulation Models (GCM) data. Data is stored in Amazon S3, from which we provide functions to fetch data"
     },
     {
-      "name": "cmip",
+      "name": "cmipr",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
@@ -2213,7 +2213,7 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": null,
-      "url": "https://github.com/ropenscilabs/cmip",
+      "url": "https://github.com/ropenscilabs/cmipr",
       "root": "",
       "fork": false,
       "description": "Client for CMIP data. Data is stored on an FTP server, from which we provide functions to fetch data"
@@ -2242,7 +2242,7 @@
       "status": "good",
       "installable": true,
       "category": ["utilities","infrastructure"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
       "url": "https://github.com/ropenscilabs/convertr",
@@ -2997,7 +2997,7 @@
       "on_cran": true,
       "on_bioc": false,
       "cran_archived": null,
-      "url": "https://github.com/ropenscilabs/assertr",
+      "url": "https://github.com/ropensci/assertr",
       "root": "",
       "fork": false,
       "description": "Assertive Programming for R Analysis Pipelines"
