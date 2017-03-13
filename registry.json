@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.7.1",
-  "updated": "2017-03-09",
+  "version": "0.7.2",
+  "updated": "2017-03-13",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -3721,6 +3721,22 @@
       "root": "",
       "fork": false,
       "description": "Make random WKT or GeoJSON"
+    },
+    {
+      "name": "rdataretriever",
+      "type": "package",
+      "maintainer": "Daniel McGlinn",
+      "email": "danmcglinn@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["datasts","opendata"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rdataretriever",
+      "root": "",
+      "fork": false,
+      "description": "Provides an R interface to the Data Retriever <http://data-retriever.org/> via the Data Retriever's command line interface."
     }
   ]
 }
