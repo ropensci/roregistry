@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.7.3",
-  "updated": "2017-03-15",
+  "version": "0.7.4",
+  "updated": "2017-03-21",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2971,6 +2971,22 @@
       "description": "Access to the Monkeylearn API for text classifiers and extractors"
     },
     {
+      "name": "rnaturalearthdata",
+      "type": "package",
+      "maintainer": "Andy South",
+      "email": "southandy@gmail.com",
+      "status": "good",
+      "installable": true,
+      "category": ["geospatial","data","maps"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropenscilabs/rnaturalearthdata",
+      "root": "",
+      "fork": false,
+      "description": "World Vector Map Data from Natural Earth Used in rnaturalearth"
+    },
+    {
       "name": "rnaturalearth",
       "type": "package",
       "maintainer": "Andy South",
@@ -2978,7 +2994,7 @@
       "status": "good",
       "installable": true,
       "category": ["geospatial","data","maps"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropenscilabs/rnaturalearth",
