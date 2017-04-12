@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.8.3",
-  "updated": "2017-04-07",
+  "version": "0.8.4",
+  "updated": "2017-04-12",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4055,6 +4055,57 @@
       "root": "",
       "fork": false,
       "description": "Microsoft Academic API R client"
+    },
+    {
+      "name": "seaaroundus",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus+r@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["biology","occurrence","biodiversity"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/seaaroundus",
+      "root": "",
+      "fork": false,
+      "description": "Sea Around Us API Wrapper"
+    },
+    {
+      "name": "getCRUCLdata",
+      "type": "package",
+      "maintainer": "Adam Sparks",
+      "email": "adamhsparks@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data","climate","weather"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/getCRUCLdata",
+      "root": "",
+      "fork": false,
+      "description": "Use and Explore CRU CL v. 2.0 Climatology Elements in R"
+    },
+    {
+      "name": "datastorr",
+      "type": "package",
+      "maintainer": "Rich FitzJohn",
+      "email": "rich.fitzjohn@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "databases",
+      "category": "databases",
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropenscilabs/datastorr",
+      "root": "",
+      "fork": false,
+      "description": "Simple Data Versioning"
     }
   ]
 }
