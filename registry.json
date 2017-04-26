@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.8.5",
-  "updated": "2017-04-20",
+  "version": "0.8.6",
+  "updated": "2017-04-26",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4106,6 +4106,40 @@
       "root": "",
       "fork": false,
       "description": "Simple Data Versioning"
+    },
+    {
+      "name": "antiword",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/antiword",
+      "root": "",
+      "fork": false,
+      "description": "Extract Text from Microsoft Word Documents"
+    },
+    {
+      "name": "tif",
+      "type": "package",
+      "maintainer": "Taylor B. Arnold",
+      "email": "taylor.arnold@acm.org",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/tif",
+      "root": "",
+      "fork": false,
+      "description": "Text Interchange Format"
     }
   ]
 }
