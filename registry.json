@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.9.0",
-  "updated": "2017-05-06",
+  "version": "0.9.1",
+  "updated": "2017-05-08",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4140,6 +4140,23 @@
       "root": "",
       "fork": false,
       "description": "Text Interchange Format"
+    },
+    {
+      "name": "lingtypology",
+      "type": "package",
+      "maintainer": "George Moroz",
+      "email": "agricolamz@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["languages", "literature", "visualization"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/lingtypology",
+      "root": "",
+      "fork": false,
+      "description": "Linguistic Typology and Mapping"
     }
   ]
 }
