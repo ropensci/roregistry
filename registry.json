@@ -1,7 +1,7 @@
 {
   "name": "ropensci_registry",
-  "version": "0.9.4",
-  "updated": "2017-05-21",
+  "version": "0.9.5",
+  "updated": "2017-05-30",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -2391,7 +2391,7 @@
       "description": "Provides conversion functionality between a broad range of scientific, historical, and industrial unit types"
     },
     {
-      "name": "cored",
+      "name": "rcore",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
@@ -2402,7 +2402,7 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": false,
-      "url": "https://github.com/ropenscilabs/cored",
+      "url": "https://github.com/ropensci/rcore",
       "root": "",
       "fork": false,
       "description": "Client for the CORE API (https://core.ac.uk/docs/)"
@@ -4157,6 +4157,23 @@
       "root": "",
       "fork": false,
       "description": "Linguistic Typology and Mapping"
+    },
+    {
+      "name": "osmdata",
+      "type": "package",
+      "maintainer": "Mark Padgham",
+      "email": "mark.padgham@email.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "geospatial",
+      "category": ["maps","data","visualization"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/osmdata",
+      "root": "",
+      "fork": false,
+      "description": "Import OpenStreetMap Data as Simple Features or Spatial Objects"
     }
   ]
 }
