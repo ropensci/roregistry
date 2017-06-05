@@ -1,7 +1,7 @@
 {
-  "name": "ropensci_registry",
-  "version": "0.9.5",
-  "updated": "2017-05-30",
+  "name": "ropensciregistry",
+  "version": "0.9.6",
+  "updated": "2017-06-05",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4174,6 +4174,23 @@
       "root": "",
       "fork": false,
       "description": "Import OpenStreetMap Data as Simple Features or Spatial Objects"
+    },
+    {
+      "name": "cld2",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/cld2",
+      "root": "",
+      "fork": false,
+      "description": "Google's Compact Language Detector 2"
     }
   ]
 }
