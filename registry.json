@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "0.9.6",
-  "updated": "2017-06-05",
+  "version": "0.9.7",
+  "updated": "2017-06-07",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4191,6 +4191,23 @@
       "root": "",
       "fork": false,
       "description": "Google's Compact Language Detector 2"
+    },
+    {
+      "name": "biomartr",
+      "type": "package",
+      "maintainer": "Hajk-Georg Drost",
+      "email": "hgd23@cam.ac.uk",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["molecular", "gene", "NCBI"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/biomartr",
+      "root": "",
+      "fork": false,
+      "description": "Perform metagenomic data retrieval and functional annotation retrieval"
     }
   ]
 }
