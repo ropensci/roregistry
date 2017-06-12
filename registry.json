@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "0.9.7",
-  "updated": "2017-06-07",
+  "version": "0.9.8",
+  "updated": "2017-06-12",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4208,6 +4208,23 @@
       "root": "",
       "fork": false,
       "description": "Perform metagenomic data retrieval and functional annotation retrieval"
+    },
+    {
+      "name": "unrtf",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/unrtf",
+      "root": "",
+      "fork": false,
+      "description": "Extract Text from Rich Text Format (RTF) Documents"
     }
   ]
 }
