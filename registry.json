@@ -574,8 +574,8 @@
     {
       "name": "plotly",
       "type": "package",
-      "maintainer": "Chris Parmer",
-      "email": "chris@plot.ly",
+      "maintainer": "Carson Sievert",
+      "email": "cpsievert1@gmail.com",
       "status": "good",
       "installable": true,
       "ropensci_category": "data-visualization",
@@ -2391,7 +2391,7 @@
       "description": "Provides conversion functionality between a broad range of scientific, historical, and industrial unit types"
     },
     {
-      "name": "rcore",
+      "name": "rcoreoa",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
@@ -2402,7 +2402,7 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": false,
-      "url": "https://github.com/ropensci/rcore",
+      "url": "https://github.com/ropensci/rcoreoa",
       "root": "",
       "fork": false,
       "description": "Client for the CORE API (https://core.ac.uk/docs/)"
@@ -4225,6 +4225,57 @@
       "root": "",
       "fork": false,
       "description": "Extract Text from Rich Text Format (RTF) Documents"
+    },
+    {
+      "name": "textreuse",
+      "type": "package",
+      "maintainer": "Lincoln Mullen",
+      "email": "lincoln@lincolnmullen.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/textreuse",
+      "root": "",
+      "fork": false,
+      "description": "Detect Text Reuse and Document Similarity"
+    },
+    {
+      "name": "plotdap",
+      "type": "package",
+      "maintainer": "Carson Sievert",
+      "email": "cpsievert1@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-visualization",
+      "category": "visualization",
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/plotdap",
+      "root": "",
+      "fork": false,
+      "description": "Easily visualize data from 'ERDDAP' Servers via the rerddap package"
+    },
+    {
+      "name": "acme",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "security",
+      "category": ["security"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/acme",
+      "root": "",
+      "fork": false,
+      "description": "R Client for IETF ACME Protocol"
     }
   ]
 }
