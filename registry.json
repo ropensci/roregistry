@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.0.1",
-  "updated": "2017-06-16",
+  "version": "1.0.2",
+  "updated": "2017-06-19",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4193,6 +4193,23 @@
       "description": "Google's Compact Language Detector 2"
     },
     {
+      "name": "cld3",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["text-mining", "literature"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/cld3",
+      "root": "",
+      "fork": false,
+      "description": "Google's Compact Language Detector 3"
+    },
+    {
       "name": "biomartr",
       "type": "package",
       "maintainer": "Hajk-Georg Drost",
@@ -4276,6 +4293,23 @@
       "root": "",
       "fork": false,
       "description": "R Client for IETF ACME Protocol"
+    },
+    {
+      "name": "patentsview",
+      "type": "package",
+      "maintainer": "Christopher Baker",
+      "email": "chriscrewbaker@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["literature", "patents"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/patentsview",
+      "root": "",
+      "fork": false,
+      "description": "An R Client to the PatentsView API"
     }
   ]
 }
