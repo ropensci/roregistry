@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.0.3",
-  "updated": "2017-06-20",
+  "version": "1.0.4",
+  "updated": "2017-07-14",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -24,7 +24,8 @@
     "url": "Code repository URL, usually a GitHub repository",
     "root": "Path to root of the R package (if an R package exists). If in root of repo, then zero length string",
     "fork": "Logical - is the repo a fork",
-    "description": "Brief description of the package"
+    "description": "Brief description of the package",
+    "badges": "Array - badges to create on our website"
   },
   "packages": [
     {
@@ -450,7 +451,8 @@
       "url": "https://github.com/ropensci/IEEER",
       "root": "",
       "fork": false,
-      "description": "Interface to the IEEE Xplore Gateway"
+      "description": "Interface to the IEEE Xplore Gateway",
+      "badges": ["in early development"]
     },
     {
       "name": "mdextract",
@@ -1640,7 +1642,8 @@
       "url": "https://github.com/ropensci/musemeta",
       "root": "",
       "fork": false,
-      "description": "R Client for Scraping Museum Metadata, including The Metropolitan Museum of Art, the Canadian Science & Technology Museum Corporation, the National Gallery of Art, and the Getty Museum, and more to come"
+      "description": "R Client for Scraping Museum Metadata, including The Metropolitan Museum of Art, the Canadian Science & Technology Museum Corporation, the National Gallery of Art, and the Getty Museum, and more to come",
+      "badges": ["in early development"]
     },
     {
       "name": "rdpla",
@@ -1708,7 +1711,8 @@
       "url": "https://github.com/ropensci/reuropeana",
       "root": "",
       "fork": false,
-      "description": "An R client to interact with Europeana metadata"
+      "description": "An R client to interact with Europeana metadata",
+      "badges": ["in early development"]
     },
     {
       "name": "rGEM",
@@ -1827,7 +1831,8 @@
       "url": "https://github.com/ropenscilabs/seasl",
       "root": "",
       "fork": false,
-      "description": "Parse CSL Styles"
+      "description": "Parse CSL Styles",
+      "badges": ["in early development"]
     },
     {
       "name": "elasticdsl",
@@ -1844,7 +1849,8 @@
       "url": "https://github.com/ropensci/elasticdsl",
       "root": "",
       "fork": false,
-      "description": "Elasticsearch DSL"
+      "description": "Elasticsearch DSL",
+      "badges": ["in early development"]
     },
     {
       "name": "etseed",
@@ -1980,7 +1986,8 @@
       "url": "https://github.com/ropensci/nodbi",
       "root": "",
       "fork": false,
-      "description": "Simplified document database manipulation and analysis"
+      "description": "Simplified document database manipulation and analysis",
+      "badges": ["in early development"]
     },
     {
       "name": "opencontext",
@@ -2405,7 +2412,8 @@
       "url": "https://github.com/ropensci/rcoreoa",
       "root": "",
       "fork": false,
-      "description": "Client for the CORE API (https://core.ac.uk/docs/)"
+      "description": "Client for the CORE API (https://core.ac.uk/docs/)",
+      "badges": ["in early development"]
     },
     {
       "name": "datapack",
@@ -3272,7 +3280,8 @@
       "url": "https://github.com/ropenscilabs/laselva",
       "root": "",
       "fork": false,
-      "description": "FIA (Forest Inventory and Analysis) data client"
+      "description": "FIA (Forest Inventory and Analysis) data client",
+      "badges": ["in early development"]
     },
     {
       "name": "hoasts",
@@ -3289,7 +3298,8 @@
       "url": "https://github.com/ropenscilabs/hoasts",
       "root": "",
       "fork": false,
-      "description": "host/parasite data from occurrence databases"
+      "description": "host/parasite data from occurrence databases",
+      "badges": ["in early development"]
     },
     {
       "name": "ezknitr",
@@ -3340,7 +3350,8 @@
       "url": "https://github.com/ropenscilabs/jaod",
       "root": "",
       "fork": false,
-      "description": "R client for Directory of Open Access Journals API"
+      "description": "R client for Directory of Open Access Journals API",
+      "badges": ["in early development"]
     },
     {
       "name": "rdefra",
@@ -3374,7 +3385,8 @@
       "url": "https://github.com/ropenscilabs/scitations",
       "root": "",
       "fork": false,
-      "description": "citations client"
+      "description": "citations client",
+      "badges": ["in early development"]
     },
     {
       "name": "tabulizer",
@@ -3748,7 +3760,8 @@
       "url": "https://github.com/ropenscilabs/rbace",
       "root": "",
       "fork": false,
-      "description": "BASE (https://www.base-search.net/about/download/base_interface.pdf) R client"
+      "description": "BASE (https://www.base-search.net/about/download/base_interface.pdf) R client",
+      "badges": ["in early development"]
     },
     {
       "name": "ridb",
