@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.0.7",
-  "updated": "2017-07-17",
+  "version": "1.0.8",
+  "updated": "2017-07-18",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -16,7 +16,7 @@
       }
     },
     "installable": "Logical - should the package install",
-    "ropensci_category": "ropensci category - a single string category to group packages by. acceptable set: [xxx]",
+    "ropensci_category": "ropensci category - a single string category to group packages by. acceptable set: ['altmetrics', 'data-access', 'data-analysis', 'data-publication', 'data-tools', 'data-visualization', 'databases', 'developer-tools', 'geospatial', 'http-tools', 'ignore', 'image-processing', 'literature', 'metadata', 'scalereprod', 'security', 'taxonomy']",
     "category": "Category - what the package does/data it deals with",
     "on_cran": "Logical - is the package on CRAN, if true, 'on_bioc' can not also be true",
     "on_bioc": "Logical - is the package on Bioconductor, if true, 'on_cran' can not also be true",
@@ -4698,6 +4698,40 @@
       "root": "",
       "fork": false,
       "description": "Create beautiful visualizations of an EML document"
+    },
+    {
+      "name": "rtimicropem",
+      "type": "package",
+      "maintainer": "Maëlle Salmon",
+      "email": "maelle.salmon@yahoo.se",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["climate", "data", "datasets"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rtimicropem",
+      "root": "",
+      "fork": false,
+      "description": "Supports the Analysis of RTI MicroPEM Output Files"
+    },
+    {
+      "name": "iheatmapr",
+      "type": "package",
+      "maintainer": "Alicia Schep",
+      "email": "aschep@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-visualization",
+      "category": ["data", "heatmap", "visualization"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/iheatmapr",
+      "root": "",
+      "fork": false,
+      "description": "Interactive, Complex Heatmaps"
     }
   ]
 }

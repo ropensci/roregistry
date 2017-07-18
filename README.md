@@ -1,6 +1,10 @@
 ropensci registry
 ======
 
+__Making changes__
+
+Please bump the date and version at the top of the `registry.json` file whenver you make any change.
+
 __The ropensci registry__
 
 You can access this data via the R package [ropkgs](https://github.com/ropensci/ropkgs) - see the [README](https://github.com/ropensci/ropkgs#installation) to get started
