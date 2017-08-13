@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.1.0",
-  "updated": "2017-08-01",
+  "version": "1.1.1",
+  "updated": "2017-08-13",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -782,24 +782,6 @@
       "root": "",
       "fork": false,
       "description": "Wrapper to DataCite metadata",
-      "badges": []
-    },
-    {
-      "name": "rdataone",
-      "type": "package",
-      "maintainer": "Matthew Jones",
-      "email": "jones@nceas.ucsb.edu",
-      "status": "hiatus",
-      "installable": false,
-      "ropensci_category": "data-publication",
-      "category": "biology",
-      "on_cran": false,
-      "on_bioc": false,
-      "cran_archived": false,
-      "url": "https://github.com/ropensci/rdataone",
-      "root": "",
-      "fork": true,
-      "description": "R package for reading and writing data at [DataONE](http://www.dataone.org/) data repositories",
       "badges": []
     },
     {
@@ -3889,7 +3871,7 @@
       "installable": true,
       "ropensci_category": "data-access",
       "category": ["data", "climate"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropenscilabs/camsRad",
@@ -4561,7 +4543,8 @@
       "url": "https://github.com/ropensci/patentsview",
       "root": "",
       "fork": false,
-      "description": "An R Client to the PatentsView API"
+      "description": "An R Client to the PatentsView API",
+      "badges": []
     },
     {
       "name": "refimpact",
@@ -4578,7 +4561,8 @@
       "url": "https://github.com/ropensci/refimpact",
       "root": "",
       "fork": false,
-      "description": "API Wrapper for the UK REF 2014 Impact Case Studies Database"
+      "description": "API Wrapper for the UK REF 2014 Impact Case Studies Database",
+      "badges": []
     },
     {
       "name": "roadoi",
@@ -4595,7 +4579,8 @@
       "url": "https://github.com/ropensci/roadoi",
       "root": "",
       "fork": false,
-      "description": "Find Free Versions of Scholarly Publications via the oaDOI Service"
+      "description": "Find Free Versions of Scholarly Publications via the oaDOI Service",
+      "badges": []
     },
     {
       "name": "bittrex",
@@ -4612,7 +4597,8 @@
       "url": "https://github.com/ropensci/bittrex",
       "root": "",
       "fork": false,
-      "description": "Client for the Bitrex Exchange"
+      "description": "Client for the Bitrex Exchange",
+      "badges": []
     },
     {
       "name": "available",
@@ -4629,7 +4615,8 @@
       "url": "https://github.com/ropenscilabs/available",
       "root": "",
       "fork": false,
-      "description": "Check if the name of a package is available, appropriate and interesting"
+      "description": "Check if the name of a package is available, appropriate and interesting",
+      "badges": []
     },
     {
       "name": "webrockets",
@@ -4646,7 +4633,8 @@
       "url": "https://github.com/ropenscilabs/webrockets",
       "root": "",
       "fork": false,
-      "description": "Websocket client for R"
+      "description": "Websocket client for R",
+      "badges": []
     },
     {
       "name": "packagemetrics",
@@ -4663,7 +4651,8 @@
       "url": "https://github.com/ropenscilabs/packagemetrics",
       "root": "",
       "fork": false,
-      "description": "Collect Metrics on Packages from CRAN, GitHub, and StackOverflow"
+      "description": "Collect Metrics on Packages from CRAN, GitHub, and StackOverflow",
+      "badges": []
     },
     {
       "name": "skimr",
@@ -4680,7 +4669,8 @@
       "url": "https://github.com/ropenscilabs/skimr",
       "root": "",
       "fork": false,
-      "description": "A frictionless summary function that can be piped"
+      "description": "A frictionless summary function that can be piped",
+      "badges": []
     },
     {
       "name": "emldown",
@@ -4697,7 +4687,8 @@
       "url": "https://github.com/ropenscilabs/emldown",
       "root": "",
       "fork": false,
-      "description": "Create beautiful visualizations of an EML document"
+      "description": "Create beautiful visualizations of an EML document",
+      "badges": []
     },
     {
       "name": "rtimicropem",
@@ -4708,13 +4699,14 @@
       "installable": true,
       "ropensci_category": "data-access",
       "category": ["climate", "data", "datasets"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/rtimicropem",
       "root": "",
       "fork": false,
-      "description": "Supports the Analysis of RTI MicroPEM Output Files"
+      "description": "Supports the Analysis of RTI MicroPEM Output Files",
+      "badges": []
     },
     {
       "name": "iheatmapr",
@@ -4731,7 +4723,8 @@
       "url": "https://github.com/ropensci/iheatmapr",
       "root": "",
       "fork": false,
-      "description": "Interactive, Complex Heatmaps"
+      "description": "Interactive, Complex Heatmaps",
+      "badges": []
     },
     {
       "name": "RefManageR",
@@ -4748,7 +4741,8 @@
       "url": "https://github.com/ropensci/RefManageR",
       "root": "",
       "fork": false,
-      "description": "Straightforward BibTeX and BibLaTeX Bibliography Management"
+      "description": "Straightforward BibTeX and BibLaTeX Bibliography Management",
+      "badges": []
     },
     {
       "name": "visdat",
@@ -4765,7 +4759,80 @@
       "url": "https://github.com/ropensci/visdat",
       "root": "",
       "fork": false,
-      "description": "Preliminary Visualisation of Data"
+      "description": "Preliminary Visualisation of Data",
+      "badges": []
+    },
+    {
+      "name": "rrricanes",
+      "type": "package",
+      "maintainer": "Tim Trice",
+      "email": "tim.trice@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["climate", "data", "hurricanes"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rrricanes",
+      "root": "",
+      "fork": false,
+      "description": "Web scraper for Atlantic and east Pacific hurricanes and tropical storms",
+      "badges": []
+    },
+    {
+      "name": "rrricanesdata",
+      "type": "package",
+      "maintainer": "Tim Trice",
+      "email": "tim.trice@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["climate", "data", "hurricanes"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rrricanesdata",
+      "root": "",
+      "fork": false,
+      "description": "Data for Atlantic and east Pacific tropical cyclones since 1998",
+      "badges": []
+    },
+    {
+      "name": "bikedata",
+      "type": "package",
+      "maintainer": "Mark Padgham",
+      "email": "mark.padgham@email.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data", "bikes"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/bikedata",
+      "root": "",
+      "fork": false,
+      "description": "Download and Aggregate Data from Public Hire Bicycle Systems",
+      "badges": []
+    },
+    {
+      "name": "FedData",
+      "type": "package",
+      "maintainer": "Kyle Bocinsky",
+      "email": "bocinsky@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data", "climate", "geospatial"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/FedData",
+      "root": "",
+      "fork": false,
+      "description": "Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources",
+      "badges": []
     }
   ]
 }
