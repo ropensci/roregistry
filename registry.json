@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.1.6",
-  "updated": "2017-09-08",
+  "version": "1.1.7",
+  "updated": "2017-09-18",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4886,6 +4886,24 @@
       "root": "",
       "fork": false,
       "description": "Tools for Spell Checking in R",
+      "badges": []
+    },
+    {
+      "name": "googleLanguageR",
+      "type": "package",
+      "maintainer": "Mark Edmondson",
+      "email": "r@sunholo.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-tools",
+      "category": ["speech","language","api","google"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/googleLanguageR",
+      "root": "",
+      "fork": false,
+      "description": "Call Google's Natural Language API, Cloud Translation API and Cloud Speech API from R",
       "badges": []
     }
   ]
