@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.2.5",
-  "updated": "2017-11-07",
+  "version": "1.2.6",
+  "updated": "2017-11-13",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4976,6 +4976,24 @@
       "root": "",
       "fork": false,
       "description": "Extract and Tidy Canadian Hydrometric Data",
+      "badges": []
+    },
+    {
+      "name": "cyphr",
+      "type": "package",
+      "maintainer": "Rich FitzJohn",
+      "email": "rich.fitzjohn@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "security",
+      "category": ["security", "encryption", "sodium", "openssl"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/richfitz/cyphr",
+      "root": "",
+      "fork": false,
+      "description": "Encryption wrappers, using low-level support from sodium and openssl",
       "badges": []
     }
   ]
