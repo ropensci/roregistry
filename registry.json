@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.2.6",
-  "updated": "2017-11-13",
+  "version": "1.2.7",
+  "updated": "2017-12-04",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -4994,6 +4994,42 @@
       "root": "",
       "fork": false,
       "description": "Encryption wrappers, using low-level support from sodium and openssl",
+      "badges": []
+    },
+    {
+      "name": "taxview",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus+r@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "taxonomy",
+      "category": ["biology","taxonomy","taxonomic","biodiversity","data-cleaning"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/taxview",
+      "root": "",
+      "fork": false,
+      "description": "Summarise and visualize data sets from wrt taxonomy",
+      "badges": []
+    },
+    {
+      "name": "canpaginate",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus+r@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "http-tools",
+      "category": ["http","paging","RESTful","API","infrastructure","tools"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/canpaginate",
+      "root": "",
+      "fork": false,
+      "description": "Pagination Helper For Working With REST APIs",
       "badges": []
     }
   ]
