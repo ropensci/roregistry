@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.3.2",
-  "updated": "2018-01-09",
+  "version": "1.3.3",
+  "updated": "2018-01-17",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5066,6 +5066,24 @@
       "root": "",
       "fork": false,
       "description": "Interface to the ftdoi.org API for Publisher URL Patterns",
+      "badges": []
+    },
+    {
+      "name": "pubchunks",
+      "type": "package",
+      "maintainer": "Scott Chamberlain",
+      "email": "myrmecocystus+r@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "literature",
+      "category": ["article","scholarly","text-mining","XML"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/pubchunks",
+      "root": "",
+      "fork": false,
+      "description": "Get chunks of XML articles",
       "badges": []
     }
   ]
