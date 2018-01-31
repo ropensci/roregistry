@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.4.0",
-  "updated": "2018-01-30",
+  "version": "1.4.1",
+  "updated": "2018-01-31",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5148,7 +5148,7 @@
       "status": "good",
       "installable": true,
       "ropensci_category": "scalereprod",
-      "category": ["reproducible","reproducibility","automation",""],
+      "category": ["reproducible","reproducibility","automation"],
       "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
@@ -5156,6 +5156,24 @@
       "root": "",
       "fork": false,
       "description": "An R-focused pipeline toolkit for reproducible code and high-performance computing",
+      "badges": []
+    },
+    {
+      "name": "pkgreviewr",
+      "type": "package",
+      "maintainer": "Anna Krystalli",
+      "email": "annakrystalli@googlemail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "scalereprod",
+      "category": ["revivew","software"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropenscilabs/pkgreviewr",
+      "root": "",
+      "fork": false,
+      "description": "rOpenSci package review project template",
       "badges": []
     }
   ]
