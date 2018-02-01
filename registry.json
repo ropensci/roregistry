@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.4.1",
-  "updated": "2018-01-31",
+  "version": "1.4.2",
+  "updated": "2018-02-01",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5166,7 +5166,7 @@
       "status": "good",
       "installable": true,
       "ropensci_category": "scalereprod",
-      "category": ["revivew","software"],
+      "category": ["review","software"],
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": false,
@@ -5174,6 +5174,24 @@
       "root": "",
       "fork": false,
       "description": "rOpenSci package review project template",
+      "badges": []
+    },
+    {
+      "name": "weathercan",
+      "type": "package",
+      "maintainer": "Steffi LaZerte",
+      "email": "steffi@steffi.ca",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["weather","climate","canada","climate change","temperature","precipitation"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/weathercan",
+      "root": "",
+      "fork": false,
+      "description": "Download Weather Data from the Environment and Climate Change Canada Website",
       "badges": []
     }
   ]
