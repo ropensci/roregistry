@@ -1,6 +1,6 @@
 {
   "name": "ropensciregistry",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "updated": "2018-02-12",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
@@ -3233,7 +3233,7 @@
       "badges": []
     },
     {
-      "name": "dissem",
+      "name": "dissemr",
       "type": "package",
       "maintainer": "Scott Chamberlain",
       "email": "myrmecocystus@gmail.com",
@@ -3244,7 +3244,7 @@
       "on_cran": false,
       "on_bioc": false,
       "cran_archived": false,
-      "url": "https://github.com/ropenscilabs/dissem",
+      "url": "https://github.com/ropenscilabs/dissemr",
       "root": "",
       "fork": false,
       "description": "dissem.in client for R",
@@ -5210,6 +5210,24 @@
       "root": "",
       "fork": false,
       "description": "Obtain and Visualize Regulome-Gene Expression Correlations in Cancer",
+      "badges": []
+    },
+    {
+      "name": "ssh",
+      "type": "package",
+      "maintainer": "Jeroen Ooms",
+      "email": "jeroen@berkeley.edu",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "security",
+      "category": ["infrastructure", "tools", "ssh", "secure", "secure-shell"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/ssh",
+      "root": "",
+      "fork": false,
+      "description": "Secure Shell (SSH) Client for R",
       "badges": []
     }
   ]
