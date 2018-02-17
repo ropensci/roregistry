@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.4.5",
-  "updated": "2018-02-12",
+  "version": "1.4.6",
+  "updated": "2018-02-16",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5185,7 +5185,7 @@
       "installable": true,
       "ropensci_category": "data-access",
       "category": ["genetics","genome","genes","biology","cancer genomics","microrna","transcription factors"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/cRegulome",
@@ -5210,6 +5210,24 @@
       "root": "",
       "fork": false,
       "description": "Secure Shell (SSH) Client for R",
+      "badges": []
+    },
+    {
+      "name": "onekp",
+      "type": "package",
+      "maintainer": "Zebulun Arendsee",
+      "email": "zbwrnz@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data", "plants", "taxonomy", "transcriptomes", "NCBI", "onekp", "1KP"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/onekp",
+      "root": "",
+      "fork": false,
+      "description": "Retrieve Data from the 1000 Plants Initiative (1KP)",
       "badges": []
     }
   ]
