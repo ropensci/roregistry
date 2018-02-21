@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.4.6",
-  "updated": "2018-02-16",
+  "version": "1.4.8",
+  "updated": "2018-02-21",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5228,6 +5228,42 @@
       "root": "",
       "fork": false,
       "description": "Retrieve Data from the 1000 Plants Initiative (1KP)",
+      "badges": []
+    },
+    {
+      "name": "bowerbird",
+      "type": "package",
+      "maintainer": "Ben Raymond",
+      "email": "ben.raymond@aad.gov.au",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data", "data-extraction", "files"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/bowerbird",
+      "root": "",
+      "fork": false,
+      "description": "Keep a Collection of Sparkly Data Resources",
+      "badges": []
+    },
+    {
+      "name": "rdflib",
+      "type": "package",
+      "maintainer": "Carl Boettiger",
+      "email": "cboettig@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-tools",
+      "category": ["data", "rdf", "metadata", "sparql"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rdflib",
+      "root": "",
+      "fork": false,
+      "description": "Tools to Manipulate and Query Semantic Data",
       "badges": []
     }
   ]
