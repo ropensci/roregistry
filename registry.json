@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.5.2",
-  "updated": "2018-03-12",
+  "version": "1.5.3",
+  "updated": "2018-03-25",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5354,6 +5354,42 @@
       "root": "",
       "fork": false,
       "description": "Interface to to the Greek National Data Bank for Hydrometeorological Information",
+      "badges": []
+    },
+    {
+      "name": "NLMR",
+      "type": "package",
+      "maintainer": "Marco Sciaini",
+      "email": "sciaini.marco@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "geospatial",
+      "category": ["simulation","data","neutral","landscape","models"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/NLMR",
+      "root": "",
+      "fork": false,
+      "description": "Simulating Neutral Landscape Models",
+      "badges": []
+    },
+    {
+      "name": "landscapetools",
+      "type": "package",
+      "maintainer": "Matthias Fritsch",
+      "email": "matthias.fritsch@forst.uni-goettingen.de",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "geospatial",
+      "category": ["raster","data","data-manipulation","landscape","analysis","visualization"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/NLMR",
+      "root": "",
+      "fork": false,
+      "description": "matthias.fritsch@forst.uni-goettingen.de",
       "badges": []
     }
   ]
