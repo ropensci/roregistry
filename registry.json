@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.5.7",
-  "updated": "2018-04-02",
+  "version": "1.5.8",
+  "updated": "2018-04-09",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5365,13 +5365,31 @@
       "installable": true,
       "ropensci_category": "data-access",
       "category": ["data","humanities","social","survey","european"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/essurvey",
       "root": "",
       "fork": false,
       "description": "Download Data from the European Social Survey",
+      "badges": []
+    },
+    {
+      "name": "qualtRics",
+      "type": "package",
+      "maintainer": "Jasper Ginn",
+      "email": "jasperginn@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data","humanities","social","survey","qualtrics","api",""],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/qualtRics",
+      "root": "",
+      "fork": false,
+      "description": "Download Qualtrics Survey Data",
       "badges": []
     }
   ]
