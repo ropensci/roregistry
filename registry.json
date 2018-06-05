@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.6.4",
-  "updated": "2018-05-15",
+  "version": "1.6.5",
+  "updated": "2018-06-05",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -878,7 +878,7 @@
       "name": "rfigshare",
       "type": "package",
       "maintainer": "Carl Boettiger",
-      "email": "cboettig at gmail.com",
+      "email": "cboettig@gmail.com",
       "status": "good",
       "installable": true,
       "ropensci_category": "data-publication",
@@ -3493,7 +3493,7 @@
       "installable": true,
       "ropensci_category": "literature",
       "category": ["data","literature","extractors","pdf","text-mining"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/tabulizer",
@@ -5149,7 +5149,7 @@
       "installable": true,
       "ropensci_category": "security",
       "category": ["infrastructure", "tools", "ssh", "secure", "secure-shell"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/ssh",
@@ -5552,6 +5552,24 @@
       "root": "",
       "fork": false,
       "description": "Client for ResourceSync (<http://www.openarchives.org/rs/1.1/resourcesync>)",
+      "badges": []
+    },
+    {
+      "name": "rppo",
+      "type": "package",
+      "maintainer": "John Deck",
+      "email": "jdeck88@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data","phenology","plants"],
+      "on_cran": false,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/rppo",
+      "root": "",
+      "fork": false,
+      "description": "Access the Global Plant Phenology Data Portal",
       "badges": []
     }
   ]
