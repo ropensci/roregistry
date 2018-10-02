@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.8.9",
-  "updated": "2018-10-01",
+  "version": "1.9.0",
+  "updated": "2018-10-02",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5714,6 +5714,24 @@
       "root": "",
       "fork": false,
       "description": "Working with Audio and Video",
+      "badges": []
+    },
+    {
+      "name": "piggyback",
+      "type": "package",
+      "maintainer": "Carl Boettiger",
+      "email": "cboettig@gmail.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-publication",
+      "category": ["publication", "metadata", "datasets", "data", "git", "github"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/piggyback",
+      "root": "",
+      "fork": false,
+      "description": "Managing Larger Data on a GitHub Repository",
       "badges": []
     }
   ]
