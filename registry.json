@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.9.0",
-  "updated": "2018-10-02",
+  "version": "1.9.1",
+  "updated": "2018-10-12",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5752,7 +5752,7 @@
       "description": "Conduct Co-localization Analysis of Fluorescence Microscopy Images",
       "badges": []
     },
-     {
+    {
       "name": "MODIStsp",
       "type": "package",
       "maintainer": "Lorenzo Busetto",
@@ -5761,13 +5761,31 @@
       "installable": true,
       "ropensci_category": "data-access",
       "category": ["data", "MODIS"],
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "cran_archived": false,
       "url": "https://github.com/ropensci/MODIStsp",
       "root": "",
       "fork": false,
       "description": "A Tool for Automating Download and Preprocessing of MODIS Land Products Data",
+      "badges": []
+    },
+    {
+      "name": "CoordinateCleaner",
+      "type": "package",
+      "maintainer": "Alexander Zizka",
+      "email": "alexander.zizka@bioenv.gu.se",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-analysis",
+      "category": ["data", "coordinates", "spatial", "biodiversity", "data-cleaning"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/CoordinateCleaner",
+      "root": "",
+      "fork": false,
+      "description": "Automated Cleaning of Occurrence Records from Biological Collections",
       "badges": []
     }
   ]
