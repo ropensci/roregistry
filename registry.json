@@ -1,7 +1,7 @@
 {
   "name": "ropensciregistry",
-  "version": "1.9.5",
-  "updated": "2018-11-06",
+  "version": "1.9.6",
+  "updated": "2018-11-08",
   "meta": {
     "name": "Package name, also the name in the DESCRIPTION file, note that this may be different from the GitHub repo name",
     "type": "Category - only packages included for now, may include others later",
@@ -5786,6 +5786,24 @@
       "root": "",
       "fork": false,
       "description": "NASA POWER API Client",
+      "badges": []
+    },
+    {
+      "name": "tiler",
+      "type": "package",
+      "maintainer": "Matthew Leonawicz",
+      "email": "matt_leonawicz@esource.com",
+      "status": "good",
+      "installable": true,
+      "ropensci_category": "data-access",
+      "category": ["data","map","leaflet","raster","earth-science"],
+      "on_cran": true,
+      "on_bioc": false,
+      "cran_archived": false,
+      "url": "https://github.com/ropensci/tiler",
+      "root": "",
+      "fork": false,
+      "description": "Create Geographic and Non-Geographic Map Tiles",
       "badges": []
     }
   ]
