@@ -1771,7 +1771,7 @@
     {
       "name": "brranching",
       "description": "Fetch 'Phylogenies' from Many Sources",
-      "details": "Includes methods for fetching 'phylogenies' from a variety\n    of sources, currently includes 'Phylomatic'\n    (<http://phylodiversity.net/phylomatic>), with more in the future.",
+      "details": "Includes methods for fetching 'phylogenies' from a variety\n    of sources, including the 'Phylomatic' web service \n    (<http://phylodiversity.net/phylomatic>), and Phylocom \n    (<https://github.com/phylocom/phylocom/>).",
       "maintainer": "Scott Chamberlain",
       "keywords": "molecular, phylogenies, phylogeny, phylomatic, plants, tree",
       "github": "https://github.com/ropensci/brranching",
@@ -2189,13 +2189,13 @@
     },
     {
       "name": "EML",
-      "description": "Read and Write Ecological Metadata Language Files",
-      "details": "Parse and serialize Ecological Metadata Language ('EML', see\n    <https://en.wikipedia.org/wiki/Ecological_Metadata_Language> for\n    more information) files into S4 objects.",
+      "description": "Create and Manipulate Data using the Ecological Metadata Language",
+      "details": "Read and write Ecological Metadata Language files",
       "maintainer": "Carl Boettiger",
       "keywords": "eml, eml-metadata, metadata-standard",
       "github": "https://github.com/ropensci/EML",
       "status": "active",
-      "onboarding": "https://github.com/ropensci/onboarding/issues/80",
+      "onboarding": "",
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/EML",
@@ -2582,7 +2582,7 @@
     {
       "name": "graphql",
       "description": "A GraphQL Query Parser",
-      "details": "Bindings to the 'libgraphqlparser' C++ library. Currently parses\n    GraphQL and exports the AST in JSON format.",
+      "details": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax\n    and exports the AST in JSON format.",
       "maintainer": "Jeroen Ooms",
       "keywords": "graphql, libgraphql",
       "github": "https://github.com/ropensci/graphql",
@@ -3087,7 +3087,7 @@
       "description": "Access to the Neotoma Paleoecological Database Through R",
       "details": "Access paleoecological datasets from the Neotoma Paleoecological\n    Database using the published API (<http://api.neotomadb.org/>).  The functions\n    in this package access various pre-built API functions and attempt to return\n    the results from Neotoma in a usable format for researchers and the public.",
       "maintainer": "Simon J. Goring",
-      "keywords": "",
+      "keywords": "cran, neotoma, neotoma-apis, neotoma-database, nsf, paleoecology",
       "github": "https://github.com/ropensci/neotoma",
       "status": "active",
       "onboarding": "",
@@ -4095,7 +4095,7 @@
       "description": "'NOAA' Weather Data from R",
       "details": "Client for many 'NOAA' data sources including the 'NCDC' climate\n    'API' at <https://www.ncdc.noaa.gov/cdo-web/webservices/v2>, with functions for\n    each of the 'API' 'endpoints': data, data categories, data sets, data types,\n    locations, location categories, and stations. In addition, we have an interface\n    for 'NOAA' sea ice data, the 'NOAA' severe weather inventory, 'NOAA' Historical\n    Observing 'Metadata' Repository ('HOMR') data, 'NOAA' storm data via 'IBTrACS',\n    tornado data via the 'NOAA' storm prediction center, and more.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "climate, noaa, noaa-data",
+      "keywords": "buoy, climate, earth, ISD, NCDC, noaa, NOAA, noaa-data, precipitation, science, seaice, storm, temperature, tornadoe",
       "github": "https://github.com/ropensci/rnoaa",
       "status": "active",
       "onboarding": "",
@@ -5014,5 +5014,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2018-11-29 10:05 UTC"
+  "date": "2018-12-03 12:11 UTC"
 }
