@@ -29,31 +29,18 @@
       "ropensci_category": "data-access"
     },
     {
-      "name": "treeio",
-      "description": "Base Classes and Functions for Phylogenetic Tree Input and Output",
-      "details": "Base classes and functions for parsing and exporting phylogenetic trees. 'treeio' supports parsing analysis findings from commonly used software packages, allows linking external data to phylogeny and merging tree data obtained from different sources. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file.",
-      "maintainer": "Guangchuang Yu",
-      "keywords": "",
-      "github": "https://guangchuangyu.github.io/software/treeio",
+      "name": "AntWeb",
+      "description": "programmatic interface to the AntWeb",
+      "details": "A complete programmatic interface to the AntWeb database from the\n    California Academy of Sciences.",
+      "maintainer": "Karthik Ram",
+      "keywords": "antweb, antweb-api, specimen-records, spocc",
+      "github": "https://github.com/ropenscilabs/AntWeb",
       "status": "active",
-      "onboarding": "https://github.com/ropensci/onboarding/issues/179",
-      "on_cran": false,
-      "on_bioc": true,
-      "url": "https://guangchuangyu.github.io/software/treeio",
-      "ropensci_category": "data-tools"
-    },
-    {
-      "name": "AFLinfo",
-      "description": "What the Package Does (Title Case)",
-      "details": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
-      "maintainer": "The package maintainer",
-      "keywords": "ozunconf17",
-      "github": "https://github.com/ropenscilabs/AFLinfo",
-      "status": "concept",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/AFLinfo"
+      "url": "https://github.com/ropenscilabs/AntWeb",
+      "ropensci_category": "data-access"
     },
     {
       "name": "apipkgen",
@@ -82,6 +69,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/arresteddev",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "aRxiv",
+      "description": "Interface to the arXiv API",
+      "details": "An interface to the API for 'arXiv'\n    (<https://arxiv.org>), a repository of electronic preprints for\n    computer science, mathematics, physics, quantitative biology,\n    quantitative finance, and statistics.",
+      "maintainer": "Karl Broman",
+      "keywords": "arxiv, arxiv-analytics, arxiv-api, arxiv-org",
+      "github": "https://github.com/ropenscilabs/aRxiv",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/aRxiv",
+      "ropensci_category": "literature"
     },
     {
       "name": "aspacer",
@@ -126,6 +127,19 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "bindertools",
+      "description": "Create requisite files and launch binder with mybinder.org",
+      "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
+      "maintainer": "Saras Windecker",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/bindertools",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/bindertools"
+    },
+    {
       "name": "blogyaml",
       "description": "Helps Editing Tags of Markdown Based Blog Posts",
       "details": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
@@ -138,6 +152,34 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/blogyaml",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "bmc",
+      "description": "Search the BiomedCentral API and get full text articles.",
+      "details": "Search the BiomedCentral API and get full text articles.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, bmc, bmc-api, literature, scholarly",
+      "github": "https://github.com/ropenscilabs/bmc",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/bmc",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "bold",
+      "description": "Interface to Bold Systems API",
+      "details": "A programmatic interface to the Web Service methods provided by\n    Bold Systems (<http://www.boldsystems.org/>) for genetic 'barcode' data.\n    Functions include methods for searching by sequences by taxonomic names,\n    ids, collectors, and institutions; as well as a function for searching\n    for specimens, and downloading trace files.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, barcode, barcodes, biodiversity, DNA, fasta, sequences, taxize",
+      "github": "https://github.com/ropenscilabs/bold",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/bold",
+      "ropensci_category": "data-access"
     },
     {
       "name": "cchecks",
@@ -182,6 +224,20 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "clifro",
+      "description": "Easily Download and Visualise Climate Data from CliFlo",
+      "details": "CliFlo is a web portal to the New Zealand National Climate\n    Database and provides public access (via subscription) to around 6,500\n    various climate stations (see <https://cliflo.niwa.co.nz/> for more\n    information). Collating and manipulating data from CliFlo\n    (hence clifro) and importing into R for further analysis, exploration and\n    visualisation is now straightforward and coherent. The user is required to\n    have an internet connection, and a current CliFlo subscription (free) if\n    data from stations, other than the public Reefton electronic weather\n    station, is sought.",
+      "maintainer": "Blake Seers",
+      "keywords": "api, cliflo, climate, climate-data, climate-stations, data, kml, national-climate-database, opensci, rain, temperature, weather, wind, windrose, zealand",
+      "github": "https://github.com/ropenscilabs/clifro",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/clifro",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "cmipr",
       "description": "Client for Coupled Model Intercomparison Project (CMIP) Data",
       "details": "Client for Coupled Model Intercomparison Project (CMIP) data\n\t\t(<http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/>).\n\t\tData is stored on an FTP server, from which we provide\n\t\tfunctions to fetch data and return tidy data.",
@@ -189,7 +245,7 @@
       "keywords": "climate, cmip5, data",
       "github": "https://github.com/ropenscilabs/cmipr",
       "status": "concept",
-      "onboarding": "",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/99",
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/cmipr",
@@ -208,6 +264,32 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/colorpiler",
       "ropensci_category": "data-tools"
+    },
+    {
+      "name": "conditionz",
+      "description": "Condition Control",
+      "details": "Condition control.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/conditionz",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/conditionz"
+    },
+    {
+      "name": "containerit",
+      "description": "Package R in Docker Containers",
+      "details": "Package R sessions, scripts, workspaces and vignettes together with\n    all dependencies to execute them in Docker containers. This package is supported\n    by the project Opening Reproducible Research (https://o2r.info).",
+      "maintainer": "Daniel Nuest",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/containerit",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/containerit"
     },
     {
       "name": "convertr",
@@ -363,18 +445,18 @@
       "ropensci_category": "data-access"
     },
     {
-      "name": "dtm",
-      "description": "What the Package Does (Title Case)",
-      "details": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
-      "maintainer": "The package maintainer",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/dtm",
-      "status": "concept",
+      "name": "ecoengine",
+      "description": "Programmatic Interface to the Web Service Methods Provided by UC Berkeley's Natural History Data",
+      "details": "The ecoengine ('ecoengine';\n    <https://ecoengine.berkeley.edu/>). provides access to more than 5 million georeferenced\n    specimen records from the University of California, Berkeley's Natural History\n    Museums.",
+      "maintainer": "Karthik Ram",
+      "keywords": "berkeley-ecoinformatics-engine, ecoengine, spocc",
+      "github": "https://github.com/ropenscilabs/ecoengine",
+      "status": "active",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/dtm",
-      "ropensci_category": "literature"
+      "url": "https://github.com/ropenscilabs/ecoengine",
+      "ropensci_category": "data-access"
     },
     {
       "name": "eechidna",
@@ -391,6 +473,34 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "elastic",
+      "description": "General Purpose Interface to 'Elasticsearch'",
+      "details": "Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java'\n    Virtual Machine. Interacts with the 'Elasticsearch' 'HTTP' API\n    (<https://www.elastic.co/products/elasticsearch>), including functions for\n    setting connection details to 'Elasticsearch' instances, loading bulk data,\n    searching for documents with both 'HTTP' query variables and 'JSON' based body\n    requests. In addition, 'elastic' provides functions for interacting with API's\n    for 'indices', documents, nodes, clusters, an interface to the cat API, and\n    more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "API, data-science, database, database-wrapper, documents, elasticsearch, Elasticsearch, etl, http, HTTP, Java, json, JSON, NoSQL, search",
+      "github": "https://github.com/ropenscilabs/elastic",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/elastic",
+      "ropensci_category": "databases"
+    },
+    {
+      "name": "EML",
+      "description": "Create and Manipulate Data using the Ecological Metadata Language",
+      "details": "Read and write Ecological Metadata Language files",
+      "maintainer": "Carl Boettiger",
+      "keywords": "eml, eml-metadata, metadata-standard",
+      "github": "https://github.com/ropenscilabs/EML",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/EML",
+      "ropensci_category": "data-publication"
+    },
+    {
       "name": "emldown",
       "description": "Create beautiful visualizations of an EML document",
       "details": "EML (Ecological Metadata Language) is a standard for writing\n    metadata, designed for ecological data. This package takes a EML document and\n    creates a .html website that describes it.",
@@ -403,6 +513,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/emldown",
       "ropensci_category": "data-publication"
+    },
+    {
+      "name": "europepmc",
+      "description": "R Interface to the Europe PubMed Central RESTful Web Service",
+      "details": "An R Client for the Europe PubMed Central RESTful Web Service\n    (see <https://europepmc.org/RestfulWebService> for more information). It\n    gives access to both metadata on life science literature and open access\n    full texts. Europe PMC indexes all PubMed content and other literature\n    sources including Agricola, a bibliographic database of citations to the\n    agricultural literature, or Biological Patents. In addition to bibliographic\n    metadata, the client allows users to fetch citations and reference lists.\n    Links between life-science literature and other EBI databases, including\n    ENA, PDB or ChEMBL are also accessible. No registration or API key is\n    required. See the vignettes for usage examples.",
+      "maintainer": "Najko Jahn",
+      "keywords": "bibliometrics, europe-pmc, scientific-literature, scientific-publications",
+      "github": "https://github.com/ropenscilabs/europepmc",
+      "status": "concept",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/29",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/europepmc",
+      "ropensci_category": "literature"
     },
     {
       "name": "feetures",
@@ -433,6 +557,47 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "fulltext",
+      "description": "Full Text of 'Scholarly' Articles Across Many Data Sources",
+      "details": "Provides a single interface to many sources of full text\n    'scholarly' data, including 'Biomed Central', Public Library of\n    Science, 'Pubmed Central', 'eLife', 'F1000Research', 'PeerJ',\n    'Pensoft', 'Hindawi', 'arXiv' 'preprints', and more. Functionality\n    included for searching for articles, downloading full or partial\n    text, downloading supplementary materials, converting to various\n    data formats.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "citations, crossref, extract-text, full-text, literature, metadata, open-access, pdf, publications, TDM, text-ming, text-mining, xml",
+      "github": "https://github.com/ropenscilabs/fulltext",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/fulltext",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "gender",
+      "description": "Predict Gender from Names Using Historical Data",
+      "details": "Encodes gender based on names and dates of birth using historical\n    datasets. By using these datasets instead of lists of male and female names,\n    this package is able to more accurately guess the gender of a name, and it\n    is able to report the probability that a name was male or female.",
+      "maintainer": "Lincoln Mullen",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/gender",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/gender",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "gendercodeR",
+      "description": "Recodes Sex/Gender Descriptions Into A Standard Set",
+      "details": "gendercodeR allows for simple recoding of freetext gender responses.",
+      "maintainer": "Emily Kothe",
+      "keywords": "ozunconf18",
+      "github": "https://github.com/ropenscilabs/gendercodeR",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/gendercodeR"
+    },
+    {
       "name": "geofilter",
       "description": "'GeoJSON' Filtering",
       "details": "'GeoJSON' filtering operations.",
@@ -444,6 +609,33 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/geofilter",
+      "ropensci_category": "geospatial"
+    },
+    {
+      "name": "geoflowr",
+      "description": "Geographic Flows",
+      "details": "Exploration of geographic flows methods.",
+      "maintainer": "Gabriela D'Souza",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/geoflowr",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/geoflowr"
+    },
+    {
+      "name": "geojsonio",
+      "description": "Convert Data from and to 'GeoJSON' or 'TopoJSON'",
+      "details": "Convert data to 'GeoJSON' or 'TopoJSON' from various R classes,\n    including vectors, lists, data frames, shape files, and spatial classes.\n    'geojsonio' does not aim to replace packages like 'sp', 'rgdal', 'rgeos',\n    but rather aims to be a high level client to simplify conversions of data\n    from and to 'GeoJSON' and 'TopoJSON'.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "conversion, data, geojson, geospatial, input-output, io, topojson",
+      "github": "https://github.com/ropenscilabs/geojsonio",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/geojsonio",
       "ropensci_category": "geospatial"
     },
     {
@@ -489,6 +681,20 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "geonames",
+      "description": "Interface To www.geonames.org Spatial Query Web Service",
+      "details": "The web service at www.geonames.org provides a number of spatial data queries, including \n    administrative area hierarchies, city locations and some country postal code queries. A (free) username\n    is required and rate limits exist.",
+      "maintainer": "Barry Rowlingson",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/geonames",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/geonames",
+      "ropensci_category": "geospatial"
+    },
+    {
       "name": "ghrecipes",
       "description": "Provides some helper functions for using the GitHub V4 API",
       "details": "Uses the ghql package and jqr to get some common data from Github V4 API.",
@@ -501,6 +707,34 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/ghrecipes",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "gistr",
+      "description": "Work with 'GitHub' 'Gists'",
+      "details": "Work with 'GitHub' 'gists' from 'R' (e.g., \n    <http://en.wikipedia.org/wiki/GitHub#Gist>, \n    <https://help.github.com/articles/about-gists/>). A 'gist'\n    is simply one or more files with code/text/images/etc. This package allows\n    the user to create new 'gists', update 'gists' with new files, rename files,\n    delete files, get and delete 'gists', star and 'un-star' 'gists', fork 'gists',\n    open a 'gist' in your default browser, get embed code for a 'gist', list\n    'gist' 'commits', and get rate limit information when 'authenticated'. Some\n    requests require authentication and some do not. 'Gists' website: \n    <https://gist.github.com/>.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "API, api-wrapper, code, gist, gists, GitHub, github-api, github-gist, GitHubAPI, http, https, script, snippet, web-services",
+      "github": "https://github.com/ropenscilabs/gistr",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/gistr",
+      "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "git2r",
+      "description": "Provides Access to Git Repositories",
+      "details": "Interface to the 'libgit2' library, which is a pure C\n    implementation of the 'Git' core methods. Provides access to 'Git'\n    repositories to extract data and running some basic 'Git'\n    commands.",
+      "maintainer": "Stefan Widgren",
+      "keywords": "git, git-client, libgit2, libgit2-library",
+      "github": "https://github.com/ropenscilabs/git2r",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/git2r",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "gramr",
@@ -557,6 +791,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/hoasts",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "hosperf",
+      "description": "Tools to Query Data from the Australian Institute of Health and \n    Welfare 'MyHospitals' Portal",
+      "details": "More than 1,000 public and private hospitals across Australia have \n    performance data available on 'MyHospitals' (<www.myhospitals.gov.au/>). Methods\n    are provides to query indicators for available hospitals over time.",
+      "maintainer": "Bob Rudis",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/hosperf",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/hosperf"
     },
     {
       "name": "icon",
@@ -643,17 +890,17 @@
       "ropensci_category": "geospatial"
     },
     {
-      "name": "makedata",
-      "description": "What the Package Does (Title Case)",
-      "details": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
-      "maintainer": "The package maintainer",
-      "keywords": "unconf18",
-      "github": "https://github.com/ropenscilabs/makedata",
+      "name": "makeregistry",
+      "description": "Creates JSON registry from cloned repos.",
+      "details": "Creates JSON registry from cloned repos.",
+      "maintainer": "Maëlle Salmon",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/makeregistry",
       "status": "concept",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/makedata"
+      "url": "https://github.com/ropenscilabs/makeregistry"
     },
     {
       "name": "mchtoolbox",
@@ -711,6 +958,20 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "neotoma",
+      "description": "Access to the Neotoma Paleoecological Database Through R",
+      "details": "Access paleoecological datasets from the Neotoma Paleoecological\n    Database using the published API (<http://api.neotomadb.org/>).  The functions\n    in this package access various pre-built API functions and attempt to return\n    the results from Neotoma in a usable format for researchers and the public.",
+      "maintainer": "Simon J. Goring",
+      "keywords": "cran, neotoma, neotoma-apis, neotoma-database, nsf, paleoecology",
+      "github": "https://github.com/ropenscilabs/neotoma",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/neotoma",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "notary",
       "description": "Signing and Verification of R Packages",
       "details": "Signing and verification of R packages.",
@@ -751,6 +1012,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/opencv",
       "ropensci_category": "image-processing"
+    },
+    {
+      "name": "ozbabynames",
+      "description": "Australian Popular Baby Names",
+      "details": "Data on the most popular baby names in Australia.",
+      "maintainer": "Rob Hyndman",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/ozbabynames",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/ozbabynames"
     },
     {
       "name": "ozdata",
@@ -807,6 +1081,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/packagemetrics",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "paleobioDB",
+      "description": "Download and Process Data from the Paleobiology Database",
+      "details": "Includes 19 functions to wrap each endpoint of\n    the PaleobioDB API, plus 8 functions to visualize and process the fossil\n    data. The API documentation for the Paleobiology Database can be found in\n    <http://paleobiodb.org/data1.1/>.",
+      "maintainer": "Sara Varela",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/paleobioDB",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/paleobioDB",
+      "ropensci_category": "data-access"
     },
     {
       "name": "parseids",
@@ -879,6 +1167,20 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "plotly",
+      "description": "Create Interactive Web Graphics via 'plotly.js'",
+      "details": "Easily translate 'ggplot2' graphs to an interactive web-based version and/or create custom web-based visualizations directly from R. Once uploaded to a 'plotly' account, 'plotly' graphs (and the data behind them) can be viewed and modified in a web browser.",
+      "maintainer": "Carson Sievert",
+      "keywords": "d3js, data-visualization, ggplot2, javascript, plotly, shiny, webgl",
+      "github": "https://github.com/ropenscilabs/plotly",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/plotly",
+      "ropensci_category": "data-visualization"
+    },
+    {
       "name": "ponyexpress",
       "description": "Automate sending email with 'Gmail'",
       "details": "What the package does (one paragraph).",
@@ -891,6 +1193,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/ponyexpress",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "prism",
+      "description": "Access Data from the Oregon State Prism Climate Project",
+      "details": "Allows users to access the Oregon State Prism climate data. Using\n    the web service API data can easily downloaded in bulk and loaded into R for\n    spatial analysis. Some user friendly visualizations are also provided.",
+      "maintainer": "Alan Butler",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/prism",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/prism",
+      "ropensci_category": "data-access"
     },
     {
       "name": "qcoder",
@@ -907,6 +1223,62 @@
       "ropensci_category": "data-extraction"
     },
     {
+      "name": "rAltmetric",
+      "description": "Retrieves Altmerics Data for Any Published Paper from 'Altmetric.com'",
+      "details": "Provides a programmatic interface to the citation information and alternate metrics provided by 'Altmetric'. Data from Altmetric allows researchers to immediately track the impact of their published work, without having to wait for citations. This allows for faster engagement with the audience interested in your work. For more information, visit <https://www.altmetric.com/>.",
+      "maintainer": "Karthik Ram",
+      "keywords": "altmetrics, bibliometrics, citations",
+      "github": "https://github.com/ropenscilabs/rAltmetric",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rAltmetric",
+      "ropensci_category": "altmetrics"
+    },
+    {
+      "name": "rAvis",
+      "description": "Interface to the Bird-Watching Dataset Proyecto AVIS",
+      "details": "Interface to <http://proyectoavis.com> database. \n    It provides means to download data filtered by species, order,\n    family, and several other criteria. Provides also basic functionality to\n    plot exploratory maps of the datasets.",
+      "maintainer": "Sara Varela",
+      "keywords": "avis, bird, birds, citizen-science, proyectoavis",
+      "github": "https://github.com/ropenscilabs/rAvis",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rAvis",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rbhl",
+      "description": "Interface to the 'Biodiversity' 'Heritage' Library",
+      "details": "Interface to 'Biodiversity' 'Heritage' Library ('BHL')\n    (<http://www.biodiversitylibrary.org/>) 'API'\n    (<http://www.biodiversitylibrary.org/api2/docs/docs.html>). 'BHL' is a\n    repository of 'digitized' literature on 'biodiversity'\n    studies, including 'floras', research papers, and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, biodiversity-heritage-library, data, metadata, web-api",
+      "github": "https://github.com/ropenscilabs/rbhl",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rbhl",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rbison",
+      "description": "Interface to the 'USGS' 'BISON' API",
+      "details": "Interface to the 'USGS' 'BISON' (<https://bison.usgs.gov/>)\n    API, a 'database' for species occurrence data. Data comes from\n    species in the United States from participating data providers. You can get\n    data via 'taxonomic' and location based queries. A simple function\n    is provided to help visualize data.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, biodiversity, biology, BISON, data, maps, occurrences, species, spocc, usgs, USGS",
+      "github": "https://github.com/ropenscilabs/rbison",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rbison",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "rcheatsheet",
       "description": "A package to create cheatsheets",
       "details": "This package helps create cheatsheets.",
@@ -918,6 +1290,76 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/rcheatsheet"
+    },
+    {
+      "name": "rcrossref",
+      "description": "Client for Various 'CrossRef' 'APIs'",
+      "details": "Client for various 'CrossRef' 'APIs', including 'metadata' search\n    with their old and newer search 'APIs', get 'citations' in various formats\n    (including 'bibtex', 'citeproc-json', 'rdf-xml', etc.), convert 'DOIs'\n    to 'PMIDs', and 'vice versa', get citations for 'DOIs', and get links to\n    full text of articles when available.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, api-wrapper, citations, Crossref, crossref-api, doi, full-text, literature, metadata, pdf, publications, TDM, text-ming, xml",
+      "github": "https://github.com/ropenscilabs/rcrossref",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rcrossref",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "rdatacite",
+      "description": "'DataCite' Client for 'OAI-PMH' Methods and their Search API",
+      "details": "Client for the web service methods provided\n    by 'DataCite' (<https://www.datacite.org/>), including functions to interface with\n    their 'OAI-PMH' 'metadata' service, and a 'RESTful' search API. The API\n    is backed by 'SOLR', allowing expressive queries, including faceting,\n    statistics on variables, and 'more-like-this' queries.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "API, api-wrapper, data, datacite, dataset, https, identifier, metadata, oai-pmh, scholarly, solr, web-services",
+      "github": "https://github.com/ropenscilabs/rdatacite",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rdatacite",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "rdataretriever",
+      "description": "R Interface to the Data Retriever",
+      "details": "Provides an R interface to the Data Retriever\n    <http://data-retriever.org/> via the Data Retriever's\n    command line interface. The Data Retriever automates the\n    tasks of finding, downloading, and cleaning public datasets,\n    and then stores them in a local database.",
+      "maintainer": "Daniel McGlinn",
+      "keywords": "data, data-science, database, datasets, science",
+      "github": "https://github.com/ropenscilabs/rdataretriever",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rdataretriever",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rdopa",
+      "description": "R client to Joint Research Centre's DOPA REST API",
+      "details": "R client for REST web services of DOPA (Digital Observatory for\n    protected Areas) by the European Union Joint Research Centre.",
+      "maintainer": "Joona Lehtomaki",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/rdopa",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rdopa",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rdryad",
+      "description": "Access for Dryad Web Services",
+      "details": "Interface to the Dryad \"Solr\" API, their \"OAI-PMH\" service, and\n    fetch datasets. Dryad (<http://datadryad.org/>) is a curated host of\n    data underlying scientific publications.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "data, doi, dryad, dryad-api, oai-pmh",
+      "github": "https://github.com/ropenscilabs/rdryad",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rdryad",
+      "ropensci_category": "data-access"
     },
     {
       "name": "realtime",
@@ -934,6 +1376,131 @@
       "ropensci_category": "data-visualization"
     },
     {
+      "name": "rebird",
+      "description": "R Client for the eBird Database of Bird Observations",
+      "details": "A programmatic client for the eBird database, including functions\n    for searching for bird observations by geographic location (latitude,\n    longitude), eBird hotspots, location identifiers, by notable sightings, by\n    region, and by taxonomic name.",
+      "maintainer": "Sebastian Pardo",
+      "keywords": "biology, birding, birds, data, database, ebird, ebird-api, ebird-webservices, observations, ornithology, sightings, spocc",
+      "github": "https://github.com/ropenscilabs/rebird",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rebird",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "RefManageR",
+      "description": "Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
+      "details": "Provides tools for importing and working with bibliographic\n    references. It greatly enhances the 'bibentry' class by providing a class\n    'BibEntry' which stores 'BibTeX' and 'BibLaTeX' references, supports 'UTF-8'\n    encoding, and can be easily searched by any field, by date ranges, and by\n    various formats for name lists (author by last names, translator by full names,\n    etc.). Entries can be updated, combined, sorted, printed in a number of styles,\n    and exported. 'BibTeX' and 'BibLaTeX' '.bib' files can be read into 'R' and\n    converted to 'BibEntry' objects. Interfaces to 'NCBI Entrez', 'CrossRef', and\n    'Zotero' are provided for importing references and references can be created\n    from locally stored 'PDF' files using 'Poppler'. Includes functions for citing\n    and generating a bibliography with hyperlinks for documents prepared with\n    'RMarkdown' or 'RHTML'.",
+      "maintainer": "Mathew W. McLean",
+      "keywords": "peer-reviewed, R, reference management, document generation, bibtex, biblatex",
+      "github": "https://github.com/ropenscilabs/RefManageR",
+      "status": "concept",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/119",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/RefManageR",
+      "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "rentrez",
+      "description": "'Entrez' in R",
+      "details": "Provides an R interface to the NCBI's 'EUtils' API, \n    allowing users to search databases like 'GenBank' \n    <https://www.ncbi.nlm.nih.gov/genbank/> and 'PubMed' \n    <https://www.ncbi.nlm.nih.gov/pubmed/>, process the \n    results of those searches and pull data into their R sessions.",
+      "maintainer": "David Winter",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/rentrez",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rentrez",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "reviewer",
+      "description": "Improving the Track Changes and Reviewing Experience in R Markdown",
+      "details": "Provides functionality to compare two versions of an rmarkdown document and display their differences in a nicely-formatted manner, along with an RStudio addin that adds the required JavaScript code to an rmarkdown document, so that when rendered to HTML it can be annotated using the Hypothes.is service.",
+      "maintainer": "Amy Stringer",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/reviewer",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/reviewer"
+    },
+    {
+      "name": "rfigshare",
+      "description": "An R Interface to 'figshare'",
+      "details": "An R interface to figshare.",
+      "maintainer": "Carl Boettiger",
+      "keywords": "archiving, data, doi, repository",
+      "github": "https://github.com/ropenscilabs/rfigshare",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rfigshare",
+      "ropensci_category": "data-publication"
+    },
+    {
+      "name": "rfishbase",
+      "description": "R Interface to 'FishBase'",
+      "details": "A programmatic interface to <http://www.fishbase.org>, re-written\n    based on an accompanying 'RESTful' API. Access tables describing over 30,000\n    species of fish, their biology, ecology, morphology, and more. This package also\n    supports experimental access to <http://www.sealifebase.org> data, which contains\n    nearly 200,000 species records for all types of aquatic life not covered by\n    'FishBase.'",
+      "maintainer": "Carl Boettiger",
+      "keywords": "fish, fishbase, taxonomy",
+      "github": "https://github.com/ropenscilabs/rfishbase",
+      "status": "concept",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/137",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rfishbase",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rfisheries",
+      "description": "Programmatic Interface to the 'openfisheries.org' API",
+      "details": "A programmatic interface to 'openfisheries.org'. This package is\n    part of the 'rOpenSci' suite (https://ropensci.org).",
+      "maintainer": "Karthik Ram",
+      "keywords": "fisheries, open-data, openfisheries",
+      "github": "https://github.com/ropenscilabs/rfisheries",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rfisheries",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rflybase",
+      "description": "Interface to 'FlyBase'",
+      "details": "An interface to the 'FlyBase' (<http://flybase.org>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "chado, chado-database, flybase, flybase-database",
+      "github": "https://github.com/ropenscilabs/rflybase",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rflybase",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rfna",
+      "description": "Web scraper for the Flora of North America",
+      "details": "Functions to do web scraping on\n    the Flora of North America website <http://www.efloras.org>.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "efloras, flora, floras, north-america",
+      "github": "https://github.com/ropenscilabs/rfna",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rfna",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "rftdoi",
       "description": "Interface to the ftdoi.org API for Publisher URL Patterns",
       "details": "Interface to the ftdoi.org API for publisher url patterns.",
@@ -946,6 +1513,48 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/rftdoi",
       "ropensci_category": "http-tools"
+    },
+    {
+      "name": "rgbif",
+      "description": "Interface to the Global 'Biodiversity' Information Facility API",
+      "details": "A programmatic interface to the Web Service methods\n    provided by the Global Biodiversity Information Facility ('GBIF';\n    <https://www.gbif.org/developer/summary>). 'GBIF' is a database\n    of species occurrence records from sources all over the globe.\n    'rgbif' includes functions for searching for taxonomic names,\n    retrieving information on data providers, getting species occurrence\n    records, getting counts of occurrence records, and using the 'GBIF' \n    tile map service to make 'rasters' summarizing huge amounts of data.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, API, biodiversity, data, gbif, GBIF, occurrences, species, specimens, spocc, taxonomy, web-services",
+      "github": "https://github.com/ropenscilabs/rgbif",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rgbif",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rglobi",
+      "description": "R Interface to Global Biotic Interactions",
+      "details": "A programmatic interface to the web service methods\n    provided by Global Biotic Interactions (GloBI). GloBI provides \n    access to spatial-temporal species interaction records from \n    sources all over the world. rglobi provides methods to search \n    species interactions by location, interaction type, and \n    taxonomic name. In addition, it supports Cypher, a graph query\n    language, to allow for executing custom queries on the GloBI \n    aggregate species interaction data set.",
+      "maintainer": "Jorrit Poelen",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/rglobi",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rglobi",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rgpdd",
+      "description": "R Interface to the Global Population Dynamics Database",
+      "details": "R Interface to the Global Population Dynamics Database",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/rgpdd",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rgpdd",
+      "ropensci_category": "data-access"
     },
     {
       "name": "ridb",
@@ -962,6 +1571,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "rinat",
+      "description": "Access iNaturalist Data Through APIs",
+      "details": "A programmatic interface to the API provided by the iNaturalist website <http://inaturalist.org> to download species occurrence data submitted by citizen scientists.",
+      "maintainer": "Edmund Hart",
+      "keywords": "inaturalist, spocc",
+      "github": "https://github.com/ropenscilabs/rinat",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rinat",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "riodata",
       "description": "Get data related to transportation and cultural places from Rio de\n    Janeiro, Brazil.",
       "details": "Get data related to transportation and cultural places from Rio de\n    Janeiro, Brazil.",
@@ -973,6 +1596,62 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/riodata",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "ritis",
+      "description": "Integrated Taxonomic Information System Client",
+      "details": "An interface to the Integrated Taxonomic Information System ('ITIS')\n    (<https://www.itis.gov>). Includes functions to work with the 'ITIS' REST\n    'API' methods (<https://www.itis.gov/ws_description.html>), as well as the\n    'Solr' web service (<https://www.itis.gov/solr_documentation.html>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, itis, taxize, taxonomy",
+      "github": "https://github.com/ropenscilabs/ritis",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/ritis",
+      "ropensci_category": "taxonomy"
+    },
+    {
+      "name": "RNeXML",
+      "description": "Semantically Rich I/O for the 'NeXML' Format",
+      "details": "Provides access to phyloinformatic data in 'NeXML' format.  The\n    package should add new functionality to R such as the possibility to\n    manipulate 'NeXML' objects in more various and refined way and compatibility\n    with 'ape' objects.",
+      "maintainer": "Carl Boettiger",
+      "keywords": "linked-data, metadata, nexml, phylogenetics",
+      "github": "https://github.com/ropenscilabs/RNeXML",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/RNeXML",
+      "ropensci_category": "data-publication"
+    },
+    {
+      "name": "rnoaa",
+      "description": "'NOAA' Weather Data from R",
+      "details": "Client for many 'NOAA' data sources including the 'NCDC' climate\n    'API' at <https://www.ncdc.noaa.gov/cdo-web/webservices/v2>, with functions for\n    each of the 'API' 'endpoints': data, data categories, data sets, data types,\n    locations, location categories, and stations. In addition, we have an interface\n    for 'NOAA' sea ice data, the 'NOAA' severe weather inventory, 'NOAA' Historical\n    Observing 'Metadata' Repository ('HOMR') data, 'NOAA' storm data via 'IBTrACS',\n    tornado data via the 'NOAA' storm prediction center, and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "buoy, climate, earth, ISD, NCDC, noaa, NOAA, noaa-data, precipitation, science, seaice, storm, temperature, tornadoe",
+      "github": "https://github.com/ropenscilabs/rnoaa",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rnoaa",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rnpn",
+      "description": "Interface to the National 'Phenology' Network 'API'",
+      "details": "Programmatic interface to the\n    Web Service methods provided by the National 'Phenology' Network\n    (<https://usanpn.org/>), which includes data on various life history\n    events that occur at specific times.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "data, national-phenology-network, phenology, species, web-api",
+      "github": "https://github.com/ropenscilabs/rnpn",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rnpn",
       "ropensci_category": "data-access"
     },
     {
@@ -1030,6 +1709,34 @@
       "url": "https://github.com/ropenscilabs/ropsec"
     },
     {
+      "name": "rorcid",
+      "description": "Interface to the 'Orcid.org' API",
+      "details": "Client for the 'Orcid.org' API (<https://orcid.org/>).\n    Functions included for searching for people, searching by 'DOI',\n    and searching by 'Orcid' 'ID'.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, citations, doi, identifiers, literature, orcid, orcid-api, people, publications, scholarly, scholarly-metadata",
+      "github": "https://github.com/ropenscilabs/rorcid",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rorcid",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "rplos",
+      "description": "Interface to the Search API for 'PLoS' Journals",
+      "details": "A programmatic interface to the 'SOLR' based\n    search API (<http://api.plos.org/>) provided by the Public\n    Library of Science journals to search their articles.\n    Functions are included for searching for articles, retrieving\n    articles, making plots, doing 'faceted' searches,\n    'highlight' searches, and viewing results of 'highlighted'\n    searches in a browser.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "API, api-client, article, fulltext, JSON, library, metadata, pdf, plos, PLOS, science, text-mining, web, web-api, xml, XML",
+      "github": "https://github.com/ropenscilabs/rplos",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rplos",
+      "ropensci_category": "literature"
+    },
+    {
       "name": "rresync",
       "description": "Client for ResourceSync",
       "details": "Client for the ResourceSync Framework \n    <http://www.openarchives.org/rs/1.1/resourcesync>.",
@@ -1055,6 +1762,34 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/rrocksdb",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "RSelenium",
+      "description": "R Bindings for 'Selenium WebDriver'",
+      "details": "Provides a set of R bindings for the 'Selenium 2.0 WebDriver'\n    (see <https://seleniumhq.github.io/docs/wd.html>\n    for more information) using the 'JsonWireProtocol' (see\n    <https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol> for more\n    information). 'Selenium 2.0 WebDriver' allows driving a web browser\n    natively as a user would either locally or on a remote machine using\n    the Selenium server it marks a leap forward in terms of web browser\n    automation. Selenium automates web browsers (commonly referred to as\n    browsers). Using RSelenium you can automate browsers locally or\n    remotely.",
+      "maintainer": "Ju Yeong Kim",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/RSelenium",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/RSelenium",
+      "ropensci_category": "http-tools"
+    },
+    {
+      "name": "rsnps",
+      "description": "Get 'SNP' ('Single-Nucleotide' 'Polymorphism') Data on the Web",
+      "details": "A programmatic interface to various 'SNP' 'datasets'\n    on the web: 'OpenSNP' (<https://opensnp.org>), and 'NBCIs' 'dbSNP' database\n    (<https://www.ncbi.nlm.nih.gov/projects/SNP>). Functions\n    are included for searching for 'NCBI'. For 'OpenSNP', functions are included \n    for getting 'SNPs', and data for 'genotypes', 'phenotypes', annotations, \n    and bulk downloads of data by user.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "API, api-client, data, dbSNP, gene, genotype, NCBI, OpenSNP, sequence, snp, snps, species, web, web-api",
+      "github": "https://github.com/ropenscilabs/rsnps",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rsnps",
       "ropensci_category": "data-access"
     },
     {
@@ -1085,19 +1820,6 @@
       "url": "https://github.com/ropenscilabs/rthings"
     },
     {
-      "name": "rthings",
-      "description": "Retrieves Data From 'list.design'",
-      "details": "'list.design' (http://lists.design/) is gallery of real data ready to be placed in other contexts.",
-      "maintainer": "Karthik Ram",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/rthings",
-      "status": "concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/rthings"
-    },
-    {
       "name": "rubfuns",
       "description": "Some Functions",
       "details": "Some Functions.",
@@ -1112,6 +1834,47 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "rvertnet",
+      "description": "Search 'Vertnet', a 'Database' of Vertebrate Specimen Records",
+      "details": "Retrieve, map and summarize data from the 'VertNet.org' \n    archives (<http://vertnet.org/>).  Functions allow searching by many \n    parameters, including 'taxonomic' names, places, and dates. In addition, \n    there is an interface for conducting spatially delimited searches, and \n    another for requesting large 'datasets' via email.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, biodiversity, mammalia, mammals, maps, occurrences, species, specimen, specimens, spocc, vertnet",
+      "github": "https://github.com/ropenscilabs/rvertnet",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rvertnet",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "rwalkable",
+      "description": "Walkability Scores",
+      "details": "Estimates walkability using data from OpenStreetMap and other free sources.",
+      "maintainer": "Alan Pearse",
+      "keywords": "ropensci, rozunconf",
+      "github": "https://github.com/ropenscilabs/rwalkable",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rwalkable"
+    },
+    {
+      "name": "rWBclimate",
+      "description": "A package for accessing World Bank climate data",
+      "details": "This package will download model predictions from 15 different global circulation models in 20 year intervals from the world bank.  Users can also access historical data, and create maps at 2 different spatial scales.",
+      "maintainer": "Edmund Hart",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/rWBclimate",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rWBclimate",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "rwdpa",
       "description": "World Database of Protected Areas Client",
       "details": "Client for the World Database of Protected Areas from\n    Protected Planet (<https://api.protectedplanet.net/>).\n    Fetching csv, kml, or shape files for protected areas,\n    and functions for interacting with their API.",
@@ -1124,6 +1887,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/rwdpa",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "rzmq",
+      "description": "R Bindings for 'ZeroMQ'",
+      "details": "Interface to the 'ZeroMQ' lightweight messaging kernel (see <http://www.zeromq.org/> for more information).",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "zeromq, zmq",
+      "github": "https://github.com/ropenscilabs/rzmq",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/rzmq",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "scatrr",
@@ -1182,6 +1959,19 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "simpletextr",
+      "description": "Simple Text Wrappers",
+      "details": "Simple functions for common repeatable tasks in NLP and text mining.",
+      "maintainer": "Matt Johnson",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/simpletextr",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/simpletextr"
+    },
+    {
       "name": "snowball",
       "description": "Spin up a managed cluster and perform parallel calculations",
       "details": "Spin up a head node, which spins up worker nodes, and performs parallel calculations",
@@ -1194,6 +1984,34 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/snowball",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "sofa",
+      "description": "Connector to 'CouchDB'",
+      "details": "Provides an interface to the 'NoSQL' database 'CouchDB'\n    (<http://couchdb.apache.org>). Methods are provided for managing\n    databases within 'CouchDB', including creating/deleting/updating/transferring,\n    and managing documents within databases. One can connect with a local\n    'CouchDB' instance, or a remote 'CouchDB' databases such as 'Cloudant'. \n    Documents can be inserted directly from vectors, lists, data.frames, \n    and 'JSON'. Targeted at 'CouchDB' v2 or greater.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "cloudant, couchdb, CouchDB, couchdb-client, database, documents, NoSQL",
+      "github": "https://github.com/ropenscilabs/sofa",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/sofa",
+      "ropensci_category": "databases"
+    },
+    {
+      "name": "solrium",
+      "description": "General Purpose R Interface to 'Solr'",
+      "details": "Provides a set of functions for querying and parsing data\n    from 'Solr' (<http://lucene.apache.org/solr>) 'endpoints' (local and\n    remote), including search, 'faceting', 'highlighting', 'stats', and\n    'more like this'. In addition, some functionality is included for\n    creating, deleting, and updating documents in a 'Solr' 'database'.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "database, solr, solr-client, solr-search",
+      "github": "https://github.com/ropenscilabs/solrium",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/solrium",
+      "ropensci_category": "data-access"
     },
     {
       "name": "sparqldsl",
@@ -1238,6 +2056,20 @@
       "ropensci_category": "data-tools"
     },
     {
+      "name": "spocc",
+      "description": "Interface to Species Occurrence Data Sources",
+      "details": "A programmatic interface to many species occurrence data sources,\n    including Global Biodiversity Information Facility ('GBIF'), 'USGSs'\n    Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist',\n    Berkeley 'Ecoinformatics' Engine, 'eBird', Integrated Digitized\n    'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information\n    System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes\n    functionality for retrieving species occurrence data, and combining\n    those data.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "antweb, api, bison, data, ebird, ecoengine, gbif, idigbio, inaturalist, obis, occurrence, species, species-occurrence, spocc, vertnet",
+      "github": "https://github.com/ropenscilabs/spocc",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/spocc",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "spplist",
       "description": "Get Species Lists from Many Data Sources",
       "details": "Get species lists form many data sources, including any available via \n    the spocc and rgbif packages.",
@@ -1280,18 +2112,17 @@
       "ropensci_category": "data-access"
     },
     {
-      "name": "styles",
-      "description": "Styles For Base Plots",
-      "details": "Styled themes for base plots.",
-      "maintainer": "The package maintainer",
-      "keywords": "ozunconf17",
-      "github": "https://github.com/ropenscilabs/styles",
-      "status": "concept",
+      "name": "syn",
+      "description": "Creates Synonyms From Target Words",
+      "details": "Generates synoynms from a given word drawing from a synonym list\n    from the 'moby' project.",
+      "maintainer": "Nicholas Tierney",
+      "keywords": "antonyms, synonyms, text-processing, thesaurus",
+      "github": "https://github.com/ropenscilabs/syn",
+      "status": "active",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/styles",
-      "ropensci_category": "data-visualization"
+      "url": "https://github.com/ropenscilabs/syn"
     },
     {
       "name": "taxadc",
@@ -1305,6 +2136,20 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/taxadc",
+      "ropensci_category": "taxonomy"
+    },
+    {
+      "name": "taxize",
+      "description": "Taxonomic Information from Around the Web",
+      "details": "Interacts with a suite of web 'APIs' for taxonomic tasks,\n    such as getting database specific taxonomic identifiers, verifying\n    species names, getting taxonomic hierarchies, fetching downstream and\n    upstream taxonomic names, getting taxonomic synonyms, converting\n    scientific to common names and vice versa, and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, API, api-client, api-wrapper, biodiversity, biology, darwincore, data, identifiers, JSON, names, nomenclature, species, taxize, taxonomy, web",
+      "github": "https://github.com/ropenscilabs/taxize",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/taxize",
       "ropensci_category": "taxonomy"
     },
     {
@@ -1378,6 +2223,19 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "tl",
+      "description": "Quick Ref. Guides For R Functions",
+      "details": "An R equivalent for the command line tool \"tldr\", which provides quick guides to functions. \n    Contributions from the community are welcome!",
+      "maintainer": "Dan Wilson",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/tl",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/tl"
+    },
+    {
       "name": "trackmd",
       "description": "RStudio Addin for Tracking Document Changes",
       "details": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
@@ -1406,6 +2264,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "traits",
+      "description": "Species Trait Data from Around the Web",
+      "details": "Species trait data from many different sources, including\n    sequence data from 'NCBI', plant trait data from 'BETYdb', plant data\n    from the USDA plants database, data from 'EOL' 'Traitbank', \n    Coral traits data (<https://coraltraits.org>), 'Birdlife' International, \n    and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-client, species, traits",
+      "github": "https://github.com/ropenscilabs/traits",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/traits",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "travis",
       "description": "Set Up 'Travis' for Testing and Deployment",
       "details": "Tools for interacting with the 'Travis' and\n    'GitHub' APIs for setting up continuous integration for R packages and\n    other R-based projects.",
@@ -1418,6 +2290,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/travis",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "treebase",
+      "description": "Discovery, Access and Manipulation of 'TreeBASE' Phylogenies",
+      "details": "Interface to the API for 'TreeBASE' <http://treebase.org>\n    from 'R.' 'TreeBASE' is a repository of user-submitted phylogenetic\n    trees (of species, population, or genes) and the data used to create\n    them.",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/treebase",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/treebase",
+      "ropensci_category": "data-access"
     },
     {
       "name": "umapr",
@@ -1445,6 +2331,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/urltemplate",
       "ropensci_category": "http-tools"
+    },
+    {
+      "name": "vitae",
+      "description": "Curriculum Vitae for R Markdown",
+      "details": "Provides templates and functions to simplify the production and maintenance of curriculum vitae.",
+      "maintainer": "Mitchell O'Hara-Wild",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/vitae",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/vitae"
     },
     {
       "name": "webrockets",
@@ -1559,6 +2458,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "apipkgen",
+      "description": "Package Generator for HTTP API Wrapper Packages",
+      "details": "Package Generator for HTTP API Wrapper Packages.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "yaml",
+      "github": "https://github.com/ropensci/apipkgen",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/apipkgen",
+      "ropensci_category": "http-tools"
+    },
+    {
       "name": "arkdb",
       "description": "Archive and Unarchive Databases Using Flat Files",
       "details": "Flat text files provide a robust, compressible, and portable\n  way to store tables from databases.  This package provides convenient\n  functions for exporting tables from relational database connections\n  into compressed text files and streaming those text files back into\n  a database without requiring the whole table to fit in working memory.",
@@ -1573,6 +2486,20 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "arresteddev",
+      "description": "Arrested Development",
+      "details": "Here to help you when your development is, shall we say, arrested.",
+      "maintainer": "Lucy D'Agostino McGowan",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/arresteddev",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/arresteddev",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "aRxiv",
       "description": "Interface to the arXiv API",
       "details": "An interface to the API for 'arXiv'\n    (<https://arxiv.org>), a repository of electronic preprints for\n    computer science, mathematics, physics, quantitative biology,\n    quantitative finance, and statistics.",
@@ -1584,6 +2511,20 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/aRxiv",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "aspacer",
+      "description": "Client for the ArchiveSpace API",
+      "details": "Client for the ArchiveSpace API (<http://archivesspace.org/>).\n    ArchiveSpace is an open source archives information management application\n    for managing and providing web access to archives, manuscripts and\n    digital objects.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "archivespace, archivesspace-api, metadata",
+      "github": "https://github.com/ropensci/aspacer",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/aspacer",
       "ropensci_category": "literature"
     },
     {
@@ -1601,6 +2542,20 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "atomize",
+      "description": "Scatter Functions into New Packages",
+      "details": "Scatter Functions into New Packages.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "unconf16",
+      "github": "https://github.com/ropensci/atomize",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/atomize",
+      "ropensci_category": "developer-tools"
+    },
+    {
       "name": "av",
       "description": "Working with Audio and Video",
       "details": "Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio \n    and video in R. Generate high quality videos files by capturing images from the R graphics\n    device combined with custom audio stream. This package interfaces directly to the C API\n    and does not require any command line utilities.",
@@ -1615,11 +2570,25 @@
       "ropensci_category": "image-processing"
     },
     {
+      "name": "available",
+      "description": "Check if the Title of a Package is Available, Appropriate and Interesting",
+      "details": "Check if a given package name is available to use. It checks the\n  name's validity. Checks if it is used on 'GitHub', 'CRAN' and 'Bioconductor'. Checks\n  for unintended meanings by querying Urban Dictionary, 'Wiktionary' and Wikipedia.",
+      "maintainer": "Jim Hester",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/available",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/available",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "bbox",
       "description": "Doze Bboxes Doe",
       "details": "Doze Bboxes Doe.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "bbox, boundingbox, bounding-boxes, geojson, GeoJSON, geospatial, spatial, wkt, WKT",
+      "keywords": "bbox, bounding-boxes, boundingbox, geojson, GeoJSON, geospatial, spatial, wkt, WKT",
       "github": "https://github.com/ropensci/bbox",
       "status": "wip",
       "onboarding": "",
@@ -1703,7 +2672,7 @@
       "description": "Client for the Bittrex Exchange",
       "details": "A client for the Bittrex crypto-currency exchange https://bittrex.com including the ability to query trade data, manage account balances, and place orders.",
       "maintainer": "Michael Kane",
-      "keywords": "cryptocurency-exchange, cryptocurrency, crypto-currency-exchanges, finance, peer-reviewed",
+      "keywords": "crypto-currency-exchanges, cryptocurency-exchange, cryptocurrency, finance, peer-reviewed",
       "github": "https://github.com/ropensci/bittrex",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/120",
@@ -1815,7 +2784,7 @@
       "description": "Client for 'CCAFS' 'GCM' Data",
       "details": "Client for Climate Change, Agriculture, and Food Security ('CCAFS')\n    General Circulation Models ('GCM') data. Data is stored in Amazon 'S3', from\n    which we provide functions to fetch data.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "agriculture, ccafs, climate, climatechange, climate-data, data, gcm, generalcirculationmodel, peer-reviewed",
+      "keywords": "agriculture, ccafs, climate, climate-data, climatechange, data, gcm, generalcirculationmodel, peer-reviewed",
       "github": "https://github.com/ropensci/ccafs",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/82",
@@ -1823,6 +2792,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/ccafs",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "changes",
+      "description": "A simple interface and workflow for version control in R (implemented using git as backend but without the confusion)",
+      "details": "This package provides a set of easy-to-use tools for beginners wanting to implement version control via git for their projects.",
+      "maintainer": "Nick Golding",
+      "keywords": "ozunconf17",
+      "github": "https://github.com/ropensci/changes",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/changes",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "charlatan",
@@ -1837,6 +2820,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/charlatan",
       "ropensci_category": "data-tools"
+    },
+    {
+      "name": "checkers",
+      "description": "checkers",
+      "details": "Package to assess analysis + review guide for analysis best practice",
+      "maintainer": "Noam Ross",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/checkers",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/checkers",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "chromer",
@@ -1923,6 +2920,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "cmipr",
+      "description": "Client for Coupled Model Intercomparison Project (CMIP) Data",
+      "details": "Client for Coupled Model Intercomparison Project (CMIP) data\n\t\t(<http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/>).\n\t\tData is stored on an FTP server, from which we provide\n\t\tfunctions to fetch data and return tidy data.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "climate, cmip5, data",
+      "github": "https://github.com/ropensci/cmipr",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/99",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/cmipr",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "codemetar",
       "description": "Generate 'CodeMeta' Metadata for R Packages",
       "details": "The 'Codemeta' Project defines a 'JSON-LD' format for describing\n  software metadata, as detailed at <https://codemeta.github.io>. This package\n  provides utilities to generate, parse, and modify 'codemeta.json' files \n  automatically for R packages, as well as tools and examples for working with\n  'codemeta.json' 'JSON-LD' more generally.",
@@ -1951,6 +2962,20 @@
       "ropensci_category": "data-extraction"
     },
     {
+      "name": "colorpiler",
+      "description": "Provides community-driven color palettes",
+      "details": "Provides community-driven color palettes.",
+      "maintainer": "Mika Braginsky",
+      "keywords": "unconf16",
+      "github": "https://github.com/ropensci/colorpiler",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/colorpiler",
+      "ropensci_category": "data-tools"
+    },
+    {
       "name": "comtradr",
       "description": "Interface with the United Nations Comtrade API",
       "details": "Interface with and extract data from the United Nations Comtrade \n  API <https://comtrade.un.org/data/>. Comtrade provides country level shipping \n  data for a variety of commodities, these functions allow for easy API query \n  and data returned as a tidy data frame.",
@@ -1963,6 +2988,46 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/comtradr",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "convertr",
+      "description": "Convert Between Units",
+      "details": "Provides conversion functionality between a broad range of\n    scientific, historical, and industrial unit types.",
+      "maintainer": "Gordon Shotwell",
+      "keywords": "peer-reviewed",
+      "github": "https://github.com/ropensci/convertr",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/convertr",
+      "ropensci_category": "data-tools"
+    },
+    {
+      "name": "CoordinateCleaner",
+      "description": "Automated Cleaning of Occurrence Records from Biological Collections",
+      "details": "Automated flagging of common spatial and temporal errors in biological and paleontological collection data, for the use in conservation, ecology and paleontology. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets.",
+      "maintainer": "Alexander Zizka",
+      "keywords": "",
+      "github": "https://github.com/ropensci/CoordinateCleaner",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/CoordinateCleaner"
+    },
+    {
+      "name": "craft",
+      "description": "Extra Functions to Control Minecraft with RaspberryJuice API",
+      "details": "Extra functions to illustrate the use of the miner package to control Minecraft with the RaspberryJuice API.",
+      "maintainer": "Karl Broman",
+      "keywords": "",
+      "github": "https://github.com/ropensci/craft",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/craft"
     },
     {
       "name": "cRegulome",
@@ -2090,6 +3155,48 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "datapkg",
+      "description": "Read and Write Data Packages",
+      "details": "Convenience functions for reading and writing datasets following\n    the 'data packagist' format.",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "",
+      "github": "https://github.com/ropensci/datapkg",
+      "status": "inactive",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/datapkg",
+      "ropensci_category": "data-tools"
+    },
+    {
+      "name": "datasauce",
+      "description": "Create and manipulate Schema.org Dataset metadata",
+      "details": "What the package does (one paragraph).",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropensci/datasauce",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/datasauce",
+      "ropensci_category": "data-tools"
+    },
+    {
+      "name": "datastorr",
+      "description": "Simple Data Versioning",
+      "details": "Simple dataversioning using GitHub to store data.",
+      "maintainer": "Rich FitzJohn",
+      "keywords": "",
+      "github": "https://github.com/ropensci/datastorr",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/datastorr",
+      "ropensci_category": "databases"
+    },
+    {
       "name": "dbhydroR",
       "description": "'DBHYDRO' Hydrologic and Water Quality Data",
       "details": "Client for programmatic access to the South Florida Water\n  Management District's 'DBHYDRO' database at \n  <https://www.sfwmd.gov/science-data/dbhydro>, with functions\n  for accessing hydrologic and water quality data. ",
@@ -2101,6 +3208,48 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/dbhydroR",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "decapitated",
+      "description": "Headless 'Chrome' Orchestration",
+      "details": "The 'Chrome' browser <https://www.google.com/chrome/> has a headless mode\n    which can be instrumented programmatically. Tools are provided to perform headless\n    'Chrome' instrumentation on the command-line and will eventually provide support\n    for the 'DevTools' instrumentation 'API' or the forthcoming 'phantomjs'-like higher-level\n    'API' being promised by the development team.",
+      "maintainer": "Bob Rudis",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/decapitated",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/decapitated",
+      "ropensci_category": "http-tools"
+    },
+    {
+      "name": "dirdf",
+      "description": "Extracts Metadata from Directory and File Names",
+      "details": "Extract metadata from directory and file names based on a template into data frame.",
+      "maintainer": "Henrik Bengtsson",
+      "keywords": "files, metadata, package, unconf16",
+      "github": "https://github.com/ropensci/dirdf",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/dirdf",
+      "ropensci_category": "data-tools"
+    },
+    {
+      "name": "dissemr",
+      "description": "Client for 'dissem.in' API for Scholarly Metadata",
+      "details": "'dissem.in' client (<https://dissem.in/>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-wrapper, doi, scholarly-metadata, text-mining",
+      "github": "https://github.com/ropensci/dissemr",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/dissemr",
       "ropensci_category": "data-access"
     },
     {
@@ -2160,11 +3309,25 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "eechidna",
+      "description": "Exploring Election and Census Highly Informative Data Nationally for\n    Australia",
+      "details": "Data from the 2013 and 2016 Australian Federal Election (House of\n    Representatives) and the 2011 Australian Census. Includes tools for\n    visualizing and analysing the data. This package incorporates\n    data that is copyright Commonwealth of Australia (Australian\n    Electoral Commission) 2016.",
+      "maintainer": "Ben Marwick",
+      "keywords": "australia, auunconf, census-data, election",
+      "github": "https://github.com/ropensci/eechidna",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/eechidna",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "elastic",
       "description": "General Purpose Interface to 'Elasticsearch'",
       "details": "Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java'\n    Virtual Machine. Interacts with the 'Elasticsearch' 'HTTP' API\n    (<https://www.elastic.co/products/elasticsearch>), including functions for\n    setting connection details to 'Elasticsearch' instances, loading bulk data,\n    searching for documents with both 'HTTP' query variables and 'JSON' based body\n    requests. In addition, 'elastic' provides functions for interacting with API's\n    for 'indices', documents, nodes, clusters, an interface to the cat API, and\n    more.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "API, database, database-wrapper, data-science, documents, elasticsearch, Elasticsearch, etl, http, HTTP, Java, json, JSON, NoSQL, search",
+      "keywords": "API, data-science, database, database-wrapper, documents, elasticsearch, Elasticsearch, etl, http, HTTP, Java, json, JSON, NoSQL, search",
       "github": "https://github.com/ropensci/elastic",
       "status": "active",
       "onboarding": "",
@@ -2178,7 +3341,7 @@
       "description": "Elasticsearch DSL",
       "details": "Elasticsearch DSL.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "database, database-wrapper, data-science, elasticsearch, etl, http, json",
+      "keywords": "data-science, database, database-wrapper, elasticsearch, etl, http, json",
       "github": "https://github.com/ropensci/elasticdsl",
       "status": "active",
       "onboarding": "",
@@ -2199,6 +3362,20 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/EML",
+      "ropensci_category": "data-publication"
+    },
+    {
+      "name": "emldown",
+      "description": "Create beautiful visualizations of an EML document",
+      "details": "EML (Ecological Metadata Language) is a standard for writing\n    metadata, designed for ecological data. This package takes a EML document and\n    creates a .html website that describes it.",
+      "maintainer": "First Last",
+      "keywords": "eml, eml-metadata",
+      "github": "https://github.com/ropensci/emldown",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/emldown",
       "ropensci_category": "data-publication"
     },
     {
@@ -2237,7 +3414,7 @@
       "keywords": "ess",
       "github": "https://github.com/ropensci/essurvey",
       "status": "active",
-      "onboarding": "https://github.com/ropensci/onboarding/issues/201",
+      "onboarding": "",
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/essurvey",
@@ -2318,7 +3495,7 @@
       "description": "Parse Darwin Core Files",
       "details": "Parse and create Darwin Core (<http://rs.tdwg.org/dwc/>) Simple\n    and Archives. Functionality includes reading and parsing all the\n    files in a Darwin Core Archive, including the datasets and metadata;\n    read and parse simple Darwin Core files; and validation of Darwin\n    Core Archives.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "biodiversity, biology, collections, darwincore, darwin-core, gbif, occurrences, species, specimen",
+      "keywords": "biodiversity, biology, collections, darwin-core, darwincore, gbif, occurrences, species, specimen",
       "github": "https://github.com/ropensci/finch",
       "status": "active",
       "onboarding": "",
@@ -2340,6 +3517,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/fingertipsR",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "flipper",
+      "description": "Flipping great way to discover R packages",
+      "details": "Flipping great way to discover R package",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci/flipper",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/flipper",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "ftp",
@@ -2412,6 +3603,20 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "geofilter",
+      "description": "'GeoJSON' Filtering",
+      "details": "'GeoJSON' filtering operations.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "geojson, jq, jqr, json, parse",
+      "github": "https://github.com/ropensci/geofilter",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/geofilter",
+      "ropensci_category": "geospatial"
+    },
+    {
       "name": "geojson",
       "description": "Classes for 'GeoJSON'",
       "details": "Classes for 'GeoJSON' to make working with 'GeoJSON' easier.\n    Includes S3 classes for 'GeoJSON' classes with brief summary output,\n    and a few methods such as extracting and adding bounding boxes,\n    properties, and coordinate reference systems; linting through\n    the 'geojsonlint' package; and serializing to/from 'Geobuf' binary\n    'GeoJSON' format.",
@@ -2451,6 +3656,34 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/geojsonlint",
+      "ropensci_category": "geospatial"
+    },
+    {
+      "name": "geojsonrewind",
+      "description": "Fix 'GeoJSON' Winding Direction",
+      "details": "Fix 'GeoJSON' Winding Direction.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "geojson",
+      "github": "https://github.com/ropensci/geojsonrewind",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/geojsonrewind",
+      "ropensci_category": "geospatial"
+    },
+    {
+      "name": "geolocart",
+      "description": "Geolocate Articles",
+      "details": "The Package Aims at Geoloparsing Scientific Articles.",
+      "maintainer": "Maëlle Salmon",
+      "keywords": "",
+      "github": "https://github.com/ropensci/geolocart",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/geolocart",
       "ropensci_category": "geospatial"
     },
     {
@@ -2542,7 +3775,7 @@
       "description": "Work with 'GitHub' 'Gists'",
       "details": "Work with 'GitHub' 'gists' from 'R' (e.g., \n    <http://en.wikipedia.org/wiki/GitHub#Gist>, \n    <https://help.github.com/articles/about-gists/>). A 'gist'\n    is simply one or more files with code/text/images/etc. This package allows\n    the user to create new 'gists', update 'gists' with new files, rename files,\n    delete files, get and delete 'gists', star and 'un-star' 'gists', fork 'gists',\n    open a 'gist' in your default browser, get embed code for a 'gist', list\n    'gist' 'commits', and get rate limit information when 'authenticated'. Some\n    requests require authentication and some do not. 'Gists' website: \n    <https://gist.github.com/>.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "API, api-wrapper, code, gist, gists, GitHub, github-api, GitHubAPI, github-gist, http, https, script, snippet, web-services",
+      "keywords": "API, api-wrapper, code, gist, gists, GitHub, github-api, github-gist, GitHubAPI, http, https, script, snippet, web-services",
       "github": "https://github.com/ropensci/gistr",
       "status": "active",
       "onboarding": "",
@@ -2570,7 +3803,7 @@
       "description": "Call Google's 'Natural Language' API, 'Cloud Translation' API, \n  'Cloud Speech' API and 'Cloud Text-to-Speech' API",
       "details": "Call 'Google Cloud' machine learning APIs for text and speech tasks.\n  Call the 'Cloud Translation' API <https://cloud.google.com/translate/> for detection \n  and translation of text, the 'Natural Language' API <https://cloud.google.com/natural-language/> to \n  analyse text for sentiment, entities or syntax, the 'Cloud Speech' API \n  <https://cloud.google.com/speech/> to transcribe sound files to text and \n  the 'Cloud Text-to-Speech' API <https://cloud.google.com/text-to-speech/> to turn text \n  into sound files.",
       "maintainer": "Mark Edmondson",
-      "keywords": "cloud-speech-api, cloud-translation-api, google-api-client, googleauthr, google-cloud, google-cloud-speech, google-nlp, natural-language-processing, peer-reviewed, sentiment-analysis, speech-api, translation-api",
+      "keywords": "cloud-speech-api, cloud-translation-api, google-api-client, google-cloud, google-cloud-speech, google-nlp, googleauthr, natural-language-processing, peer-reviewed, sentiment-analysis, speech-api, translation-api",
       "github": "https://github.com/ropensci/googleLanguageR",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/127",
@@ -2578,6 +3811,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/googleLanguageR",
       "ropensci_category": "data-tools"
+    },
+    {
+      "name": "gramr",
+      "description": "The Grammar of Grammar",
+      "details": "Provides functions that wrap the write-good command line tool\n             for checking grammar and offers suggestions on improvements to enhance writing. ",
+      "maintainer": "Jasmine Dumas",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/gramr",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/gramr",
+      "ropensci_category": "literature"
     },
     {
       "name": "graphql",
@@ -2634,6 +3881,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/gutenbergr",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "handlr",
+      "description": "Convert Among Citation Formats",
+      "details": "Converter for many citation formats.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "bibtex, citation, citations, citeproc, crosscite, digital-object-identifier, doi, metadata, ris",
+      "github": "https://github.com/ropensci/handlr",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/handlr"
     },
     {
       "name": "hathi",
@@ -2704,6 +3964,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/hoardr",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "hoasts",
+      "description": "Host and Parasite Data Across Sources",
+      "details": "Host and Parasite Data Across Sources.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "ecology, parasites",
+      "github": "https://github.com/ropensci/hoasts",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/hoasts",
+      "ropensci_category": "data-access"
     },
     {
       "name": "hunspell",
@@ -2863,7 +4137,7 @@
       "description": "Validate 'JSON'",
       "details": "Uses the node library 'is-my-json-valid' to validate 'JSON' against\n    a 'JSON' schema.",
       "maintainer": "Rich FitzJohn",
-      "keywords": "json, jsonvalidate, json-validation",
+      "keywords": "json, json-validation, jsonvalidate",
       "github": "https://github.com/ropensci/jsonvalidate",
       "status": "active",
       "onboarding": "",
@@ -2887,6 +4161,20 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "keybase",
+      "description": "Tools to Work with the 'Keybase' 'API'",
+      "details": "'Keybase' <keybase.io> is a directory of people and public keys and provides\n    methods for obtaining public keys, validating users and exchanging files and/or messages\n    in a secure fashion. Tools are provided to search for and retrieve information about\n    'Keybase' users, retrieve and import user public keys and list and/or download files.\n    There's also a thin but useful R wrapper around many of they `keybase` command-line\n    utility functions.",
+      "maintainer": "Ildiko Czeller",
+      "keywords": "gpg, keybase, keybase-api, unconf18",
+      "github": "https://github.com/ropensci/keybase",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/keybase",
+      "ropensci_category": "security"
+    },
+    {
       "name": "landscapetools",
       "description": "Landscape Utility Toolbox",
       "details": "Provides utility functions for some of the less-glamorous tasks involved\n    in landscape analysis. It includes functions to coerce raster data to the\n    common tibble format and vice versa, it helps with flexible reclassification\n    tasks of raster data and it provides a function to merge multiple raster.\n    Furthermore, 'landscapetools' helps landscape scientists to visualize their\n    data by providing optional themes and utility functions to plot single\n    landscapes, rasterstacks, -bricks and lists of raster.",
@@ -2901,6 +4189,20 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "laselva",
+      "description": "FIA Data",
+      "details": "Fetch FIA data list and datasets.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "data, forestry, plants, trees",
+      "github": "https://github.com/ropensci/laselva",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/laselva",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "lawn",
       "description": "Client for 'Turfjs' for 'Geospatial' Analysis",
       "details": "Client for 'Turfjs' (<http://turfjs.org>) for\n    'geospatial' analysis. The package revolves around using 'GeoJSON'\n    data. Functions are included for creating 'GeoJSON' data objects,\n    measuring aspects of 'GeoJSON', and combining, transforming,\n    and creating random 'GeoJSON' data objects.",
@@ -2912,6 +4214,20 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/lawn",
+      "ropensci_category": "geospatial"
+    },
+    {
+      "name": "leafier",
+      "description": "Render large datasets in leaflet",
+      "details": "This R package provides tools to preprocess and render large\n    spatial datasets in leafet.",
+      "maintainer": "Jeffrey O Hanson",
+      "keywords": "auunconf",
+      "github": "https://github.com/ropensci/leafier",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/leafier",
       "ropensci_category": "geospatial"
     },
     {
@@ -2947,7 +4263,7 @@
       "description": "Advanced Graphics and Image-Processing in R",
       "details": "Bindings to 'ImageMagick': the most comprehensive open-source image\n    processing library available. Supports many common formats (png, jpeg, tiff,\n    pdf, etc) and manipulations (rotate, scale, crop, trim, flip, blur, etc).\n    All operations are vectorized via the Magick++ STL meaning they operate either\n    on a single frame or a series of frames for working with layers, collages,\n    or animation. In RStudio images are automatically previewed when printed to\n    the console, resulting in an interactive editing environment. The latest \n    version of the package includes a native graphics device for creating \n    in-memory graphics or drawing onto images using pixel coordinates.",
       "maintainer": "Jeroen Ooms",
-      "keywords": "imagemagick, image-magick, imagemagick-wrapper, image-manipulation, image-processing, magick",
+      "keywords": "image-magick, image-manipulation, image-processing, imagemagick, imagemagick-wrapper, magick",
       "github": "https://github.com/ropensci/magick",
       "status": "active",
       "onboarding": "",
@@ -2983,6 +4299,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/microdemic",
       "ropensci_category": "literature"
+    },
+    {
+      "name": "miner",
+      "description": "Control Minecraft with RaspberryJuice API",
+      "details": "Following the code in py3minepi, allows one to connect to the minecraft from R.",
+      "maintainer": "Karl Broman",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/miner",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/miner"
     },
     {
       "name": "MODIStsp",
@@ -3143,7 +4472,7 @@
       "description": "Access 'Nomis' UK Labour Market Data",
       "details": "Access UK official statistics from the 'Nomis' database. \n    'Nomis' includes data from the Census, the Labour Force Survey, DWP benefit \n    statistics and other economic and demographic data from the Office for \n    National Statistics, based around statistical geographies. See \n    <https://www.nomisweb.co.uk/api/v01/help> for full API documentation.",
       "maintainer": "Evan Odell",
-      "keywords": "api-client, census-data, demography, geographic-data, national-statistics, officialstatistics, official-statistics, peer-reviewed, uk",
+      "keywords": "api-client, census-data, demography, geographic-data, national-statistics, official-statistics, officialstatistics, peer-reviewed, uk",
       "github": "https://github.com/ropensci/nomisr",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/190",
@@ -3151,6 +4480,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/nomisr",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "notary",
+      "description": "Signing and Verification of R Packages",
+      "details": "Signing and verification of R packages.",
+      "maintainer": "Bob Rudis",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/notary",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/notary",
+      "ropensci_category": "security"
     },
     {
       "name": "oai",
@@ -3165,6 +4508,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/oai",
       "ropensci_category": "literature"
+    },
+    {
+      "name": "ochRe",
+      "description": "Australia-Themed Color Palettes",
+      "details": "Provide Australia-themed color palettes.",
+      "maintainer": "Holly Kirk",
+      "keywords": "ozunconf17",
+      "github": "https://github.com/ropensci/ochRe",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ochRe",
+      "ropensci_category": "data-visualization"
     },
     {
       "name": "onekp",
@@ -3227,7 +4584,7 @@
       "description": "Import 'OpenStreetMap' Data as Simple Features or Spatial Objects",
       "details": "Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp'\n    objects.  'OSM' data are extracted from the 'Overpass' web server and\n    processed with very fast 'C++' routines for return to 'R'.",
       "maintainer": "Mark Padgham",
-      "keywords": "cpp, open0street0map, openstreetmap, osm, OSM, osm-data, overpass0API, overpass-api, peer-reviewed",
+      "keywords": "cpp, open0street0map, openstreetmap, osm, OSM, osm-data, overpass-api, overpass0API, peer-reviewed",
       "github": "https://github.com/ropensci/osmdata",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/103",
@@ -3276,6 +4633,62 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/outcomerate",
+      "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "ozdata",
+      "description": "Import and explore freely available Australian data sets",
+      "details": "There are many high quality data sets that are freely\n    available for Australia. Unfortunately they can be difficult to obtain\n    and analyse.  Here we provide tools to programmatically import and\n    explore Australian data sets.  Data can be obtained from the official\n    Australian government portal, which contains over 40,000 data sets\n    (<https://data.gov.au>).  Additionally, economic data sets can be\n    obtained from the Australian Macro Database\n    (<http://ozmacrodata.org>).  This project was created during the 2017\n    BURGr R UnConference <https://github.com/AU-BURGr/UnConf2017>.",
+      "maintainer": "Jonathan Carroll",
+      "keywords": "",
+      "github": "https://github.com/ropensci/ozdata",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ozdata",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "ozflights",
+      "description": "Get Australian Flight Data, 1985-2016",
+      "details": "A package to obtain Australian aviation data from BITRE.\n    This incudes airport traffic data between 1985-2016 covering international freight data, \n    and both international and domestic data on number of passengers, and flight movements - \n    for both regional and metropolitan airports.\n    The Package also includes distances of flight originating in or ending in Australia, and the\n    location of all relevant airports. ",
+      "maintainer": "Mathew Ling",
+      "keywords": "ozunconf17",
+      "github": "https://github.com/ropensci/ozflights",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ozflights",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "ozroaddeaths",
+      "description": "Pulls Data From Australian Road Deaths Database",
+      "details": "ozroaddeaths is a package that pulls data from the Australian Road \n    Deaths Database, run by the Bureau of Infrastructure, Transport and Regional\n    Economics (BITRE). This provides basic details of road transport crash\n    fatalities in Australia as reported by the police each month to the State\n    and Territory road safety authorities. The details provided in the\n    database fall into two groups: 1) the circumstances of the crash, for\n    example, date, location, crash type some details regarding the persons\n    killed, for example, age, gender and road user group.",
+      "maintainer": "Nicholas Tierney",
+      "keywords": "ozunconf17",
+      "github": "https://github.com/ropensci/ozroaddeaths",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ozroaddeaths",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "packagemetrics",
+      "description": "Collect Metrics on Packages from CRAN, GitHub, and StackOverflow",
+      "details": "This package was designed to address two issues, 78 and 69, for the ROpenSci \n            unconf17 concerning avoiding redundant / overlapping packages and a framework for \n            reproducible tables. As this is a complex topic, the smaller tasks being accomplished \n            is producing a list of metrics that can be used to compare similar packages utilizing \n            information collected from CRAN, GitHub, and StackOverflow.",
+      "maintainer": "Sam Firke",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/packagemetrics",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/packagemetrics",
       "ropensci_category": "scalereprod"
     },
     {
@@ -3335,6 +4748,20 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "pegax",
+      "description": "Taxonomy PEG (Parsing Expression Grammar)",
+      "details": "Taxonomy PEG (Parsing Expression Grammar) client, with\n    grammar for parsing taxonomic names.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "parser, peg, taxonomy, unconf17",
+      "github": "https://github.com/ropensci/pegax",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/pegax",
+      "ropensci_category": "taxonomy"
+    },
+    {
       "name": "phylocomr",
       "description": "Interface to 'Phylocom'",
       "details": "Interface to 'Phylocom' (<http://phylodiversity.net/phylocom/>),\n    a library for analysis of 'phylogenetic' community structure and\n    character evolution. Includes low level methods for interacting with\n    the three executables, as well as higher level interfaces for methods\n    like 'aot', 'ecovolve', 'bladj', 'phylomatic', and more.",
@@ -3389,6 +4816,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/phylotaR",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "phyrmeta",
+      "description": "Client to Handle Phylometa Output",
+      "details": "Phylometa (http://lajeunesse.myweb.usf.edu/publications.htm>)\n    R client.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/phyrmeta",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/phyrmeta",
+      "ropensci_category": "data-tools"
     },
     {
       "name": "piggyback",
@@ -3461,6 +4902,20 @@
       "ropensci_category": "data-visualization"
     },
     {
+      "name": "ponyexpress",
+      "description": "Automate sending email with 'Gmail'",
+      "details": "What the package does (one paragraph).",
+      "maintainer": "Karthik Ram",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/ponyexpress",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ponyexpress",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "PostcodesioR",
       "description": "API wrapper around postcodes.io (free UK postcode lookup and geocoder)",
       "details": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around postcodes.io.",
@@ -3478,7 +4933,7 @@
       "name": "prism",
       "description": "Access Data from the Oregon State Prism Climate Project",
       "details": "Allows users to access the Oregon State Prism climate data. Using\n    the web service API data can easily downloaded in bulk and loaded into R for\n    spatial analysis. Some user friendly visualizations are also provided.",
-      "maintainer": "Hart Edmund",
+      "maintainer": "Alan Butler",
       "keywords": "",
       "github": "https://github.com/ropensci/prism",
       "status": "active",
@@ -3629,6 +5084,32 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "rcheatsheet",
+      "description": "A package to create cheatsheets",
+      "details": "This package helps create cheatsheets.",
+      "maintainer": "Ramnath Vaidyanathan",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/rcheatsheet",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rcheatsheet"
+    },
+    {
+      "name": "rcites",
+      "description": "R Interface to the Species+ Database",
+      "details": "A programmatic interface to the Species+ <https://speciesplus.net/> database via the Species+/CITES Checklist API <https://api.speciesplus.net/>.",
+      "maintainer": "Kevin Cazelles",
+      "keywords": "api-client, cites, database, endangered-species, trade",
+      "github": "https://github.com/ropensci/rcites",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/244",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rcites"
+    },
+    {
       "name": "rcoreoa",
       "description": "Client for the CORE API",
       "details": "Client for the CORE API (<https://core.ac.uk/docs/>).\n    CORE (<https://core.ac.uk>) aggregates open access research\n    outputs from repositories and journals worldwide and make them\n    available to the public.",
@@ -3675,7 +5156,7 @@
       "description": "R Interface to the Data Retriever",
       "details": "Provides an R interface to the Data Retriever\n    <http://data-retriever.org/> via the Data Retriever's\n    command line interface. The Data Retriever automates the\n    tasks of finding, downloading, and cleaning public datasets,\n    and then stores them in a local database.",
       "maintainer": "Daniel McGlinn",
-      "keywords": "data, database, data-science, datasets, science",
+      "keywords": "data, data-science, database, datasets, science",
       "github": "https://github.com/ropensci/rdataretriever",
       "status": "active",
       "onboarding": "",
@@ -3711,6 +5192,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rdflib",
       "ropensci_category": "data-tools"
+    },
+    {
+      "name": "rdhs",
+      "description": "API Client and Dataset Management for the Demographic and Health Survey (DHS) Data",
+      "details": "Provides a client for (1) querying the DHS API for survey indicators\n  and metadata (<https://api.dhsprogram.com/#/index.html>), (2) identifying surveys\n  and datasets for analysis, (3) downloading survey datasets from the DHS website,\n  (4) loading datasets and associate metadata into R, and (5) extracting variables\n  and combining datasets for pooled analysis.",
+      "maintainer": "OJ Watson",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rdhs",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rdhs"
     },
     {
       "name": "rdopa",
@@ -3753,6 +5247,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rdryad",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "realtime",
+      "description": "Realtime data visaulization",
+      "details": "Create real time data visualizations.",
+      "maintainer": "Jonathan Carroll",
+      "keywords": "ozunconf17",
+      "github": "https://github.com/ropensci/realtime",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/realtime",
+      "ropensci_category": "data-visualization"
     },
     {
       "name": "rebird",
@@ -3837,6 +5345,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rerddap",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "restez",
+      "description": "Create and Query a Local Copy of 'GenBank' in R",
+      "details": "Download large sections of\n    'GenBank' <https://www.ncbi.nlm.nih.gov/genbank/> and generate a local\n    SQL-based database. A user can then query this database using 'restez'\n    functions or through 'rentrez' <https://CRAN.R-project.org/package=rentrez>\n    wrappers.",
+      "maintainer": "Dom Bennett",
+      "keywords": "dna, entrez, genbank, sequence",
+      "github": "https://github.com/ropensci/restez",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/232",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/restez"
     },
     {
       "name": "reuropeana",
@@ -3965,6 +5486,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "ridb",
+      "description": "Client for the Index Database of Remote Sensing Indices",
+      "details": "Index Database (<http://www.indexdatabase.de/>) of remote\n    sensing indices.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/ridb",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/ridb",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "riem",
       "description": "Accesses Weather Data from the Iowa Environment Mesonet",
       "details": "Allows to get weather data from Automated Surface Observing System (ASOS) stations (airports) in the\n    whole world thanks to the Iowa Environment Mesonet website.",
@@ -4004,6 +5539,20 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/rinat",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "riodata",
+      "description": "Get data related to transportation and cultural places from Rio de\n    Janeiro, Brazil.",
+      "details": "Get data related to transportation and cultural places from Rio de\n    Janeiro, Brazil.",
+      "maintainer": "Gabriela de Queiroz",
+      "keywords": "unconf16",
+      "github": "https://github.com/ropensci/riodata",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/riodata",
       "ropensci_category": "data-access"
     },
     {
@@ -4329,6 +5878,33 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "rtd",
+      "description": "What the Package Does (Title Case)",
+      "details": "More about what it does (maybe more than one line)",
+      "maintainer": "Who to to",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rtd",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rtd",
+      "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "rthings",
+      "description": "Retrieves Data From 'list.design'",
+      "details": "'list.design' (http://lists.design/) is gallery of real data ready to be placed in other contexts.",
+      "maintainer": "Karthik Ram",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rthings",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rthings"
+    },
+    {
       "name": "rtika",
       "description": "R Interface to 'Apache Tika'",
       "details": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
@@ -4399,6 +5975,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "rwdpa",
+      "description": "World Database of Protected Areas Client",
+      "details": "Client for the World Database of Protected Areas from\n    Protected Planet (<https://api.protectedplanet.net/>).\n    Fetching csv, kml, or shape files for protected areas,\n    and functions for interacting with their API.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-client, conservation, protected-areas",
+      "github": "https://github.com/ropensci/rwdpa",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rwdpa",
+      "ropensci_category": "data-access"
+    },
+    {
       "name": "rzmq",
       "description": "R Bindings for 'ZeroMQ'",
       "details": "Interface to the 'ZeroMQ' lightweight messaging kernel (see <http://www.zeromq.org/> for more information).",
@@ -4411,6 +6001,34 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rzmq",
       "ropensci_category": "scalereprod"
+    },
+    {
+      "name": "scatrr",
+      "description": "Scholastic Commentaries and Texts Archive Client",
+      "details": "Scholastic Commentaries and Texts Archive (<http://scta.info/>) \n    client.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/scatrr",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/scatrr",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "scitations",
+      "description": "Bibliographic Citation Tools",
+      "details": "Bibliographic citation tools, including for making easy to \n    use S3 citation objects called scitations, coercing DOI's, and rcrossref \n    package outputs to scitations objects, and making and working with \n    tidy citations. Citation objects are aware of the different citation \n    work types and the fields allowed in each type.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/scitations",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/scitations",
+      "ropensci_category": "literature"
     },
     {
       "name": "scrubr",
@@ -4441,6 +6059,34 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "seasl",
+      "description": "Parse Citation Style Language ('CSL') Texts",
+      "details": "Parse 'CSL' Styles (<http://citationstyles.org>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "citeproc",
+      "github": "https://github.com/ropensci/seasl",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/seasl",
+      "ropensci_category": "literature"
+    },
+    {
+      "name": "siftgeojson",
+      "description": "Sift 'GeoJSON'",
+      "details": "Sift through 'GeoJSON' easily without having to convert to\n    spatial objects with heavy dependencies.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/siftgeojson",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/siftgeojson",
+      "ropensci_category": "geospatial"
+    },
+    {
       "name": "skimr",
       "description": "Compact and Flexible Summaries of Data",
       "details": "A simple to use summary function that can be used with pipes\n    and displays nicely in the console. The default summary statistics may be \n    modified by the user as can the default formatting. Support for data frames \n    and vectors is included, and users can implement their own skim methods for\n    specific object types as described in a vignette. Default summaries include\n    support for inline spark graphs. Instructions for managing these on \n    specific operating systems are given in the \"Using skimr\" vignette and the \n    README.",
@@ -4462,7 +6108,7 @@
       "keywords": "air-transport, bts, bureau-of-transport-statistics, db1b, peer-reviewed, rita, skynet, t100, transtats",
       "github": "https://github.com/ropensci/skynet",
       "status": "active",
-      "onboarding": "",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/214",
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/skynet",
@@ -4481,6 +6127,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/smapr",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "snowball",
+      "description": "Spin up a managed cluster and perform parallel calculations",
+      "details": "Spin up a head node, which spins up worker nodes, and performs parallel calculations",
+      "maintainer": "#auunconf hackathoners",
+      "keywords": "auunconf",
+      "github": "https://github.com/ropensci/snowball",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/snowball",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "sofa",
@@ -4511,17 +6171,72 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "sparqldsl",
+      "description": "SPARQL DSL Client",
+      "details": "SPARQL DSL Client.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "sparql, sparql-dsl",
+      "github": "https://github.com/ropensci/sparqldsl",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/sparqldsl",
+      "ropensci_category": "databases"
+    },
+    {
+      "name": "spatsoc",
+      "description": "Group Animal Relocation Data by Spatial and Temporal Relationship",
+      "details": "Detects spatial and temporal groups in GPS relocations. \n    It can be used to convert GPS relocations to \n    gambit-of-the-group format to build proximity-based social networks. \n    In addition, the randomizations function provides data-stream \n    randomization methods suitable for GPS data. ",
+      "maintainer": "Alec L. Robitaille",
+      "keywords": "",
+      "github": "https://github.com/ropensci/spatsoc",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/237",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/spatsoc"
+    },
+    {
       "name": "spelling",
       "description": "Tools for Spell Checking in R",
       "details": "Spell checking common document formats including latex, markdown, manual pages,\n    and description files. Includes utilities to automate checking of documentation and \n    vignettes as a unit test during 'R CMD check'. Both British and American English are \n    supported out of the box and other languages can be added. In addition, packages may\n    define a 'wordlist' to allow custom terminology without having to abuse punctuation.",
       "maintainer": "Jeroen Ooms",
-      "keywords": "spellcheck, spell-check, spellchecker, spell-checker, spelling",
+      "keywords": "spell-check, spell-checker, spellcheck, spellchecker, spelling",
       "github": "https://github.com/ropensci/spelling",
       "status": "active",
       "onboarding": "",
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/spelling",
+      "ropensci_category": "data-tools"
+    },
+    {
+      "name": "spenv",
+      "description": "Add Environmental Data to Spatial Data",
+      "details": "Add Environmental Data to Spatial Data. Stuff.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/spenv",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/spenv",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "splister",
+      "description": "Match Species Lists Against Reference List",
+      "details": "Match Species Lists Against Reference List.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "data, taxonomy",
+      "github": "https://github.com/ropensci/splister",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/splister",
       "ropensci_category": "data-tools"
     },
     {
@@ -4536,6 +6251,34 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/spocc",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "spplist",
+      "description": "Get Species Lists from Many Data Sources",
+      "details": "Get species lists form many data sources, including any available via \n    the spocc and rgbif packages.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/spplist",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/spplist",
+      "ropensci_category": "data-access"
+    },
+    {
+      "name": "spplit",
+      "description": "Combine Literature and Species Occurrence Data",
+      "details": "Combine literature and species occurrence data. Literature\n    data sources include the Biodiversity Heritage Library, and species\n    occurrence data sources include the Global Biodiversity Information\n    Facility (GBIF; <http://www.gbif.org/>) and the Integrated Digitized\n    Biocollections (iDigBio; <https://www.idigbio.org/>). More data\n    sources to come.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/spplit",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/spplit",
       "ropensci_category": "data-access"
     },
     {
@@ -4706,6 +6449,20 @@
       "ropensci_category": "image-processing"
     },
     {
+      "name": "testrmd",
+      "description": "Testing for R Markdown Chunks",
+      "details": "Provides facilities for adding test chunks to RMarkdown documents,\n    as well as CSS and javascript for nice styling of the output. This enables\n    testing of data without completely stopping the knitting of a document, while\n    seeing possible problems in the final HTML output.",
+      "maintainer": "Robert M Flight",
+      "keywords": "rmarkdown, testing, unconf17",
+      "github": "https://github.com/ropensci/testrmd",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/testrmd",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "textreuse",
       "description": "Detect Text Reuse and Document Similarity",
       "details": "Tools for measuring similarity among documents and detecting\n    passages which have been reused. Implements shingled n-gram, skip n-gram,\n    and other tokenizers; similarity/dissimilarity functions; pairwise\n    comparisons; minhash and locality sensitive hashing algorithms; and a\n    version of the Smith-Waterman local alignment algorithm suitable for\n    natural language.",
@@ -4718,6 +6475,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/textreuse",
       "ropensci_category": "literature"
+    },
+    {
+      "name": "tic",
+      "description": "CI-Agnostic Workflow Definitions",
+      "details": "\n    Provides a way to describe common build and deployment workflows for R-based\n    projects: packages, websites (e.g. blogdown, pkgdown), or data processing\n    (e.g. research compendia).  The recipe is described independent of the\n    continuous integration tool used for processing the workflow (e.g.\n    'Travis CI' or 'AppVeyor').",
+      "maintainer": "Kirill Müller",
+      "keywords": "appveyor, continuous-integration, deployment, travis-ci",
+      "github": "https://github.com/ropensci/tic",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tic",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "tidyhydat",
@@ -4748,6 +6519,33 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "tiler",
+      "description": "Create Geographic and Non-Geographic Map Tiles",
+      "details": "Creates geographic map tiles from geospatial map files or non-geographic map tiles from simple image files. \n    This package provides a tile generator function for creating map tile sets for use with packages such as 'leaflet'. \n    In addition to generating map tiles based on a common raster layer source, it also handles the non-geographic edge case, producing map tiles from arbitrary images.\n    These map tiles, which have a non-geographic, simple coordinate reference system (CRS), can also be used with 'leaflet' when applying the simple CRS option.\n    Map tiles can be created from an input file with any of the following extensions: tif, grd and nc for spatial maps and png, jpg and bmp for basic images.\n    This package requires 'Python' and the 'gdal' library for 'Python'. \n    'Windows' users are recommended to install 'OSGeo4W' (<https://trac.osgeo.org/osgeo4w/>) as an easy way to obtain the required 'gdal' support for 'Python'.",
+      "maintainer": "Matthew Leonawicz",
+      "keywords": "",
+      "github": "https://github.com/ropensci/tiler",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/226",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tiler"
+    },
+    {
+      "name": "timeraster",
+      "description": "Time Series Rasters",
+      "details": "Time-series rasters. Create a time series of rasters.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/timeraster",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/timeraster",
+      "ropensci_category": "geospatial"
+    },
+    {
       "name": "tokenizers",
       "description": "Fast, Consistent Tokenization of Natural Language Text",
       "details": "Convert natural language text into tokens. Includes tokenizers for\n    shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs,\n    characters, shingled characters, lines, tweets, Penn Treebank, regular\n    expressions, as well as functions for counting characters, words, and sentences,\n    and a function for splitting longer texts into separate documents, each with\n    the same number of words.  The tokenizers have a consistent interface, and\n    the package is built on the 'stringi' and 'Rcpp' packages for  fast\n    yet correct tokenization in 'UTF-8'. ",
@@ -4776,18 +6574,18 @@
       "ropensci_category": "data-access"
     },
     {
-      "name": "treebase",
-      "description": "Discovery, Access and Manipulation of 'TreeBASE' Phylogenies",
-      "details": "Interface to the API for 'TreeBASE' <http://treebase.org>\n    from 'R.' 'TreeBASE' is a repository of user-submitted phylogenetic\n    trees (of species, population, or genes) and the data used to create\n    them.",
-      "maintainer": "Carl Boettiger",
-      "keywords": "",
-      "github": "https://github.com/ropensci/treebase",
+      "name": "travis",
+      "description": "Set Up 'Travis' for Testing and Deployment",
+      "details": "Tools for interacting with the 'Travis' and\n    'GitHub' APIs for setting up continuous integration for R packages and\n    other R-based projects.",
+      "maintainer": "Kirill Müller",
+      "keywords": "continuous-integration, deployment, github, setup, travis-ci",
+      "github": "https://github.com/ropensci/travis",
       "status": "active",
       "onboarding": "",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
-      "url": "https://github.com/ropensci/treebase",
-      "ropensci_category": "data-access"
+      "url": "https://github.com/ropensci/travis",
+      "ropensci_category": "scalereprod"
     },
     {
       "name": "treebase",
@@ -4802,6 +6600,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/treebase",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "treestartr",
+      "description": "Generate Starting Trees For Combined Molecular, Morphological and Stratigraphic Data",
+      "details": "Combine a list of taxa with a phylogeny to generate a starting tree for use in\n    total evidence dating analyses.",
+      "maintainer": "April Wright",
+      "keywords": "",
+      "github": "https://github.com/ropensci/treestartr",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/239",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/treestartr"
     },
     {
       "name": "unrtf",
@@ -4816,6 +6627,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/unrtf",
       "ropensci_category": "literature"
+    },
+    {
+      "name": "urltemplate",
+      "description": "URL Templating Following RFC6570",
+      "details": "URL templating following RFC6570 \n    (<https://tools.ietf.org/html/rfc6570#page-14>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "rfc-6570",
+      "github": "https://github.com/ropensci/urltemplate",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/urltemplate",
+      "ropensci_category": "http-tools"
     },
     {
       "name": "USAboundaries",
@@ -4930,11 +6755,25 @@
       "ropensci_category": "http-tools"
     },
     {
+      "name": "webrockets",
+      "description": "Websocket client for R",
+      "details": "Basic websocket client for R.",
+      "maintainer": "rOpensci Unconference17",
+      "keywords": "unconf17",
+      "github": "https://github.com/ropensci/webrockets",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/webrockets",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "wellknown",
       "description": "Convert Between 'WKT' and 'GeoJSON'",
       "details": "Convert 'WKT' to 'GeoJSON' and 'GeoJSON' to 'WKT'. Functions\n    included for converting between 'GeoJSON' to 'WKT', creating both\n    'GeoJSON' features, and non-features, creating 'WKT' from R objects\n    (e.g., lists, data.frames, vectors), and linting 'WKT'.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "binary, conversion, geojson, geospatial, spatial, wellknown, well-known-text, wkb, wkt",
+      "keywords": "binary, conversion, geojson, geospatial, spatial, well-known-text, wellknown, wkb, wkt",
       "github": "https://github.com/ropensci/wellknown",
       "status": "active",
       "onboarding": "",
@@ -5012,7 +6851,21 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/xslt",
       "ropensci_category": "data-tools"
+    },
+    {
+      "name": "zissou",
+      "description": "'AquaMaps' Interface",
+      "details": "'AquaMaps' Interface.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/zissou",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/zissou",
+      "ropensci_category": "data-tools"
     }
   ],
-  "date": "2018-12-06 22:13 UTC"
+  "date": "2018-12-08 19:46 UTC"
 }
