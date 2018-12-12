@@ -3422,7 +3422,7 @@
     {
       "name": "pdftools",
       "description": "Text Extraction, Rendering and Converting of PDF Documents",
-      "details": "Utilities based on 'libpoppler' for extracting text, fonts, attachments and \n    metadata from a PDF file. Also supports high quality rendering of PDF documents info\n    PNG, JPEG, TIFF format, or into raw bitmap vectors for further processing in R.",
+      "details": "Utilities based on 'libpoppler' for extracting text, fonts, attachments and \n    metadata from a PDF file. Also supports high quality rendering of PDF documents into\n    PNG, JPEG, TIFF format, or into raw bitmap vectors for further processing in R.",
       "maintainer": "Jeroen Ooms",
       "keywords": "",
       "github": "https://github.com/ropensci/pdftools",
@@ -4690,6 +4690,19 @@
       "ropensci_category": "security"
     },
     {
+      "name": "staypuft",
+      "description": "Convert Complex Objects to and from R Data Structures",
+      "details": "Convert complex objects to and from R data structures.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/staypuft",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/staypuft"
+    },
+    {
       "name": "stplanr",
       "description": "Sustainable Transport Planning",
       "details": "Functionality and data access tools for transport planning,\n    including origin-destination analysis, route allocation and modelling travel\n    patterns.",
@@ -5162,5 +5175,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2018-12-11 20:39 UTC"
+  "date": "2018-12-12 20:39 UTC"
 }
