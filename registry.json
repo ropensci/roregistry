@@ -3236,6 +3236,19 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "nlrx",
+      "description": "Setup, Run and Analyze NetLogo Model Simulations from R via XML",
+      "details": "The purpose of this package is to provide tools to setup, run and analyze NetLogo model simulations in R.\n    nlrx experiments use a similar structure as NetLogos Behavior Space experiments. \n    However, nlrx offers more flexibility and additional tools for running and analyzing complex simulation designs and sensitivity analyses.\n    The user defines all information that is needed in an intuitive framework, using class objects.\n    Experiments are submitted from R to NetLogo via XML files that are dynamically written, based on specifications defined by the user.\n    By nesting model calls in future environments, large simulation design with many runs can be executed in parallel.\n    This also enables simulating NetLogo experiments on remote HPC machines.\n    In order to use this package, Java and NetLogo (>= 5.3.1) need to be installed on the executing system.",
+      "maintainer": "Jan Salecker",
+      "keywords": "agent-based-modeling, individual-based-modelling, netlogo, peer-reviewed",
+      "github": "https://github.com/ropensci/nlrx",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/262",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/nlrx"
+    },
+    {
       "name": "nneo",
       "description": "'NEON' 'API' Client",
       "details": "'NEON' 'API' (<http://data.neonscience.org/data-api>) client.\n    Includes methods for interacting with all 'API' routes.",
@@ -4724,7 +4737,7 @@
       "github": "https://github.com/ropensci/stats19",
       "status": "active",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/stats19"
     },
@@ -5201,5 +5214,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-01-17 21:48 UTC"
+  "date": "2019-01-18 21:48 UTC"
 }
