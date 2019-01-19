@@ -2526,9 +2526,9 @@
     {
       "name": "geojson",
       "description": "Classes for 'GeoJSON'",
-      "details": "Classes for 'GeoJSON' to make working with 'GeoJSON' easier.\n    Includes S3 classes for 'GeoJSON' classes with brief summary output,\n    and a few methods such as extracting and adding bounding boxes,\n    properties, and coordinate reference systems; linting through\n    the 'geojsonlint' package; and serializing to/from 'Geobuf' binary\n    'GeoJSON' format.",
+      "details": "Classes for 'GeoJSON' to make working with 'GeoJSON' easier.\n    Includes S3 classes for 'GeoJSON' classes with brief summary output,\n    and a few methods such as extracting and adding bounding boxes,\n    properties, and coordinate reference systems; working with \n    newline delimited 'GeoJSON'; linting through the 'geojsonlint' \n    package; and serializing to/from 'Geobuf' binary 'GeoJSON' \n    format.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "",
+      "keywords": "bbox, conversion, data, geobuf, geojson, geospatial, input-output, polygon",
       "github": "https://github.com/ropensci/geojson",
       "status": "active",
       "onboarding": "",
@@ -5214,5 +5214,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-01-18 21:48 UTC"
+  "date": "2019-01-19 21:48 UTC"
 }
