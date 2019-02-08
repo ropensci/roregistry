@@ -957,8 +957,8 @@
     },
     {
       "name": "rcitoid",
-      "description": "Client for Citoid",
-      "details": "Client for Citoid (<https://www.mediawiki.org/wiki/Citoid>).",
+      "description": "Client for 'Citoid'",
+      "details": "Client for 'Citoid' (<https://www.mediawiki.org/wiki/Citoid>),\n    an API for getting citations for various scholarly work identifiers\n    found on 'Wikipedia'.",
       "maintainer": "Scott Chamberlain",
       "keywords": "citations, Citoid, literature, publications, text-ming, Wikicite, Wikipedia",
       "github": "https://github.com/ropenscilabs/rcitoid",
@@ -2647,7 +2647,7 @@
       "description": "Tools for Validating 'GeoJSON'",
       "details": "Tools for linting 'GeoJSON'. Includes tools for interacting with the\n    online tool <http://geojsonlint.com>, the 'Javascript' library 'geojsonhint'\n    (<https://www.npmjs.com/package/geojsonhint>), and validating against a\n    'GeoJSON' schema via the 'Javascript' library\n    (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally\n    while others require an internet connection.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "",
+      "keywords": "data, geojson, geospatial, hint, lint, schema",
       "github": "https://github.com/ropensci/geojsonlint",
       "status": "active",
       "onboarding": "",
@@ -3773,8 +3773,8 @@
     },
     {
       "name": "qpdf",
-      "description": "Split, Combine and Compress PDF files",
-      "details": "Binary transformations of PDF files such as split, combine, and compress. \n    Note that qpdf does not parse actual content from  PDF files, to extract text and\n    data you need the 'pdftools' package.",
+      "description": "Split, Combine and Compress PDF Files",
+      "details": "Content-preserving transformations transformations of PDF files such \n    as split, combine, and compress. This package interfaces directly to the 'qpdf' \n    C++ API and does not require any command line utilities. Note that qpdf does\n    not read actual content from PDF files: to extract text and data you need the\n    'pdftools' package.",
       "maintainer": "Jeroen Ooms",
       "keywords": "",
       "github": "https://github.com/ropensci/qpdf",
@@ -5370,5 +5370,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-02-07 21:49 UTC"
+  "date": "2019-02-08 21:49 UTC"
 }
