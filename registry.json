@@ -2867,9 +2867,9 @@
     {
       "name": "handlr",
       "description": "Convert Among Citation Formats",
-      "details": "Converter for many citation formats.",
+      "details": "Converts among many citation formats, including 'BibTeX',\n    'Citeproc', 'Codemeta', 'RDF XML', 'RIS', and 'Schema.org'. A low\n    level 'R6' class is provided, as well as stand-alone functions\n    for each citation format for both read and write.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "bibtex, citation, doi, metadata",
+      "keywords": "bibtex, citation, Citeproc, Codemeta, Crosscite, Crossref, doi, JSON, metadata, RDF, RIS, XML",
       "github": "https://github.com/ropensci/handlr",
       "status": "wip",
       "onboarding": "",
@@ -3329,7 +3329,7 @@
       "maintainer": "Adam H. Sparks",
       "keywords": "agroclimatology, climate-data, data-access, earth-science, global, meteorological-data, meteorology, NASA, NASA-POWER, weather, weather, weather-data",
       "github": "https://github.com/ropensci/nasapower",
-      "status": "wip",
+      "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/155",
       "on_cran": true,
       "on_bioc": false,
@@ -5396,5 +5396,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-02-15 21:50 UTC"
+  "date": "2019-02-16 21:49 UTC"
 }
