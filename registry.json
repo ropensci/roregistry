@@ -5242,6 +5242,19 @@
       "ropensci_category": "http-tools"
     },
     {
+      "name": "virtuoso",
+      "description": "An R interface to Virtuoso using ODBC",
+      "details": "Virtuoso is a high-performance \"universal server,\" which can act\n             as both a relational database (supporting standard SQL queries),\n             and an Resource Description Framework (RDF) triplestore, supporting \n             SPARQL queries and semantic reasoning. The virtuoso R package provides\n             R users with a DBI-compatible connection to the Virtuoso database. \n             The package also provides helper routines to install, launch, and manage\n             a Virtuoso server locally on Mac, Windows and Linux platforms using\n             the standard interactive installers from the R command-line.  By \n             automatically handling these setup steps, the package can make Virtuoso\n             considerably faster and easier for a most users to deploy in a local\n             environment. While this can be used as a normal dplyr backend, Virtuoso \n             excels when used as a RDF triplestore.  Managing the bulk import of triples\n             from common serializations with a single intuitive command is another key\n             feature of the virtuoso R package.  Bulk import performance can be tens to\n             hundreds of times faster than the comparable imports using existing R tools,\n             including rdflib and redland packages.  ",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropensci/virtuoso",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/virtuoso"
+    },
+    {
       "name": "visdat",
       "description": "Preliminary Visualisation of Data",
       "details": "Create preliminary exploratory data visualisations of an entire \n    dataset to identify problems or unexpected features using 'ggplot2'.",
@@ -5409,5 +5422,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-02-20 21:49 UTC"
+  "date": "2019-02-21 21:49 UTC"
 }
