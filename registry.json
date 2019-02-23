@@ -2444,6 +2444,19 @@
       "ropensci_category": "data-publication"
     },
     {
+      "name": "emld",
+      "description": "Ecological Metadata as Linked Data",
+      "details": "This is a utility for transforming Ecological Metadata Language\n        (EML) files into JSON-LD and back into EML.  Doing so creates a\n        list-based representation of EML in R, so that EML data can easily\n        be manipulated using standard R tools. This makes this package an\n        effective backend for other R-based tools  working with EML. By\n        abstracting away the complexity of EML's XML Schema, developers can\n        build around native R list objects and not have to worry about satisfying\n        many of the additional constraints of set by the schema (such as element\n        ordering, which is handled automatically). Additionally, the JSON-LD \n        representation enables the use of developer-friendly JSON parsing and\n        serialization that may facilitate the use of EML in contexts outside of R,\n        as well as the informatics-friendly serializations such as RDF and\n        SPARQL queries.",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropensci/emld",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/emld"
+    },
+    {
       "name": "EndoMineR",
       "description": "Functions to mine endoscopic and associated pathology datasets",
       "details": "This script comprises the functions that are used to clean up endoscopic \n             reports and pathology reports as well as many of the scripts used for analysis.  \n             The scripts assume the endoscopy and histopathology data set is merged already but it can \n             also be used of course with the unmerged datasets.",
@@ -5422,5 +5435,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-02-22 21:49 UTC"
+  "date": "2019-02-23 21:49 UTC"
 }
