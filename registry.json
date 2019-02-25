@@ -1436,6 +1436,19 @@
       "ropensci_category": "scalereprod"
     },
     {
+      "name": "tic.covrpage",
+      "description": "Dummy package for tic and covrpage example",
+      "details": "Dummy package nothing to see.",
+      "maintainer": "Jonathan Sidi",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/tic.covrpage",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/tic.covrpage"
+    },
+    {
       "name": "tic.drat",
       "description": "Example Package for 'tic'",
       "details": "Building a package and uploading it to a drat repository.",
@@ -4576,6 +4589,19 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "Rpolyhedra",
+      "description": "Polyhedra Database",
+      "details": "A polyhedra database scraped from various sources as R6 objects and 'rgl' visualizing capabilities.",
+      "maintainer": "Alejandro Baranek",
+      "keywords": "",
+      "github": "https://github.com/ropensci/Rpolyhedra",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/157",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/Rpolyhedra"
+    },
+    {
       "name": "rppo",
       "description": "Access the Global Plant Phenology Data Portal",
       "details": "An R interface to the Global Plant Phenology Data Portal,\n    which is accessible online at <https://www.plantphenology.org/>.",
@@ -4790,7 +4816,7 @@
       "description": "Compact and Flexible Summaries of Data",
       "details": "A simple to use summary function that can be used with pipes\n    and displays nicely in the console. The default summary statistics may be \n    modified by the user as can the default formatting. Support for data frames \n    and vectors is included, and users can implement their own skim methods for\n    specific object types as described in a vignette. Default summaries include\n    support for inline spark graphs. Instructions for managing these on \n    specific operating systems are given in the \"Using skimr\" vignette and the \n    README.",
       "maintainer": "Elin Waring",
-      "keywords": "unconf17",
+      "keywords": "ropensci, summary-statistics, unconf, unconf17",
       "github": "https://github.com/ropensci/skimr",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/175",
@@ -4990,6 +5016,19 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/tabulizerjars"
+    },
+    {
+      "name": "tacmagic",
+      "description": "PET Analysis in R",
+      "details": "To faciliate analysis of positron emission tomography (PET) time\n    activity curve (TAC) data, and to encourage open science and replicability,\n    this package supports data loading and analysis of multiple TAC file \n    formats. Functions are available to analyze loaded tac data for individual \n    participants or in batches. Major functionality includes weighted TAC \n    merging by region of interest (ROI), calculating models including SUVR and\n    DVR, basic plotting functions and calculation of cut-off values. Please see\n    the walkthrough vignette for a detailed overview of tacmagic functions.",
+      "maintainer": "Eric Brown",
+      "keywords": "mri, neuroimaging, neuroscience, neuroscience-methods, pet, pet-mr, positron, positron-emission-tomography, statistics",
+      "github": "https://github.com/ropensci/tacmagic",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tacmagic"
     },
     {
       "name": "taxa",
@@ -5435,5 +5474,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-02-24 21:49 UTC"
+  "date": "2019-02-25 21:49 UTC"
 }
