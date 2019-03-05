@@ -2472,7 +2472,7 @@
     {
       "name": "emld",
       "description": "Ecological Metadata as Linked Data",
-      "details": "This is a utility for transforming Ecological Metadata Language\n        (EML) files into JSON-LD and back into EML.  Doing so creates a\n        list-based representation of EML in R, so that EML data can easily\n        be manipulated using standard R tools. This makes this package an\n        effective backend for other R-based tools  working with EML. By\n        abstracting away the complexity of EML's XML Schema, developers can\n        build around native R list objects and not have to worry about satisfying\n        many of the additional constraints of set by the schema (such as element\n        ordering, which is handled automatically). Additionally, the JSON-LD \n        representation enables the use of developer-friendly JSON parsing and\n        serialization that may facilitate the use of EML in contexts outside of R,\n        as well as the informatics-friendly serializations such as RDF and\n        SPARQL queries.",
+      "details": "This is a utility for transforming Ecological Metadata Language\n        ('EML') files into 'JSON-LD' and back into 'EML.'  Doing so creates a\n        list-based representation of 'EML' in R, so that 'EML' data can easily\n        be manipulated using standard 'R' tools. This makes this package an\n        effective backend for other 'R'-based tools  working with 'EML.' By\n        abstracting away the complexity of 'XML' Schema, developers can\n        build around native 'R' list objects and not have to worry about satisfying\n        many of the additional constraints of set by the schema (such as element\n        ordering, which is handled automatically). Additionally, the 'JSON-LD' \n        representation enables the use of developer-friendly 'JSON' parsing and\n        serialization that may facilitate the use of 'EML' in contexts outside of 'R,'\n        as well as the informatics-friendly serializations such as 'RDF' and\n        'SPARQL' queries.",
       "maintainer": "Carl Boettiger",
       "keywords": "",
       "github": "https://github.com/ropensci/emld",
@@ -3432,8 +3432,8 @@
     },
     {
       "name": "nlrx",
-      "description": "Setup, Run and Analyze NetLogo Model Simulations from R via XML",
-      "details": "The purpose of this package is to provide tools to setup, run and analyze NetLogo model simulations in R.\n    nlrx experiments use a similar structure as NetLogos Behavior Space experiments. \n    However, nlrx offers more flexibility and additional tools for running and analyzing complex simulation designs and sensitivity analyses.\n    The user defines all information that is needed in an intuitive framework, using class objects.\n    Experiments are submitted from R to NetLogo via XML files that are dynamically written, based on specifications defined by the user.\n    By nesting model calls in future environments, large simulation design with many runs can be executed in parallel.\n    This also enables simulating NetLogo experiments on remote HPC machines.\n    In order to use this package, Java and NetLogo (>= 5.3.1) need to be installed on the executing system.",
+      "description": "Setup, Run and Analyze 'NetLogo' Model Simulations from 'R' via 'XML'",
+      "details": "The purpose of this package is to provide tools to setup, run and analyze 'NetLogo' (<https://ccl.northwestern.edu/netlogo/>) model simulations in 'R'.\n    'nlrx' experiments use a similar structure as 'NetLogos' Behavior Space experiments. \n    However, 'nlrx' offers more flexibility and additional tools for running and analyzing complex simulation designs and sensitivity analyses.\n    The user defines all information that is needed in an intuitive framework, using class objects.\n    Experiments are submitted from 'R' to 'NetLogo' via 'XML' files that are dynamically written, based on specifications defined by the user.\n    By nesting model calls in future environments, large simulation design with many runs can be executed in parallel.\n    This also enables simulating 'NetLogo' experiments on remote HPC machines.\n    In order to use this package, 'Java' and 'NetLogo' (>= 5.3.1) need to be available on the executing system.",
       "maintainer": "Jan Salecker",
       "keywords": "agent-based-modeling, individual-based-modelling, netlogo, peer-reviewed",
       "github": "https://github.com/ropensci/nlrx",
@@ -5336,7 +5336,7 @@
     {
       "name": "wateRinfo",
       "description": "Download Time Series Data from Waterinfo.be",
-      "details": "The wateRinfo package provides an R interface to the data available\n    at waterinfo.be, the data portal provided by the Flemish Environmental\n    Agency. The package provides R functions to check the available stations for \n    a given variable, check the available variable for a given station and \n    download time series using the database identifiers as well as station \n    names.",
+      "details": "wateRinfo facilitates access to waterinfo.be \n    (<https://www.waterinfo.be>), a website managed by the Flanders Environment \n    Agency (VMM) and Flanders Hydraulics Research. The website provides access \n    to real-time water and weather related environmental variables for Flanders \n    (Belgium), such as rainfall, air pressure, discharge, and water level. The \n    package provides functions to search for stations and variables, and \n    download time series.",
       "maintainer": "Stijn Van Hoey",
       "keywords": "",
       "github": "https://github.com/ropensci/wateRinfo",
@@ -5487,5 +5487,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-03-04 21:49 UTC"
+  "date": "2019-03-05 21:49 UTC"
 }
