@@ -761,6 +761,19 @@
       "ropensci_category": "security"
     },
     {
+      "name": "oauthlib",
+      "description": "Build and Validate 'OAuth' Headers",
+      "details": "Build and Validate 'OAuth' Headers.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/oauthlib",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/oauthlib"
+    },
+    {
       "name": "ochRe",
       "description": "Australia-Themed Color Palettes",
       "details": "Provide Australia-themed color palettes.",
@@ -5032,8 +5045,8 @@
     },
     {
       "name": "tacmagic",
-      "description": "PET Analysis in R",
-      "details": "To facilitate analysis of positron emission tomography (PET) time\n    activity curve (TAC) data, and to encourage open science and replicability,\n    this package supports data loading and analysis of multiple TAC file \n    formats. Functions are available to analyze loaded tac data for individual \n    participants or in batches. Major functionality includes weighted TAC \n    merging by region of interest (ROI), calculating models including SUVR and\n    DVR, basic plotting functions and calculation of cut-off values. Please see\n    the walkthrough vignette for a detailed overview of tacmagic functions.",
+      "description": "Positron Emission Tomography Time-Activity Curve Analysis",
+      "details": "To facilitate the analysis of positron emission tomography (PET) \n    time activity curve (TAC) data, and to encourage open science and \n    replicability, this package supports data loading and analysis of multiple \n    TAC file formats. Functions are available to analyze loaded TAC data for \n    individual participants or in batches. Major functionality includes weighted\n    TAC merging by region of interest (ROI), calculating models including \n    standardized uptake value ratio (SUVR) and distribution volume ratio (DVR, \n    Logan et al. 1996 <doi:10.1097/00004647-199609000-00008>), basic plotting \n    functions and calculation of cut-off values (Aizenstein et al. 2008\n    <doi:10.1001/archneur.65.11.1509>). Please see the walkthrough vignette for\n    a detailed overview of 'tacmagic' functions.",
       "maintainer": "Eric Brown",
       "keywords": "mri, neuroimaging, neuroscience, neuroscience-methods, pet, pet-mr, positron, positron-emission-tomography, statistics",
       "github": "https://github.com/ropensci/tacmagic",
@@ -5487,5 +5500,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-03-06 21:49 UTC"
+  "date": "2019-03-07 21:49 UTC"
 }
