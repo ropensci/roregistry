@@ -395,7 +395,7 @@
       "github": "https://github.com/ropenscilabs/eechidna",
       "status": "concept",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/eechidna",
       "ropensci_category": "data-access"
@@ -462,7 +462,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/geofilter",
-      "status": "concept",
+      "status": "abandoned",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -489,7 +489,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/geojsonpolys",
-      "status": "wip",
+      "status": "abandoned",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -1118,7 +1118,7 @@
     },
     {
       "name": "rotemplate",
-      "description": "'pkgdown' Templates for rOpenSci Packages",
+      "description": "'pkgdown' Template for rOpenSci Packages",
       "details": "This is a private template for use by rOpenSci packages.\n    Please don't use for your own code.",
       "maintainer": "Maëlle Salmon",
       "keywords": "",
@@ -1274,7 +1274,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/siftgeojson",
-      "status": "concept",
+      "status": "abandoned",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -1546,7 +1546,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/timeraster",
-      "status": "concept",
+      "status": "unsupported",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -1858,8 +1858,8 @@
     },
     {
       "name": "babette",
-      "description": "Control BEAST2 from R",
-      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>), \n  'Tracer' <http://tree.bio.ed.ac.uk/software/tracer/> \n  and DensiTree (<http://www.beast2.org>).\n  'babette' provides for an alternative workflow of using \n  all these tools separately. This allows doing complex Bayesian\n  phylogenetics easily and reproducibly from R. ",
+      "description": "Control BEAST2",
+      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>), \n    'Tracer' <http://tree.bio.ed.ac.uk/software/tracer/> \n    and 'DensiTree' (<http://www.beast2.org>).\n    'babette' provides for an alternative workflow of using \n    all these tools separately. This allows doing complex Bayesian\n    phylogenetics easily and reproducibly from 'R'. ",
       "maintainer": "Richèl J.C. Bilderbeek",
       "keywords": "",
       "github": "https://github.com/ropensci/babette",
@@ -1885,8 +1885,8 @@
     },
     {
       "name": "beastier",
-      "description": "Call BEAST2 from R",
-      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'BEAST2' is a command-line tool.\n  This package provides a way to call 'BEAST2' \n  from an R function call.",
+      "description": "Call 'BEAST2'",
+      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is a command-line tool.\n    This package provides a way to call 'BEAST2' \n    from an 'R' function call.",
       "maintainer": "Richèl J.C. Bilderbeek",
       "keywords": "",
       "github": "https://github.com/ropensci/beastier",
@@ -2024,7 +2024,7 @@
     {
       "name": "bomrang",
       "description": "Australian Government Bureau of Meteorology ('BOM') Data Client",
-      "details": "Provides functions to interface with Australian Government Bureau\n    of Meteorology ('BOM') data, fetching data and returning a tidy data frame\n    of précis forecasts, historical and current weather data from stations,\n    agriculture bulletin data, 'BOM' 0900 or 1500 weather bulletins and\n    downloading and importing radar and satellite imagery files.  Data (c)\n    Australian Government Bureau of Meteorology Creative Commons (CC)\n    Attribution 3.0 licence or Public Access Licence (PAL) as appropriate.  See\n    <http://www.bom.gov.au/other/copyright.shtml> for further details.",
+      "details": "Provides functions to interface with Australian Government Bureau\n    of Meteorology ('BOM') data, fetching data and returning a tidy data frame\n    of precis forecasts, historical and current weather data from stations,\n    agriculture bulletin data, 'BOM' 0900 or 1500 weather bulletins and\n    downloading and importing radar and satellite imagery files.  Data (c)\n    Australian Government Bureau of Meteorology Creative Commons (CC)\n    Attribution 3.0 licence or Public Access Licence (PAL) as appropriate.  See\n    <http://www.bom.gov.au/other/copyright.shtml> for further details.",
       "maintainer": "Adam Sparks",
       "keywords": "australia, australia-bureau-of-meteorology, bom, meteorological-data, meteorology, weather, weather-data, weather-forecast",
       "github": "https://github.com/ropensci/bomrang",
@@ -2317,13 +2317,13 @@
     {
       "name": "cyphr",
       "description": "High Level Encryption Wrappers",
-      "details": "Encryption wrappers, using low-level support from 'sodium' and\n    'openssl'.",
+      "details": "Encryption wrappers, using low-level support from\n    'sodium' and 'openssl'.  'cyphr' tries to smooth over some pain\n    points when using encryption within applications and data analysis\n    by wrapping around differences in function names and arguments in\n    different encryption providing packages.  It also provides\n    high-level wrappers for input/output functions for seamlessly\n    adding encryption to existing analyses.",
       "maintainer": "Rich FitzJohn",
       "keywords": "",
       "github": "https://github.com/ropensci/cyphr",
-      "status": "wip",
+      "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/114",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/cyphr",
       "ropensci_category": "security"
@@ -3318,9 +3318,9 @@
     },
     {
       "name": "mauricer",
-      "description": "Install BEAST2 packages from R",
-      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>),\n  which, among others, allows one to install BEAST2 package. \n  The mauricer package allows to install BEAST2 packages from R.",
-      "maintainer": "Richel J.C. Bilderbeek",
+      "description": "Install BEAST2 packages",
+      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    The mauricer package allows to install 'BEAST2' packages from 'R'.",
+      "maintainer": "Richèl J.C. Bilderbeek",
       "keywords": "",
       "github": "https://github.com/ropensci/mauricer",
       "status": "active",
@@ -3478,7 +3478,7 @@
       "github": "https://github.com/ropensci/nlrx",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/262",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/nlrx"
     },
@@ -3867,7 +3867,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropensci/proj",
-      "status": "active",
+      "status": "unsupported",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -4599,6 +4599,19 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "rotemplate",
+      "description": "'pkgdown' Template for rOpenSci Packages",
+      "details": "This is a private template for use by rOpenSci packages.\n    Please don't use for your own code.",
+      "maintainer": "Maëlle Salmon",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rotemplate",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rotemplate"
+    },
+    {
       "name": "rotl",
       "description": "Interface to the 'Open Tree of Life' API",
       "details": "An interface to the 'Open Tree of Life' API to retrieve\n    phylogenetic trees, information about studies used to assemble the synthetic\n    tree, and utilities to match taxonomic names to 'Open Tree identifiers'. The\n    'Open Tree of Life' aims at assembling a comprehensive phylogenetic tree for all\n    named species.",
@@ -4896,7 +4909,7 @@
       "description": "Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data",
       "details": "\n    Facilitates programmatic access to NASA Soil Moisture Active\n    Passive (SMAP) data with R. It includes functions to search for, acquire,\n    and extract SMAP data.",
       "maintainer": "Maxwell Joseph",
-      "keywords": "acquisition, extract-data, nasa, raster, smap-data, soil-mapping, soil-moisture, soil-moisture-sensor",
+      "keywords": "acquisition, extract-data, nasa, peer-reviewed, raster, smap-data, soil-mapping, soil-moisture, soil-moisture-sensor",
       "github": "https://github.com/ropensci/smapr",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/231",
@@ -5017,7 +5030,7 @@
     {
       "name": "stplanr",
       "description": "Sustainable Transport Planning",
-      "details": "Functionality and data access tools for transport planning,\n    including origin-destination analysis, route allocation and modelling travel\n    patterns.",
+      "details": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <http://cyclestreets.net/>;\n    calculation of route segment attributes such as bearing and aggregate flow;\n    and 'travel watershed' analysis.\n    See Lovelace and Ellison (2018) <doi:10.32614/RJ-2018-053>.",
       "maintainer": "Robin Lovelace",
       "keywords": "",
       "github": "https://github.com/ropensci/stplanr",
@@ -5526,5 +5539,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-03-15 21:49 UTC"
+  "date": "2019-03-27 21:49 UTC"
 }
