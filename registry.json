@@ -789,14 +789,14 @@
     },
     {
       "name": "opencv",
-      "description": "Bindings to OpenCV",
-      "details": "Just messing around.",
+      "description": "Bindings to 'OpenCV' Computer Vision Library",
+      "details": "Experimenting with computer vision and machine learning in R. This \n    package exposes some of the available 'OpenCV' vision algorithms, such as edge, \n    body or face detection. These can either be applied to analyze static images,\n    or to filter live video footage from a camera device.",
       "maintainer": "Jeroen Ooms",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/opencv",
       "status": "concept",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/opencv",
       "ropensci_category": "image-processing"
@@ -3319,7 +3319,7 @@
     {
       "name": "mauricer",
       "description": "Install BEAST2 packages",
-      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    The mauricer package allows to install 'BEAST2' packages from 'R'.",
+      "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    This package allows to install 'BEAST2' packages from 'R'.",
       "maintainer": "Richèl J.C. Bilderbeek",
       "keywords": "",
       "github": "https://github.com/ropensci/mauricer",
@@ -3579,6 +3579,20 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/opencontext",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "opencv",
+      "description": "Bindings to 'OpenCV' Computer Vision Library",
+      "details": "Experimenting with computer vision and machine learning in R. This \n    package exposes some of the available 'OpenCV' vision algorithms, such as edge, \n    body or face detection. These can either be applied to analyze static images,\n    or to filter live video footage from a camera device.",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "",
+      "github": "https://github.com/ropensci/opencv",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/opencv",
+      "ropensci_category": "image-processing"
     },
     {
       "name": "originr",
@@ -5539,5 +5553,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-03-31 21:49 UTC"
+  "date": "2019-04-01 21:49 UTC"
 }
