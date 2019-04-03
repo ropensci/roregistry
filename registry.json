@@ -2399,10 +2399,10 @@
     },
     {
       "name": "DataSpaceR",
-      "description": "An R Interface to 'the CAVD DataSpace'",
-      "details": "Provides a convenient API interface to access immunological assays\n    such as BAMA, ELISpot, ICS, NAb, and mAb within 'the CAVD DataSpace'\n    (<https://dataspace.cavd.org>), a data sharing and discovery tool that \n    facilitates exploration of HIV immunological data from pre-clinical and \n    clinical HIV vaccine studies.",
+      "description": "Interface to 'the CAVD DataSpace'",
+      "details": "Provides a convenient API interface to access immunological data\n    within 'the CAVD DataSpace'(<https://dataspace.cavd.org>), a data sharing \n    and discovery tool that facilitates exploration of HIV immunological data \n    from pre-clinical and clinical HIV vaccine studies.",
       "maintainer": "Ju Yeong Kim",
-      "keywords": "cavd, dataspace, hiv, labkey, vaccine",
+      "keywords": "cavd, dataspace, hiv, hvtn, labkey, vaccine",
       "github": "https://github.com/ropensci/DataSpaceR",
       "status": "active",
       "onboarding": "",
@@ -5290,6 +5290,19 @@
       "url": "https://github.com/ropensci/tracerer"
     },
     {
+      "name": "tradestatistics",
+      "description": "Open Trade Statistics API Wrapper and Utility Program",
+      "details": "Access Open Trade Statistics API from R to download international trade data.",
+      "maintainer": "Mauricio Vargas S.",
+      "keywords": "",
+      "github": "https://github.com/ropensci/tradestatistics",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/274",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tradestatistics"
+    },
+    {
       "name": "traits",
       "description": "Species Trait Data from Around the Web",
       "details": "Species trait data from many different sources, including\n    sequence data from 'NCBI', plant trait data from 'BETYdb', plant data\n    from the USDA plants database, data from 'EOL' 'Traitbank', \n    Coral traits data (<https://coraltraits.org>), 'Birdlife' International, \n    and more.",
@@ -5567,5 +5580,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-04-02 21:50 UTC"
+  "date": "2019-04-03 21:49 UTC"
 }
