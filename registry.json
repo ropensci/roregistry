@@ -223,10 +223,10 @@
     },
     {
       "name": "conditionz",
-      "description": "Control How Many Times Conditions Are Thrown",
-      "details": "Provides ability to control how many times in an R session\n    conditions are shown to the user. Includes warnings, messages, and\n    errors.",
+      "description": "Control How Many Times Conditions are Thrown",
+      "details": "Provides ability to control how many times in function\n    calls conditions are thrown (shown to the user). Includes control of\n    warnings and messages.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "conditions",
+      "keywords": "condition, condition-control, conditions, message, warning",
       "github": "https://github.com/ropenscilabs/conditionz",
       "status": "wip",
       "onboarding": "",
@@ -3931,8 +3931,8 @@
     },
     {
       "name": "qualtRics",
-      "description": "Download Qualtrics Survey Data",
-      "details": "Qualtrics <https://www.qualtrics.com/about/>\n    is an online survey and data collection software\n    platform. This package provides functions to access\n    survey results directly into R using the Qualtrics\n    API. See <https://api.qualtrics.com/> for more\n    information about the Qualtrics API. This package is\n    community-maintained and is not officially supported\n    by Qualtrics.",
+      "description": "Download 'Qualtrics' Survey Data",
+      "details": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the Qualtrics API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
       "maintainer": "Julia Silge",
       "keywords": "",
       "github": "https://github.com/ropensci/qualtRics",
@@ -5593,5 +5593,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-04-10 21:50 UTC"
+  "date": "2019-04-11 21:50 UTC"
 }
