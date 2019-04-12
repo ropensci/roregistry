@@ -2832,7 +2832,7 @@
     {
       "name": "getCRUCLdata",
       "description": "Use and Explore 'CRU' 'CL' v. 2.0 Climatology Elements",
-      "details": "Provides functions that automate downloading and importing\n    University of East Anglia Climate Research Unit ('CRU') 'CL' v. 2.0\n    climatology data, facilitates the calculation of minimum temperature and\n    maximum temperature and formats the data into a tidy data frame as a tibble\n    or a list of raster stack objects for use.  'CRU' 'CL' v. 2.0 data are a\n    gridded climatology of 1961-1990 monthly means released in 2002 and\n    cover all land areas (excluding Antarctica) at 10 arcminutes\n    (0.1666667 degree) resolution.  For more information see the description of\n    the data provided by the University of East Anglia Climate Research Unit,\n    <https://crudata.uea.ac.uk/cru/data/hrg/tmc/readme.txt>.",
+      "details": "Provides functions that automate downloading and importing\n    University of East Anglia Climate Research Unit ('CRU') 'CL' v. 2.0\n    climatology data, facilitates the calculation of minimum temperature and\n    maximum temperature and formats the data into a tidy data frame as a\n    'tibble' or a list of 'raster' 'stack' objects for use.  'CRU' 'CL' v. 2.0\n    data are a gridded climatology of 1961-1990 monthly means released in 2002\n    and cover all land areas (excluding Antarctica) at 10 arcminutes\n    (0.1666667 degree) resolution.  For more information see the description of\n    the data provided by the University of East Anglia Climate Research Unit,\n    <https://crudata.uea.ac.uk/cru/data/hrg/tmc/readme.txt>.",
       "maintainer": "Adam Sparks",
       "keywords": "anglia-cru, climate-data, cru-cl2, data-access, diurnal-temperature, elevation, frost, rainfall, relative-humidity, solar-radiation, temperature, wind",
       "github": "https://github.com/ropensci/getCRUCLdata",
@@ -3932,13 +3932,13 @@
     {
       "name": "qualtRics",
       "description": "Download 'Qualtrics' Survey Data",
-      "details": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the Qualtrics API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
+      "details": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
       "maintainer": "Julia Silge",
       "keywords": "",
       "github": "https://github.com/ropensci/qualtRics",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/192",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/qualtRics",
       "ropensci_category": "data-access"
@@ -5593,5 +5593,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-04-11 21:50 UTC"
+  "date": "2019-04-12 21:50 UTC"
 }
