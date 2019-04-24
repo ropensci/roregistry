@@ -230,7 +230,7 @@
       "github": "https://github.com/ropenscilabs/conditionz",
       "status": "wip",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/conditionz"
     },
@@ -2262,7 +2262,7 @@
     {
       "name": "CoordinateCleaner",
       "description": "Automated Cleaning of Occurrence Records from Biological Collections",
-      "details": "Automated flagging of common spatial and temporal errors in biological and paleontological collection data, for the use in conservation, ecology and paleontology. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets.",
+      "details": "Automated flagging of common spatial and temporal errors in biological and paleontological collection data, for the use in conservation, ecology and paleontology. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets. The reference for the methodology is: Zizka et al. (2019) doi:10.1111/2041-210X.13152.",
       "maintainer": "Alexander Zizka",
       "keywords": "",
       "github": "https://github.com/ropensci/CoordinateCleaner",
@@ -5593,5 +5593,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-04-23 21:50 UTC"
+  "date": "2019-04-24 21:50 UTC"
 }
