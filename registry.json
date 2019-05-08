@@ -1092,7 +1092,7 @@
     {
       "name": "rodev",
       "description": "Helper for rOpenSci Package Developpers",
-      "details": "Provides helpers for rOpenSci package developpers,\n  mostly helping with metadata management (badges, DESCRIPTION) \n  and GitHub infrastructure (GitHub issue and PR templates).",
+      "details": "Provides helpers for rOpenSci package developpers,\n    mostly helping with metadata management (badges, DESCRIPTION) and\n    GitHub infrastructure (GitHub issue and PR templates).",
       "maintainer": "Maëlle Salmon",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/rodev",
@@ -3921,7 +3921,7 @@
     {
       "name": "ramlegacy",
       "description": "Download and Read RAM Legacy Stock Assessment Database",
-      "details": "Contains functions to download, cache and read in Excel version of the\n    RAM Legacy Stock Assessment Data Base, an online compilation of stock assessment\n    results for commercially exploited marine populations from around the world. More\n    information about the database can be found at <https://ramlegacy.org/>. Ricard, D.,\n    Minto, C., Jensen, O.P. and Baum, J.K. (2012) Evaluating the knowledge base and\n    status of commercially exploited marine species with the RAM Legacy Stock Assessment\n    Database. Fish and Fisheries 13 (4) 380-398 <doi:10.1111/j.1467-2979.2011.00435.x>.",
+      "details": "Contains functions to download, cache and read in 'Excel' version of the\n    RAM Legacy Stock Assessment Data Base, an online compilation of stock assessment\n    results for commercially exploited marine populations from around the world. \n    The database is named after Dr. Ransom A. Myers whose original stock-recruitment database,\n    is no longer being updated. More information about the database can be found at\n    <https://ramlegacy.org/>. Ricard, D., Minto, C., Jensen, O.P. and Baum, J.K. (2012) <doi:10.1111/j.1467-2979.2011.00435.x>.",
       "maintainer": "Kshitiz Gupta",
       "keywords": "assessment, cache, database, download, fish, fisheries, Legacy, marine, RAM, ramlegacy, read, ropensci",
       "github": "https://github.com/ropensci/ramlegacy",
@@ -4242,7 +4242,7 @@
       "description": "General Purpose Client for 'ERDDAP' Servers",
       "details": "General purpose R client for 'ERDDAP' servers. Includes\n    functions to search for 'datasets', get summary information on\n    'datasets', and fetch 'datasets', in either 'csv' or 'netCDF' format.\n    'ERDDAP' information: \n    <https://upwell.pfeg.noaa.gov/erddap/information.html>.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "api-client, erddap, noaa-data",
+      "keywords": "buoy, climate, earth, NOAA, precipitation, science, storm, temperature",
       "github": "https://github.com/ropensci/rerddap",
       "status": "active",
       "onboarding": "",
@@ -4351,7 +4351,7 @@
     {
       "name": "rgbif",
       "description": "Interface to the Global 'Biodiversity' Information Facility API",
-      "details": "A programmatic interface to the Web Service methods\n    provided by the Global Biodiversity Information Facility ('GBIF';\n    <https://www.gbif.org/developer/summary>). 'GBIF' is a database\n    of species occurrence records from sources all over the globe.\n    'rgbif' includes functions for searching for taxonomic names,\n    retrieving information on data providers, getting species occurrence\n    records, getting counts of occurrence records, and using the 'GBIF' \n    tile map service to make 'rasters' summarizing huge amounts of data.",
+      "details": "A programmatic interface to the Web Service methods\n    provided by the Global Biodiversity Information Facility ('GBIF';\n    <https://www.gbif.org/developer/summary>). 'GBIF' is a database\n    of species occurrence records from sources all over the globe.\n    'rgbif' includes functions for searching for taxonomic names,\n    retrieving information on data providers, getting species occurrence\n    records, getting counts of occurrence records, and using the 'GBIF'\n    tile map service to make 'rasters' summarizing huge amounts of data.",
       "maintainer": "Scott Chamberlain",
       "keywords": "API, GBIF, occurrences, species, specimens, taxonomy, web-services",
       "github": "https://github.com/ropensci/rgbif",
@@ -5567,5 +5567,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-07 21:50 UTC"
+  "date": "2019-05-08 21:50 UTC"
 }
