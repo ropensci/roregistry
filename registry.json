@@ -2081,6 +2081,19 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "cde",
+      "description": "Download Water Framework Directive (WFD) data from the Environment Agency Catchment Data Explorer (CDE) website",
+      "details": "The cde package facilitates searching and download of the\n  WFD-related data for all waterbodies within the Environment Agency area.\n  The types of data that can be downloaded are: WFD status classification data\n  (which can also be plotted), Reasons for Not Achieving Good (RNAG) status,\n  objectives set for waterbodies, measures put in place to improve water \n  quality and details of associated protected areas. The site accessed is \n  https://environment.data.gov.uk/catchment-planning/. The data are made \n  available under the Open Government Licence v3.0 \n  (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "maintainer": "Rob Briers",
+      "keywords": "",
+      "github": "https://github.com/ropensci/cde",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/284",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/cde"
+    },
+    {
       "name": "charlatan",
       "description": "Make Fake Data",
       "details": "Make fake data, supporting addresses, person names, dates,\n    times, colors, coordinates, currencies, digital object identifiers\n    ('DOIs'), jobs, phone numbers, 'DNA' sequences, doubles and integers\n    from distributions and within a range.",
@@ -4796,7 +4809,7 @@
     {
       "name": "rtimicropem",
       "description": "Supports the Analysis of RTI MicroPEM Output Files",
-      "details": "Supports the input and reproducible analysis of RTI MicroPEM output files.",
+      "details": "Supports the input and reproducible analysis of RTI\n    MicroPEM output files.",
       "maintainer": "Maëlle Salmon",
       "keywords": "",
       "github": "https://github.com/ropensci/rtimicropem",
@@ -5223,6 +5236,19 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "tidync",
+      "description": "A Tidy Approach to 'NetCDF' Data Exploration and Extraction",
+      "details": "Tidy tools for 'NetCDF' data sources. Explore the contents of a \n 'NetCDF' source (file or URL) presented as variables organized by grid with a \n database-like interface. The hyper_filter() interactive function translates the \n filter value or index expressions to array-slicing form. No data is read until \n explicitly requested, as a data frame or list of arrays via hyper_tibble() or \n hyper_array(). ",
+      "maintainer": "Michael Sumner",
+      "keywords": "",
+      "github": "https://github.com/ropensci/tidync",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/174",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tidync"
+    },
+    {
       "name": "tif",
       "description": "Text Interchange Format",
       "details": "Provides validation functions for common\n    interchange formats for representing text data in R.\n    Includes formats for corpus objects, document term\n    matrices, and tokens. Other annotations can be stored\n    by overloading the tokens structure.",
@@ -5567,5 +5593,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-14 21:50 UTC"
+  "date": "2019-05-15 21:50 UTC"
 }
