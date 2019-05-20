@@ -3374,6 +3374,19 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "MtreeRing",
+      "description": "A Shiny Application for Automatic Measurements of Tree-Ring Widths on Digital Images",
+      "details": "Use morphological image processing and edge detection algorithms to automatically measure tree ring widths on digital images. Users can also manually mark tree rings on species with complex anatomical structures. The arcs of inner-rings and angles of successive inclined ring boundaries are used to correct ring-width series. The package provides a Shiny-based application, allowing R beginners to easily analyze tree ring images and export ring-width series in standard file formats.",
+      "maintainer": "Jingning Shi",
+      "keywords": "",
+      "github": "https://github.com/ropensci/MtreeRing",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/MtreeRing"
+    },
+    {
       "name": "musemeta",
       "description": "Client for Scraping Museum Metadata",
       "details": "Scrape museum metadata. Includes many\n    different museums, including the MET, Getty Museum, and\n    more. New museums are added occassionally.",
@@ -3808,9 +3821,9 @@
     },
     {
       "name": "plotdap",
-      "description": "Easily visualize data from 'ERDDAP' Servers via the rerddap package",
-      "details": "Easily visualize 'tabledap' and 'griddap' objects obtained via the rerddap package.",
-      "maintainer": "Carson Sievert",
+      "description": "Easily Visualize Data from 'ERDDAP' Servers via the 'rerddap' Package",
+      "details": "Easily visualize and animate 'tabledap' and 'griddap' objects obtained via the 'rerddap' package in a simple one-line command,  using either base graphics or 'ggplot2' graphics. 'plotdap' handles extracting and reshaping the data,  map projections and continental outlines.  Optionally the data can be animated through time using the 'gganmiate' package.",
+      "maintainer": "Roy Mendelssohn",
       "keywords": "",
       "github": "https://github.com/ropensci/plotdap",
       "status": "active",
@@ -5593,5 +5606,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-19 21:49 UTC"
+  "date": "2019-05-20 21:50 UTC"
 }
