@@ -377,7 +377,7 @@
       "description": "Extracts Metadata from Directory and File Names",
       "details": "Extract metadata from directory and file names based on a template into data frame.",
       "maintainer": "Henrik Bengtsson",
-      "keywords": "files, metadata, package, unconf, unconf16",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/dirdf",
       "status": "active",
       "onboarding": "",
@@ -391,7 +391,7 @@
       "description": "Client for 'dissem.in' API for Scholarly Metadata",
       "details": "'dissem.in' client (<https://dissem.in/>).",
       "maintainer": "Scott Chamberlain",
-      "keywords": "api-wrapper, doi, scholarly-metadata, text-mining",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/dissemr",
       "status": "concept",
       "onboarding": "",
@@ -405,7 +405,7 @@
       "description": "Exploring Election and Census Highly Informative Data Nationally for\n    Australia",
       "details": "Data from the six Australian Federal Elections (House of\n    Representatives) between 2001 and 2016, and from the four Australian\n    Censuses over the same period. Includes tools for visualizing and\n    analysing the data, as well as imputing Census data for years in \n    which a Census does not occur. This package incorporates\n    data that is copyright Commonwealth of Australia (Australian\n    Electoral Commission) 2016.",
       "maintainer": "Jeremy Forbes",
-      "keywords": "australia, auunconf, census-data, election, unconf",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/eechidna",
       "status": "concept",
       "onboarding": "",
@@ -1133,7 +1133,7 @@
     {
       "name": "rotemplate",
       "description": "pkgdown Template for rOpenSci Packages",
-      "details": "This is a private template for use by rOpenSci packages.\n    Please don't use it for your own non-rOpenSci package.",
+      "details": "This is a private template for use by rOpenSci\n    packages.  Please don't use it for your own non-rOpenSci package.",
       "maintainer": "Maëlle Salmon",
       "keywords": "",
       "github": "https://github.com/ropenscilabs/rotemplate",
@@ -1949,7 +1949,7 @@
       "github": "https://github.com/ropensci/biomartr",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/93",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/biomartr",
       "ropensci_category": "data-access"
@@ -3332,6 +3332,19 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "MODISTools",
+      "description": "Interface to the 'MODIS Land Products Subsets' Web Services",
+      "details": "Programmatic interface to the Oak Ridge National Laboratories\n    'MODIS Land Products Subsets' web services \n    (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy\n    downloads of 'MODIS' time series directly to your R workspace or\n    your computer.",
+      "maintainer": "Hufkens Koen",
+      "keywords": "",
+      "github": "https://github.com/ropensci/MODISTools",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/MODISTools"
+    },
+    {
       "name": "MODIStsp",
       "description": "A Tool for Automating Download and Preprocessing of MODIS Land Products\n    Data",
       "details": "Allows automating the creation of time series of rasters derived\n    from MODIS Satellite Land Products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojection and resize\n    of data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    Quality Indicators should be extracted from aggregated MODIS Quality\n    Assurance layers and, in the case of Surface Reflectance products\n    , which Spectral Indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing to automatically update time series\n    related to a MODIS product whenever a new image is available.",
@@ -4629,7 +4642,7 @@
     {
       "name": "rotemplate",
       "description": "pkgdown Template for rOpenSci Packages",
-      "details": "This is a private template for use by rOpenSci packages.\n    Please don't use it for your own non-rOpenSci package.",
+      "details": "This is a private template for use by rOpenSci\n    packages.  Please don't use it for your own non-rOpenSci package.",
       "maintainer": "Maëlle Salmon",
       "keywords": "",
       "github": "https://github.com/ropensci/rotemplate",
@@ -5357,19 +5370,6 @@
       "ropensci_category": "data-access"
     },
     {
-      "name": "treestartr",
-      "description": "Generate Starting Trees For Combined Molecular, Morphological and Stratigraphic Data",
-      "details": "Combine a list of taxa with a phylogeny to generate a starting tree for use in\n    total evidence dating analyses.",
-      "maintainer": "April Wright",
-      "keywords": "",
-      "github": "https://github.com/ropensci/treestartr",
-      "status": "active",
-      "onboarding": "https://github.com/ropensci/onboarding/issues/239",
-      "on_cran": true,
-      "on_bioc": false,
-      "url": "https://github.com/ropensci/treestartr"
-    },
-    {
       "name": "unrtf",
       "description": "Extract Text from Rich Text Format (RTF) Documents",
       "details": "Wraps the 'unrtf' utility to extract text from RTF files. Supports\n    document conversion to HTML, LaTeX or plain text. Output in HTML is recommended\n    because 'unrtf' has limited support for converting between character encodings.",
@@ -5606,5 +5606,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-20 21:50 UTC"
+  "date": "2019-05-21 21:50 UTC"
 }
