@@ -85,20 +85,6 @@
       "ropensci_category": "literature"
     },
     {
-      "name": "atomize",
-      "description": "Scatter Functions into New Packages",
-      "details": "Scatter Functions into New Packages.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "unconf, unconf16",
-      "github": "https://github.com/ropenscilabs/atomize",
-      "status": "concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/atomize",
-      "ropensci_category": "developer-tools"
-    },
-    {
       "name": "available",
       "description": "Check if the Title of a Package is Available, Appropriate and Interesting",
       "details": "Check if a given package name is available to use. It checks the\n  name's validity. Checks if it is used on 'GitHub', 'CRAN' and 'Bioconductor'. Checks\n  for unintended meanings by querying Urban Dictionary, 'Wiktionary' and Wikipedia.",
@@ -419,7 +405,7 @@
       "description": "Create beautiful visualizations of an EML document",
       "details": "EML (Ecological Metadata Language) is a standard for writing\n    metadata, designed for ecological data. This package takes a EML document and\n    creates a .html website that describes it.",
       "maintainer": "First Last",
-      "keywords": "",
+      "keywords": "eml, eml-metadata",
       "github": "https://github.com/ropenscilabs/emldown",
       "status": "concept",
       "onboarding": "",
@@ -468,20 +454,6 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/gendercodeR"
-    },
-    {
-      "name": "geofilter",
-      "description": "'GeoJSON' Filtering",
-      "details": "'GeoJSON' filtering operations.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/geofilter",
-      "status": "abandoned",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/geofilter",
-      "ropensci_category": "geospatial"
     },
     {
       "name": "geoflowr",
@@ -1886,14 +1858,14 @@
     },
     {
       "name": "bib2df",
-      "description": "Parse a BibTeX File to a data.frame",
+      "description": "Parse a BibTeX File to a Data Frame",
       "details": "Parse a BibTeX file to a data.frame to make it accessible for further analysis and visualization.",
       "maintainer": "Philipp Ottolinger",
       "keywords": "",
       "github": "https://github.com/ropensci/bib2df",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/124",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/bib2df",
       "ropensci_category": "data-extraction"
@@ -3394,7 +3366,7 @@
       "keywords": "",
       "github": "https://github.com/ropensci/MtreeRing",
       "status": "active",
-      "onboarding": "",
+      "onboarding": "https://github.com/ropensci/software-review/issues/287",
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/MtreeRing"
@@ -3508,20 +3480,6 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/nlrx"
-    },
-    {
-      "name": "nneo",
-      "description": "'NEON' 'API' Client",
-      "details": "'NEON' 'API' (<http://data.neonscience.org/data-api>) client.\n    Includes methods for interacting with all 'API' routes.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "api-wrapper, climate, ecology",
-      "github": "https://github.com/ropensci/nneo",
-      "status": "active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropensci/nneo",
-      "ropensci_category": "data-access"
     },
     {
       "name": "nodbi",
@@ -3762,20 +3720,6 @@
       "ropensci_category": "data-analysis"
     },
     {
-      "name": "phylodiv",
-      "description": "Phylogenetic Biodiversity Query Tools",
-      "details": "Phylogenetic Biodiversity Query Tools.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "biology, identifiers, names, nomenclature, phylogeny, species, taxonomy",
-      "github": "https://github.com/ropensci/phylodiv",
-      "status": "active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropensci/phylodiv",
-      "ropensci_category": "data-access"
-    },
-    {
       "name": "phylogram",
       "description": "Dendrograms for Evolutionary Analysis",
       "details": "Contains functions for developing phylogenetic trees as\n    deeply-nested lists (\"dendrogram\" objects).\n    Enables bi-directional conversion between dendrogram and\n    \"phylo\" objects\n    (see Paradis et al (2004) <doi:10.1093/bioinformatics/btg412>),\n    and features several tools for command-line tree\n    manipulation and import/export via Newick parenthetic text.",
@@ -3900,20 +3844,6 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/prism",
       "ropensci_category": "data-access"
-    },
-    {
-      "name": "proj",
-      "description": "R Client for proj4js",
-      "details": "R client for proj4js.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "",
-      "github": "https://github.com/ropensci/proj",
-      "status": "unsupported",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropensci/proj",
-      "ropensci_category": "geospatial"
     },
     {
       "name": "pubchunks",
@@ -4126,7 +4056,7 @@
       "name": "rdataretriever",
       "description": "R Interface to the Data Retriever",
       "details": "Provides an R interface to the Data Retriever\n    <http://data-retriever.org/> via the Data Retriever's\n    command line interface. The Data Retriever automates the\n    tasks of finding, downloading, and cleaning public datasets,\n    and then stores them in a local database.",
-      "maintainer": "Daniel McGlinn",
+      "maintainer": "Henry Senyondo",
       "keywords": "",
       "github": "https://github.com/ropensci/rdataretriever",
       "status": "active",
@@ -5205,20 +5135,6 @@
       "ropensci_category": "taxonomy"
     },
     {
-      "name": "taxizesoap",
-      "description": "Taxonomic Information from Around the Soap Web",
-      "details": "Taxonomic information from around the SOAP web.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "",
-      "github": "https://github.com/ropensci/taxizesoap",
-      "status": "active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropensci/taxizesoap",
-      "ropensci_category": "taxonomy"
-    },
-    {
       "name": "taxview",
       "description": "Tools for Vizualizing Data Taxonomically",
       "details": "Tools for vizualizing data taxonomically.",
@@ -5632,5 +5548,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-22 21:50 UTC"
+  "date": "2019-05-23 21:50 UTC"
 }
