@@ -1198,6 +1198,19 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "scientist",
+      "description": "Experiment with changes in an R project",
+      "details": "Experiment with changes in an R project. A port of the Ruby gem\n    of the same name (<https://github.com/github/scientist/>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/scientist",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/scientist"
+    },
+    {
       "name": "scitations",
       "description": "Bibliographic Citation Tools",
       "details": "Bibliographic citation tools, including for making easy to \n    use S3 citation objects called scitations, coercing DOI's, and rcrossref \n    package outputs to scitations objects, and making and working with \n    tidy citations. Citation objects are aware of the different citation \n    work types and the fields allowed in each type.",
@@ -2138,7 +2151,7 @@
     {
       "name": "colocr",
       "description": "Conduct Co-Localization Analysis of Fluorescence Microscopy Images",
-      "details": "Automate the co-localization analysis of fluorescence microscopy \n  images. Selecting regions of interest, extract pixel intensities from \n  the image channels and calculate different co-localization statistics. The\n  methods implemented in this package is based on Dunn et al. (2011) \n  <doi:10.1152/ajpcell.00462.2010>.",
+      "details": "Automate the co-localization analysis of fluorescence microscopy \n  images. Selecting regions of interest, extract pixel intensities from \n  the image channels and calculate different co-localization statistics. The\n  methods implemented in this package are based on Dunn et al. (2011) \n  <doi:10.1152/ajpcell.00462.2010>.",
       "maintainer": "Mahmoud Ahmed",
       "keywords": "",
       "github": "https://github.com/ropensci/colocr",
@@ -4904,7 +4917,7 @@
     {
       "name": "spatsoc",
       "description": "Group Animal Relocation Data by Spatial and Temporal Relationship",
-      "details": "Detects spatial and temporal groups in GPS relocations. \n    It can be used to convert GPS relocations to \n    gambit-of-the-group format to build proximity-based social networks. \n    In addition, the randomizations function provides data-stream \n    randomization methods suitable for GPS data. ",
+      "details": "Detects spatial and temporal groups in GPS relocations. \n    It can be used to convert GPS relocations to \n    gambit-of-the-group format to build proximity-based social networks. \n    In addition, the randomizations function provides data-stream \n    randomization methods suitable for GPS data.\n This package has been peer-reviewed by rOpenSci (v. 0.1.9).",
       "maintainer": "Alec L. Robitaille",
       "keywords": "animal, gps, network, social, spatial",
       "github": "https://github.com/ropensci/spatsoc",
@@ -5506,5 +5519,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-05-24 21:50 UTC"
+  "date": "2019-05-25 21:49 UTC"
 }
