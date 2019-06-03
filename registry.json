@@ -1425,7 +1425,7 @@
       "keywords": "",
       "github": "https://github.com/ropenscilabs/tic",
       "status": "concept",
-      "onboarding": "",
+      "onboarding": "https://github.com/ropensci/software-review/issues/305",
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/tic",
@@ -2431,7 +2431,7 @@
       "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropensci/elasticdsl",
-      "status": "active",
+      "status": "suspended",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -2999,9 +2999,9 @@
     {
       "name": "hydroscoper",
       "description": "Interface to the Greek National Data Bank for Hydrometeorological Information",
-      "details": "R interface to the Greek National Data Bank for Hydrological and \n    Meteorological Information <http://www.hydroscope.gr/>. It covers \n    Hydroscope's data sources and provides functions to transliterate, \n    translate and download them into tidy dataframes (tibbles).",
+      "details": "R interface to the Greek National Data Bank for Hydrological and \n    Meteorological Information <http://www.hydroscope.gr/>. It covers \n    Hydroscope's data sources and provides functions to transliterate, \n    translate and download them into tidy dataframes.",
       "maintainer": "Konstantinos Vantas",
-      "keywords": "",
+      "keywords": "climate, greece, hydrology, hydrometeorology, hydroscope, meteorological-data, meteorological-stations, peer-reviewed, tidy-data, time-series, water-resources",
       "github": "https://github.com/ropensci/hydroscoper",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/185",
@@ -3106,6 +3106,19 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/jaod",
       "ropensci_category": "data-access"
+    },
+    {
+      "name": "jenkins",
+      "description": "Simple Jenkins Client for R",
+      "details": "Managing jobs and builds on your jenkins server. Create or \n    update projects, control builds and queues, inspect logs, and much more.",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "",
+      "github": "https://github.com/ropensci/jenkins",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/jenkins"
     },
     {
       "name": "jqr",
@@ -3262,7 +3275,7 @@
     },
     {
       "name": "mauricer",
-      "description": "Install BEAST2 packages",
+      "description": "Install 'BEAST2' Packages",
       "details": "'BEAST2' (<http://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    This package allows to install 'BEAST2' packages from 'R'.",
       "maintainer": "Richèl J.C. Bilderbeek",
       "keywords": "",
@@ -5532,5 +5545,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-06-02 21:50 UTC"
+  "date": "2019-06-03 21:51 UTC"
 }
