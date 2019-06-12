@@ -2857,6 +2857,19 @@
       "ropensci_category": "data-tools"
     },
     {
+      "name": "grainchanger",
+      "description": "Moving-Window and Direct Data Aggregation",
+      "details": "Data aggregation via moving window or direct methods. Aggregate a \n    fine-resolution raster to a grid. The moving window method smooths the surface \n    using a specified function within a moving window of a specified size and shape \n    prior to aggregation. The direct method simply aggregates to the grid using the \n    specified function.",
+      "maintainer": "Laura Graham",
+      "keywords": "",
+      "github": "https://github.com/ropensci/grainchanger",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/grainchanger"
+    },
+    {
       "name": "graphql",
       "description": "A GraphQL Query Parser",
       "details": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax\n    and exports the AST in JSON format.",
@@ -4565,6 +4578,20 @@
       "ropensci_category": "http-tools"
     },
     {
+      "name": "rodev",
+      "description": "Helper for rOpenSci Package Developpers",
+      "details": "Provides helpers for rOpenSci package developpers,\n    mostly helping with metadata management (badges, DESCRIPTION) and\n    GitHub infrastructure (GitHub issue and PR templates).",
+      "maintainer": "Maëlle Salmon",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rodev",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rodev",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "ropenaq",
       "description": "Accesses Air Quality Data from the Open Data Platform OpenAQ",
       "details": "Allows access to air quality data from the API of the OpenAQ\n    platform <https://docs.openaq.org/>, with the different services the API offers\n    (getting measurements for a given query, getting latest measurements, getting\n    lists of available countries/cities/locations). This package has been peer-reviewed by rOpenSci (v. 0.1.0).",
@@ -5558,5 +5585,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-06-11 21:50 UTC"
+  "date": "2019-06-12 21:50 UTC"
 }
