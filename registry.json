@@ -3190,7 +3190,7 @@
     {
       "name": "jsonvalidate",
       "description": "Validate 'JSON'",
-      "details": "Uses the node library 'is-my-json-valid' to validate 'JSON' against\n    a 'JSON' schema.",
+      "details": "Uses the node library 'is-my-json-valid' or 'ajv' to\n    validate 'JSON' against a 'JSON' schema.  Drafts 04, 06 and 07 of\n    'JSON' schema are supported.",
       "maintainer": "Rich FitzJohn",
       "keywords": "",
       "github": "https://github.com/ropensci/jsonvalidate",
@@ -5254,6 +5254,19 @@
       "url": "https://github.com/ropensci/tidync"
     },
     {
+      "name": "tidypmc",
+      "description": "Parse Full Text XML Documents from PubMed Central",
+      "details": "Parse XML documents from the Open Access subset of PubMed Central\n    including section paragraphs, tables, captions and references.",
+      "maintainer": "Chris Stubben",
+      "keywords": "",
+      "github": "https://github.com/ropensci/tidypmc",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tidypmc"
+    },
+    {
       "name": "tif",
       "description": "Text Interchange Format",
       "details": "Provides validation functions for common\n    interchange formats for representing text data in R.\n    Includes formats for corpus objects, document term\n    matrices, and tokens. Other annotations can be stored\n    by overloading the tokens structure.",
@@ -5598,5 +5611,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-06-24 21:50 UTC"
+  "date": "2019-06-25 21:50 UTC"
 }
