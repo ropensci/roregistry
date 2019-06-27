@@ -1,12 +1,18 @@
 [
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "auk",
     "description": "Extract and process bird sightings records from\n    eBird (<http://ebird.org>), an online tool for recording bird\n    observations.  Public access to the full eBird database is via the\n    eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download>\n    for access), a downloadable text file. This package is an interface to\n    AWK for extracting data from the EBD based on taxonomic, spatial, or\n    temporal filters, to produce a manageable file size that can be\n    imported into R.",
     "name": "auk: eBird Data Extraction and Processing in R",
     "codeRepository": "https://github.com/CornellLabofOrnithology/auk",
-    "relatedLink": ["http://CornellLabofOrnithology.github.io/auk/", "https://CRAN.R-project.org/package=auk"],
+    "relatedLink": [
+      "http://CornellLabofOrnithology.github.io/auk/",
+      "https://CRAN.R-project.org/package=auk"
+    ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.3",
@@ -273,13 +279,21 @@
     "releaseNotes": "https://github.com/CornellLabofOrnithology/auk/blob/master/NEWS.md",
     "readme": "https://github.com/CornellLabofOrnithology/auk/blob/master/README.md",
     "fileSize": "467.147KB",
-    "contIntegration": ["https://travis-ci.org/CornellLabofOrnithology/auk", "https://ci.appveyor.com/project/mstrimas/auk", "https://codecov.io/github/CornellLabofOrnithology/auk?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/CornellLabofOrnithology/auk",
+      "https://ci.appveyor.com/project/mstrimas/auk",
+      "https://codecov.io/github/CornellLabofOrnithology/auk?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/136",
       "provider": "http://ropensci.org"
     },
-    "keywords": ["r", "ebird", "dataset"],
+    "keywords": [
+      "r",
+      "ebird",
+      "dataset"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -308,7 +322,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "genbankr",
     "description": "Reads Genbank files.",
@@ -899,7 +916,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/apipkgen/blob/master/README.md",
-    "fileSize": "39.208KB",
+    "fileSize": "39.21KB",
     "contIntegration": ["https://ci.appveyor.com/project/ropensci/apipkgen", "https://travis-ci.org/", "https://codecov.io/gh/ropensci/apipkgen"],
     "developmentStatus": "https://www.repostatus.org/#wip",
     "keywords": ["rstats", "r", "yaml", "r-package"]
@@ -967,7 +984,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/arresteddev",
     "readme": "https://github.com/ropenscilabs/arresteddev/blob/master/README.md",
-    "fileSize": "2.726KB",
+    "fileSize": "2.725KB",
     "keywords": ["unconf17", "r", "r-package", "rstats", "unconf"]
   },
   {
@@ -1740,7 +1757,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/cchecks/blob/master/README.md",
-    "fileSize": "4.351KB",
+    "fileSize": "4.349KB",
     "contIntegration": ["https://travis-ci.com/ropenscilabs/cchecks", "https://codecov.io/github/ropenscilabs/cchecks?branch=master"],
     "keywords": ["rstats", "cran", "r", "testing", "r-package"]
   },
@@ -1899,7 +1916,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/changes/blob/master/README.md",
-    "fileSize": "81.899KB",
+    "fileSize": "81.9KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/changes",
     "keywords": ["ozunconf17", "r", "r-package", "rstats", "unconf"]
   },
@@ -2065,7 +2082,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/checkers/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/checkers/blob/master/README.md",
-    "fileSize": "311.905KB",
+    "fileSize": "311.904KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/checkers",
     "developmentStatus": "http://www.repostatus.org/#wip",
     "keywords": ["unconf17", "r", "r-package", "rstats", "unconf"]
@@ -2496,7 +2513,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/colorpiler",
     "readme": "https://github.com/ropenscilabs/colorpiler/blob/master/README.md",
-    "fileSize": "7.667KB",
+    "fileSize": "7.666KB",
     "keywords": ["unconf16", "r", "r-package", "rstats", "unconf"]
   },
   {
@@ -3207,7 +3224,7 @@
     "codeRepository": "https://github.com/ropenscilabs/convertr",
     "releaseNotes": "https://github.com/ropenscilabs/convertr/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/convertr/blob/master/README.md",
-    "fileSize": "321.371KB",
+    "fileSize": "321.37KB",
     "contIntegration": "https://travis-ci.org/GShotwell/convertr",
     "keywords": ["r", "r-package", "rstats", "peer-reviewed"]
   },
@@ -3332,7 +3349,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/craft/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/craft/blob/master/README.md",
-    "fileSize": "34.724KB",
+    "fileSize": "34.723KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/craft",
     "keywords": ["r", "r-package", "rstats"]
   },
@@ -3503,7 +3520,7 @@
     "codeRepository": "https://github.com/ropenscilabs/cricketdata",
     "releaseNotes": "https://github.com/ropenscilabs/cricketdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/cricketdata/blob/master/README.md",
-    "fileSize": "551.055KB",
+    "fileSize": "551.053KB",
     "keywords": ["r", "cricket-data", "cricket", "ozunconf17", "r-package", "rstats", "unconf"]
   },
   {
@@ -3788,7 +3805,7 @@
     "codeRepository": "https://github.com/ropenscilabs/datasauce",
     "releaseNotes": "https://github.com/ropenscilabs/datasauce/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/datasauce/blob/master/README.md",
-    "fileSize": "460.558KB",
+    "fileSize": "460.559KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/datasauce", "https://codecov.io/github/ropenscilabs/datasauce?branch=master", "https://ci.appveyor.com/project/ropenscilabs/datasauce"],
     "developmentStatus": "http://www.repostatus.org/#concept",
     "keywords": ["r", "r-package", "rstats"]
@@ -4079,7 +4096,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/dataspice",
     "readme": "https://github.com/ropenscilabs/dataspice/blob/master/README.md",
-    "fileSize": "1880.959KB",
+    "fileSize": "1880.957KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/dataspice",
     "keywords": ["unconf18", "schema-org", "metadata", "data", "dataset", "r", "r-package", "rstats", "unconf"]
   },
@@ -4319,7 +4336,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/decapitated/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/decapitated/blob/master/README.md",
-    "fileSize": "392.213KB",
+    "fileSize": "392.212KB",
     "keywords": ["unconf17", "r", "r-package", "rstats", "unconf"]
   },
   {
@@ -4502,7 +4519,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/defender/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/defender/blob/master/README.md",
-    "fileSize": "52.967KB",
+    "fileSize": "52.972KB",
     "contIntegration": [
       "https://travis-ci.org/ropenscilabs/defender",
       "https://codecov.io/github/ropenscilabs/defender?branch=master"
@@ -4621,7 +4638,7 @@
     "codeRepository": "https://github.com/ropenscilabs/dirdf",
     "releaseNotes": "https://github.com/ropenscilabs/dirdf/blob/master/NEWS",
     "readme": "https://github.com/ropenscilabs/dirdf/blob/master/README.md",
-    "fileSize": "14.574KB",
+    "fileSize": "14.575KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/dirdf", "https://ci.appveyor.com/project/HenrikBengtsson/dirdf", "https://codecov.io/gh/ropenscilabs/dirdf"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": ["r", "unconf16", "package", "files", "metadata", "r-package", "rstats", "unconf"]
@@ -4706,7 +4723,7 @@
     "contIntegration": "https://travis-ci.org/ropenscilabs/dissemr",
     "developmentStatus": "wip",
     "readme": "https://github.com/ropenscilabs/dissemr/blob/master/README.md",
-    "fileSize": "3.815KB",
+    "fileSize": "3.816KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -5182,7 +5199,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/eechidna/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/eechidna/blob/master/README.md",
-    "fileSize": "2891.227KB",
+    "fileSize": "2891.228KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/eechidna", "https://ci.appveyor.com/project/ropenscilabs/eechidna"],
     "keywords": ["auunconf", "census-data", "election", "australia", "r", "r-package", "rstats", "unconf"],
     "relatedLink": "https://CRAN.R-project.org/package=eechidna"
@@ -5280,7 +5297,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/emldown",
     "readme": "https://github.com/ropenscilabs/emldown/blob/master/README.md",
-    "fileSize": "668.616KB",
+    "fileSize": "668.614KB",
     "keywords": ["eml-metadata", "eml", "r", "r-package", "rstats"]
   },
   {
@@ -5354,7 +5371,8 @@
     "readme": "https://github.com/ropenscilabs/feetures/blob/master/README.md",
     "fileSize": "3.334KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/feetures",
-    "developmentStatus": "http://www.repostatus.org/#wip"
+    "developmentStatus": "http://www.repostatus.org/#wip",
+    "keywords": ["r", "r-package", "rstats", "feature-flags"]
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -5454,7 +5472,8 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "4.655KB",
+    "readme": "https://github.com/ropenscilabs/flipper/blob/master/README.md",
+    "fileSize": "4.653KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/flipper",
     "developmentStatus": "http://www.repostatus.org/#concept"
   },
@@ -5610,7 +5629,7 @@
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
-    "fileSize": "48.358KB"
+    "fileSize": "48.357KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -5771,7 +5790,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "4.731KB",
+    "fileSize": "4.73KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/geojsonrewind", "https://codecov.io/github/ropenscilabs/geojsonrewind?branch=master"]
   },
   {
@@ -6315,7 +6334,7 @@
         "sameAs": "https://CRAN.R-project.org/package=knitr"
       }
     ],
-    "fileSize": "22.505KB",
+    "fileSize": "22.504KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/gramr.svg?branch=master", "https://codecov.io/github/ropenscilabs/gramr?branch=master"]
   },
   {
@@ -6567,7 +6586,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/greta/blob/master/NEWS",
-    "fileSize": "197.406KB",
+    "fileSize": "197.408KB",
     "contIntegration": ["https://travis-ci.org/greta-dev/greta", "https://codecov.io/github/greta-dev/greta?branch=master"]
   },
   {
@@ -6668,7 +6687,7 @@
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["database", "pilosa", "HTTP", "API", "search", "NoSQL", "index", "Golang"],
-    "fileSize": "8.572KB",
+    "fileSize": "8.57KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/hirsutosa", "https://codecov.io/github/ropenscilabs/hirsutosa?branch=master"]
   },
   {
@@ -6763,7 +6782,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
-    "fileSize": "2.376KB",
+    "fileSize": "2.373KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -6980,7 +6999,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "152.663KB",
+    "fileSize": "152.664KB",
     "contIntegration": ["https://travis-ci.com/ropenscilabs/identifires", "https://codecov.io/github/ropenscilabs/identifires?branch=master"]
   },
   {
@@ -7095,7 +7114,7 @@
         "sameAs": "https://CRAN.R-project.org/package=R6"
       }
     ],
-    "fileSize": "9.438KB",
+    "fileSize": "9.44KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/jobstatus", "https://codecov.io/github/ropenscilabs/jobstatus?branch=master"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental"
   },
@@ -7451,7 +7470,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/laselva",
-    "fileSize": "4.512KB",
+    "fileSize": "4.51KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -7613,7 +7632,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/leafier",
     "releaseNotes": "https://github.com/ropenscilabs/leafier/blob/master/NEWS.md",
-    "fileSize": "5880.519KB",
+    "fileSize": "5880.518KB",
     "contIntegration": ["https://travis-ci.org/paleo13/leafier", "https://ci.appveyor.com/project/paleo13/leafier", "https://codecov.io/github/paleo13/leafier?branch=master"]
   },
   {
@@ -7758,7 +7777,7 @@
         "sameAs": "https://CRAN.R-project.org/package=glue"
       }
     ],
-    "fileSize": "8.712KB"
+    "fileSize": "8.715KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -7922,7 +7941,7 @@
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
-    "fileSize": "164.697KB",
+    "fileSize": "164.696KB",
     "contIntegration": ["https://travis-ci.com/ropenscilabs/mchtoolbox", "https://codecov.io/gh/ropenscilabs/mchtoolbox"]
   },
   {
@@ -8322,7 +8341,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/miner/blob/master/NEWS.md",
-    "fileSize": "24.776KB",
+    "fileSize": "24.773KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/miner"
   },
   {
@@ -8443,7 +8462,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/motifator",
-    "fileSize": "7.986KB"
+    "fileSize": "7.987KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -8584,7 +8603,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/notary/blob/master/NEWS.md",
-    "fileSize": "12.334KB",
+    "fileSize": "12.335KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/notary", "https://ci.appveyor.com/project/jeroen/notary"],
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
@@ -8690,7 +8709,7 @@
         "sameAs": "https://CRAN.R-project.org/package=openssl"
       }
     ],
-    "fileSize": "4.289KB",
+    "fileSize": "4.287KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/oauthlib",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
@@ -8907,7 +8926,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/ochRe",
     "releaseNotes": "https://github.com/ropenscilabs/ochRe/blob/master/NEWS.md",
-    "fileSize": "798.98KB"
+    "fileSize": "798.977KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -8981,7 +9000,7 @@
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
-    "fileSize": "11.877KB",
+    "fileSize": "11.878KB",
     "contIntegration": ["https://travis-ci.org/ropensci/opencv", "https://ci.appveyor.com/project/jeroen/opencv"]
   },
   {
@@ -9725,7 +9744,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/ozflights",
-    "fileSize": "333.282KB"
+    "fileSize": "333.278KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -10201,7 +10220,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/packagemetrics",
-    "fileSize": "837.233KB"
+    "fileSize": "837.228KB"
   },
   {
     "@context": [
@@ -10389,7 +10408,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "10.863KB",
+    "fileSize": "10.862KB",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
   {
@@ -10472,7 +10491,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "167.419KB",
+    "fileSize": "167.422KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/pegax", "https://codecov.io/github/ropenscilabs/pegax?branch=master"]
   },
   {
@@ -10552,7 +10571,7 @@
         "sameAs": "https://CRAN.R-project.org/package=ape"
       }
     ],
-    "fileSize": "11.746KB"
+    "fileSize": "11.744KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -10943,7 +10962,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/pkginspector/blob/master/NEWS.md",
-    "fileSize": "89.916KB",
+    "fileSize": "89.917KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/pkginspector", "https://codecov.io/gh/ropenscilabs/pkginspector"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental"
   },
@@ -11308,7 +11327,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/pkgreviewr/blob/master/NEWS.md",
-    "fileSize": "1305.578KB",
+    "fileSize": "1305.574KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/pkgreviewr", "https://codecov.io/gh/ropenscilabs/pkgreviewr"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing"
   },
@@ -11781,7 +11800,7 @@
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       }
     ],
-    "fileSize": "69.057KB",
+    "fileSize": "69.055KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/qcoder"
   },
   {
@@ -11876,7 +11895,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/rcheatsheet",
-    "fileSize": "371.927KB"
+    "fileSize": "371.928KB"
   },
   {
     "@context": [
@@ -11981,7 +12000,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "6.372KB",
+    "fileSize": "6.371KB",
     "contIntegration": [
       "https://travis-ci.com/ropenscilabs/rcitoid",
       "https://ci.appveyor.com/project/sckott/rcitoid"
@@ -12131,7 +12150,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/reviewer",
-    "fileSize": "272.127KB"
+    "fileSize": "272.126KB"
   },
   {
     "@context": [
@@ -12369,7 +12388,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "4.228KB",
+    "fileSize": "4.23KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/ridb"
   },
   {
@@ -12421,7 +12440,7 @@
     ],
     "softwareSuggestions": [],
     "softwareRequirements": [],
-    "fileSize": "419.268KB"
+    "fileSize": "419.265KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -12511,7 +12530,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/roblog",
-    "fileSize": "124.921KB"
+    "fileSize": "124.92KB"
   },
   {
     "@context": [
@@ -12946,7 +12965,7 @@
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
     ],
-    "fileSize": "102.881KB",
+    "fileSize": "102.879KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/roomba"
   },
   {
@@ -13255,7 +13274,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/ropsec/blob/master/NEWS.md",
-    "fileSize": "3344.093KB",
+    "fileSize": "3344.096KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/ropsec", "https://ci.appveyor.com/project/czeildi/ropsec-w5fnj", "https://codecov.io/github/ropenscilabs/ropsec?branch=master"],
     "developmentStatus": ["https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/"]
   },
@@ -13336,7 +13355,7 @@
     ],
     "softwareRequirements": [],
     "releaseNotes": "https://github.com/ropenscilabs/rotemplate/blob/master/NEWS.md",
-    "fileSize": "44.75KB",
+    "fileSize": "44.752KB",
     "contIntegration": "https://travis-ci.org/ropensci/rotemplate",
     "developmentStatus": "https://www.repostatus.org/#wip",
     "citation": [
@@ -13434,7 +13453,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "3.1KB",
+    "fileSize": "3.097KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/rresync", "https://codecov.io/github/ropenscilabs/rresync?branch=master"]
   },
   {
@@ -13633,7 +13652,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/rthings",
     "releaseNotes": "https://github.com/ropenscilabs/rthings/blob/master/NEWS.md",
-    "fileSize": "5.255KB",
+    "fileSize": "5.257KB",
     "contIntegration": ["https://travis-ci.org/karthik/rthings", "https://codecov.io/gh/karthik/rthings"]
   },
   {
@@ -13818,7 +13837,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/rwalkable",
-    "fileSize": "7.556KB"
+    "fileSize": "7.551KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -13952,7 +13971,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "7.113KB",
+    "fileSize": "7.112KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/rwdpa"
   },
   {
@@ -14125,7 +14144,7 @@
         "sameAs": "https://CRAN.R-project.org/package=callr"
       }
     ],
-    "fileSize": "2.865KB",
+    "fileSize": "2.868KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
@@ -14242,7 +14261,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/scitations",
-    "fileSize": "7.544KB",
+    "fileSize": "7.542KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -14409,7 +14428,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/simpletextr",
-    "fileSize": "97.174KB"
+    "fileSize": "97.173KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -14576,7 +14595,7 @@
         "sameAs": "https://CRAN.R-project.org/package=R6"
       }
     ],
-    "fileSize": "9.603KB"
+    "fileSize": "9.602KB"
   },
   {
     "@context": [
@@ -14728,7 +14747,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/spenv",
-    "fileSize": "13.989KB",
+    "fileSize": "13.988KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -14890,7 +14909,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/spplist",
-    "fileSize": "5.389KB",
+    "fileSize": "5.386KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -15071,7 +15090,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/spplit",
-    "fileSize": "1446.501KB",
+    "fileSize": "1446.498KB",
     "keywords": [
       "rstats",
       "r",
@@ -15457,7 +15476,7 @@
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
     "keywords": ["taxonomy", "biology", "hierarchy"],
-    "fileSize": "5.314KB",
+    "fileSize": "5.313KB",
     "contIntegration": ["https://travis-ci.com/ropenscilabs/taxadc", "https://codecov.io/gh/ropenscilabs/taxadc"],
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
@@ -15527,7 +15546,7 @@
         "sameAs": "https://CRAN.R-project.org/package=reticulate"
       }
     ],
-    "fileSize": "3.26KB",
+    "fileSize": "3.259KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/tecks",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
@@ -15808,10 +15827,13 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/testrmd",
-    "fileSize": "6.063KB"
+    "fileSize": "6.064KB"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "tic",
     "description": "\n    Provides a way to describe common build and deployment workflows for R-based\n    projects: packages, websites (e.g. blogdown, pkgdown), or data processing\n    (e.g. research compendia).  The recipe is described independent of the\n    continuous integration tool used for processing the workflow (e.g.\n    'Travis CI' or 'AppVeyor').",
@@ -16179,7 +16201,10 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/tic/blob/master/NEWS.md",
     "fileSize": "152.92KB",
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/tic", "https://ci.appveyor.com/project/ropensci/tic/branch/master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropenscilabs/tic",
+      "https://ci.appveyor.com/project/ropensci/tic/branch/master"
+    ],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "review": {
       "@type": "Review",
@@ -16259,7 +16284,7 @@
         "sameAs": "https://github.com/ropenscilabs/clock"
       }
     ],
-    "fileSize": "4.614KB",
+    "fileSize": "4.616KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/timefuzz",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
@@ -16368,7 +16393,7 @@
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
-    "fileSize": "3259.864KB",
+    "fileSize": "3259.868KB",
     "developmentStatus": "https://www.repostatus.org/#unsupported"
   },
   {
@@ -16572,7 +16597,7 @@
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
     ],
-    "fileSize": "37.886KB",
+    "fileSize": "37.885KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/tinkr", "https://ci.appveyor.com/project/maelle/tinkr", "https://codecov.io/github/ropenscilabs/tinkr?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
@@ -16704,7 +16729,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/tl",
-    "fileSize": "11.458KB",
+    "fileSize": "11.456KB",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/tl", "https://codecov.io/gh/ropenscilabs/tl?branch=master"]
   },
   {
@@ -16833,7 +16858,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/trackmd",
-    "fileSize": "9.436KB",
+    "fileSize": "9.437KB",
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
   {
@@ -16911,7 +16936,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/tRainspotting",
-    "fileSize": "391.751KB"
+    "fileSize": "391.755KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -17142,7 +17167,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/travis/blob/master/NEWS.md",
-    "fileSize": "29.399KB",
+    "fileSize": "29.398KB",
     "contIntegration": "https://travis-ci.org/ropenscilabs/travis"
   },
   {
@@ -17815,7 +17840,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "fakeweb", "http-mocking", "testing", "testing-tools", "tdd"],
     "releaseNotes": "https://github.com/ropenscilabs/webmiddens/blob/master/NEWS.md",
-    "fileSize": "6.656KB",
+    "fileSize": "6.661KB",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
   {
@@ -17973,7 +17998,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "528.276KB",
+    "fileSize": "528.278KB",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#archived"
   },
   {
@@ -18081,7 +18106,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "83.244KB",
+    "fileSize": "83.241KB",
     "contIntegration": [
       "https://travis-ci.org/ropenscilabs/zbank",
       "https://codecov.io/github/ropenscilabs/zbank?branch=master"
@@ -18638,8 +18663,16 @@
       }
     ],
     "applicationCategory": "Antarctic/SouthernOcean",
-    "isPartOf": ["https://ropensci.org", "https://scar.org"],
-    "keywords": ["Antarctic", "SouthernOcean", "placenames", "gazetteer"],
+    "isPartOf": [
+      "https://ropensci.org",
+      "https://scar.org"
+    ],
+    "keywords": [
+      "Antarctic",
+      "SouthernOcean",
+      "placenames",
+      "gazetteer"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/antanym",
     "fileSize": "1847.268KB",
     "citation": [
@@ -18733,7 +18766,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/antiword/blob/master/NEWS",
-    "fileSize": "230.514KB",
+    "fileSize": "230.511KB",
     "contIntegration": ["https://travis-ci.org/ropensci/antiword", "https://ci.appveyor.com/project/jeroen/antiword"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -18852,7 +18885,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/AntWeb/blob/master/NEWS",
-    "fileSize": "14.51KB",
+    "fileSize": "14.511KB",
     "contIntegration": ["https://ci.appveyor.com/project/ropensci/antweb", "https://travis-ci.org/", "https://codecov.io/gh/RMHogervorst/antweb"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -19099,7 +19132,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/arkdb/blob/master/NEWS.md",
-    "fileSize": "82.442KB",
+    "fileSize": "82.44KB",
     "contIntegration": [
       "https://travis-ci.org/cboettig/arkdb",
       "https://codecov.io/github/cboettig/arkdb?branch=master",
@@ -19542,7 +19575,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/libav"
       }
     ],
-    "fileSize": "738.652KB",
+    "fileSize": "738.651KB",
     "contIntegration": ["https://travis-ci.org/ropensci/av", "https://ci.appveyor.com/project/jeroen/av"],
     "developmentStatus": "https://www.repostatus.org/#active"
   },
@@ -19834,12 +19867,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Richèl", "JC"],
+            "givenName": [
+              "Richèl",
+              "JC"
+            ],
             "familyName": "Bilderbeek"
           },
           {
             "@type": "Person",
-            "givenName": ["Rampal", "S"],
+            "givenName": [
+              "Rampal",
+              "S"
+            ],
             "familyName": "Etienne"
           }
         ],
@@ -19849,7 +19888,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Methods in Ecology and Evolution"
           }
         }
@@ -19993,7 +20035,7 @@
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geospatial", "GeoJSON", "WKT", "spatial", "boundingbox"],
-    "fileSize": "1089.118KB",
+    "fileSize": "1089.119KB",
     "contIntegration": ["https://travis-ci.org/ropensci/bbox", "https://codecov.io/gh/ropensci/bbox"],
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
@@ -20209,7 +20251,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/beastier/blob/master/NEWS.md",
-    "fileSize": "88.985KB",
+    "fileSize": "88.982KB",
     "contIntegration": [
       "https://travis-ci.org",
       "https://www.appveyor.com",
@@ -20510,12 +20552,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Richèl", "JC"],
+            "givenName": [
+              "Richèl",
+              "JC"
+            ],
             "familyName": "Bilderbeek"
           },
           {
             "@type": "Person",
-            "givenName": ["Rampal", "S"],
+            "givenName": [
+              "Rampal",
+              "S"
+            ],
             "familyName": "Etienne"
           }
         ],
@@ -20525,7 +20573,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Methods in Ecology and Evolution"
           }
         }
@@ -20702,10 +20753,13 @@
       }
     ],
     "codeRepository": "https://github.com/ropensci/betty",
-    "fileSize": "7.762KB"
+    "fileSize": "7.758KB"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "bib2df",
     "description": "Parse a BibTeX file to a data.frame to make it accessible for further analysis and visualization.",
@@ -20885,7 +20939,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/bib2df/blob/master/NEWS.md",
     "fileSize": "12.256KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/bib2df", "https://ci.appveyor.com/project/ottlngr/bib2df", "https://codecov.io/gh/ropensci/bib2df"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/bib2df",
+      "https://ci.appveyor.com/project/ottlngr/bib2df",
+      "https://codecov.io/gh/ropensci/bib2df"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/124",
@@ -21166,7 +21224,14 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data"],
+    "keywords": [
+      "bicycle-hire-systems",
+      "bike-hire-systems",
+      "bike-hire",
+      "bicycle-hire",
+      "database",
+      "bike-data"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/bikedata",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
@@ -21204,7 +21269,10 @@
           "issueNumber": "20",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2",
             "name": "The Journal of Open Source Software"
           }
@@ -21408,7 +21476,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/binman/blob/master/NEWS.md",
-    "fileSize": "39.075KB",
+    "fileSize": "39.074KB",
     "contIntegration": ["https://travis-ci.org/ropensci/binman", "https://ci.appveyor.com/project/juyeongkim/binman", "https://codecov.io/gh/ropensci/binman"],
     "relatedLink": "https://CRAN.R-project.org/package=binman"
   },
@@ -21572,7 +21640,7 @@
     "keywords": ["taoxnomy", "taxonomic", "tidy", "parsing", "biology", "names"],
     "contIntegration": "https://travis-ci.org/ropensci/binomen",
     "releaseNotes": "https://github.com/ropensci/binomen/blob/master/NEWS.md",
-    "fileSize": "21.853KB",
+    "fileSize": "21.852KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -21920,7 +21988,15 @@
       }
     ],
     "applicationCategory": "DataAccess",
-    "keywords": ["BioMart", "genomic-data-retrieval", "annotation-retrieval", "database-retrieval", "NCBI", "ENSEMBL", "biological-data-retrieval"],
+    "keywords": [
+      "BioMart",
+      "genomic-data-retrieval",
+      "annotation-retrieval",
+      "database-retrieval",
+      "NCBI",
+      "ENSEMBL",
+      "biological-data-retrieval"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/biomartr",
     "releaseNotes": "https://github.com/ropensci/biomartr/blob/master/NEWS.md",
     "fileSize": "254.291KB",
@@ -21946,7 +22022,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Bioinformatics"
           }
         }
@@ -22122,7 +22201,11 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["cryptocurrency", "cryptocurency-exchange", "finance"],
+    "keywords": [
+      "cryptocurrency",
+      "cryptocurency-exchange",
+      "finance"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/bittrex",
     "releaseNotes": "https://github.com/ropensci/bittrex/blob/master/NEWS.md",
     "fileSize": "174.469KB",
@@ -22147,7 +22230,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Michael", "J."],
+            "givenName": [
+              "Michael",
+              "J."
+            ],
             "familyName": "Kane"
           }
         ],
@@ -22160,7 +22246,10 @@
           "@type": "PublicationIssue",
           "issueNumber": "402",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2(17)",
             "name": "Journal of Open Open Source Software"
           }
@@ -22271,7 +22360,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropensci/bmc",
-    "fileSize": "5.892KB",
+    "fileSize": "5.893KB",
     "contIntegration": ["https://ci.appveyor.com/project/ropensci/bmc", "https://travis-ci.org/", "https://codecov.io/gh/ropensci/bmc"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -22287,7 +22376,7 @@
     "codeRepository": "https://github.com/ropensci/bold",
     "issueTracker": "https://github.com/ropensci/bold/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.6.9451",
+    "version": "0.9.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -22488,7 +22577,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/bold",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/bold/blob/master/NEWS.md",
-    "fileSize": "693.488KB",
+    "fileSize": "693.884KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -23353,8 +23442,19 @@
     "contIntegration": "https://travis-ci.org/AustralianAntarcticDivision/bowerbird",
     "fileSize": "191.564KB",
     "applicationCategory": "Antarctic/SouthernOcean",
-    "isPartOf": ["https://ropensci.org", "https://scar.org"],
-    "keywords": ["ropensci", "Antarctic", "SouthernOcean", "data", "environmental", "satellite", "climate"],
+    "isPartOf": [
+      "https://ropensci.org",
+      "https://scar.org"
+    ],
+    "keywords": [
+      "ropensci",
+      "Antarctic",
+      "SouthernOcean",
+      "data",
+      "environmental",
+      "satellite",
+      "climate"
+    ],
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -23528,7 +23628,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "camsRad",
     "description": "Copernicus Atmosphere Monitoring Service (CAMS) Radiation Service \n    provides time series of global, direct, and diffuse irradiations on horizontal\n    surface, and direct irradiation on normal plane for the actual weather \n    conditions as well as for clear-sky conditions.\n    The geographical coverage is the field-of-view of the Meteosat satellite,\n    roughly speaking Europe, Africa, Atlantic Ocean, Middle East. The time coverage\n    of data is from 2004-02-01 up to 2 days ago. Data are available with a time step\n    ranging from 15 min to 1 month. For license terms and to create an account,\n    please see <http://www.soda-pro.com/web-services/radiation/cams-radiation-service>. ",
@@ -23667,7 +23770,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/camsRad/blob/master/NEWS.md",
     "fileSize": "13.263KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/camsRad", "https://codecov.io/gh/ropenscilabs/camsRad"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/camsRad",
+      "https://codecov.io/gh/ropenscilabs/camsRad"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -23765,7 +23871,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "4.786KB",
+    "fileSize": "4.785KB",
     "contIntegration": "https://travis-ci.org/ropensci/canpaginate",
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
@@ -23970,7 +24076,14 @@
       }
     ],
     "isPartOf": "\"https://ropensci.org\"",
-    "keywords": ["data", "climatechange", "agriculture", "gcm", "generalcirculationmodel", "ccafs"],
+    "keywords": [
+      "data",
+      "climatechange",
+      "agriculture",
+      "gcm",
+      "generalcirculationmodel",
+      "ccafs"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/ccafs",
     "releaseNotes": "https://github.com/ropensci/ccafs/blob/master/NEWS.md",
     "fileSize": "893.568KB",
@@ -23985,7 +24098,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cde",
     "description": "The cde package facilitates searching and download of the\n  WFD-related data for all waterbodies within the Environment Agency area.\n  The types of data that can be downloaded are: WFD status classification data\n  (which can also be plotted), Reasons for Not Achieving Good (RNAG) status,\n  objectives set for waterbodies, measures put in place to improve water \n  quality and details of associated protected areas. The site accessed is \n  https://environment.data.gov.uk/catchment-planning/. The data are made \n  available under the Open Government Licence v3.0 \n  (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).\n  This package has been peer-reviewed by rOpenSci (v. 0.4.0).",
@@ -24104,7 +24220,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/cde/blob/master/NEWS.md",
     "fileSize": "123.597KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/cde", "https://coveralls.io/github/ropensci/cde?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/cde",
+      "https://coveralls.io/github/ropensci/cde?branch=master"
+    ],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -24279,7 +24398,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/charlatan",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/charlatan/blob/master/NEWS.md",
-    "fileSize": "278.381KB",
+    "fileSize": "278.38KB",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/94",
@@ -24754,7 +24873,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Evan", "A."],
+            "givenName": [
+              "Evan",
+              "A."
+            ],
             "familyName": "Eskew"
           },
           {
@@ -24774,7 +24896,10 @@
           "issueNumber": "37",
           "datePublished": "2019",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "4",
             "name": "Journal of Open Source Software"
           }
@@ -24880,15 +25005,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "maptools",
-        "name": "maptools",
+        "identifier": "sf",
+        "name": "sf",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=maptools"
+        "sameAs": "https://CRAN.R-project.org/package=sf"
       },
       {
         "@type": "SoftwareApplication",
@@ -25037,7 +25162,7 @@
     "keywords": ["database", "open-data", "ckan", "api", "data", "dataset"],
     "contIntegration": "https://travis-ci.org/ropensci/ckanr",
     "releaseNotes": "https://github.com/ropensci/ckanr/blob/master/NEWS.md",
-    "fileSize": "74.316KB",
+    "fileSize": "74.431KB",
     "copyrightHolder": {},
     "funder": {}
   },
@@ -25245,18 +25370,24 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/cld3/blob/master/NEWS",
-    "fileSize": "618.133KB",
+    "fileSize": "618.132KB",
     "contIntegration": ["https://travis-ci.org/ropensci/cld3", "https://ci.appveyor.com/project/jeroen/cld3", "https://codecov.io/github/ropensci/cld3?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cleanEHR",
     "description": "An electronic health care record (EHR) data cleaning and processing\n    platform. It focus on heterogeneous high resolution longitudinal data. It works with \n    Critical Care Health Informatics Collaborative (CCHIC) dataset. It is\n    created to address various data reliability and accessibility problems of\n    EHRs as such. ",
     "name": "cleanEHR: The Critical Care Clinical Data Processing Tools",
     "codeRepository": "https://github.com/ropensci/cleanEHR",
-    "relatedLink": ["http://www.hic.nihr.ac.uk", "https://CRAN.R-project.org/package=cleanEHR"],
+    "relatedLink": [
+      "http://www.hic.nihr.ac.uk",
+      "https://CRAN.R-project.org/package=cleanEHR"
+    ],
     "issueTracker": "https://github.com/ropensci/cleanEHR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.0",
@@ -25428,7 +25559,10 @@
       }
     ],
     "fileSize": "1952.152KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/cleanEHR", "https://codecov.io/gh/ropensci/cleanEHR"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/cleanEHR",
+      "https://codecov.io/gh/ropensci/cleanEHR"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/102",
@@ -25668,7 +25802,7 @@
     "isPartOf": "\"https://ropensci.org\"",
     "contIntegration": "https://travis-ci.org/ropensci/clifro",
     "releaseNotes": "https://github.com/ropensci/clifro/blob/master/NEWS.md",
-    "fileSize": "1671.279KB",
+    "fileSize": "1671.28KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -26194,7 +26328,7 @@
     "keywords": ["metadata", "codemeta", "ropensci", "citation", "credit", "linked-data"],
     "isPartOf": "https://ropensci.org",
     "releaseNotes": "https://github.com/ropensci/codemetar/blob/master/NEWS.md",
-    "fileSize": "286.804KB",
+    "fileSize": "286.805KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/codemetar",
       "https://ci.appveyor.com/project/cboettig/codemetar/branch/master",
@@ -26208,7 +26342,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "colocr",
     "description": "Automate the co-localization analysis of fluorescence microscopy \n  images. Selecting regions of interest, extract pixel intensities from \n  the image channels and calculate different co-localization statistics. The\n  methods implemented in this package are based on Dunn et al. (2011) \n  <doi:10.1152/ajpcell.00462.2010>.",
@@ -26413,7 +26550,12 @@
     ],
     "releaseNotes": "https://github.com/ropensci/colocr/blob/master/NEWS.md",
     "fileSize": "2449.829KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/colocr", "https://ci.appveyor.com/project/ropensci/colocr", "https://codecov.io/gh/ropensci/colocr", "https://travis-ci.org/MahShaaban/colocr_app"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/colocr",
+      "https://ci.appveyor.com/project/ropensci/colocr",
+      "https://codecov.io/gh/ropensci/colocr",
+      "https://travis-ci.org/MahShaaban/colocr_app"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/243",
@@ -26421,7 +26563,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "comtradr",
     "description": "Interface with and extract data from the United Nations Comtrade \n  API <https://comtrade.un.org/data/>. Comtrade provides country level shipping \n  data for a variety of commodities, these functions allow for easy API query \n  and data returned as a tidy data frame.",
@@ -26583,7 +26728,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/comtradr/blob/master/NEWS.md",
     "fileSize": "277.288KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/comtradr", "https://ci.appveyor.com/project/ropensci/comtradr", "https://codecov.io/github/ropensci/comtradr"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/comtradr",
+      "https://ci.appveyor.com/project/ropensci/comtradr",
+      "https://codecov.io/github/ropensci/comtradr"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/141",
@@ -26919,7 +27068,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/CoordinateCleaner/blob/master/NEWS.md",
-    "fileSize": "1114.855KB",
+    "fileSize": "1114.85KB",
     "contIntegration": [
       "https://travis-ci.com/azizka/CoordinateCleaner",
       "https://codecov.io/gh/azizka/CoordinateCleaner"
@@ -27023,7 +27172,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cRegulome",
     "description": "Builds a 'SQLite' database file of pre-calculated transcription \n    factor/microRNA-gene correlations (co-expression) in cancer from the \n    Cistrome Cancer Liu et al. (2011) <doi:10.1186/gb-2011-12-8-r83> and \n    'miRCancerdb' databases (in press). Provides custom classes and functions \n    to query, tidy and plot the correlation data.",
@@ -27285,7 +27437,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/cRegulome/blob/master/NEWS.md",
     "fileSize": "483.647KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/cRegulome", "https://codecov.io/gh/ropensci/cRegulome", "https://ci.appveyor.com/project/ropensci/cregulome"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/cRegulome",
+      "https://codecov.io/gh/ropensci/cRegulome",
+      "https://ci.appveyor.com/project/ropensci/cregulome"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/149",
@@ -27303,7 +27459,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Deok", "Ryong"],
+            "givenName": [
+              "Deok",
+              "Ryong"
+            ],
             "familyName": "Kim"
           }
         ],
@@ -27316,7 +27475,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2019",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "7",
             "name": "PeerJ"
           }
@@ -27432,7 +27594,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/crevents",
-    "fileSize": "7.387KB",
+    "fileSize": "7.386KB",
     "keywords": [
       "crossref",
       "altmetrics",
@@ -27598,7 +27760,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/crminer",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/crminer/blob/master/NEWS.md",
-    "fileSize": "2919.728KB",
+    "fileSize": "2919.73KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -27783,7 +27945,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/crul",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/crul/blob/master/NEWS.md",
-    "fileSize": "74.94KB",
+    "fileSize": "74.939KB",
     "relatedLink": [
       "https://ropenscilabs.github.io/http-testing-book/"
     ],
@@ -27792,7 +27954,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cyphr",
     "description": "Encryption wrappers, using low-level support from\n    'sodium' and 'openssl'.  'cyphr' tries to smooth over some pain\n    points when using encryption within applications and data analysis\n    by wrapping around differences in function names and arguments in\n    different encryption providing packages.  It also provides\n    high-level wrappers for input/output functions for seamlessly\n    adding encryption to existing analyses.",
@@ -27913,7 +28078,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/cyphr/blob/master/NEWS.md",
     "fileSize": "62.453KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/cyphr", "https://ci.appveyor.com/project/ropensci/cyphr", "https://codecov.io/github/ropensci/cyphr?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/cyphr",
+      "https://ci.appveyor.com/project/ropensci/cyphr",
+      "https://codecov.io/github/ropensci/cyphr?branch=master"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -28230,7 +28399,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropensci/dashboard",
-    "fileSize": "311.732KB",
+    "fileSize": "311.733KB",
     "contIntegration": "https://travis-ci.org/ropensci/dashboard"
   },
   {
@@ -28410,7 +28579,7 @@
     ],
     "codeRepository": "https://github.com/ropensci/datapack",
     "releaseNotes": "https://github.com/ropensci/datapack/blob/master/NEWS",
-    "fileSize": "439.965KB",
+    "fileSize": "439.968KB",
     "contIntegration": "https://travis-ci.org/ropensci/datapack",
     "citation": [
       {
@@ -28753,7 +28922,7 @@
       "peer-reviewed"
     ],
     "funder": {},
-    "fileSize": "288.272KB"
+    "fileSize": "288.27KB"
   },
   {
     "@context": [
@@ -28988,7 +29157,10 @@
     "relatedLink": "https://CRAN.R-project.org/package=DataSpaceR"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "dbhydroR",
     "description": "Client for programmatic access to the South Florida Water\n  Management District's 'DBHYDRO' database at \n  <https://www.sfwmd.gov/science-data/dbhydro>, with functions\n  for accessing hydrologic and water quality data. ",
@@ -29139,13 +29311,20 @@
     "relatedLink": "https://CRAN.R-project.org/package=dbhydroR"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "DoOR.data",
     "description": "This is a data package providing Drosophila odorant response data for\n    DoOR.functions. See URLs for the original and the DoOR 2.0 publications.",
     "name": "DoOR.data: Integrating Heterogeneous Odorant Response Data into a Common Response\n    Model: A DoOR to the Complete Olfactome",
     "codeRepository": "https://github.com/ropensci/DoOR.data",
-    "relatedLink": ["http://neuro.uni.kn/DoOR", "http://dx.doi.org/10.1038/srep21841", "http://dx.doi.org/10.1093/chemse/bjq042"],
+    "relatedLink": [
+      "http://neuro.uni.kn/DoOR",
+      "http://dx.doi.org/10.1038/srep21841",
+      "http://dx.doi.org/10.1093/chemse/bjq042"
+    ],
     "issueTracker": "https://github.com/ropensci/DoOR.data/issues",
     "license": "https://spdx.org/licenses/CC-BY-SA-4.0",
     "version": "2.0.1.9000",
@@ -29239,13 +29418,20 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "DoOR.functions",
     "description": "This is a function package providing functions to perform data\n    manipulations and visualizations for DoOR.data. See the URLs for the original and the DoOR 2.0 publication.",
     "name": "DoOR.functions: Integrating Heterogeneous Odorant Response Data into a Common Response\n    Model: A DoOR to the Complete Olfactome",
     "codeRepository": "https://github.com/ropensci/DoOR.functions",
-    "relatedLink": ["http://neuro.uni.kn/DoOR", "http://dx.doi.org/10.1038/srep21841", "http://dx.doi.org/10.1093/chemse/bjq042"],
+    "relatedLink": [
+      "http://neuro.uni.kn/DoOR",
+      "http://dx.doi.org/10.1038/srep21841",
+      "http://dx.doi.org/10.1093/chemse/bjq042"
+    ],
     "issueTracker": "https://github.com/ropensci/DoOR.functions/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "2.0.1.9000",
@@ -29918,14 +30104,14 @@
         "@type": "SoftwareApplication",
         "identifier": "txtq",
         "name": "txtq",
-        "version": ">= 0.1.4",
+        "version": ">= 0.1.3",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/wlandau/txtq"
+        "sameAs": "https://CRAN.R-project.org/package=txtq"
       },
       {
         "@type": "SoftwareApplication",
@@ -29934,7 +30120,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/drake/blob/master/NEWS.md",
-    "fileSize": "905.552KB",
+    "fileSize": "905.555KB",
     "contIntegration": [
       "https://ci.appveyor.com/project/ropensci/drake",
       "https://travis-ci.org/ropensci/drake",
@@ -30319,7 +30505,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/elastic",
     "releaseNotes": "https://github.com/ropensci/elastic/blob/master/NEWS.md",
-    "fileSize": "1205.208KB",
+    "fileSize": "1205.211KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["database", "Elasticsearch", "HTTP", "API", "search", "NoSQL", "Java", "JSON", "documents"],
@@ -30809,7 +30995,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
-    "fileSize": "491.119KB",
+    "fileSize": "491.118KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/EML",
       "https://ci.appveyor.com/project/cboettig/eml",
@@ -31066,7 +31252,10 @@
           "issueNumber": "34",
           "datePublished": "2019",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "4",
             "name": "The Journal of Open Source Software"
           }
@@ -31089,7 +31278,10 @@
     "relatedLink": "https://CRAN.R-project.org/package=emld"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "EndoMineR",
     "description": "This script comprises the functions that are used to clean up endoscopic \n             reports and pathology reports as well as many of the scripts used for analysis.  \n             The scripts assume the endoscopy and histopathology data set is merged already but it can \n             also be used of course with the unmerged datasets.",
@@ -31497,7 +31689,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/EndoMineR/blob/master/NEWS.md",
     "fileSize": "8399.286KB",
-    "contIntegration": ["https://travis-ci.org/sebastiz/EndoMineR", "https://codecov.io/github/sebastiz/EndoMineR?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/sebastiz/EndoMineR",
+      "https://codecov.io/github/sebastiz/EndoMineR?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/153",
@@ -31685,7 +31880,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/epubr/blob/master/NEWS.md",
-    "fileSize": "476.804KB",
+    "fileSize": "476.805KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/epubr",
       "https://ci.appveyor.com/project/leonawicz/epubr",
@@ -31868,7 +32063,10 @@
     "contIntegration": "https://travis-ci.org/ropensci/essurvey",
     "releaseNotes": "https://github.com/ropensci/essurvey/blob/master/NEWS.md",
     "fileSize": "53.987KB",
-    "relatedLink": ["https://ropensci.github.io/essurvey/", "https://CRAN.R-project.org/package=essurvey"],
+    "relatedLink": [
+      "https://ropensci.github.io/essurvey/",
+      "https://CRAN.R-project.org/package=essurvey"
+    ],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -32023,13 +32221,16 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/etseed",
     "releaseNotes": "https://github.com/ropensci/etseed/blob/master/NEWS.md",
-    "fileSize": "25.934KB",
+    "fileSize": "25.935KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "europepmc",
     "description": "An R Client for the Europe PubMed Central RESTful Web Service\n    (see <https://europepmc.org/RestfulWebService> for more information). It\n    gives access to both metadata on life science literature and open access\n    full texts. Europe PMC indexes all PubMed content and other literature\n    sources including Agricola, a bibliographic database of citations to the\n    agricultural literature, or Biological Patents. In addition to bibliographic\n    metadata, the client allows users to fetch citations and reference lists.\n    Links between life-science literature and other EBI databases, including\n    ENA, PDB or ChEMBL are also accessible. No registration or API key is\n    required. See the vignettes for usage examples.",
@@ -32251,7 +32452,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/europepmc/blob/master/NEWS.md",
     "fileSize": "87.748KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/europepmc", "https://ci.appveyor.com/project/sckott/europepmc", "https://codecov.io/github/ropensci/europepmc?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/europepmc",
+      "https://ci.appveyor.com/project/sckott/europepmc",
+      "https://codecov.io/github/ropensci/europepmc?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/29",
@@ -32379,7 +32584,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ezknitr/blob/master/NEWS.md",
-    "fileSize": "17.884KB",
+    "fileSize": "17.886KB",
     "contIntegration": ["https://travis-ci.org/ropensci/ezknitr", "https://codecov.io/github/ropensci/ezknitr?branch=master"],
     "relatedLink": "https://CRAN.R-project.org/package=ezknitr"
   },
@@ -32555,7 +32760,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "FedData",
     "description": "Functions to automate downloading geospatial data available from\n    several federated data sources (mainly sources maintained by the US Federal\n    government). Currently, the package enables extraction from seven datasets:\n    The National Elevation Dataset digital elevation models (1 and 1/3 arc-second;\n    USGS); The National Hydrography Dataset (USGS); The Soil Survey Geographic\n    (SSURGO) database from the National Cooperative Soil Survey (NCSS), which is\n    led by the Natural Resources Conservation Service (NRCS) under the USDA; the\n    Global Historical Climatology Network (GHCN), coordinated by National Climatic\n    Data Center at NOAA; the Daymet gridded estimates of daily weather parameters \n    for North America, version 3, available from the Oak Ridge National Laboratory's\n    Distributed Active Archive Center (DAAC); the International Tree Ring Data Bank; \n    and the National Land Cover Database (NLCD).",
@@ -32580,7 +32788,10 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": ["R.", "Kyle"],
+        "givenName": [
+          "R.",
+          "Kyle"
+        ],
         "familyName": "Bocinsky",
         "email": "bocinsky@gmail.com"
       }
@@ -32602,7 +32813,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": ["R.", "Kyle"],
+        "givenName": [
+          "R.",
+          "Kyle"
+        ],
         "familyName": "Bocinsky",
         "email": "bocinsky@gmail.com"
       }
@@ -33097,19 +33311,25 @@
     "keywords": ["biology", "occurrences", "specimen", "biodiversity", "collections", "species"],
     "contIntegration": "https://travis-ci.org/ropensci/finch",
     "releaseNotes": "https://github.com/ropensci/finch/blob/master/NEWS.md",
-    "fileSize": "251.227KB",
+    "fileSize": "251.225KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "fingertipsR",
     "description": "Fingertips (<http://fingertips.phe.org.uk/>) contains data for many indicators of public health in England. The underlying data is now more easily accessible by making use of the API.",
     "name": "fingertipsR: Fingertips Data for Public Health",
     "codeRepository": "https://github.com/ropensci/fingertipsR",
-    "relatedLink": ["https://fingertips.phe.org.uk", "https://CRAN.R-project.org/package=fingertipsR"],
+    "relatedLink": [
+      "https://fingertips.phe.org.uk",
+      "https://CRAN.R-project.org/package=fingertipsR"
+    ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.2.6.9000",
@@ -33380,7 +33600,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/fingertipsR/blob/master/NEWS.md",
     "fileSize": "27.488KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/fingertipsR", "https://coveralls.io/github/ropensci/fingertipsR?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/fingertipsR",
+      "https://coveralls.io/github/ropensci/fingertipsR?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/168",
@@ -33511,7 +33734,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "fileSize": "7.132KB",
+    "fileSize": "7.134KB",
     "contIntegration": "https://travis-ci.org/ropensci/ftp"
   },
   {
@@ -33816,9 +34039,12 @@
     "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM"],
     "contIntegration": "https://travis-ci.org/ropensci/fulltext",
     "releaseNotes": "https://github.com/ropensci/fulltext/blob/master/NEWS.md",
-    "fileSize": "963.443KB",
+    "fileSize": "963.445KB",
     "developmentStatus": "active",
-    "relatedLink": "https://ropensci.github.io/fulltext-book/",
+    "relatedLink": [
+      "https://ropensci.github.io/fulltext-book/",
+      "https://ropenscilabs.github.io/fulltext-book/"
+    ],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -34008,7 +34234,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/gender/blob/master/NEWS",
-    "fileSize": "77.928KB",
+    "fileSize": "77.926KB",
     "contIntegration": ["https://travis-ci.org/ropensci/gender", "https://ci.appveyor.com/project/ropensci/gender", "https://codecov.io/github/ropensci/gender?branch=master"],
     "citation": [
       {
@@ -34096,7 +34322,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/genderdata/blob/master/NEWS",
-    "fileSize": "16313.127KB",
+    "fileSize": "16313.126KB",
     "contIntegration": ["https://travis-ci.org/ropensci/genderdata", "https://ci.appveyor.com/project/ropensci/genderdata", "https://codecov.io/github/ropensci/genderdata?branch=master"]
   },
   {
@@ -34885,7 +35111,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/geojsonlint",
     "releaseNotes": "https://github.com/ropensci/geojsonlint/blob/master/NEWS.md",
-    "fileSize": "882.455KB",
+    "fileSize": "882.457KB",
     "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema"],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
@@ -34949,7 +35175,7 @@
     ],
     "codeRepository": "https://github.com/ropensci/geonames",
     "releaseNotes": "https://github.com/ropensci/geonames/blob/master/NEWS",
-    "fileSize": "21.493KB",
+    "fileSize": "21.494KB",
     "contIntegration": "https://travis-ci.org/ropensci/geonames"
   },
   {
@@ -35094,7 +35320,10 @@
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "geoparser",
     "description": "A wrapper for the Geoparser.io API version 0.4.0 (see <https://geoparser.io/>), which is a web service\n    that identifies places mentioned in text, disambiguates those places, and\n    returns detailed data about the places found in the text. Basic, limited\n    API access is free with paid plans to accommodate larger workloads.",
@@ -35284,7 +35513,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/geoparser/blob/master/NEWS.md",
     "fileSize": "10.577KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/geoparser", "https://ci.appveyor.com/project/ropensci/geoparser", "https://codecov.io/gh/ropensci/geoparser"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/geoparser",
+      "https://ci.appveyor.com/project/ropensci/geoparser",
+      "https://codecov.io/gh/ropensci/geoparser"
+    ],
     "developmentStatus": "http://www.repostatus.org/#inactive",
     "review": {
       "@type": "Review",
@@ -35765,7 +35998,15 @@
     "fileSize": "815.799KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["landsat", "nasa", "aws", "image", "imaging", "usgs", "earth"],
+    "keywords": [
+      "landsat",
+      "nasa",
+      "aws",
+      "image",
+      "imaging",
+      "usgs",
+      "earth"
+    ],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -36152,7 +36393,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/git2r/blob/master/NEWS",
-    "fileSize": "1164.074KB",
+    "fileSize": "1164.072KB",
     "contIntegration": ["https://travis-ci.org/ropensci/git2r", "https://ci.appveyor.com/project/karthik/git2r", "https://coveralls.io/github/ropensci/git2r?branch=master"],
     "citation": [
       {
@@ -36621,13 +36862,19 @@
     "releaseNotes": "https://github.com/ropensci/gitignore/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "googleLanguageR",
     "description": "Call 'Google Cloud' machine learning APIs for text and speech tasks.\n  Call the 'Cloud Translation' API <https://cloud.google.com/translate/> for detection \n  and translation of text, the 'Natural Language' API <https://cloud.google.com/natural-language/> to \n  analyse text for sentiment, entities or syntax, the 'Cloud Speech' API \n  <https://cloud.google.com/speech/> to transcribe sound files to text and \n  the 'Cloud Text-to-Speech' API <https://cloud.google.com/text-to-speech/> to turn text \n  into sound files.",
     "name": "googleLanguageR: Call Google's 'Natural Language' API, 'Cloud Translation' API, \n  'Cloud Speech' API and 'Cloud Text-to-Speech' API",
     "codeRepository": "https://github.com/ropensci/googleLanguageR",
-    "relatedLink": ["http://code.markedmondson.me/googleLanguageR/", "https://CRAN.R-project.org/package=googleLanguageR"],
+    "relatedLink": [
+      "http://code.markedmondson.me/googleLanguageR/",
+      "https://CRAN.R-project.org/package=googleLanguageR"
+    ],
     "issueTracker": "https://github.com/ropensci/googleLanguageR/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.0.9001",
@@ -36915,7 +37162,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/googleLanguageR/blob/master/NEWS.md",
     "fileSize": "1606.621KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/googleLanguageR", "http://codecov.io/github/ropensci/googleLanguageR?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/googleLanguageR",
+      "http://codecov.io/github/ropensci/googleLanguageR?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/127",
@@ -37167,7 +37417,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/grainchanger/blob/master/NEWS.md",
-    "fileSize": "469.157KB",
+    "fileSize": "469.158KB",
     "contIntegration": [
       "https://travis-ci.org/laurajanegraham/grainchanger",
       "https://codecov.io/gh/laurajanegraham/grainchanger?branch=master"
@@ -37281,7 +37531,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/graphql/blob/master/NEWS",
-    "fileSize": "66.961KB",
+    "fileSize": "66.96KB",
     "contIntegration": ["https://travis-ci.org/ropensci/graphql", "https://ci.appveyor.com/project/jeroen/graphql", "https://codecov.io/github/ropensci/graphql?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -37733,7 +37983,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/GSODR",
     "releaseNotes": "https://github.com/ropensci/GSODR/blob/master/NEWS.md",
-    "fileSize": "2298.026KB",
+    "fileSize": "2298.024KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -37836,7 +38086,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gtfsr",
     "description": "Provides API wrappers for popular public GTFS feed sharing sites, reads feed data into a gtfs data object, validates data quality, provides convenience functions for common tasks.",
@@ -37870,7 +38123,10 @@
     "contributor": [
       {
         "@type": "Person",
-        "givenName": ["Charles", "Hans"],
+        "givenName": [
+          "Charles",
+          "Hans"
+        ],
         "familyName": "Thompson",
         "email": "hans.thompson1@gmail.com"
       },
@@ -38100,7 +38356,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/gtfsr/blob/master/NEWS.md",
     "fileSize": "847.05KB",
-    "contIntegration": ["http://travis-ci.org/ropensci/gtfsr", "http://codecov.io/github/ropensci/gtfsr?branch=master"],
+    "contIntegration": [
+      "http://travis-ci.org/ropensci/gtfsr",
+      "http://codecov.io/github/ropensci/gtfsr?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/55",
@@ -38108,7 +38367,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gutenbergr",
     "description": "Download and process public domain works in the Project\n    Gutenberg collection <http://www.gutenberg.org/>. Includes metadata for\n    all Project Gutenberg works, so that they can be searched and retrieved.",
@@ -38317,7 +38579,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/gutenbergr/blob/master/NEWS.md",
     "fileSize": "2086.237KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/gutenbergr", "https://ci.appveyor.com/project/ropensci/gutenbergr-dujv9", "https://codecov.io/github/ropensci/gutenbergr?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/gutenbergr",
+      "https://ci.appveyor.com/project/ropensci/gutenbergr-dujv9",
+      "https://codecov.io/github/ropensci/gutenbergr?branch=master"
+    ],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -38561,13 +38827,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "hddtools",
     "description": "Facilitates discovery and handling of hydrological data, access to catalogues and databases.",
     "name": "hddtools: Hydrological Data Discovery Tools",
     "codeRepository": "https://github.com/ropensci/hddtools",
-    "relatedLink": ["http://ropensci.github.io/hddtools", "https://CRAN.R-project.org/package=hddtools"],
+    "relatedLink": [
+      "http://ropensci.github.io/hddtools",
+      "https://CRAN.R-project.org/package=hddtools"
+    ],
     "issueTracker": "https://github.com/ropensci/hddtools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.8.2",
@@ -38825,7 +39097,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/hddtools/blob/master/NEWS.md",
     "fileSize": "1415.188KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/hddtools", "https://ci.appveyor.com/project/ropensci/hddtools", "https://codecov.io/github/ropensci/hddtools?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/hddtools",
+      "https://ci.appveyor.com/project/ropensci/hddtools",
+      "https://codecov.io/github/ropensci/hddtools?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/73",
@@ -38854,7 +39130,10 @@
           "issueNumber": "9",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2",
             "name": "The Journal of Open Source Software"
           }
@@ -39003,7 +39282,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/helminthR/blob/master/NEWS.md",
-    "fileSize": "22.219KB",
+    "fileSize": "22.222KB",
     "contIntegration": ["https://travis-ci.org/ropensci/helminthR", "https://ci.appveyor.com/project/taddallas/helminthr", "https://codecov.io/github/ropensci/helminthR?branch=master"]
   },
   {
@@ -39090,7 +39369,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/historydata/blob/master/NEWS.md",
-    "fileSize": "1558.658KB",
+    "fileSize": "1558.655KB",
     "contIntegration": "https://travis-ci.org/ropensci/historydata"
   },
   {
@@ -39229,7 +39508,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/hoardr",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/hoardr/blob/master/NEWS.md",
-    "fileSize": "8.888KB",
+    "fileSize": "8.887KB",
     "keywords": ["caching", "data", "files", "xml", "pdf"],
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
@@ -39613,7 +39892,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/hydroscoper",
     "releaseNotes": "https://github.com/ropensci/hydroscoper/blob/master/NEWS.md",
-    "fileSize": "462.918KB",
+    "fileSize": "462.921KB",
     "relatedLink": [
       "https://ropensci.github.io/hydroscoper/",
       "https://CRAN.R-project.org/package=hydroscoper"
@@ -40173,7 +40452,14 @@
     ],
     "applicationCategory": "Visualization",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["heatmap", "plotly", "r", "interactive-visualizations", "data-visualization", "htmlwidgets"],
+    "keywords": [
+      "heatmap",
+      "plotly",
+      "r",
+      "interactive-visualizations",
+      "data-visualization",
+      "htmlwidgets"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/iheatmapr",
     "releaseNotes": "https://github.com/ropensci/iheatmapr/blob/master/NEWS.md",
     "fileSize": "2414.208KB",
@@ -40184,12 +40470,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Alicia", "N"],
+            "givenName": [
+              "Alicia",
+              "N"
+            ],
             "familyName": "Schep"
           },
           {
             "@type": "Person",
-            "givenName": ["Sarah", "K"],
+            "givenName": [
+              "Sarah",
+              "K"
+            ],
             "familyName": "Kummerfeld"
           }
         ],
@@ -40202,7 +40494,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Journal of Open Source Software"
           }
         }
@@ -40598,7 +40893,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "498.442KB",
+    "fileSize": "498.436KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/ijtiff",
       "https://ci.appveyor.com/project/ropensci/ijtiff",
@@ -41008,7 +41303,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/internetarchive/blob/master/NEWS.md",
-    "fileSize": "452.469KB",
+    "fileSize": "452.468KB",
     "contIntegration": ["https://travis-ci.org/ropensci/internetarchive", "https://codecov.io/github/ropensci/internetarchive?branch=master"]
   },
   {
@@ -41136,7 +41431,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/isdparser",
     "releaseNotes": "https://github.com/ropensci/isdparser/blob/master/NEWS.md",
-    "fileSize": "275.701KB",
+    "fileSize": "275.7KB",
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "keywords": ["climate", "NOAA", "data", "ISD", "stations"],
@@ -41363,7 +41658,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "7.828KB",
+    "fileSize": "7.833KB",
     "contIntegration": ["https://travis-ci.org/ropensci/jenkins", "https://ci.appveyor.com/project/jeroen/jenkins"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -41527,7 +41822,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/jqr",
     "releaseNotes": "https://github.com/ropensci/jqr/blob/master/NEWS.md",
-    "fileSize": "38.786KB",
+    "fileSize": "38.785KB",
     "keywords": [
       "json",
       "rstats",
@@ -41643,7 +41938,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/jsonld/blob/master/NEWS",
-    "fileSize": "59.051KB",
+    "fileSize": "59.05KB",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonld", "https://ci.appveyor.com/project/jeroen/jsonld", "https://codecov.io/github/ropensci/jsonld?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -41764,17 +42059,23 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/jsonvalidate/blob/master/NEWS.md",
-    "fileSize": "70.584KB",
+    "fileSize": "70.585KB",
     "contIntegration": "https://travis-ci.org/ropensci/jsonvalidate"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jstor",
     "description": "Functions and helpers to import metadata, ngrams and full-texts \n    delivered by Data for Research by JSTOR. ",
     "name": "jstor: Read Data from JSTOR/DfR",
     "codeRepository": "https://github.com/ropensci/jstor",
-    "relatedLink": ["https://ropensci.github.io/jstor/", "https://CRAN.R-project.org/package=jstor"],
+    "relatedLink": [
+      "https://ropensci.github.io/jstor/",
+      "https://CRAN.R-project.org/package=jstor"
+    ],
     "issueTracker": "https://github.com/ropensci/jstor/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.6",
@@ -42049,7 +42350,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/jstor/blob/master/NEWS.md",
     "fileSize": "379.21KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/jstor", "https://ci.appveyor.com/project/tklebel/jstor", "https://codecov.io/github/ropensci/jstor?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/jstor",
+      "https://ci.appveyor.com/project/tklebel/jstor",
+      "https://codecov.io/github/ropensci/jstor?branch=master"
+    ],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "review": {
       "@type": "Review",
@@ -42076,7 +42381,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "3",
             "name": "Journal of Open Source Software"
           }
@@ -42288,7 +42596,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Craig", "E."],
+            "givenName": [
+              "Craig",
+              "E."
+            ],
             "familyName": "Simpkins"
           }
         ],
@@ -42299,7 +42610,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "00",
             "name": "Methods in Ecololgy and Evolution"
           }
@@ -42484,7 +42798,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "lingtypology",
     "description": "Provides R with the Glottolog database <http://glottolog.org> and some more abilities for purposes of linguistic mapping. The Glottolog database contains the catalogue of languages of the world. This package helps researchers to make a linguistic maps, using philosophy of the Cross-Linguistic Linked Data project <http://clld.org/>, which allows for while at the same time facilitating uniform access to the data across publications. A tutorial for this package is available on GitHub pages <https://ropensci.github.io/lingtypology/> and package vignette. Maps created by this package can be used both for the investigation and linguistic teaching. In addition, package provides an ability to download data from typological databases such as WALS, AUTOTYP and some others and to create your own database website.",
@@ -42702,7 +43019,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/lingtypology/blob/master/NEWS",
     "fileSize": "2602.418KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/lingtypology", "https://codecov.io/github/ropensci/lingtypology?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/lingtypology",
+      "https://codecov.io/github/ropensci/lingtypology?branch=master"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -43215,7 +43535,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/magick/blob/master/NEWS",
-    "fileSize": "2479.325KB",
+    "fileSize": "2479.323KB",
     "contIntegration": ["https://travis-ci.org/ropensci/magick", "https://ci.appveyor.com/project/jeroen/magick", "https://codecov.io/github/ropensci/magick?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "relatedLink": "https://CRAN.R-project.org/package=magick"
@@ -43442,7 +43762,7 @@
     "keywords": ["maps", "mapping", "ggplot", "leaflet", "interactive", "biodiversity", "occurrences"],
     "contIntegration": "https://travis-ci.org/ropensci/mapr",
     "releaseNotes": "https://github.com/ropensci/mapr/blob/master/NEWS.md",
-    "fileSize": "509.743KB",
+    "fileSize": "509.739KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -43471,7 +43791,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": ["Richèl", "J.C."],
+        "givenName": [
+          "Richèl",
+          "J.C."
+        ],
         "familyName": "Bilderbeek",
         "email": "richel@richelbilderbeek.nl"
       }
@@ -43600,12 +43923,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Richèl", "JC"],
+            "givenName": [
+              "Richèl",
+              "JC"
+            ],
             "familyName": "Bilderbeek"
           },
           {
             "@type": "Person",
-            "givenName": ["Rampal", "S"],
+            "givenName": [
+              "Rampal",
+              "S"
+            ],
             "familyName": "Etienne"
           }
         ],
@@ -43615,7 +43944,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Methods in Ecology and Evolution"
           }
         }
@@ -43785,7 +44117,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODISTools",
     "description": "Programmatic interface to the Oak Ridge National Laboratories\n    'MODIS Land Products Subsets' web services \n    (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy\n    downloads of 'MODIS' time series directly to your R workspace or\n    your computer.",
@@ -43994,7 +44329,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/MODISTools/blob/master/NEWS.md",
     "fileSize": "188.933KB",
-    "contIntegration": ["https://travis-ci.org/khufkens/MODISTools", "https://codecov.io/gh/khufkens/MODISTools"],
+    "contIntegration": [
+      "https://travis-ci.org/khufkens/MODISTools",
+      "https://codecov.io/gh/khufkens/MODISTools"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/246",
@@ -44007,22 +44345,34 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Sean", "L."],
+            "givenName": [
+              "Sean",
+              "L."
+            ],
             "familyName": "Tuck"
           },
           {
             "@type": "Person",
-            "givenName": ["Helen", "R.P."],
+            "givenName": [
+              "Helen",
+              "R.P."
+            ],
             "familyName": "Phillips"
           },
           {
             "@type": "Person",
-            "givenName": ["Rogier", "E."],
+            "givenName": [
+              "Rogier",
+              "E."
+            ],
             "familyName": "Hintzen"
           },
           {
             "@type": "Person",
-            "givenName": ["J{\"o}rn", "P.W."],
+            "givenName": [
+              "J{\"o}rn",
+              "P.W."
+            ],
             "familyName": "Scharlemann"
           },
           {
@@ -44032,7 +44382,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Lawrence", "N."],
+            "givenName": [
+              "Lawrence",
+              "N."
+            ],
             "familyName": "Hudson"
           }
         ],
@@ -44047,7 +44400,10 @@
           "issueNumber": "24",
           "datePublished": "2014",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "4",
             "name": "Ecology and Evolution"
           }
@@ -44056,7 +44412,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODIStsp",
     "description": "Allows automating the creation of time series of rasters derived\n    from MODIS Satellite Land Products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojection and resize\n    of data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    Quality Indicators should be extracted from aggregated MODIS Quality\n    Assurance layers and, in the case of Surface Reflectance products\n    , which Spectral Indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing to automatically update time series\n    related to a MODIS product whenever a new image is available.",
@@ -44492,7 +44851,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/MODIStsp/blob/master/NEWS.md",
     "fileSize": "2663.743KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/MODIStsp", "http://codecov.io/github/ropensci/MODIStsp?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/MODIStsp",
+      "http://codecov.io/github/ropensci/MODIStsp?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/184",
@@ -44524,7 +44886,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2016",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "97",
             "name": "Computers & Geosciences"
           }
@@ -44768,7 +45133,10 @@
         "name": "Earlybird Software"
       }
     ],
-    "relatedLink": ["http://ropensci.github.io/monkeylearn/", "https://CRAN.R-project.org/package=monkeylearn"],
+    "relatedLink": [
+      "http://ropensci.github.io/monkeylearn/",
+      "https://CRAN.R-project.org/package=monkeylearn"
+    ],
     "copyrightHolder": {},
     "review": {
       "@type": "Review",
@@ -45041,7 +45409,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/mregions",
     "releaseNotes": "https://github.com/ropensci/mregions/blob/master/NEWS.md",
-    "fileSize": "3377.743KB",
+    "fileSize": "3377.746KB",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/53",
@@ -45487,7 +45855,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/musemeta",
     "releaseNotes": "https://github.com/ropensci/musemeta/blob/master/NEWS",
-    "fileSize": "25.253KB",
+    "fileSize": "25.254KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -45575,7 +45943,7 @@
         "sameAs": "https://CRAN.R-project.org/package=xmlparsedata"
       }
     ],
-    "fileSize": "4.089KB",
+    "fileSize": "4.09KB",
     "developmentStatus": "http://www.repostatus.org/#concept"
   },
   {
@@ -45814,7 +46182,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["NASA", "meteorological-data", "weather", "global", "weather", "weather-data", "meteorology", "NASA-POWER", "agroclimatology", "earth-science", "data-access", "climate-data"],
     "releaseNotes": "https://github.com/ropensci/nasapower/blob/master/NEWS.md",
-    "fileSize": "218.245KB",
+    "fileSize": "218.244KB",
     "contIntegration": [
       "https://circleci.com/gh/ropensci/nasapower/tree/master",
       "https://ci.appveyor.com/project/adamhsparks/nasapower",
@@ -46050,7 +46418,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/natserv",
     "releaseNotes": "https://github.com/ropensci/natserv/blob/master/NEWS.md",
-    "fileSize": "92.001KB",
+    "fileSize": "92KB",
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
     "keywords": ["taxonomy", "species", "API", "web-services", "NatureServe", "metadata", "maps"],
@@ -46468,7 +46836,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/neotoma/blob/master/NEWS",
-    "fileSize": "1309.333KB",
+    "fileSize": "1309.336KB",
     "contIntegration": ["https://travis-ci.org/ropensci/neotoma", "https://ci.appveyor.com/project/sckott/neotoma/branch/master", "https://codecov.io/github/ropensci/neotoma?branch=master"],
     "citation": [
       {
@@ -46815,7 +47183,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Craig", "E."],
+            "givenName": [
+              "Craig",
+              "E."
+            ],
             "familyName": "Simpkins"
           }
         ],
@@ -46826,7 +47197,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "00",
             "name": "Methods in Ecololgy and Evolution"
           }
@@ -47177,7 +47551,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/nlrx/blob/master/NEWS.md",
-    "fileSize": "405.382KB",
+    "fileSize": "405.383KB",
     "contIntegration": [
       "https://ci.appveyor.com/project/nldoc/nlrx",
       "https://travis-ci.org/ropensci/nlrx",
@@ -47365,7 +47739,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "354.078KB",
+    "fileSize": "354.076KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["database", "MongoDB", "Redis", "Elasticsearch", "CouchDB", "NoSQL", "JSON", "documents"],
@@ -47386,13 +47760,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "nomisr",
     "description": "Access UK official statistics from the 'Nomis' database. \n    'Nomis' includes data from the Census, the Labour Force Survey, DWP benefit \n    statistics and other economic and demographic data from the Office for \n    National Statistics, based around statistical geographies. See \n    <https://www.nomisweb.co.uk/api/v01/help> for full API documentation.",
     "name": "nomisr: Access 'Nomis' UK Labour Market Data",
     "codeRepository": "https://github.com/ropensci/nomisr",
-    "relatedLink": ["https://docs.evanodell.com/nomisr", "https://CRAN.R-project.org/package=nomisr"],
+    "relatedLink": [
+      "https://docs.evanodell.com/nomisr",
+      "https://CRAN.R-project.org/package=nomisr"
+    ],
     "issueTracker": "https://github.com/ropensci/nomisr/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.4.1",
@@ -47610,7 +47990,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/nomisr/blob/master/NEWS.md",
     "fileSize": "104.73KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/nomisr", "https://ci.appveyor.com/project/evanodell/nomisr", "https://codecov.io/github/ropensci/nomisr?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/nomisr",
+      "https://ci.appveyor.com/project/evanodell/nomisr",
+      "https://codecov.io/github/ropensci/nomisr?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/190",
@@ -47638,7 +48022,10 @@
           "issueNumber": "27",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "3",
             "name": "The Journal of Open Source Software"
           }
@@ -47647,7 +48034,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "oai",
     "description": "A general purpose client to work with any 'OAI-PMH'\n    (Open Archives Initiative Protocol for 'Metadata' Harvesting) service.\n    The 'OAI-PMH' protocol is described at\n    <http://www.openarchives.org/OAI/openarchivesprotocol.html>.\n    Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord',\n    'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and\n    'ListSets'.",
@@ -47825,7 +48215,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/oai/blob/master/NEWS.md",
     "fileSize": "123.33KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/oai", "https://ci.appveyor.com/project/sckott/oai", "http://codecov.io/github/ropensci/oai?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/oai",
+      "https://ci.appveyor.com/project/sckott/oai",
+      "http://codecov.io/github/ropensci/oai?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/19",
@@ -48011,7 +48405,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/onekp/blob/master/NEWS.md",
-    "fileSize": "410.999KB",
+    "fileSize": "411KB",
     "contIntegration": ["https://travis-ci.org/ropensci/onekp", "https://codecov.io/github/ropensci/onekp?branch=master"],
     "citation": [
       {
@@ -48438,7 +48832,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "opencage",
     "description": "Tool for accessing the OpenCage API, which provides forward\n    geocoding (from placename to longitude and latitude) and reverse geocoding (from\n    longitude and latitude to placename).",
@@ -48597,7 +48994,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/opencage/blob/master/NEWS.md",
     "fileSize": "28.949KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/opencage", "https://ci.appveyor.com/project/maelle/opencage", "https://codecov.io/github/ropensci/opencage?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/opencage",
+      "https://ci.appveyor.com/project/maelle/opencage",
+      "https://codecov.io/github/ropensci/opencage?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/36",
@@ -48717,7 +49118,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
-    "fileSize": "5.141KB",
+    "fileSize": "5.135KB",
     "contIntegration": "https://travis-ci.org/ropensci/opencontext"
   },
   {
@@ -48792,7 +49193,7 @@
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
-    "fileSize": "11.852KB",
+    "fileSize": "11.851KB",
     "contIntegration": ["https://travis-ci.org/ropensci/opencv", "https://ci.appveyor.com/project/jeroen/opencv"]
   },
   {
@@ -49291,7 +49692,12 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["open0street0map", "openstreetmap", "overpass0API", "OSM"],
+    "keywords": [
+      "open0street0map",
+      "openstreetmap",
+      "overpass0API",
+      "OSM"
+    ],
     "contIntegration": "https://travis-ci.org/ropensci/osmdata",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/osmdata/blob/master/NEWS.md",
@@ -49332,7 +49738,10 @@
           "issueNumber": "14",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2",
             "name": "The Journal of Open Source Software"
           }
@@ -49348,7 +49757,10 @@
     "relatedLink": "https://CRAN.R-project.org/package=osmdata"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "osmplotr",
     "description": "Bespoke images of 'OpenStreetMap' ('OSM') data and data\n    visualisation using 'OSM' objects.",
@@ -49637,7 +50049,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/osmplotr/blob/master/NEWS",
     "fileSize": "915.812KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/osmplotr", "https://ci.appveyor.com/project/ropensci/osmplotr", "https://codecov.io/gh/ropensci/osmplotr"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/osmplotr",
+      "https://ci.appveyor.com/project/ropensci/osmplotr",
+      "https://codecov.io/gh/ropensci/osmplotr"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/27",
@@ -49769,7 +50185,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "outcomerate",
     "description": "Standardized survey outcome rate functions, including the response rate, contact rate, cooperation rate, and refusal rate. These outcome rates allow survey researchers to measure the quality of survey data using definitions published by the American Association of Public Opinion Research (AAPOR). For details on these standards, see AAPOR (2016) <https://www.aapor.org/Standards-Ethics/Standard-Definitions-(1).aspx>. ",
@@ -49962,7 +50381,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/outcomerate/blob/master/NEWS.md",
     "fileSize": "22.131KB",
-    "contIntegration": ["https://codecov.io/github/ropensci/outcomerate?branch=master", "https://travis-ci.org/ropensci/outcomerate"],
+    "contIntegration": [
+      "https://codecov.io/github/ropensci/outcomerate?branch=master",
+      "https://travis-ci.org/ropensci/outcomerate"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/213",
@@ -49982,7 +50404,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Rafael", "Pilliard"],
+            "givenName": [
+              "Rafael",
+              "Pilliard"
+            ],
             "familyName": "Hellwig"
           }
         ],
@@ -50160,7 +50585,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/paleobioDB/blob/master/NEWS.md",
-    "fileSize": "104.765KB",
+    "fileSize": "104.763KB",
     "contIntegration": ["https://travis-ci.org/ropensci/paleobioDB", "https://codecov.io/github/ropensci/paleobioDB?branch=master"]
   },
   {
@@ -50355,7 +50780,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "patentsview",
     "description": "Provides functions to simplify the 'PatentsView' API\n    (<http://www.patentsview.org/api/doc.html>) query language,\n    send GET and POST requests to the API's seven endpoints, and parse the data\n    that comes back.",
@@ -50497,7 +50925,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/patentsview/blob/master/NEWS.md",
     "fileSize": "28.846KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/patentsview", "https://ci.appveyor.com/project/ropensci/patentsview", "https://codecov.io/github/ropensci/patentsview?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/patentsview",
+      "https://ci.appveyor.com/project/ropensci/patentsview",
+      "https://codecov.io/github/ropensci/patentsview?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/112",
@@ -50632,7 +51064,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/pdftools/blob/master/NEWS",
-    "fileSize": "931.872KB",
+    "fileSize": "931.871KB",
     "contIntegration": ["https://travis-ci.org/ropensci/pdftools", "https://ci.appveyor.com/project/jeroen/pdftools", "https://codecov.io/github/ropensci/pdftools?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -50929,12 +51361,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Shaun", "P."],
+            "givenName": [
+              "Shaun",
+              "P."
+            ],
             "familyName": "Wilkinson"
           },
           {
             "@type": "Person",
-            "givenName": ["Simon", "K."],
+            "givenName": [
+              "Simon",
+              "K."
+            ],
             "familyName": "Davy"
           }
         ],
@@ -50948,7 +51386,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "3",
             "name": "Journal of Open Source Software"
           }
@@ -51173,7 +51614,7 @@
         "sameAs": "https://CRAN.R-project.org/package=R.utils"
       }
     ],
-    "fileSize": "2603.21KB",
+    "fileSize": "2603.206KB",
     "contIntegration": [
       "https://travis-ci.org/AntonelliLab/phylotaR",
       "https://coveralls.io/github/AntonelliLab/phylotaR?branch=master"
@@ -51479,7 +51920,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/piggyback/blob/master/NEWS.md",
-    "fileSize": "274.832KB",
+    "fileSize": "274.833KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/piggyback",
       "https://codecov.io/github/ropensci/piggyback?branch=master",
@@ -51507,7 +51948,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "plater",
     "description": "Tools for interacting with data from experiments done in microtiter\n    plates. Easily read in plate-shaped data and convert it to tidy format, \n    combine plate-shaped data with tidy data, and view tidy data in plate shape.  ",
@@ -51629,7 +52073,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Sean", "M"],
+            "givenName": [
+              "Sean",
+              "M"
+            ],
             "familyName": "Hughes"
           }
         ],
@@ -51643,7 +52090,10 @@
           "issueNumber": "7",
           "datePublished": "2016",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "1",
             "name": "The Journal of Open Source Software"
           }
@@ -52164,7 +52614,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/plotdap/blob/master/NEWS.md",
-    "fileSize": "2287.108KB"
+    "fileSize": "2287.11KB"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -52828,7 +53278,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/plotly/blob/master/NEWS.md",
-    "fileSize": "3422.189KB",
+    "fileSize": "3422.19KB",
     "contIntegration": "https://travis-ci.org/ropensci/plotly",
     "citation": [
       {
@@ -52847,7 +53297,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "PostcodesioR",
     "description": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around postcodes.io.",
@@ -52956,7 +53409,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/PostcodesioR/blob/master/NEWS.md",
     "fileSize": "30.981KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/PostcodesioR", "https://codecov.io/github/ropensci/PostcodesioR?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/PostcodesioR",
+      "https://codecov.io/github/ropensci/PostcodesioR?branch=master"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -53173,7 +53629,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/prism/blob/master/NEWS.md",
-    "fileSize": "3461.338KB",
+    "fileSize": "3461.336KB",
     "contIntegration": ["https://travis-ci.org/ropensci/prism", "https://ci.appveyor.com/project/sckott/prism/branch/master", "https://codecov.io/github/ropensci/prism?branch=master"],
     "citation": [
       {
@@ -53430,13 +53886,19 @@
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "qualtRics",
     "description": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
     "name": "qualtRics: Download 'Qualtrics' Survey Data",
     "codeRepository": "https://github.com/ropensci/qualtRics",
-    "relatedLink": ["https://ropensci.github.io/qualtRics/", "https://CRAN.R-project.org/package=qualtRics"],
+    "relatedLink": [
+      "https://ropensci.github.io/qualtRics/",
+      "https://CRAN.R-project.org/package=qualtRics"
+    ],
     "issueTracker": "https://github.com/ropensci/qualtRics/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "3.1.0",
@@ -53685,7 +54147,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/qualtRics/blob/master/NEWS.md",
     "fileSize": "122.032KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/qualtRics", "https://ci.appveyor.com/project/JasperHG90/qualtrics-g2a4u", "https://codecov.io/gh/ropensci/qualtRics"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/qualtRics",
+      "https://ci.appveyor.com/project/JasperHG90/qualtrics-g2a4u",
+      "https://codecov.io/gh/ropensci/qualtRics"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -53878,7 +54344,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rAltmetric/blob/master/NEWS.md",
-    "fileSize": "7.753KB",
+    "fileSize": "7.752KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rAltmetric", "https://travis-ci.org/ropensci/rAltmetric", "https://ci.appveyor.com/project/ropensci/rAltmetric", "https://codecov.io/github/ropensci/rAltmetric?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "relatedLink": "https://CRAN.R-project.org/package=rAltmetric"
@@ -54122,12 +54588,18 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Olaf", "P."],
+            "givenName": [
+              "Olaf",
+              "P."
+            ],
             "familyName": "Jensen"
           },
           {
             "@type": "Person",
-            "givenName": ["Julia", "K."],
+            "givenName": [
+              "Julia",
+              "K."
+            ],
             "familyName": "Baum"
           }
         ],
@@ -54139,7 +54611,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2011",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Fish and Fisheries"
           }
         }
@@ -54508,7 +54983,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rAvis/blob/master/NEWS.md",
-    "fileSize": "4276.446KB"
+    "fileSize": "4276.447KB"
   },
   {
     "@context": [
@@ -55007,7 +55482,7 @@
     "isPartOf": "\"https://ropensci.org\"",
     "contIntegration": "https://travis-ci.org/ropensci/rbison",
     "releaseNotes": "https://github.com/ropensci/rbison/blob/master/NEWS.md",
-    "fileSize": "880.745KB",
+    "fileSize": "880.744KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -55841,7 +56316,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rcrossref",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/rcrossref/blob/master/NEWS.md",
-    "fileSize": "3164.364KB",
+    "fileSize": "3164.37KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "Crossref"],
@@ -55998,7 +56473,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rdatacite",
     "releaseNotes": "https://github.com/ropensci/rdatacite/blob/master/NEWS.md",
-    "fileSize": "198.902KB",
+    "fileSize": "198.899KB",
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
     "keywords": ["data", "scholarly", "dataset", "https", "API", "web-services", "solr"],
@@ -56184,11 +56659,14 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rdataretriever/blob/master/NEWS.md",
-    "fileSize": "12.581KB",
+    "fileSize": "12.582KB",
     "contIntegration": "https://travis-ci.org/ropensci/rdataretriever"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rdefra",
     "description": "Get data from DEFRA's UK-AIR website <https://uk-air.defra.gov.uk/>. It basically scrapes the HTML content.",
@@ -56443,7 +56921,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rdefra/blob/master/NEWS.md",
     "fileSize": "475.63KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rdefra", "https://codecov.io/gh/ropensci/rdefra?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rdefra",
+      "https://codecov.io/gh/ropensci/rdefra?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/68",
@@ -56489,7 +56970,10 @@
           "issueNumber": "4",
           "datePublished": "2016",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "1",
             "name": "The Journal of Open Source Software"
           }
@@ -56823,7 +57307,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rdflib",
-    "fileSize": "117.126KB",
+    "fileSize": "117.125KB",
     "releaseNotes": "https://github.com/ropensci/rdflib/blob/master/NEWS.md",
     "citation": [
       {
@@ -57350,7 +57834,7 @@
     ],
     "codeRepository": "https://github.com/ropensci/rdopa",
     "releaseNotes": "https://github.com/ropensci/rdopa/blob/master/NEWS.md",
-    "fileSize": "684.42KB",
+    "fileSize": "684.421KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rdopa", "https://codecov.io/github/ropensci/rdopa?branch=master"]
   },
   {
@@ -57903,7 +58387,7 @@
     "keywords": ["birds", "birding", "ebird", "database", "data", "biology", "observations", "sightings", "ornithology"],
     "contIntegration": "https://travis-ci.org/ropensci/rebird",
     "releaseNotes": "https://github.com/ropensci/rebird/blob/master/NEWS.md",
-    "fileSize": "451.533KB",
+    "fileSize": "451.534KB",
     "contributor": [
       {
         "@type": "Person",
@@ -58007,12 +58491,15 @@
         "sameAs": "https://CRAN.R-project.org/package=mime"
       }
     ],
-    "fileSize": "4.885KB",
+    "fileSize": "4.884KB",
     "contIntegration": "https://travis-ci.org/ropensci/reeack",
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "refimpact",
     "description": "Provides wrapper functions around the UK Research\n    Excellence Framework 2014 Impact Case Studies Database API\n    <http://impact.ref.ac.uk/>. The database contains relevant publication and\n    research metadata about each case study as well as several paragraphs of\n    text from the case study submissions. Case studies in the database are\n    licenced under a CC-BY 4.0 licence\n    <http://creativecommons.org/licenses/by/4.0/legalcode>.",
@@ -58191,7 +58678,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/refimpact/blob/master/NEWS.md",
     "fileSize": "4428.798KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/refimpact", "https://ci.appveyor.com/project/perrystephenson/refimpact/branch/master", "https://codecov.io/gh/ropensci/refimpact"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/refimpact",
+      "https://ci.appveyor.com/project/perrystephenson/refimpact/branch/master",
+      "https://codecov.io/gh/ropensci/refimpact"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/78",
@@ -58200,12 +58691,18 @@
     "relatedLink": "https://CRAN.R-project.org/package=refimpact"
   },
   {
-    "@context": ["https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld", "http://schema.org"],
+    "@context": [
+      "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld",
+      "http://schema.org"
+    ],
     "@type": "Code",
     "author": [
       {
         "@type": "Person",
-        "givenName": ["Mathew", "W."],
+        "givenName": [
+          "Mathew",
+          "W."
+        ],
         "familyName": "McLean",
         "email": "mathew.w.mclean@gmail.com",
         "@id": "https://orcid.org/0000-0002-7891-9645"
@@ -58241,7 +58738,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": ["Mathew", "W."],
+        "givenName": [
+          "Mathew",
+          "W."
+        ],
         "familyName": "McLean",
         "email": "mathew.w.mclean@gmail.com",
         "@id": "https://orcid.org/0000-0002-7891-9645"
@@ -58383,7 +58883,11 @@
       }
     ],
     "fileSize": "678.009KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/RefManageR/", "http://ci.appveyor.com/project/ropensci/RefManageR", "https://coveralls.io/github/ropensci/RefManageR?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/RefManageR/",
+      "http://ci.appveyor.com/project/ropensci/RefManageR",
+      "https://coveralls.io/github/ropensci/RefManageR?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/119",
@@ -58396,7 +58900,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Mathew", "William"],
+            "givenName": [
+              "Mathew",
+              "William"
+            ],
             "familyName": "McLean"
           }
         ],
@@ -58408,7 +58915,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "The Journal of Open Source Software"
           }
         }
@@ -58419,7 +58929,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Mathew", "William"],
+            "givenName": [
+              "Mathew",
+              "William"
+            ],
             "familyName": "McLean"
           }
         ],
@@ -58574,7 +59087,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rentrez/blob/master/NEWS",
-    "fileSize": "41.486KB",
+    "fileSize": "41.483KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rentrez", "https://ci.appveyor.com/project/sckott/rentrez/branch/master", "https://coveralls.io/r/ropensci/rentrez?branch=master"],
     "citation": [
       {
@@ -58900,7 +59413,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rerddap",
     "releaseNotes": "https://github.com/ropensci/rerddap/blob/master/NEWS.md",
-    "fileSize": "1339.343KB",
+    "fileSize": "1339.344KB",
     "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NOAA"],
     "copyrightHolder": {},
     "funder": {},
@@ -59112,7 +59625,7 @@
         "sameAs": "https://CRAN.R-project.org/package=devtools"
       }
     ],
-    "fileSize": "1399.2KB",
+    "fileSize": "1399.195KB",
     "contIntegration": [
       "https://travis-ci.org/AntonelliLab/restez",
       "https://coveralls.io/github/AntonelliLab/restez?branch=master"
@@ -59298,7 +59811,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropensci/reuropeana",
-    "fileSize": "8.578KB",
+    "fileSize": "8.58KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -59530,7 +60043,7 @@
     "keywords": ["data", "archiving", "repository", "doi"],
     "contIntegration": "https://travis-ci.org/ropensci/rfigshare",
     "releaseNotes": "https://github.com/ropensci/rfigshare/blob/master/NEWS",
-    "fileSize": "828.349KB",
+    "fileSize": "828.35KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -59774,7 +60287,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rfishbase",
     "releaseNotes": "https://github.com/ropensci/rfishbase/blob/master/NEWS.md",
-    "fileSize": "1611.377KB",
+    "fileSize": "1611.405KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -59949,7 +60462,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rfisheries/blob/master/NEWS",
-    "fileSize": "180.386KB",
+    "fileSize": "180.385KB",
     "contIntegration": "https://ci.appveyor.com/project/karthik/rfisheries"
   },
   {
@@ -60177,7 +60690,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropensci/floras",
-    "fileSize": "6.776KB",
+    "fileSize": "6.774KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -60502,7 +61015,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rgbif",
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
-    "fileSize": "5515.148KB",
+    "fileSize": "5515.145KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
@@ -60715,7 +61228,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rglobi/blob/master/NEWS",
-    "fileSize": "15.719KB",
+    "fileSize": "15.717KB",
     "contIntegration": "https://travis-ci.org/ropensci/rglobi"
   },
   {
@@ -60832,7 +61345,7 @@
       }
     ],
     "softwareRequirements": [],
-    "fileSize": "549.728KB"
+    "fileSize": "549.73KB"
   },
   {
     "@context": [
@@ -61040,7 +61553,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/riem/blob/master/NEWS.md",
-    "fileSize": "11.619KB",
+    "fileSize": "11.617KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/riem",
       "https://ci.appveyor.com/project/ropensci/riem",
@@ -61203,7 +61716,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rif",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/rif/blob/master/NEWS.md",
-    "fileSize": "21.057KB",
+    "fileSize": "21.058KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -61530,7 +62043,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/ritis",
     "releaseNotes": "https://github.com/ropensci/ritis/blob/master/NEWS.md",
-    "fileSize": "51.529KB",
+    "fileSize": "51.53KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -61674,13 +62187,16 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rjsonapi",
     "releaseNotes": "https://github.com/ropensci/rjsonapi/blob/master/NEWS.md",
-    "fileSize": "21.22KB",
+    "fileSize": "21.221KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rnaturalearth",
     "description": "Facilitates mapping by making natural earth map data from <http://www.naturalearthdata.com/> more easily available to R users.",
@@ -61933,7 +62449,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rnaturalearth/blob/master/NEWS.md",
     "fileSize": "182.119KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rnaturalearth", "https://ci.appveyor.com/project/AndySouth/rnaturalearth"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rnaturalearth",
+      "https://ci.appveyor.com/project/AndySouth/rnaturalearth"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -62034,7 +62553,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rnaturalearthdata/blob/master/NEWS.md",
-    "fileSize": "3062.076KB",
+    "fileSize": "3062.08KB",
     "contIntegration": "https://travis-ci.org/ropensci/rnaturalearthdata"
   },
   {
@@ -62122,7 +62641,7 @@
         "sameAs": "https://CRAN.R-project.org/package=sp"
       }
     ],
-    "fileSize": "21922.151KB"
+    "fileSize": "21922.15KB"
   },
   {
     "@context": [
@@ -62524,7 +63043,7 @@
     "keywords": ["metadata", "nexml", "phylogenetics", "linked-data"],
     "contIntegration": "https://travis-ci.org/ropensci/RNeXML",
     "releaseNotes": "https://github.com/ropensci/RNeXML/blob/master/NEWS.md",
-    "fileSize": "292.595KB",
+    "fileSize": "292.597KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -63008,7 +63527,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rnoaa",
     "releaseNotes": "https://github.com/ropensci/rnoaa/blob/master/NEWS.md",
-    "fileSize": "1876.574KB",
+    "fileSize": "1876.575KB",
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NCDC", "NOAA", "tornadoe", "seaice", "ISD"],
@@ -63172,14 +63691,17 @@
     "codeRepository": "https://github.com/ropensci/rnpn",
     "contIntegration": "https://travis-ci.org/ropensci/rnpn",
     "releaseNotes": "https://github.com/ropensci/rnpn/blob/master/NEWS.md",
-    "fileSize": "142.327KB",
+    "fileSize": "142.326KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "roadoi",
     "description": "This web client interfaces Unpaywall <https://unpaywall.org/products/api>, formerly\n    oaDOI, a service finding free full-texts of academic papers by linking DOIs with \n    open access journals and repositories. It provides unified access to various data sources \n    for open access full-text links including Crossref and the Directory of Open Access \n    Journals (DOAJ). API usage is free and no registration is required.",
@@ -63432,7 +63954,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/roadoi/blob/master/NEWS",
     "fileSize": "334.065KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/roadoi", "https://ci.appveyor.com/project/ropensci/roadoi", "https://codecov.io/github/ropensci/roadoi?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/roadoi",
+      "https://ci.appveyor.com/project/ropensci/roadoi",
+      "https://codecov.io/github/ropensci/roadoi?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/115",
@@ -63440,7 +63966,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "robotstxt",
     "description": "Provides functions to download and parse 'robots.txt' files.\n        Ultimately the package makes it easy to check if bots\n        (spiders, crawler, scrapers, ...) are allowed to access specific\n        resources on a domain.",
@@ -63909,7 +64438,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
     "developmentStatus": "wip",
-    "fileSize": "87.227KB",
+    "fileSize": "87.228KB",
     "funder": [
       {
         "@type": "Organization",
@@ -63927,7 +64456,10 @@
     "releaseNotes": "https://github.com/ropensci/rodev/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "ropenaq",
     "description": "Allows access to air quality data from the API of the OpenAQ\n    platform <https://docs.openaq.org/>, with the different services the API offers\n    (getting measurements for a given query, getting latest measurements, getting\n    lists of available countries/cities/locations). This package has been peer-reviewed by rOpenSci (v. 0.1.0).",
@@ -64160,7 +64692,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/ropenaq/blob/master/NEWS.md",
     "fileSize": "281.606KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/ropenaq", "https://ci.appveyor.com/project/ropensci/ropenaq", "https://codecov.io/github/ropensci/Ropenaq?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/ropenaq",
+      "https://ci.appveyor.com/project/ropensci/ropenaq",
+      "https://codecov.io/github/ropensci/Ropenaq?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/24",
@@ -64373,7 +64909,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rorcid",
     "releaseNotes": "https://github.com/ropensci/rorcid/blob/master/NEWS.md",
-    "fileSize": "850.375KB",
+    "fileSize": "850.378KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["identifiers", "literature", "publications", "citations", "scholarly", "people"],
@@ -64908,7 +65444,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rperseus",
     "description": "The Perseus Digital Library is a collection of classical texts. This package helps\n    you get them. The available works can also be viewed here: <http://cts.perseids.org/>.",
@@ -65147,7 +65686,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rperseus/blob/master/NEWS.md",
     "fileSize": "301.102KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rperseus", "https://codecov.io/gh/ropensci/rperseus"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rperseus",
+      "https://codecov.io/gh/ropensci/rperseus"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/145",
@@ -65387,7 +65929,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rplos",
     "releaseNotes": "https://github.com/ropensci/rplos/blob/master/NEWS.md",
-    "fileSize": "1212.108KB",
+    "fileSize": "1212.109KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["PLOS", "library", "science", "JSON", "XML", "API", "web", "api-client", "article", "fulltext"],
@@ -65656,10 +66198,13 @@
       "provider": "http://ropensci.org"
     },
     "developmentStatus": "https://www.repostatus.org/#active",
-    "fileSize": "995.868KB"
+    "fileSize": "995.867KB"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rppo",
     "description": "An R interface to the Global Plant Phenology Data Portal,\n    which is accessible online at <https://www.plantphenology.org/>.",
@@ -65838,7 +66383,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rppo/blob/master/NEWS.md",
     "fileSize": "501.36KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rppo", "https://codecov.io/github/r-lib/covr?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rppo",
+      "https://codecov.io/github/r-lib/covr?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/207",
@@ -65985,7 +66533,10 @@
     "contIntegration": ["https://travis-ci.org/ropensci/rredlist", "https://codecov.io/github/ropensci/rredlist?branch=master"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rrlite",
     "description": "R bindings to rlite.  rlite is a \"self-contained,\n    serverless, zero-configuration, transactional redis-compatible\n    database engine. rlite is to Redis what SQLite is to SQL.\".",
@@ -66070,7 +66621,10 @@
     ],
     "codeRepository": "https://github.com/ropensci/rrlite",
     "fileSize": "394.822KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rrlite", "https://coveralls.io/r/ropensci/rrlite?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rrlite",
+      "https://coveralls.io/r/ropensci/rrlite?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/6",
@@ -66289,7 +66843,10 @@
     "releaseNotes": "https://github.com/ropensci/rromeo/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rrricanes",
     "description": "Get archived data of past and current hurricanes and tropical \n  storms for the Atlantic and eastern Pacific oceans. Data is available for \n  storms since 1998. Datasets are updated via the rrricanesdata package. \n  Currently, this package is about 6MB of datasets. See the README or view \n  `vignette(\"drat\")` for more information.",
@@ -66693,7 +67250,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rrricanes/blob/master/NEWS.md",
     "fileSize": "2178.881KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rrricanes", "https://ci.appveyor.com/project/timtrice/rrricanes-g4dos", "https://codecov.io/gh/ropensci/rrricanes"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rrricanes",
+      "https://ci.appveyor.com/project/timtrice/rrricanes-g4dos",
+      "https://codecov.io/gh/ropensci/rrricanes"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/118",
@@ -66701,7 +67262,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rrricanesdata",
     "description": "Includes storm discussions, forecast/advisories, public advisories, \n  wind speed probabilities, strike probabilities and more. This package can be \n  used along with rrricanes (>= 0.2.0-6). Data is considered public domain via \n  the National Hurricane Center.",
@@ -66747,7 +67311,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rrricanesdata/blob/master/NEWS.md",
     "fileSize": "8155.13KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rrricanesdata", "https://ci.appveyor.com/project/timtrice/rrricanesdata-on6xt"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rrricanesdata",
+      "https://ci.appveyor.com/project/timtrice/rrricanesdata-on6xt"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/118",
@@ -66948,7 +67515,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/RSelenium/blob/master/NEWS.md",
-    "fileSize": "101.282KB",
+    "fileSize": "101.28KB",
     "contIntegration": ["https://travis-ci.org/ropensci/RSelenium", "https://codecov.io/gh/ropensci/RSelenium"]
   },
   {
@@ -67133,7 +67700,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["gene", "snp", "sequence", "API", "web", "api-client", "species", "dbSNP", "OpenSNP", "NCBI", "genotype"],
     "releaseNotes": "https://github.com/ropensci/rsnps/blob/master/NEWS.md",
-    "fileSize": "36.905KB",
+    "fileSize": "36.906KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/rsnps",
       "https://ci.appveyor.com/project/sckott/rsnps/branch/master",
@@ -67144,7 +67711,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtika",
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
@@ -67353,7 +67923,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rtika/blob/master/NEWS.md",
     "fileSize": "695.781KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rtika", "https://ci.appveyor.com/project/goodmansasha/rtika/branch/master", "https://codecov.io/github/ropensci/rtika?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rtika",
+      "https://ci.appveyor.com/project/goodmansasha/rtika/branch/master",
+      "https://codecov.io/github/ropensci/rtika?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/191",
@@ -67361,13 +67935,19 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtimicropem",
     "description": "Supports the input and reproducible analysis of RTI\n    MicroPEM output files.",
     "name": "rtimicropem: Supports the Analysis of RTI MicroPEM Output Files",
     "codeRepository": "https://github.com/ropensci/rtimicropem",
-    "relatedLink": ["https://docs.ropensci.org/rtimicropem/", "https://CRAN.R-project.org/package=rtimicropem"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rtimicropem/",
+      "https://CRAN.R-project.org/package=rtimicropem"
+    ],
     "issueTracker": "https://github.com/ropensci/rtimicropem/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.4.0",
@@ -67668,7 +68248,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rtimicropem/blob/master/NEWS.md",
     "fileSize": "791.184KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rtimicropem", "https://ci.appveyor.com/project/ropensci/rtimicropem", "https://codecov.io/github/ropensci/rtimicropem?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rtimicropem",
+      "https://ci.appveyor.com/project/ropensci/rtimicropem",
+      "https://codecov.io/github/ropensci/rtimicropem?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/126",
@@ -67696,7 +68280,10 @@
           },
           {
             "@type": "Person",
-            "givenName": ["Julian", "D."],
+            "givenName": [
+              "Julian",
+              "D."
+            ],
             "familyName": "Marshall"
           },
           {
@@ -67714,7 +68301,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Journal of Open Source Software"
           }
         }
@@ -68072,7 +68662,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/rvertnet",
     "releaseNotes": "https://github.com/ropensci/rvertnet/blob/master/NEWS.md",
-    "fileSize": "158.813KB",
+    "fileSize": "158.814KB",
     "contributor": [
       {
         "@type": "Person",
@@ -68234,7 +68824,7 @@
         "sameAs": "https://CRAN.R-project.org/package=sp"
       }
     ],
-    "fileSize": "301.386KB",
+    "fileSize": "301.385KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rWBclimate", "https://ci.appveyor.com/project/sckott/rwbclimate/branch/master"],
     "citation": [
       {
@@ -68321,7 +68911,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rzmq/blob/master/NEWS",
-    "fileSize": "20.414KB",
+    "fileSize": "20.416KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rzmq", "https://ci.appveyor.com/project/jeroen/rzmq"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -68581,7 +69171,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/scrubr",
     "releaseNotes": "https://github.com/ropensci/scrubr/blob/master/NEWS.md",
-    "fileSize": "292.237KB",
+    "fileSize": "292.239KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -68800,7 +69390,7 @@
     "codeRepository": "https://github.com/ropensci/seaaroundus",
     "contIntegration": "https://travis-ci.org/ropensci/seaaroundus",
     "releaseNotes": "https://github.com/ropensci/seaaroundus/blob/master/NEWS.md",
-    "fileSize": "11.866KB",
+    "fileSize": "11.865KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -69177,7 +69767,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/skimr/blob/master/NEWS.md",
-    "fileSize": "703.805KB",
+    "fileSize": "703.803KB",
     "contIntegration": [
       "https://travis-ci.org/ropenscilabs/skimr",
       "https://codecov.io/gh/ropenscilabs/skimr"
@@ -69200,7 +69790,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "skynet",
     "description": "A flexible tool that allows generating bespoke\n    air transport statistics for urban studies based on publicly available\n    data from the Bureau of Transport Statistics (BTS) in the United States\n    <https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0>.",
@@ -69671,7 +70264,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/smapr/blob/master/NEWS.md",
-    "fileSize": "202.115KB",
+    "fileSize": "202.113KB",
     "contIntegration": [
       "https://travis-ci.org/earthlab/smapr",
       "https://ci.appveyor.com/project/mbjoseph/smapr",
@@ -69837,7 +70430,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/sofa",
     "releaseNotes": "https://github.com/ropensci/sofa/blob/master/NEWS.md",
-    "fileSize": "69.209KB",
+    "fileSize": "69.207KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["CouchDB", "database", "NoSQL", "documents"],
@@ -70028,7 +70621,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/solrium",
     "releaseNotes": "https://github.com/ropensci/solrium/blob/master/NEWS.md",
-    "fileSize": "119.727KB",
+    "fileSize": "119.723KB",
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": [
       "solr",
@@ -70268,7 +70861,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/spatsoc/blob/master/NEWS.md",
-    "fileSize": "658.076KB",
+    "fileSize": "658.075KB",
     "contIntegration": "https://codecov.io/gl/robit.a/spatsoc",
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
@@ -70696,7 +71289,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/spocc",
     "releaseNotes": "https://github.com/ropensci/spocc/blob/master/NEWS.md",
-    "fileSize": "1533.814KB",
+    "fileSize": "1533.812KB",
     "funder": [
       {
         "@type": "Organization",
@@ -71122,7 +71715,14 @@
         "sameAs": "https://CRAN.R-project.org/package=readr"
       }
     ],
-    "keywords": ["stats19", "road-safety", "transport", "car-crashes", "ropensci", "data"],
+    "keywords": [
+      "stats19",
+      "road-safety",
+      "transport",
+      "car-crashes",
+      "ropensci",
+      "data"
+    ],
     "fileSize": "1288.721KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/stats19",
@@ -71170,7 +71770,10 @@
           "issueNumber": "33",
           "datePublished": "2019",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "4",
             "name": "The Journal of Open Source Software"
           }
@@ -71296,18 +71899,24 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "10.768KB",
+    "fileSize": "10.769KB",
     "contIntegration": "https://travis-ci.com/ropensci/staypuft",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "stplanr",
     "description": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <http://cyclestreets.net/>;\n    calculation of route segment attributes such as bearing and aggregate flow;\n    and 'travel watershed' analysis.\n    See Lovelace and Ellison (2018) <doi:10.32614/RJ-2018-053>.",
     "name": "stplanr: Sustainable Transport Planning",
     "codeRepository": "https://github.com/ropensci/stplanr",
-    "relatedLink": ["https://ropensci.github.io/stplanr/", "https://CRAN.R-project.org/package=stplanr"],
+    "relatedLink": [
+      "https://ropensci.github.io/stplanr/",
+      "https://CRAN.R-project.org/package=stplanr"
+    ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.10.9000",
@@ -71824,7 +72433,10 @@
           "issueNumber": "2",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "10",
             "name": "{The R Journal}"
           }
@@ -71833,7 +72445,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "suppdata",
     "description": "Downloads data supplementary materials from manuscripts,\n    using papers' DOIs as references. Facilitates open, reproducible\n    research workflows: scientists re-analyzing published datasets can\n    work with them as easily as if they were stored on their own\n    computer, and others can track their analysis workflow\n    painlessly. The main function suppdata() returns a (temporary)\n    location on the user's computer where the file is stored, making\n    it simple to use suppdata() with standard functions like\n    read.csv().",
@@ -71998,7 +72613,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/suppdata/blob/master/NEWS.md",
     "fileSize": "78.286KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/suppdata", "https://ci.appveyor.com/project/willpearse/suppdata", "https://codecov.io/gh/ropensci/suppdata"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/suppdata",
+      "https://ci.appveyor.com/project/willpearse/suppdata",
+      "https://codecov.io/gh/ropensci/suppdata"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -72012,7 +72631,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["W.", "D."],
+            "givenName": [
+              "W.",
+              "D."
+            ],
             "familyName": "Pearse"
           },
           {
@@ -72031,7 +72653,10 @@
           "issueNumber": "25",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "3",
             "name": "Journal of Open Source Software"
           }
@@ -72041,7 +72666,10 @@
     "relatedLink": "https://CRAN.R-project.org/package=suppdata"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "tabulizer",
     "description": "Bindings for the 'Tabula' <http://tabula.technology/> 'Java'\n    library, which can extract tables from PDF documents. The 'tabulizerjars'\n    package <https://github.com/ropensci/tabulizerjars> provides versioned\n    'Java' .jar files, including all dependencies, aligned to releases of\n    'Tabula'.",
@@ -72209,7 +72837,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tabulizer/blob/master/NEWS.md",
     "fileSize": "121.074KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/tabulizer", "https://ci.appveyor.com/project/tpaskhalis/tabulizer", "https://codecov.io/github/ropensci/tabulizer?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/tabulizer",
+      "https://ci.appveyor.com/project/tpaskhalis/tabulizer",
+      "https://codecov.io/github/ropensci/tabulizer?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/42",
@@ -72221,7 +72853,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Thomas", "J."],
+            "givenName": [
+              "Thomas",
+              "J."
+            ],
             "familyName": "Leeper"
           }
         ],
@@ -72307,7 +72942,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tabulizerjars/blob/master/NEWS.md",
-    "fileSize": "10901.157KB"
+    "fileSize": "10901.159KB"
   },
   {
     "@context": [
@@ -72740,7 +73375,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/taxa",
     "developmentStatus": "[![Project Status: WIP - Initial development is in progress, but there",
     "releaseNotes": "https://github.com/ropensci/taxa/blob/master/NEWS.md",
-    "fileSize": "1835.469KB",
+    "fileSize": "1835.473KB",
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
     "keywords": ["taxonomy", "biology", "hierarchy"],
@@ -72797,7 +73432,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.7.9313",
+    "version": "0.9.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73187,7 +73822,7 @@
         "@type": "SoftwareApplication",
         "identifier": "worrms",
         "name": "worrms",
-        "version": ">= 0.3.2",
+        "version": ">= 0.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -73273,7 +73908,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/taxize",
     "releaseNotes": "https://github.com/ropensci/taxize/blob/master/NEWS.md",
-    "fileSize": "1393.084KB",
+    "fileSize": "1393.659KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -73659,7 +74294,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/taxizedb",
     "releaseNotes": "https://github.com/ropensci/taxizedb/blob/master/NEWS.md",
-    "fileSize": "29.562KB",
+    "fileSize": "29.564KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -73941,13 +74576,16 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tesseract/blob/master/NEWS",
-    "fileSize": "16.846KB",
+    "fileSize": "16.845KB",
     "contIntegration": ["https://travis-ci.org/ropensci/tesseract", "https://ci.appveyor.com/project/jeroen/tesseract", "https://codecov.io/github/ropensci/tesseract?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "relatedLink": "https://CRAN.R-project.org/package=tesseract"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "textreuse",
     "description": "Tools for measuring similarity among documents and detecting\n    passages which have been reused. Implements shingled n-gram, skip n-gram,\n    and other tokenizers; similarity/dissimilarity functions; pairwise\n    comparisons; minhash and locality sensitive hashing algorithms; and a\n    version of the Smith-Waterman local alignment algorithm suitable for\n    natural language.",
@@ -74157,7 +74795,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/textreuse/blob/master/NEWS.md",
     "fileSize": "1176.596KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/textreuse", "https://ci.appveyor.com/project/lmullen/textreuse-6xljc/branch/master", "https://codecov.io/github/ropensci/textreuse?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/textreuse",
+      "https://ci.appveyor.com/project/lmullen/textreuse-6xljc/branch/master",
+      "https://codecov.io/github/ropensci/textreuse?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/20",
@@ -74166,7 +74808,10 @@
     "relatedLink": "https://CRAN.R-project.org/package=textreuse"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "tidyhydat",
     "description": "Provides functions to access historical and real-time national 'hydrometric'\n    data from Water Survey of Canada data sources (<http://dd.weather.gc.ca/hydrometric/csv/> and\n    <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.",
@@ -74461,7 +75106,10 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tidyhydat/blob/master/NEWS.md",
     "fileSize": "1259.009KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/tidyhydat", "https://codecov.io/github/ropensci/tidyhydat?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/tidyhydat",
+      "https://codecov.io/github/ropensci/tidyhydat?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/152",
@@ -74488,7 +75136,10 @@
           "issueNumber": "20",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2",
             "name": "The Journal of Open Source Software"
           }
@@ -74965,7 +75616,10 @@
     ],
     "fileSize": "231.163KB",
     "issueTracker": "https://github.com/ropensci/tidypmc/issues",
-    "contIntegration": ["https://travis-ci.org/ropensci/tidypmc", "https://codecov.io/github/ropensci/tidypmc?branch=master"]
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/tidypmc",
+      "https://codecov.io/github/ropensci/tidypmc?branch=master"
+    ]
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -75054,7 +75708,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tif/blob/master/NEWS.md",
-    "fileSize": "8.199KB",
+    "fileSize": "8.201KB",
     "contIntegration": ["https://ci.appveyor.com/project/statsmaths/cleanNLP", "https://travis-ci.org/ropensci/tif"]
   },
   {
@@ -75262,7 +75916,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tiler/blob/master/NEWS.md",
-    "fileSize": "355.669KB",
+    "fileSize": "355.663KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/tiler",
       "https://ci.appveyor.com/project/leonawicz/tiler",
@@ -75279,13 +75933,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "tokenizers",
     "description": "Convert natural language text into tokens. Includes tokenizers for\n    shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs,\n    characters, shingled characters, lines, tweets, Penn Treebank, regular\n    expressions, as well as functions for counting characters, words, and sentences,\n    and a function for splitting longer texts into separate documents, each with\n    the same number of words.  The tokenizers have a consistent interface, and\n    the package is built on the 'stringi' and 'Rcpp' packages for  fast\n    yet correct tokenization in 'UTF-8'. ",
     "name": "tokenizers: Fast, Consistent Tokenization of Natural Language Text",
     "codeRepository": "https://github.com/ropensci/tokenizers",
-    "relatedLink": ["https://lincolnmullen.com/software/tokenizers/", "https://CRAN.R-project.org/package=tokenizers"],
+    "relatedLink": [
+      "https://lincolnmullen.com/software/tokenizers/",
+      "https://CRAN.R-project.org/package=tokenizers"
+    ],
     "issueTracker": "https://github.com/ropensci/tokenizers/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.1",
@@ -75463,7 +76123,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tokenizers/blob/master/NEWS.md",
     "fileSize": "443.199KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/tokenizers", "https://ci.appveyor.com/project/lmullen/tokenizers-dkf3v/branch/master", "https://codecov.io/github/ropensci/tokenizers?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/tokenizers",
+      "https://ci.appveyor.com/project/lmullen/tokenizers-dkf3v/branch/master",
+      "https://codecov.io/github/ropensci/tokenizers?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/33",
@@ -75476,7 +76140,10 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Lincoln", "A."],
+            "givenName": [
+              "Lincoln",
+              "A."
+            ],
             "familyName": "Mullen"
           },
           {
@@ -75510,7 +76177,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "3",
             "name": "Journal of Open Source Software"
           }
@@ -75760,12 +76430,18 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Richèl", "JC"],
+            "givenName": [
+              "Richèl",
+              "JC"
+            ],
             "familyName": "Bilderbeek"
           },
           {
             "@type": "Person",
-            "givenName": ["Rampal", "S"],
+            "givenName": [
+              "Rampal",
+              "S"
+            ],
             "familyName": "Etienne"
           }
         ],
@@ -75775,7 +76451,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2018",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "name": "Methods in Ecology and Evolution"
           }
         }
@@ -76030,7 +76709,7 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
-    "fileSize": "252.801KB",
+    "fileSize": "252.802KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/tradestatistics",
       "https://codecov.io/github/ropensci/tradestatistics?branch=master"
@@ -76328,7 +77007,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/traits",
     "releaseNotes": "https://github.com/ropensci/traits/blob/master/NEWS.md",
-    "fileSize": "1723.395KB",
+    "fileSize": "1723.399KB",
     "copyrightHolder": {},
     "funder": {},
     "keywords": [
@@ -76492,143 +77171,10 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/treebase/blob/master/NEWS",
-    "fileSize": "4269.012KB",
+    "fileSize": "4269.011KB",
     "contIntegration": ["https://travis-ci.org/ropensci/treeBASE", "https://ci.appveyor.com/project/sckott/treebase/branch/master"]
   },
-  {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
-    "@type": "SoftwareSourceCode",
-    "identifier": "treestartr",
-    "description": "Combine a list of taxa with a phylogeny to generate a starting tree for use in\n    total evidence dating analyses.",
-    "name": "treestartr: Generate Starting Trees For Combined Molecular, Morphological and Stratigraphic Data",
-    "codeRepository": "https://github.com/ropensci/treestartr",
-    "issueTracker": "https://github.com/ropensci/treeStartR/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.0",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.0 (2019-04-26)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "April",
-        "familyName": "Wright",
-        "email": "april.wright@selu.edu"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "April",
-        "familyName": "Wright",
-        "email": "april.wright@selu.edu"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.0.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "phytools",
-        "name": "phytools",
-        "version": ">= 0.6-4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=phytools"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ape",
-        "name": "ape",
-        "version": ">= 5.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ape"
-      }
-    ],
-    "fileSize": "24.218KB",
-    "contIntegration": ["https://travis-ci.org/wrightaprilm/treeStartR", "https://codecov.io/gh/ropensci/treeStartR"],
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/onboarding/issues/239",
-      "provider": "http://ropensci.org"
-    }
-  },
+  {},
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
     "@type": "SoftwareSourceCode",
@@ -76694,7 +77240,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/unrtf/blob/master/NEWS",
-    "fileSize": "60.987KB",
+    "fileSize": "60.986KB",
     "contIntegration": ["https://travis-ci.org/ropensci/unrtf", "https://ci.appveyor.com/project/jeroen/unrtf", "https://codecov.io/github/ropensci/unrtf?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -76858,7 +77404,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/USAboundaries/blob/master/NEWS.md",
-    "fileSize": "1406.668KB",
+    "fileSize": "1406.669KB",
     "contIntegration": ["https://travis-ci.org/ropensci/USAboundaries", "https://ci.appveyor.com/project/ropensci/USAboundaries", "https://codecov.io/github/ropensci/USAboundaries?branch=master"],
     "citation": [
       {
@@ -76958,7 +77504,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/USAboundariesData/blob/master/NEWS.md",
-    "fileSize": "18671.413KB",
+    "fileSize": "18671.412KB",
     "contIntegration": ["https://travis-ci.org/ropensci/USAboundariesData", "https://ci.appveyor.com/project/ropensci/USAboundariesData"]
   },
   {
@@ -77495,13 +78041,19 @@
     "relatedLink": "https://CRAN.R-project.org/package=virtuoso"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "visdat",
     "description": "Create preliminary exploratory data visualisations of an entire \n    dataset to identify problems or unexpected features using 'ggplot2'.",
     "name": "visdat: Preliminary Visualisation of Data",
     "codeRepository": "https://github.com/ropensci/visdat",
-    "relatedLink": ["http://visdat.njtierney.com/", "https://CRAN.R-project.org/package=visdat"],
+    "relatedLink": [
+      "http://visdat.njtierney.com/",
+      "https://CRAN.R-project.org/package=visdat"
+    ],
     "issueTracker": "https://github.com/ropensci/visdat/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.5.3.9000",
@@ -77753,7 +78305,11 @@
     ],
     "releaseNotes": "https://github.com/ropensci/visdat/blob/master/NEWS.md",
     "fileSize": "550.704KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/visdat", "https://ci.appveyor.com/project/ropensci/visdat", "https://codecov.io/github/ropensci/visdat?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/visdat",
+      "https://ci.appveyor.com/project/ropensci/visdat",
+      "https://codecov.io/github/ropensci/visdat?branch=master"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -77782,7 +78338,10 @@
           "issueNumber": "16",
           "datePublished": "2017",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "2",
             "name": "JOSS"
           }
@@ -78460,7 +79019,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/weathercan/blob/master/NEWS.md",
-    "fileSize": "3050.774KB",
+    "fileSize": "3050.773KB",
     "contIntegration": "https://travis-ci.org/ropensci/weathercan",
     "citation": [
       {
@@ -79090,7 +79649,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/wellknown",
     "releaseNotes": "https://github.com/ropensci/wellknown/blob/master/NEWS.md",
-    "fileSize": "101.411KB",
+    "fileSize": "101.407KB",
     "applicationCategory": "Geosptial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["spatial", "geospatial", "wkt", "wkb", "well-known-text", "geojson", "binary", "conversion"],
@@ -79186,7 +79745,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/wicket/blob/master/NEWS",
-    "fileSize": "19.714KB",
+    "fileSize": "19.71KB",
     "contIntegration": "https://travis-ci.org/ropensci/wicket"
   },
   {
@@ -79678,7 +80237,7 @@
     ],
     "softwareRequirements": [],
     "releaseNotes": "https://github.com/ropensci/writexl/blob/master/NEWS",
-    "fileSize": "204.229KB",
+    "fileSize": "204.228KB",
     "contIntegration": ["https://travis-ci.org/ropensci/writexl", "https://ci.appveyor.com/project/jeroen/writexl", "https://codecov.io/github/ropensci/writexl?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -79751,7 +80310,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/xslt/blob/master/NEWS",
-    "fileSize": "16.413KB",
+    "fileSize": "16.411KB",
     "contIntegration": ["https://travis-ci.org/ropensci/xslt", "https://ci.appveyor.com/project/jeroen/xslt", "https://codecov.io/github/ropensci/xslt?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "relatedLink": "https://CRAN.R-project.org/package=xslt"
