@@ -419,7 +419,7 @@
       "description": "Feature Flags",
       "details": "Feature flags.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "feature-flags",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/feetures",
       "status": "wip",
       "onboarding": "",
@@ -2851,7 +2851,7 @@
       "github": "https://github.com/ropensci/gitignore",
       "status": "active",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/gitignore"
     },
@@ -3082,7 +3082,7 @@
       "description": "Comprehensive TIFF I/O with Full Support for 'ImageJ' TIFF Files",
       "details": "General purpose TIFF file I/O for R users. Currently the only such \n    package with read and write support for TIFF files with floating point \n    (real-numbered) pixels, and the only package that can correctly import TIFF \n    files that were saved from 'ImageJ' and write TIFF files than can be \n    correctly read by 'ImageJ' <https://imagej.nih.gov/ij/>.\n    Also supports text image I/O.",
       "maintainer": "Rory Nolan",
-      "keywords": "",
+      "keywords": "image-manipulation, imagej, peer-reviewed, tiff-files, tiff-images",
       "github": "https://github.com/ropensci/ijtiff",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/164",
@@ -5362,6 +5362,19 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "treestartr",
+      "description": "Generate Starting Trees For Combined Molecular, Morphological and Stratigraphic Data",
+      "details": "Combine a list of taxa with a phylogeny to generate a starting tree for use in\n    total evidence dating analyses.",
+      "maintainer": "April Wright",
+      "keywords": "",
+      "github": "https://github.com/ropensci/treestartr",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/239",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/treestartr"
+    },
+    {
       "name": "unrtf",
       "description": "Extract Text from Rich Text Format (RTF) Documents",
       "details": "Wraps the 'unrtf' utility to extract text from RTF files. Supports\n    document conversion to HTML, LaTeX or plain text. Output in HTML is recommended\n    because 'unrtf' has limited support for converting between character encodings.",
@@ -5598,5 +5611,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-06-27 21:50 UTC"
+  "date": "2019-06-28 21:50 UTC"
 }
