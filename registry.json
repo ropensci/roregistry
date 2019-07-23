@@ -2083,7 +2083,7 @@
     {
       "name": "ckanr",
       "description": "Client for the Comprehensive Knowledge Archive Network ('CKAN') API",
-      "details": "Client for 'CKAN' API (https://ckan.org/). Includes interface\n    to 'CKAN' 'APIs' for search, list, show for packages, organizations, and\n    resources. In addition, provides an interface to the 'datastore' API.",
+      "details": "Client for 'CKAN' API (<https://ckan.org/>). Includes interface\n    to 'CKAN' 'APIs' for search, list, show for packages, organizations, and\n    resources. In addition, provides an interface to the 'datastore' API.",
       "maintainer": "Scott Chamberlain",
       "keywords": "api, ckan, data, database, dataset, open-data",
       "github": "https://github.com/ropensci/ckanr",
@@ -3857,6 +3857,19 @@
       "ropensci_category": "data-visualization"
     },
     {
+      "name": "popler",
+      "description": "Popler R Package",
+      "details": "Browse and query the popler database.",
+      "maintainer": "Compagnoni Aldo",
+      "keywords": "",
+      "github": "https://github.com/ropensci/popler",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/254",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/popler"
+    },
+    {
       "name": "PostcodesioR",
       "description": "API wrapper around postcodes.io (free UK postcode lookup and geocoder)",
       "details": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around postcodes.io.",
@@ -5614,5 +5627,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-07-22 21:50 UTC"
+  "date": "2019-07-23 21:50 UTC"
 }
