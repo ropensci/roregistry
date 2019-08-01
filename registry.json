@@ -2072,10 +2072,7 @@
       "keywords": "dataset, wildlife",
       "github": "https://github.com/ropensci/citesdb",
       "status": "wip",
-      "onboarding": [
-        "https://github.com/ropensci/onboarding/issues/292",
-        "https://github.com/ropensci/software-review/issues/292"
-      ],
+      "onboarding": "https://github.com/ropensci/software-review/issues/292",
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropensci/citesdb"
@@ -5278,7 +5275,7 @@
       "github": "https://github.com/ropensci/tidypmc",
       "status": "active",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/tidypmc"
     },
@@ -5389,6 +5386,19 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/treestartr"
+    },
+    {
+      "name": "UCSCXenaTools",
+      "description": "Download and Explore Datasets from UCSC Xena Data Hubs",
+      "details": "Download and explore datasets from UCSC Xena data hubs, which are\n    a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.\n    Databases are normalized so they can be combined, linked, filtered, explored and downloaded.",
+      "maintainer": "Shixiang Wang",
+      "keywords": "api-client, bioinformatics, ccle, downloader, icgc, tcga, toil, treehouse, ucsc, ucsc-xena",
+      "github": "https://github.com/ropensci/UCSCXenaTools",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/315",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/UCSCXenaTools"
     },
     {
       "name": "unrtf",
@@ -5627,5 +5637,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-07-31 21:50 UTC"
+  "date": "2019-08-01 21:50 UTC"
 }
