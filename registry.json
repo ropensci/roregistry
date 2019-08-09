@@ -31,7 +31,7 @@
     {
       "name": "treeio",
       "description": "Base Classes and Functions for Phylogenetic Tree Input and Output",
-      "details": "Base classes and functions for parsing and exporting phylogenetic trees. 'treeio' supports parsing analysis findings from commonly used software packages, allows linking external data to phylogeny and merging tree data obtained from different sources. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file.",
+      "details": "'treeio' is an R package to make it easier to import and store phylogenetic tree with associated data; and to link external data from different sources to phylogeny. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file and can be served as a platform for merging tree with associated data and converting file formats.",
       "maintainer": "Guangchuang Yu",
       "keywords": "",
       "github": "https://yulab-smu.github.io/treedata-book/",
@@ -221,19 +221,6 @@
       "url": "https://github.com/ropenscilabs/conditionz"
     },
     {
-      "name": "containerit",
-      "description": "Package R in Docker Containers",
-      "details": "Package R sessions, scripts, workspaces and vignettes together with\n    all dependencies to execute them in Docker containers. This package is supported\n    by the project Opening Reproducible Research (https://o2r.info).",
-      "maintainer": "Daniel Nuest",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/containerit",
-      "status": "wip",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/containerit"
-    },
-    {
       "name": "convertr",
       "description": "Convert Between Units",
       "details": "Provides conversion functionality between a broad range of\n    scientific, historical, and industrial unit types.",
@@ -419,7 +406,7 @@
       "description": "Feature Flags",
       "details": "Feature flags.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "",
+      "keywords": "feature-flags",
       "github": "https://github.com/ropenscilabs/feetures",
       "status": "wip",
       "onboarding": "",
@@ -523,20 +510,6 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/gramr",
       "ropensci_category": "literature"
-    },
-    {
-      "name": "greta",
-      "description": "Simple and Scalable Statistical Modelling in R",
-      "details": "Write statistical models in R and fit them by MCMC on CPUs and GPUs, using Google TensorFlow (see <https://greta-dev.github.io/greta> for more information).",
-      "maintainer": "Nick Golding",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/greta",
-      "status": "concept",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/greta",
-      "ropensci_category": "scalereprod"
     },
     {
       "name": "hirsutosa",
@@ -785,20 +758,6 @@
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/ozbabynames"
-    },
-    {
-      "name": "ozdata",
-      "description": "Import and explore freely available Australian data sets",
-      "details": "There are many high quality data sets that are freely\n    available for Australia. Unfortunately they can be difficult to obtain\n    and analyse.  Here we provide tools to programmatically import and\n    explore Australian data sets.  Data can be obtained from the official\n    Australian government portal, which contains over 40,000 data sets\n    (<https://data.gov.au>).  Additionally, economic data sets can be\n    obtained from the Australian Macro Database\n    (<http://ozmacrodata.org>).  This project was created during the 2017\n    BURGr R UnConference <https://github.com/AU-BURGr/UnConf2017>.",
-      "maintainer": "Jonathan Carroll",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/ozdata",
-      "status": "wip",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/ozdata",
-      "ropensci_category": "data-access"
     },
     {
       "name": "ozflights",
@@ -2026,7 +1985,7 @@
     {
       "name": "cde",
       "description": "Download Water Framework Directive (WFD) Data from the Environment Agency Catchment Data Explorer (CDE) Website",
-      "details": "The cde package facilitates searching and download of the\n  WFD-related data for all waterbodies within the Environment Agency area.\n  The types of data that can be downloaded are: WFD status classification data\n  (which can also be plotted), Reasons for Not Achieving Good (RNAG) status,\n  objectives set for waterbodies, measures put in place to improve water \n  quality and details of associated protected areas. The site accessed is \n  <https://environment.data.gov.uk/catchment-planning/>. The data are made \n  available under the Open Government Licence v3.0 \n  <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>.\n  This package has been peer-reviewed by rOpenSci (v. 0.4.0).",
+      "details": "Facilitates searching and download of the\n  WFD-related data for all waterbodies within the Environment Agency area.\n  The types of data that can be downloaded are: WFD status classification data\n  (which can also be plotted), Reasons for Not Achieving Good (RNAG) status,\n  objectives set for waterbodies, measures put in place to improve water \n  quality and details of associated protected areas. The site accessed is \n  <https://environment.data.gov.uk/catchment-planning/>. The data are made \n  available under the Open Government Licence v3.0 \n  <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>.\n  This package has been peer-reviewed by rOpenSci (v. 0.4.0).",
       "maintainer": "Rob Briers",
       "keywords": "",
       "github": "https://github.com/ropensci/cde",
@@ -3868,8 +3827,8 @@
     },
     {
       "name": "PostcodesioR",
-      "description": "API wrapper around postcodes.io (free UK postcode lookup and geocoder)",
-      "details": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around postcodes.io.",
+      "description": "API Wrapper Around Postcodes.io (Free UK Postcode Lookup and Geocoder)",
+      "details": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around <https://postcodes.io>.",
       "maintainer": "Eryk Walczak",
       "keywords": "",
       "github": "https://github.com/ropensci/PostcodesioR",
@@ -5188,7 +5147,7 @@
       "description": "Tools for Working with 'Taxonomic' Databases",
       "details": "Tools for working with 'taxonomic' databases, including\n    utilities for downloading databases, loading them into various\n    'SQL' databases, cleaning up files, and providing a 'SQL' connection\n    that can be used to do 'SQL' queries directly or used in 'dplyr'.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "",
+      "keywords": "itis, taxize, taxonomic-databases, taxonomy",
       "github": "https://github.com/ropensci/taxizedb",
       "status": "active",
       "onboarding": "",
@@ -5637,5 +5596,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-08-08 21:50 UTC"
+  "date": "2019-08-09 21:50 UTC"
 }
