@@ -1996,6 +1996,19 @@
       "ropensci_category": "data-tools"
     },
     {
+      "name": "chlorpromazineR",
+      "description": "Convert Antipsychotic Doses to Chlorpromazine Equivalents",
+      "details": "As different antipsychotic medications have different potencies,\n    the doses of different medications cannot be directly compared. Various\n    strategies are used to convert doses into a common reference so that\n    comparison is meaningful. Chlorpromazine (CPZ) has historically been used\n    as a reference medication into which other antipsychotic doses can be\n    converted, as \"chlorpromazine-equivalent doses\". Using conversion keys\n    generated from widely-cited scientific papers (Gardner et. al 2010\n    <https://doi.org/10.1176/appi.ajp.2009.09060802>, Leucht et al. 2016\n    <https://doi.org/10.1093/schbul/sbv167>), antipsychotic doses are converted\n    to CPZ (or any specified antipsychotic) equivalents. The use of the package\n    is described in the included vignette. Not for clinical use.",
+      "maintainer": "Eric Brown",
+      "keywords": "antipsychotic, pharmacology, psychiatry, schizophrenia",
+      "github": "https://github.com/ropensci/chlorpromazineR",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/onboarding/issues/307",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/chlorpromazineR"
+    },
+    {
       "name": "chromer",
       "description": "Interface to Chromosome Counts Database API",
       "details": "A programmatic interface to the Chromosome Counts Database\n    (<http://ccdb.tau.ac.il/>). This package is part of the rOpenSci suite\n    (<https://ropensci.org>).",
@@ -3120,7 +3133,7 @@
     },
     {
       "name": "jsonvalidate",
-      "description": "Validate 'JSON'",
+      "description": "Validate 'JSON' Schema",
       "details": "Uses the node library 'is-my-json-valid' or 'ajv' to\n    validate 'JSON' against a 'JSON' schema.  Drafts 04, 06 and 07 of\n    'JSON' schema are supported.",
       "maintainer": "Rich FitzJohn",
       "keywords": "",
@@ -4618,7 +4631,7 @@
     {
       "name": "rotl",
       "description": "Interface to the 'Open Tree of Life' API",
-      "details": "An interface to the 'Open Tree of Life' API to retrieve\n    phylogenetic trees, information about studies used to assemble the synthetic\n    tree, and utilities to match taxonomic names to 'Open Tree identifiers'. The\n    'Open Tree of Life' aims at assembling a comprehensive phylogenetic tree for all\n    named species.",
+      "details": "An interface to the 'Open Tree of Life' API to retrieve\n    phylogenetic trees, information about studies used to assemble the\n    synthetic tree, and utilities to match taxonomic names to 'Open Tree\n    identifiers'. The 'Open Tree of Life' aims at assembling a\n    comprehensive phylogenetic tree for all named species.",
       "maintainer": "Francois Michonneau",
       "keywords": "biodiversity, independant-contrasts, metadata, phylogenetics, ropensci",
       "github": "https://github.com/ropensci/rotl",
@@ -5594,5 +5607,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-09-27 21:50 UTC"
+  "date": "2019-09-28 21:51 UTC"
 }
