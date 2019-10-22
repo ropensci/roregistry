@@ -3162,6 +3162,19 @@
       "ropensci_category": "geospatial"
     },
     {
+      "name": "lightr",
+      "description": "Read Spectrometric Data in R",
+      "details": "Parse various UV-VIS reflectance/transmittance/absorbance spectra\n    file formats to extract spectral data and metadata.\n    This package has been peer-reviewed by rOpenSci (v. 0.0.1).",
+      "maintainer": "Hugo Gruson",
+      "keywords": "file-import, reproducibility, reproducible-research, reproducible-science, spectral-data, spectroscopy",
+      "github": "https://github.com/ropensci/lightr",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/267",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/lightr"
+    },
+    {
       "name": "lingtypology",
       "description": "Linguistic Typology and Mapping",
       "details": "Provides R with the Glottolog database <http://glottolog.org> and some more abilities for purposes of linguistic mapping. The Glottolog database contains the catalogue of languages of the world. This package helps researchers to make a linguistic maps, using philosophy of the Cross-Linguistic Linked Data project <http://clld.org/>, which allows for while at the same time facilitating uniform access to the data across publications. A tutorial for this package is available on GitHub pages <https://ropensci.github.io/lingtypology/> and package vignette. Maps created by this package can be used both for the investigation and linguistic teaching. In addition, package provides an ability to download data from typological databases such as WALS, AUTOTYP and some others and to create your own database website.",
@@ -4797,6 +4810,19 @@
       "ropensci_category": "data-extraction"
     },
     {
+      "name": "rtweet",
+      "description": "Collecting Twitter Data",
+      "details": "An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>.\n This package has been peer-reviewed by rOpenSci (v. 0.6.9).",
+      "maintainer": "Michael W. Kearney",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rtweet",
+      "status": "active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/302",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/rtweet"
+    },
+    {
       "name": "rusda",
       "description": "Interface to USDA Databases",
       "details": "An interface to the web service methods provided by the United States Department of Agriculture (USDA). The Agricultural Research Service (ARS) provides a large set of databases. The current version of the package holds interfaces to the Systematic Mycology and Microbiology Laboratory (SMML), which consists of four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. It provides functions for querying these databases. The main function is \\code{associations}, which allows searching for fungus-host combinations. ",
@@ -5581,5 +5607,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-10-21 21:51 UTC"
+  "date": "2019-10-22 21:50 UTC"
 }
