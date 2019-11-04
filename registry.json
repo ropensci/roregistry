@@ -85,20 +85,6 @@
       "ropensci_category": "literature"
     },
     {
-      "name": "available",
-      "description": "Check if the Title of a Package is Available, Appropriate and Interesting",
-      "details": "Check if a given package name is available to use. It checks the\n  name's validity. Checks if it is used on 'GitHub', 'CRAN' and 'Bioconductor'. Checks\n  for unintended meanings by querying Urban Dictionary, 'Wiktionary' and Wikipedia.",
-      "maintainer": "Jim Hester",
-      "keywords": "unconf, unconf17",
-      "github": "https://github.com/ropenscilabs/available",
-      "status": "active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/available",
-      "ropensci_category": "scalereprod"
-    },
-    {
       "name": "bindertools",
       "description": "Create requisite files and launch binder with mybinder.org",
       "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
@@ -406,7 +392,7 @@
       "description": "Feature Flags",
       "details": "Feature flags.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "",
+      "keywords": "feature-flags",
       "github": "https://github.com/ropenscilabs/feetures",
       "status": "wip",
       "onboarding": "",
@@ -552,20 +538,6 @@
       "on_bioc": false,
       "url": "https://github.com/ropenscilabs/hoasts",
       "ropensci_category": "data-access"
-    },
-    {
-      "name": "icon",
-      "description": "Icon web-fonts for RMarkdown",
-      "details": "This package allows easy insertion of icons from Font Awesome, Academicons and Ionicons into RMarkdown.",
-      "maintainer": "Mitchell O'Hara-Wild",
-      "keywords": "",
-      "github": "https://github.com/ropenscilabs/icon",
-      "status": "concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/icon",
-      "ropensci_category": "literature"
     },
     {
       "name": "identifires",
@@ -5633,5 +5605,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-11-03 21:50 UTC"
+  "date": "2019-11-04 21:50 UTC"
 }
