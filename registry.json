@@ -2539,7 +2539,7 @@
     {
       "name": "gender",
       "description": "Predict Gender from Names Using Historical Data",
-      "details": "Encodes gender based on names and dates of birth using historical\n    datasets. By using these datasets instead of lists of male and female names,\n    this package is able to more accurately guess the gender of a name, and it\n    is able to report the probability that a name was male or female.",
+      "details": "Infers state-recorded gender categories from first names and dates of birth using historical\n    datasets. By using these datasets instead of lists of male and female names,\n    this package is able to more accurately infer the gender of a name, and it\n    is able to report the probability that a name was male or female. GUIDELINES:\n    This method must be used cautiously and responsibly. Please be sure to see the\n    guidelines and warnings about usage in the 'README' or the package documentation.",
       "maintainer": "Lincoln Mullen",
       "keywords": "",
       "github": "https://github.com/ropensci/gender",
@@ -5217,7 +5217,7 @@
       "github": "https://github.com/ropensci/tidync",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/174",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropensci/tidync"
     },
@@ -5605,5 +5605,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-11-05 21:50 UTC"
+  "date": "2019-11-06 21:51 UTC"
 }
