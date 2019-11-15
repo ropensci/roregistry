@@ -17410,7 +17410,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
-        "name": "mauricer"
+        "name": "mauricer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       {
         "@type": "SoftwareApplication",
@@ -25874,7 +25881,7 @@
     "codeRepository": "https://github.com/ropensci/crul",
     "issueTracker": "https://github.com/ropensci/crul/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.0.9100",
+    "version": "0.9.0.9200",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42051,6 +42058,12 @@
         }
       }
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -72667,7 +72680,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.91",
+    "version": "0.9.91.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
