@@ -23060,7 +23060,7 @@
     "codeRepository": "https://github.com/ropensci/ckanr",
     "issueTracker": "https://github.com/ropensci/ckanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1.9210",
+    "version": "0.4.1.9213",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42080,7 +42080,7 @@
     "codeRepository": "https://github.com/ropensci/microdemic",
     "issueTracker": "https://github.com/ropensci/microdemic/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.2.9311",
+    "version": "0.4.3.9110",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42208,14 +42208,8 @@
     "developmentStatus": "wip",
     "releaseNotes": "https://github.com/ropensci/microdemic/blob/master/NEWS.md",
     "fileSize": "62.155KB",
-    "keywords": [
-      "api-client",
-      "scholarly-articles",
-      "scholarly-metadata",
-      "rstats",
-      "r",
-      "r-package"
-    ],
+    "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text"],
+    "relatedLink": "https://docs.ropensci.org/microdemic",
     "contributor": [
       {
         "@type": "Person",
@@ -42225,7 +42219,9 @@
       }
     ],
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "applicationCategory": "Literature",
+    "isPartOf": "https://ropensci.org"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -52241,7 +52237,7 @@
     "description": "Content-preserving transformations transformations of PDF files such \n    as split, combine, and compress. This package interfaces directly to the 'qpdf' \n    C++ API and does not require any command line utilities. Note that 'qpdf' does\n    not read actual content from PDF files: to extract text and data you need the\n    'pdftools' package.",
     "name": "qpdf: Split, Combine and Compress PDF Files",
     "codeRepository": "https://github.com/ropensci/qpdf",
-    "relatedLink": ["http://qpdf.sourceforge.net/", "https://CRAN.R-project.org/package=qpdf"],
+    "relatedLink": ["https://docs.ropensci.org/qpdf", "http://qpdf.sourceforge.net/", "https://CRAN.R-project.org/package=qpdf"],
     "issueTracker": "https://github.com/ropensci/qpdf/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.1",
@@ -52337,7 +52333,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/qpdf/blob/master/NEWS",
-    "contIntegration": ["https://travis-ci.org/ropensci/qpdf", "https://ci.appveyor.com/project/jeroen/qpdf", "https://codecov.io/github/ropensci/qpdf?branch=master"],
+    "contIntegration": ["https://travis-ci.org/ropensci/qpdf", "https://ci.appveyor.com/project/jeroen/qpdf"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
