@@ -19764,112 +19764,6 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
-    "@type": "SoftwareSourceCode",
-    "identifier": "bmc",
-    "description": "Search the BiomedCentral API and get full text articles.",
-    "name": "bmc: Search the BiomedCentral API and get full text articles.",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.99",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.1",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "stringr",
-        "name": "stringr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      }
-    ],
-    "codeRepository": "https://github.com/ropensci/bmc",
-    "contIntegration": ["https://ci.appveyor.com/project/ropensci/bmc", "https://travis-ci.org/", "https://codecov.io/gh/ropensci/bmc"],
-    "developmentStatus": "http://www.repostatus.org/#active"
-  },
-  {
     "@context": [
       "https://doi.org/doi:10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -21149,7 +21043,7 @@
     "codeRepository": "https://github.com/ropensci/c14bazAAR",
     "issueTracker": "https://github.com/ropensci/c14bazAAR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.0.3.9000",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35561,7 +35455,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/grainchanger/blob/master/NEWS.md",
-    "fileSize": "469.337KB",
+    "fileSize": "468.608KB",
     "contIntegration": [
       "https://travis-ci.org/laurajanegraham/grainchanger",
       "https://codecov.io/gh/laurajanegraham/grainchanger?branch=master"
@@ -38505,7 +38399,7 @@
     "keywords": ["heatmap", "plotly", "r", "interactive-visualizations", "data-visualization", "htmlwidgets"],
     "contIntegration": "https://travis-ci.org/ropensci/iheatmapr",
     "releaseNotes": "https://github.com/ropensci/iheatmapr/blob/master/NEWS.md",
-    "fileSize": "2413.949KB",
+    "fileSize": "35269.802KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -38537,7 +38431,10 @@
         }
       }
     ],
-    "relatedLink": ["https://docs.ropensci.org/iheatmapr", "https://CRAN.R-project.org/package=iheatmapr"],
+    "relatedLink": [
+      "https://docs.ropensci.org/iheatmapr",
+      "https://CRAN.R-project.org/package=iheatmapr"
+    ],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -40861,7 +40758,10 @@
     "description": "Parse various reflectance/transmittance/absorbance spectra file\n    formats to extract spectral data and metadata, as described in Gruson, White\n    & Maia (2019) <doi:10.21105/joss.01857>.\n    This package has been peer-reviewed by rOpenSci (v. 0.1).",
     "name": "lightr: Read Spectrometric Data and Metadata",
     "codeRepository": "https://github.com/ropensci/lightr",
-    "relatedLink": ["https://bisaloo.github.io/lightr", "https://docs.ropensci.org/lightr"],
+    "relatedLink": [
+      "https://bisaloo.github.io/lightr",
+      "https://docs.ropensci.org/lightr"
+    ],
     "issueTracker": "https://github.com/ropensci/lightr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.1",
@@ -40998,7 +40898,7 @@
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       }
     ],
-    "fileSize": "5290.071KB",
+    "fileSize": "2934.632KB",
     "contIntegration": [
       "https://travis-ci.org/Bisaloo/lightr",
       "https://ci.appveyor.com/project/Bisaloo/lightr",
@@ -74937,7 +74837,7 @@
     "codeRepository": "https://github.com/ropensci/tiler",
     "issueTracker": "https://github.com/ropensci/tiler/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75005,18 +74905,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lintr",
-        "name": "lintr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lintr"
       },
       {
         "@type": "SoftwareApplication",
@@ -75144,7 +75032,8 @@
     },
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -77157,7 +77046,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.9100",
+    "version": "0.3.0.9132",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -77299,14 +77188,14 @@
         "@type": "SoftwareApplication",
         "identifier": "webmockr",
         "name": "webmockr",
-        "version": ">= 0.4.0",
+        "version": ">= 0.4.1.9100",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
+        "sameAs": "https://github.com/ropensci/webmockr"
       },
       {
         "@type": "SoftwareApplication",
@@ -77374,7 +77263,7 @@
     "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "http-mocking", "testing", "testing-tools", "tdd"],
     "contIntegration": "https://travis-ci.org/ropenscilabs/vcr",
     "fileSize": "73.897KB",
-    "relatedLink": "https://ropenscilabs.github.io/http-testing-book/",
+    "relatedLink": ["https://ropenscilabs.github.io/http-testing-book/", "https://books.ropensci.org/http-testing/"],
     "releaseNotes": "https://github.com/ropensci/vcr/blob/master/NEWS.md",
     "developmentStatus": "http://www.repostatus.org/#wip",
     "provider": {
@@ -78996,7 +78885,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.9100",
+    "version": "0.4.1.9100",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79188,7 +79077,7 @@
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/webmockr/blob/master/NEWS.md",
     "fileSize": "48.801KB",
-    "relatedLink": "https://ropenscilabs.github.io/http-testing-book/",
+    "relatedLink": ["https://ropenscilabs.github.io/http-testing-book/", "https://books.ropensci.org/http-testing"],
     "funder": [
       {
         "@type": "Organization",
