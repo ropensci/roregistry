@@ -14690,6 +14690,7 @@
     "description": "Tools for interacting with the 'Travis' and\n    'GitHub' APIs for setting up continuous integration for R packages and\n    other R-based projects.",
     "name": "travis: Set Up 'Travis' for Testing and Deployment",
     "codeRepository": "https://github.com/ropenscilabs/travis",
+    "relatedLink": "https://docs.ropensci.org/travis/dev",
     "issueTracker": "https://github.com/ropenscilabs/travis/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.2.11.9001",
@@ -14912,7 +14913,8 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/travis/blob/master/NEWS.md",
-    "contIntegration": "https://travis-ci.org/ropenscilabs/travis"
+    "contIntegration": ["https://travis-ci.org/ropenscilabs/travis", "https://cran.r-project.org/package=travis"],
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing"
   },
   {
     "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
@@ -16982,7 +16984,7 @@
     "description": "Tools to generate unique identifier codes and\n    printable barcoded labels for the management of biological samples.\n    The creation of unique ID codes and printable PDF files can be\n    initiated by standard commands, user prompts, or through a GUI addin\n    for R Studio. Biologically informative codes can be included for\n    hierarchically structured sampling designs.",
     "name": "baRcodeR: Label Creation for Tracking and Collecting Data from\n    Biological Samples",
     "codeRepository": "https://github.com/ropensci/baRcodeR",
-    "relatedLink": "https://docs.ropensci.org/baRcodeR",
+    "relatedLink": ["https://docs.ropensci.org/baRcodeR", "https://CRAN.R-project.org/package=baRcodeR"],
     "issueTracker": "https://github.com/ropensci/baRcodeR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.1.4",
@@ -17631,7 +17633,7 @@
     "codeRepository": "https://github.com/ropensci/beautier",
     "issueTracker": "https://github.com/ropensci/beautier/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -46897,13 +46899,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "opentripplanner",
-    "description": "An R interface for OpenTripPlanner <http://www.opentripplanner.org/>.\n    OpenTripPlanner (OTP) is an open source platform for multi-modal and multi-agency\n    journey planning written in Java. OTP provides a REST API which OpenTripPlanner\n    for R uses to connect to OTP.\n This package has been peer-reviewed by rOpenSci (v. 0.1.0.0).",
+    "description": "An R interface for OpenTripPlanner <http://www.opentripplanner.org/>.\n    OpenTripPlanner (OTP) is an open source platform for multi-modal and multi-agency\n    journey planning written in Java. OTP provides a REST API which OpenTripPlanner\n    for R uses to connect to OTP.\n This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
     "name": "opentripplanner: OpenTripPlanner for R",
     "codeRepository": "https://github.com/ropensci/opentripplanner",
     "relatedLink": "https://docs.ropensci.org/opentripplanner/",
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "file LICENSE",
-    "version": "0.1.0.0",
+    "version": "0.2.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47115,7 +47117,12 @@
       "data",
       "routing",
       "opentripplanner"
-    ]
+    ],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/onboarding/issues/295",
+      "provider": "http://ropensci.org"
+    }
   },
   {
     "@context": [
