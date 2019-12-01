@@ -18121,7 +18121,7 @@
     "codeRepository": "https://github.com/ropensci/bikedata",
     "issueTracker": "https://github.com/ropensci/bikedata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.3.2",
+    "version": "0.2.3.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18170,6 +18170,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dodgr",
+        "name": "dodgr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dodgr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -18249,18 +18261,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=DBI"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dodgr",
-        "name": "dodgr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dodgr"
       },
       {
         "@type": "SoftwareApplication",
@@ -18386,7 +18386,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/bikedata",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
-    "fileSize": "2925.917KB",
+    "fileSize": "2925.616KB",
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -62286,7 +62286,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.9100",
+    "version": "0.9.5.9310",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62528,6 +62528,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webmockr",
+        "name": "webmockr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webmockr"
       }
     ],
     "softwareRequirements": [
