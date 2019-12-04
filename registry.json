@@ -5,12 +5,14 @@
       "description": "eBird Data Extraction and Processing in R",
       "details": "Extract and process bird sightings records from\n    eBird (<http://ebird.org>), an online tool for recording bird\n    observations.  Public access to the full eBird database is via the\n    eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download>\n    for access), a downloadable text file. This package is an interface to\n    AWK for extracting data from the EBD based on taxonomic, spatial, or\n    temporal filters, to produce a manageable file size that can be\n    imported into R.",
       "maintainer": "Matthew Strimas-Mackey",
-      "keywords": "dataset, dataset, dataset, ebird, ebird, ebird",
+      "keywords": "dataset, dataset, dataset, dataset, ebird, ebird, ebird, ebird",
       "github": "https://github.com/CornellLabofOrnithology/auk",
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/136"
+          [
+            "https://github.com/ropensci/onboarding/issues/136"
+          ]
         ]
       ],
       "on_cran": true,
@@ -24,12 +26,12 @@
       "details": "Reads Genbank files.",
       "maintainer": "Gabriel Becker",
       "keywords": "",
-      "github": "list(\"https://github.com/gmbecker/genbankr\")",
+      "github": "list(list(\"https://github.com/gmbecker/genbankr\"))",
       "status": "active",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": true,
-      "url": "list(\"https://github.com/gmbecker/genbankr\")",
+      "url": "list(list(\"https://github.com/gmbecker/genbankr\"))",
       "ropensci_category": "data-access"
     },
     {
@@ -51,7 +53,7 @@
       "description": "Package Generator for HTTP API Wrapper Packages",
       "details": "Package Generator for HTTP API Wrapper Packages.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "yaml, yaml, yaml",
+      "keywords": "yaml, yaml, yaml, yaml",
       "github": "https://github.com/ropenscilabs/apipkgen",
       "status": "wip",
       "onboarding": "",
@@ -65,7 +67,7 @@
       "description": "Arrested Development",
       "details": "Here to help you when your development is, shall we say, arrested.",
       "maintainer": "Lucy D'Agostino McGowan",
-      "keywords": "unconf, unconf, unconf, unconf17, unconf17, unconf17",
+      "keywords": "unconf, unconf, unconf, unconf, unconf17, unconf17, unconf17, unconf17",
       "github": "https://github.com/ropenscilabs/arresteddev",
       "status": "concept",
       "onboarding": "",
@@ -93,7 +95,7 @@
       "description": "Create requisite files and launch binder with mybinder.org",
       "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
       "maintainer": "Saras Windecker",
-      "keywords": "ozunconf18, ozunconf18, ozunconf18, unconf, unconf, unconf",
+      "keywords": "ozunconf18, ozunconf18, ozunconf18, ozunconf18, unconf, unconf, unconf, unconf",
       "github": "https://github.com/ropenscilabs/bindertools",
       "status": "concept",
       "onboarding": "",
@@ -120,7 +122,7 @@
       "description": "Client for the cranchecks.info API",
       "details": "Client for the cranchecks.info API.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "cran, cran, cran, testing, testing, testing",
+      "keywords": "cran, cran, cran, cran, testing, testing, testing, testing",
       "github": "https://github.com/ropenscilabs/cchecks",
       "status": "concept",
       "onboarding": "",
@@ -134,7 +136,7 @@
       "description": "A simple interface and workflow for version control in R (implemented using git as backend but without the confusion)",
       "details": "This package provides a set of easy-to-use tools for beginners wanting to implement version control via git for their projects.",
       "maintainer": "Nick Golding",
-      "keywords": "ozunconf17, ozunconf17, ozunconf17, unconf, unconf, unconf",
+      "keywords": "ozunconf17, ozunconf17, ozunconf17, ozunconf17, unconf, unconf, unconf, unconf",
       "github": "https://github.com/ropenscilabs/changes",
       "status": "concept",
       "onboarding": "",
@@ -148,7 +150,7 @@
       "description": "checkers",
       "details": "Package to assess analysis + review guide for analysis best practice",
       "maintainer": "Noam Ross",
-      "keywords": "unconf, unconf, unconf, unconf17, unconf17, unconf17",
+      "keywords": "unconf, unconf, unconf, unconf, unconf17, unconf17, unconf17, unconf17",
       "github": "https://github.com/ropenscilabs/checkers",
       "status": "wip",
       "onboarding": "",
@@ -188,7 +190,7 @@
       "description": "Provides community-driven color palettes",
       "details": "Provides community-driven color palettes.",
       "maintainer": "Mika Braginsky",
-      "keywords": "unconf, unconf, unconf, unconf16, unconf16, unconf16",
+      "keywords": "unconf, unconf, unconf, unconf, unconf16, unconf16, unconf16, unconf16",
       "github": "https://github.com/ropenscilabs/colorpiler",
       "status": "concept",
       "onboarding": "",
@@ -215,7 +217,7 @@
       "description": "Convert Between Units",
       "details": "Provides conversion functionality between a broad range of\n    scientific, historical, and industrial unit types.",
       "maintainer": "Gordon Shotwell",
-      "keywords": "peer-reviewed, peer-reviewed, peer-reviewed",
+      "keywords": "peer-reviewed, peer-reviewed, peer-reviewed, peer-reviewed",
       "github": "https://github.com/ropenscilabs/convertr",
       "status": "concept",
       "onboarding": "",
@@ -229,7 +231,7 @@
       "description": "International Cricket Data",
       "details": "Data on all international cricket matches is provided by ESPNCricinfo.\n  This package provides some scraper functions to download the data\n  into tibbles ready for analysis. Some innings-level data sourced from Howzstat\n  is also included in the package.",
       "maintainer": "Rob Hyndman",
-      "keywords": "cricket, cricket, cricket, cricket-data, cricket-data, cricket-data, ozunconf17, ozunconf17, ozunconf17, unconf, unconf, unconf",
+      "keywords": "cricket, cricket, cricket, cricket, cricket-data, cricket-data, cricket-data, cricket-data, ozunconf17, ozunconf17, ozunconf17, ozunconf17, unconf, unconf, unconf, unconf",
       "github": "https://github.com/ropenscilabs/cricketdata",
       "status": "concept",
       "onboarding": "",
@@ -271,7 +273,7 @@
       "description": "Create lightweight schema.org descriptions of dataset",
       "details": "The goal of dataspice is to make it easier for researchers to create basic, \n   lightweight and concise metadata files for their datasets. These basic files can \n   then be used to make useful information available during analysis, create a helpful \n   dataset README webpage and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on schema.org and other metadata standards..",
       "maintainer": "First Last",
-      "keywords": "data, data, data, dataset, dataset, dataset, metadata, metadata, metadata, schema-org, schema-org, schema-org, unconf, unconf, unconf, unconf18, unconf18, unconf18",
+      "keywords": "data, data, data, data, dataset, dataset, dataset, dataset, metadata, metadata, metadata, metadata, schema-org, schema-org, schema-org, schema-org, unconf, unconf, unconf, unconf, unconf18, unconf18, unconf18, unconf18",
       "github": "https://github.com/ropenscilabs/dataspice",
       "status": "concept",
       "onboarding": "",
@@ -299,7 +301,7 @@
       "description": "Headless 'Chrome' Orchestration",
       "details": "The 'Chrome' browser <https://www.google.com/chrome/> has a headless mode\n    which can be instrumented programmatically. Tools are provided to perform headless\n    'Chrome' instrumentation on the command-line and will eventually provide support\n    for the 'DevTools' instrumentation 'API' or the forthcoming 'phantomjs'-like higher-level\n    'API' being promised by the development team.",
       "maintainer": "Bob Rudis",
-      "keywords": "unconf, unconf, unconf, unconf17, unconf17, unconf17",
+      "keywords": "unconf, unconf, unconf, unconf, unconf17, unconf17, unconf17, unconf17",
       "github": "https://github.com/ropenscilabs/decapitated",
       "status": "concept",
       "onboarding": "",
@@ -327,7 +329,7 @@
       "description": "Extracts Metadata from Directory and File Names",
       "details": "Extract metadata from directory and file names based on a template into data frame.",
       "maintainer": "Henrik Bengtsson",
-      "keywords": "files, files, files, metadata, metadata, metadata, package, package, package, unconf, unconf, unconf, unconf16, unconf16, unconf16",
+      "keywords": "files, files, files, files, metadata, metadata, metadata, metadata, package, package, package, package, unconf, unconf, unconf, unconf, unconf16, unconf16, unconf16, unconf16",
       "github": "https://github.com/ropenscilabs/dirdf",
       "status": "active",
       "onboarding": "",
@@ -355,7 +357,7 @@
       "description": "Exploring Election and Census Highly Informative Data Nationally for\n    Australia",
       "details": "Data from the seven Australian Federal Elections (House of\n    Representatives) between 2001 and 2019, and from the four Australian\n    Censuses over the same period. Includes tools for visualizing and\n    analysing the data, as well as imputing Census data for years in\n    which a Census does not occur. This package incorporates\n    data that is copyright Commonwealth of Australia (Australian\n    Electoral Commission and Australian Bureau of Statistics) 2019.",
       "maintainer": "Jeremy Forbes",
-      "keywords": "australia, australia, australia, auunconf, auunconf, auunconf, census-data, census-data, census-data, election, election, election, unconf, unconf, unconf",
+      "keywords": "australia, australia, australia, australia, auunconf, auunconf, auunconf, auunconf, census-data, census-data, census-data, census-data, election, election, election, election, unconf, unconf, unconf, unconf",
       "github": "https://github.com/ropenscilabs/eechidna",
       "status": "concept",
       "onboarding": "",
@@ -369,7 +371,7 @@
       "description": "Create beautiful visualizations of an EML document",
       "details": "EML (Ecological Metadata Language) is a standard for writing\n    metadata, designed for ecological data. This package takes a EML document and\n    creates a .html website that describes it.",
       "maintainer": "First Last",
-      "keywords": "eml, eml, eml, eml-metadata, eml-metadata, eml-metadata",
+      "keywords": "eml, eml, eml, eml, eml-metadata, eml-metadata, eml-metadata, eml-metadata",
       "github": "https://github.com/ropenscilabs/emldown",
       "status": "concept",
       "onboarding": "",
@@ -383,7 +385,7 @@
       "description": "Feature Flags",
       "details": "Feature flags.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "feature-flags, feature-flags, feature-flags",
+      "keywords": "feature-flags, feature-flags, feature-flags, feature-flags",
       "github": "https://github.com/ropenscilabs/feetures",
       "status": "wip",
       "onboarding": "",
@@ -1571,7 +1573,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/124"
+          [
+            "https://github.com/ropensci/onboarding/issues/124"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1728,7 +1732,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/72"
+          [
+            "https://github.com/ropensci/onboarding/issues/72"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1774,7 +1780,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/284"
+          [
+            "https://github.com/ropensci/onboarding/issues/284"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1887,7 +1895,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/102"
+          [
+            "https://github.com/ropensci/onboarding/issues/102"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1933,7 +1943,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/243"
+          [
+            "https://github.com/ropensci/onboarding/issues/243"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1951,7 +1963,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/141"
+          [
+            "https://github.com/ropensci/onboarding/issues/141"
+          ]
         ]
       ],
       "on_cran": true,
@@ -1982,7 +1996,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/149"
+          [
+            "https://github.com/ropensci/onboarding/issues/149"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2042,7 +2058,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/114"
+          [
+            "https://github.com/ropensci/onboarding/issues/114"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2115,7 +2133,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/61"
+          [
+            "https://github.com/ropensci/onboarding/issues/61"
+          ]
         ]
       ],
       "on_cran": false,
@@ -2133,7 +2153,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/35"
+          [
+            "https://github.com/ropensci/onboarding/issues/35"
+          ]
         ]
       ],
       "on_cran": false,
@@ -2151,7 +2173,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/34"
+          [
+            "https://github.com/ropensci/onboarding/issues/34"
+          ]
         ]
       ],
       "on_cran": false,
@@ -2265,7 +2289,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/153"
+          [
+            "https://github.com/ropensci/onboarding/issues/153"
+          ]
         ]
       ],
       "on_cran": false,
@@ -2311,7 +2337,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/29"
+          [
+            "https://github.com/ropensci/onboarding/issues/29"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2357,7 +2385,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/13"
+          [
+            "https://github.com/ropensci/onboarding/issues/13"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2389,7 +2419,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/168"
+          [
+            "https://github.com/ropensci/onboarding/issues/168"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2547,7 +2579,9 @@
       "status": "inactive",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/43"
+          [
+            "https://github.com/ropensci/onboarding/issues/43"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2661,7 +2695,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/127"
+          [
+            "https://github.com/ropensci/onboarding/issues/127"
+          ]
         ]
       ],
       "on_cran": true,
@@ -2720,7 +2756,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/55"
+          [
+            "https://github.com/ropensci/onboarding/issues/55"
+          ]
         ]
       ],
       "on_cran": false,
@@ -2779,7 +2817,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/73"
+          [
+            "https://github.com/ropensci/onboarding/issues/73"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3019,7 +3059,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/189"
+          [
+            "https://github.com/ropensci/onboarding/issues/189"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3078,7 +3120,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/95"
+          [
+            "https://github.com/ropensci/onboarding/issues/95"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3178,7 +3222,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/184"
+          [
+            "https://github.com/ropensci/onboarding/issues/184"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3361,7 +3407,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/190"
+          [
+            "https://github.com/ropensci/onboarding/issues/190"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3379,7 +3427,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/19"
+          [
+            "https://github.com/ropensci/onboarding/issues/19"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3411,7 +3461,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/36"
+          [
+            "https://github.com/ropensci/onboarding/issues/36"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3526,7 +3578,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/213"
+          [
+            "https://github.com/ropensci/onboarding/issues/213"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3572,7 +3626,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/112"
+          [
+            "https://github.com/ropensci/onboarding/issues/112"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3673,7 +3729,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/60"
+          [
+            "https://github.com/ropensci/onboarding/issues/60"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3746,7 +3804,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/176"
+          [
+            "https://github.com/ropensci/onboarding/issues/176"
+          ]
         ]
       ],
       "on_cran": true,
@@ -3805,7 +3865,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/192"
+          [
+            "https://github.com/ropensci/onboarding/issues/192"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4003,7 +4065,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/68"
+          [
+            "https://github.com/ropensci/onboarding/issues/68"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4118,7 +4182,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/78"
+          [
+            "https://github.com/ropensci/onboarding/issues/78"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4413,7 +4479,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/22"
+          [
+            "https://github.com/ropensci/onboarding/issues/22"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4515,7 +4583,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/25"
+          [
+            "https://github.com/ropensci/onboarding/issues/25"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4547,7 +4617,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/24"
+          [
+            "https://github.com/ropensci/onboarding/issues/24"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4606,7 +4678,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/145"
+          [
+            "https://github.com/ropensci/onboarding/issues/145"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4651,7 +4725,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/207"
+          [
+            "https://github.com/ropensci/onboarding/issues/207"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4683,7 +4759,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/6"
+          [
+            "https://github.com/ropensci/onboarding/issues/6"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4714,7 +4792,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/118"
+          [
+            "https://github.com/ropensci/onboarding/issues/118"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4732,7 +4812,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/118"
+          [
+            "https://github.com/ropensci/onboarding/issues/118"
+          ]
         ]
       ],
       "on_cran": false,
@@ -4778,7 +4860,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/191"
+          [
+            "https://github.com/ropensci/onboarding/issues/191"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4796,7 +4880,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/126"
+          [
+            "https://github.com/ropensci/onboarding/issues/126"
+          ]
         ]
       ],
       "on_cran": true,
@@ -4911,7 +4997,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/214"
+          [
+            "https://github.com/ropensci/onboarding/issues/214"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5052,7 +5140,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/10"
+          [
+            "https://github.com/ropensci/onboarding/issues/10"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5070,7 +5160,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/195"
+          [
+            "https://github.com/ropensci/onboarding/issues/195"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5088,7 +5180,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/42"
+          [
+            "https://github.com/ropensci/onboarding/issues/42"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5189,7 +5283,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/20"
+          [
+            "https://github.com/ropensci/onboarding/issues/20"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5207,7 +5303,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/152"
+          [
+            "https://github.com/ropensci/onboarding/issues/152"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5278,7 +5376,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/33"
+          [
+            "https://github.com/ropensci/onboarding/issues/33"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5445,7 +5545,9 @@
       "status": "active",
       "onboarding": [
         [
-          "https://github.com/ropensci/onboarding/issues/87"
+          [
+            "https://github.com/ropensci/onboarding/issues/87"
+          ]
         ]
       ],
       "on_cran": true,
@@ -5620,5 +5722,5 @@
       "ropensci_category": "data-tools"
     }
   ],
-  "date": "2019-12-03 21:44 UTC"
+  "date": "2019-12-04 21:45 UTC"
 }
