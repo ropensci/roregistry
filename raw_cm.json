@@ -10809,7 +10809,10 @@
     "readme": "https://github.com/ropenscilabs/riodata/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "roblog",
     "description": "It provides templates for roweb2 blogging and help for a GitHub forking workflow.",
@@ -11067,7 +11070,11 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/roblog",
     "readme": "https://github.com/ropenscilabs/roblog/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -26198,7 +26205,10 @@
     "description": "Encryption wrappers, using low-level support from\n    'sodium' and 'openssl'.  'cyphr' tries to smooth over some pain\n    points when using encryption within applications and data analysis\n    by wrapping around differences in function names and arguments in\n    different encryption providing packages.  It also provides\n    high-level wrappers for input/output functions for seamlessly\n    adding encryption to existing analyses.",
     "name": "cyphr: High Level Encryption Wrappers",
     "codeRepository": "https://github.com/ropensci/cyphr",
-    "relatedLink": ["https://ropensci.github.io/cyphr", "https://docs.ropensci.org/cyphr"],
+    "relatedLink": [
+      "https://ropensci.github.io/cyphr",
+      "https://docs.ropensci.org/cyphr"
+    ],
     "issueTracker": "https://github.com/ropensci/cyphr/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.0.1",
@@ -36561,7 +36571,10 @@
     "description": "Provides API wrappers for popular public GTFS feed sharing sites, reads feed data into a gtfs data object, validates data quality, provides convenience functions for common tasks.",
     "name": "gtfsr: Working with GTFS (General Transit Feed Specification) feeds in R",
     "codeRepository": "https://github.com/ropensci/gtfsr",
-    "relatedLink": ["http://ropensci.github.io/gtfsr", "http://docs.ropensci.org/gtfsr"],
+    "relatedLink": [
+      "http://ropensci.github.io/gtfsr",
+      "http://docs.ropensci.org/gtfsr"
+    ],
     "issueTracker": "https://github.com/ropensci/gtfsr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.0.3",
@@ -42301,7 +42314,10 @@
       "https://codecov.io/github/ropensci/magick?branch=master"
     ],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "relatedLink": ["https://CRAN.R-project.org/package=magick", "https://docs.ropensci.org/magick"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=magick",
+      "https://docs.ropensci.org/magick"
+    ],
     "keywords": [
       "magick",
       "imagemagick-wrapper",
@@ -79023,7 +79039,11 @@
       "provider": "http://ropensci.org"
     },
     "readme": "https://github.com/ropensci/treestartr/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -80591,7 +80611,10 @@
     "description": "wateRinfo facilitates access to waterinfo.be \n    (<https://www.waterinfo.be>), a website managed by the Flanders Environment \n    Agency (VMM) and Flanders Hydraulics Research. The website provides access \n    to real-time water and weather related environmental variables for Flanders \n    (Belgium), such as rainfall, air pressure, discharge, and water level. The \n    package provides functions to search for stations and variables, and \n    download time series.",
     "name": "wateRinfo: Download Time Series Data from Waterinfo.be",
     "codeRepository": "https://github.com/ropensci/wateRinfo",
-    "relatedLink": ["https://ropensci.github.io/wateRinfo", "https://docs.ropensci.org/wateRinfo"],
+    "relatedLink": [
+      "https://ropensci.github.io/wateRinfo",
+      "https://docs.ropensci.org/wateRinfo"
+    ],
     "issueTracker": "https://github.com/ropensci/wateRinfo/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.3.0.9065",
