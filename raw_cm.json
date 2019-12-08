@@ -4846,116 +4846,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "flipper",
-    "description": "Flipping great way to discover R package",
-    "name": "flipper: Flipping great way to discover R packages",
-    "codeRepository": "https://github.com/ropenscilabs/flipper",
-    "issueTracker": "https://github.com/ropenscilabs/flipper/issues",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.9000",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.1",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Mark",
-        "familyName": "Padgham",
-        "email": "mark.padgham@email.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Nick",
-        "familyName": "Tierney"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Mark",
-        "familyName": "Padgham",
-        "email": "mark.padgham@email.com"
-      }
-    ],
-    "softwareSuggestions": [],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.4.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "memoise",
-        "name": "memoise",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=memoise"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "quanteda",
-        "name": "quanteda",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=quanteda"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
-      }
-    ],
-    "readme": "https://github.com/ropenscilabs/flipper/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropenscilabs/flipper",
-    "developmentStatus": "http://www.repostatus.org/#concept",
-    "keywords": [
-      "r",
-      "r-package",
-      "rstats"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "ftp",
     "description": "Tools to work with any File Transfer Protocol \n    (FTP) server.",
     "name": "ftp: File Transfer Protocol (FTP) client for R",
@@ -5215,7 +5105,8 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md"
   },
   {
     "@context": [
