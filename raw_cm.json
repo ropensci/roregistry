@@ -2039,7 +2039,7 @@
     "codeRepository": "https://github.com/ropenscilabs/citecorp",
     "issueTracker": "https://github.com/ropenscilabs/citecorp/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9100",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2149,9 +2149,9 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["doi", "metadata", "citation", "opencitations", "bibtex", "citations", "pmid", "pmcid", "sparql", "r", "r-package", "rstats"],
     "readme": "https://github.com/ropenscilabs/citecorp/blob/master/README.md",
-    "fileSize": "11.114KB",
+    "fileSize": "14.195KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/citecorp",
-    "developmentStatus": "https://www.repostatus.org/#wip",
+    "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropenscilabs/citecorp/blob/master/NEWS.md",
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -16527,7 +16527,10 @@
       "rstats",
       "r-package"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=aRxiv", "https://docs.ropensci.org/aRxiv"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=aRxiv",
+      "https://docs.ropensci.org/aRxiv"
+    ]
   },
   {
     "@context": [
@@ -18315,7 +18318,10 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=bib2df", "https://docs.ropensci.org/bib2df"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=bib2df",
+      "https://docs.ropensci.org/bib2df"
+    ]
   },
   {
     "@context": [
@@ -18845,173 +18851,10 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=binman", "https://docs.ropensci.org/binman"]
-  },
-  {
-    "@context": [
-      "https://doi.org/doi:10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "binomen",
-    "description": "Includes functions for working with taxonomic data,\n    including functions for combining, separating, and filtering\n    taxonomic groups by any rank or name. Allows standard ('SE')\n    and non-standard evaluation ('NSE').",
-    "name": "binomen: 'Taxonomic' Specification and Parsing Methods",
-    "issueTracker": "https://github.com/ropensci/binomen/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.9100",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.1",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Central R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "taxize",
-        "name": "taxize",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=taxize"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      }
-    ],
-    "codeRepository": "https://github.com/ropensci/binomen",
-    "applicationCategory": "Taxonomy",
-    "isPartOf": "https://ropensci.org",
-    "keywords": ["taoxnomy", "taxonomic", "tidy", "parsing", "biology", "names"],
-    "contIntegration": "https://travis-ci.org/ropensci/binomen",
-    "releaseNotes": "https://github.com/ropensci/binomen/blob/master/NEWS.md",
-    "fileSize": "21.643KB",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "developmentStatus": "https://www.repostatus.org/#moved"
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=binman",
+      "https://docs.ropensci.org/binman"
+    ]
   },
   {
     "@context": [
@@ -21987,7 +21830,10 @@
         }
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=cde", "https://docs.ropensci.org/cde"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=cde",
+      "https://docs.ropensci.org/cde"
+    ]
   },
   {
     "@context": [
@@ -24736,7 +24582,10 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=comtradr", "https://docs.ropensci.org/comtradr"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=comtradr",
+      "https://docs.ropensci.org/comtradr"
+    ]
   },
   {
     "@context": [
@@ -25488,7 +25337,10 @@
         }
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=cRegulome", "https://docs.ropensci.org/cRegulome"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=cRegulome",
+      "https://docs.ropensci.org/cRegulome"
+    ]
   },
   {
     "@context": [
@@ -26488,7 +26340,10 @@
         "sameAs": "https://doi.org/10.5063/F1QV3JGM"
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=datapack", "https://docs.ropensci.org/datapack"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=datapack",
+      "https://docs.ropensci.org/datapack"
+    ]
   },
   {
     "@context": [
@@ -30823,7 +30678,10 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=ezknitr", "https://docs.ropensci.org/ezknitr"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=ezknitr",
+      "https://docs.ropensci.org/ezknitr"
+    ]
   },
   {
     "@context": [
@@ -31381,7 +31239,10 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=FedData", "https://docs.ropensci.org/FedData"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=FedData",
+      "https://docs.ropensci.org/FedData"
+    ]
   },
   {
     "@context": [
@@ -31563,7 +31424,8 @@
     "fileSize": "251.447KB",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/finch"
   },
   {
     "@context": [
@@ -32396,7 +32258,7 @@
         "description": "R package version "
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=gender"
+    "relatedLink": ["https://CRAN.R-project.org/package=gender", "https://docs.ropensci.org/gender"]
   },
   {
     "@context": [
@@ -32480,7 +32342,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/genderdata"
   },
   {
     "@context": [
@@ -32603,6 +32466,7 @@
       "spatial",
       "rstats"
     ],
+    "relatedLink": "https://docs.ropensci.org/geoaxe",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -32831,6 +32695,7 @@
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geojson", "geospatial", "conversion", "data", "input-output", "bbox", "polygon", "geobuf"],
+    "relatedLink": "https://docs.ropensci.org/geojson",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -33308,6 +33173,7 @@
     "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema"],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
+    "relatedLink": "https://docs.ropensci.org/geojsonlint",
     "contributor": {},
     "funder": {}
   },
@@ -33512,6 +33378,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/geoops",
     "releaseNotes": "https://github.com/ropensci/geoops/blob/master/NEWS.md",
     "fileSize": "847.857KB",
+    "relatedLink": "https://docs.ropensci.org/geoops",
     "contributor": {},
     "funder": {},
     "applicationCategory": "Geospatial",
@@ -34214,6 +34081,7 @@
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["landsat", "nasa", "aws", "image", "imaging", "usgs", "earth"],
+    "relatedLink": "https://docs.ropensci.org/getlandsat",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -34339,7 +34207,8 @@
       "r",
       "graphql-api",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/ghql"
   },
   {
     "@context": [
@@ -35103,13 +34972,13 @@
       "https://travis-ci.org/PMassicotte/gitignore"
     ],
     "releaseNotes": "https://github.com/ropensci/gitignore/blob/master/NEWS.md",
+    "relatedLink": ["https://docs.ropensci.org/gitignore", "https://CRAN.R-project.org/package=gitignore"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
-    },
-    "relatedLink": "https://CRAN.R-project.org/package=gitignore"
+    }
   },
   {
     "@context": [
@@ -35689,7 +35558,7 @@
       "https://codecov.io/gh/laurajanegraham/grainchanger?branch=master"
     ],
     "developmentStatus": "https://www.repostatus.org/#active",
-    "relatedLink": "https://CRAN.R-project.org/package=grainchanger"
+    "relatedLink": ["https://CRAN.R-project.org/package=grainchanger", "https://docs.ropensci.org/grainchanger"]
   },
   {
     "@context": [
@@ -36970,7 +36839,8 @@
       "https://ci.appveyor.com/project/sckott/handlr",
       "https://codecov.io/github/ropensci/handlr?branch=master"
     ],
-    "developmentStatus": "https://www.repostatus.org/#wip"
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "relatedLink": "https://docs.ropensci.org/handlr"
   },
   {
     "@context": [
@@ -37050,6 +36920,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/hathi",
     "fileSize": "5.357KB",
+    "relatedLink": "https://docs.ropensci.org/hathi",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -37629,7 +37500,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/historydata"
   },
   {
     "@context": [
@@ -37771,6 +37643,7 @@
     "keywords": ["caching", "data", "files", "xml", "pdf"],
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
+    "relatedLink": "https://docs.ropensci.org/hoardr",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -39616,7 +39489,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/internetarchive"
   },
   {
     "@context": [
@@ -39748,6 +39622,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["climate", "NOAA", "data", "ISD", "stations"],
     "developmentStatus": "http://www.repostatus.org/#active",
+    "relatedLink": "https://docs.ropensci.org/isdparser",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -39909,7 +39784,8 @@
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "metadata"],
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "http://www.repostatus.org/#active",
+    "relatedLink": "https://docs.ropensci.org/jaod"
   },
   {
     "@context": [
@@ -40154,6 +40030,7 @@
       "r",
       "r-package"
     ],
+    "relatedLink": "https://docs.ropensci.org/jqr",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -41166,6 +41043,7 @@
       "turf",
       "turfjs"
     ],
+    "relatedLink": "https://docs.ropensci.org/lawn",
     "contributor": {},
     "funder": {}
   },
@@ -41185,7 +41063,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lightr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.1",
+    "version": "0.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41746,7 +41624,8 @@
       "rstats",
       "r",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/lq"
   },
   {
     "@context": [
@@ -42280,6 +42159,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/mapr",
     "releaseNotes": "https://github.com/ropensci/mapr/blob/master/NEWS.md",
     "fileSize": "508.612KB",
+    "relatedLink": "https://docs.ropensci.org/mapr",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -42470,6 +42350,7 @@
         }
       }
     ],
+    "relatedLink": "https://docs.ropensci.org/mauricer",
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -43919,6 +43800,7 @@
       "provider": "http://ropensci.org"
     },
     "keywords": "rstats",
+    "relatedLink": "https://docs.ropensci.org/mregions",
     "copyrightHolder": {},
     "funder": {}
   },
@@ -44206,6 +44088,7 @@
       "https://codecov.io/gh/ropensci/MtreeRing"
     ],
     "releaseNotes": "https://github.com/ropensci/MtreeRing/blob/master/NEWS.md",
+    "relatedLink": "https://docs.ropensci.org/MtreeRing",
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -44354,6 +44237,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/musemeta",
     "releaseNotes": "https://github.com/ropensci/musemeta/blob/master/NEWS",
     "fileSize": "25.317KB",
+    "relatedLink": "https://docs.ropensci.org/musemeta",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -44452,7 +44336,8 @@
       "mutation-testing",
       "r",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/mutant"
   },
   {
     "@context": [
@@ -44960,6 +44845,7 @@
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
     "keywords": ["taxonomy", "species", "API", "web-services", "NatureServe", "metadata", "maps"],
+    "relatedLink": "https://docs.ropensci.org/natserv",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -45448,7 +45334,8 @@
           }
         }
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/neotoma"
   },
   {
     "@context": [
@@ -46437,7 +46324,8 @@
     },
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/nodbi"
   },
   {
     "@context": [
@@ -46923,7 +46811,8 @@
       "r",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/oai"
   },
   {
     "@context": [
@@ -47538,7 +47427,8 @@
           }
         }
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/onekp"
   },
   {
     "@context": [
@@ -48322,6 +48212,7 @@
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
     "keywords": ["species", "native", "invasive", "origin", "web", "API", "eol", "gisd", "nsr", "itis", "griis"],
+    "relatedLink": "https://docs.ropensci.org/originr",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -49044,7 +48935,7 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=osmplotr",
+    "relatedLink": ["https://CRAN.R-project.org/package=osmplotr", "https://docs.ropensci.org/osmplotr"],
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
@@ -49166,6 +49057,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/ots",
     "releaseNotes": "https://github.com/ropensci/ots/blob/master/NEWS.md",
     "fileSize": "16.169KB",
+    "relatedLink": "https://docs.ropensci.org/ots",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -49408,7 +49300,7 @@
         "description": "v1.0.1"
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=outcomerate"
+    "relatedLink": ["https://CRAN.R-project.org/package=outcomerate", "https://docs.ropensci.org/outcomerate"]
   },
   {
     "@context": [
@@ -49588,7 +49480,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/paleobioDB"
   },
   {
     "@context": [
@@ -49794,7 +49687,8 @@
     "funder": {},
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["Pangaea", "environmentalscience", "earthscience", "archive", "paleontology", "ecology", "chemistry", "atmosphere"]
+    "keywords": ["Pangaea", "environmentalscience", "earthscience", "archive", "paleontology", "ecology", "chemistry", "atmosphere"],
+    "relatedLink": "https://docs.ropensci.org/pangaear"
   },
   {
     "@context": [
@@ -50549,7 +50443,8 @@
     },
     "contributor": {},
     "funder": {},
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "relatedLink": "https://docs.ropensci.org/phylocomr"
   },
   {
     "@context": [
@@ -51276,7 +51171,7 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": "https://CRAN.R-project.org/package=piggyback",
+    "relatedLink": ["https://CRAN.R-project.org/package=piggyback", "https://docs.ropensci.org/piggyback"],
     "funder": {}
   },
   {
@@ -51430,7 +51325,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=plater"
+    "relatedLink": ["https://CRAN.R-project.org/package=plater", "https://docs.ropensci.org/plater"]
   },
   {
     "@context": [
@@ -51621,6 +51516,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/pleiades",
     "releaseNotes": "https://github.com/ropensci/pleiades/blob/master/NEWS.md",
     "fileSize": "619.793KB",
+    "relatedLink": "https://docs.ropensci.org/pleiades",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -53543,6 +53439,7 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
+    "relatedLink": "https://docs.ropensci.org/pubchunks",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -54154,7 +54051,7 @@
       "rstats",
       "r-package"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=rAltmetric"
+    "relatedLink": ["https://CRAN.R-project.org/package=rAltmetric", "https://docs.ropensci.org/rAltmetric"]
   },
   {
     "@context": [
@@ -54465,14 +54362,14 @@
     ],
     "releaseNotes": "https://github.com/ropensci/ramlegacy/blob/master/NEWS.md",
     "fileSize": "356.668KB",
+    "relatedLink": ["https://docs.ropensci.org/ramlegacy", "https://CRAN.R-project.org/package=ramlegacy"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "funder": {},
-    "relatedLink": "https://CRAN.R-project.org/package=ramlegacy"
+    "funder": {}
   },
   {
     "@context": [
@@ -54576,6 +54473,7 @@
       "wkt",
       "rstats"
     ],
+    "relatedLink": "https://docs.ropensci.org/randgeo",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -54788,7 +54686,8 @@
       "birds",
       "proyectoavis",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rAvis"
   },
   {
     "@context": [
@@ -54908,6 +54807,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rbace",
     "developmentStatus": "wip",
     "fileSize": "7.263KB",
+    "relatedLink": "https://docs.ropensci.org/rbace",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -55063,6 +54963,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rbhl",
     "releaseNotes": "https://github.com/ropensci/rbhl/blob/master/NEWS.md",
     "fileSize": "481.094KB",
+    "relatedLink": "https://docs.ropensci.org/rbhl",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -55290,7 +55191,8 @@
     "fileSize": "958.967KB",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/rbison"
   },
   {
     "@context": [
@@ -55411,6 +55313,7 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
+    "relatedLink": "https://docs.ropensci.org/rbraries",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -55846,6 +55749,7 @@
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/rcoreoa/blob/master/NEWS.md",
     "fileSize": "19.218KB",
+    "relatedLink": "https://docs.ropensci.org/rcoreoa",
     "copyrightHolder": {},
     "funder": {}
   },
@@ -56127,7 +56031,8 @@
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "Crossref"],
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/rcrossref"
   },
   {
     "@context": [
@@ -56285,7 +56190,8 @@
     "developmentStatus": "http://www.repostatus.org/#active",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/rdatacite"
   },
   {
     "@context": [
@@ -56812,7 +56718,8 @@
           }
         }
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rdefra"
   },
   {
     "@context": [
@@ -57859,6 +57766,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rdpla",
     "releaseNotes": "https://github.com/ropensci/rdpla/blob/master/NEWS.md",
     "fileSize": "369.137KB",
+    "relatedLink": "https://docs.ropensci.org/rdpla",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -58044,6 +57952,7 @@
       "rstats",
       "r-package"
     ],
+    "relatedLink": "https://docs.ropensci.org/rdryad",
     "copyrightHolder": {},
     "funder": {}
   },
@@ -58342,7 +58251,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/reeack"
   },
   {
     "@context": [
@@ -58542,7 +58452,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/refimpact"
   },
   {
     "@context": ["https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld", "http://schema.org"],
@@ -59263,7 +59174,8 @@
     "copyrightHolder": {},
     "funder": {},
     "applicationCategory": "Climate",
-    "isPartOf": "https://ropensci.org"
+    "isPartOf": "https://ropensci.org",
+    "relatedLink": "https://docs.ropensci.org/rerddap"
   },
   {
     "@context": [
@@ -59657,6 +59569,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/reuropeana",
     "fileSize": "8.662KB",
+    "relatedLink": "https://docs.ropensci.org/reuropeana",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -59877,6 +59790,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rfigshare",
     "releaseNotes": "https://github.com/ropensci/rfigshare/blob/master/NEWS",
     "fileSize": "828.327KB",
+    "relatedLink": "https://docs.ropensci.org/rfigshare",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -60228,7 +60142,7 @@
       "taxonomy",
       "fish"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=rfishbase",
+    "relatedLink": ["https://CRAN.R-project.org/package=rfishbase", "https://docs.ropensci.org/rfishbase"],
     "contributor": [
       {
         "@type": "Person",
@@ -60494,6 +60408,7 @@
       }
     ],
     "fileSize": "5.009KB",
+    "relatedLink": "https://docs.ropensci.org/rflybase",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -60601,6 +60516,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/floras",
     "fileSize": "6.357KB",
+    "relatedLink": "https://docs.ropensci.org/rfna",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -61210,7 +61126,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rglobi"
   },
   {
     "@context": [
@@ -72680,7 +72597,10 @@
       "rstats",
       "r-package"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=ssh", "https://docs.ropensci.org/ssh"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=ssh",
+      "https://docs.ropensci.org/ssh"
+    ]
   },
   {
     "@context": [
