@@ -47861,13 +47861,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "opentripplanner",
-    "description": "An R interface for OpenTripPlanner <http://www.opentripplanner.org/>.\n    OpenTripPlanner (OTP) is an open source platform for multi-modal and multi-agency\n    journey planning written in Java. OTP provides a REST API which OpenTripPlanner\n    for R uses to connect to OTP.\n This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
-    "name": "opentripplanner: OpenTripPlanner for R",
+    "description": "Setup and connect to OpenTripPlanner (OTP) <http://www.opentripplanner.org/>.\n    OTP is an open source platform for multi-modal and multi-agency\n    journey planning written in Java. The package allows you to manage a local version or \n    connect to remote OTP server e.g. <https://api.digitransit.fi:443/routing/v1/routers/hsl>.\n    This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
+    "name": "opentripplanner: Setup and connect to OpenTripPlanner",
     "codeRepository": "https://github.com/ropensci/opentripplanner",
     "relatedLink": "https://docs.ropensci.org/opentripplanner/",
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
-    "license": "file LICENSE",
-    "version": "0.2.0.2",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.2.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -48084,7 +48084,46 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/295",
       "provider": "http://ropensci.org"
-    }
+    },
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2019",
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Malcolm Morgan"
+          },
+          {
+            "@type": "Organization",
+            "name": "Marcus Young"
+          },
+          {
+            "@type": "Organization",
+            "name": "Robin Lovelace"
+          },
+          {
+            "@type": "Organization",
+            "name": "Layik Hama"
+          }
+        ],
+        "name": "OpenTripPlanner for R",
+        "identifier": "10.21105/joss.01926",
+        "paginiation": "1926",
+        "@id": "https://doi.org/10.21105/joss.01926",
+        "sameAs": "https://doi.org/10.21105/joss.01926",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "44",
+          "datePublished": "2019",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "4",
+            "name": "Journal of Open Source Software"
+          }
+        }
+      }
+    ]
   },
   {
     "@context": [
