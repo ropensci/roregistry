@@ -2149,7 +2149,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["doi", "metadata", "citation", "opencitations", "bibtex", "citations", "pmid", "pmcid", "sparql", "r", "r-package", "rstats"],
     "readme": "https://github.com/ropenscilabs/citecorp/blob/master/README.md",
-    "fileSize": "14.195KB",
+    "fileSize": "14.258KB",
     "contIntegration": "https://travis-ci.com/ropenscilabs/citecorp",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropenscilabs/citecorp/blob/master/NEWS.md",
@@ -23200,7 +23200,8 @@
     "codeRepository": "https://github.com/ropensci/cleanEHR",
     "relatedLink": [
       "http://www.hic.nihr.ac.uk",
-      "https://CRAN.R-project.org/package=cleanEHR"
+      "https://CRAN.R-project.org/package=cleanEHR",
+      "https://docs.ropensci.org/cleanEHR"
     ],
     "issueTracker": "https://github.com/ropensci/cleanEHR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -27090,7 +27091,8 @@
     "relatedLink": [
       "http://neuro.uni.kn/DoOR",
       "http://dx.doi.org/10.1038/srep21841",
-      "http://dx.doi.org/10.1093/chemse/bjq042"
+      "http://dx.doi.org/10.1093/chemse/bjq042",
+      "https://docs.ropensci.org/DoOR.data"
     ],
     "issueTracker": "https://github.com/ropensci/DoOR.data/issues",
     "license": "https://spdx.org/licenses/CC-BY-SA-4.0",
@@ -27202,7 +27204,8 @@
     "relatedLink": [
       "http://neuro.uni.kn/DoOR",
       "http://dx.doi.org/10.1038/srep21841",
-      "http://dx.doi.org/10.1093/chemse/bjq042"
+      "http://dx.doi.org/10.1093/chemse/bjq042",
+      "https://docs.ropensci.org/DoOR.functions"
     ],
     "issueTracker": "https://github.com/ropensci/DoOR.functions/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -28813,6 +28816,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/elasticdsl",
     "fileSize": "20.881KB",
+    "relatedLink": "https://docs.ropensci.org/elasticdsl",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -29439,7 +29443,7 @@
     "description": "This script comprises the functions that are used to clean up endoscopic \n             reports and pathology reports as well as many of the scripts used for analysis.  \n             The scripts assume the endoscopy and histopathology data set is merged already but it can \n             also be used of course with the unmerged datasets.",
     "name": "EndoMineR: Functions to mine endoscopic and associated pathology datasets",
     "codeRepository": "https://github.com/ropensci/EndoMineR",
-    "relatedLink": "https://sebastiz.github.io/EndoMineR/index.html",
+    "relatedLink": ["https://sebastiz.github.io/EndoMineR/index.html", "https://docs.ropensci.org/EndoMineR"],
     "issueTracker": "https://github.com/ropensci/EndoMineR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "2.0.1.9000",
@@ -30538,7 +30542,8 @@
       "scientific-literature",
       "scientific-publications",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/europepmc"
   },
   {
     "@context": [
@@ -31439,7 +31444,8 @@
     "codeRepository": "https://github.com/ropensci/fingertipsR",
     "relatedLink": [
       "https://fingertips.phe.org.uk",
-      "https://CRAN.R-project.org/package=fingertipsR"
+      "https://CRAN.R-project.org/package=fingertipsR",
+      "https://docs.ropensci.org/fingertipsR"
     ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -32258,7 +32264,10 @@
         "description": "R package version "
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=gender", "https://docs.ropensci.org/gender"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=gender",
+      "https://docs.ropensci.org/gender"
+    ]
   },
   {
     "@context": [
@@ -34537,7 +34546,8 @@
     "codeRepository": "https://github.com/ropensci/git2rdata",
     "relatedLink": [
       "https://doi.org/10.5281/zenodo.1485309",
-      "https://CRAN.R-project.org/package=git2rdata"
+      "https://CRAN.R-project.org/package=git2rdata",
+      "https://docs.ropensci.org/git2rdata"
     ],
     "issueTracker": "https://github.com/ropensci/git2rdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -36668,7 +36678,7 @@
       "rstats",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=gutenbergr"
+    "relatedLink": ["https://CRAN.R-project.org/package=gutenbergr", "https://docs.ropensci.org/gutenbergr"]
   },
   {
     "@context": [
@@ -37406,7 +37416,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/helminthR"
   },
   {
     "@context": [
@@ -42526,7 +42537,7 @@
     "description": "Programmatic interface to the Oak Ridge National Laboratories\n    'MODIS Land Products Subsets' web services \n    (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy\n    downloads of 'MODIS' time series directly to your R workspace or\n    your computer.",
     "name": "MODISTools: Interface to the 'MODIS Land Products Subsets' Web Services",
     "codeRepository": "https://github.com/ropensci/MODISTools",
-    "issueTracker": "https://github.com/khufkens/MODISTools/issues",
+    "issueTracker": "https://github.com/ropensci/MODISTools/issues",
     "license": "https://spdx.org/licenses/AGPL-3.0",
     "version": "1.1.1",
     "programmingLanguage": {
@@ -42785,7 +42796,8 @@
           }
         }
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/MODISTools"
   },
   {
     "@context": [
@@ -45025,7 +45037,7 @@
       "https://travis-ci.org/naturalis/nbaR",
       "https://coveralls.io/github/naturalis/nbaR?branch=master"
     ],
-    "issueTracker": "https://github.com/naturalis/nbaR/issues/new",
+    "issueTracker": "https://github.com/ropensci/nbaR/issues/new",
     "developmentStatus": "http://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/nbaR/blob/master/NEWS.md",
     "keywords": [
@@ -45033,6 +45045,7 @@
       "biodiversity-data",
       "api-client"
     ],
+    "relatedLink": "https://docs.ropensci.org/nbaR",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -46128,7 +46141,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=nlrx"
+    "relatedLink": ["https://CRAN.R-project.org/package=nlrx", "https://docs.ropensci.org/nlrx"]
   },
   {
     "@context": [
@@ -47615,7 +47628,7 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=opencage"
+    "relatedLink": ["https://CRAN.R-project.org/package=opencage", "https://docs.ropensci.org/opencage"]
   },
   {
     "@context": [
@@ -49300,7 +49313,10 @@
         "description": "v1.0.1"
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=outcomerate", "https://docs.ropensci.org/outcomerate"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=outcomerate",
+      "https://docs.ropensci.org/outcomerate"
+    ]
   },
   {
     "@context": [
@@ -50612,7 +50628,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=phylogram",
+    "relatedLink": ["https://CRAN.R-project.org/package=phylogram", "https://docs.ropensci.org/phylogram"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -50860,7 +50876,7 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": "https://CRAN.R-project.org/package=phylotaR",
+    "relatedLink": ["https://CRAN.R-project.org/package=phylotaR", "https://docs.ropensci.org/phylotaR", "https://github.com/ropensci/phylotaR#readme"],
     "releaseNotes": "https://github.com/ropensci/phylotaR/blob/master/NEWS.md",
     "contributor": {},
     "copyrightHolder": {},
@@ -51325,7 +51341,10 @@
         }
       }
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=plater", "https://docs.ropensci.org/plater"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=plater",
+      "https://docs.ropensci.org/plater"
+    ]
   },
   {
     "@context": [
@@ -53320,7 +53339,7 @@
         "sameAs": "https://doi.org/10.5281/zenodo.33663"
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=prism"
+    "relatedLink": ["https://CRAN.R-project.org/package=prism", "https://docs.ropensci.org/prism"]
   },
   {
     "@context": [
@@ -54051,7 +54070,10 @@
       "rstats",
       "r-package"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=rAltmetric", "https://docs.ropensci.org/rAltmetric"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=rAltmetric",
+      "https://docs.ropensci.org/rAltmetric"
+    ]
   },
   {
     "@context": [
@@ -58135,6 +58157,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rebird",
     "releaseNotes": "https://github.com/ropensci/rebird/blob/master/NEWS.md",
     "fileSize": "108.698KB",
+    "relatedLink": "https://docs.ropensci.org/rebird",
     "contributor": [
       {
         "@type": "Person",
@@ -58477,6 +58500,7 @@
     "title": "RefManageR",
     "version": "1.2.13",
     "name": "RefManageR: Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
+    "relatedLink": ["https://docs.ropensci.org/RefManageR", "https://CRAN.R-project.org/package=RefManageR"],
     "issueTracker": "https://github.com/ropensci/RefManageR/issues",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
@@ -58682,8 +58706,7 @@
         "url": "https://arxiv.org/abs/1403.2036",
         "description": "arXiv: 1403.2036 [cs.DL]"
       }
-    ],
-    "relatedLink": "https://CRAN.R-project.org/package=RefManageR"
+    ]
   },
   {
     "@context": [
@@ -60287,7 +60310,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rfisheries"
   },
   {
     "@context": [
@@ -61250,7 +61274,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rgpdd"
   },
   {
     "@context": [
@@ -61622,6 +61647,7 @@
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/rif/blob/master/NEWS.md",
     "fileSize": "21.29KB",
+    "relatedLink": "https://docs.ropensci.org/rif",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -62116,6 +62142,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/rjsonapi",
     "releaseNotes": "https://github.com/ropensci/rjsonapi/blob/master/NEWS.md",
     "fileSize": "19.88KB",
+    "relatedLink": "https://docs.ropensci.org/rjsonapi",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -62132,7 +62159,8 @@
     "codeRepository": "https://github.com/ropensci/rmangal",
     "relatedLink": [
       "https://mangal.io",
-      "https://CRAN.R-project.org/package=rmangal"
+      "https://CRAN.R-project.org/package=rmangal",
+      "https://docs.ropensci.org/rmangal"
     ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -63101,7 +63129,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rnaturalearthdata"
   },
   {
     "@context": [
@@ -63195,7 +63224,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rnaturalearthhires"
   },
   {
     "@context": [
@@ -64552,7 +64582,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/roadoi"
   },
   {
     "@context": [
@@ -64805,7 +64836,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/robotstxt"
   },
   {
     "@context": [
@@ -65313,7 +65345,7 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=ropenaq"
+    "relatedLink": ["https://CRAN.R-project.org/package=ropenaq", "https://docs.ropensci.org/ropenaq"]
   },
   {
     "@context": [
@@ -65543,7 +65575,8 @@
         "@type": "Organization",
         "name": "rOpenSci"
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rorcid"
   },
   {
     "@context": [
@@ -65653,7 +65686,8 @@
         "url": "https://github.com/ropensci/rotemplate",
         "description": "R package version 0.0.0.9000"
       }
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rotemplate"
   },
   {
     "@context": [
@@ -66343,7 +66377,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rperseus"
   },
   {
     "@context": [
@@ -66839,7 +66874,7 @@
       "geometry",
       "rgl"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=Rpolyhedra",
+    "relatedLink": ["https://CRAN.R-project.org/package=Rpolyhedra", "https://docs.ropensci.org/Rpolyhedra"],
     "funder": {},
     "releaseNotes": "https://github.com/ropensci/Rpolyhedra/blob/master/NEWS.md",
     "review": {
@@ -67039,7 +67074,8 @@
       "r-package",
       "rstats",
       "peer-reviewed"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rppo"
   },
   {
     "@context": [
@@ -67194,7 +67230,8 @@
       "r",
       "r-package",
       "taxize"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rredlist"
   },
   {
     "@context": [
@@ -68016,7 +68053,8 @@
       "weather",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rrricanesdata"
   },
   {
     "@context": [
@@ -68416,6 +68454,7 @@
       "https://ci.appveyor.com/project/sckott/rsnps/branch/master",
       "https://codecov.io/github/ropensci/rsnps?branch=master"
     ],
+    "relatedLink": "https://docs.ropensci.org/rsnps",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -68654,7 +68693,8 @@
       "parse",
       "java",
       "tesseract"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/rtika"
   },
   {
     "@context": [
@@ -69711,6 +69751,7 @@
     "applicationCategory": "DataAccess",
     "isPartOf": "\"https://ropensci.org\"",
     "keywords": ["species", "occurrences", "biodiversity", "maps", "vertnet", "mammals", "mammalia", "specimens"],
+    "relatedLink": "https://docs.ropensci.org/rvertnet",
     "copyrightHolder": {},
     "funder": {},
     "developmentStatus": "http://www.repostatus.org/#active"
@@ -70237,7 +70278,8 @@
     "funder": {},
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["specimens", "occurrences", "data", "data-cleaning"]
+    "keywords": ["specimens", "occurrences", "data", "data-cleaning"],
+    "relatedLink": "https://docs.ropensci.org/scrubr"
   },
   {
     "@context": [
@@ -70892,7 +70934,7 @@
     "description": "A flexible tool that allows generating bespoke\n    air transport statistics for urban studies based on publicly available\n    data from the Bureau of Transport Statistics (BTS) in the United States\n    <https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0>.",
     "name": "skynet: Generates Networks from BTS Data",
     "codeRepository": "https://github.com/ropensci/skynet",
-    "issueTracker": "https://github.com/FilipeamTeixeira/skynet/issues",
+    "issueTracker": "https://github.com/ropensci/skynet/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.3.6",
     "programmingLanguage": {
@@ -71138,7 +71180,7 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=skynet"
+    "relatedLink": ["https://CRAN.R-project.org/package=skynet", "https://docs.ropensci.org/skynet"]
   },
   {
     "@context": [
@@ -71390,7 +71432,7 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=smapr",
+    "relatedLink": ["https://CRAN.R-project.org/package=smapr", "https://docs.ropensci.org/smapr"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/231",
@@ -71540,6 +71582,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["CouchDB", "database", "NoSQL", "documents"],
     "developmentStatus": "http://www.repostatus.org/#active",
+    "relatedLink": "https://docs.ropensci.org/sofa",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -73106,7 +73149,8 @@
       "rstats",
       "r-port",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/staypuft"
   },
   {
     "@context": [
@@ -73899,7 +73943,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=suppdata"
+    "relatedLink": ["https://CRAN.R-project.org/package=suppdata", "https://docs.ropensci.org/suppdata"]
   },
   {
     "@context": [
@@ -74285,7 +74329,8 @@
     },
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/tacmagic"
   },
   {
     "@context": [
@@ -74579,6 +74624,7 @@
         }
       }
     ],
+    "relatedLink": "https://docs.ropensci.org/taxa",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -75445,7 +75491,8 @@
       "taxize",
       "r",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/taxizedb"
   },
   {
     "@context": [
@@ -75544,6 +75591,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/taxview",
     "developmentStatus": "wip",
     "fileSize": "80.461KB",
+    "relatedLink": "https://docs.ropensci.org/taxview",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -75974,7 +76022,7 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=textreuse"
+    "relatedLink": ["https://CRAN.R-project.org/package=textreuse", "https://docs.ropensci.org/textreuse"]
   },
   {
     "@context": [
@@ -76790,6 +76838,7 @@
       }
     ],
     "fileSize": "84.221KB",
+    "relatedLink": ["https://docs.ropensci.org/tidypmc", "https://CRAN.R-project.org/package=tidypmc"],
     "issueTracker": "https://github.com/ropensci/tidypmc/issues",
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -76798,8 +76847,7 @@
       "url": "https://cran.r-project.org"
     },
     "releaseNotes": "https://github.com/ropensci/tidypmc/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/tidypmc", "https://codecov.io/github/ropensci/tidypmc?branch=master"],
-    "relatedLink": "https://CRAN.R-project.org/package=tidypmc"
+    "contIntegration": ["https://travis-ci.org/ropensci/tidypmc", "https://codecov.io/github/ropensci/tidypmc?branch=master"]
   },
   {
     "@context": [
@@ -76904,7 +76952,8 @@
       "r-package",
       "r",
       "rstats"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/tif"
   },
   {
     "@context": [
@@ -77105,7 +77154,7 @@
       "https://ci.appveyor.com/project/leonawicz/tiler",
       "https://codecov.io/gh/ropensci/tiler"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=tiler",
+    "relatedLink": ["https://CRAN.R-project.org/package=tiler", "https://docs.ropensci.org/tiler"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/226",
@@ -77648,6 +77697,7 @@
       "rstats"
     ],
     "fileSize": "862.792KB",
+    "relatedLink": ["https://docs.ropensci.org/tracerer", "https://CRAN.R-project.org/package=tracerer"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -77656,8 +77706,7 @@
     },
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {},
-    "relatedLink": "https://CRAN.R-project.org/package=tracerer"
+    "funder": {}
   },
   {
     "@context": [
@@ -78217,7 +78266,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/traits"
   },
   {
     "@context": [
@@ -78382,7 +78432,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/treebase"
   },
   {
     "@context": [
@@ -78802,7 +78853,7 @@
       "r",
       "bioinformatics"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=UCSCXenaTools",
+    "relatedLink": ["https://CRAN.R-project.org/package=UCSCXenaTools", "https://docs.ropensci.org/UCSCXenaTools"],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -79222,7 +79273,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80493,7 +80544,8 @@
       "rselenium",
       "r-package",
       "rstats"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/wdman"
   },
   {
     "@context": [
@@ -80892,7 +80944,7 @@
       "r-package",
       "peer-reviewed"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=weathercan",
+    "relatedLink": ["https://CRAN.R-project.org/package=weathercan", "https://docs.ropensci.org/weathercan"],
     "copyrightHolder": {},
     "funder": {}
   },
@@ -81147,7 +81199,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=webchem"
+    "relatedLink": ["https://CRAN.R-project.org/package=webchem", "https://docs.ropensci.org/webchem"]
   },
   {
     "@context": [
@@ -81497,6 +81549,7 @@
     "applicationCategory": "Geosptial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["spatial", "geospatial", "wkt", "wkb", "well-known-text", "geojson", "binary", "conversion"],
+    "relatedLink": "https://docs.ropensci.org/wellknown",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -81600,7 +81653,8 @@
       "geometry",
       "rstats",
       "r-package"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/wicket"
   },
   {
     "@context": [
@@ -81813,6 +81867,7 @@
     "keywords": ["taxonomy", "species", "API", "web-services", "Wikipedia", "vernacular", "Wikispecies", "Wikicommons"],
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
+    "relatedLink": "https://docs.ropensci.org/wikitaxa",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -82143,7 +82198,7 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "relatedLink": "https://taxize.dev"
+    "relatedLink": ["https://docs.ropensci.org/worrms", "https://taxize.dev"]
   },
   {
     "@context": [
@@ -82490,6 +82545,7 @@
       "url": "https://cran.r-project.org"
     },
     "developmentStatus": "http://www.repostatus.org/#active",
+    "relatedLink": "https://docs.ropensci.org/zbank",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
