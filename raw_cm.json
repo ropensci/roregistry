@@ -18868,7 +18868,7 @@
     "codeRepository": "https://github.com/ropensci/biomartr",
     "issueTracker": "https://github.com/ropensci/biomartr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.0.0.9000",
+    "version": "0.9.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18887,7 +18887,7 @@
         "@type": "Person",
         "givenName": "Hajk-Georg",
         "familyName": "Drost",
-        "email": "hajk-georg.drost@slcu.cam.ac.uk",
+        "email": "hajk-georg.drost@tuebingen.mpg.de",
         "@id": "http://orcid.org/0000-0002-1567-306X"
       }
     ],
@@ -18896,7 +18896,7 @@
         "@type": "Person",
         "givenName": "Hajk-Georg",
         "familyName": "Drost",
-        "email": "hajk-georg.drost@slcu.cam.ac.uk",
+        "email": "hajk-georg.drost@tuebingen.mpg.de",
         "@id": "http://orcid.org/0000-0002-1567-306X"
       }
     ],
@@ -27971,6 +27971,19 @@
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "version": ">= 0.2.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/drake/blob/master/NEWS.md",
