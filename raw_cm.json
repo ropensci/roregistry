@@ -6505,7 +6505,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "learningtower",
     "description": "This package provides the OECD PISA data from 2000-2018 ",
@@ -10302,7 +10305,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "quizlite",
     "description": "What the package does (one paragraph).",
@@ -10919,7 +10925,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "roblog",
     "description": "It provides templates for roweb2 blogging and help for a GitHub forking workflow.",
-    "name": "roblog: Provides Helpers for roweb2 Blogging",
+    "name": "roblog: rOpenSci's blog guidance",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.0",
     "programmingLanguage": {
@@ -10936,6 +10942,11 @@
         "familyName": "Salmon",
         "email": "maelle.salmon@yahoo.se",
         "@id": "https://orcid.org/0000-0002-2815-0399"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stefanie",
+        "familyName": "Butland"
       }
     ],
     "contributor": [
@@ -10944,6 +10955,16 @@
         "givenName": "Amanda",
         "familyName": "Dobbyn",
         "email": "amanda.e.dobbyn@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Christophe",
+        "familyName": "Dervieux"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Romain",
+        "familyName": "LESUR"
       }
     ],
     "copyrightHolder": {},
@@ -10965,6 +10986,30 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "version": ">= 2.1.0",
@@ -10975,6 +11020,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "details",
+        "name": "details",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=details"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "gluedown",
+        "name": "gluedown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gluedown"
       }
     ],
     "softwareRequirements": [
@@ -11176,7 +11245,9 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "relatedLink": "https://docs.ropensci.org/roblog/",
+    "issueTracker": "https://github.com/ropenscilabs/roblog/issues"
   },
   {
     "@context": [
