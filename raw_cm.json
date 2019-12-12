@@ -5188,10 +5188,13 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gghdr",
-    "description": "Geom and Stat components to visualise highest density regions from the 'hdrcde' package with 'ggplot2' ",
+    "description": "Geom and Stat components to visualise highest density \n             regions from the 'hdrcde' package with 'ggplot2'. ",
     "name": "gghdr: Visualisation of Highest Density Regions",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.0.0.9000",
@@ -5223,7 +5226,33 @@
         "@id": "https://orcid.org/YOUR-ORCID-ID"
       }
     ],
-    "softwareSuggestions": [],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vdiffr",
+        "name": "vdiffr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vdiffr"
+      }
+    ],
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
@@ -5248,9 +5277,45 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "grid",
+        "name": "grid"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "scales",
+        "name": "scales",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=scales"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       }
     ],
-    "codeRepository": "https://github.com/ropenscilabs/gghdr"
+    "codeRepository": "https://github.com/ropenscilabs/gghdr",
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental"
   },
   {
     "@context": [
@@ -6438,6 +6503,86 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
+  },
+  {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "learningtower",
+    "description": "This package provides the OECD PISA data from 2000-2018 ",
+    "name": "learningtower: OECD PISA data in a convenient format",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.1",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Kim",
+        "familyName": "Fitter",
+        "email": "kimfitter@yahoo.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Yacobellis",
+        "email": "pyacobellis@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Erika",
+        "familyName": "Siregar",
+        "email": "erika.mukhlisina@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sarah",
+        "familyName": "Romanes",
+        "email": "srom8308@uni.sydney.edu.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kevin",
+        "familyName": "Wang",
+        "email": "kevin.wang09@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Giulio",
+        "familyName": "Valentino Dalla Riva",
+        "email": "me@gvdallariva.net"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dianne",
+        "familyName": "Cook",
+        "email": "dicook@monash.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nick",
+        "familyName": "Tierney",
+        "email": "nicholas.tierney@gmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Kim",
+        "familyName": "Fitter",
+        "email": "kimfitter@yahoo.com"
+      }
+    ],
+    "softwareSuggestions": [],
+    "softwareRequirements": [],
+    "codeRepository": "https://github.com/ropenscilabs/learningtower"
   },
   {
     "@context": [
@@ -10155,6 +10300,46 @@
       "rstats",
       "unconf"
     ]
+  },
+  {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "quizlite",
+    "description": "What the package does (one paragraph).",
+    "name": "quizlite: What the Package Does (One Line, Title Case)",
+    "license": "What license it uses",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.1",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "First",
+        "familyName": "Last",
+        "email": "first.last@example.com",
+        "@id": "https://orcid.org/YOUR-ORCID-ID"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "First",
+        "familyName": "Last",
+        "email": "first.last@example.com",
+        "@id": "https://orcid.org/YOUR-ORCID-ID"
+      }
+    ],
+    "softwareSuggestions": [],
+    "softwareRequirements": [],
+    "codeRepository": "https://github.com/ropenscilabs/quizlite"
   },
   {
     "@context": [
