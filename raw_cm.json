@@ -1605,6 +1605,107 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "bnf",
+    "description": "This package will parse BNF grammars into R representation and then\n    generate language from this grammar.",
+    "name": "bnf: Generate Language from BNF Grammars",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.1",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mike",
+        "familyName": "Cheng",
+        "email": "mikefc@coolbutuseless.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alex",
+        "familyName": "Whan",
+        "email": "alexwhan@gmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mike",
+        "familyName": "Cheng",
+        "email": "mikefc@coolbutuseless.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "shiny",
+        "name": "shiny",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=shiny"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "minilexer",
+        "name": "minilexer"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      }
+    ],
+    "codeRepository": "https://github.com/ropenscilabs/bnf",
+    "releaseNotes": "https://github.com/ropenscilabs/bnf/blob/master/NEWS.md",
+    "readme": "https://github.com/ropenscilabs/bnf/blob/master/README.md"
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -5105,8 +5206,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
-    ],
-    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md"
+    ]
   },
   {
     "@context": [
@@ -5195,7 +5295,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "gghdr",
     "description": "Geom and Stat components to visualise highest density \n             regions from the 'hdrcde' package with 'ggplot2'. ",
-    "name": "gghdr: Visualisation of Highest Density Regions",
+    "name": "gghdr: Visualisation of Highest Density Regions (HDR) using ggplot2",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.0.0.9000",
     "programmingLanguage": {
@@ -5208,10 +5308,49 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com",
-        "@id": "https://orcid.org/YOUR-ORCID-ID"
+        "givenName": "Mitchell",
+        "familyName": "O'Hara-Wild",
+        "email": "mail@mitchelloharawild.com",
+        "@id": "https://orcid.org/0000-0001-6729-7695"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stephen",
+        "familyName": "Pearce",
+        "@id": "https://orcid.org/0000-0002-9400-8091"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ryo",
+        "familyName": "Nakagawara",
+        "email": "ryonakagawara@gmail.com",
+        "@id": "https://orcid.org/FIXME"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sayani",
+        "familyName": "Gupta",
+        "@id": "https://orcid.org/FIXME"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Darya",
+        "familyName": "Vanichkina",
+        "email": "d.vanichkina@gmail.com",
+        "@id": "https://orcid.org/0000-0002-0406-164X"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Emi",
+        "familyName": "Tanaka",
+        "@id": "https://orcid.org/FIXME"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thomas",
+        "familyName": "Fung",
+        "email": "thomas.fung.dr@gmail.com ",
+        "@id": "https://orcid.org/0000-0003-2601-0728"
       }
     ],
     "contributor": {},
@@ -5220,10 +5359,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com",
-        "@id": "https://orcid.org/YOUR-ORCID-ID"
+        "givenName": "Mitchell",
+        "familyName": "O'Hara-Wild",
+        "email": "mail@mitchelloharawild.com",
+        "@id": "https://orcid.org/0000-0001-6729-7695"
       }
     ],
     "softwareSuggestions": [
@@ -5251,6 +5390,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vdiffr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -5309,13 +5472,50 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "farver",
+        "name": "farver",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=farver"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "digest",
+        "name": "digest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
         "version": ">= 2.10"
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/gghdr",
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental"
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental",
+    "issueTracker": "https://github.com/ropenscilabs/gghdr/issues"
   },
   {
     "@context": [
@@ -8273,6 +8473,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "hms",
+        "name": "hms",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hms"
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/ozroaddeaths",
@@ -10323,9 +10535,9 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "quizlite",
-    "description": "What the package does (one paragraph).",
-    "name": "quizlite: What the Package Does (One Line, Title Case)",
-    "license": "What license it uses",
+    "description": "Creates a simple, lightweight, html quiz. Can be displayed in browser or knitted to html in an rmarkdown",
+    "name": "quizlite: A simple, lightweight, html quiz",
+    "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
@@ -10337,10 +10549,23 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com",
-        "@id": "https://orcid.org/YOUR-ORCID-ID"
+        "givenName": "Mitchell",
+        "familyName": "Stares",
+        "email": "mgs996@uowmail.edu.au",
+        "@id": "https://orcid.org/0000-0002-6975-9221"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chun Fung (Jackson)",
+        "familyName": "Kwok",
+        "email": "kwokcf@unimelb.edu.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Tierney",
+        "email": "nicholas.tierney@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1460-8722"
       }
     ],
     "contributor": {},
@@ -10349,15 +10574,356 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com",
-        "@id": "https://orcid.org/YOUR-ORCID-ID"
+        "givenName": "Mitchell",
+        "familyName": "Stares",
+        "email": "mgs996@uowmail.edu.au",
+        "@id": "https://orcid.org/0000-0002-6975-9221"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "htmltools",
+        "name": "htmltools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=htmltools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      }
+    ],
+    "codeRepository": "https://github.com/ropenscilabs/quizlite"
+  },
+  {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "rcademy",
+    "description": "Ideas and tools to help with preparing documentation for promotions at universities.",
+    "name": "rcademy: Tools to assist with academic promotions",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.1",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.1 (2019-07-05)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Rob",
+        "familyName": "Hyndman",
+        "email": "Rob.Hyndman@monash.edu",
+        "@id": "https://orcid.org/0000-0002-2140-5352"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Melina",
+        "familyName": "Vidoni",
+        "email": "melina.vidoni@rmit.edu.au",
+        "@id": "https://orcid.org/0000-0002-4099-1430"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Belinda",
+        "familyName": "Fabian",
+        "email": "belinda.fabian",
+        "@id": "https://orcid.org/0000-0002-5707-4356"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Huong Ly",
+        "familyName": "Tong",
+        "email": "huong-ly.tong@students.mq.edu.au",
+        "@id": "https://orcid.org/0000-0002-8462-0105"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chris",
+        "familyName": "Brown",
+        "email": "Chris.Brown@sydney.edu.au",
+        "@id": "https://orcid.org/0000-0003-2506-4871"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maria",
+        "familyName": "Prokofieva",
+        "email": "Maria.Prokofieva@vu.edu.au",
+        "@id": "https://orcid.org/0000-0003-1974-3827"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Rob",
+        "familyName": "Hyndman",
+        "email": "Rob.Hyndman@monash.edu",
+        "@id": "https://orcid.org/0000-0002-2140-5352"
       }
     ],
     "softwareSuggestions": [],
-    "softwareRequirements": [],
-    "codeRepository": "https://github.com/ropenscilabs/quizlite"
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "easyPubMed",
+        "name": "easyPubMed",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=easyPubMed"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "fuzzyjoin",
+        "name": "fuzzyjoin",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fuzzyjoin"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pdftools",
+        "name": "pdftools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pdftools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rcrossref",
+        "name": "rcrossref",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rcrossref"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RefManageR",
+        "name": "RefManageR",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RefManageR"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rorcid",
+        "name": "rorcid",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rorcid"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "scholar",
+        "name": "scholar",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=scholar"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rAltmetric",
+        "name": "rAltmetric",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rAltmetric"
+      }
+    ],
+    "codeRepository": "https://github.com/ropenscilabs/rcademy"
   },
   {
     "@context": [
