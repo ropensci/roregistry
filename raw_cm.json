@@ -1605,7 +1605,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "bnf",
     "description": "This package will parse BNF grammars into R representation and then\n    generate language from this grammar.",
@@ -5414,6 +5417,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
@@ -5515,7 +5530,8 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/gghdr",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental",
-    "issueTracker": "https://github.com/ropenscilabs/gghdr/issues"
+    "issueTracker": "https://github.com/ropenscilabs/gghdr/issues",
+    "contIntegration": "https://codecov.io/gh/ropenscilabs/gghdr?branch=master"
   },
   {
     "@context": [
@@ -14083,7 +14099,7 @@
     "relatedLink": "http://syn.njtierney.com/",
     "issueTracker": "https://github.com/ropenscilabs/syn/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.9000",
+    "version": "0.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14171,6 +14187,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
       }
     ],
     "softwareRequirements": [
@@ -32361,7 +32389,8 @@
     "relatedLink": [
       "https://fingertips.phe.org.uk",
       "https://CRAN.R-project.org/package=fingertipsR",
-      "https://docs.ropensci.org/fingertipsR"
+      "https://docs.ropensci.org/fingertipsR",
+      "https://docs.ropensci.org/fingertipsR/"
     ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -49213,7 +49242,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.11",
+    "version": "0.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49549,7 +49578,7 @@
     "contIntegration": "https://travis-ci.org/ropensci/osmdata",
     "developmentStatus": "active",
     "releaseNotes": "https://github.com/ropensci/osmdata/blob/master/NEWS.md",
-    "fileSize": "5857.747KB",
+    "fileSize": "1170.33KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -79584,7 +79613,7 @@
     "codeRepository": "https://github.com/ropensci/UCSCXenaTools",
     "issueTracker": "https://github.com/ropensci/UCSCXenaTools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.2.9",
+    "version": "1.2.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
