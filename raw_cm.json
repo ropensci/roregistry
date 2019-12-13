@@ -8069,7 +8069,7 @@
     "description": "ozroaddeaths is a package that pulls data from the Australian Road \n    Deaths Database, run by the Bureau of Infrastructure, Transport and Regional\n    Economics (BITRE). This provides basic details of road transport crash\n    fatalities in Australia as reported by the police each month to the State\n    and Territory road safety authorities. The details provided in the\n    database fall into two groups: 1) the circumstances of the crash, for\n    example, date, location, crash type some details regarding the persons\n    killed, for example, age, gender and road user group.",
     "name": "ozroaddeaths: Pulls Data From Australian Road Deaths Database",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.9000",
+    "version": "0.0.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -8200,7 +8200,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.4.2"
+        "version": ">= 3.6"
       },
       {
         "@type": "SoftwareApplication",
@@ -8261,6 +8261,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/ozroaddeaths",
@@ -68877,7 +68889,7 @@
     "codeRepository": "https://github.com/ropensci/rtika",
     "issueTracker": "http://github.com/ropensci/rtika/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.22",
+    "version": "1.23",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75053,7 +75065,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.91.91",
+    "version": "0.9.91.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79688,7 +79700,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.91",
+    "version": "0.4.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79855,14 +79867,14 @@
         "@type": "SoftwareApplication",
         "identifier": "webmockr",
         "name": "webmockr",
-        "version": ">= 0.5.0",
+        "version": ">= 0.5.1.91",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
+        "sameAs": "https://github.com/ropensci/webmockr"
       },
       {
         "@type": "SoftwareApplication",
@@ -81631,7 +81643,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.91",
+    "version": "0.5.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
