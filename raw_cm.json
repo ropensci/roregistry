@@ -13106,7 +13106,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "syn",
-    "description": "Generates synoynms from a given word drawing from a synonym list\n    from the 'moby' project.",
+    "description": "Generates synonyms from a given word drawing from a synonym list\n    from the 'moby' project <http://moby-thesaurus.org/>.",
     "name": "syn: Creates Synonyms From Target Words",
     "codeRepository": "https://github.com/ropenscilabs/syn",
     "relatedLink": "http://syn.njtierney.com/",
@@ -13125,13 +13125,15 @@
         "@type": "Person",
         "givenName": "Nicholas",
         "familyName": "Tierney",
-        "email": "nicholas.tierney@gmail.com"
+        "email": "nicholas.tierney@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1460-8722"
       },
       {
         "@type": "Person",
         "givenName": "Amy",
         "familyName": "Stringer",
-        "email": "amy.stringer@me.com"
+        "email": "amy.stringer@me.com",
+        "@id": "https://orcid.org/0000-0002-0409-7976"
       },
       {
         "@type": "Person",
@@ -13160,7 +13162,8 @@
         "@type": "Person",
         "givenName": "Nicholas",
         "familyName": "Tierney",
-        "email": "nicholas.tierney@gmail.com"
+        "email": "nicholas.tierney@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1460-8722"
       }
     ],
     "softwareSuggestions": [
@@ -79867,7 +79870,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/visdat/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.3.9000",
+    "version": "0.6.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79923,6 +79926,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 2.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
