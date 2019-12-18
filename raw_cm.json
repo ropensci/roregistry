@@ -54740,7 +54740,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rbace",
-    "description": "Interface to the API for the 'Bielefeld' Academic Search\n    Engine ('BASE') (<https://www.base-search.net/>). 'BASE' is a\n    search engine for more than 150 million scholarly documents from more\n    than 7000 sources.",
+    "description": "Interface to the API for the 'Bielefeld' Academic Search\n    Engine ('BASE') (<https://www.base-search.net/>). 'BASE' is a\n    search engine for more than 150 million scholarly documents from more\n    than 7000 sources. Methods are provided for searching for documents,\n    as well as getting information on higher level groupings of documents:\n    collections and repositories within collections. Search includes\n    faceting, so you can get a high level overview of number of documents\n    across a given variable (e.g., year). 'BASE' asks users to respect a\n    rate limit, but does not enforce it themselves; we enforce that\n    rate limit.",
     "name": "rbace: 'Bielefeld' Academic Search Engine ('BASE') Client",
     "codeRepository": "https://github.com/ropensci/rbace",
     "issueTracker": "https://github.com/ropensci/rbace/issues",
@@ -54851,16 +54851,15 @@
       "https://travis-ci.org/ropensci/rbace",
       "https://codecov.io/gh/ropensci/rbace"
     ],
-    "developmentStatus": "https://www.repostatus.org/#wip",
-    "fileSize": "142.361KB",
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "fileSize": "142.345KB",
     "relatedLink": "https://docs.ropensci.org/rbace",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["text-ming", "literature", "scholarly", "citations", "search"],
-    "releaseNotes": "https://github.com/ropensci/rbace/blob/master/NEWS.md"
+    "keywords": ["text-ming", "literature", "scholarly", "citations", "search"]
   },
   {
     "@context": [
@@ -78058,7 +78057,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tradestatistics/blob/master/NEWS.md",
-    "fileSize": "226.133KB",
+    "fileSize": "293.381KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/tradestatistics",
       "https://codecov.io/github/ropensci/tradestatistics?branch=master"

@@ -3607,11 +3607,11 @@
     {
       "name": "rbace",
       "description": "'Bielefeld' Academic Search Engine ('BASE') Client",
-      "details": "Interface to the API for the 'Bielefeld' Academic Search\n    Engine ('BASE') (<https://www.base-search.net/>). 'BASE' is a\n    search engine for more than 150 million scholarly documents from more\n    than 7000 sources.",
+      "details": "Interface to the API for the 'Bielefeld' Academic Search\n    Engine ('BASE') (<https://www.base-search.net/>). 'BASE' is a\n    search engine for more than 150 million scholarly documents from more\n    than 7000 sources. Methods are provided for searching for documents,\n    as well as getting information on higher level groupings of documents:\n    collections and repositories within collections. Search includes\n    faceting, so you can get a high level overview of number of documents\n    across a given variable (e.g., year). 'BASE' asks users to respect a\n    rate limit, but does not enforce it themselves; we enforce that\n    rate limit.",
       "maintainer": "Scott Chamberlain",
       "keywords": "citations, literature, scholarly, search, text-ming",
       "github": "https://github.com/ropensci/rbace",
-      "status": "wip",
+      "status": "active",
       "onboarding": "",
       "on_cran": false,
       "on_bioc": false,
@@ -5304,5 +5304,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2019-12-17 21:49 UTC"
+  "date": "2019-12-18 00:50 UTC"
 }
