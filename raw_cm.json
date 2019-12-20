@@ -14572,13 +14572,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "travis",
-    "description": "Tools for interacting with the 'Travis' and\n    'GitHub' APIs for setting up continuous integration for R packages and\n    other R-based projects.",
+    "description": "Tools for interacting with the 'Travis' API for\n    setting up continuous integration for R packages and other R-based\n    projects.",
     "name": "travis: Set Up 'Travis' for Testing and Deployment",
     "codeRepository": "https://github.com/ropenscilabs/travis",
     "relatedLink": "https://docs.ropensci.org/travis/dev",
     "issueTracker": "https://github.com/ropenscilabs/travis/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.11.9001",
+    "version": "0.3.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14593,6 +14593,13 @@
         "familyName": "Müller",
         "email": "krlmlr+r@mailbox.org",
         "@id": "https://orcid.org/0000-0002-1416-3412"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Schratz",
+        "email": "patrick.schratz@gmail.com",
+        "@id": "https://orcid.org/0000-0003-0748-6624"
       },
       {
         "@type": "Person",
@@ -14645,6 +14652,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "remotes",
         "name": "remotes",
         "provider": {
@@ -14678,6 +14697,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
       }
     ],
     "softwareRequirements": [
@@ -14691,6 +14722,7 @@
         "@type": "SoftwareApplication",
         "identifier": "cli",
         "name": "cli",
+        "version": ">= 2.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -14710,6 +14742,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=clipr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "gh",
+        "name": "gh",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gh"
       },
       {
         "@type": "SoftwareApplication",
@@ -14750,6 +14794,30 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "memoise",
         "name": "memoise",
         "provider": {
@@ -14782,7 +14850,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/r-lib/usethis"
+        "sameAs": "https://CRAN.R-project.org/package=usethis"
       },
       {
         "@type": "SoftwareApplication",
@@ -50081,7 +50149,7 @@
     "codeRepository": "https://github.com/ropensci/phylocomr",
     "issueTracker": "https://github.com/ropensci/phylocomr/issues",
     "license": "https://spdx.org/licenses/BSD-2-Clause",
-    "version": "0.3.0.9100",
+    "version": "0.3.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50190,8 +50258,12 @@
         "sameAs": "https://CRAN.R-project.org/package=sys"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/phylocomr",
-    "fileSize": "428.853KB",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/phylocomr",
+      "https://ci.appveyor.com/project/jeroen/phylocomr",
+      "https://codecov.io/gh/ropensci/phylocomr"
+    ],
+    "fileSize": "308.797KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["phylogeny", "Phylocom", "phylodiversity", "communitystructure", "characterevolution", "species"],
@@ -79925,6 +79997,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=glue"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "forcats",
+        "name": "forcats",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=forcats"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/visdat/blob/master/NEWS.md",
