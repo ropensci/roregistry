@@ -2037,7 +2037,9 @@
     "description": "Tools for interacting with the 'Circle' API for\n    setting up continuous integration for R packages.",
     "name": "circle: R client package for the Circle CI REST API",
     "codeRepository": "https://github.com/ropenscilabs/circle",
-    "relatedLink": "https://pat-s.github.io/circle",
+    "relatedLink": [
+      "https://ropenscilabs.github.io/circle"
+    ],
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.4.0.9000",
     "programmingLanguage": {
@@ -2236,13 +2238,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/circle/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/circle/blob/master/README.md",
-    "fileSize": "16.508KB",
-    "contIntegration": [
-      "https://travis-ci.org/pat-s/circle3",
-      "https://circleci.com/gh/pat-s/circle",
-      "https://ci.appveyor.com/project/pat-s/circle",
-      "https://codecov.io/gh/pat-s/circle?branch=master"
-    ],
+    "fileSize": "177.437KB",
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -2257,8 +2253,14 @@
         "description": "R package version "
       }
     ],
-    "issueTracker": "https://github.com/pat-s/circle/issues",
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing"
+    "issueTracker": "https://github.com/ropenscilabs/circle/issues",
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
+    "contIntegration": [
+      "https://travis-ci.org/ropenscilabs/circle",
+      "https://circleci.com/gh/ropenscilabs/circle",
+      "https://ci.appveyor.com/project/ropenscilabs/circle",
+      "https://codecov.io/gh/ropenscilabs/circle?branch=master"
+    ]
   },
   {
     "@context": [
@@ -63828,7 +63830,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.9310",
+    "version": "0.9.5.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
