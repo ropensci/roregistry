@@ -3703,10 +3703,10 @@
     },
     {
       "name": "rdatacite",
-      "description": "'DataCite' Client for 'OAI-PMH' Methods and their Search API",
-      "details": "Client for the web service methods provided\n    by 'DataCite' (<https://www.datacite.org/>), including functions to interface with\n    their 'OAI-PMH' 'metadata' service, and a 'RESTful' search API. The API\n    is backed by 'SOLR', allowing expressive queries, including faceting,\n    statistics on variables, and 'more-like-this' queries.",
+      "description": "Client for the 'DataCite' API",
+      "details": "Client for the web service methods provided\n    by 'DataCite' (<https://www.datacite.org/>), including functions to interface with\n    their 'RESTful' search API. The API is backed by 'Elasticsearch', allowing\n    expressive queries, including faceting.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "API, data, dataset, https, scholarly, solr, web-services",
+      "keywords": "API, data, dataset, https, scholarly, web-services",
       "github": "https://github.com/ropensci/rdatacite",
       "status": "active",
       "onboarding": "",
@@ -5304,5 +5304,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-01-02 21:49 UTC"
+  "date": "2020-01-03 00:49 UTC"
 }
