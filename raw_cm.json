@@ -24208,7 +24208,7 @@
     "codeRepository": "https://github.com/ropensci/colocr",
     "issueTracker": "https://github.com/ropensci/colocr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24422,7 +24422,44 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": "https://docs.ropensci.org/colocr"
+    "relatedLink": "https://docs.ropensci.org/colocr",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2019",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Mahmoud",
+            "familyName": "Ahmed"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Trang", "Huyen"],
+            "familyName": "Lai"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Deok", "Ryong"],
+            "familyName": "Kim"
+          }
+        ],
+        "name": "colocr: an R package for conducting co-localization analysis on fluorescence microscopy images",
+        "identifier": "10.7717/peerj.7255",
+        "paginiation": "e7255",
+        "@id": "https://doi.org/10.7717/peerj.7255",
+        "sameAs": "https://doi.org/10.7717/peerj.7255",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2019",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "7",
+            "name": "PeerJ"
+          }
+        }
+      }
+    ]
   },
   {
     "@context": [
