@@ -69541,7 +69541,7 @@
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
         "datePublished": "2019",
         "author": [
           {
@@ -69550,9 +69550,23 @@
             "familyName": "Kearney"
           }
         ],
-        "name": "rtweet: Collecting Twitter Data",
-        "url": "https://cran.r-project.org/package=rtweet",
-        "description": "R package version 0.6.9"
+        "name": "rtweet: Collecting and analyzing Twitter data",
+        "identifier": "10.21105/joss.01829",
+        "url": "https://joss.theoj.org/papers/10.21105/joss.01829",
+        "description": "R package version 0.7.0",
+        "paginiation": "1829",
+        "@id": "https://doi.org/10.21105/joss.01829",
+        "sameAs": "https://doi.org/10.21105/joss.01829",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "42",
+          "datePublished": "2019",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "4",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "relatedLink": "https://CRAN.R-project.org/package=rtweet"
@@ -78230,7 +78244,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tradestatistics/blob/master/NEWS.md",
-    "fileSize": "293.381KB",
+    "fileSize": "174.935KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/tradestatistics",
       "https://codecov.io/github/ropensci/tradestatistics?branch=master"
