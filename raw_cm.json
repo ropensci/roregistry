@@ -13077,160 +13077,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "syn",
-    "description": "Generates synonyms from a given word drawing from a synonym list\n    from the 'moby' project <http://moby-thesaurus.org/>.",
-    "name": "syn: Creates Synonyms From Target Words",
-    "codeRepository": "https://github.com/ropenscilabs/syn",
-    "relatedLink": [
-      "http://syn.njtierney.com/",
-      "https://CRAN.R-project.org/package=syn"
-    ],
-    "issueTracker": "https://github.com/ropenscilabs/syn/issues",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.2",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Nicholas",
-        "familyName": "Tierney",
-        "email": "nicholas.tierney@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1460-8722"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Amy",
-        "familyName": "Stringer",
-        "email": "amy.stringer@me.com",
-        "@id": "https://orcid.org/0000-0002-0409-7976"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Mike",
-        "familyName": "Cheng",
-        "email": "mikefc@coolbutuseless.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Laura",
-        "familyName": "de Jong"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Thomas",
-        "familyName": "Lumley",
-        "email": "thomas.lumley@r-project.org"
-      }
-    ],
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Nicholas",
-        "familyName": "Tierney",
-        "email": "nicholas.tierney@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1460-8722"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "glue",
-        "name": "glue",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=glue"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "version": ">= 2.1.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "spelling",
-        "name": "spelling",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=spelling"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.4.0"
-      }
-    ],
-    "releaseNotes": "https://github.com/ropenscilabs/syn/blob/master/NEWS.md",
-    "contIntegration": [
-      "https://travis-ci.org/ropenscilabs/syn",
-      "https://ci.appveyor.com/project/ropenscilabs/syn",
-      "https://codecov.io/github/ropenscilabs/syn?branch=master"
-    ],
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": [
-      "rstats",
-      "synonyms",
-      "thesaurus",
-      "antonyms",
-      "text-processing",
-      "ozunconf18",
-      "unconf",
-      "r",
-      "r-package"
-    ],
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    }
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "taxadc",
     "description": "Darwin Core Data.",
     "name": "taxadc: Serializing Darwin Core Data",
@@ -26752,7 +26598,7 @@
     "codeRepository": "https://github.com/ropensci/DataSpaceR",
     "issueTracker": "https://github.com/ropensci/DataSpaceR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.7.2",
+    "version": "0.7.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -26771,6 +26617,11 @@
         "@type": "Person",
         "givenName": "Jason",
         "familyName": "Taylor"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Helen",
+        "familyName": "Miller"
       }
     ],
     "copyrightHolder": [
@@ -26968,7 +26819,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/DataSpaceR/blob/master/NEWS.md",
-    "fileSize": "48.637KB",
+    "fileSize": "52.899KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/DataSpaceR",
       "https://ci.appveyor.com/project/juyeongkim/dataspacer/branch/master",
@@ -26995,7 +26846,10 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": ["https://CRAN.R-project.org/package=DataSpaceR", "https://docs.ropensci.org/DataSpaceR"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=DataSpaceR",
+      "https://docs.ropensci.org/DataSpaceR"
+    ]
   },
   {
     "@context": [
@@ -28372,7 +28226,7 @@
     "codeRepository": "https://github.com/ropensci/eia",
     "issueTracker": "https://github.com/ropensci/eia/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69279,7 +69133,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtweet",
-    "description": "An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>. This package has been peer-reviewed by rOpenSci (v. 0.6.9).",
+    "description": "An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>.\n This package has been peer-reviewed by rOpenSci (v. 0.6.9).",
     "name": "rtweet: Collecting Twitter Data",
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
@@ -69544,7 +69398,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rtweet/blob/master/NEWS.md",
-    "fileSize": "4133.723KB",
+    "fileSize": "3803.895KB",
     "contIntegration": [
       "https://travis-ci.org/mkearney/rtweet",
       "https://codecov.io/gh/mkearney/rtweet?branch=master"
@@ -81520,7 +81374,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1.94",
+    "version": "0.5.1.96",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
