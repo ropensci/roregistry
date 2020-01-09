@@ -81617,7 +81617,7 @@
     "codeRepository": "https://github.com/ropensci/wellknown",
     "issueTracker": "https://github.com/ropensci/wellknown/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.9100",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81636,7 +81636,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "maintainer": [
@@ -81644,7 +81645,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "softwareSuggestions": [
@@ -81703,7 +81705,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 0.9.21",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -81726,9 +81727,13 @@
         "sameAs": "https://CRAN.R-project.org/package=V8"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/wellknown",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/wellknown",
+      "https://ci.appveyor.com/project/sckott/wellknown",
+      "https://codecov.io/github/ropensci/wellknown?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/wellknown/blob/master/NEWS.md",
-    "fileSize": "100.815KB",
+    "fileSize": "101.968KB",
     "applicationCategory": "Geosptial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["spatial", "geospatial", "wkt", "wkb", "well-known-text", "geojson", "binary", "conversion"],
