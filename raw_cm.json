@@ -28505,7 +28505,7 @@
     "codeRepository": "https://github.com/ropensci/elastic",
     "issueTracker": "https://github.com/ropensci/elastic/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0.96",
+    "version": "1.0.8.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32984,7 +32984,7 @@
       "https://codecov.io/github/ropensci/geojsonio?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/geojsonio/blob/master/NEWS.md",
-    "fileSize": "1848.017KB",
+    "fileSize": "1848.391KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output"],
@@ -58763,7 +58763,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "refsplitr",
     "description": "This function reads Thomson Reuters Web of\n    Knowledge/Science and ISI format reference data files into an R\n    friendly data format and can optionally write the converted data to a\n    friendly CSV format.",
@@ -58815,6 +58818,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "gdtools",
@@ -59009,7 +59024,10 @@
         "sameAs": "https://CRAN.R-project.org/package=sna"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/embruna/refsplitr", "https://coveralls.io/github/embruna/refnet?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/embruna/refsplitr",
+      "https://coveralls.io/github/embruna/refnet?branch=master"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -80210,7 +80228,7 @@
         "sameAs": "https://CRAN.R-project.org/package=ps"
       }
     ],
-    "fileSize": "95.001KB",
+    "fileSize": "145.252KB",
     "contIntegration": [
       "https://travis-ci.org/cboettig/virtuoso",
       "https://ci.appveyor.com/project/cboettig/virtuoso",
@@ -80225,7 +80243,12 @@
       "url": "https://cran.r-project.org"
     },
     "funder": {},
-    "relatedLink": "https://CRAN.R-project.org/package=virtuoso"
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/271",
+      "provider": "https://ropensci.org"
+    },
+    "relatedLink": ["https://CRAN.R-project.org/package=virtuoso", "https://docs.ropensci.org/virtuoso/"]
   },
   {
     "@context": [
