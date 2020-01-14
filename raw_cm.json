@@ -25767,7 +25767,7 @@
     "relatedLink": "https://docs.ropensci.org/cyphr",
     "issueTracker": "https://github.com/ropensci/cyphr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50860,7 +50860,8 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "restez",
-        "name": "restez"
+        "name": "restez",
+        "sameAs": "https://github.com/ropensci/restez"
       },
       {
         "@type": "SoftwareApplication",
@@ -73166,6 +73167,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 2.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
