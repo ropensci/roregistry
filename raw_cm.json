@@ -24328,6 +24328,126 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "colpluz",
+    "description": "Client for the Catalogue of Life Plus (CoL+) webservice \n    (<https://github.com/Sp2000/colplus>). The CoL+ webservice is a new\n    interface to the Catalogue of Life (<http://www.catalogueoflife.org/>).\n    Includes functions for each of the API methods, including searching for\n    names, etc.",
+    "name": "colpluz: Catalogue of Life Plus Client",
+    "codeRepository": "https://github.com/ropensci/colpluz",
+    "relatedLink": "https://docs.ropensci.org/colpluz",
+    "issueTracker": "https://github.com/ropensci/colpluz/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.2",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crul",
+        "name": "crul",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crul"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      }
+    ],
+    "applicationCategory": "Biology",
+    "isPartOf": "https://ropensci.org",
+    "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species"],
+    "contIntegration": ["https://travis-ci.com/ropensci/colpluz", "https://ci.appveyor.com/project/sckott/colpluz", "https://codecov.io/gh/ropensci/colpluz"]
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -58745,8 +58865,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "refsplitr",
-    "description": "Tools to parse and organize reference records downloaded from the \n    Web of Science citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
-    "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with Web of Science data. ",
+    "description": "Tools to parse and organize reference records downloaded from the \n    'Web of Science' citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
+    "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with 'Web of Science' data. ",
     "codeRepository": "https://github.com/ropensci/refsplitr",
     "issueTracker": "https://github.com/ropensci/refsplitr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
