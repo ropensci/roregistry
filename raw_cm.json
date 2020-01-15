@@ -24328,7 +24328,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "colpluz",
     "description": "Client for the Catalogue of Life Plus (CoL+) webservice \n    (<https://github.com/Sp2000/colplus>). The CoL+ webservice is a new\n    interface to the Catalogue of Life (<http://www.catalogueoflife.org/>).\n    Includes functions for each of the API methods, including searching for\n    names, etc.",
@@ -24445,7 +24448,11 @@
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
     "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species"],
-    "contIntegration": ["https://travis-ci.com/ropensci/colpluz", "https://ci.appveyor.com/project/sckott/colpluz", "https://codecov.io/gh/ropensci/colpluz"]
+    "contIntegration": [
+      "https://travis-ci.com/ropensci/colpluz",
+      "https://ci.appveyor.com/project/sckott/colpluz",
+      "https://codecov.io/gh/ropensci/colpluz"
+    ]
   },
   {
     "@context": [
@@ -25398,12 +25405,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "crevents",
-    "description": "Client for the 'Crossref' Events API\n    <https://www.crossref.org/services/event-data/#the-service>.",
+    "description": "Client for the 'Crossref' Events API\n    <https://www.eventdata.crossref.org/guide/>. The 'Crossref'\n    Events service captures discussion of scholarly works (e.g.,\n    peer-reviewed publications) in non-traditional places such\n    as blogs and social media.",
     "name": "crevents: Client for the 'Crossref' Events API",
     "codeRepository": "https://github.com/ropensci/crevents",
     "issueTracker": "https://github.com/ropensci/crevents/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.6.9100",
+    "version": "0.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25416,7 +25423,7 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
+        "email": "myrmecocystus@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
@@ -25425,7 +25432,7 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
+        "email": "myrmecocystus@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
@@ -25441,6 +25448,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -25448,7 +25467,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -25461,7 +25479,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -25474,7 +25491,6 @@
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
-        "version": ">= 1.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -25482,32 +25498,21 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/crevents",
-    "fileSize": "5.301KB",
-    "keywords": [
-      "crossref",
-      "altmetrics",
-      "rstats"
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/crevents",
+      "https://ci.appveyor.com/project/sckott/crevents"
     ],
+    "fileSize": "12.017KB",
+    "keywords": ["text-ming", "literature", "scholarly", "publications", "citations", "events", "Crossref", "tweets"],
     "relatedLink": "https://docs.ropensci.org/crevents",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "applicationCategory": "Literature",
+    "isPartOf": "https://ropensci.org",
+    "releaseNotes": "https://github.com/ropensci/crevents/blob/master/NEWS.md"
   },
   {
     "@context": [
