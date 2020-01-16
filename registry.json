@@ -1119,20 +1119,6 @@
       "ropensci_category": "scalereprod"
     },
     {
-      "name": "tic",
-      "description": "CI-Agnostic Workflow\n    Definitions",
-      "details": "Provides a way to describe common build and\n    deployment workflows for R-based projects: packages, websites (e.g.\n    blogdown, pkgdown), or data processing (e.g. research compendia).  The\n    recipe is described independent of the continuous integration tool\n    used for processing the workflow (e.g.  'Travis CI' or 'AppVeyor').",
-      "maintainer": "Kirill Müller",
-      "keywords": "appveyor, continuous-integration, deployment, travis-ci",
-      "github": "https://github.com/ropenscilabs/tic",
-      "status": "concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "url": "https://github.com/ropenscilabs/tic",
-      "ropensci_category": "scalereprod"
-    },
-    {
       "name": "timefuzz",
       "description": "Time Travel to Test Time Dependent Code",
       "details": "Time travel to test time dependent code.",
@@ -2862,7 +2848,7 @@
       "name": "lq",
       "description": "List Queries",
       "details": "List queries using 'jq', a 'JSON' processor (<https://stedolan.github.io/jq/>) \n    via the 'jqr' package.",
-      "maintainer": "foo bar",
+      "maintainer": "Scott Chamberlain",
       "keywords": "",
       "github": "https://github.com/ropensci/lq",
       "status": "active",
@@ -4893,6 +4879,20 @@
       "ropensci_category": "literature"
     },
     {
+      "name": "tic",
+      "description": "CI-Agnostic Workflow\n    Definitions",
+      "details": "Provides a way to describe common build and\n    deployment workflows for R-based projects: packages, websites (e.g.\n    blogdown, pkgdown), or data processing (e.g. research compendia).  The\n    recipe is described independent of the continuous integration tool\n    used for processing the workflow (e.g.  'Travis CI' or 'AppVeyor').\n    This package has been peer-reviewed by rOpenSci (v. 0.3.0.9004).",
+      "maintainer": "Kirill Müller",
+      "keywords": "",
+      "github": "https://github.com/ropensci/tic",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/tic",
+      "ropensci_category": "scalereprod"
+    },
+    {
       "name": "tidyhydat",
       "description": "Extract and Tidy Canadian 'Hydrometric' Data",
       "details": "Provides functions to access historical and real-time national 'hydrometric'\n    data from Water Survey of Canada data sources (<http://dd.weather.gc.ca/hydrometric/csv/> and\n    <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.",
@@ -5317,5 +5317,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-01-15 21:50 UTC"
+  "date": "2020-01-16 00:49 UTC"
 }
