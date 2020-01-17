@@ -2195,6 +2195,18 @@
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": [
@@ -2238,7 +2250,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/circle/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/circle/blob/master/README.md",
-    "fileSize": "16.718KB",
+    "fileSize": "16.768KB",
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -18905,7 +18917,7 @@
     "codeRepository": "https://github.com/ropensci/bold",
     "issueTracker": "https://github.com/ropensci/bold/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.1.9100",
+    "version": "0.9.1.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18938,19 +18950,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.1.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "sangerseqR",
@@ -82391,7 +82390,7 @@
     "codeRepository": "https://github.com/ropensci/webchem",
     "issueTracker": "https://github.com/ropensci/webchem/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.9004",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -82416,6 +82415,11 @@
     "contributor": [
       {
         "@type": "Person",
+        "givenName": "Robert",
+        "familyName": "Allaway"
+      },
+      {
+        "@type": "Person",
         "givenName": "Daniel",
         "familyName": "Muench"
       },
@@ -82423,6 +82427,11 @@
         "@type": "Person",
         "givenName": "Johannes",
         "familyName": "Ranke"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andreas",
+        "familyName": "Scharmüller"
       },
       {
         "@type": "Person",
@@ -82436,12 +82445,7 @@
       },
       {
         "@type": "Person",
-        "givenName": "Robert",
-        "familyName": "Allaway"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Tamas",
+        "givenName": "Tamás",
         "familyName": "Stirling"
       }
     ],
