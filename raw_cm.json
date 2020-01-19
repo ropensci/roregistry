@@ -73943,7 +73943,7 @@
     "codeRepository": "https://github.com/ropensci/staypuft",
     "issueTracker": "https://github.com/ropensci/staypuft/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9000",
+    "version": "0.0.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73956,19 +73956,24 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
+        "email": "myrmecocystus@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {},
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
+        "email": "myrmecocystus@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
@@ -74038,18 +74043,10 @@
     ],
     "contIntegration": "https://travis-ci.com/ropensci/staypuft",
     "developmentStatus": "https://www.repostatus.org/#concept",
-    "keywords": [
-      "marshmallow",
-      "data-structures",
-      "serialization",
-      "deserialization",
-      "validation",
-      "r",
-      "rstats",
-      "r-port",
-      "r-package"
-    ],
-    "relatedLink": "https://docs.ropensci.org/staypuft"
+    "keywords": ["data", "types", "validation", "serlialization", "schema"],
+    "relatedLink": "https://docs.ropensci.org/staypuft",
+    "applicationCategory": "Data",
+    "isPartOf": "https://ropensci.org"
   },
   {
     "@context": [
