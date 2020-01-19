@@ -27240,7 +27240,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "disk.frame",
-        "name": "disk.frame"
+        "name": "disk.frame",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=disk.frame"
       },
       {
         "@type": "SoftwareApplication",
@@ -47750,6 +47757,12 @@
       "routing",
       "opentripplanner"
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/295",
