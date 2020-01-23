@@ -2501,7 +2501,7 @@
     {
       "name": "handlr",
       "description": "Convert Among Citation Formats",
-      "details": "Converts among many citation formats, including 'BibTeX',\n    'Citeproc', 'Codemeta', 'RDF XML', 'RIS', and 'Schema.org'. A low\n    level 'R6' class is provided, as well as stand-alone functions\n    for each citation format for both read and write.",
+      "details": "Converts among many citation formats, including 'BibTeX',\n    'Citeproc', 'Codemeta', 'RDF XML', 'RIS', 'Schema.org', and\n    'Citation File Format'. A low level 'R6' class is provided, as well\n    as stand-alone functions for each citation format for both read\n    and write.",
       "maintainer": "Scott Chamberlain",
       "keywords": "bibtex, citation, Citeproc, Codemeta, Crosscite, Crossref, doi, JSON, metadata, RDF, RIS, XML",
       "github": "https://github.com/ropensci/handlr",
@@ -3059,7 +3059,7 @@
       "github": "https://github.com/ropensci/NLMR",
       "status": "active",
       "onboarding": "https://github.com/ropensci/onboarding/issues/188",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/NLMR",
       "ropensci_category": "geospatial"
@@ -3204,8 +3204,8 @@
     },
     {
       "name": "osfr",
-      "description": "R Interface to OSF",
-      "details": "Manage your projects and access open research materials and data on OSF.",
+      "description": "Interface to the Open Science Framework (OSF)",
+      "details": "An interface for interacting with OSF (<https://osf.io>). osfr \n    enables you to access open research materials and data, or create and\n    manage your own private or public projects.",
       "maintainer": "Aaron Wolen",
       "keywords": "",
       "github": "https://github.com/ropensci/osfr",
@@ -5368,5 +5368,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-01-23 14:51 UTC"
+  "date": "2020-01-23 21:50 UTC"
 }
