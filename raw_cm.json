@@ -74256,7 +74256,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1.9000",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74481,6 +74481,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "openxlsx",
+        "name": "openxlsx",
+        "version": ">= 4.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openxlsx"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "osrm",
         "name": "osrm",
         "provider": {
@@ -74524,19 +74537,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "version": ">= 1.1.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
       },
       {
         "@type": "SoftwareApplication",
@@ -74592,19 +74592,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "lubridate",
-        "name": "lubridate",
-        "version": ">= 1.7.4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lubridate"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "maptools",
         "name": "maptools",
         "version": ">= 0.9.3",
@@ -74641,19 +74628,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "openxlsx",
-        "name": "openxlsx",
-        "version": ">= 4.1.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=openxlsx"
       },
       {
         "@type": "SoftwareApplication",
