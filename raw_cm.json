@@ -30865,7 +30865,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0.9000",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41845,7 +41845,7 @@
     "codeRepository": "https://github.com/ropensci/microdemic",
     "issueTracker": "https://github.com/ropensci/microdemic/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.3.9110",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41866,6 +41866,12 @@
         "familyName": "Chamberlain",
         "email": "myrmecocystus+r@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Christopher",
+        "familyName": "Baker",
+        "email": "chriscrewbaker@gmail.com"
       }
     ],
     "maintainer": [
@@ -41969,22 +41975,23 @@
         "sameAs": "https://CRAN.R-project.org/package=httpcode"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/microdemic",
-    "developmentStatus": "wip",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/microdemic",
+      "https://codecov.io/gh/ropensci/microdemic"
+    ],
+    "developmentStatus": "https://www.repostatus.org/#wip",
     "releaseNotes": "https://github.com/ropensci/microdemic/blob/master/NEWS.md",
-    "fileSize": "62.155KB",
+    "fileSize": "73.362KB",
     "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text"],
     "relatedLink": "https://docs.ropensci.org/microdemic",
-    "contributor": [
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": [
       {
-        "@type": "Person",
-        "givenName": "Christopher",
-        "familyName": "Baker",
-        "email": "chriscrewbaker@gmail.com"
+        "@type": "Organization",
+        "name": "rOpenSci"
       }
     ],
-    "copyrightHolder": {},
-    "funder": {},
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org"
   },
@@ -66404,7 +66411,7 @@
     "codeRepository": "https://github.com/ropensci/rorcid",
     "issueTracker": "https://github.com/ropensci/rorcid/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.2.9210",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66619,9 +66626,9 @@
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/rorcid",
+    "contIntegration": "https://codecov.io/github/ropensci/rorcid?branch=master",
     "releaseNotes": "https://github.com/ropensci/rorcid/blob/master/NEWS.md",
-    "fileSize": "892.471KB",
+    "fileSize": "893.239KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["identifiers", "literature", "publications", "citations", "scholarly", "people"],
@@ -74268,7 +74275,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0",
+    "version": "0.5.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
