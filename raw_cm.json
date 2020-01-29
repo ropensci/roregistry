@@ -10447,6 +10447,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "gh",
+        "name": "gh",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gh"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "commonmark",
         "name": "commonmark",
         "provider": {
@@ -10585,7 +10597,8 @@
       "rstats"
     ],
     "relatedLink": "https://docs.ropensci.org/roblog/",
-    "issueTracker": "https://github.com/ropenscilabs/roblog/issues"
+    "issueTracker": "https://github.com/ropenscilabs/roblog/issues",
+    "developmentStatus": "https://www.repostatus.org/#wip"
   },
   {
     "@context": [
