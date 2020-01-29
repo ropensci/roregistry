@@ -15889,7 +15889,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "av",
-    "description": "Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio \n    and video in R. Generate high quality videos files by capturing images from the R graphics\n    device combined with custom audio stream. Also offers tools to convert between countless \n    audio / video formats, or convert images to video and vice versa. This package interfaces\n    directly to the C API and does not require any command line utilities.",
+    "description": "Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with \n    audio and video in R. Generates high quality video from images or R graphics with \n    custom audio. Also offers high performance tools for reading raw audio, creating\n    'spectrograms', and converting between countless audio / video formats. This package \n    interfaces directly to the C API and does not require any command line utilities.",
     "name": "av: Working with Audio and Video in R",
     "codeRepository": "https://github.com/ropensci/av",
     "relatedLink": [
@@ -15898,7 +15898,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/av/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.9000",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59269,7 +59269,6 @@
     "title": "RefManageR",
     "version": "1.2.13",
     "name": "RefManageR: Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
-    "relatedLink": ["https://docs.ropensci.org/RefManageR", "https://CRAN.R-project.org/package=RefManageR"],
     "issueTracker": "https://github.com/ropensci/RefManageR/issues",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
@@ -59475,7 +59474,8 @@
         "url": "https://arxiv.org/abs/1403.2036",
         "description": "arXiv: 1403.2036 [cs.DL]"
       }
-    ]
+    ],
+    "relatedLink": "https://CRAN.R-project.org/package=RefManageR"
   },
   {
     "@context": [
@@ -64306,18 +64306,21 @@
   },
   {
     "@context": [
-      "https://doi.org/doi:10.5063/schema/codemeta-2.0",
+      "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "@id": "https://doi.org/10.5281/zenodo.606631",
     "identifier": "RNeXML",
     "description": "Provides access to phyloinformatic data in 'NeXML' format.  The\n    package should add new functionality to R such as the possibility to\n    manipulate 'NeXML' objects in more various and refined way and compatibility\n    with 'ape' objects.",
     "name": "RNeXML: Semantically Rich I/O for the 'NeXML' Format",
     "codeRepository": "https://github.com/ropensci/RNeXML",
+    "relatedLink": [
+      "https://docs.ropensci.org/RNeXML",
+      "https://CRAN.R-project.org/package=RNeXML"
+    ],
     "issueTracker": "https://github.com/ropensci/RNeXML/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
-    "version": "2.4.0",
+    "version": "2.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -64328,7 +64331,7 @@
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
-      "name": "Central R Archive Network (CRAN)",
+      "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
     "author": [
@@ -64363,6 +64366,9 @@
         "@id": "https://orcid.org/0000-0001-9254-7318"
       }
     ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
     "maintainer": [
       {
         "@type": "Person",
@@ -64701,9 +64707,13 @@
     "applicationCategory": "DataPublication",
     "isPartOf": "https://ropensci.org",
     "keywords": ["metadata", "nexml", "phylogenetics", "linked-data"],
-    "contIntegration": "https://travis-ci.org/ropensci/RNeXML",
     "releaseNotes": "https://github.com/ropensci/RNeXML/blob/master/NEWS.md",
-    "fileSize": "217.622KB",
+    "fileSize": "303.304KB",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/RNeXML",
+      "https://ci.appveyor.com/project/cboettig/rnexml/branch/master",
+      "https://codecov.io/github/ropensci/RNeXML?branch=master"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -64745,11 +64755,7 @@
           }
         }
       }
-    ],
-    "relatedLink": ["https://docs.ropensci.org/RNeXML", "https://CRAN.R-project.org/package=RNeXML"],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {}
+    ]
   },
   {
     "@context": [
@@ -66439,7 +66445,7 @@
     "codeRepository": "https://github.com/ropensci/rorcid",
     "issueTracker": "https://github.com/ropensci/rorcid/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
