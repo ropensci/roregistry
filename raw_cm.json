@@ -39016,7 +39016,7 @@
     "codeRepository": "https://github.com/ropensci/isdparser",
     "issueTracker": "https://github.com/ropensci/isdparser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.9100",
+    "version": "0.3.3.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39049,19 +39049,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.1.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "testthat",
@@ -39125,6 +39112,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lubridate",
+        "name": "lubridate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lubridate"
       }
     ],
     "contIntegration": "https://travis-ci.org/ropensci/isdparser",
