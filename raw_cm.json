@@ -61956,13 +61956,16 @@
         "sameAs": "https://CRAN.R-project.org/package=lazyeval"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/rgbif",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rgbif",
+      "https://codecov.io/github/ropensci/rgbif?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
-    "fileSize": "5530.225KB",
+    "fileSize": "3170.722KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
-    "developmentStatus": "http://www.repostatus.org/#active",
+    "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -66437,7 +66440,7 @@
     "codeRepository": "https://github.com/ropensci/rorcid",
     "issueTracker": "https://github.com/ropensci/rorcid/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.93",
+    "version": "0.6.0.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72553,7 +72556,7 @@
     "codeRepository": "https://github.com/ropensci/sofa",
     "issueTracker": "https://github.com/ropensci/sofa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.2.9100",
+    "version": "0.3.3.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -82641,6 +82644,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=lutz"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "mockery",
+        "name": "mockery",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mockery"
       },
       {
         "@type": "SoftwareApplication",
