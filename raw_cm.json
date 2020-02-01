@@ -39010,7 +39010,7 @@
     "codeRepository": "https://github.com/ropensci/isdparser",
     "issueTracker": "https://github.com/ropensci/isdparser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.3.93",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39120,9 +39120,12 @@
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/isdparser",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/isdparser",
+      "https://codecov.io/github/ropensci/isdparser?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/isdparser/blob/master/NEWS.md",
-    "fileSize": "275.999KB",
+    "fileSize": "413.259KB",
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "keywords": ["climate", "NOAA", "data", "ISD", "stations"],
@@ -69291,7 +69294,14 @@
         "@type": "SoftwareApplication",
         "identifier": "wdman",
         "name": "wdman",
-        "version": ">= 0.2.2"
+        "version": ">= 0.2.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=wdman"
       },
       {
         "@type": "SoftwareApplication",
@@ -82336,9 +82346,10 @@
     "description": "There are a number of binary files associated with the\n    'Webdriver'/'Selenium' project (see <http://www.seleniumhq.org/download/>,\n    <https://sites.google.com/a/chromium.org/chromedriver/>,\n    <https://github.com/mozilla/geckodriver>,\n    <http://phantomjs.org/download.html> and\n    <https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver> for\n    more information). This package provides functions to download these\n    binaries and to manage processes involving them.",
     "name": "wdman: 'Webdriver'/'Selenium' Binary Manager",
     "codeRepository": "https://github.com/ropensci/wdman",
+    "relatedLink": "https://docs.ropensci.org/wdman",
     "issueTracker": "https://github.com/ropensci/wdman/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -82346,12 +82357,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -82454,9 +82459,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "subprocess",
-        "name": "subprocess",
-        "version": ">= 0.8.0"
+        "identifier": "processx",
+        "name": "processx",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=processx"
       },
       {
         "@type": "SoftwareApplication",
@@ -82490,6 +82501,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/wdman/blob/master/NEWS.md",
+    "fileSize": "17.934KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/wdman",
       "https://ci.appveyor.com/project/juyeongkim/wdman",
@@ -82504,7 +82516,12 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": "https://docs.ropensci.org/wdman"
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -83200,7 +83217,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1.96",
+    "version": "0.5.1.98",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
