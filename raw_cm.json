@@ -49470,8 +49470,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "outsider.base",
-    "description": "Base package for \"outsider\" <https://github.com/ropensci/outsider>.\n    The \"outsider\" package and its sister packages enable the installation and\n    running of external, command-line software witin R. This base package is a\n    key dependency of the user-facing \"outsider\" package as it provides the\n    utilities for interfacing between \"Docker\" <https://www.docker.com> and R.\n    It is intended that end-users of \"outsider\" do not directly work with this\n    base package.",
-    "name": "outsider.base: Base Package for \"Outsider\"",
+    "description": "Base package for 'outsider' <https://github.com/ropensci/outsider>.\n    The 'outsider' package and its sister packages enable the installation and\n    running of external, command-line software within R. This base package is a\n    key dependency of the user-facing 'outsider' package as it provides the\n    utilities for interfacing between 'Docker' <https://www.docker.com> and R.\n    It is intended that end-users of 'outsider' do not directly work with this\n    base package.",
+    "name": "outsider.base: Base Package for 'Outsider'",
     "codeRepository": "https://github.com/ropensci/outsider.base",
     "relatedLink": "https://docs.ropensci.org/outsider.base",
     "issueTracker": "https://github.com/ropensci/outsider.base/issues",
@@ -55771,7 +55771,7 @@
     "codeRepository": "https://github.com/ropensci/rbison",
     "issueTracker": "https://github.com/ropensci/rbison/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.0.9130",
+    "version": "0.8.1.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55806,19 +55806,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.1.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -55828,6 +55815,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
