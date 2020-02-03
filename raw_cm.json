@@ -27001,14 +27001,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "disk.frame",
-        "name": "disk.frame",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=disk.frame"
+        "name": "disk.frame"
       },
       {
         "@type": "SoftwareApplication",
@@ -45844,7 +45837,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/nomisr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1",
+    "version": "0.4.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -46055,6 +46048,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "snakecase",
+        "name": "snakecase",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=snakecase"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/nomisr/blob/master/NEWS.md",
@@ -47346,7 +47351,7 @@
     "description": "Setup and connect to 'OpenTripPlanner' (OTP) <http://www.opentripplanner.org/>.\n    OTP is an open source platform for multi-modal and multi-agency\n    journey planning written in 'Java'. The package allows you to manage a local version or \n    connect to remote OTP server.\n    This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
     "name": "opentripplanner: Setup and connect to 'OpenTripPlanner'",
     "codeRepository": "https://github.com/ropensci/opentripplanner",
-    "relatedLink": ["https://docs.ropensci.org/opentripplanner/", "https://CRAN.R-project.org/package=opentripplanner"],
+    "relatedLink": "https://docs.ropensci.org/opentripplanner/",
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.2.0.6",
@@ -47562,12 +47567,6 @@
       "routing",
       "opentripplanner"
     ],
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "releaseNotes": "https://github.com/ropensci/opentripplanner/blob/master/NEWS.md",
     "review": {
       "@type": "Review",
