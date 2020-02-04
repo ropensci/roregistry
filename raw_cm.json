@@ -12657,12 +12657,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "spplit",
-    "description": "Combine literature and species occurrence data. Literature\n    data sources include the Biodiversity Heritage Library, and species\n    occurrence data sources include the Global Biodiversity Information\n    Facility (GBIF; <http://www.gbif.org/>) and the Integrated Digitized\n    Biocollections (iDigBio; <https://www.idigbio.org/>). More data\n    sources to come.",
+    "description": "Combine literature and species occurrence data. Literature\n    data sources include the Biodiversity Heritage Library, and species\n    occurrence data sources include the Global Biodiversity Information\n    Facility (GBIF; <https://www.gbif.org/>) and the Integrated Digitized\n    Biocollections (iDigBio; <https://www.idigbio.org/>). More data\n    sources to come.",
     "name": "spplit: Combine Literature and Species Occurrence Data",
     "codeRepository": "https://github.com/ropenscilabs/spplit",
     "issueTracker": "https://github.com/ropenscilabs/spplit/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.5.9350",
+    "version": "0.0.6.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -12687,19 +12687,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 5.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -12832,6 +12819,7 @@
       "r",
       "r-package"
     ],
+    "relatedLink": "https://docs.ropensci.org/spplit",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -61608,7 +61596,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.0",
+    "version": "2.0.1.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61955,7 +61943,7 @@
       "https://codecov.io/github/ropensci/rgbif?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
-    "fileSize": "3170.722KB",
+    "fileSize": "3170.724KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
