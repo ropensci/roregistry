@@ -30881,7 +30881,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47767,8 +47767,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "osfr",
-    "description": "An interface for interacting with OSF (<https://osf.io>). osfr \n    enables you to access open research materials and data, or create and\n    manage your own private or public projects.",
-    "name": "osfr: Interface to the Open Science Framework (OSF)",
+    "description": "An interface for interacting with 'OSF' (<https://osf.io>). 'osfr' \n    enables you to access open research materials and data, or create and\n    manage your own private or public projects.",
+    "name": "osfr: Interface to the 'Open Science Framework' ('OSF')",
     "codeRepository": "https://github.com/ropensci/osfr",
     "issueTracker": "https://github.com/ropensci/osfr/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
@@ -48071,7 +48071,11 @@
     ],
     "relatedLink": "https://docs.ropensci.org/osfr",
     "releaseNotes": "https://github.com/ropensci/osfr/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.com/ropensci/osfr", "https://ci.appveyor.com/project/aaronwolen/osfr", "https://codecov.io/github/ropensci/osfr?branch=master"]
+    "contIntegration": [
+      "https://travis-ci.com/ropensci/osfr",
+      "https://ci.appveyor.com/project/aaronwolen/osfr",
+      "https://codecov.io/github/ropensci/osfr?branch=master"
+    ]
   },
   {
     "@context": [
@@ -66426,7 +66430,7 @@
     "codeRepository": "https://github.com/ropensci/rorcid",
     "issueTracker": "https://github.com/ropensci/rorcid/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.95",
+    "version": "0.6.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66643,7 +66647,7 @@
     ],
     "contIntegration": "https://codecov.io/github/ropensci/rorcid?branch=master",
     "releaseNotes": "https://github.com/ropensci/rorcid/blob/master/NEWS.md",
-    "fileSize": "893.241KB",
+    "fileSize": "894.478KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["identifiers", "literature", "publications", "citations", "scholarly", "people"],
@@ -70836,7 +70840,7 @@
     "codeRepository": "https://github.com/ropensci/rWBclimate",
     "issueTracker": "http://github.com/ropensci/rWBclimate/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4.99",
+    "version": "0.1.5.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71360,7 +71364,7 @@
     "description": "Access Sea Around Us (<http://www.seaaroundus.org/>) fish \n    catch data, including tools for visualizing the data.",
     "name": "seaaroundus: Sea Around Us API Wrapper",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.2.1.9210",
+    "version": "1.2.2.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71401,7 +71405,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 6.1.0",
+        "version": ">= 7.0.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -71563,7 +71567,12 @@
     "releaseNotes": "https://github.com/ropensci/seaaroundus/blob/master/NEWS.md",
     "fileSize": "12.005KB",
     "contributor": {},
-    "copyrightHolder": {},
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Sea Around Us"
+      }
+    ],
     "funder": {}
   },
   {
@@ -81175,7 +81184,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1.93",
+    "version": "0.4.1.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
