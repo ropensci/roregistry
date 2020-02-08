@@ -28234,7 +28234,7 @@
     "codeRepository": "https://github.com/ropensci/EML",
     "issueTracker": "https://github.com/ropensci/EML/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -28325,15 +28325,8 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "taxize",
-        "name": "taxize",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=taxize"
+        "identifier": "taxadb",
+        "name": "taxadb"
       },
       {
         "@type": "SoftwareApplication",
@@ -28484,7 +28477,7 @@
         "@type": "SoftwareApplication",
         "identifier": "emld",
         "name": "emld",
-        "version": ">= 0.0.0.9900",
+        "version": ">= 0.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -28559,7 +28552,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
-    "fileSize": "491.59KB",
+    "fileSize": "491.202KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/EML",
       "https://ci.appveyor.com/project/cboettig/eml",
@@ -28574,7 +28567,10 @@
       "rstats",
       "r-package"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=EML", "https://docs.ropensci.org/EML"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=EML",
+      "https://docs.ropensci.org/EML"
+    ],
     "funder": {},
     "releaseNotes": "https://github.com/ropensci/EML/blob/master/NEWS.md"
   },
@@ -76119,7 +76115,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.91.94",
+    "version": "0.9.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76252,6 +76248,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -76550,7 +76558,7 @@
       "https://codecov.io/github/ropensci/taxize?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/taxize/blob/master/NEWS.md",
-    "fileSize": "1465.429KB",
+    "fileSize": "1446.072KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -76578,7 +76586,7 @@
       },
       {
         "@type": "SoftwareSourceCode",
-        "datePublished": "2019",
+        "datePublished": "2020",
         "author": [
           {
             "@type": "Person",
@@ -76663,7 +76671,7 @@
         ],
         "name": "taxize: Taxonomic information from around the web",
         "url": "https://github.com/ropensci/taxize",
-        "description": "R package version 0.9.9"
+        "description": "R package version 0.9.92"
       }
     ],
     "applicationCategory": "Taxonomy",
