@@ -73320,7 +73320,7 @@
     "codeRepository": "https://github.com/ropensci/spocc",
     "issueTracker": "https://github.com/ropensci/spocc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.7.93",
+    "version": "1.0.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73578,9 +73578,13 @@
         "sameAs": "https://CRAN.R-project.org/package=wicket"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/spocc",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/spocc",
+      "https://ci.appveyor.com/project/sckott/spocc",
+      "https://codecov.io/github/ropensci/spocc?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/spocc/blob/master/NEWS.md",
-    "fileSize": "5863.76KB",
+    "fileSize": "245.11KB",
     "funder": [
       {
         "@type": "Organization",
