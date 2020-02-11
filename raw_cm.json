@@ -56423,7 +56423,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "Rclean",
     "description": "To create clearer, more concise code provides this\n\t     toolbox helps coders to isolate the essential parts of a\n\t     script that produces a chosen result, such as an object,\n\t     tables and figures written to disk.",
@@ -56582,8 +56585,14 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/Rclean/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.org/MKLau/Rclean", "https://codecov.io/github/MKLau/Rclean?branch=master"],
-    "developmentStatus": ["http://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"]
+    "contIntegration": [
+      "https://travis-ci.org/MKLau/Rclean",
+      "https://codecov.io/github/MKLau/Rclean?branch=master"
+    ],
+    "developmentStatus": [
+      "http://www.repostatus.org/#active",
+      "https://www.tidyverse.org/lifecycle/#maturing"
+    ]
   },
   {
     "@context": [
@@ -76766,7 +76775,7 @@
       "https://codecov.io/github/ropensci/taxize?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/taxize/blob/master/NEWS.md",
-    "fileSize": "1446.094KB",
+    "fileSize": "1302.035KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
