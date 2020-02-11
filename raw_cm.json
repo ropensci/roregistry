@@ -33680,7 +33680,7 @@
     "codeRepository": "https://github.com/ropensci/gistr",
     "issueTracker": "https://github.com/ropensci/gistr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.91",
+    "version": "0.5.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40771,7 +40771,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56423,6 +56423,169 @@
     }
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "Rclean",
+    "description": "To create clearer, more concise code provides this\n\t     toolbox helps coders to isolate the essential parts of a\n\t     script that produces a chosen result, such as an object,\n\t     tables and figures written to disk.",
+    "name": "Rclean: A Tool for Writing Cleaner, More Transparent Code",
+    "codeRepository": "https://github.com/ropensci/Rclean",
+    "issueTracker": "https://github.com/MKLau/Rclean/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "1.1.7",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.2",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Lau",
+        "email": "matthewklau@fas.harvard.edu"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Lau",
+        "email": "matthewklau@fas.harvard.edu"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "roxygen2",
+        "name": "roxygen2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "igraph",
+        "name": "igraph",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=igraph"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "CodeDepends",
+        "name": "CodeDepends",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://github.com/MKLau/CodeDepends"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "Rgraphviz",
+        "name": "Rgraphviz",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Rgraphviz.html"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "clipr",
+        "name": "clipr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=clipr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "styler",
+        "name": "styler",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=styler"
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/Rclean/blob/master/NEWS.md",
+    "contIntegration": ["https://travis-ci.org/MKLau/Rclean", "https://codecov.io/github/MKLau/Rclean?branch=master"],
+    "developmentStatus": ["http://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"]
+  },
+  {
     "@context": [
       "http://purl.org/codemeta/2.0",
       "http://schema.org"
@@ -71165,7 +71328,7 @@
     "codeRepository": "https://github.com/ropensci/scrubr",
     "issueTracker": "https://github.com/ropensci/scrubr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.3.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81246,7 +81409,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1.94",
+    "version": "0.4.1.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
