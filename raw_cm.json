@@ -32476,7 +32476,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonlint",
     "issueTracker": "https://github.com/ropensci/geojsonlint/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1.93",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32555,7 +32555,6 @@
         "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
-        "version": ">= 0.9.6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -32624,9 +32623,12 @@
         "sameAs": "https://CRAN.R-project.org/package=V8"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/geojsonlint",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/geojsonlint",
+      "https://codecov.io/github/ropensci/geojsonlint?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/geojsonlint/blob/master/NEWS.md",
-    "fileSize": "882.679KB",
+    "fileSize": "881.796KB",
     "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema"],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
