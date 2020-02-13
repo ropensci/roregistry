@@ -32476,7 +32476,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonlint",
     "issueTracker": "https://github.com/ropensci/geojsonlint/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.9100",
+    "version": "0.3.1.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52689,7 +52689,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/plotly/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.9.1.9000",
+    "version": "4.9.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56443,25 +56443,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Matthew",
-        "familyName": "Lau",
-        "email": "matthewklau@fas.harvard.edu"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Matthew",
-        "familyName": "Lau",
-        "email": "matthewklau@fas.harvard.edu"
-      }
-    ],
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
@@ -56587,13 +56568,35 @@
     ],
     "releaseNotes": "https://github.com/ropensci/Rclean/blob/master/NEWS.md",
     "contIntegration": [
-      "https://travis-ci.org/MKLau/Rclean",
-      "https://codecov.io/github/MKLau/Rclean?branch=master"
+      "https://travis-ci.org/ROpenSci/Rclean",
+      "https://codecov.io/github/ROpenSci/Rclean?branch=master"
     ],
     "developmentStatus": [
       "http://www.repostatus.org/#active",
       "https://www.tidyverse.org/lifecycle/#maturing"
-    ]
+    ],
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Lau",
+        "email": "matthewklau@fas.harvard.edu",
+        "@id": "https://orcid.org/0000-0003-3758-2406"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Lau",
+        "email": "matthewklau@fas.harvard.edu",
+        "@id": "https://orcid.org/0000-0003-3758-2406"
+      }
+    ],
+    "fileSize": "315.665KB"
   },
   {
     "@context": [
@@ -61840,7 +61843,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.1.94",
+    "version": "2.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62187,7 +62190,7 @@
       "https://codecov.io/github/ropensci/rgbif?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
-    "fileSize": "3170.724KB",
+    "fileSize": "3163.538KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
