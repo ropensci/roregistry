@@ -1,0 +1,27 @@
+os: linux
+language: r
+cache: packages
+latex: false
+pandoc: false
+
+install:
+  - R -e 'install.packages("remotes")'
+  - R -e 'remotes::install_github("jeroen/betty")'
+
+script:
+  - git config --global user.name "rOpenSci"
+  - git config --global user.email "info@ropensci.org"
+  - R -e 'betty::sync_ropensci_jenkins()'
+  - R -e 'betty::sync_ropensci_docs()'
+
+addons:
+  apt:
+    packages: 
+      - libgit2-dev
+      - libxml2-dev
+    sources:
+      - sourceline: 'ppa:cran/libgit2'
+
+branches:
+  only:
+  - gh-pages
