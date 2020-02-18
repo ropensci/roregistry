@@ -1917,6 +1917,19 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "dbparser",
+      "description": "'DrugBank' Database XML Parser",
+      "details": "This tool is for parsing the 'DrugBank' XML database <http://drugbank.ca/>. The parsed \n    data are then returned in a proper 'R' dataframe with the ability to save \n    them in a given database.",
+      "maintainer": "Mohammed Ali",
+      "keywords": "",
+      "github": "https://github.com/ropensci/dbparser",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/dbparser"
+    },
+    {
       "name": "DoOR.data",
       "description": "A DoOR to the Complete Olfactome",
       "details": "This is a data package providing Drosophila odorant response data for\n    DoOR.functions. See URLs for the original and the DoOR 2.0 publications.",
@@ -2793,7 +2806,7 @@
     {
       "name": "lightr",
       "description": "Read Spectrometric Data and Metadata",
-      "details": "Parse various reflectance/transmittance/absorbance spectra file\n    formats to extract spectral data and metadata, as described in Gruson, White\n    & Maia (2019) <doi:10.21105/joss.01857>.\n    This package has been peer-reviewed by rOpenSci (v. 0.1).",
+      "details": "Parse various reflectance/transmittance/absorbance spectra file\n    formats to extract spectral data and metadata, as described in Gruson, White\n    & Maia (2019) <doi:10.21105/joss.01857>. Among other formats, it can import\n    files from Avantes <https://www.avantes.com/>, CRAIC \n    <http://www.microspectra.com/>, and OceanInsight (formerly OceanOptics) \n    <https://www.oceaninsight.com/> brands.\n    This package has been peer-reviewed by rOpenSci (v. 0.1).",
       "maintainer": "Hugo Gruson",
       "keywords": "file-import, reproducibility, reproducible-research, reproducible-science, spectral-data, spectroscopy",
       "github": "https://github.com/ropensci/lightr",
@@ -5368,5 +5381,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-02-18 14:49 UTC"
+  "date": "2020-02-18 21:49 UTC"
 }
