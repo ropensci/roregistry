@@ -24386,7 +24386,7 @@
     "codeRepository": "https://github.com/ropensci/crevents",
     "issueTracker": "https://github.com/ropensci/crevents/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "0.1.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24494,7 +24494,8 @@
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
-    }
+    },
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": [
@@ -26326,13 +26327,16 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dbparser/blob/master/NEWS.md",
-    "fileSize": "484.921KB",
+    "fileSize": "484.955KB",
     "contIntegration": "https://travis-ci.org/Dainanahan/dbparser",
     "developmentStatus": [
       "https://www.repostatus.org/#active",
       "https://www.tidyverse.org/lifecycle/#stable"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=dbparser",
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=dbparser",
+      "https://docs.ropensci.org/dbparser"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
