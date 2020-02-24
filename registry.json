@@ -2349,8 +2349,8 @@
     },
     {
       "name": "ghql",
-      "description": "General Purpose GraphQL Client",
-      "details": "General purpose GraphQL client.",
+      "description": "General Purpose 'GraphQL' Client",
+      "details": "A 'GraphQL' client, with an R6 interface for initializing\n    a connection to a 'GraphQL' instance, and methods for constructing\n    queries, including fragments and parameterized queries. Queries\n    are checked with the 'libgraphqlparser' C++ parser via the\n    'gaphql' package.",
       "maintainer": "Scott Chamberlain",
       "keywords": "API, curl, data, GraphQL, http, web-services",
       "github": "https://github.com/ropensci/ghql",
@@ -4640,6 +4640,20 @@
       "ropensci_category": "data-access"
     },
     {
+      "name": "seasl",
+      "description": "Parse Citation Style Language ('CSL') Texts",
+      "details": "Parse 'CSL' Styles (<https://citationstyles.org>).",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "citations, literature, parse, style, text-ming",
+      "github": "https://github.com/ropensci/seasl",
+      "status": "wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/seasl",
+      "ropensci_category": "literature"
+    },
+    {
       "name": "skimr",
       "description": "Compact and Flexible Summaries of Data",
       "details": "A simple to use summary function that can be used\n    with pipes and displays nicely in the console. The default summary\n    statistics may be modified by the user as can the default formatting.\n    Support for data frames and vectors is included, and users can\n    implement their own skim methods for specific object types as\n    described in a vignette. Default summaries include support for inline\n    spark graphs. Instructions for managing these on specific operating\n    systems are given in the \"Using skimr\" vignette and the README.",
@@ -5381,5 +5395,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-02-24 14:49 UTC"
+  "date": "2020-02-24 21:49 UTC"
 }

@@ -33490,8 +33490,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "ghql",
-    "description": "General purpose GraphQL client.",
-    "name": "ghql: General Purpose GraphQL Client",
+    "description": "A 'GraphQL' client, with an R6 interface for initializing\n    a connection to a 'GraphQL' instance, and methods for constructing\n    queries, including fragments and parameterized queries. Queries\n    are checked with the 'libgraphqlparser' C++ parser via the\n    'gaphql' package.",
+    "name": "ghql: General Purpose 'GraphQL' Client",
     "codeRepository": "https://github.com/ropensci/ghql",
     "relatedLink": "https://docs.ropensci.org/ghql",
     "issueTracker": "https://github.com/ropensci/ghql/issues",
@@ -48497,7 +48497,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.2.1",
+    "version": "0.3.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -48777,7 +48777,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/osmplotr/blob/master/NEWS",
-    "fileSize": "3774.928KB",
+    "fileSize": "7329.938KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/osmplotr",
       "https://ci.appveyor.com/project/ropensci/osmplotr",
@@ -71800,6 +71800,111 @@
       }
     ],
     "funder": {}
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "seasl",
+    "description": "Parse 'CSL' Styles (<https://citationstyles.org>).",
+    "name": "seasl: Parse Citation Style Language ('CSL') Texts",
+    "codeRepository": "https://github.com/ropensci/seasl",
+    "issueTracker": "https://github.com/ropenscilabs/seasl/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.2.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.2",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crul",
+        "name": "crul",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crul"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "hoardr",
+        "name": "hoardr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hoardr"
+      }
+    ],
+    "contIntegration": "https://travis-ci.org/ropenscilabs/seasl",
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "keywords": ["text-ming", "literature", "citations", "style", "parse"],
+    "relatedLink": "https://docs.ropensci.org/seasl/",
+    "applicationCategory": "Literature",
+    "isPartOf": "https://ropensci.org"
   },
   {
     "@context": [
