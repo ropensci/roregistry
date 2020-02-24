@@ -77653,7 +77653,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.4.0",
+    "version": "0.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -77930,6 +77930,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=usethis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
       }
     ],
     "softwareRequirements": [
@@ -77963,6 +77968,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
       },
       {
         "@type": "SoftwareApplication",
@@ -78044,7 +78061,6 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tic/blob/master/NEWS.md",
-    "fileSize": "350.164KB",
     "contIntegration": [
       "https://travis-ci.com/ropensci/tic",
       "https://ci.appveyor.com/project/ropensci/tic",
@@ -78076,7 +78092,8 @@
       "deployment",
       "r-package",
       "rstats"
-    ]
+    ],
+    "fileSize": "352.99KB"
   },
   {
     "@context": [
