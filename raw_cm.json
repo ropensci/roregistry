@@ -11614,111 +11614,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "seasl",
-    "description": "Parse 'CSL' Styles (<https://citationstyles.org>).",
-    "name": "seasl: Parse Citation Style Language ('CSL') Texts",
-    "codeRepository": "https://github.com/ropenscilabs/seasl",
-    "issueTracker": "https://github.com/ropenscilabs/seasl/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.2",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": [
-      {
-        "@type": "Organization",
-        "name": "rOpenSci"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "hoardr",
-        "name": "hoardr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hoardr"
-      }
-    ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/seasl",
-    "developmentStatus": "https://www.repostatus.org/#wip",
-    "keywords": ["text-ming", "literature", "citations", "style", "parse"],
-    "relatedLink": "https://docs.ropensci.org/seasl/",
-    "applicationCategory": "Literature",
-    "isPartOf": "https://ropensci.org"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "simpletextr",
     "description": "Simple functions for common repeatable tasks in NLP and text mining.",
     "name": "simpletextr: Simple Text Wrappers",
@@ -24397,129 +24292,6 @@
       "https://CRAN.R-project.org/package=cRegulome",
       "https://docs.ropensci.org/cRegulome"
     ]
-  },
-  {
-    "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "crevents",
-    "description": "Client for the 'Crossref' Events API\n    <https://www.eventdata.crossref.org/guide/>. The 'Crossref'\n    Events service captures discussion of scholarly works (e.g.,\n    peer-reviewed publications) in non-traditional places such\n    as blogs and social media.",
-    "name": "crevents: Client for the 'Crossref' Events API",
-    "codeRepository": "https://github.com/ropensci/crevents",
-    "issueTracker": "https://github.com/ropensci/crevents/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.2",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
-      }
-    ],
-    "contIntegration": [
-      "https://travis-ci.org/ropensci/crevents",
-      "https://ci.appveyor.com/project/sckott/crevents"
-    ],
-    "fileSize": "12.017KB",
-    "keywords": ["text-ming", "literature", "scholarly", "publications", "citations", "events", "Crossref", "tweets"],
-    "relatedLink": "https://docs.ropensci.org/crevents",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "applicationCategory": "Literature",
-    "isPartOf": "https://ropensci.org",
-    "releaseNotes": "https://github.com/ropensci/crevents/blob/master/NEWS.md",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": [
@@ -71808,10 +71580,11 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "seasl",
-    "description": "Parse 'CSL' Styles (<https://citationstyles.org>).",
-    "name": "seasl: Parse Citation Style Language ('CSL') Texts",
+    "description": "Tools for working with the Citation Style Language ('CSL')\n    (<https://citationstyles.org>), an XML-based format describing the\n    formatting of citations, notes and bibliographies. Functions are included\n    for downloading and searching for styles and locales, and loading and\n    parsing styles and locales. 'seasl' aims to help users fetch and modify\n    CSL files for work combining code and writing that requires citations.",
+    "name": "seasl: Citation Style Language ('CSL') Utilities",
     "codeRepository": "https://github.com/ropensci/seasl",
-    "issueTracker": "https://github.com/ropenscilabs/seasl/issues",
+    "relatedLink": "https://docs.ropensci.org/seasl/",
+    "issueTracker": "https://github.com/ropensci/seasl/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.0",
     "programmingLanguage": {
@@ -71899,12 +71672,11 @@
         "sameAs": "https://CRAN.R-project.org/package=hoardr"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/seasl",
-    "developmentStatus": "https://www.repostatus.org/#wip",
-    "keywords": ["text-ming", "literature", "citations", "style", "parse"],
-    "relatedLink": "https://docs.ropensci.org/seasl/",
     "applicationCategory": "Literature",
-    "isPartOf": "https://ropensci.org"
+    "isPartOf": "https://ropensci.org",
+    "keywords": ["text-ming", "literature", "citations", "style", "parse"],
+    "fileSize": "13.111KB",
+    "developmentStatus": "https://www.repostatus.org/#wip"
   },
   {
     "@context": [
@@ -75732,7 +75504,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "taxa",
-    "description": "Provides taxonomic classes for\n    groupings of taxonomic names without data, and those\n    with data. Methods provided are \"taxonomically aware\", in\n    that they know about ordering of ranks, and methods that\n    filter based on taxonomy also filter associated data.",
+    "description": "Provides taxonomic classes for\n    groupings of taxonomic names without data, and those\n    with data. Methods provided are \"taxonomically aware\", in\n    that they know about ordering of ranks, and methods that\n    filter based on taxonomy also filter associated data. \n    This package is described in the publication: \"Taxa: An R \n    package implementing data standards and methods for \n    taxonomic data\", Zachary S.L. Foster, Scott Chamberlain,  \n    Niklaus J. Grünwald (2018) <doi:10.12688/f1000research.14013.2>.",
     "name": "taxa: Taxonomic Classes",
     "codeRepository": "https://github.com/ropensci/taxa",
     "issueTracker": "https://github.com/ropensci/taxa/issues",
