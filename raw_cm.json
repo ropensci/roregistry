@@ -71354,227 +71354,6 @@
   },
   {
     "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "seaaroundus",
-    "description": "Access Sea Around Us (<http://www.seaaroundus.org/>) fish \n    catch data, including tools for visualizing the data.",
-    "name": "seaaroundus: Sea Around Us API Wrapper",
-    "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.2.2.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.2",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.2 (2019-12-12)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Central R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Robert Scott",
-        "familyName": "Reis",
-        "email": "reis.robert.s@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 7.0.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.2.2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "version": ">= 0.4.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "grid",
-        "name": "grid"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "scales",
-        "name": "scales",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=scales"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "maps",
-        "name": "maps",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=maps"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "wicket",
-        "name": "wicket",
-        "version": ">= 0.4.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=wicket"
-      }
-    ],
-    "codeRepository": "https://github.com/ropensci/seaaroundus",
-    "contIntegration": "https://travis-ci.org/ropensci/seaaroundus",
-    "releaseNotes": "https://github.com/ropensci/seaaroundus/blob/master/NEWS.md",
-    "fileSize": "12.005KB",
-    "contributor": {},
-    "copyrightHolder": [
-      {
-        "@type": "Organization",
-        "name": "Sea Around Us"
-      }
-    ],
-    "funder": {}
-  },
-  {
-    "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
@@ -77530,7 +77309,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.4.0.9000",
+    "version": "0.5.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -77694,6 +77473,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "gh",
+        "name": "gh",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gh"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "git2r",
         "name": "git2r",
         "provider": {
@@ -77742,6 +77533,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rcmdcheck",
         "name": "rcmdcheck",
         "provider": {
@@ -77775,6 +77578,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rprojroot"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sodium",
+        "name": "sodium",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sodium"
       },
       {
         "@type": "SoftwareApplication",
@@ -77970,7 +77785,7 @@
       "r-package",
       "rstats"
     ],
-    "fileSize": "352.99KB"
+    "fileSize": "362.139KB"
   },
   {
     "@context": [
