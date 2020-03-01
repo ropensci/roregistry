@@ -15542,11 +15542,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/ffmpeg"
+        "identifier": "https://sysreqs.r-hub.io/get/libav"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libav"
+        "identifier": "https://sysreqs.r-hub.io/get/ffmpeg"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/av/blob/master/NEWS",
@@ -21951,11 +21951,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libprotobuf"
+        "identifier": "https://sysreqs.r-hub.io/get/protobuf-compiler"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/protobuf-compiler"
+        "identifier": "https://sysreqs.r-hub.io/get/libprotobuf"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/cld3/blob/master/NEWS",
@@ -23858,11 +23858,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
+        "identifier": "https://sysreqs.r-hub.io/get/gdal"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/gdal"
+        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/CoordinateCleaner/blob/master/NEWS.md",
@@ -33646,11 +33646,7 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libssh2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/git"
+        "identifier": "https://sysreqs.r-hub.io/get/openssl"
       },
       {
         "@type": "SoftwareApplication",
@@ -33658,7 +33654,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/openssl"
+        "identifier": "https://sysreqs.r-hub.io/get/libssh2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/git"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/git2r/blob/master/NEWS",
@@ -42395,18 +42395,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/glib"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/cairo"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/pango"
       },
       {
@@ -42415,11 +42403,23 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/atk"
+        "identifier": "https://sysreqs.r-hub.io/get/glib"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/libproj"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/cairo"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/atk"
       },
       {
         "@type": "SoftwareApplication",
@@ -45220,11 +45220,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
+        "identifier": "https://sysreqs.r-hub.io/get/openssl"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/java"
+        "identifier": "https://sysreqs.r-hub.io/get/libgeos"
       },
       {
         "@type": "SoftwareApplication",
@@ -45232,15 +45232,7 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libudunits2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libxml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/openssl"
+        "identifier": "https://sysreqs.r-hub.io/get/java"
       },
       {
         "@type": "SoftwareApplication",
@@ -45248,11 +45240,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libxml2"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/libproj"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgeos"
+        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libudunits2"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/nlrx/blob/master/NEWS.md",
@@ -57413,11 +57413,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
+        "identifier": "https://sysreqs.r-hub.io/get/gdal"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/gdal"
+        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rdefra/blob/master/NEWS.md",
@@ -64303,7 +64303,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/RNeXML/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
-    "version": "2.4.2",
+    "version": "2.4.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78959,15 +78959,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/python-2.7"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/gdal"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libgdal"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tiler/blob/master/NEWS.md",
