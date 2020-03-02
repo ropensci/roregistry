@@ -10255,7 +10255,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "roblog",
     "description": "It provides templates for roweb2 blogging and help\n    for a GitHub forking workflow.",
@@ -25033,7 +25036,7 @@
     "relatedLink": "https://docs.ropensci.org/cyphr",
     "issueTracker": "https://github.com/ropensci/cyphr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -83486,7 +83489,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
