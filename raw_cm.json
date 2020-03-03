@@ -44238,7 +44238,7 @@
     "codeRepository": "https://github.com/ropensci/natserv",
     "issueTracker": "https://github.com/ropensci/natserv/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.91",
+    "version": "0.3.0.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59828,7 +59828,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "refsplitr",
     "description": "Tools to parse and organize reference records downloaded from the \n    'Web of Science' citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
-    "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with 'Web of Science' data. ",
+    "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with 'Web of Science' data ",
     "codeRepository": "https://github.com/ropensci/refsplitr",
     "issueTracker": "https://github.com/ropensci/refsplitr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -60047,8 +60047,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "RecordLinkage",
-        "name": "RecordLinkage"
+        "identifier": "stringdist",
+        "name": "stringdist",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringdist"
       },
       {
         "@type": "SoftwareApplication",
@@ -60075,7 +60082,7 @@
         "sameAs": "https://CRAN.R-project.org/package=sna"
       }
     ],
-    "fileSize": "4869.521KB",
+    "fileSize": "3695.452KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/refsplitr",
       "https://coveralls.io/github/ropensci/refsplitr?branch=master"
