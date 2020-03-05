@@ -30634,6 +30634,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=lwgeom"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "progress",
+        "name": "progress",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=progress"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/FedData/blob/master/NEWS.md",
@@ -65155,7 +65179,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.94",
+    "version": "0.9.5.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65174,7 +65198,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "contributor": [
@@ -65224,7 +65249,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "softwareSuggestions": [
@@ -65232,7 +65258,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 6.1.1",
+        "version": ">= 7.0.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -65621,7 +65647,12 @@
     "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NCDC", "NOAA", "tornadoe", "seaice", "ISD"],
     "relatedLink": "https://docs.ropensci.org/rnoaa",
     "copyrightHolder": {},
-    "funder": {}
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ]
   },
   {
     "@context": [
