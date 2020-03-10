@@ -14319,10 +14319,10 @@
     "description": "Cache mocked 'HTTP' requests, leveraging 'webmockr'\n    for the 'HTTP' request matching.",
     "name": "webmiddens: Cache Mocked 'HTTP' Requests",
     "codeRepository": "https://github.com/ropenscilabs/webmiddens",
-    "relatedLink": "https://ropensci.github.io/http-testing-book/",
-    "issueTracker": "https://github.com/ropensci/webmiddens/issues",
+    "relatedLink": ["https://ropensci.github.io/http-testing-book/", "https://docs.ropensci.org/webmiddens/"],
+    "issueTracker": "https://github.com/ropenscilabs/webmiddens/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9100",
+    "version": "0.0.2.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14357,19 +14357,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.1.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "testthat",
@@ -14423,9 +14410,10 @@
     ],
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "fakeweb", "http-mocking", "testing", "testing-tools", "tdd"],
+    "keywords": ["http", "https", "API", "curl", "mock", "mocking", "fakeweb", "http-mocking", "testing", "testing-tools", "tdd"],
     "releaseNotes": "https://github.com/ropenscilabs/webmiddens/blob/master/NEWS.md",
-    "developmentStatus": "https://www.repostatus.org/#wip"
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "contIntegration": "https://travis-ci.com/ropenscilabs/webmiddens"
   },
   {
     "@context": [
@@ -62001,7 +61989,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.2.0",
+    "version": "2.2.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
