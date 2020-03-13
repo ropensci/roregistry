@@ -4663,110 +4663,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "emldown",
-    "description": "EML (Ecological Metadata Language) is a standard for writing\n    metadata, designed for ecological data. This package takes a EML document and\n    creates a .html website that describes it.",
-    "name": "emldown: Create beautiful visualizations of an EML document",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.5",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.3",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com"
-      }
-    ],
-    "softwareSuggestions": [],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.3.1"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xslt",
-        "name": "xslt",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xslt"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "EML",
-        "name": "EML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=EML"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "leaflet",
-        "name": "leaflet",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=leaflet"
-      }
-    ],
-    "codeRepository": "https://github.com/ropenscilabs/emldown",
-    "readme": "https://github.com/ropenscilabs/emldown/blob/master/README.md",
-    "keywords": [
-      "eml-metadata",
-      "eml",
-      "r",
-      "r-package",
-      "rstats"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "feetures",
     "description": "Feature flags.",
     "name": "feetures: Feature Flags",
@@ -5108,7 +5004,8 @@
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
     ],
-    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md"
+    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md",
+    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats"]
   },
   {
     "@context": [
@@ -5187,7 +5084,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/geojsonrewind/blob/master/README.md"
   },
   {
     "@context": [
@@ -24458,7 +24356,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1.9100",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24495,7 +24393,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 6.1.1",
+        "version": ">= 7.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24534,7 +24432,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.3.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24547,7 +24444,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24560,7 +24456,6 @@
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
-        "version": ">= 1.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24573,7 +24468,6 @@
         "@type": "SoftwareApplication",
         "identifier": "pdftools",
         "name": "pdftools",
-        "version": ">= 1.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24586,7 +24480,6 @@
         "@type": "SoftwareApplication",
         "identifier": "hoardr",
         "name": "hoardr",
-        "version": ">= 0.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -50204,7 +50097,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "parzer",
-    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds.",
+    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. Code here originally inspired from code written by\n    Jeffrey D. Bogan (<http://bit.ly/CLongLatString>), but then\n    completely re-written.",
     "name": "parzer: Parse Messy Geographic Coordinates",
     "codeRepository": "https://github.com/ropensci/parzer",
     "relatedLink": "https://docs.ropensci.org/parzer/",
@@ -61648,7 +61541,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.2.0.91",
+    "version": "2.2.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
