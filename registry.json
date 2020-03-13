@@ -3271,7 +3271,7 @@
     {
       "name": "parzer",
       "description": "Parse Messy Geographic Coordinates",
-      "details": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. Code here originally inspired from code written by\n    Jeffrey D. Bogan (<http://bit.ly/CLongLatString>), but then\n    completely re-written.",
+      "details": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. C++ code herein originally inspired from code\n    written by Jeffrey D. Bogan (<http://bit.ly/CLongLatString>),\n    but then completely re-written.",
       "maintainer": "Scott Chamberlain",
       "keywords": "coordinates, data, geospatial, latitude, longitude, parser",
       "github": "https://github.com/ropensci/parzer",
@@ -3478,11 +3478,11 @@
     {
       "name": "pubchunks",
       "description": "Fetch Sections of XML Scholarly Articles",
-      "details": "Get chunks of XML scholarly articles without \n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull \n    out the information you want. Works with outputs from \n    package 'fulltext', 'xml2' package documents, and file paths to \n    XML documents.",
+      "details": "Get chunks of XML scholarly articles without\n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull\n    out the information you want. Works with outputs from\n    package 'fulltext', 'xml2' package documents, and file\n    paths to XML documents.",
       "maintainer": "Scott Chamberlain",
       "keywords": "citations, full-text, literature, pdf, publications, TDM, text-ming, xml",
       "github": "https://github.com/ropensci/pubchunks",
-      "status": "active",
+      "status": "wip",
       "onboarding": "",
       "on_cran": true,
       "on_bioc": false,
@@ -5324,5 +5324,5 @@
       "ropensci_category": "taxonomy"
     }
   ],
-  "date": "2020-03-13 14:49 UTC"
+  "date": "2020-03-13 21:50 UTC"
 }

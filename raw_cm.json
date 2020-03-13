@@ -2490,7 +2490,7 @@
     "codeRepository": "https://github.com/ropenscilabs/conditionz",
     "issueTracker": "http://github.com/ropenscilabs/conditionz/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9100",
+    "version": "0.1.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2570,7 +2570,7 @@
     "keywords": ["condition", "condition-control", "warning", "message", "r", "rstats", "conditions", "r-package"],
     "releaseNotes": "https://github.com/ropenscilabs/conditionz/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/conditionz/blob/master/README.md",
-    "fileSize": "6.621KB",
+    "fileSize": "7.225KB",
     "contIntegration": [
       "https://travis-ci.com/ropenscilabs/conditionz",
       "https://codecov.io/github/ropenscilabs/conditionz?branch=master"
@@ -2581,7 +2581,8 @@
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
-    }
+    },
+    "relatedLink": "https://docs.ropensci.org/conditionz/"
   },
   {
     "@context": [
@@ -24356,7 +24357,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.3.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24425,6 +24426,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -30978,7 +30991,7 @@
     "codeRepository": "https://github.com/ropensci/fulltext",
     "issueTracker": "https://github.com/ropensci/fulltext/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.0.91",
+    "version": "1.4.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31015,7 +31028,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 7.0.2",
+        "version": ">= 7.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -50100,7 +50113,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "parzer",
-    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. Code here originally inspired from code written by\n    Jeffrey D. Bogan (<http://bit.ly/CLongLatString>), but then\n    completely re-written.",
+    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. C++ code herein originally inspired from code\n    written by Jeffrey D. Bogan (<http://bit.ly/CLongLatString>),\n    but then completely re-written.",
     "name": "parzer: Parse Messy Geographic Coordinates",
     "codeRepository": "https://github.com/ropensci/parzer",
     "relatedLink": "https://docs.ropensci.org/parzer/",
@@ -50123,7 +50136,13 @@
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Bogan"
+      }
+    ],
     "copyrightHolder": {},
     "funder": [
       {
@@ -53870,12 +53889,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "pubchunks",
-    "description": "Get chunks of XML scholarly articles without \n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull \n    out the information you want. Works with outputs from \n    package 'fulltext', 'xml2' package documents, and file paths to \n    XML documents.",
+    "description": "Get chunks of XML scholarly articles without\n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull\n    out the information you want. Works with outputs from\n    package 'fulltext', 'xml2' package documents, and file\n    paths to XML documents.",
     "name": "pubchunks: Fetch Sections of XML Scholarly Articles",
     "codeRepository": "https://github.com/ropensci/pubchunks",
     "issueTracker": "https://github.com/ropensci/pubchunks/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9100",
+    "version": "0.2.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53967,9 +53986,12 @@
         "sameAs": "https://CRAN.R-project.org/package=rcrossref"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/pubchunks",
-    "developmentStatus": "concept",
-    "fileSize": "424.23KB",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/pubchunks",
+      "https://codecov.io/gh/ropensci/pubchunks"
+    ],
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "fileSize": "424.107KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM"],
@@ -53980,10 +54002,10 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": "https://docs.ropensci.org/pubchunks",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/pubchunks"
   },
   {
     "@context": [
