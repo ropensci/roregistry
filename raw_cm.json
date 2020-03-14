@@ -50116,7 +50116,10 @@
     "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. C++ code herein originally inspired from code\n    written by Jeffrey D. Bogan (<http://bit.ly/CLongLatString>),\n    but then completely re-written.",
     "name": "parzer: Parse Messy Geographic Coordinates",
     "codeRepository": "https://github.com/ropensci/parzer",
-    "relatedLink": "https://docs.ropensci.org/parzer/",
+    "relatedLink": [
+      "https://docs.ropensci.org/parzer/",
+      "https://docs.ropensci.org/parzer"
+    ],
     "issueTracker": "https://github.com/ropensci/parzer/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.0",
@@ -50231,7 +50234,7 @@
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geospatial", "data", "latitude", "longitude", "parser", "coordinates"],
-    "fileSize": "15.18KB",
+    "fileSize": "15.288KB",
     "contIntegration": [
       "https://travis-ci.com/ropensci/parzer",
       "https://ci.appveyor.com/project/sckott/parzer",
