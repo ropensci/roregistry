@@ -55776,7 +55776,7 @@
     "codeRepository": "https://github.com/ropensci/rbraries",
     "issueTracker": "https://github.com/ropensci/rbraries/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9110",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55805,6 +55805,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -55812,7 +55824,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -55825,7 +55836,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -55871,8 +55881,11 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/rbraries",
-    "fileSize": "17.273KB",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rbraries",
+      "https://codecov.io/github/ropensci/rbraries?branch=master"
+    ],
+    "fileSize": "60.05KB",
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
     "keywords": ["http", "API", "web-services", "package", "software", "metadata"],
