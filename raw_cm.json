@@ -5085,8 +5085,7 @@
       "r",
       "rstats",
       "r-package"
-    ],
-    "readme": "https://github.com/ropenscilabs/geojsonrewind/blob/master/README.md"
+    ]
   },
   {
     "@context": [
@@ -24438,7 +24437,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
+        "sameAs": "https://github.com/ropensci/vcr"
       }
     ],
     "softwareRequirements": [
@@ -65572,26 +65571,14 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 0.2.2",
+        "version": ">= 0.5.0.92",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "webmockr",
-        "name": "webmockr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
+        "sameAs": "https://github.com/ropensci/vcr"
       }
     ],
     "softwareRequirements": [
@@ -65809,7 +65796,8 @@
         "@type": "Organization",
         "name": "rOpenSci"
       }
-    ]
+    ],
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": [
@@ -76554,7 +76542,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.93",
+    "version": "0.9.93.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81668,7 +81656,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.91",
+    "version": "0.5.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81835,14 +81823,14 @@
         "@type": "SoftwareApplication",
         "identifier": "webmockr",
         "name": "webmockr",
-        "version": ">= 0.6.0",
+        "version": ">= 0.6.0.92",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
+        "sameAs": "https://github.com/ropensci/webmockr"
       },
       {
         "@type": "SoftwareApplication",
@@ -83668,7 +83656,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.91",
+    "version": "0.6.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
