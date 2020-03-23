@@ -5085,7 +5085,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/geojsonrewind/blob/master/README.md"
   },
   {
     "@context": [
@@ -19069,7 +19070,7 @@
     "codeRepository": "https://github.com/ropensci/bowerbird",
     "issueTracker": "https://github.com/ropensci/bowerbird/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.3",
+    "version": "0.9.3.9999",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19120,6 +19121,31 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "aws.s3",
+        "name": "aws.s3",
+        "version": ">= 0.3.20",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=aws.s3"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -19141,18 +19167,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
@@ -19173,19 +19187,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "aws.s3",
-        "name": "aws.s3",
-        "version": ">= 0.3.20",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=aws.s3"
       },
       {
         "@type": "SoftwareApplication",
@@ -66754,7 +66755,7 @@
     "codeRepository": "https://github.com/ropensci/ropenaq",
     "issueTracker": "http://github.com/ropensci/ropenaq/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.8",
+    "version": "0.2.8.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
