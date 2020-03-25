@@ -56866,7 +56866,7 @@
     "codeRepository": "https://github.com/ropensci/rcoreoa",
     "issueTracker": "https://github.com/ropensci/rcoreoa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.92",
+    "version": "0.3.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56913,7 +56913,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 7.0.2",
+        "version": ">= 7.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -56969,6 +56969,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rcrossref"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -66755,7 +66767,7 @@
     "codeRepository": "https://github.com/ropensci/ropenaq",
     "issueTracker": "http://github.com/ropensci/ropenaq/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.8.9000",
+    "version": "0.2.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
