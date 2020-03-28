@@ -14094,7 +14094,7 @@
     ],
     "issueTracker": "https://github.com/ropenscilabs/webmiddens/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.94",
+    "version": "0.0.3.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14133,7 +14133,6 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
-        "version": ">= 2.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -14141,6 +14140,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       {
         "@type": "SoftwareApplication",
@@ -14172,6 +14183,7 @@
         "@type": "SoftwareApplication",
         "identifier": "webmockr",
         "name": "webmockr",
+        "version": ">= 0.6.2.91",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -47458,7 +47470,7 @@
     "relatedLink": ["https://docs.ropensci.org/opentripplanner/", "https://CRAN.R-project.org/package=opentripplanner"],
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0.9",
+    "version": "0.2.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50749,7 +50761,7 @@
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geospatial", "data", "latitude", "longitude", "parser", "coordinates"],
-    "fileSize": "16.407KB",
+    "fileSize": "16.418KB",
     "contIntegration": [
       "https://travis-ci.com/ropensci/parzer",
       "https://ci.appveyor.com/project/sckott/parzer",
@@ -76568,7 +76580,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.93.93",
+    "version": "0.9.93.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
