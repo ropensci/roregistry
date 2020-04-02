@@ -37834,7 +37834,7 @@
     "codeRepository": "https://github.com/ropensci/ijtiff",
     "issueTracker": "https://www.github.com/ropensci/ijtiff/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38170,6 +38170,11 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
         "version": ">= 2.1.0",
@@ -38191,7 +38196,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "498.979KB",
+    "fileSize": "499.064KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/ijtiff",
       "https://ci.appveyor.com/project/ropensci/ijtiff",
@@ -70140,8 +70145,9 @@
     ],
     "applicationCategory": "Genes",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["gene", "snp", "sequence", "API", "web", "api-client", "species", "dbSNP", "OpenSNP", "NCBI", "genotype"],
+    "keywords": ["gene", "snp", "sequence", "API", "web", "api-client", "species", "dbSNP", "OpenSNP", "NCBI", "genotype", "web-api", "snps", "data", "rstats", "r", "r-package"],
     "releaseNotes": "https://github.com/ropensci/rsnps/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/rsnps/blob/master/README.md",
     "fileSize": "37.101KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/rsnps",
