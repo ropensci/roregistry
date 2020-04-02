@@ -65418,7 +65418,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.98",
+    "version": "0.9.5.99",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65497,7 +65497,7 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 7.0.2",
+        "version": ">= 7.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -65654,7 +65654,7 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 0.5.0.92",
+        "version": ">= 0.5.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -80166,7 +80166,7 @@
     "codeRepository": "https://github.com/ropensci/tradestatistics",
     "issueTracker": "https://github.com/ropensci/tradestatistics/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80270,6 +80270,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 2.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -80456,11 +80457,8 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tradestatistics/blob/master/NEWS.md",
-    "fileSize": "182.136KB",
-    "contIntegration": [
-      "https://travis-ci.org/ropensci/tradestatistics",
-      "https://codecov.io/github/ropensci/tradestatistics?branch=master"
-    ],
+    "fileSize": "175.834KB",
+    "contIntegration": "https://codecov.io/github/ropensci/tradestatistics?branch=master",
     "developmentStatus": [
       "https://www.repostatus.org/#active",
       "https://www.tidyverse.org/lifecycle/#stable"
