@@ -24427,7 +24427,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1.93",
+    "version": "0.3.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24501,14 +24501,14 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 0.5.0.92",
+        "version": ">= 0.5.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/vcr"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -24582,7 +24582,7 @@
     ],
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/crminer/blob/master/NEWS.md",
-    "fileSize": "2920.178KB",
+    "fileSize": "8653.089KB",
     "relatedLink": "https://docs.ropensci.org/crminer",
     "contributor": {},
     "copyrightHolder": {},
@@ -32350,7 +32350,7 @@
       "https://codecov.io/github/ropensci/geojsonio?branch=master"
     ],
     "releaseNotes": "https://github.com/ropensci/geojsonio/blob/master/NEWS.md",
-    "fileSize": "1841.74KB",
+    "fileSize": "1841.746KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output"],
@@ -65435,7 +65435,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.99",
+    "version": "0.9.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65678,7 +65678,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/vcr"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       },
       {
         "@type": "SoftwareApplication",
@@ -80285,6 +80285,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "DT",
+        "name": "DT",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DT"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "version": ">= 2.1.0",
@@ -80384,7 +80396,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tradestatistics/blob/master/NEWS.md",
-    "fileSize": "185.736KB",
+    "fileSize": "185.993KB",
     "contIntegration": "https://codecov.io/github/ropensci/tradestatistics?branch=master",
     "developmentStatus": [
       "https://www.repostatus.org/#active",
