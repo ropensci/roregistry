@@ -38208,7 +38208,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "499.064KB",
+    "fileSize": "499.251KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/ijtiff",
       "https://ci.appveyor.com/project/ropensci/ijtiff",
@@ -72174,7 +72174,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "skimr",
-    "description": "A simple to use summary function that can be used\n    with pipes and displays nicely in the console. The default summary\n    statistics may be modified by the user as can the default formatting.\n    Support for data frames and vectors is included, and users can\n    implement their own skim methods for specific object types as\n    described in a vignette. Default summaries include support for inline\n    spark graphs. Instructions for managing these on specific operating\n    systems are given in the \"Using skimr\" vignette and the README.",
+    "description": "A simple to use summary function that can be used with pipes\n    and displays nicely in the console. The default summary statistics may\n    be modified by the user as can the default formatting.  Support for\n    data frames and vectors is included, and users can implement their own\n    skim methods for specific object types as described in a vignette.\n    Default summaries include support for inline spark graphs.\n    Instructions for managing these on specific operating systems are\n    given in the \"Using skimr\" vignette and the README.",
     "name": "skimr: Compact and Flexible Summaries of Data",
     "codeRepository": "https://github.com/ropensci/skimr",
     "issueTracker": "https://github.com/ropensci/skimr/issues",
@@ -72559,6 +72559,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
         "provider": {
@@ -72571,7 +72583,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/skimr/blob/master/NEWS.md",
-    "fileSize": "1083.745KB",
+    "fileSize": "1028.792KB",
     "contIntegration": [
       "https://travis-ci.org/ropenscilabs/skimr",
       "https://codecov.io/gh/ropenscilabs/skimr"
