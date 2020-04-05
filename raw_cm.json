@@ -36214,6 +36214,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pkgdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
       }
     ],
     "softwareRequirements": [
@@ -57757,7 +57769,7 @@
     "codeRepository": "https://github.com/ropensci/rdefra",
     "issueTracker": "https://github.com/ropensci/rdefra/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.7",
+    "version": "0.3.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
