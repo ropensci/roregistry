@@ -38078,19 +38078,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "glue",
-        "name": "glue",
-        "version": ">= 1.3.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=glue"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "graphics",
         "name": "graphics"
       },
@@ -38182,11 +38169,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
         "version": ">= 2.1.0",
@@ -38208,7 +38190,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "499.251KB",
+    "fileSize": "498.961KB",
     "contIntegration": [
       "https://travis-ci.org/ropensci/ijtiff",
       "https://ci.appveyor.com/project/ropensci/ijtiff",
@@ -38259,6 +38241,7 @@
     ],
     "relatedLink": [
       "https://CRAN.R-project.org/package=ijtiff",
+      "https://ropensci.github.io/ijtiff",
       "https://docs.ropensci.org/ijtiff",
       "https://www.github.com/ropensci/ijtiff#readme"
     ],
@@ -74859,7 +74842,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1",
+    "version": "0.5.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
