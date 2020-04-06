@@ -53006,7 +53006,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/plotly/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.9.2.1",
+    "version": "4.9.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -58049,7 +58049,10 @@
         }
       }
     ],
-    "relatedLink": ["https://docs.ropensci.org/rdefra", "https://CRAN.R-project.org/package=rdefra"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rdefra",
+      "https://CRAN.R-project.org/package=rdefra"
+    ],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -65855,9 +65858,13 @@
         "sameAs": "https://CRAN.R-project.org/package=hoardr"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropensci/rnoaa",
+    "contIntegration": [
+      "https://travis-ci.org/ropensci/rnoaa",
+      "https://ci.appveyor.com/project/sckott/rnoaa/branch/master",
+      "https://codecov.io/github/ropensci/rnoaa?branch=master"
+    ],
     "releaseNotes": "https://github.com/ropensci/rnoaa/blob/master/NEWS.md",
-    "fileSize": "1998.543KB",
+    "fileSize": "0KB",
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NCDC", "NOAA", "tornadoe", "seaice", "ISD"],
@@ -77980,7 +77987,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.6.0.9001",
+    "version": "0.6.0.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78051,6 +78058,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=base64enc"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "blogdown",
+        "name": "blogdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=blogdown"
       },
       {
         "@type": "SoftwareApplication",
