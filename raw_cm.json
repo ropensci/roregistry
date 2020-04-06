@@ -58049,7 +58049,13 @@
         }
       }
     ],
-    "relatedLink": "https://docs.ropensci.org/rdefra"
+    "relatedLink": ["https://docs.ropensci.org/rdefra", "https://CRAN.R-project.org/package=rdefra"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -74813,7 +74819,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1.9000",
+    "version": "0.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
