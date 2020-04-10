@@ -2106,6 +2106,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webmockr",
+        "name": "webmockr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webmockr"
       }
     ],
     "softwareRequirements": [
@@ -2138,13 +2150,14 @@
         "@type": "SoftwareApplication",
         "identifier": "fauxpas",
         "name": "fauxpas",
+        "version": ">= 0.2.1.94",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=fauxpas"
+        "sameAs": "https://github.com/ropensci/fauxpas"
       },
       {
         "@type": "SoftwareApplication",
@@ -29992,7 +30005,7 @@
     "codeRepository": "https://github.com/ropensci/fauxpas",
     "issueTracker": "https://github.com/ropensci/fauxpas/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9100",
+    "version": "0.2.1.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30119,14 +30132,14 @@
         "@type": "SoftwareApplication",
         "identifier": "httpcode",
         "name": "httpcode",
-        "version": ">= 0.2.0",
+        "version": ">= 0.2.9.91",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=httpcode"
+        "sameAs": "https://github.com/sckott/httpcode"
       },
       {
         "@type": "SoftwareApplication",
@@ -78576,7 +78589,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.5.0",
+    "version": "0.5.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
