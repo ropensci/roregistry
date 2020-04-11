@@ -14224,7 +14224,7 @@
     ],
     "issueTracker": "https://github.com/ropenscilabs/webmiddens/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.91",
+    "version": "0.0.3.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14313,7 +14313,7 @@
         "@type": "SoftwareApplication",
         "identifier": "webmockr",
         "name": "webmockr",
-        "version": ">= 0.6.2.91",
+        "version": ">= 0.6.2.92",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -14333,6 +14333,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=hoardr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "callr",
+        "name": "callr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=callr"
       }
     ],
     "applicationCategory": "Web",
