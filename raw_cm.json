@@ -12536,7 +12536,10 @@
     "developmentStatus": "http://www.repostatus.org/#wip"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "taxspell",
     "description": "Spell Check Taxonomic Names.",
@@ -30228,14 +30231,14 @@
         "@type": "SoftwareApplication",
         "identifier": "httpcode",
         "name": "httpcode",
-        "version": ">= 0.2.9.91",
+        "version": ">= 0.3.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/sckott/httpcode"
+        "sameAs": "https://CRAN.R-project.org/package=httpcode"
       },
       {
         "@type": "SoftwareApplication",
