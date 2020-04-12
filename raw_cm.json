@@ -2053,7 +2053,7 @@
     "codeRepository": "https://github.com/ropenscilabs/citecorp",
     "issueTracker": "https://github.com/ropenscilabs/citecorp/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.2.94",
+    "version": "0.2.2.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2150,7 +2150,7 @@
         "@type": "SoftwareApplication",
         "identifier": "fauxpas",
         "name": "fauxpas",
-        "version": ">= 0.2.1.94",
+        "version": ">= 0.3.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -16129,7 +16129,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/baRcodeR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25453,7 +25453,7 @@
     "codeRepository": "https://github.com/ropensci/DataPackageR",
     "issueTracker": "https://github.com/ropensci/DataPackageR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.15.7",
+    "version": "0.15.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30116,7 +30116,7 @@
     "codeRepository": "https://github.com/ropensci/fauxpas",
     "issueTracker": "https://github.com/ropensci/fauxpas/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1.94",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30267,7 +30267,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/fauxpas",
     "releaseNotes": "https://github.com/ropensci/fauxpas/blob/master/NEWS.md",
-    "fileSize": "28.825KB",
+    "fileSize": "0KB",
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
     "keywords": ["http", "https", "API", "web-services", "curl", "errors", "error"],
@@ -36281,7 +36281,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/hddtools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.8.3",
+    "version": "0.9.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36404,6 +36404,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
     "softwareRequirements": [
@@ -36508,6 +36520,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=readxl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "downloader",
+        "name": "downloader",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=downloader"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/hddtools/blob/master/NEWS.md",
