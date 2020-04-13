@@ -5194,6 +5194,7 @@
         "@type": "SoftwareApplication",
         "identifier": "ghql",
         "name": "ghql",
+        "version": ">= 0.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -5297,18 +5298,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
       },
       {
         "@type": "SoftwareApplication",
@@ -30116,7 +30105,7 @@
     "codeRepository": "https://github.com/ropensci/fauxpas",
     "issueTracker": "https://github.com/ropensci/fauxpas/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
