@@ -33968,11 +33968,12 @@
     "codeRepository": "https://github.com/ropensci/googleLanguageR",
     "relatedLink": [
       "http://code.markedmondson.me/googleLanguageR/",
-      "https://CRAN.R-project.org/package=googleLanguageR"
+      "https://CRAN.R-project.org/package=googleLanguageR",
+      "https://docs.ropensci.org/googleLanguageR/"
     ],
     "issueTracker": "https://github.com/ropensci/googleLanguageR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9001",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -33994,7 +33995,14 @@
         "email": "r@sunholo.com"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Muschelli",
+        "email": "muschellij2@gmail.com"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -34092,6 +34100,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "stringdist",
+        "name": "stringdist",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringdist"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
         "provider": {
@@ -34174,7 +34194,7 @@
         "@type": "SoftwareApplication",
         "identifier": "googleAuthR",
         "name": "googleAuthR",
-        "version": ">= 0.8.1",
+        "version": ">= 1.1.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -36040,18 +36060,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "curl",
-        "name": "curl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=curl"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "provider": {
@@ -36117,18 +36125,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "RCurl",
-        "name": "RCurl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RCurl"
       },
       {
         "@type": "SoftwareApplication",
@@ -47537,6 +47533,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       }
     ],
     "fileSize": "462.89KB",
