@@ -1,12 +1,18 @@
 [
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "auk",
     "description": "Extract and process bird sightings records from\n    eBird (<http://ebird.org>), an online tool for recording bird\n    observations.  Public access to the full eBird database is via the\n    eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download>\n    for access), a downloadable text file. This package is an interface to\n    AWK for extracting data from the EBD based on taxonomic, spatial, or\n    temporal filters, to produce a manageable file size that can be\n    imported into R.",
     "name": "auk: eBird Data Extraction and Processing in R",
     "codeRepository": "https://github.com/CornellLabofOrnithology/auk",
-    "relatedLink": ["http://CornellLabofOrnithology.github.io/auk/", "https://CRAN.R-project.org/package=auk"],
+    "relatedLink": [
+      "http://CornellLabofOrnithology.github.io/auk/",
+      "https://CRAN.R-project.org/package=auk"
+    ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.4.1",
@@ -284,13 +290,21 @@
     ],
     "releaseNotes": "https://github.com/CornellLabofOrnithology/auk/blob/master/NEWS.md",
     "readme": "https://github.com/CornellLabofOrnithology/auk/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/CornellLabofOrnithology/auk", "https://ci.appveyor.com/project/mstrimas/auk", "https://codecov.io/github/CornellLabofOrnithology/auk?branch=master"],
+    "contIntegration": [
+      "https://travis-ci.org/CornellLabofOrnithology/auk",
+      "https://ci.appveyor.com/project/mstrimas/auk",
+      "https://codecov.io/github/CornellLabofOrnithology/auk?branch=master"
+    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/onboarding/issues/136",
       "provider": "http://ropensci.org"
     },
-    "keywords": ["r", "ebird", "dataset"],
+    "keywords": [
+      "r",
+      "ebird",
+      "dataset"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
