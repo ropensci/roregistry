@@ -2576,8 +2576,8 @@
     {
       "name": "GSODR",
       "description": "Global Surface Summary of the Day ('GSOD') Weather Data Client",
-      "details": "Provides automated downloading, parsing, cleaning, unit conversion\n    and formatting of Global Surface Summary of the Day ('GSOD') weather data\n    from the from the USA National Centers for Environmental Information\n    ('NCEI').  Units are converted from from United States Customary System\n    ('USCS') units to International System of Units ('SI').  Stations may be\n    individually checked for number of missing days defined by the user, where\n    stations with too many missing observations are omitted.  Only stations with\n    valid reported latitude and longitude values are permitted in the final\n    data.  Additional useful elements, saturation vapour pressure ('es'), actual\n    vapour pressure ('ea') and relative humidity are calculated from the\n    original data and included in the final data set.  The resulting metadata\n    include station identification information, country, state, latitude,\n    longitude, elevation, weather observations and associated flags.  For\n    information on the 'GSOD' data from 'NCEI', please see the 'GSOD'\n    'readme.txt' file available from,\n    <http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
-      "maintainer": "Adam H. Sparks",
+      "details": "Provides automated downloading, parsing, cleaning, unit conversion\n    and formatting of Global Surface Summary of the Day ('GSOD') weather data\n    from the from the USA National Centers for Environmental Information\n    ('NCEI').  Units are converted from from United States Customary System\n    ('USCS') units to International System of Units ('SI').  Stations may be\n    individually checked for number of missing days defined by the user, where\n    stations with too many missing observations are omitted.  Only stations with\n    valid reported latitude and longitude values are permitted in the final\n    data.  Additional useful elements, saturation vapour pressure ('es'), actual\n    vapour pressure ('ea') and relative humidity ('RH') are calculated from the\n    original data using the improved August-Roche-Magnus approximation (Alduchov\n    & Eskridge 1996) and included in the final data set.  The resulting metadata\n    include station identification information, country, state, latitude,\n    longitude, elevation, weather observations and associated flags.  For\n    information on the 'GSOD' data from 'NCEI', please see the 'GSOD'\n    'readme.txt' file available from,\n    <http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
+      "maintainer": "Adam Sparks",
       "keywords": "data-access, global-weather, meteorological-data, meteorology, station-data, surface-weather, US-NCDC, US-NCEI, weather, weather-data",
       "github": "https://github.com/ropensci/GSODR",
       "status": "active",
@@ -2586,7 +2586,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/GSODR",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-04-17 07:02:34"
+      "date_last_commit": "2020-04-17 14:06:04"
     },
     {
       "name": "gtfsr",
@@ -3183,7 +3183,7 @@
     {
       "name": "natserv",
       "description": "'NatureServe' Interface",
-      "details": "Interface to 'NatureServe' (<http://www.natureserve.org>).\n    Includes methods to get data, image metadata, search taxonomic names,\n    and make maps.",
+      "details": "Interface to 'NatureServe' (<https://www.natureserve.org>).\n    Includes methods to get data, image metadata, search taxonomic names,\n    and make maps.",
       "maintainer": "Scott Chamberlain",
       "keywords": "API, maps, metadata, NatureServe, species, taxonomy, web-services",
       "github": "https://github.com/ropensci/natserv",
@@ -3193,7 +3193,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/natserv",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-03-03 18:24:48"
+      "date_last_commit": "2020-04-17 18:18:03"
     },
     {
       "name": "nbaR",
@@ -4406,7 +4406,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/ritis",
       "ropensci_category": "taxonomy",
-      "date_last_commit": "2020-03-31 17:15:37"
+      "date_last_commit": "2020-04-17 16:50:48"
     },
     {
       "name": "rjsonapi",
@@ -5015,7 +5015,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/solrium",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-04-08 16:20:46"
+      "date_last_commit": "2020-04-17 15:46:18"
     },
     {
       "name": "spatsoc",
@@ -5738,5 +5738,5 @@
       "date_last_commit": "2019-12-09 21:38:35"
     }
   ],
-  "date": "2020-04-17 14:48 UTC"
+  "date": "2020-04-17 21:48 UTC"
 }
