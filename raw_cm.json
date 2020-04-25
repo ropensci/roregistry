@@ -33768,6 +33768,10 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libgit2"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/openssl"
       },
       {
@@ -75185,6 +75189,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "geodist",
+        "name": "geodist",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=geodist"
       }
     ],
     "softwareRequirements": [
