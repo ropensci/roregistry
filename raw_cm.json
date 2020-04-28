@@ -1383,7 +1383,7 @@
     "codeRepository": "https://github.com/ropenscilabs/cchecks",
     "issueTracker": "https://github.com/ropenscilabs/cchecks/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1.9120",
+    "version": "0.1.2.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1416,7 +1416,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.5.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -1429,7 +1428,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -1449,8 +1447,10 @@
       "cran",
       "r",
       "testing",
-      "r-package"
-    ]
+      "r-package",
+      "monitoring"
+    ],
+    "relatedLink": "https://docs.ropensci.org/cchecks"
   },
   {
     "@context": [
@@ -40477,9 +40477,9 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/lightr/blob/master/NEWS.md",
-    "fileSize": "4624.772KB",
+    "fileSize": "4624.797KB",
     "contIntegration": [
-      "https://travis-ci.org/ropensci/lightr",
+      "https://travis-ci.com/ropensci/lightr",
       "https://codecov.io/github/ropensci/lightr?branch=master"
     ],
     "keywords": [
@@ -76772,7 +76772,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.95",
+    "version": "0.9.95.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
