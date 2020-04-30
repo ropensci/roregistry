@@ -57049,7 +57049,7 @@
     "codeRepository": "https://github.com/ropensci/rcoreoa",
     "issueTracker": "https://github.com/ropensci/rcoreoa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1.91",
+    "version": "0.3.1.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57222,7 +57222,10 @@
     "fileSize": "19.218KB",
     "relatedLink": "https://docs.ropensci.org/rcoreoa",
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "applicationCategory": "Literature",
+    "isPartOf": "https://ropensci.org",
+    "keywords": ["text-ming", "literature", "pdf", "publications", "citations", "full-text", "metadata"]
   },
   {
     "@context": [
@@ -83667,6 +83670,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rcdk"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "robotstxt",
+        "name": "robotstxt",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=robotstxt"
       }
     ],
     "softwareRequirements": [
@@ -83788,30 +83803,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "polite",
-        "name": "polite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=polite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rlang",
-        "name": "rlang",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/webchem/blob/master/NEWS",
