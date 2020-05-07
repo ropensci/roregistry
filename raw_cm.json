@@ -1017,6 +1017,79 @@
     "keywords": ["metadata", "archivespace", "archivesspace-api", "rstats", "r", "r-package"]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "astr",
+    "description": "Decompose and Recompose Functions.",
+    "name": "astr: Decompose and Recompose Functions",
+    "codeRepository": "https://github.com/ropenscilabs/astr",
+    "relatedLink": "https://docs.ropensci.org/astr",
+    "issueTracker": "https://github.com/ropenscilabs/astr/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.3",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "sckott@protonmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "sckott@protonmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crayon",
+        "name": "crayon",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crayon"
+      }
+    ],
+    "readme": "https://github.com/ropenscilabs/astr/blob/master/README.md",
+    "contIntegration": ["https://travis-ci.com/ropenscilabs/astr", "https://codecov.io/github/ropenscilabs/astr?branch=mastr"]
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -5138,9 +5211,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
-    ],
-    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md",
-    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats"]
+    ]
   },
   {
     "@context": [
@@ -24658,7 +24729,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.3.93",
+    "version": "0.3.4.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",

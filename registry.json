@@ -76,6 +76,20 @@
       "date_last_commit": "2018-01-28 17:59:41"
     },
     {
+      "name": "astr",
+      "description": "Decompose and Recompose Functions",
+      "details": "Decompose and Recompose Functions.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/astr",
+      "status": "concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropenscilabs/astr",
+      "date_last_commit": "2020-05-06 21:43:45"
+    },
+    {
       "name": "bindertools",
       "description": "Create requisite files and launch binder with mybinder.org",
       "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
@@ -420,7 +434,7 @@
       "description": "Recodes Sex/Gender Descriptions Into A Standard Set",
       "details": "gendercodeR allows for simple recoding of freetext gender responses.",
       "maintainer": "Emily Kothe",
-      "keywords": "ozunconf18, unconf",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/gendercodeR",
       "status": "concept",
       "onboarding": "",
@@ -1903,7 +1917,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/crminer",
       "ropensci_category": "literature",
-      "date_last_commit": "2020-05-06 16:48:32"
+      "date_last_commit": "2020-05-07 00:12:33"
     },
     {
       "name": "crul",
@@ -2499,7 +2513,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/git2r",
       "ropensci_category": "scalereprod",
-      "date_last_commit": "2020-05-03 10:30:06"
+      "date_last_commit": "2020-05-06 18:45:38"
     },
     {
       "name": "git2rdata",
@@ -5738,5 +5752,5 @@
       "date_last_commit": "2019-12-09 21:38:35"
     }
   ],
-  "date": "2020-05-06 21:48 UTC"
+  "date": "2020-05-07 01:03 UTC"
 }
