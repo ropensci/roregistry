@@ -1017,7 +1017,10 @@
     "keywords": ["metadata", "archivespace", "archivesspace-api", "rstats", "r", "r-package"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "astr",
     "description": "Decompose and Recompose Functions.",
@@ -1087,7 +1090,10 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/astr/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.com/ropenscilabs/astr", "https://codecov.io/github/ropenscilabs/astr?branch=mastr"]
+    "contIntegration": [
+      "https://travis-ci.com/ropenscilabs/astr",
+      "https://codecov.io/github/ropenscilabs/astr?branch=mastr"
+    ]
   },
   {
     "@context": [
