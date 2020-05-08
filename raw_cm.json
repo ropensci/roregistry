@@ -16512,145 +16512,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "bbox",
-    "description": "Doze Bboxes Doe.",
-    "name": "bbox: Doze Bboxes Doe",
-    "codeRepository": "https://github.com/ropensci/bbox",
-    "relatedLink": "https://docs.ropensci.org/bbox",
-    "issueTracker": "https://github.com/ropensci/bbox/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9100",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "version": "3.6.3",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lawn",
-        "name": "lawn",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lawn"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "geojson",
-        "name": "geojson",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=geojson"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sf",
-        "name": "sf",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sf"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      }
-    ],
-    "applicationCategory": "Geospatial",
-    "isPartOf": "https://ropensci.org",
-    "keywords": ["geospatial", "GeoJSON", "WKT", "spatial", "boundingbox"],
-    "contIntegration": [
-      "https://travis-ci.org/ropensci/bbox",
-      "https://codecov.io/gh/ropensci/bbox"
-    ],
-    "developmentStatus": "http://www.repostatus.org/#wip"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "beastier",
     "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is a command-line tool.\n    This package provides a way to call 'BEAST2' \n    from an 'R' function call.",
     "name": "beastier: Call 'BEAST2'",
@@ -24735,7 +24596,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.4.95",
+    "version": "0.3.4.97",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44570,7 +44431,7 @@
     "codeRepository": "https://github.com/ropensci/natserv",
     "issueTracker": "https://github.com/ropensci/natserv/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55052,6 +54913,18 @@
         "givenName": "O'Brien",
         "familyName": "Joseph",
         "email": "joseph.obrien@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Seneca",
+        "familyName": "Daniel",
+        "email": "seneca.danielh@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shaun",
+        "familyName": "Jackson",
+        "email": "shaunbjackson@gmail.com"
       }
     ],
     "copyrightHolder": {},
@@ -55104,15 +54977,27 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "httptest",
-        "name": "httptest",
+        "identifier": "vcr",
+        "name": "vcr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=httptest"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webmockr",
+        "name": "webmockr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webmockr"
       }
     ],
     "softwareRequirements": [
