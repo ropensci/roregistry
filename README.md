@@ -30,20 +30,20 @@ tibble::as_tibble(z$packages)
 ```
 
 ```r
-# A tibble: 388 x 13
-   name  description details maintainer keywords github status onboarding on_cran on_bioc url   ropensci_catego…
-   <chr> <chr>       <chr>   <chr>      <chr>    <chr>  <chr>  <chr>      <lgl>   <lgl>   <chr> <chr>
- 1 auk   eBird Data… "Extra… Matthew S… "datase… https… active "https://… TRUE    FALSE   http… data-access
- 2 tree… Base Class… "'tree… Guangchua… "export… https… active "https://… FALSE   TRUE    http… data-tools
- 3 apip… Package Ge… "Packa… Scott Cha… "yaml"   https… wip    ""         FALSE   FALSE   http… http-tools
- 4 arre… Arrested D… "Here … Lucy D'Ag… "unconf… https… conce… ""         FALSE   FALSE   http… data-access
- 5 aspa… Client for… "Clien… Scott Cha… "archiv… https… conce… ""         FALSE   FALSE   http… literature
- 6 astr  Decompose … "Decom… Scott Cha… ""       https… conce… ""         FALSE   FALSE   http… NA
- 7 bind… Create req… "Compu… Saras Win… "ozunco… https… conce… ""         FALSE   FALSE   http… NA
- 8 blog… Helps Edit… "More … Maëlle Sa… ""       https… wip    ""         FALSE   FALSE   http… scalereprod
- 9 cche… Client for… "Clien… Scott Cha… "cran, … https… conce… ""         FALSE   FALSE   http… scalereprod
-10 chan… A simple i… "This … Nick Gold… "ozunco… https… conce… ""         FALSE   FALSE   http… scalereprod
-# … with 378 more rows, and 1 more variable: date_last_commit <chr>
+#> # A tibble: 388 x 13
+#>    name  description details maintainer keywords github status onboarding on_cran on_bioc url   ropensci_catego…
+#>    <chr> <chr>       <chr>   <chr>      <chr>    <chr>  <chr>  <chr>      <lgl>   <lgl>   <chr> <chr>
+#>  1 auk   eBird Data… "Extra… Matthew S… "datase… https… active "https://… TRUE    FALSE   http… data-access
+#>  2 tree… Base Class… "'tree… Guangchua… "export… https… active "https://… FALSE   TRUE    http… data-tools
+#>  3 apip… Package Ge… "Packa… Scott Cha… "yaml"   https… wip    ""         FALSE   FALSE   http… http-tools
+#>  4 arre… Arrested D… "Here … Lucy D'Ag… "unconf… https… conce… ""         FALSE   FALSE   http… data-access
+#>  5 aspa… Client for… "Clien… Scott Cha… "archiv… https… conce… ""         FALSE   FALSE   http… literature
+#>  6 astr  Decompose … "Decom… Scott Cha… ""       https… conce… ""         FALSE   FALSE   http… NA
+#>  7 bind… Create req… "Compu… Saras Win… "ozunco… https… conce… ""         FALSE   FALSE   http… NA
+#>  8 blog… Helps Edit… "More … Maëlle Sa… ""       https… wip    ""         FALSE   FALSE   http… scalereprod
+#>  9 cche… Client for… "Clien… Scott Cha… "cran, … https… conce… ""         FALSE   FALSE   http… scalereprod
+#> 10 chan… A simple i… "This … Nick Gold… "ozunco… https… conce… ""         FALSE   FALSE   http… scalereprod
+#> # … with 378 more rows, and 1 more variable: date_last_commit <chr>
 ```
 
 Note: we have a smaller subset of the registry data with just package names and their git urls. see <https://ropensci.github.io/roregistry/registry_urls.json>
