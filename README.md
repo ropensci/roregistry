@@ -3,7 +3,7 @@ ropensci registry
 
 __Making changes__
 
-Please bump the date and version at the top of the `registry.json` file whenver you make any change.
+Please bump the date and version at the top of the `registry.json` file whenever you make any change.
 
 __The ropensci registry__
 
