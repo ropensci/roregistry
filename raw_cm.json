@@ -761,6 +761,133 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "addressable",
+    "description": "Email Address Validation.",
+    "name": "addressable: Email Address Validation",
+    "codeRepository": "https://github.com/ropenscilabs/addressable",
+    "relatedLink": "https://docs.ropensci.org/addressable",
+    "issueTracker": "https://github.com/ropenscilabs/addressable/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.3",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "sckott@protonmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "sckott@protonmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utf8",
+        "name": "utf8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=utf8"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "urltools",
+        "name": "urltools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=urltools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "iptools",
+        "name": "iptools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=iptools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ipaddress",
+        "name": "ipaddress",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ipaddress"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pingr",
+        "name": "pingr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pingr"
+      }
+    ],
+    "readme": "https://github.com/ropenscilabs/addressable/blob/master/README.md"
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -65467,7 +65594,7 @@
     "codeRepository": "https://github.com/ropensci/rnoaa",
     "issueTracker": "https://github.com/ropensci/rnoaa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.6.91",
+    "version": "0.9.6.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
