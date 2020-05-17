@@ -3546,8 +3546,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "dataspice",
-    "description": "The goal of dataspice is to make it easier for researchers to create basic,\n   lightweight and concise metadata files for their datasets. These basic files can\n   then be used to make useful information available during analysis, create a helpful\n   dataset README webpage and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on schema.org and other metadata standards..",
-    "name": "dataspice: Create lightweight schema.org descriptions of dataset",
+    "description": "The goal of dataspice is to make it easier for researchers to \n  create basic, lightweight, and concise metadata files for their datasets. \n  These basic files can then be used to make useful information available during \n  analysis, create a helpful dataset \"README\" webpage, and produce more complex \n  metadata formats to aid dataset discovery. Metadata fields are based on \n  the 'Schema.org' and 'Ecological Metadata Language' standards.",
+    "name": "dataspice: Create Lightweight Schema.org Descriptions of Data",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.0.9001",
     "programmingLanguage": {
@@ -3560,9 +3560,49 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com"
+        "givenName": "Carl",
+        "familyName": "Boettiger"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Auriel",
+        "familyName": "Fournier"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kelly",
+        "familyName": "Hondula"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anna",
+        "familyName": "Krystalli"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bryce",
+        "familyName": "Mecum",
+        "email": "brycemecum@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kate",
+        "familyName": "Webbink"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kara",
+        "familyName": "Woo"
       }
     ],
     "contributor": {},
@@ -3571,9 +3611,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "First",
-        "familyName": "Last",
-        "email": "first.last@example.com"
+        "givenName": "Bryce",
+        "familyName": "Mecum",
+        "email": "brycemecum@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -3588,6 +3628,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "kableExtra",
+        "name": "kableExtra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=kableExtra"
       },
       {
         "@type": "SoftwareApplication",
@@ -33956,10 +34008,6 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/libssh2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/git"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/git2r/blob/master/NEWS",
