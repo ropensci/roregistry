@@ -1159,7 +1159,7 @@
     "relatedLink": "https://docs.ropensci.org/astr",
     "issueTracker": "https://github.com/ropenscilabs/astr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.93",
+    "version": "0.0.1.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44262,6 +44262,42 @@
         "identifier": "astr",
         "name": "astr",
         "sameAs": "https://github.com/ropenscilabs/astr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pkgload",
+        "name": "pkgload",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pkgload"
       }
     ],
     "developmentStatus": "http://www.repostatus.org/#concept",
