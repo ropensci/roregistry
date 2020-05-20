@@ -1606,6 +1606,11 @@
         "givenName": "Scott",
         "familyName": "Chamberlain",
         "email": "sckott@protonmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon"
       }
     ],
     "contributor": {},
@@ -43152,6 +43157,10 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/gtkplus"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/gdal"
       },
       {
@@ -43173,10 +43182,6 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/atk"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/gtkplus"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/MODIStsp/blob/master/NEWS.md",
@@ -44208,7 +44213,7 @@
     "relatedLink": "https://docs.ropensci.org/mutant",
     "issueTracker": "https://github.com/ropensci/mutant/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.92",
+    "version": "0.0.2.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44322,6 +44327,42 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pkgload"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "liteq",
+        "name": "liteq",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=liteq"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rappdirs",
+        "name": "rappdirs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "uuid",
+        "name": "uuid",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=uuid"
       }
     ],
     "developmentStatus": "http://www.repostatus.org/#concept",
@@ -45963,11 +46004,11 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/libgeos"
+        "identifier": "https://sysreqs.r-hub.io/get/pandoc"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/pandoc"
+        "identifier": "https://sysreqs.r-hub.io/get/libgeos"
       },
       {
         "@type": "SoftwareApplication",
@@ -77013,7 +77054,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.96",
+    "version": "0.9.96.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78378,7 +78419,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.7.0.9000",
+    "version": "0.8.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78674,6 +78715,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "version": ">= 2.1.0",
@@ -78864,9 +78917,10 @@
       "continuous-integration",
       "deployment",
       "r-package",
-      "rstats"
+      "rstats",
+      "githubactions"
     ],
-    "fileSize": "363.694KB"
+    "fileSize": "379.067KB"
   },
   {
     "@context": [
