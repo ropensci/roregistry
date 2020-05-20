@@ -1592,7 +1592,7 @@
     "codeRepository": "https://github.com/ropenscilabs/cchecks",
     "issueTracker": "https://github.com/ropenscilabs/cchecks/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5.97",
+    "version": "0.1.7.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1631,6 +1631,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -38890,7 +38902,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "internetarchive",
-    "description": "Search the Internet Archive, retrieve metadata, and download\n    files.",
+    "description": "Search the Internet Archive (<https://archive.org>),\n    retrieve metadata, and download files.",
     "name": "internetarchive: An API Client for the Internet Archive",
     "codeRepository": "https://github.com/ropensci/internetarchive",
     "relatedLink": "https://docs.ropensci.org/internetarchive",
