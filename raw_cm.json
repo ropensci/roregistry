@@ -1592,7 +1592,7 @@
     "codeRepository": "https://github.com/ropenscilabs/cchecks",
     "issueTracker": "https://github.com/ropenscilabs/cchecks/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5.95",
+    "version": "0.1.5.97",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1643,6 +1643,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "usethis",
+        "name": "usethis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=usethis"
       }
     ],
     "softwareRequirements": [
@@ -53691,6 +53703,7 @@
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
+        "version": ">= 1.3.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -62289,12 +62302,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rflybase",
-    "description": "An interface to the 'FlyBase' (<http://flybase.org>).",
+    "description": "An interface to 'FlyBase' (<https://flybase.org/>).",
     "name": "rflybase: Interface to 'FlyBase'",
     "codeRepository": "https://github.com/ropensci/rflybase",
     "issueTracker": "https://github.com/ropensci/rflybase/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1.9310",
+    "version": "0.2.9.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62307,7 +62320,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       },
       {
         "@type": "Person",
@@ -62320,7 +62334,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "softwareSuggestions": [
@@ -62335,19 +62350,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dbplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
       }
     ],
     "softwareRequirements": [
@@ -83948,6 +83950,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=robotstxt"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -84083,7 +84109,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "releaseNotes": "https://github.com/ropensci/webchem/blob/master/NEWS",
+    "releaseNotes": "https://github.com/ropensci/webchem/blob/master/NEWS.md",
     "contIntegration": [
       "https://travis-ci.org/ropensci/webchem",
       "https://ci.appveyor.com/project/EDiLD/webchem",
