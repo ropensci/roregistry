@@ -14118,7 +14118,7 @@
     "relatedLink": "https://docs.ropensci.org/travis/dev",
     "issueTracker": "https://github.com/ropenscilabs/travis/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.3.0.9003",
+    "version": "0.3.0.9004",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44242,14 +44242,15 @@
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
-    "softwareSuggestions": [],
-    "softwareRequirements": [
+    "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
         "identifier": "pkgapi",
         "name": "pkgapi",
         "sameAs": "https://github.com/r-lib/pkgapi"
-      },
+      }
+    ],
+    "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
@@ -51353,7 +51354,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/pdftools/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.3",
+    "version": "2.3.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78419,7 +78420,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.8.0.9000",
+    "version": "0.8.0.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
