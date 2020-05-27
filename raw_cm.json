@@ -44213,7 +44213,7 @@
     "relatedLink": "https://docs.ropensci.org/mutant",
     "issueTracker": "https://github.com/ropensci/mutant/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.91",
+    "version": "0.0.2.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52297,7 +52297,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "treeman",
-        "name": "treeman"
+        "name": "treeman",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=treeman"
       },
       {
         "@type": "SoftwareApplication",
@@ -83941,7 +83948,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "webchem",
-    "description": "Chemical information from around the web. This package interacts\n    with a suite of web APIs for chemical information.",
+    "description": "Chemical information from around the web. This package interacts \n    with a suite of web services for chemical information. Sources include: Alan\n    Wood's Compendium of Pesticide Common Names, Chemical Identifier Resolver,\n    ChEBI, Chemical Translation Service, ChemIDplus, ChemSpider, ETOX,\n    Flavornet, NIST Chemistry WebBook, OPSIN, PAN Pesticide Database, PubChem,\n    SRS, Wikidata.",
     "name": "webchem: Chemical Information from the Web",
     "codeRepository": "https://github.com/ropensci/webchem",
     "relatedLink": [
@@ -83950,7 +83957,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/webchem/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.9001",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -84250,23 +84257,49 @@
     ],
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
-        "datePublished": "2015",
+        "@type": "ScholarlyArticle",
+        "datePublished": "2020",
         "author": [
           {
             "@type": "Person",
             "givenName": "Eduard",
-            "familyName": "Szöcs"
+            "familyName": "Sz\\\"ocs"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Tam\\'as",
+            "familyName": "Stirling",
+            "email": "stirling.tamas@gmail.com"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Eric", "R."],
+            "familyName": "Scott"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Scharm\\\"uller"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Ralf", "B."],
+            "familyName": "Sch\\\"afer"
           }
         ],
-        "name": "{webchem}:  retrieve chemical information from the web",
-        "url": "http://dx.doi.org/10.5281/zenodo.33823",
+        "name": "{webchem}: An {R} Package to Retrieve Chemical Information from the {W}eb",
+        "identifier": "10.18637/jss.v093.i13",
+        "paginiation": "1--17",
+        "@id": "https://doi.org/10.18637/jss.v093.i13",
+        "sameAs": "https://doi.org/10.18637/jss.v093.i13",
         "isPartOf": {
           "@type": "PublicationIssue",
-          "datePublished": "2015",
+          "issueNumber": "13",
+          "datePublished": "2020",
           "isPartOf": {
             "@type": ["PublicationVolume", "Periodical"],
-            "name": "Zenodo"
+            "volumeNumber": "93",
+            "name": "Journal of Statistical Software"
           }
         }
       }
