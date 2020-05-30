@@ -49582,7 +49582,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "outsider",
-    "description": "Install and run external command-line programs in R through use of\n    'Docker' <https://www.docker.com/> and online repositories.\n This package has been peer-reviewed by rOpenSci (v. 0.1.0).",
+    "description": "Install and run external command-line programs in R through use of\n    'Docker' <https://www.docker.com/> and online repositories.",
     "name": "outsider: Install and run programs, outside of R, inside of R",
     "issueTracker": "https://github.com/ropensci/outsider/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -49764,6 +49764,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
       },
       {
         "@type": "SoftwareApplication",
@@ -78322,7 +78334,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.8.0.9007",
+    "version": "0.8.0.9008",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
