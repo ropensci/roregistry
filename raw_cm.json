@@ -30993,7 +30993,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31057,7 +31057,7 @@
     "copyrightHolder": [
       {
         "@type": "Organization",
-        "name": "Crown Copyright 2018"
+        "name": "Crown Copyright 2020"
       }
     ],
     "funder": {},
@@ -42629,14 +42629,7 @@
         "@type": "SoftwareApplication",
         "identifier": "gWidgets",
         "name": "gWidgets",
-        "version": ">= 0.0-54",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gWidgets"
+        "version": ">= 0.0-54"
       },
       {
         "@type": "SoftwareApplication",
@@ -47651,15 +47644,8 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+        "identifier": "dplyr > 1.0.0",
+        "name": "dplyr > 1.0.0"
       },
       {
         "@type": "SoftwareApplication",
@@ -47720,6 +47706,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pbapply"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sf > 0.9.4",
+        "name": "sf > 0.9.4"
       },
       {
         "@type": "SoftwareApplication",
@@ -78159,7 +78150,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.8.0.9008",
+    "version": "0.8.0.9009",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
