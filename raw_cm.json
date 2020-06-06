@@ -47644,8 +47644,16 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "dplyr > 1.0.0",
-        "name": "dplyr > 1.0.0"
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
       {
         "@type": "SoftwareApplication",
@@ -47709,14 +47717,22 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "sf > 0.9.4",
-        "name": "sf > 0.9.4"
+        "identifier": "sf",
+        "name": "sf",
+        "version": ">= 0.9.3)\n    vctrs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 2.10"
+        "version": ">= 3.20"
       }
     ],
     "fileSize": "462.89KB",
