@@ -41386,7 +41386,7 @@
     "codeRepository": "https://github.com/ropensci/mapscanner",
     "issueTracker": "https://github.com/ropensci/mapscanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.1",
+    "version": "0.0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47525,7 +47525,7 @@
     "description": "Setup and connect to 'OpenTripPlanner' (OTP) <http://www.opentripplanner.org/>.\n    OTP is an open source platform for multi-modal and multi-agency\n    journey planning written in 'Java'. The package allows you to manage a local version or \n    connect to remote OTP server.\n    This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
     "name": "opentripplanner: Setup and connect to 'OpenTripPlanner'",
     "codeRepository": "https://github.com/ropensci/opentripplanner",
-    "relatedLink": "https://docs.ropensci.org/opentripplanner/",
+    "relatedLink": ["https://docs.ropensci.org/opentripplanner/", "https://CRAN.R-project.org/package=opentripplanner"],
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.2.3.0",
@@ -47762,6 +47762,12 @@
       "routing",
       "opentripplanner"
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "releaseNotes": "https://github.com/ropensci/opentripplanner/blob/master/NEWS.md",
     "review": {
       "@type": "Review",
