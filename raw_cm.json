@@ -15,7 +15,7 @@
     ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47528,7 +47528,7 @@
     "relatedLink": "https://docs.ropensci.org/opentripplanner/",
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.2.1",
+    "version": "0.2.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47717,6 +47717,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "version": ">= 0.3.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
         "version": ">= 0.9.3",
@@ -47732,7 +47745,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.20"
+        "version": ">= 3.2"
       }
     ],
     "fileSize": "462.89KB",
@@ -56220,7 +56233,7 @@
     "codeRepository": "https://github.com/ropensci/rbison",
     "issueTracker": "https://github.com/ropensci/rbison/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57219,7 +57232,7 @@
     "codeRepository": "https://github.com/ropensci/rcrossref",
     "issueTracker": "https://github.com/ropensci/rcrossref/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0.91",
+    "version": "1.0.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57421,6 +57434,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
