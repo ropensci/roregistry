@@ -19582,7 +19582,7 @@
     "codeRepository": "https://github.com/ropensci/brranching",
     "issueTracker": "http://github.com/ropensci/brranching/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.3.92",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19688,14 +19688,14 @@
         "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
-        "version": ">= 0.9.96.93",
+        "version": ">= 0.9.97",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/taxize"
+        "sameAs": "https://CRAN.R-project.org/package=taxize"
       },
       {
         "@type": "SoftwareApplication",
@@ -19740,7 +19740,7 @@
     "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants"],
     "contIntegration": "https://travis-ci.org/ropensci/brranching",
     "releaseNotes": "https://github.com/ropensci/brranching/blob/master/NEWS.md",
-    "fileSize": "1013.158KB",
+    "fileSize": "960.595KB",
     "developmentStatus": "http://www.repostatus.org/#active",
     "contributor": {},
     "copyrightHolder": {},
@@ -47527,7 +47527,7 @@
     "relatedLink": ["https://docs.ropensci.org/opentripplanner/", "https://CRAN.R-project.org/package=opentripplanner"],
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.3.0",
+    "version": "0.2.3.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47643,16 +47643,27 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "version": ">= 1.0.0",
+        "identifier": "data.table",
+        "name": "data.table",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
@@ -47713,19 +47724,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pbapply"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "vctrs",
-        "name": "vctrs",
-        "version": ">= 0.3.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
       {
         "@type": "SoftwareApplication",
@@ -47825,7 +47823,7 @@
     "codeRepository": "https://github.com/ropensci/originr",
     "issueTracker": "https://github.com/ropensci/originr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.2.91",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47954,7 +47952,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/originr",
     "releaseNotes": "https://github.com/ropensci/originr/blob/master/NEWS.md",
-    "fileSize": "22.475KB",
+    "fileSize": "30.353KB",
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
     "keywords": ["species", "native", "invasive", "origin", "web", "API", "eol", "gisd", "nsr", "itis", "griis"],
