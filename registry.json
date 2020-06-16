@@ -16,6 +16,34 @@
       "date_last_commit": "2020-06-09 17:24:17"
     },
     {
+      "name": "credentials",
+      "description": "Tools for Managing SSH and Git Credentials",
+      "details": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and \n    other services. For HTTPS remotes the package interfaces the 'git-credential' \n    utility which 'git' uses to store HTTP usernames and passwords. For SSH \n    remotes we provide convenient functions to find or generate appropriate SSH \n    keys. The package both helps the user to setup a local git installation, and\n    also provides a back-end for git/ssh client libraries to authenticate with \n    existing user credentials.",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "",
+      "github": "https://github.com/r-lib/credentials",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/r-lib/credentials",
+      "date_last_commit": "2019-04-09 21:16:14"
+    },
+    {
+      "name": "gert",
+      "description": "Simple Git Client for R",
+      "details": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in gert use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a PPA for older Ubuntu LTS versions. ",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "",
+      "github": "https://github.com/r-lib/gert",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "url": "https://github.com/r-lib/gert",
+      "date_last_commit": "2020-06-15 23:16:33"
+    },
+    {
       "name": "treeio",
       "description": "Base Classes and Functions for Phylogenetic Tree Input and Output",
       "details": "'treeio' is an R package to make it easier to import and store phylogenetic tree with associated data; and to link external data from different sources to phylogeny. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file and can be served as a platform for merging tree with associated data and converting file formats.",
@@ -1901,7 +1929,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/crul",
       "ropensci_category": "http-tools",
-      "date_last_commit": "2020-03-27 15:32:00"
+      "date_last_commit": "2020-06-16 18:16:58"
     },
     {
       "name": "cyphr",
@@ -2049,7 +2077,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/drake",
       "ropensci_category": "scalereprod",
-      "date_last_commit": "2020-06-08 20:27:38"
+      "date_last_commit": "2020-06-16 18:06:30"
     },
     {
       "name": "ecoengine",
@@ -3249,7 +3277,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/nomisr",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-05-19 13:52:13"
+      "date_last_commit": "2020-06-16 13:02:08"
     },
     {
       "name": "oai",
@@ -4611,7 +4639,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rotl",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-06-02 09:19:35"
+      "date_last_commit": "2020-06-16 16:19:09"
     },
     {
       "name": "rperseus",
@@ -5706,5 +5734,5 @@
       "date_last_commit": "2019-12-09 21:38:35"
     }
   ],
-  "date": "2020-06-16 14:48 UTC"
+  "date": "2020-06-16 21:48 UTC"
 }

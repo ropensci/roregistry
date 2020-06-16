@@ -332,7 +332,327 @@
       }
     ]
   },
+  {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "credentials",
+    "description": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and \n    other services. For HTTPS remotes the package interfaces the 'git-credential' \n    utility which 'git' uses to store HTTP usernames and passwords. For SSH \n    remotes we provide convenient functions to find or generate appropriate SSH \n    keys. The package both helps the user to setup a local git installation, and\n    also provides a back-end for git/ssh client libraries to authenticate with \n    existing user credentials.",
+    "name": "credentials: Tools for Managing SSH and Git Credentials",
+    "codeRepository": "https://github.com/r-lib/credentials",
+    "issueTracker": "https://github.com/r-lib/credentials/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "1.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.3",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "openssl",
+        "name": "openssl",
+        "version": ">= 1.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openssl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sys",
+        "name": "sys",
+        "version": ">= 2.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sys"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "askpass",
+        "name": "askpass",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=askpass"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/git"
+      }
+    ],
+    "releaseNotes": "https://github.com/r-lib/credentials/blob/master/NEWS",
+    "readme": "https://github.com/r-lib/credentials/blob/master/README.md",
+    "contIntegration": ["https://travis-ci.org/r-lib/credentials", "https://ci.appveyor.com/project/jeroen/credentials"],
+    "developmentStatus": "http://www.repostatus.org/#active",
+    "relatedLink": "https://CRAN.R-project.org/package=credentials"
+  },
   {},
+  {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "gert",
+    "description": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in gert use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a PPA for older Ubuntu LTS versions. ",
+    "name": "gert: Simple Git Client for R",
+    "codeRepository": "https://github.com/r-lib/gert",
+    "relatedLink": ["https://docs.ropensci.org/gert", "https://libgit2.org", "https://CRAN.R-project.org/package=gert"],
+    "issueTracker": "http://github.com/r-lib/gert/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.3.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "version": "3.6.3",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Jennifer",
+        "familyName": "Bryan",
+        "email": "jenny@rstudio.com",
+        "@id": "https://orcid.org/0000-0002-6983-2759"
+      }
+    ],
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "askpass",
+        "name": "askpass",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=askpass"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "credentials",
+        "name": "credentials",
+        "version": ">= 1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=credentials"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "openssl",
+        "name": "openssl",
+        "version": ">= 1.4.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openssl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "zip",
+        "name": "zip",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=zip"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "https://sysreqs.r-hub.io/get/libgit2"
+      }
+    ],
+    "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
+    "readme": "https://github.com/r-lib/gert/blob/master/README.md",
+    "contIntegration": ["https://travis-ci.org/r-lib/gert", "https://ci.appveyor.com/project/jeroen/gert"],
+    "developmentStatus": "https://www.repostatus.org/#active"
+  },
   {
     "@context": [
       "http://purl.org/codemeta/2.0",
@@ -5171,7 +5491,6 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/feetures/blob/master/NEWS.md",
-    "readme": "https://github.com/ropenscilabs/feetures/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/ropenscilabs/feetures",
     "developmentStatus": "http://www.repostatus.org/#wip",
     "keywords": [
@@ -5308,7 +5627,6 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "readme": "https://github.com/ropenscilabs/ftp/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/ropensci/ftp",
     "keywords": [
       "ftp-client",
@@ -46051,6 +46369,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=scales"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "treemapify",
+        "name": "treemapify",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=treemapify"
       }
     ],
     "softwareRequirements": [
