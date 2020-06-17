@@ -333,7 +333,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "credentials",
     "description": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and \n    other services. For HTTPS remotes the package interfaces the 'git-credential' \n    utility which 'git' uses to store HTTP usernames and passwords. For SSH \n    remotes we provide convenient functions to find or generate appropriate SSH \n    keys. The package both helps the user to setup a local git installation, and\n    also provides a back-end for git/ssh client libraries to authenticate with \n    existing user credentials.",
@@ -484,19 +487,29 @@
     ],
     "releaseNotes": "https://github.com/r-lib/credentials/blob/master/NEWS",
     "readme": "https://github.com/r-lib/credentials/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/r-lib/credentials", "https://ci.appveyor.com/project/jeroen/credentials"],
+    "contIntegration": [
+      "https://travis-ci.org/r-lib/credentials",
+      "https://ci.appveyor.com/project/jeroen/credentials"
+    ],
     "developmentStatus": "http://www.repostatus.org/#active",
     "relatedLink": "https://CRAN.R-project.org/package=credentials"
   },
   {},
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gert",
     "description": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in gert use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a PPA for older Ubuntu LTS versions. ",
     "name": "gert: Simple Git Client for R",
     "codeRepository": "https://github.com/r-lib/gert",
-    "relatedLink": ["https://docs.ropensci.org/gert", "https://libgit2.org", "https://CRAN.R-project.org/package=gert"],
+    "relatedLink": [
+      "https://docs.ropensci.org/gert",
+      "https://libgit2.org",
+      "https://CRAN.R-project.org/package=gert"
+    ],
     "issueTracker": "http://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.3.9000",
@@ -650,7 +663,10 @@
     ],
     "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
     "readme": "https://github.com/r-lib/gert/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/r-lib/gert", "https://ci.appveyor.com/project/jeroen/gert"],
+    "contIntegration": [
+      "https://travis-ci.org/r-lib/gert",
+      "https://ci.appveyor.com/project/jeroen/gert"
+    ],
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
@@ -25075,7 +25091,7 @@
     "codeRepository": "https://github.com/ropensci/crul",
     "issueTracker": "https://github.com/ropensci/crul/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.2.91",
+    "version": "0.9.2.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75242,6 +75258,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "parsedate",
+        "name": "parsedate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=parsedate"
       }
     ],
     "applicationCategory": "Data",
