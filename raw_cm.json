@@ -27144,14 +27144,14 @@
         "@type": "SoftwareApplication",
         "identifier": "txtq",
         "name": "txtq",
-        "version": ">= 0.2.1",
+        "version": ">= 0.2.3",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/wlandau/txtq"
+        "sameAs": "https://CRAN.R-project.org/package=txtq"
       },
       {
         "@type": "SoftwareApplication",
@@ -31989,7 +31989,7 @@
         "sameAs": "https://CRAN.R-project.org/package=lazyeval"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/geojson", "https://codecov.io/gh/ropensci/geojson"],
+    "contIntegration": "https://codecov.io/gh/ropensci/geojson",
     "releaseNotes": "https://github.com/ropensci/geojson/blob/master/NEWS.md",
     "fileSize": "1008.856KB",
     "applicationCategory": "Geospatial",
