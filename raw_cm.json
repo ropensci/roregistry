@@ -24405,7 +24405,7 @@
     "codeRepository": "https://github.com/ropensci/crminer",
     "issueTracker": "https://github.com/ropensci/crminer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.5.91",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24553,14 +24553,19 @@
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["text-mining", "literature", "publications", "crossref", "pdf", "xml"],
-    "contIntegration": ["https://travis-ci.org/ropensci/crminer", "https://ci.appveyor.com/project/sckott/crminer", "https://codecov.io/github/ropensci/crminer?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/crminer?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/crminer/blob/master/NEWS.md",
-    "fileSize": "8653.089KB",
+    "fileSize": "5113.927KB",
     "relatedLink": "https://docs.ropensci.org/crminer",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ]
   },
   {
     "@context": [
@@ -52940,7 +52945,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=htmlwidgets"
+        "sameAs": "https://github.com/ramnathv/htmlwidgets"
       },
       {
         "@type": "SoftwareApplication",
