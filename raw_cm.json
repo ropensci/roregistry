@@ -483,7 +483,10 @@
     "readme": "https://github.com/r-lib/credentials/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/r-lib/credentials", "https://ci.appveyor.com/project/jeroen/credentials"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "relatedLink": ["https://CRAN.R-project.org/package=credentials", "https://docs.ropensci.org/credentials"]
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=credentials",
+      "https://docs.ropensci.org/credentials"
+    ]
   },
   {},
   {
@@ -52794,6 +52797,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=forcats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "thematic",
+        "name": "thematic",
+        "sameAs": "https://github.com/rstudio/thematic"
       }
     ],
     "softwareRequirements": [
@@ -72234,7 +72243,7 @@
     "codeRepository": "https://github.com/ropensci/sofa",
     "issueTracker": "https://github.com/ropensci/sofa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.4.91",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72252,7 +72261,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "maintainer": [
@@ -72260,7 +72270,8 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
     "softwareSuggestions": [
@@ -72356,7 +72367,7 @@
     ],
     "contIntegration": "https://codecov.io/github/ropensci/sofa?branch=master",
     "releaseNotes": "https://github.com/ropensci/sofa/blob/master/NEWS.md",
-    "fileSize": "68.162KB",
+    "fileSize": "72.232KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["CouchDB", "database", "NoSQL", "documents"],
@@ -72364,7 +72375,12 @@
     "relatedLink": "https://docs.ropensci.org/sofa",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ]
   },
   {
     "@context": [
