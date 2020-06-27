@@ -6535,7 +6535,7 @@
     "codeRepository": "https://github.com/ropenscilabs/laselva",
     "issueTracker": "https://github.com/ropenscilabs/laselva/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.6.91",
+    "version": "0.0.7.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6582,6 +6582,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
