@@ -39985,6 +39985,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "digest",
+        "name": "digest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -40091,7 +40103,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/lightr/blob/master/NEWS.md",
-    "fileSize": "4624.614KB",
+    "fileSize": "4625.773KB",
     "contIntegration": "https://codecov.io/github/ropensci/lightr?branch=master",
     "keywords": [
       "r",
