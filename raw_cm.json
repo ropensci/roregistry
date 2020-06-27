@@ -6530,12 +6530,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "laselva",
-    "description": "Fetch FIA data list and datasets.",
-    "name": "laselva: FIA Data",
+    "description": "Fetch forest inventory data from across the globe.",
+    "name": "laselva: Access to Global Forest Inventory Data",
     "codeRepository": "https://github.com/ropenscilabs/laselva",
     "issueTracker": "https://github.com/ropenscilabs/laselva/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.9910",
+    "version": "0.0.6.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6561,44 +6561,41 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 5.0.1",
+        "identifier": "testthat",
+        "name": "testthat",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 1.2.0",
+        "identifier": "crul",
+        "name": "crul",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
+        "sameAs": "https://CRAN.R-project.org/package=crul"
       },
       {
         "@type": "SoftwareApplication",
@@ -6626,15 +6623,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
+        "identifier": "hoardr",
+        "name": "hoardr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+        "sameAs": "https://CRAN.R-project.org/package=hoardr"
       },
       {
         "@type": "SoftwareApplication",
@@ -6647,10 +6644,23 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/laselva",
+    "contIntegration": ["https://travis-ci.org/ropenscilabs/laselva", "https://codecov.io/gh/ropenscilabs/laselva"],
     "fileSize": "5.306KB",
+    "relatedLink": "https://docs.ropensci.org/laselva/",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
