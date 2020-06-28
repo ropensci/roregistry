@@ -6864,6 +6864,82 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "mdb",
+    "description": "Client for 'mdbtools'.",
+    "name": "mdb: Client for 'mdbtools'",
+    "codeRepository": "https://github.com/ropenscilabs/mdb",
+    "relatedLink": "https://docs.ropensci.org/mdb",
+    "issueTracker": "https://github.com/ropensci/mdb/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.1 (2020-06-06)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      }
+    ],
+    "softwareRequirements": []
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -37207,7 +37283,7 @@
     "codeRepository": "https://github.com/ropensci/iheatmapr",
     "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.12",
+    "version": "0.4.13",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62823,7 +62899,7 @@
     "codeRepository": "https://github.com/ropensci/rinat",
     "relatedLink": "https://docs.ropensci.org/rinat",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62835,7 +62911,14 @@
         "@type": "Person",
         "givenName": "Vijay",
         "familyName": "Barve",
-        "email": "vijay.barve@gmail.com"
+        "email": "vijay.barve@gmail.com",
+        "@id": "https://orcid.org/0000-0002-4852-2567"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Edmund",
+        "familyName": "Hart",
+        "email": "edmund.m.hart@gmail.com"
       }
     ],
     "contributor": {},
@@ -62844,9 +62927,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Edmund",
-        "familyName": "Hart",
-        "email": "edmund.m.hart@gmail.com"
+        "givenName": "Stéphane",
+        "familyName": "Guillou",
+        "email": "stephane.guillou@member.fsf.org",
+        "@id": "https://orcid.org/0000-0001-8992-0951"
       }
     ],
     "softwareSuggestions": [
