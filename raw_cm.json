@@ -26674,7 +26674,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/drake/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "7.12.2.9000",
+    "version": "7.12.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27147,6 +27147,7 @@
         "@type": "SoftwareApplication",
         "identifier": "visNetwork",
         "name": "visNetwork",
+        "version": ">= 2.0.9",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61760,7 +61761,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.1.93",
+    "version": "3.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62140,7 +62141,7 @@
     ],
     "contIntegration": "https://codecov.io/github/ropensci/rgbif?branch=master",
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
-    "fileSize": "3820.29KB",
+    "fileSize": "3984.73KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
@@ -62225,7 +62226,12 @@
       "https://books.ropensci.org/occurrences/"
     ],
     "copyrightHolder": {},
-    "funder": {}
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ]
   },
   {
     "@context": [
@@ -75954,7 +75960,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.97.91",
+    "version": "0.9.97.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -83577,7 +83583,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/vcr"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -83676,7 +83682,7 @@
     "contIntegration": "https://codecov.io/gh/ropensci/wikitaxa",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/wikitaxa/blob/master/NEWS.md",
-    "fileSize": "689.542KB",
+    "fileSize": "689.52KB",
     "keywords": ["taxonomy", "species", "API", "web-services", "Wikipedia", "vernacular", "Wikispecies", "Wikicommons"],
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
