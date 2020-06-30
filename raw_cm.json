@@ -1218,7 +1218,8 @@
         "sameAs": "https://CRAN.R-project.org/package=pingr"
       }
     ],
-    "readme": "https://github.com/ropenscilabs/addressable/blob/main/README.md"
+    "readme": "https://github.com/ropenscilabs/addressable/blob/main/README.md",
+    "contIntegration": "https://codecov.io/gh/ropenscilabs/addressable"
   },
   {
     "@context": [
@@ -6535,7 +6536,7 @@
     "codeRepository": "https://github.com/ropenscilabs/laselva",
     "issueTracker": "https://github.com/ropenscilabs/laselva/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.7.91",
+    "version": "0.0.7.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6606,6 +6607,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sys",
+        "name": "sys",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sys"
       }
     ],
     "softwareRequirements": [
@@ -21070,6 +21083,208 @@
         "name": "rOpenSci"
       }
     ]
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "chirps",
+    "description": "API Client for the Climate Hazards Group InfraRed Precipitation\n  with Station Data 'CHIRPS'. The 'CHIRPS' data is a 35+ year quasi-global\n  rainfall data set, which incorporates 0.05 arc-degrees resolution satellite\n  imagery, and in-situ station data to create gridded rainfall time series for\n  trend analysis and seasonal drought monitoring. For more details on 'CHIRPS'\n  data please visit its official home page <https://www.chc.ucsb.edu/data/chirps>.\n  Requests from large time series (> 10 years) and large geographic coverage \n  (global scale) may take several minutes.",
+    "name": "chirps: API Client for CHIRPS",
+    "codeRepository": "https://github.com/ropensci/chirps",
+    "issueTracker": "https://github.com/agrobioinfoservices/chirps/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.8",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.1 (2020-06-06)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Kauê",
+        "familyName": "de Sousa",
+        "email": "kaue.desousa@inn.no",
+        "@id": "https://orcid.org/0000-0002-7571-7845"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adam H.",
+        "familyName": "Sparks",
+        "@id": "https://orcid.org/0000-0002-0061-8359"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Ashmall"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jacob",
+        "familyName": "van Etten",
+        "@id": "https://orcid.org/0000-0001-7554-2558"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Svein Ø.",
+        "familyName": "Solberg",
+        "@id": "https://orcid.org/0000-0002-4491-4483"
+      }
+    ],
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Kauê",
+        "familyName": "de Sousa",
+        "email": "kaue.desousa@inn.no",
+        "@id": "https://orcid.org/0000-0002-7571-7845"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "version": ">= 0.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crul",
+        "name": "crul",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crul"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/chirps/blob/master/NEWS.md",
+    "contIntegration": "https://codecov.io/github/agrobioinfoservices/chirps?branch=master",
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "fileSize": "574.259KB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2020",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Kauê",
+            "familyName": "de Sousa"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Adam H.",
+            "familyName": "Sparks"
+          }
+        ],
+        "name": "chirps: API Client for CHIRPS",
+        "url": "https://agrobioinfoservices.github.io/chirps/",
+        "description": "R package version 0.0.8"
+      }
+    ],
+    "relatedLink": "https://agrobioinfoservices.github.io/chirps/",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/357",
+      "provider": "https://ropensci.org"
+    }
   },
   {
     "@context": [
@@ -37708,7 +37923,7 @@
     "codeRepository": "https://github.com/ropensci/ijtiff",
     "issueTracker": "https://www.github.com/ropensci/ijtiff/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.5",
+    "version": "2.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37843,6 +38058,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rprojroot",
+        "name": "rprojroot",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rprojroot"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "spelling",
         "name": "spelling",
         "provider": {
@@ -37877,6 +38104,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tiff"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vdiffr",
+        "name": "vdiffr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vdiffr"
       }
     ],
     "softwareRequirements": [
@@ -38051,7 +38290,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "499.779KB",
+    "fileSize": "1345.204KB",
     "contIntegration": ["https://travis-ci.org/ropensci/ijtiff", "https://ci.appveyor.com/project/ropensci/ijtiff", "https://codecov.io/gh/ropensci/ijtiff"],
     "developmentStatus": ["http://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "review": {
