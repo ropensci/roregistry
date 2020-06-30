@@ -496,7 +496,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "gert",
-    "description": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in gert use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a PPA for older Ubuntu LTS versions. ",
+    "description": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a PPA for older Ubuntu LTS versions. ",
     "name": "gert: Simple Git Client for R",
     "codeRepository": "https://github.com/r-lib/gert",
     "relatedLink": [
@@ -40217,7 +40217,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lightr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.1.9000",
+    "version": "1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40415,7 +40415,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/lightr/blob/master/NEWS.md",
-    "fileSize": "4625.773KB",
+    "fileSize": "4626.592KB",
     "contIntegration": "https://codecov.io/github/ropensci/lightr?branch=master",
     "keywords": [
       "r",
