@@ -587,6 +587,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rstudioapi",
+        "name": "rstudioapi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -6536,7 +6548,7 @@
     "codeRepository": "https://github.com/ropenscilabs/laselva",
     "issueTracker": "https://github.com/ropenscilabs/laselva/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.7.93",
+    "version": "0.0.9.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6619,6 +6631,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=sys"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "emld",
+        "name": "emld",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=emld"
       }
     ],
     "softwareRequirements": [
@@ -6695,7 +6719,7 @@
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/laselva", "https://codecov.io/gh/ropenscilabs/laselva"],
+    "contIntegration": "https://codecov.io/gh/ropenscilabs/laselva",
     "fileSize": "5.306KB",
     "relatedLink": "https://docs.ropensci.org/laselva/",
     "contributor": {},
@@ -21094,7 +21118,7 @@
     "description": "API Client for the Climate Hazards Group InfraRed Precipitation\n  with Station Data 'CHIRPS'. The 'CHIRPS' data is a 35+ year quasi-global\n  rainfall data set, which incorporates 0.05 arc-degrees resolution satellite\n  imagery, and in-situ station data to create gridded rainfall time series for\n  trend analysis and seasonal drought monitoring. For more details on 'CHIRPS'\n  data please visit its official home page <https://www.chc.ucsb.edu/data/chirps>.\n  Requests from large time series (> 10 years) and large geographic coverage \n  (global scale) may take several minutes.",
     "name": "chirps: API Client for CHIRPS",
     "codeRepository": "https://github.com/ropensci/chirps",
-    "issueTracker": "https://github.com/agrobioinfoservices/chirps/issues",
+    "issueTracker": "https://github.com/ropensci/chirps/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.8",
     "programmingLanguage": {
@@ -21255,7 +21279,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/chirps/blob/master/NEWS.md",
-    "contIntegration": "https://codecov.io/github/agrobioinfoservices/chirps?branch=master",
+    "contIntegration": "https://codecov.io/github/ropensci/chirps?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "fileSize": "574.259KB",
     "citation": [
@@ -21279,7 +21303,7 @@
         "description": "R package version 0.0.8"
       }
     ],
-    "relatedLink": "https://agrobioinfoservices.github.io/chirps/",
+    "relatedLink": "https://docs.ropensci.org/chirps/",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/357",
@@ -56321,7 +56345,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/rcites/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1.9000",
+    "version": "1.0.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56489,7 +56513,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rcites/blob/master/NEWS.md",
-    "fileSize": "299.475KB",
+    "fileSize": "1505.918KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rcites", "https://ci.appveyor.com/project/KevCaz/rcites-mo3vb", "https://codecov.io/gh/ropensci/rcites"],
     "keywords": [
       "cites",
@@ -56497,7 +56521,9 @@
       "trade",
       "endangered-species",
       "r-package",
-      "database"
+      "database",
+      "r",
+      "rstats"
     ],
     "citation": [
       {
