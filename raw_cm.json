@@ -3717,7 +3717,11 @@
     ],
     "developmentStatus": "http://www.repostatus.org/#inactive",
     "readme": "https://github.com/ropenscilabs/datapkg/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -3876,7 +3880,11 @@
     "contIntegration": ["https://travis-ci.org/ropenscilabs/datasauce", "https://codecov.io/github/ropenscilabs/datasauce?branch=master", "https://ci.appveyor.com/project/ropenscilabs/datasauce"],
     "developmentStatus": "http://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/datasauce/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -4220,7 +4228,17 @@
     ],
     "contIntegration": "https://travis-ci.com/ropenscilabs/dataspice",
     "readme": "https://github.com/ropenscilabs/dataspice/blob/master/README.md",
-    "keywords": ["unconf18", "schema-org", "metadata", "data", "dataset", "r", "r-package", "rstats", "unconf"]
+    "keywords": [
+      "unconf18",
+      "schema-org",
+      "metadata",
+      "data",
+      "dataset",
+      "r",
+      "r-package",
+      "rstats",
+      "unconf"
+    ]
   },
   {
     "@context": [
@@ -4356,7 +4374,11 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/datastorr/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -4461,7 +4483,13 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/decapitated/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/decapitated/blob/master/README.md",
-    "keywords": ["unconf17", "r", "r-package", "rstats", "unconf"]
+    "keywords": [
+      "unconf17",
+      "r",
+      "r-package",
+      "rstats",
+      "unconf"
+    ]
   },
   {
     "@context": [
@@ -4761,7 +4789,9 @@
     "codeRepository": "https://github.com/ropenscilabs/dirdf",
     "releaseNotes": "https://github.com/ropenscilabs/dirdf/blob/master/NEWS",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/dirdf", "https://ci.appveyor.com/project/HenrikBengtsson/dirdf", "https://codecov.io/gh/ropenscilabs/dirdf"],
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "http://www.repostatus.org/#active",
+    "readme": "https://github.com/ropenscilabs/dirdf/blob/master/README.md",
+    "keywords": ["r", "unconf16", "package", "files", "metadata", "r-package", "rstats", "unconf"]
   },
   {
     "@context": [
@@ -4841,10 +4871,12 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropenscilabs/dissemr", "https://codecov.io/github/ropenscilabs/dissemr?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#wip",
+    "readme": "https://github.com/ropenscilabs/dissemr/blob/master/README.md",
     "fileSize": "3.872KB",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "keywords": ["doi", "api-wrapper", "scholarly-metadata", "text-mining", "rstats", "r", "r-package"]
   },
   {
     "@context": [
@@ -6805,85 +6837,6 @@
       }
     ],
     "contIntegration": ["https://travis-ci.com/ropenscilabs/mchtoolbox", "https://codecov.io/gh/ropenscilabs/mchtoolbox"]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "mdb",
-    "description": "Client for 'mdbtools'.",
-    "name": "mdb: Client for 'mdbtools'",
-    "codeRepository": "https://github.com/ropenscilabs/mdb",
-    "relatedLink": "https://docs.ropensci.org/mdb",
-    "issueTracker": "https://github.com/ropensci/mdb/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      }
-    ],
-    "softwareRequirements": []
   },
   {
     "@context": [
@@ -16845,7 +16798,7 @@
     ],
     "issueTracker": "http://github.com/ropensci/bib2df/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20901,7 +20854,7 @@
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
         "datePublished": "2020",
         "author": [
           {
@@ -20913,11 +20866,39 @@
             "@type": "Person",
             "givenName": "Adam H.",
             "familyName": "Sparks"
+          },
+          {
+            "@type": "Person",
+            "givenName": "William",
+            "familyName": "Ashmall"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Jacob",
+            "familyName": "van Etten"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Svein Ø.",
+            "familyName": "Solberg"
           }
         ],
-        "name": "chirps: API Client for CHIRPS",
-        "url": "https://github.com/ropensci/chirps",
-        "description": "R package version 0.1.0"
+        "name": "chirps: API Client for the CHIRPS Precipitation Data in R",
+        "identifier": "10.21105/joss.02419",
+        "url": "https://doi.org/10.21105/joss.02419",
+        "pagination": "2419",
+        "@id": "https://doi.org/10.21105/joss.02419",
+        "sameAs": "https://doi.org/10.21105/joss.02419",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "51",
+          "datePublished": "2020",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "5",
+            "name": "The Journal of Open Source Software"
+          }
+        }
       }
     ],
     "relatedLink": "https://docs.ropensci.org/chirps/",
@@ -30869,7 +30850,7 @@
     "codeRepository": "https://github.com/ropensci/fulltext",
     "issueTracker": "https://github.com/ropensci/fulltext/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.1.92",
+    "version": "1.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30940,6 +30921,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "pubchunks",
         "name": "pubchunks",
         "provider": {
@@ -30949,6 +30942,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pubchunks"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -31168,7 +31173,12 @@
     ],
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ]
   },
   {
     "@context": [
@@ -40067,7 +40077,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/magick/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.4.0",
+    "version": "2.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
