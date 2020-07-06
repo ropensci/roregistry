@@ -36906,7 +36906,7 @@
     "codeRepository": "https://github.com/ropensci/iheatmapr",
     "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.13",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37127,18 +37127,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
@@ -37153,18 +37141,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "S4Vectors",
-        "name": "S4Vectors",
-        "provider": {
-          "@id": "https://www.bioconductor.org",
-          "@type": "Organization",
-          "name": "BioConductor",
-          "url": "https://www.bioconductor.org"
-        },
-        "sameAs": "https://bioconductor.org/packages/release/bioc/html/S4Vectors.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -67764,7 +67740,7 @@
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       }
     ],
-    "fileSize": "1214.558KB",
+    "fileSize": "1222.873KB",
     "contIntegration": ["https://travis-ci.org/ropensci/rromeo", "https://ci.appveyor.com/project/ropensci/rromeo", "https://codecov.io/gh/ropensci/rromeo"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
