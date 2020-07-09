@@ -27877,7 +27877,7 @@
     "codeRepository": "https://github.com/ropensci/EML",
     "issueTracker": "https://github.com/ropensci/EML/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -28126,7 +28126,7 @@
         "@type": "SoftwareApplication",
         "identifier": "emld",
         "name": "emld",
-        "version": ">= 0.4.0",
+        "version": ">= 0.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -81738,7 +81738,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/webchem/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81883,6 +81883,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "plot.matrix",
+        "name": "plot.matrix",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=plot.matrix"
       }
     ],
     "softwareRequirements": [
@@ -82028,6 +82040,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=base64enc"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/webchem/blob/master/NEWS.md",
