@@ -19866,7 +19866,46 @@
       "https://CRAN.R-project.org/package=c14bazAAR",
       "https://docs.ropensci.org/c14bazAAR"
     ],
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2019",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Clemens",
+            "familyName": "Schmid"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "Seidensticker"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Hinz"
+          }
+        ],
+        "name": "{c14bazAAR}: An {R} package for downloading and preparing {C14} dates from different source databases",
+        "identifier": "10.21105/joss.01914",
+        "url": "https://doi.org/10.21105/joss.01914",
+        "pagination": "1914",
+        "@id": "https://doi.org/10.21105/joss.01914",
+        "sameAs": "https://doi.org/10.21105/joss.01914",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "43",
+          "datePublished": "2019",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "4",
+            "name": "Journal of Open Source Software"
+          }
+        }
+      }
+    ]
   },
   {
     "@context": [
@@ -24490,7 +24529,7 @@
     "codeRepository": "https://github.com/ropensci/crul",
     "issueTracker": "https://github.com/ropensci/crul/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.2.93",
+    "version": "0.9.3.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
