@@ -25475,6 +25475,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=XML"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dbparser/blob/master/NEWS.md",
@@ -29220,7 +29226,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "codemetar",
-        "name": "codemetar"
+        "name": "codemetar",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=codemetar"
       },
       {
         "@type": "SoftwareApplication",
@@ -66236,7 +66249,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "codemetar",
-        "name": "codemetar"
+        "name": "codemetar",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=codemetar"
       }
     ],
     "softwareRequirements": [
