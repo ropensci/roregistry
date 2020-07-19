@@ -1944,6 +1944,20 @@
       "date_last_commit": "2020-07-18 03:02:03"
     },
     {
+      "name": "dittodb",
+      "description": "A Test Environment for Database Requests",
+      "details": "Testing and documenting code that communicates with remote\n  databases can be painful. Although the interaction with R is usually relatively \n  simple (e.g. data(frames) passed to and from a database), because they rely on \n  a separate service and the data there, testing them can be difficult to set up,\n  unsustainable in a continuous integration environment, or impossible without \n  replicating an entire production cluster. This package addresses that by \n  allowing you to make recordings from your database interactions and then play \n  them back while testing (or in other contexts) all without needing to spin up \n  or have access to the database your code would typically connect to.",
+      "maintainer": "Jonathan Keane",
+      "keywords": "",
+      "github": "https://github.com/ropensci/dittodb",
+      "status": "active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "url": "https://github.com/ropensci/dittodb",
+      "date_last_commit": "2020-07-19 05:51:20"
+    },
+    {
       "name": "DoOR.data",
       "description": "A DoOR to the Complete Olfactome",
       "details": "This is a data package providing Drosophila odorant response data for\n    DoOR.functions. See URLs for the original and the DoOR 2.0 publications.",
@@ -4281,7 +4295,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rinat",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-07-08 02:31:06"
+      "date_last_commit": "2020-07-19 02:51:30"
     },
     {
       "name": "ritis",
@@ -5628,5 +5642,5 @@
       "date_last_commit": "2019-12-09 21:38:35"
     }
   ],
-  "date": "2020-07-19 00:47 UTC"
+  "date": "2020-07-19 07:48 UTC"
 }
