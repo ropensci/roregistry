@@ -13624,7 +13624,7 @@
     "codeRepository": "https://github.com/ropenscilabs/urltemplate",
     "issueTracker": "https://github.com/ropenscilabs/urltemplate/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.9110",
+    "version": "0.0.4.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -13654,29 +13654,15 @@
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "version": ">= 1.5",
+        "identifier": "R6",
+        "name": "R6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "version": ">= 0.1.10",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
+        "sameAs": "https://CRAN.R-project.org/package=R6"
       },
       {
         "@type": "SoftwareApplication",
@@ -13691,7 +13677,8 @@
         "sameAs": "https://CRAN.R-project.org/package=urltools"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/urltemplate"
+    "contIntegration": "https://travis-ci.org/ropenscilabs/urltemplate",
+    "relatedLink": "https://docs.ropensci.org/urltemplate"
   },
   {
     "@context": [
@@ -25659,7 +25646,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dittodb/blob/master/NEWS.md",
-    "fileSize": "2027.892KB",
+    "fileSize": "2028.006KB",
     "contIntegration": "https://codecov.io/gh/ropensci/dittodb?branch=main",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing"
   },
