@@ -5638,75 +5638,6 @@
   },
   {
     "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "geojsonrewind",
-    "description": "Fix 'GeoJSON' Winding Direction.",
-    "name": "geojsonrewind: Fix 'GeoJSON' Winding Direction",
-    "codeRepository": "https://github.com/ropenscilabs/geojsonrewind",
-    "issueTracker": "https://github.com/ropenscilabs/geojsonrewind/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.9910",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "version": ">= 1.5",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      }
-    ],
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/geojsonrewind", "https://codecov.io/github/ropenscilabs/geojsonrewind?branch=master"]
-  },
-  {
-    "@context": [
       "https://doi.org/doi:10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
@@ -8274,90 +8205,6 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "pegax",
-    "description": "Taxonomy PEG (Parsing Expression Grammar) client, with\n    grammar for parsing taxonomic names.",
-    "name": "pegax: Taxonomy PEG (Parsing Expression Grammar)",
-    "codeRepository": "https://github.com/ropenscilabs/pegax",
-    "issueTracker": "https://github.com/ropenscilabs/pegax/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.9210",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "Rcpp",
-        "name": "Rcpp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "piton",
-        "name": "piton",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=piton"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/cxx11"
-      }
-    ],
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/pegax", "https://codecov.io/github/ropenscilabs/pegax?branch=master"]
   },
   {
     "@context": [
@@ -59647,103 +59494,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "reuropeana",
-    "description": "Interact with 'Europeana' web services (<http://labs.europeana.eu/api>),\n    including search, etc.",
-    "name": "reuropeana: Interface to 'Europeana' 'APIs'",
-    "codeRepository": "https://github.com/ropensci/reuropeana",
-    "issueTracker": "https://github.com/ropensci/reuropeana/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.4.9220",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 5.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 1.2.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "version": ">= 1.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      }
-    ],
-    "contIntegration": ["https://travis-ci.org/ropensci/reuropeana", "https://codecov.io/github/ropensci/reuropeana?branch=master"],
-    "fileSize": "8.662KB",
-    "relatedLink": "https://docs.ropensci.org/reuropeana",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {}
-  },
-  {
-    "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "rfigshare",
     "description": "An R interface to figshare.",
     "name": "rfigshare: An R Interface to 'figshare'",
@@ -75844,7 +75594,7 @@
     "codeRepository": "https://github.com/ropensci/taxview",
     "issueTracker": "https://github.com/ropensci/taxview/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9100",
+    "version": "0.0.2.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75856,7 +75606,7 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
+        "email": "myrmecocystus@gmail.com"
       },
       {
         "@type": "Person",
@@ -75869,7 +75619,7 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
+        "email": "myrmecocystus@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -75902,6 +75652,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "taxizedb",
+        "name": "taxizedb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=taxizedb"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "provider": {
@@ -75923,6 +75685,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
     "contIntegration": "https://travis-ci.org/ropensci/taxview",
