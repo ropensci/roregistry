@@ -31995,18 +31995,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "pkgdown",
-        "name": "pkgdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pkgdown"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -32033,7 +32021,6 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 6.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -32144,8 +32131,8 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["anglia-cru", "climate-data", "cru-cl2", "temperature", "rainfall", "elevation", "data-access", "wind", "relative-humidity", "solar-radiation", "diurnal-temperature", "frost"],
     "releaseNotes": "https://github.com/ropensci/getCRUCLdata/blob/master/NEWS.md",
-    "fileSize": "934.157KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/getCRUCLdata", "https://ci.appveyor.com/project/adamhsparks/getcrucldata/branch/master", "https://codecov.io/gh/ropensci/getCRUCLdata?branch=master"],
+    "fileSize": "1110.846KB",
+    "contIntegration": "https://codecov.io/gh/ropensci/getCRUCLdata?branch=master",
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
