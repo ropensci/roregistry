@@ -8149,97 +8149,6 @@
   },
   {
     "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "parseids",
-    "description": "PEG (Parsing Expression Grammar) parsing for DOIs\n    and other identifiers.",
-    "name": "parseids: Parsers for Digital Object Identifiers (DOIs) and Other Identifiers",
-    "codeRepository": "https://github.com/ropenscilabs/parseids",
-    "issueTracker": "https://github.com/ropenscilabs/parseids/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9100",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 2.10"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "Rcpp",
-        "name": "Rcpp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "piton",
-        "name": "piton",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=piton"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "https://sysreqs.r-hub.io/get/cxx11"
-      }
-    ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/parseids",
-    "fileSize": "152.176KB",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {}
-  },
-  {
-    "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
@@ -60433,7 +60342,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.2.0",
+    "version": "3.2.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
