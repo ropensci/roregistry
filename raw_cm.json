@@ -42336,12 +42336,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "musemeta",
-    "description": "Scrape museum metadata. Includes many\n    different museums, including the MET, Getty Museum, and\n    more. New museums are added occassionally.",
-    "name": "musemeta: Client for Scraping Museum Metadata",
+    "description": "Gather museum metadata. Includes many\n    different museums, including the MET, Getty Museum, the\n    Asian Art Museum of San Francisco, Art Institute of Chicago,\n    Canadian Science & Technology Museum Corporation, and\n    Museum of Modern Art.",
+    "name": "musemeta: Gather Museum Metadata",
     "codeRepository": "https://github.com/ropensci/musemeta",
     "issueTracker": "https://github.com/ropensci/musemeta/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.7.9100",
+    "version": "0.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42379,6 +42379,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -42393,16 +42405,15 @@
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 1.0.0",
+        "identifier": "crul",
+        "name": "crul",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
+        "sameAs": "https://CRAN.R-project.org/package=crul"
       },
       {
         "@type": "SoftwareApplication",
@@ -42415,18 +42426,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
       },
       {
         "@type": "SoftwareApplication",
@@ -42466,8 +42465,8 @@
         "sameAs": "https://CRAN.R-project.org/package=ckanr"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/musemeta", "https://ci.appveyor.com/project/sckott/musemeta/branch/master", "https://codecov.io/github/ropensci/musemeta?branch=master"],
-    "releaseNotes": "https://github.com/ropensci/musemeta/blob/master/NEWS",
+    "contIntegration": "https://codecov.io/gh/ropensci/musemeta",
+    "releaseNotes": "https://github.com/ropensci/musemeta/blob/master/NEWS.md",
     "fileSize": "25.317KB",
     "relatedLink": "https://docs.ropensci.org/musemeta",
     "contributor": {},
