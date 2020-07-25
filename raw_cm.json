@@ -36747,7 +36747,7 @@
     "codeRepository": "https://github.com/ropensci/ijtiff",
     "issueTracker": "https://www.github.com/ropensci/ijtiff/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37118,6 +37118,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "zeallot",
+        "name": "zeallot",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=zeallot"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "https://sysreqs.r-hub.io/get/zlib"
       },
       {
@@ -37126,7 +37138,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ijtiff/blob/master/NEWS.md",
-    "fileSize": "1143.65KB",
+    "fileSize": "4482.442KB",
     "contIntegration": ["https://travis-ci.org/ropensci/ijtiff", "https://ci.appveyor.com/project/ropensci/ijtiff", "https://codecov.io/gh/ropensci/ijtiff"],
     "developmentStatus": ["http://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "review": {
@@ -42342,7 +42354,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "musemeta",
-    "description": "Gather museum metadata. Includes many\n    different museums, including the MET, Getty Museum, the\n    Asian Art Museum of San Francisco, Art Institute of Chicago,\n    Canadian Science & Technology Museum Corporation, and\n    Museum of Modern Art.",
+    "description": "Gather museum metadata. Includes many\n    different museums, including the Getty Museum, the\n    Asian Art Museum of San Francisco, Art Institute of Chicago,\n    Canadian Science & Technology Museum Corporation, and\n    Museum of Modern Art.",
     "name": "musemeta: Gather Museum Metadata",
     "codeRepository": "https://github.com/ropensci/musemeta",
     "issueTracker": "https://github.com/ropensci/musemeta/issues",
