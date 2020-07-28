@@ -7023,7 +7023,10 @@
     "contIntegration": "https://travis-ci.org/ropenscilabs/middlechild"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MonetDBLite",
     "description": "An in-process version of 'MonetDB', a SQL database designed for analytical tasks. Similar to 'SQLite', the database runs entirely inside the 'R' shell.",
@@ -44585,6 +44588,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/nlrx/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/nlrx/blob/master/README.md",
     "fileSize": "480.545KB",
     "contIntegration": ["https://travis-ci.org/ropensci/nlrx", "https://ci.appveyor.com/project/marcosci/nlrx/branch/master", "https://codecov.io/gh/ropensci/nlrx"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
