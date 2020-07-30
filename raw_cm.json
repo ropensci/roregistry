@@ -21461,7 +21461,6 @@
     "applicationCategory": "DataAccess",
     "isPartOf": "\"https://ropensci.org\"",
     "keywords": ["database", "open-data", "ckan", "api", "data", "dataset"],
-    "contIntegration": ["https://travis-ci.org/ropensci/ckanr", "https://ci.appveyor.com/project/sckott/ckanr", "https://codecov.io/github/ropensci/ckanr?branch=master"],
     "releaseNotes": "https://github.com/ropensci/ckanr/blob/master/NEWS.md",
     "fileSize": "0KB",
     "copyrightHolder": {},
@@ -40113,7 +40112,7 @@
     "codeRepository": "https://github.com/ropensci/mapr",
     "issueTracker": "https://github.com/ropensci/mapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.4.91",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40192,6 +40191,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=maptools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rgbif",
+        "name": "rgbif",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgbif"
       }
     ],
     "softwareRequirements": [
@@ -40246,15 +40257,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rworldmap",
-        "name": "rworldmap",
+        "identifier": "maps",
+        "name": "maps",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rworldmap"
+        "sameAs": "https://CRAN.R-project.org/package=maps"
       },
       {
         "@type": "SoftwareApplication",
@@ -40310,7 +40321,7 @@
     "keywords": ["maps", "mapping", "ggplot", "leaflet", "interactive", "biodiversity", "occurrences"],
     "contIntegration": "https://codecov.io/gh/ropensci/mapr",
     "releaseNotes": "https://github.com/ropensci/mapr/blob/master/NEWS.md",
-    "fileSize": "508.612KB",
+    "fileSize": "588.972KB",
     "relatedLink": "https://docs.ropensci.org/mapr",
     "contributor": {},
     "copyrightHolder": {},
