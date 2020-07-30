@@ -2879,7 +2879,7 @@
     "codeRepository": "https://github.com/ropenscilabs/clock",
     "issueTracker": "http://github.com/ropenscilabs/clock/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.94",
+    "version": "0.0.2.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2925,6 +2925,30 @@
         "identifier": "timefuzz",
         "name": "timefuzz",
         "sameAs": "https://github.com/ropenscilabs/timefuzz"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -16029,14 +16053,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "assertive",
-        "name": "assertive",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertive"
+        "name": "assertive"
       },
       {
         "@type": "SoftwareApplication",
@@ -16370,14 +16387,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "assertive",
-        "name": "assertive",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertive"
+        "name": "assertive"
       },
       {
         "@type": "SoftwareApplication",
