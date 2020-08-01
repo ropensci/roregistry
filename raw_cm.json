@@ -12188,12 +12188,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "spplit",
-    "description": "Combine literature and species occurrence data. Literature\n    data sources include the Biodiversity Heritage Library, and species\n    occurrence data sources include the Global Biodiversity Information\n    Facility (GBIF; <https://www.gbif.org/>) and the Integrated Digitized\n    Biocollections (iDigBio; <https://www.idigbio.org/>). More data\n    sources to come.",
-    "name": "spplit: Combine Literature and Species Occurrence Data",
+    "description": "Combine literature and species occurrence data. Literature\n    data sources include the Biodiversity Heritage Library\n    (<https://www.biodiversitylibrary.org/>), and species\n    occurrence data sources include the Global Biodiversity Information\n    Facility (GBIF; <https://www.gbif.org/>) and the Integrated Digitized\n    Biocollections (iDigBio; <https://www.idigbio.org/>).",
+    "name": "spplit: Combine Species Occurrence Data and Literature",
     "codeRepository": "https://github.com/ropenscilabs/spplit",
     "issueTracker": "https://github.com/ropenscilabs/spplit/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.6.92",
+    "version": "0.0.7.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -12253,6 +12253,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=shiny"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -12342,7 +12366,6 @@
         "sameAs": "https://CRAN.R-project.org/package=rplos"
       }
     ],
-    "contIntegration": "https://travis-ci.org/ropenscilabs/spplit",
     "fileSize": "1717.904KB",
     "keywords": [
       "rstats",
@@ -31538,7 +31561,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonio",
     "issueTracker": "https://github.com/ropensci/geojsonio/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.2.91",
+    "version": "0.9.2.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72120,6 +72143,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
