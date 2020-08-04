@@ -15914,6 +15914,259 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "BaseSet",
+    "description": "The package implements a class and methods to\n    work with sets, doing intersection, union, complementary, power sets,\n    cartesian product and other set operations in a \"tidy\" way. Both for\n    classical sets and fuzzy sets. It can import sets from GMT, GAF and\n    the OBO formats. ",
+    "name": "BaseSet: Working with sets the tidy way",
+    "codeRepository": "https://github.com/ropensci/BaseSet",
+    "relatedLink": "https://docs.ropensci.org/BaseSet",
+    "issueTracker": "https://github.com/ropensci/BaseSet/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.11",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Lluís",
+        "familyName": "Revilla Sancho",
+        "email": "lluis.revilla@gmail.com",
+        "@id": "https://orcid.org/0000-0001-9747-2570"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Lluís",
+        "familyName": "Revilla Sancho",
+        "email": "lluis.revilla@gmail.com",
+        "@id": "https://orcid.org/0000-0001-9747-2570"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "Biobase",
+        "name": "Biobase",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biobase.html"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "BiocStyle",
+        "name": "BiocStyle",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/BiocStyle.html"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "forcats",
+        "name": "forcats",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=forcats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "GO.db",
+        "name": "GO.db"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "GSEABase",
+        "name": "GSEABase",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/GSEABase.html"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "org.Hs.eg.db",
+        "name": "org.Hs.eg.db"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "reactome.db",
+        "name": "reactome.db"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.6.0"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/BaseSet/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/BaseSet/blob/master/README.md",
+    "fileSize": "464.793KB",
+    "contIntegration": ["https://travis-ci.org/ropensci/BaseSet", "https://codecov.io/github/ropensci/BaseSet?branch=master"],
+    "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/359",
+      "provider": "https://ropensci.org"
+    },
+    "keywords": [
+      "r",
+      "sets",
+      "package",
+      "r-package",
+      "bioconductor-package",
+      "bioconductor"
+    ]
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "beastier",
     "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is a command-line tool.\n    This package provides a way to call 'BEAST2' \n    from an 'R' function call.",
     "name": "beastier: Call 'BEAST2'",
@@ -44577,7 +44830,6 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/nlrx/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/nlrx/blob/master/README.md",
     "fileSize": "480.545KB",
     "contIntegration": ["https://travis-ci.org/ropensci/nlrx", "https://ci.appveyor.com/project/marcosci/nlrx/branch/master", "https://codecov.io/gh/ropensci/nlrx"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
@@ -54577,7 +54829,7 @@
     "codeRepository": "https://github.com/ropensci/rbace",
     "issueTracker": "https://github.com/ropensci/rbace/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "0.1.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54626,6 +54878,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webmockr",
+        "name": "webmockr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webmockr"
       }
     ],
     "softwareRequirements": [
@@ -56291,7 +56555,7 @@
     "description": "Provides an R interface to the Data Retriever\n    <https://retriever.readthedocs.io/en/latest/> via the Data Retriever's\n    command line interface. The Data Retriever automates the\n    tasks of finding, downloading, and cleaning public datasets,\n    and then stores them in a local database.",
     "name": "rdataretriever: R Interface to the Data Retriever",
     "codeRepository": "https://github.com/ropensci/rdataretriever",
-    "relatedLink": "https://docs.ropensci.org/rdataretriever",
+    "relatedLink": ["https://docs.ropensci.org/rdataretriever", "https://docs.ropensci.org/rdataretriever/"],
     "issueTracker": "https://github.com/ropensci/rdataretriever/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "3.0.0",
