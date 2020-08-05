@@ -7315,6 +7315,107 @@
     "contIntegration": ["https://travis-ci.org/hannesmuehleisen/MonetDBLite-R", "https://ci.appveyor.com/project/hannesmuehleisen/MonetDBLite-R"]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "namext",
+    "description": "Extract scientific names from text using the \n    Golang tool gnfinder <https://github.com/gnames/gnfinder>.",
+    "name": "namext: Extract Scientific Names from Text",
+    "codeRepository": "https://github.com/ropenscilabs/namext",
+    "relatedLink": "https://docs.ropensci.org/namext",
+    "issueTracker": "https://github.com/ropenscilabs/namext/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sys",
+        "name": "sys",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sys"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pdftools",
+        "name": "pdftools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pdftools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      }
+    ]
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -54829,7 +54930,7 @@
     "codeRepository": "https://github.com/ropensci/rbace",
     "issueTracker": "https://github.com/ropensci/rbace/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.91",
+    "version": "0.1.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56389,7 +56490,7 @@
         "name": "stats"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rcrossref", "https://ci.appveyor.com/project/sckott/rcrossref/branch/master", "https://codecov.io/github/ropensci/rcrossref?branch=master"],
+    "contIntegration": "https://codecov.io/gh/ropensci/rcrossref",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/rcrossref/blob/master/NEWS.md",
     "fileSize": "3157.394KB",
@@ -56555,7 +56656,10 @@
     "description": "Provides an R interface to the Data Retriever\n    <https://retriever.readthedocs.io/en/latest/> via the Data Retriever's\n    command line interface. The Data Retriever automates the\n    tasks of finding, downloading, and cleaning public datasets,\n    and then stores them in a local database.",
     "name": "rdataretriever: R Interface to the Data Retriever",
     "codeRepository": "https://github.com/ropensci/rdataretriever",
-    "relatedLink": ["https://docs.ropensci.org/rdataretriever", "https://docs.ropensci.org/rdataretriever/"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rdataretriever",
+      "https://docs.ropensci.org/rdataretriever/"
+    ],
     "issueTracker": "https://github.com/ropensci/rdataretriever/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "3.0.0",
@@ -75181,7 +75285,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.97.93",
+    "version": "0.9.97.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
