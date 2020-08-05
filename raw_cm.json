@@ -8539,6 +8539,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyverse",
+        "name": "tidyverse",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyverse"
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/packagemetrics"
@@ -15658,7 +15670,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.3.5"
+        "version": ">= 2.3.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       {
         "@type": "SoftwareApplication",
@@ -16418,7 +16437,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.3.5"
+        "version": ">= 2.3.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       {
         "@type": "SoftwareApplication",
@@ -16838,7 +16864,13 @@
       "r-package",
       "rstats"
     ],
-    "relatedLink": "https://docs.ropensci.org/beautier",
+    "relatedLink": ["https://docs.ropensci.org/beautier", "https://CRAN.R-project.org/package=beautier"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "copyrightHolder": {},
     "funder": {}
   },
@@ -41191,7 +41223,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "beautier",
-        "name": "beautier"
+        "name": "beautier",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       {
         "@type": "SoftwareApplication",
