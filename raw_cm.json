@@ -61419,7 +61419,10 @@
     "contIntegration": "https://travis-ci.org/ropensci/rglobi"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rgnparser",
     "description": "Parse scientific names using gnparser (<https://gitlab.com/gogna/gnparser>).",
