@@ -15683,7 +15683,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.1.3"
+        "version": ">= 2.1.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
       },
       {
         "@type": "SoftwareApplication",
@@ -16568,7 +16575,13 @@
       "rstats"
     ],
     "developmentStatus": "https://www.repostatus.org/#active",
-    "relatedLink": "https://docs.ropensci.org/beastier",
+    "relatedLink": ["https://docs.ropensci.org/beastier", "https://CRAN.R-project.org/package=beastier"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "contributor": [
       {
         "@type": "Person",
@@ -41286,7 +41299,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "beastier",
-        "name": "beastier"
+        "name": "beastier",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
       },
       {
         "@type": "SoftwareApplication",
