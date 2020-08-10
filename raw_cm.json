@@ -15695,7 +15695,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
-        "name": "mauricer"
+        "name": "mauricer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       {
         "@type": "SoftwareApplication",
@@ -41370,7 +41377,13 @@
         }
       }
     ],
-    "relatedLink": "https://docs.ropensci.org/mauricer",
+    "relatedLink": ["https://docs.ropensci.org/mauricer", "https://CRAN.R-project.org/package=mauricer"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
