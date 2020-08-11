@@ -6182,7 +6182,8 @@
       }
     ],
     "contIntegration": ["https://travis-ci.org/ropenscilabs/jobstatus", "https://codecov.io/github/ropenscilabs/jobstatus?branch=master"],
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental"
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental",
+    "readme": "https://github.com/ropenscilabs/jobstatus/blob/master/README.md"
   },
   {
     "@context": [
@@ -30521,7 +30522,7 @@
     "codeRepository": "https://github.com/ropensci/finch",
     "issueTracker": "https://github.com/ropensci/finch/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0.9100",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30632,30 +30633,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "digest",
         "name": "digest",
         "provider": {
@@ -30683,13 +30660,13 @@
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
     "keywords": ["biology", "occurrences", "specimen", "biodiversity", "collections", "species"],
-    "contIntegration": ["https://travis-ci.org/ropensci/finch", "https://ci.appveyor.com/project/sckott/finch", "https://codecov.io/github/ropensci/finch?branch=master"],
+    "contIntegration": ["https://travis-ci.org/ropensci/finch", "https://ci.appveyor.com/project/sckott/finch", "https://codecov.io/gh/ropensci/finch"],
     "releaseNotes": "https://github.com/ropensci/finch/blob/master/NEWS.md",
     "fileSize": "251.447KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "relatedLink": "https://docs.ropensci.org/finch"
+    "relatedLink": "https://docs.ropensci.org/finch/"
   },
   {
     "@context": [
@@ -76037,7 +76014,7 @@
     "codeRepository": "https://github.com/ropensci/taxizedb",
     "issueTracker": "https://github.com/ropensci/taxizedb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.9.93",
+    "version": "0.1.9.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
