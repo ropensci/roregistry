@@ -15817,6 +15817,12 @@
       "beast2",
       "bayesian-inference"
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "contributor": [
       {
         "@type": "Person",
@@ -15826,7 +15832,8 @@
       }
     ],
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://CRAN.R-project.org/package=babette"
   },
   {
     "@context": [
@@ -61474,7 +61481,7 @@
     "description": "Parse scientific names using gnparser (<https://gitlab.com/gogna/gnparser>).",
     "name": "rgnparser: Parse Scientific Names",
     "codeRepository": "https://github.com/ropensci/rgnparser",
-    "relatedLink": "https://docs.ropensci.org/rgnparser/",
+    "relatedLink": ["https://docs.ropensci.org/rgnparser/", "https://ropensci.github.io/rgnparser/"],
     "issueTracker": "https://github.com/ropensci/rgnparser/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.1.91",
@@ -76013,7 +76020,7 @@
     "codeRepository": "https://github.com/ropensci/taxizedb",
     "issueTracker": "https://github.com/ropensci/taxizedb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.9.94",
+    "version": "0.1.9.98",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76071,6 +76078,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=taxize"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -76137,18 +76168,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tidyr",
-        "name": "tidyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
       {
         "@type": "SoftwareApplication",
