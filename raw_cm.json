@@ -69370,7 +69370,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.9.1",
+    "version": "0.9.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69493,9 +69493,22 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "leafpop",
+        "name": "leafpop",
+        "version": ">= 0.0.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=leafpop"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "mapview",
         "name": "mapview",
-        "version": ">= 2.7.8",
+        "version": ">= 2.9.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -69810,19 +69823,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tidyselect",
-        "name": "tidyselect",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
       {
         "@type": "SoftwareApplication",
