@@ -1665,255 +1665,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "blogyaml",
-    "description": "More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.",
-    "name": "blogyaml: Helps Editing Tags of Markdown Based Blog Posts",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Maëlle",
-        "familyName": "Salmon",
-        "email": "maelle.salmon@yahoo.se"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": [
-      {
-        "@type": "Organization",
-        "name": "rOpenSci"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Maëlle",
-        "familyName": "Salmon",
-        "email": "maelle.salmon@yahoo.se"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shinytest",
-        "name": "shinytest",
-        "version": ">= 1.3.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://github.com/rstudio/shinytest"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shinydashboard",
-        "name": "shinydashboard",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shinydashboard"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "fs",
-        "name": "fs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=fs"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "yaml",
-        "name": "yaml",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=yaml"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "DT",
-        "name": "DT",
-        "version": ">= 0.4.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DT"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shinyFiles",
-        "name": "shinyFiles",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shinyFiles"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "glue",
-        "name": "glue",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=glue"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tidyr",
-        "name": "tidyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shiny",
-        "name": "shiny",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shiny"
-      }
-    ],
-    "codeRepository": "https://github.com/ropenscilabs/blogyaml",
-    "readme": "https://github.com/ropenscilabs/blogyaml/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/blogyaml", "https://codecov.io/github/ropenscilabs/blogyaml?branch=master"],
-    "developmentStatus": "http://www.repostatus.org/#wip",
-    "keywords": [
-      "r",
-      "r-package",
-      "rstats"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "cchecks",
     "description": "Client for the cranchecks.info API.",
     "name": "cchecks: Client for the cranchecks.info API",
@@ -5543,7 +5294,8 @@
       "ftp",
       "r",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/ftp/blob/master/README.md"
   },
   {
     "@context": [
@@ -5682,7 +5434,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/gendercodeR/blob/master/README.md"
   },
   {
     "@context": [
@@ -5934,6 +5687,7 @@
     "codeRepository": "https://github.com/ropenscilabs/ghrecipes",
     "contIntegration": ["https://travis-ci.org/ropenscilabs/ghrecipes", "https://codecov.io/github/ropenscilabs/ghrecipes?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#wip",
+    "readme": "https://github.com/ropenscilabs/ghrecipes/blob/master/README.md",
     "fileSize": "4.703KB",
     "issueTracker": "https://github.com/ropenscilabs/ghrecipes/issues",
     "contributor": [
@@ -5963,7 +5717,8 @@
         "@type": "Organization",
         "name": "Locke Data"
       }
-    ]
+    ],
+    "keywords": ["ropensci", "jq", "graphql", "github-api", "ghql", "r", "r-package", "rstats"]
   },
   {
     "@context": [
@@ -6059,7 +5814,8 @@
     "fileSize": "2.444KB",
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "readme": "https://github.com/ropenscilabs/hoasts/blob/master/README.Rmd"
   },
   {
     "@context": [
@@ -6604,6 +6360,7 @@
       }
     ],
     "contIntegration": "https://codecov.io/gh/ropenscilabs/laselva",
+    "readme": "https://github.com/ropenscilabs/laselva/blob/master/README.md",
     "fileSize": "5.306KB",
     "relatedLink": "https://docs.ropensci.org/laselva/",
     "contributor": {},
@@ -7344,7 +7101,8 @@
       "dbi",
       "rstats",
       "column-store"
-    ]
+    ],
+    "readme": "https://github.com/MonetDB/MonetDBLite-R/blob/master/README.md"
   },
   {
     "@context": [
@@ -7604,7 +7362,8 @@
       "r-package",
       "rstats",
       "unconf"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/notary/blob/master/README.md"
   },
   {
     "@context": [
@@ -12170,6 +11929,7 @@
       }
     ],
     "contIntegration": "https://travis-ci.org/ropenscilabs/spenv",
+    "readme": "https://github.com/ropenscilabs/spenv/blob/master/README.md",
     "fileSize": "14.103KB",
     "contributor": {},
     "copyrightHolder": {},
@@ -13719,7 +13479,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "readme": "https://github.com/ropenscilabs/tRainspotting/blob/master/README.md"
   },
   {
     "@context": [
@@ -14758,7 +14519,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/antiword/blob/master/README.md"
   },
   {
     "@context": [
@@ -15342,7 +15104,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/aRxiv/blob/master/README.md"
   },
   {
     "@context": [
@@ -15493,6 +15256,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/assertr",
     "releaseNotes": "https://github.com/ropensci/assertr/blob/master/NEWS",
+    "readme": "https://github.com/ropensci/assertr/blob/master/README.md",
     "fileSize": "95.466KB",
     "relatedLink": ["https://docs.ropensci.org/assertr", "https://CRAN.R-project.org/package=assertr"],
     "contributor": {},
@@ -15902,6 +15666,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/babette/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/babette/blob/master/README.md",
     "fileSize": "1040.984KB",
     "contIntegration": ["https://travis-ci.org", "https://www.appveyor.com", "https://www.codecov.io", "https://travis-ci.org/ropensci/babette", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://codecov.io/github/ropensci/babette/branch/master", "https://travis-ci.org/ropensci/babette", "https://codecov.io/github/ropensci/babette/branch/develop", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/beautier", "https://codecov.io/github/ropensci/beautier/branch/master", "https://travis-ci.org/ropensci/beastier", "https://codecov.io/github/ropensci/beastier/branch/master", "https://travis-ci.org/ropensci/mauricer", "https://codecov.io/github/ropensci/mauricer/branch/master", "https://travis-ci.org/KlausVigo/phangorn", "https://codecov.io/github/KlausVigo/phangorn/branch/master", "https://travis-ci.org/ropensci/tracerer", "https://codecov.io/github/ropensci/tracerer/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beastier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beautier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/mauricer-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/tracerer-on-windows/branch/master", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/lumier", "https://codecov.io/github/ropensci/lumier/branch/master"],
     "citation": [
@@ -15935,7 +15700,10 @@
     "keywords": [
       "r",
       "r-package",
-      "rstats"
+      "rstats",
+      "phylogenetics",
+      "beast2",
+      "bayesian-inference"
     ],
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -16407,6 +16175,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/BaseSet/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/BaseSet/blob/master/README.md",
     "fileSize": "464.793KB",
     "contIntegration": ["https://travis-ci.org/ropensci/BaseSet", "https://codecov.io/github/ropensci/BaseSet?branch=master"],
     "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
@@ -19615,7 +19384,7 @@
     ],
     "applicationCategory": "Phylogenetics",
     "isPartOf": "\"https://ropensci.org\"",
-    "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants"],
+    "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants", "rstats", "phylogenies", "r", "r-package"],
     "contIntegration": "https://codecov.io/github/ropensci/brranching?branch=master",
     "releaseNotes": "https://github.com/ropensci/brranching/blob/master/NEWS.md",
     "fileSize": "960.595KB",
@@ -21218,6 +20987,7 @@
         "version": ">= 3.5"
       }
     ],
+    "readme": "https://github.com/ropensci/chlorpromazineR/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/chlorpromazineR", "https://codecov.io/github/ropensci/chlorpromazineR?branch=master"],
     "keywords": [
       "psychiatry",
@@ -23157,7 +22927,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["metadata", "codemeta", "ropensci", "citation", "credit", "linked-data"],
     "releaseNotes": "https://github.com/ropensci/codemetar/blob/master/NEWS.md",
-    "fileSize": "2253.643KB",
+    "fileSize": "1466.238KB",
     "contIntegration": ["https://travis-ci.org/ropensci/codemetar", "https://ci.appveyor.com/project/cboettig/codemetar/branch/master", "https://codecov.io/github/ropensci/codemetar?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
@@ -24147,7 +23917,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/CoordinateCleaner/blob/master/NEWS.md",
-    "fileSize": "1116.02KB",
+    "fileSize": "129189.476KB",
     "contIntegration": ["https://travis-ci.org/ropensci/CoordinateCleaner", "https://codecov.io/github/ropensci/CoordinateCleaner"],
     "relatedLink": ["https://ropensci.github.io/CoordinateCleaner/", "https://CRAN.R-project.org/package=CoordinateCleaner"],
     "developmentStatus": "https://www.repostatus.org/#active",
@@ -24245,7 +24015,12 @@
       }
     ],
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -25092,7 +24867,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cyphr/blob/master/README.md"
   },
   {
     "@context": [
@@ -26597,6 +26373,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dittodb/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/dittodb/blob/main/README.md",
     "fileSize": "2036.906KB",
     "contIntegration": "https://codecov.io/gh/ropensci/dittodb?branch=main",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
@@ -30309,6 +30086,7 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/fauxpas",
     "releaseNotes": "https://github.com/ropensci/fauxpas/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/fauxpas/blob/master/README.md",
     "fileSize": "0KB",
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
@@ -31276,7 +31054,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/fingertipsR/blob/master/README.md"
   },
   {
     "@context": [
@@ -32740,6 +32519,7 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/geojsonio", "https://codecov.io/github/ropensci/geojsonio?branch=master"],
     "releaseNotes": "https://github.com/ropensci/geojsonio/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geojsonio/blob/master/README.md",
     "fileSize": "1841.856KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
@@ -33115,6 +32895,7 @@
     ],
     "contIntegration": "https://codecov.io/gh/ropensci/geoops",
     "releaseNotes": "https://github.com/ropensci/geoops/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geoops/blob/master/README.md",
     "fileSize": "785.979KB",
     "relatedLink": "https://docs.ropensci.org/geoops",
     "contributor": {},
@@ -33884,6 +33665,7 @@
     ],
     "contIntegration": "https://codecov.io/github/ropensci/gistr?branch=master",
     "releaseNotes": "https://github.com/ropensci/gistr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/gistr/blob/master/README.md",
     "fileSize": "0KB",
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
@@ -36226,7 +36008,7 @@
     ],
     "applicationCategory": "Metadata",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["doi", "metadata", "citation", "bibtex", "Crossref", "Crosscite", "Codemeta", "RIS", "Citeproc", "RDF", "XML", "JSON"],
+    "keywords": ["doi", "metadata", "citation", "bibtex", "Crossref", "Crosscite", "Codemeta", "RIS", "Citeproc", "RDF", "XML", "JSON", "citations", "digital-object-identifier", "citeproc", "crosscite", "ris", "r", "r-package", "rstats"],
     "releaseNotes": "https://github.com/ropensci/handlr/blob/master/NEWS.md",
     "fileSize": "38.207KB",
     "contIntegration": ["https://travis-ci.com/ropensci/handlr", "https://ci.appveyor.com/project/sckott/handlr", "https://codecov.io/github/ropensci/handlr?branch=master"],
@@ -37942,6 +37724,7 @@
     "keywords": ["heatmap", "plotly", "r", "interactive-visualizations", "data-visualization", "htmlwidgets"],
     "contIntegration": ["https://travis-ci.org/ropensci/iheatmapr", "https://ci.appveyor.com/project/ropensci/iheatmapr", "https://codecov.io/gh/ropensci/iheatmapr"],
     "releaseNotes": "https://github.com/ropensci/iheatmapr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/iheatmapr/blob/master/README.md",
     "fileSize": "10933.631KB",
     "citation": [
       {
