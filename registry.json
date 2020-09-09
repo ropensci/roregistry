@@ -2275,7 +2275,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/fingertipsR",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-09-07 15:21:57",
+      "date_last_commit": "2020-09-08 15:11:49",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -3094,7 +3094,7 @@
       "on_cran": true,
       "on_bioc": false,
       "url": "https://github.com/ropensci/lightr",
-      "date_last_commit": "2020-09-05 08:31:10",
+      "date_last_commit": "2020-09-08 14:14:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3189,17 +3189,17 @@
     },
     {
       "name": "medrxivr",
-      "description": "Access and Search MedRxiv and BioRxiv Preprint Data",
+      "description": "Access And Search MedRxiv And BioRxiv Preprint Data",
       "details": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. medrxivr provides programmatic access to the \n    Cold Spring Harbour Laboratory (CSHL) API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    medrxivr also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
       "maintainer": "Luke McGuinness",
-      "keywords": "bibliographic-database, evidence-synthesis, systematic-reviews",
+      "keywords": "bibliographic-database, biorxiv, evidence-synthesis, medrxiv-data, peer-reviewed, preprint-records, systematic-reviews",
       "github": "https://github.com/ropensci/medrxivr",
       "status": "active",
       "onboarding": "https://github.com/ropensci/software-review/issues/380",
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropensci/medrxivr",
-      "date_last_commit": "2020-09-08 11:41:50",
+      "date_last_commit": "2020-09-09 14:19:06",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3209,7 +3209,7 @@
       "description": "'Microsoft Academic' API Client",
       "details": "The 'Microsoft Academic Knowledge' API provides programmatic access\n\tto scholarly articles in the 'Microsoft Academic Graph'\n\t(<https://academic.microsoft.com/>). Includes methods matching all 'Microsoft\n\tAcademic' API routes, including search, graph search, text similarity, and\n\tinterpret natural language query string.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "citations, full-text, literature, pdf, publications, text-mining, xml",
+      "keywords": "api-client, citations, full-text, literature, pdf, publications, scholarly-articles, scholarly-metadata, text-mining, xml",
       "github": "https://github.com/ropensci/microdemic",
       "status": "wip",
       "onboarding": "",
@@ -3252,7 +3252,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/MODIStsp",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-09-04 09:31:16",
+      "date_last_commit": "2020-09-09 13:07:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4690,7 +4690,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rgbif",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-09-04 17:23:21",
+      "date_last_commit": "2020-09-08 15:43:38",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -4787,7 +4787,7 @@
     {
       "name": "rinat",
       "description": "Access iNaturalist Data Through APIs",
-      "details": "A programmatic interface to the API provided by the iNaturalist website <http://inaturalist.org> to download species occurrence data submitted by citizen scientists.",
+      "details": "A programmatic interface to the API provided by the iNaturalist website <https://inaturalist.org/> to download species occurrence data submitted by citizen scientists.",
       "maintainer": "Stéphane Guillou",
       "keywords": "inaturalist, spocc",
       "github": "https://github.com/ropensci/rinat",
@@ -4797,7 +4797,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/rinat",
       "ropensci_category": "data-access",
-      "date_last_commit": "2020-09-05 08:50:23",
+      "date_last_commit": "2020-09-08 14:24:42",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -5758,7 +5758,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/taxizedb",
       "ropensci_category": "taxonomy",
-      "date_last_commit": "2020-08-25 19:07:06",
+      "date_last_commit": "2020-09-08 16:42:46",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5830,7 +5830,7 @@
       "on_bioc": false,
       "url": "https://github.com/ropensci/tic",
       "ropensci_category": "scalereprod",
-      "date_last_commit": "2020-09-05 06:59:31",
+      "date_last_commit": "2020-09-08 19:48:10",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6035,11 +6035,11 @@
       "keywords": "",
       "github": "https://github.com/ropensci/treedata.table",
       "status": "www.repostatus.org/#active",
-      "onboarding": "",
+      "onboarding": "https://github.com/ropensci/software-review/issues/367",
       "on_cran": false,
       "on_bioc": false,
       "url": "https://github.com/ropensci/treedata.table",
-      "date_last_commit": "2020-09-07 15:10:45",
+      "date_last_commit": "2020-09-08 23:03:26",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6452,5 +6452,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2020-09-08 15:16 UTC"
+  "date": "2020-09-09 15:06 UTC"
 }

@@ -39662,11 +39662,11 @@
     "@type": "SoftwareSourceCode",
     "identifier": "medrxivr",
     "description": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. medrxivr provides programmatic access to the \n    Cold Spring Harbour Laboratory (CSHL) API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    medrxivr also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
-    "name": "medrxivr: Access and Search MedRxiv and BioRxiv Preprint Data",
+    "name": "medrxivr: Access And Search MedRxiv And BioRxiv Preprint Data",
     "codeRepository": "https://github.com/ropensci/medrxivr",
-    "issueTracker": "https://github.com/mcguinlu/medrxivr/issues",
+    "issueTracker": "https://github.com/ropensci/medrxivr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.900",
+    "version": "0.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39914,14 +39914,28 @@
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       }
     ],
-    "releaseNotes": "https://github.com/mcguinlu/medrxivr/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.com/mcguinlu/medrxivr", "https://ci.appveyor.com/project/mcguinlu/medrxivr", "https://codecov.io/gh/mcguinlu/medrxivr?branch=master"],
+    "releaseNotes": "https://github.com/ropensci/medrxivr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/medrxivr/blob/master/README.md",
+    "fileSize": "952.34KB",
+    "contIntegration": ["https://travis-ci.com/ropensci/medrxivr", "https://codecov.io/gh/ropensci/medrxivr?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/380",
       "provider": "https://ropensci.org"
     },
+    "keywords": [
+      "evidence-synthesis",
+      "systematic-reviews",
+      "bibliographic-database",
+      "rstats",
+      "r-package",
+      "r",
+      "preprint-records",
+      "medrxiv-data",
+      "biorxiv",
+      "peer-reviewed"
+    ],
     "citation": [
       {
         "@type": "CreativeWork",
@@ -39939,17 +39953,8 @@
           }
         ],
         "name": "medrxivr: Accessing medRxiv and bioRxiv data in R",
-        "url": "https://github.com/mcguinlu/medrxivr"
+        "url": "https://github.com/ropensci/medrxivr"
       }
-    ],
-    "readme": "https://github.com/ropensci/medrxivr/blob/master/README.md",
-    "keywords": [
-      "evidence-synthesis",
-      "systematic-reviews",
-      "bibliographic-database",
-      "rstats",
-      "r-package",
-      "r"
     ]
   },
   {
@@ -40098,7 +40103,7 @@
     "releaseNotes": "https://github.com/ropensci/microdemic/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/microdemic/blob/master/README.md",
     "fileSize": "73.362KB",
-    "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text"],
+    "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text", "api-client", "scholarly-articles", "scholarly-metadata", "rstats", "r", "r-package"],
     "relatedLink": "https://docs.ropensci.org/microdemic",
     "contributor": {},
     "copyrightHolder": {},
@@ -61357,10 +61362,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rinat",
-    "description": "A programmatic interface to the API provided by the iNaturalist website <http://inaturalist.org> to download species occurrence data submitted by citizen scientists.",
+    "description": "A programmatic interface to the API provided by the iNaturalist website <https://inaturalist.org/> to download species occurrence data submitted by citizen scientists.",
     "name": "rinat: Access iNaturalist Data Through APIs",
     "codeRepository": "https://github.com/ropensci/rinat",
-    "relatedLink": "https://docs.ropensci.org/rinat",
+    "relatedLink": [
+      "https://docs.ropensci.org/rinat",
+      "https://docs.ropensci.org/rinat/"
+    ],
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.6",
     "programmingLanguage": {
@@ -75242,7 +75250,7 @@
     "codeRepository": "https://github.com/ropensci/taxizedb",
     "issueTracker": "https://github.com/ropensci/taxizedb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.2",
+    "version": "0.2.2.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79137,8 +79145,14 @@
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/uyedaj/treedata.table", "https://codecov.io/gh/uyedaj/treedata.table"],
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#uyedaj/treedata.table",
+    "contIntegration": ["https://travis-ci.org/ropensci/treedata.table", "https://codecov.io/gh/ropensci/treedata.table"],
+    "developmentStatus": "https://www.tidyverse.org/lifecycle/#ropensci/treedata.table",
+    "relatedLink": "https://docs.ropensci.org/treedata.table",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/367",
+      "provider": "https://ropensci.org"
+    },
     "readme": "https://github.com/ropensci/treedata.table/blob/master/README.md"
   },
   {
