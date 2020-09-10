@@ -12035,7 +12035,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "duckdb",
-        "name": "duckdb"
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       }
     ],
     "softwareRequirements": [
@@ -16611,7 +16618,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "c14bazAAR",
-    "description": "Query different C14 date databases and apply basic data cleaning, merging and calibration steps. Currently available databases: 14cpalaeolithic, 14sea, adrac, austarch, calpal, context, emedyd, eubar, euroevol, irdd, jomon, kiteeastafrica, medafricarbon, pacea, palmisano, radon, radonb.",
+    "description": "Query different C14 date databases and apply basic data cleaning, merging and calibration steps. Currently available databases: 14cpalaeolithic, 14sea, adrac, austarch, calpal, context, emedyd, eubar, euroevol, irdd, jomon, katsianis, kiteeastafrica, medafricarbon, mesorad, pacea, palmisano, radon, radonb.",
     "name": "c14bazAAR: Download and Prepare C14 Dates from Different Source Databases",
     "codeRepository": "https://github.com/ropensci/c14bazAAR",
     "issueTracker": "https://github.com/ropensci/c14bazAAR/issues",
@@ -17087,7 +17094,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/c14bazAAR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/c14bazAAR/blob/master/README.md",
-    "fileSize": "10704.229KB",
+    "fileSize": "10731.197KB",
     "contIntegration": ["https://travis-ci.org/ropensci/c14bazAAR", "https://codecov.io/github/ropensci/c14bazAAR?branch=master"],
     "keywords": [
       "radiocarbon-dates",
@@ -20158,7 +20165,6 @@
         "sameAs": "https://CRAN.R-project.org/package=R6"
       }
     ],
-    "readme": "https://github.com/ropensci/clock/blob/master/README.md",
     "contIntegration": "https://travis-ci.com/ropensci/clock",
     "developmentStatus": "https://www.repostatus.org/#wip",
     "keywords": [
@@ -20166,7 +20172,8 @@
       "rstats",
       "time-mock",
       "mock-time"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/clock/blob/master/README.md"
   },
   {
     "@context": [
@@ -39013,7 +39020,7 @@
     "codeRepository": "https://github.com/ropensci/mapscanner",
     "issueTracker": "https://github.com/ropensci/mapscanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.3",
+    "version": "0.0.3.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39394,7 +39401,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=RNiftyReg"
+        "sameAs": "https://github.com/jonclayden/RNiftyReg"
       },
       {
         "@type": "SoftwareApplication",
@@ -39462,7 +39469,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/mapscanner/blob/master/README.md",
-    "fileSize": "3656.379KB",
+    "fileSize": "4577.362KB",
     "contIntegration": ["https://travis-ci.org/ropensci/mapscanner", "https://codecov.io/gh/ropensci/mapscanner"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "keywords": [
@@ -54226,7 +54233,13 @@
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
     "keywords": ["text-ming", "literature", "scholarly", "citations", "search", "api-wrapper", "scholarly-metadata", "rstats", "r", "r-package"],
-    "releaseNotes": "https://github.com/ropensci/rbace/blob/master/NEWS.md"
+    "releaseNotes": "https://github.com/ropensci/rbace/blob/master/NEWS.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -61362,8 +61375,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rinat",
-    "description": "A programmatic interface to the API provided by the iNaturalist website <https://inaturalist.org/> to download species occurrence data submitted by citizen scientists.",
-    "name": "rinat: Access iNaturalist Data Through APIs",
+    "description": "A programmatic interface to the API provided by the 'iNaturalist' website <https://www.inaturalist.org/> to download species occurrence data submitted by citizen scientists.",
+    "name": "rinat: Access 'iNaturalist' Data Through APIs",
     "codeRepository": "https://github.com/ropensci/rinat",
     "relatedLink": [
       "https://docs.ropensci.org/rinat",
@@ -74435,7 +74448,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "duckdb",
-        "name": "duckdb"
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       }
     ],
     "softwareRequirements": [
@@ -78548,7 +78568,7 @@
       "url": "https://github.com/ropensci/software-review/issues/274",
       "provider": "https://ropensci.org"
     },
-    "relatedLink": ["https://docs.ropensci.org/tradestatistics/", "https://CRAN.R-project.org/package=tradestatistics"],
+    "relatedLink": "https://docs.ropensci.org/tradestatistics/",
     "keywords": ["r", "r-package", "rstats", "open-trade-statistics", "api-wrapper", "international-trade", "data-table", "jsonlite"]
   },
   {
