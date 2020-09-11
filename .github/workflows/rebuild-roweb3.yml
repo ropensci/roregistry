@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      master
+      
+name: Rebuild website
+
+jobs:
+  ping:
+    name: Ping
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping
+        run: curl ${{ secrets.ROWEB3 }}
