@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping
-        run: curl ${{ secrets.ROWEB3 }}
+        run: curl -X POST -d '{}'  ${{ secrets.ROWEB3 }}
