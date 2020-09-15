@@ -324,7 +324,8 @@
         "url": "https://cornelllabofornithology.github.io/auk/",
         "description": "R package version 0.3.0"
       }
-    ]
+    ],
+    "readme": "https://github.com/CornellLabofOrnithology/auk/blob/master/README.md"
   },
   {
     "@context": [
@@ -484,7 +485,8 @@
     ],
     "releaseNotes": "https://github.com/r-lib/credentials/blob/master/NEWS",
     "contIntegration": ["https://travis-ci.org/r-lib/credentials", "https://ci.appveyor.com/project/jeroen/credentials"],
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "http://www.repostatus.org/#active",
+    "readme": "https://github.com/r-lib/credentials/blob/master/README.md"
   },
   {
     "@context": [
@@ -910,7 +912,8 @@
     ],
     "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
     "contIntegration": ["https://travis-ci.org/r-lib/gert", "https://ci.appveyor.com/project/jeroen/gert"],
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "readme": "https://github.com/r-lib/gert/blob/master/README.md"
   },
   {
     "@context": [
@@ -1279,7 +1282,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "readme": "https://github.com/ropensci-org/roblog/blob/master/README.md"
   },
   {
     "@context": [
@@ -1510,6 +1514,7 @@
     ],
     "contIntegration": ["https://travis-ci.com/ropensci/rodev", "https://codecov.io/github/ropensci/rodev?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#wip",
+    "readme": "https://github.com/ropensci-org/rodev/blob/master/README.md",
     "fileSize": "12.994KB",
     "funder": [
       {
@@ -1855,6 +1860,7 @@
     "contIntegration": ["https://codecov.io/gh/GuangchuangYu/treeio", "https://travis-ci.org/GuangchuangYu/treeio", "https://ci.appveyor.com/project/GuangchuangYu/treeio"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/YuLab-SMU/treeio/blob/master/NEWS.md",
+    "readme": "https://github.com/YuLab-SMU/treeio/blob/master/README.md",
     "fileSize": "1130.987KB",
     "relatedLink": ["https://docs.ropensci.org/treeio/", "https://yulab-smu.top/treedata-book/", "https://bioconductor.org/packages/release/bioc/html/treeio.html"],
     "copyrightHolder": {},
@@ -1864,6 +1870,7 @@
       "url": "https://github.com/ropensci/software-review/issues/179",
       "provider": "https://ropensci.org"
     },
+    "keywords": ["phylogenetic-trees", "parser", "exporter"],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -2084,7 +2091,8 @@
         "sameAs": "https://CRAN.R-project.org/package=pingr"
       }
     ],
-    "contIntegration": "https://codecov.io/gh/ropensci/addressable"
+    "contIntegration": "https://codecov.io/gh/ropensci/addressable",
+    "readme": "https://github.com/ropensci/addressable/blob/main/README.md"
   },
   {
     "@context": [
@@ -2395,8 +2403,9 @@
     ],
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
-    "keywords": ["Antarctic", "SouthernOcean", "placenames", "gazetteer"],
+    "keywords": ["Antarctic", "SouthernOcean", "placenames", "gazetteer", "peer-reviewed", "r", "r-package", "rstats"],
     "contIntegration": ["https://travis-ci.org/ropensci/antanym", "https://ci.appveyor.com/project/ropensci/antanym", "https://codecov.io/gh/ropensci/antanym"],
+    "readme": "https://github.com/ropensci/antanym/blob/master/README.md",
     "fileSize": "1769.203KB",
     "citation": [
       {
@@ -2504,7 +2513,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/antiword/blob/master/README.md"
   },
   {
     "@context": [
@@ -2634,7 +2644,8 @@
       "rstats",
       "spocc",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/AntWeb/blob/master/README.md"
   },
   {
     "@context": [
@@ -2941,7 +2952,8 @@
       "url": "https://github.com/ropensci/software-review/issues/224",
       "provider": "https://ropensci.org"
     },
-    "funder": {}
+    "funder": {},
+    "readme": "https://github.com/ropensci/arkdb/blob/master/README.md"
   },
   {
     "@context": [
@@ -3110,7 +3122,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/aRxiv/blob/master/README.md"
   },
   {
     "@context": [
@@ -3257,10 +3270,19 @@
       "assertions",
       "sanitization",
       "workflow",
-      "checking"
+      "checking",
+      "predicate-functions",
+      "analysis-pipeline",
+      "assertion-methods",
+      "assertion-library",
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
     ],
     "contIntegration": "https://travis-ci.org/ropensci/assertr",
     "releaseNotes": "https://github.com/ropensci/assertr/blob/master/NEWS",
+    "readme": "https://github.com/ropensci/assertr/blob/master/README.md",
     "fileSize": "95.466KB",
     "relatedLink": ["https://docs.ropensci.org/assertr", "https://CRAN.R-project.org/package=assertr"],
     "contributor": {},
@@ -3395,7 +3417,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/av/blob/master/README.md"
   },
   {
     "@context": [
@@ -3670,6 +3693,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/babette/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/babette/blob/master/README.md",
     "fileSize": "1040.984KB",
     "contIntegration": ["https://travis-ci.org", "https://www.appveyor.com", "https://www.codecov.io", "https://travis-ci.org/ropensci/babette", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://codecov.io/github/ropensci/babette/branch/master", "https://travis-ci.org/ropensci/babette", "https://codecov.io/github/ropensci/babette/branch/develop", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/beautier", "https://codecov.io/github/ropensci/beautier/branch/master", "https://travis-ci.org/ropensci/beastier", "https://codecov.io/github/ropensci/beastier/branch/master", "https://travis-ci.org/ropensci/mauricer", "https://codecov.io/github/ropensci/mauricer/branch/master", "https://travis-ci.org/KlausVigo/phangorn", "https://codecov.io/github/KlausVigo/phangorn/branch/master", "https://travis-ci.org/ropensci/tracerer", "https://codecov.io/github/ropensci/tracerer/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beastier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beautier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/mauricer-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/tracerer-on-windows/branch/master", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/lumier", "https://codecov.io/github/ropensci/lumier/branch/master"],
     "citation": [
@@ -3703,7 +3727,10 @@
     "keywords": [
       "r",
       "r-package",
-      "rstats"
+      "rstats",
+      "phylogenetics",
+      "beast2",
+      "bayesian-inference"
     ],
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -3938,7 +3965,8 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/338",
       "provider": "https://ropensci.org"
-    }
+    },
+    "readme": "https://github.com/ropensci/baRcodeR/blob/master/README.md"
   },
   {
     "@context": [
@@ -4163,6 +4191,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/BaseSet/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/BaseSet/blob/master/README.md",
     "fileSize": "464.793KB",
     "contIntegration": ["https://travis-ci.org/ropensci/BaseSet", "https://codecov.io/github/ropensci/BaseSet?branch=master"],
     "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
@@ -4428,6 +4457,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/beastier/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/beastier/blob/master/README.md",
     "fileSize": "109.901KB",
     "contIntegration": ["https://travis-ci.org", "https://www.appveyor.com", "https://www.codecov.io", "https://travis-ci.org/ropensci/beastier", "https://ci.appveyor.com/project/richelbilderbeek/beastier-on-windows/branch/master", "https://codecov.io/github/ropensci/beastier/branch/master", "https://travis-ci.org/ropensci/beastier", "https://codecov.io/github/ropensci/beastier/branch/develop"],
     "citation": [
@@ -4732,6 +4762,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/beautier/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/beautier/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org", "https://www.appveyor.com", "https://www.codecov.io", "https://travis-ci.org/ropensci/beautier", "https://ci.appveyor.com/project/richelbilderbeek/beautier-on-windows/branch/master", "https://codecov.io/github/ropensci/beautier/branch/master", "https://travis-ci.org/ropensci/beautier", "https://codecov.io/github/ropensci/beautier/branch/develop"],
     "citation": [
       {
@@ -4974,7 +5005,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/bib2df/blob/master/README.md"
   },
   {
     "@context": [
@@ -5254,10 +5286,11 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data"],
+    "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data", "r", "rstats", "r-package", "peer-reviewed"],
     "contIntegration": ["https://travis-ci.org/ropensci/bikedata?branch=master", "https://ci.appveyor.com/project/ropensci/bikedata", "https://codecov.io/gh/ropensci/bikedata"],
     "developmentStatus": "http://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/bikedata/blob/master/README.md",
     "fileSize": "2945.533KB",
     "copyrightHolder": {},
     "funder": {},
@@ -5510,7 +5543,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/binman/blob/master/README.md"
   },
   {
     "@context": [
@@ -5841,9 +5875,10 @@
       }
     ],
     "applicationCategory": "DataAccess",
-    "keywords": ["BioMart", "genomic-data-retrieval", "annotation-retrieval", "database-retrieval", "NCBI", "ENSEMBL", "biological-data-retrieval"],
+    "keywords": ["BioMart", "genomic-data-retrieval", "annotation-retrieval", "database-retrieval", "NCBI", "ENSEMBL", "biological-data-retrieval", "r", "genome-retrieval", "biomart", "ncbi-genbank", "genomics", "ensembl-servers", "sequenced-genomes", "proteome", "genome", "genome-annotation", "metagenomics", "meta-analysis", "rstats", "r-package", "peer-reviewed"],
     "contIntegration": "https://travis-ci.org/ropensci/biomartr",
     "releaseNotes": "https://github.com/ropensci/biomartr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/biomartr/blob/master/README.md",
     "fileSize": "128.006KB",
     "citation": [
       {
@@ -6043,9 +6078,10 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["cryptocurrency", "cryptocurency-exchange", "finance"],
+    "keywords": ["cryptocurrency", "cryptocurency-exchange", "finance", "crypto-currency-exchanges", "r", "rstats", "r-package", "peer-reviewed"],
     "contIntegration": ["https://travis-ci.org/ropensci/bittrex", "https://codecov.io/github/ropensci/bittrex?branch=master"],
     "releaseNotes": "https://github.com/ropensci/bittrex/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/bittrex/blob/master/README.md",
     "fileSize": "174.209KB",
     "relatedLink": "https://docs.ropensci.org/bittrex",
     "contributor": [
@@ -6285,10 +6321,11 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["biodiversity", "barcode", "DNA", "sequences", "fasta"],
+    "keywords": ["biodiversity", "barcode", "DNA", "sequences", "fasta", "api-wrapper", "barcodes", "r", "rstats", "r-package", "taxize"],
     "contIntegration": "https://codecov.io/github/ropensci/bold?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/bold/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/bold/blob/master/README.md",
     "fileSize": "1364.286KB",
     "contributor": {},
     "copyrightHolder": {},
@@ -6772,6 +6809,7 @@
     ],
     "contIntegration": "https://codecov.io/gh/ropensci/bomrang",
     "releaseNotes": "https://github.com/ropensci/bomrang/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/bomrang/blob/master/README.md",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -6863,7 +6901,7 @@
     ],
     "applicationCategory": "Tools",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["bom", "meteorological-data", "weather-forecast", "australia", "weather", "weather-data", "meteorology", "australia-bureau-of-meteorology"],
+    "keywords": ["bom", "meteorological-data", "weather-forecast", "australia", "weather", "weather-data", "meteorology", "australia-bureau-of-meteorology", "r", "rstats", "r-package", "peer-reviewed"],
     "contributor": [
       {
         "@type": "Person",
@@ -7192,10 +7230,11 @@
       }
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/bowerbird", "https://travis-ci.org/ropensci/bowerbird", "https://ci.appveyor.com/project/ropensci/bowerbird", "https://codecov.io/gh/ropensci/bowerbird"],
+    "readme": "https://github.com/ropensci/bowerbird/blob/master/README.md",
     "fileSize": "171.717KB",
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
-    "keywords": ["ropensci", "Antarctic", "SouthernOcean", "data", "environmental", "satellite", "climate"],
+    "keywords": ["ropensci", "Antarctic", "SouthernOcean", "data", "environmental", "satellite", "climate", "r", "rstats", "r-package", "peer-reviewed"],
     "relatedLink": "https://docs.ropensci.org/bowerbird",
     "copyrightHolder": {},
     "funder": {},
@@ -7371,9 +7410,10 @@
     ],
     "applicationCategory": "Phylogenetics",
     "isPartOf": "\"https://ropensci.org\"",
-    "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants"],
+    "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants", "rstats", "phylogenies", "r", "r-package"],
     "contIntegration": "https://codecov.io/github/ropensci/brranching?branch=master",
     "releaseNotes": "https://github.com/ropensci/brranching/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/brranching/blob/master/README.md",
     "fileSize": "960.595KB",
     "developmentStatus": "https://www.repostatus.org/#active",
     "contributor": {},
@@ -7863,6 +7903,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/c14bazAAR/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/c14bazAAR/blob/master/README.md",
     "fileSize": "10731.197KB",
     "contIntegration": ["https://travis-ci.org/ropensci/c14bazAAR", "https://codecov.io/github/ropensci/c14bazAAR?branch=master"],
     "keywords": [
@@ -8069,7 +8110,8 @@
       "r-package",
       "rstats",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/camsRad/blob/master/README.md"
   },
   {
     "@context": [
@@ -8239,9 +8281,10 @@
       }
     ],
     "isPartOf": "\"https://ropensci.org\"",
-    "keywords": ["data", "climatechange", "agriculture", "gcm", "generalcirculationmodel", "ccafs"],
+    "keywords": ["data", "climatechange", "agriculture", "gcm", "generalcirculationmodel", "ccafs", "climate-data", "climate", "r", "rstats", "r-package", "peer-reviewed"],
     "contIntegration": ["https://travis-ci.org/ropensci/ccafs", "https://ci.appveyor.com/project/sckott/ccafs", "https://codecov.io/gh/ropensci/ccafs"],
     "releaseNotes": "https://github.com/ropensci/ccafs/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/ccafs/blob/master/README.md",
     "fileSize": "0KB",
     "relatedLink": [
       "https://docs.ropensci.org/ccafs",
@@ -8486,7 +8529,8 @@
       "testing",
       "r-package",
       "monitoring"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cchecks/blob/master/README.md"
   },
   {
     "@context": [
@@ -8650,7 +8694,8 @@
           }
         }
       }
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cde/blob/master/README.md"
   },
   {
     "@context": [
@@ -8805,6 +8850,7 @@
     "contIntegration": ["https://travis-ci.org/ropensci/charlatan", "https://ci.appveyor.com/project/sckott/charlatan", "https://codecov.io/gh/ropensci/charlatan"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/charlatan/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/charlatan/blob/master/README.md",
     "fileSize": "300.134KB",
     "review": {
       "@type": "Review",
@@ -9020,6 +9066,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/chirps/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/chirps/blob/master/README.md",
     "contIntegration": "https://codecov.io/gh/ropensci/chirps",
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
@@ -9201,6 +9248,7 @@
         "version": ">= 3.5"
       }
     ],
+    "readme": "https://github.com/ropensci/chlorpromazineR/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/chlorpromazineR", "https://codecov.io/github/ropensci/chlorpromazineR?branch=master"],
     "keywords": [
       "psychiatry",
@@ -9345,6 +9393,7 @@
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
+    "readme": "https://github.com/ropensci/chromer/blob/master/README.md",
     "fileSize": "500.387KB",
     "contIntegration": ["https://travis-ci.org/ropensci/chromer", "https://ci.appveyor.com/project/karthik/chromer"],
     "provider": {
@@ -9354,7 +9403,8 @@
       "url": "https://cran.r-project.org"
     },
     "relatedLink": "https://docs.ropensci.org/chromer/",
-    "releaseNotes": "https://github.com/ropensci/chromer/blob/master/NEWS"
+    "releaseNotes": "https://github.com/ropensci/chromer/blob/master/NEWS",
+    "keywords": ["r", "rstats", "r-package"]
   },
   {
     "@context": [
@@ -9488,7 +9538,8 @@
     ],
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["doi", "metadata", "citation", "opencitations", "bibtex"],
+    "keywords": ["doi", "metadata", "citation", "opencitations", "bibtex", "citations", "pmid", "pmcid", "sparql", "r", "r-package", "rstats"],
+    "readme": "https://github.com/ropensci/citecorp/blob/master/README.md",
     "fileSize": "0KB",
     "contIntegration": "https://travis-ci.com/ropensci/citecorp",
     "developmentStatus": "https://www.repostatus.org/#active",
@@ -9807,6 +9858,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/citesdb/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/citesdb/blob/master/README.md",
     "contIntegration": ["https://circleci.com/gh/ropensci/citesdb", "https://codecov.io/gh/ropensci/citesdb"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": [
@@ -10122,8 +10174,9 @@
     ],
     "applicationCategory": "DataAccess",
     "isPartOf": "\"https://ropensci.org\"",
-    "keywords": ["database", "open-data", "ckan", "api", "data", "dataset"],
+    "keywords": ["database", "open-data", "ckan", "api", "data", "dataset", "ckan-api", "api-wrapper", "r", "rstats", "r-package"],
     "releaseNotes": "https://github.com/ropensci/ckanr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/ckanr/blob/master/README.md",
     "fileSize": "0KB",
     "copyrightHolder": {},
     "funder": {},
@@ -10248,7 +10301,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cld2/blob/master/README.md"
   },
   {
     "@context": [
@@ -10364,7 +10418,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cld3/blob/master/README.md"
   },
   {
     "@context": [
@@ -10558,7 +10613,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cleanEHR/blob/master/README.md"
   },
   {
     "@context": [
@@ -10787,10 +10843,11 @@
       }
     ],
     "applicationCategory": "DataAccess",
-    "keywords": ["r", "opensci", "zealand", "weather", "climate", "cliflo", "data", "api", "windrose", "rain", "wind", "temperature"],
+    "keywords": ["r", "opensci", "zealand", "weather", "climate", "cliflo", "data", "api", "windrose", "rain", "wind", "temperature", "climate-data", "climate-stations", "national-climate-database", "kml", "rstats", "r-package"],
     "isPartOf": "\"https://ropensci.org\"",
     "contIntegration": ["https://travis-ci.org/ropensci/clifro", "https://codecov.io/github/ropensci/clifro?branch=master"],
     "releaseNotes": "https://github.com/ropensci/clifro/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/clifro/blob/master/README.md",
     "fileSize": "2398.08KB",
     "citation": [
       {
@@ -10925,7 +10982,8 @@
       "rstats",
       "time-mock",
       "mock-time"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/clock/blob/master/README.md"
   },
   {
     "@context": [
@@ -11380,8 +11438,9 @@
       }
     ],
     "isPartOf": "https://ropensci.org",
-    "keywords": ["metadata", "codemeta", "ropensci", "citation", "credit", "linked-data"],
+    "keywords": ["metadata", "codemeta", "ropensci", "citation", "credit", "linked-data", "json-ld", "r", "rstats", "r-package", "peer-reviewed"],
     "releaseNotes": "https://github.com/ropensci/codemetar/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/codemetar/blob/master/README.md",
     "fileSize": "1466.238KB",
     "contIntegration": ["https://travis-ci.org/ropensci/codemetar", "https://ci.appveyor.com/project/cboettig/codemetar/branch/master", "https://codecov.io/github/ropensci/codemetar?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
@@ -11648,7 +11707,8 @@
           }
         }
       }
-    ]
+    ],
+    "readme": "https://github.com/ropensci/colocr/blob/master/README.md"
   },
   {
     "@context": [
@@ -11793,8 +11853,9 @@
     ],
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species"],
-    "contIntegration": "https://codecov.io/gh/ropensci/colpluz"
+    "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species", "rstats", "r"],
+    "contIntegration": "https://codecov.io/gh/ropensci/colpluz",
+    "readme": "https://github.com/ropensci/colpluz/blob/master/README.md"
   },
   {
     "@context": [
@@ -11978,7 +12039,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/comtradr/blob/master/README.md"
   },
   {
     "@context": [
@@ -12068,8 +12130,9 @@
     ],
     "applicationCategory": "Utilities",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["condition", "condition-control", "warning", "message"],
+    "keywords": ["condition", "condition-control", "warning", "message", "r", "rstats", "conditions", "r-package"],
     "releaseNotes": "https://github.com/ropensci/conditionz/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/conditionz/blob/master/README.md",
     "fileSize": "0KB",
     "contIntegration": ["https://travis-ci.com/ropensci/conditionz", "https://codecov.io/github/ropensci/conditionz?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#wip",
@@ -12476,6 +12539,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/CoordinateCleaner/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/CoordinateCleaner/blob/master/README.md",
     "fileSize": "129191.1KB",
     "contIntegration": ["https://travis-ci.org/ropensci/CoordinateCleaner", "https://codecov.io/github/ropensci/CoordinateCleaner"],
     "relatedLink": ["https://ropensci.github.io/CoordinateCleaner/", "https://CRAN.R-project.org/package=CoordinateCleaner"],
@@ -12898,7 +12962,8 @@
           }
         }
       }
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cRegulome/blob/master/README.md"
   },
   {
     "@context": [
@@ -13059,10 +13124,11 @@
     ],
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["text-mining", "literature", "publications", "crossref", "pdf", "xml"],
+    "keywords": ["text-mining", "literature", "publications", "crossref", "pdf", "xml", "r", "rstats", "r-package"],
     "contIntegration": "https://codecov.io/github/ropensci/crminer?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/crminer/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/crminer/blob/master/README.md",
     "fileSize": "5113.927KB",
     "relatedLink": "https://docs.ropensci.org/crminer",
     "contributor": {},
@@ -13274,10 +13340,11 @@
     ],
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["http", "https", "API", "web-services", "curl", "download", "libcurl", "async", "mocking", "caching"],
+    "keywords": ["http", "https", "API", "web-services", "curl", "download", "libcurl", "async", "mocking", "caching", "rstats", "api", "r", "r-package"],
     "contIntegration": "https://codecov.io/gh/ropensci/crul",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/crul/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/crul/blob/master/README.md",
     "fileSize": "336.109KB",
     "relatedLink": [
       "https://ropenscilabs.github.io/http-testing-book/",
@@ -13426,7 +13493,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/cyphr/blob/master/README.md"
   },
   {
     "@context": [
@@ -13640,7 +13708,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/datapack/blob/master/README.md"
   },
   {
     "@context": [
@@ -13930,6 +13999,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/DataPackageR/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/DataPackageR/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/DataPackageR", "https://codecov.io/github/ropensci/DataPackageR?branch=master", "https://ci.appveyor.com/project/gfinak/DataPackageR"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
@@ -14202,6 +14272,7 @@
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "contributor": {},
     "funder": {},
+    "readme": "https://github.com/ropensci/DataSpaceR/blob/master/README.md",
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -14375,7 +14446,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/dbhydroR/blob/master/README.md"
   },
   {
     "@context": [
@@ -14625,6 +14697,7 @@
         "url": "https://CRAN.R-project.org/package=dbparser"
       }
     ],
+    "readme": "https://github.com/ropensci/dbparser/blob/master/README.md",
     "fileSize": "409.18KB",
     "review": {
       "@type": "Review",
@@ -14932,6 +15005,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dittodb/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/dittodb/blob/main/README.md",
     "fileSize": "2036.906KB",
     "contIntegration": "https://codecov.io/gh/ropensci/dittodb?branch=main",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
@@ -15052,7 +15126,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/DoOR.data/blob/master/README.md"
   },
   {
     "@context": [
@@ -15236,7 +15311,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/DoOR.functions/blob/master/README.md"
   },
   {
     "@context": [
@@ -15877,6 +15953,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/drake/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/drake/blob/master/README.md",
     "fileSize": "1128.413KB",
     "contIntegration": "https://codecov.io/github/ropensci/drake?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
@@ -16154,7 +16231,8 @@
       "berkeley-ecoinformatics-engine",
       "spocc",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/ecoengine/blob/master/README.md"
   },
   {
     "@context": [
@@ -16391,6 +16469,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/eia/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/eia/blob/master/README.md",
     "fileSize": "254.725KB",
     "contIntegration": ["https://travis-ci.org/ropensci/eia", "https://ci.appveyor.com/project/leonawicz/eia", "https://codecov.io/gh/ropensci/eia?branch=master"],
     "keywords": [
@@ -16562,10 +16641,11 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/elastic", "https://codecov.io/github/ropensci/elastic?branch=master"],
     "releaseNotes": "https://github.com/ropensci/elastic/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/elastic/blob/master/README.md",
     "fileSize": "1213.449KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["database", "Elasticsearch", "HTTP", "API", "search", "NoSQL", "Java", "JSON", "documents"],
+    "keywords": ["database", "Elasticsearch", "HTTP", "API", "search", "NoSQL", "Java", "JSON", "documents", "elasticsearch", "http", "database-wrapper", "json", "rstats", "r", "r-package", "data-science", "etl"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -16908,6 +16988,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       }
     ],
+    "readme": "https://github.com/ropensci/EML/blob/master/README.md",
     "fileSize": "491.202KB",
     "contIntegration": ["https://travis-ci.org/ropensci/EML", "https://ci.appveyor.com/project/cboettig/eml", "https://codecov.io/gh/ropensci/EML"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
@@ -17160,6 +17241,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/emld/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/emld/blob/master/README.md",
     "fileSize": "652.48KB",
     "contIntegration": ["https://travis-ci.org/ropensci/emld", "https://ci.appveyor.com/project/cboettig/emld", "https://codecov.io/github/ropensci/emld?branch=master"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
@@ -17646,7 +17728,8 @@
       "text-mining",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/EndoMineR/blob/master/README.md"
   },
   {
     "@context": [
@@ -17835,6 +17918,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/epubr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/epubr/blob/master/README.md",
     "fileSize": "478.222KB",
     "contIntegration": ["https://travis-ci.org/ropensci/epubr", "https://ci.appveyor.com/project/leonawicz/epubr", "https://codecov.io/gh/ropensci/epubr"],
     "developmentStatus": "http://www.repostatus.org/#active",
@@ -18027,6 +18111,7 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/essurvey", "https://ci.appveyor.com/project/ropensci/essurvey", "https://codecov.io/github/ropensci/essurvey?branch=master"],
     "releaseNotes": "https://github.com/ropensci/essurvey/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/essurvey/blob/master/README.md",
     "fileSize": "63.788KB",
     "relatedLink": [
       "https://docs.ropensci.org/essurvey/",
@@ -18342,7 +18427,8 @@
       "r-package",
       "pubmed",
       "pubmedcentral"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/europepmc/blob/master/README.md"
   },
   {
     "@context": [
@@ -18481,7 +18567,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/ezknitr/blob/master/README.md"
   },
   {
     "@context": [
@@ -18645,10 +18732,11 @@
     ],
     "contIntegration": "https://travis-ci.org/ropensci/fauxpas",
     "releaseNotes": "https://github.com/ropensci/fauxpas/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/fauxpas/blob/master/README.md",
     "fileSize": "0KB",
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["http", "https", "API", "web-services", "curl", "errors", "error"],
+    "keywords": ["http", "https", "API", "web-services", "curl", "errors", "error", "error-handling", "rstats", "r", "r-package"],
     "relatedLink": "https://docs.ropensci.org/fauxpas",
     "contributor": {},
     "copyrightHolder": {},
@@ -19138,6 +19226,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/FedData/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/FedData/blob/master/README.md",
     "fileSize": "2115475.045KB",
     "contIntegration": ["https://travis-ci.org/ropensci/FedData", "https://codecov.io/github/ropensci/FedData?branch=master"],
     "review": {
@@ -19302,9 +19391,10 @@
     ],
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["biology", "occurrences", "specimen", "biodiversity", "collections", "species"],
+    "keywords": ["biology", "occurrences", "specimen", "biodiversity", "collections", "species", "rstats", "darwin-core", "darwincore", "gbif", "r", "r-package"],
     "contIntegration": ["https://travis-ci.org/ropensci/finch", "https://ci.appveyor.com/project/sckott/finch", "https://codecov.io/gh/ropensci/finch"],
     "releaseNotes": "https://github.com/ropensci/finch/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/finch/blob/master/README.md",
     "fileSize": "251.447KB",
     "contributor": {},
     "copyrightHolder": {},
@@ -19618,7 +19708,8 @@
       "rstats",
       "r-package",
       "peer-reviewed"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/fingertipsR/blob/master/README.md"
   },
   {
     "@context": [
@@ -19787,6 +19878,7 @@
       }
     ],
     "contIntegration": "https://codecov.io/gh/ropensci/ftdoi",
+    "readme": "https://github.com/ropensci/ftdoi/blob/master/README.md",
     "fileSize": "0KB",
     "contributor": {},
     "copyrightHolder": {},
@@ -20120,9 +20212,10 @@
     ],
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM"],
+    "keywords": ["text-mining", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-ming", "metadata", "open-access", "extract-text", "crossref", "rstats", "r", "r-package"],
     "contIntegration": "https://codecov.io/gh/ropensci/fulltext",
     "releaseNotes": "https://github.com/ropensci/fulltext/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/fulltext/blob/master/README.md",
     "fileSize": "1360.843KB",
     "developmentStatus": "https://www.repostatus.org/#active",
     "relatedLink": [
@@ -20351,7 +20444,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/gender/blob/master/README.md"
   },
   {
     "@context": [
@@ -20431,7 +20525,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/genderdata/blob/master/README.md"
   },
   {
     "@context": [
@@ -20545,13 +20640,16 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/geoaxe", "https://ci.appveyor.com/project/sckott/geoaxe", "https://codecov.io/github/ropensci/geoaxe?branch=master"],
     "releaseNotes": "https://github.com/ropensci/geoaxe/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geoaxe/blob/master/README.md",
     "fileSize": "620.99KB",
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": [
       "wkt",
       "geojson",
       "spatial",
-      "rstats"
+      "rstats",
+      "r",
+      "r-package"
     ],
     "relatedLink": "https://docs.ropensci.org/geoaxe",
     "contributor": {},
@@ -20777,10 +20875,11 @@
     ],
     "contIntegration": "https://codecov.io/gh/ropensci/geojson",
     "releaseNotes": "https://github.com/ropensci/geojson/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geojson/blob/master/README.md",
     "fileSize": "1008.856KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["geojson", "geospatial", "conversion", "data", "input-output", "bbox", "polygon", "geobuf"],
+    "keywords": ["geojson", "geospatial", "conversion", "data", "input-output", "bbox", "polygon", "geobuf", "spatial", "rstats", "r", "r-package", "crs", "ndgeojson"],
     "relatedLink": "https://docs.ropensci.org/geojson",
     "contributor": {},
     "copyrightHolder": {},
@@ -21082,10 +21181,11 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/geojsonio", "https://codecov.io/github/ropensci/geojsonio?branch=master"],
     "releaseNotes": "https://github.com/ropensci/geojsonio/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geojsonio/blob/master/README.md",
     "fileSize": "1841.856KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output"],
+    "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output", "io", "rstats", "r", "r-package"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -21251,8 +21351,9 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/geojsonlint", "https://codecov.io/github/ropensci/geojsonlint?branch=master"],
     "releaseNotes": "https://github.com/ropensci/geojsonlint/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/geojsonlint/blob/master/README.md",
     "fileSize": "881.796KB",
-    "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema"],
+    "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema", "linter", "r", "rstats", "r-package"],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "relatedLink": "https://docs.ropensci.org/geojsonlint",
