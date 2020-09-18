@@ -31205,7 +31205,7 @@
     "relatedLink": "https://docs.ropensci.org/MODIStsp/",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56969,7 +56969,13 @@
       "rstats",
       "peer-reviewed"
     ],
-    "readme": "https://github.com/ropensci/rppo/blob/master/README.md"
+    "readme": "https://github.com/ropensci/rppo/blob/master/README.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -69331,7 +69337,7 @@
     "fileSize": "2981.059KB",
     "contIntegration": "https://codecov.io/github/ropensci/tradestatistics?branch=master",
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#stable"],
-    "relatedLink": "https://docs.ropensci.org/tradestatistics/",
+    "relatedLink": ["https://docs.ropensci.org/tradestatistics/", "https://CRAN.R-project.org/package=tradestatistics"],
     "readme": "https://github.com/ropensci/tradestatistics/blob/master/README.md",
     "review": {
       "@type": "Review",
