@@ -13,7 +13,7 @@ script:
   - git config --global user.email "info@ropensci.org"
   - R -e 'betty::sync_ropensci_jenkins()'
   - R -e 'betty::sync_ropensci_docs()'
-  - R -e 'betty::sync_ropensci_dev()'
+#  - R -e 'betty::sync_ropensci_dev()'
 
 addons:
   apt:
