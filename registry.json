@@ -1873,7 +1873,7 @@
     {
       "name": "GSODR",
       "description": "Global Surface Summary of the Day ('GSOD') Weather Data Client",
-      "details": "Provides automated downloading, parsing, cleaning, unit conversion\n    and formatting of Global Surface Summary of the Day ('GSOD') weather data\n    from the from the USA National Centers for Environmental Information\n    ('NCEI').  Units are converted from from United States Customary System\n    ('USCS') units to International System of Units ('SI').  Stations may be\n    individually checked for number of missing days defined by the user, where\n    stations with too many missing observations are omitted.  Only stations with\n    valid reported latitude and longitude values are permitted in the final\n    data.  Additional useful elements, saturation vapour pressure ('es'), actual\n    vapour pressure ('ea') and relative humidity ('RH') are calculated from the\n    original data using the improved August-Roche-Magnus approximation (Alduchov\n    & Eskridge 1996) and included in the final data set.  The resulting metadata\n    include station identification information, country, state, latitude,\n    longitude, elevation, weather observations and associated flags.  For\n    information on the 'GSOD' data from 'NCEI', please see the 'GSOD'\n    'readme.txt' file available from,\n    <http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
+      "details": "Provides automated downloading, parsing, cleaning, unit conversion\n    and formatting of Global Surface Summary of the Day ('GSOD') weather data\n    from the from the USA National Centers for Environmental Information\n    ('NCEI').  Units are converted from from United States Customary System\n    ('USCS') units to International System of Units ('SI').  Stations may be\n    individually checked for number of missing days defined by the user, where\n    stations with too many missing observations are omitted.  Only stations with\n    valid reported latitude and longitude values are permitted in the final\n    data.  Additional useful elements, saturation vapour pressure ('es'), actual\n    vapour pressure ('ea') and relative humidity ('RH') are calculated from the\n    original data using the improved August-Roche-Magnus approximation (Alduchov\n    & Eskridge 1996) and included in the final data set.  The resulting metadata\n    include station identification information, country, state, latitude,\n    longitude, elevation, weather observations and associated flags.  For\n    information on the 'GSOD' data from 'NCEI', please see the 'GSOD'\n    'readme.txt' file available from,\n    <https://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
       "maintainer": "Adam Sparks",
       "keywords": "daily-data, daily-weather, data-access, global-data, global-weather, gsod, historical-data, historical-weather, meteorological-data, meteorology, ncdc, ncei, station-data, surface-weather, US-NCDC, US-NCEI, weather, weather-data, weather-information, weather-stations",
       "github": "https://github.com/ropensci/GSODR",
@@ -1884,7 +1884,7 @@
       "url": "https://github.com/ropensci/GSODR",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-08-26 10:29:54",
+      "date_last_commit": "2020-09-20 05:01:40",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5245,7 +5245,7 @@
       "url": "https://github.com/ropensci/tic",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2020-09-19 19:42:55",
+      "date_last_commit": "2020-09-20 07:34:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6768,5 +6768,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-09-20 01:45 UTC"
+  "date": "2020-09-20 08:17 UTC"
 }
