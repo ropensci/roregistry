@@ -24294,10 +24294,10 @@
     "description": "Download and process public domain works in the Project\n    Gutenberg collection <http://www.gutenberg.org/>. Includes metadata for\n    all Project Gutenberg works, so that they can be searched and retrieved.",
     "name": "gutenbergr: Download and Process Public Domain Works from Project Gutenberg",
     "codeRepository": "https://github.com/ropensci/gutenbergr",
-    "relatedLink": "https://docs.ropensci.org/gutenbergr",
-    "issueTracker": "http://github.com/ropensci/gutenbergr/issues",
+    "relatedLink": ["https://docs.ropensci.org/gutenbergr", "https://docs.ropensci.org/gutenbergr/"],
+    "issueTracker": "https://github.com/ropensci/gutenbergr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.0",
+    "version": "0.1.5.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24407,6 +24407,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
       }
     ],
     "softwareRequirements": [
