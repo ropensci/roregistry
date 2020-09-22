@@ -5003,6 +5003,97 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "bibtex",
+    "description": "Utility to parse a bibtex file. ",
+    "name": "bibtex: Bibtex Parser",
+    "codeRepository": "https://github.com/ropensci/bibtex",
+    "issueTracker": "https://github.com/romainfrancois/bibtex/issues",
+    "license": "https://spdx.org/licenses/GPL-2.0",
+    "version": "0.4.2",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Romain",
+        "familyName": "Francois",
+        "email": "romain@r-enthusiasts.com"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Kurt",
+        "familyName": "Hornik",
+        "email": "Kurt.Hornik@R-project.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Koohafkan",
+        "email": "michael.koohafkan@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": ["Mathew", "W."],
+        "familyName": "McLean",
+        "email": "mathew.w.mclean@gmail.com"
+      }
+    ],
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Romain",
+        "familyName": "Francois",
+        "email": "romain@r-enthusiasts.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.0.2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      }
+    ],
+    "readme": "https://github.com/ropensci/bibtex/blob/master/README.md",
+    "contIntegration": "https://travis-ci.org/romainfrancois/bibtex",
+    "keywords": ["bibtex", "parser", "r"]
+  },
+  {
     "@context": [
       "https://doi.org/doi:10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -24296,7 +24387,8 @@
     "codeRepository": "https://github.com/ropensci/gutenbergr",
     "relatedLink": [
       "https://docs.ropensci.org/gutenbergr",
-      "https://docs.ropensci.org/gutenbergr/"
+      "https://docs.ropensci.org/gutenbergr/",
+      "https://CRAN.R-project.org/package=gutenbergr"
     ],
     "issueTracker": "https://github.com/ropensci/gutenbergr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
@@ -24518,7 +24610,13 @@
       "rstats",
       "peer-reviewed"
     ],
-    "readme": "https://github.com/ropensci/gutenbergr/blob/master/README.md"
+    "readme": "https://github.com/ropensci/gutenbergr/blob/master/README.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -52270,13 +52368,19 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rmangal",
     "description": "An interface to the 'Mangal' database - a collection of ecological networks. This package includes functions to work with the 'Mangal RESTful API' methods (<https://mangal.io/doc/api>).",
     "name": "rmangal: 'Mangal' Client",
     "codeRepository": "https://github.com/ropensci/rmangal",
-    "relatedLink": ["https://docs.ropensci.org/rmangal", "https://mangal.io"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rmangal",
+      "https://mangal.io"
+    ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.0.1",
@@ -69659,7 +69763,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "treedata.table",
-    "description": "This package combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
+    "description": "An implementation that combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
     "name": "treedata.table: A Wrapper for Data.table for Fast Manipulation of Phylogenetic Trees Matched to Data",
     "codeRepository": "https://github.com/ropensci/treedata.table",
     "relatedLink": "https://docs.ropensci.org/treedata.table",

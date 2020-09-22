@@ -411,6 +411,24 @@
       "staff_maintained": false
     },
     {
+      "name": "bibtex",
+      "description": "Bibtex Parser",
+      "details": "Utility to parse a bibtex file. ",
+      "maintainer": "Romain Francois",
+      "keywords": "bibtex, parser",
+      "github": "https://github.com/ropensci/bibtex",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/bibtex",
+      "date_last_commit": "2020-09-22 18:12:01",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "bikedata",
       "description": "Download and Aggregate Data from Public Hire Bicycle Systems",
       "details": "Download and aggregate data from all public hire bicycle systems\n    which provide open data, currently including 'Santander' Cycles in London,\n    U.K.; from the U.S.A., 'Ford GoBike' in San Francisco CA, 'citibike' in New\n    York City NY, 'Divvy' in Chicago IL, 'Capital Bikeshare' in Washington DC,\n    'Hubway' in Boston MA, 'Metro' in Los Angeles LA, 'Indego' in Philadelphia\n    PA, and 'Nice Ride' in Minnesota; 'Bixi' from Montreal, Canada; and 'mibici'\n    from Guadalajara, Mexico.",
@@ -2018,7 +2036,7 @@
       "github": "https://github.com/ropensci/gutenbergr",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/41",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/gutenbergr",
@@ -2026,7 +2044,7 @@
       "ropenscilabs": false,
       "date_last_commit": "2020-09-20 23:14:16",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -5750,7 +5768,7 @@
     {
       "name": "treedata.table",
       "description": "A Wrapper for Data.table for Fast Manipulation of Phylogenetic Trees Matched to Data",
-      "details": "This package combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
+      "details": "An implementation that combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
       "maintainer": "Cristian Roman-Palacios",
       "keywords": "",
       "github": "https://github.com/ropensci/treedata.table",
@@ -5762,7 +5780,7 @@
       "url": "https://github.com/ropensci/treedata.table",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2020-09-11 18:57:29",
+      "date_last_commit": "2020-09-22 21:09:33",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6022,7 +6040,7 @@
       "url": "https://github.com/ropensci/webchem",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-09-17 15:30:55",
+      "date_last_commit": "2020-09-22 17:25:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -7060,7 +7078,7 @@
       "url": "https://github.com/ropenscilabs/tinkr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": true,
-      "date_last_commit": "2020-09-22 14:59:52",
+      "date_last_commit": "2020-09-22 15:43:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -7125,5 +7143,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-09-22 15:18 UTC"
+  "date": "2020-09-22 22:17 UTC"
 }
