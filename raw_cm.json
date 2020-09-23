@@ -5003,7 +5003,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "bibtex",
     "description": "Utility to parse a bibtex file. ",
@@ -5091,7 +5094,11 @@
     ],
     "readme": "https://github.com/ropensci/bibtex/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/romainfrancois/bibtex",
-    "keywords": ["bibtex", "parser", "r"]
+    "keywords": [
+      "bibtex",
+      "parser",
+      "r"
+    ]
   },
   {
     "@context": [
@@ -65048,10 +65055,13 @@
     "description": "Creates a local database of many commonly used taxonomic authorities\n             and provides functions that can quickly query this data.",
     "name": "taxadb: A High-Performance Local Taxonomic Database Interface",
     "codeRepository": "https://github.com/ropensci/taxadb",
-    "relatedLink": ["https://docs.ropensci.org/taxadb", "https://CRAN.R-project.org/package=taxadb"],
+    "relatedLink": [
+      "https://docs.ropensci.org/taxadb",
+      "https://CRAN.R-project.org/package=taxadb"
+    ],
     "issueTracker": "https://github.com/ropensci/taxadb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65177,23 +65187,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "MonetDBLite",
-        "name": "MonetDBLite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "duckdb",
-        "name": "duckdb",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       }
     ],
     "softwareRequirements": [
@@ -65231,13 +65224,14 @@
         "@type": "SoftwareApplication",
         "identifier": "arkdb",
         "name": "arkdb",
+        "version": ">= 0.0.6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=arkdb"
+        "sameAs": "https://github.com/ropensci/arkdb"
       },
       {
         "@type": "SoftwareApplication",
@@ -65387,18 +65381,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "duckdb",
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       }
     ],
-    "readme": "https://github.com/ropensci/taxadb/blob/master/README.md",
-    "fileSize": "8355.897KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/taxadb", "https://ci.appveyor.com/project/cboettig/taxadb", "https://codecov.io/github/ropensci/taxadb?branch=master"],
+    "fileSize": "0KB",
+    "contIntegration": "https://codecov.io/github/ropensci/taxadb?branch=master",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
-    }
+    },
+    "readme": "https://github.com/ropensci/taxadb/blob/master/README.md"
   },
   {
     "@context": [
@@ -69766,7 +69772,7 @@
     "description": "An implementation that combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
     "name": "treedata.table: A Wrapper for Data.table for Fast Manipulation of Phylogenetic Trees Matched to Data",
     "codeRepository": "https://github.com/ropensci/treedata.table",
-    "relatedLink": "https://docs.ropensci.org/treedata.table",
+    "relatedLink": ["https://docs.ropensci.org/treedata.table", "https://docs.ropensci.org/treedata.table/"],
     "issueTracker": "https://github.com/ropensci/treedata.table/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.0",
