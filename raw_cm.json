@@ -30590,7 +30590,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "medrxivr",
-    "description": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. medrxivr provides programmatic access to the \n    'Cold Spring Harbour Laboratory (CSHL)' API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    'medrxivr' also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
+    "description": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. 'medrxivr' provides programmatic access to the \n    'Cold Spring Harbour Laboratory (CSHL)' API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    'medrxivr' also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
     "name": "medrxivr: Access and Search MedRxiv and BioRxiv Preprint Data",
     "codeRepository": "https://github.com/ropensci/medrxivr",
     "issueTracker": "https://github.com/ropensci/medrxivr/issues",
@@ -46806,9 +46806,31 @@
       },
       {
         "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroenooms@gmail.com",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Francisco Rodríguez-Sánchez",
+        "familyName": "Ooms",
+        "email": "f.rodriguez.sanc@gmail.com",
+        "@id": "https://orcid.org/0000-0002-7981-1599"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karthik",
+        "familyName": "Ram",
+        "email": "karthik.ram@gmail.com",
+        "@id": "https://orcid.org/0000-0002-0233-1757"
+      },
+      {
+        "@type": "Person",
         "givenName": "Max",
         "familyName": "Pohlman",
-        "email": "maxpohlman@gmail.com"
+        "email": "maxpohlman@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2325-6984"
       },
       {
         "@type": "Person",
