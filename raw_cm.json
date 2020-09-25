@@ -5012,9 +5012,9 @@
     "description": "Utility to parse a bibtex file. ",
     "name": "bibtex: Bibtex Parser",
     "codeRepository": "https://github.com/ropensci/bibtex",
-    "issueTracker": "https://github.com/romainfrancois/bibtex/issues",
+    "issueTracker": "https://github.com/ropensci/bibtex/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5032,15 +5032,37 @@
         "@type": "Person",
         "givenName": "Romain",
         "familyName": "Francois",
-        "email": "romain@r-enthusiasts.com"
+        "email": "romain@purrple.cat",
+        "@id": "https://orcid.org/0000-0002-2444-4226"
       }
     ],
     "contributor": [
       {
         "@type": "Person",
+        "givenName": ["James", "Joseph"],
+        "familyName": "Balamuta",
+        "email": "balamut2@illinois.edu",
+        "@id": "https://orcid.org/0000-0003-2826-8458"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      },
+      {
+        "@type": "Person",
         "givenName": "Kurt",
         "familyName": "Hornik",
-        "email": "Kurt.Hornik@R-project.org"
+        "email": "Kurt.Hornik@R-project.org",
+        "@id": "https://orcid.org/0000-0003-4198-9911"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian",
+        "familyName": "Ripley",
+        "email": "ripley@stats.ox.ac.uk"
       },
       {
         "@type": "Person",
@@ -5052,17 +5074,27 @@
         "@type": "Person",
         "givenName": ["Mathew", "W."],
         "familyName": "McLean",
-        "email": "mathew.w.mclean@gmail.com"
+        "email": "mathew.w.mclean@gmail.com",
+        "@id": "https://orcid.org/0000-0002-7891-9645"
       }
     ],
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
+    "copyrightHolder": [
       {
         "@type": "Person",
         "givenName": "Romain",
         "familyName": "Francois",
-        "email": "romain@r-enthusiasts.com"
+        "email": "romain@purrple.cat",
+        "@id": "https://orcid.org/0000-0002-2444-4226"
+      }
+    ],
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": ["James", "Joseph"],
+        "familyName": "Balamuta",
+        "email": "balamut2@illinois.edu",
+        "@id": "https://orcid.org/0000-0003-2826-8458"
       }
     ],
     "softwareSuggestions": [
@@ -5099,7 +5131,7 @@
       "parser",
       "r"
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=bibtex"
+    "relatedLink": ["https://CRAN.R-project.org/package=bibtex", "https://docs.ropensci.org/bibtex/"]
   },
   {
     "@context": [
@@ -69798,7 +69830,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "treedata.table",
     "description": "An implementation that combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a data.table syntax when\n    performing operations on the trait dataset within the treedata.table object.",
-    "name": "treedata.table: A Wrapper for Data.table for Fast Manipulation of Phylogenetic Trees Matched to Data",
+    "name": "treedata.table: Manipulation of Matched Phylogenies and Data using data.table",
     "codeRepository": "https://github.com/ropensci/treedata.table",
     "relatedLink": ["https://docs.ropensci.org/treedata.table", "https://docs.ropensci.org/treedata.table/"],
     "issueTracker": "https://github.com/ropensci/treedata.table/issues",
@@ -69826,7 +69858,13 @@
         "@id": "https://orcid.org/0000-0003-4692-3225"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Luke",
+        "familyName": "Harmon"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -73141,7 +73179,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.3.92",
+    "version": "0.6.4.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
