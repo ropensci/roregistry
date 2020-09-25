@@ -423,7 +423,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/bibtex",
-      "date_last_commit": "2020-09-22 18:12:01",
+      "date_last_commit": "2020-09-25 14:48:50",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6265,6 +6265,24 @@
       "staff_maintained": false
     },
     {
+      "name": "autotest",
+      "description": "Automatic Package Testing",
+      "details": "Automatic testing of R packages via a simple YAML\n    schema.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/autotest",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropenscilabs/autotest",
+      "date_last_commit": "2020-09-25 13:40:11",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "bindertools",
       "description": "Create requisite files and launch binder with mybinder.org",
       "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
@@ -7143,5 +7161,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-09-25 08:15 UTC"
+  "date": "2020-09-25 15:18 UTC"
 }
