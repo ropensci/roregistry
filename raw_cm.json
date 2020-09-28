@@ -9688,16 +9688,16 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "citesdb",
-    "description": "Provides convenient access to over 40 years and 20 million records of\n    endangered wildlife trade data from the Convention on International Trade\n    in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,\n    out-of memory 'MonetDB' database for bulk analysis.",
+    "description": "Provides convenient access to over 40 years and 20 million records of\n    endangered wildlife trade data from the Convention on International Trade\n    in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,\n    out-of memory 'DuckDB' database for bulk analysis.",
     "name": "citesdb: A High-Performance Database of Shipment-Level 'CITES' Trade Data",
     "codeRepository": "https://github.com/ropensci/citesdb",
     "relatedLink": [
-      "https://www.cites.org/",
-      "https://docs.ropensci.org/citesdb"
+      "https://docs.ropensci.org/citesdb",
+      "https://www.cites.org/"
     ],
     "issueTracker": "https://github.com/ropensci/citesdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -9718,6 +9718,11 @@
         "familyName": "Eskew",
         "email": "eskew@ecohealthalliance.org",
         "@id": "https://orcid.org/0000-0002-1153-5356"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mauricio",
+        "familyName": "Vargas"
       }
     ],
     "contributor": [
@@ -9893,8 +9898,15 @@
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "MonetDBLite",
-        "name": "MonetDBLite"
+        "identifier": "duckdb",
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       },
       {
         "@type": "SoftwareApplication",
@@ -9988,8 +10000,14 @@
     ],
     "releaseNotes": "https://github.com/ropensci/citesdb/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/citesdb/blob/master/README.md",
+    "fileSize": "3443.675KB",
     "contIntegration": ["https://circleci.com/gh/ropensci/citesdb", "https://codecov.io/gh/ropensci/citesdb"],
     "developmentStatus": "https://www.repostatus.org/#active",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/292",
+      "provider": "https://ropensci.org"
+    },
     "keywords": [
       "r",
       "rstats",
@@ -10037,23 +10055,17 @@
       },
       {
         "@type": "CreativeWork",
-        "datePublished": "2019",
+        "datePublished": "2020",
         "author": [
           {
             "@type": "Organization",
             "name": "UNEP-WCMC"
           }
         ],
-        "name": "Full CITES Trade Database Download. Version 2019.2",
+        "name": "Full CITES Trade Database Download. Version 2020.1",
         "url": "https://trade.cites.org"
       }
-    ],
-    "fileSize": "1087.063KB",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/292",
-      "provider": "https://ropensci.org"
-    }
+    ]
   },
   {
     "@context": [
