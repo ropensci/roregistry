@@ -30647,7 +30647,7 @@
     "codeRepository": "https://github.com/ropensci/medrxivr",
     "issueTracker": "https://github.com/ropensci/medrxivr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3",
+    "version": "0.0.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30942,7 +30942,8 @@
       "@type": "Organization",
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
-    }
+    },
+    "relatedLink": "https://CRAN.R-project.org/package=medrxivr"
   },
   {
     "@context": [
@@ -52487,7 +52488,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52499,7 +52500,7 @@
         "@type": "Person",
         "givenName": "Steve",
         "familyName": "Vissault",
-        "email": "steve.vissault@usherbrooke.ca",
+        "email": "s.vissault@yahoo.fr",
         "@id": "https://orcid.org/0000-0002-0866-4376"
       },
       {
@@ -52543,10 +52544,10 @@
     "contributor": [
       {
         "@type": "Person",
-        "givenName": "Steve",
-        "familyName": "Vissault",
-        "email": "steve.vissault@usherbrooke.ca",
-        "@id": "https://orcid.org/0000-0002-0866-4376"
+        "givenName": "Kevin",
+        "familyName": "Cazelles",
+        "email": "kcazelle@uoguelph.ca",
+        "@id": "https://orcid.org/0000-0001-6619-9874"
       },
       {
         "@type": "Person",
@@ -52572,10 +52573,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Kevin",
-        "familyName": "Cazelles",
-        "email": "kcazelle@uoguelph.ca",
-        "@id": "https://orcid.org/0000-0001-6619-9874"
+        "givenName": "Steve",
+        "familyName": "Vissault",
+        "email": "s.vissault@yahoo.fr",
+        "@id": "https://orcid.org/0000-0002-0866-4376"
       }
     ],
     "softwareSuggestions": [
@@ -52854,7 +52855,10 @@
         "url": "https://ropensci.github.io/rmangal/"
       }
     ],
-    "readme": "https://github.com/ropensci/rmangal/blob/master/README.md"
+    "readme": "https://github.com/ropensci/rmangal/blob/master/README.md",
+    "applicationCategory": "ecologicalNetworks",
+    "isPartOf": "https://ropensci.org",
+    "keywords": ["ecology", "networks", "foodwebs", "interactions", "datapublications", "openaccess"]
   },
   {
     "@context": [
@@ -63078,7 +63082,7 @@
     "codeRepository": "https://github.com/ropensci/stats19",
     "issueTracker": "https://github.com/ropensci/stats19/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70026,7 +70030,13 @@
       "url": "https://github.com/ropensci/software-review/issues/367",
       "provider": "https://ropensci.org"
     },
-    "readme": "https://github.com/ropensci/treedata.table/blob/master/README.md"
+    "readme": "https://github.com/ropensci/treedata.table/blob/master/README.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -70531,7 +70541,7 @@
       "r",
       "bioinformatics"
     ],
-    "relatedLink": ["https://CRAN.R-project.org/package=UCSCXenaTools", "https://docs.ropensci.org/UCSCXenaTools"],
+    "relatedLink": ["https://CRAN.R-project.org/package=UCSCXenaTools", "https://docs.ropensci.org/UCSCXenaTools/"],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -74661,7 +74671,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.232",
+    "version": "0.0.1.237",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
