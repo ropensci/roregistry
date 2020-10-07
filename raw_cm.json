@@ -14868,7 +14868,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/dittodb/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.1.1.9001",
+    "version": "0.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15149,11 +15149,23 @@
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dittodb/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/dittodb/blob/main/README.md",
-    "fileSize": "2042.728KB",
+    "fileSize": "2053.489KB",
     "contIntegration": "https://codecov.io/gh/ropensci/dittodb?branch=main",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "provider": {
@@ -20054,7 +20066,7 @@
     "codeRepository": "https://github.com/ropensci/fulltext",
     "issueTracker": "https://github.com/ropensci/fulltext/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5.0",
+    "version": "1.5.1.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20360,6 +20372,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ftdoi",
+        "name": "ftdoi",
+        "sameAs": "https://github.com/ropensci/ftdoi"
       }
     ],
     "applicationCategory": "Literature",
@@ -20374,7 +20392,8 @@
       "https://ropensci.github.io/fulltext-book/",
       "https://ropenscilabs.github.io/fulltext-book/",
       "https://docs.ropensci.org/fulltext",
-      "https://books.ropensci.org/fulltext/"
+      "https://books.ropensci.org/fulltext/",
+      "https://docs.ropensci.org/fulltext/"
     ],
     "contributor": {},
     "copyrightHolder": {},
@@ -39742,7 +39761,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "parzer",
-    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. C++ code herein originally inspired from code\n    written by Jeffrey D. Bogan (<http://bit.ly/CLongLatString>),\n    but then completely re-written.",
+    "description": "Parse geographic coordinates from various formats\n    to decimal degree numeric values. Parse coordinates into\n    their parts (degree, minutes, seconds); calculate hemisphere\n    from coordinates; pull out individually degrees,\n    minutes, or seconds; add and subtract degrees, minutes,\n    and seconds. C++ code herein originally inspired from code\n    written by Jeffrey D. Bogan, but then completely re-written.",
     "name": "parzer: Parse Messy Geographic Coordinates",
     "codeRepository": "https://github.com/ropensci/parzer",
     "relatedLink": [
@@ -39751,7 +39770,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/parzer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5.91",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39868,7 +39887,7 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["geospatial", "data", "latitude", "longitude", "parser", "coordinates", "r", "rstats", "geo"],
     "readme": "https://github.com/ropensci/parzer/blob/master/README.md",
-    "fileSize": "16.418KB",
+    "fileSize": "0KB",
     "contIntegration": "https://codecov.io/github/ropensci/parzer?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
@@ -41522,7 +41541,7 @@
     "codeRepository": "https://github.com/ropensci/pleiades",
     "issueTracker": "https://github.com/ropensci/pleiades/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9100",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41554,19 +41573,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "version": ">= 6.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -41588,6 +41594,42 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -41595,7 +41637,6 @@
         "@type": "SoftwareApplication",
         "identifier": "DBI",
         "name": "DBI",
-        "version": ">= 0.6-1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41608,7 +41649,6 @@
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
-        "version": ">= 0.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41621,7 +41661,6 @@
         "@type": "SoftwareApplication",
         "identifier": "dbplyr",
         "name": "dbplyr",
-        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41634,7 +41673,6 @@
         "@type": "SoftwareApplication",
         "identifier": "RSQLite",
         "name": "RSQLite",
-        "version": ">= 1.1-2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41647,7 +41685,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.3.6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41660,7 +41697,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41673,7 +41709,6 @@
         "@type": "SoftwareApplication",
         "identifier": "gistr",
         "name": "gistr",
-        "version": ">= 0.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -41695,15 +41730,22 @@
         "sameAs": "https://CRAN.R-project.org/package=rappdirs"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/pleiades", "https://codecov.io/github/ropensci/pleiades?branch=master"],
+    "contIntegration": "https://codecov.io/gh/ropensci/pleiades",
     "releaseNotes": "https://github.com/ropensci/pleiades/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/pleiades/blob/master/README.md",
-    "fileSize": "619.793KB",
-    "relatedLink": "https://docs.ropensci.org/pleiades",
+    "fileSize": "0KB",
+    "relatedLink": "https://docs.ropensci.org/pleiades/",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "keywords": ["web-api", "data", "archeology", "r", "rstats", "r-package"]
+    "keywords": [
+      "web-api",
+      "data",
+      "archeology",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
