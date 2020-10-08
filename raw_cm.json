@@ -24719,7 +24719,7 @@
     "codeRepository": "https://github.com/ropensci/handlr",
     "issueTracker": "https://github.com/ropensci/handlr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.2.92",
+    "version": "0.2.4.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24789,6 +24789,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "bibtex",
+        "name": "bibtex",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=bibtex"
       }
     ],
     "softwareRequirements": [
@@ -24827,18 +24839,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "RefManageR",
-        "name": "RefManageR",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RefManageR"
       },
       {
         "@type": "SoftwareApplication",
@@ -24883,9 +24883,9 @@
     "releaseNotes": "https://github.com/ropensci/handlr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/handlr/blob/master/README.md",
     "fileSize": "38.207KB",
-    "contIntegration": ["https://travis-ci.com/ropensci/handlr", "https://ci.appveyor.com/project/sckott/handlr", "https://codecov.io/github/ropensci/handlr?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/handlr?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
-    "relatedLink": "https://docs.ropensci.org/handlr"
+    "relatedLink": ["https://docs.ropensci.org/handlr", "https://docs.ropensci.org/handlr/"]
   },
   {
     "@context": [
@@ -67740,12 +67740,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "tidyhydat",
-    "description": "Provides functions to access historical and real-time national 'hydrometric'\n    data from Water Survey of Canada data sources (<http://dd.weather.gc.ca/hydrometric/csv/> and\n    <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.",
+    "description": "Provides functions to access historical and real-time national 'hydrometric'\n    data from Water Survey of Canada data sources (<https://dd.weather.gc.ca/hydrometric/csv/> and\n    <https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.",
     "name": "tidyhydat: Extract and Tidy Canadian 'Hydrometric' Data",
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.5.0.9000",
+    "version": "0.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67870,7 +67870,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.2.0"
+        "version": ">= 3.2.3"
       },
       {
         "@type": "SoftwareApplication",
@@ -68987,6 +68987,233 @@
       "r-package"
     ],
     "readme": "https://github.com/ropensci/timefuzz/blob/master/README.md"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "tinkr",
+    "description": "Casts (R)Markdown files to XML and back to allow their editing via XPat.",
+    "name": "tinkr: Casts (R)Markdown files to XML and back",
+    "codeRepository": "https://github.com/ropensci/tinkr",
+    "issueTracker": "https://github.com/ropenscilabs/tinkr/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "maelle.salmon@yahoo.se"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhian N.",
+        "familyName": "Kamvar",
+        "email": "zkamvar@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1458-7108"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Daengeli"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Nick",
+        "familyName": "Wellnhofer"
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "maelle.salmon@yahoo.se"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.99.0.9000",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://github.com/r-lib/testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "commonmark",
+        "name": "commonmark",
+        "version": ">= 1.6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=commonmark"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "xslt",
+        "name": "xslt",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xslt"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "glue",
+        "name": "glue",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=glue"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "yaml",
+        "name": "yaml",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=yaml"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      }
+    ],
+    "contIntegration": "https://codecov.io/github/ropenscilabs/tinkr?branch=master",
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ],
+    "releaseNotes": "https://github.com/ropenscilabs/tinkr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/tinkr/blob/master/README.md"
   },
   {
     "@context": [
@@ -82999,233 +83226,6 @@
       "unconf"
     ],
     "readme": "https://github.com/ropenscilabs/testrmd/blob/master/README.md"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "tinkr",
-    "description": "Casts (R)Markdown files to XML and back to allow their editing via XPat.",
-    "name": "tinkr: Casts (R)Markdown files to XML and back",
-    "codeRepository": "https://github.com/ropenscilabs/tinkr",
-    "issueTracker": "https://github.com/ropenscilabs/tinkr/issues",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.9000",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Maëlle",
-        "familyName": "Salmon",
-        "email": "maelle.salmon@yahoo.se"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Jeroen",
-        "familyName": "Ooms"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Zhian N.",
-        "familyName": "Kamvar",
-        "email": "zkamvar@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1458-7108"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Peter",
-        "familyName": "Daengeli"
-      }
-    ],
-    "copyrightHolder": [
-      {
-        "@type": "Person",
-        "givenName": "Nick",
-        "familyName": "Wellnhofer"
-      }
-    ],
-    "funder": [
-      {
-        "@type": "Organization",
-        "name": "rOpenSci"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Maëlle",
-        "familyName": "Salmon",
-        "email": "maelle.salmon@yahoo.se"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "version": ">= 2.99.0.9000",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://github.com/r-lib/testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "commonmark",
-        "name": "commonmark",
-        "version": ">= 1.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=commonmark"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xslt",
-        "name": "xslt",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xslt"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "glue",
-        "name": "glue",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=glue"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "fs",
-        "name": "fs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=fs"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "yaml",
-        "name": "yaml",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=yaml"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "stringr",
-        "name": "stringr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      }
-    ],
-    "contIntegration": "https://codecov.io/github/ropenscilabs/tinkr?branch=master",
-    "developmentStatus": "https://www.repostatus.org/#wip",
-    "keywords": [
-      "r",
-      "r-package",
-      "rstats"
-    ],
-    "releaseNotes": "https://github.com/ropenscilabs/tinkr/blob/master/NEWS.md",
-    "readme": "https://github.com/ropenscilabs/tinkr/blob/master/README.md"
   },
   {
     "@context": [
