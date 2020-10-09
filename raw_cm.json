@@ -30681,6 +30681,327 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "mcbette",
+    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'mcbette' allows to do a Bayesian model comparison over some\n    site and clock models, \n    using 'babette' (<https://www.github.com/ropensci/babette>).",
+    "name": "mcbette: Model Comparison Using 'babette'",
+    "codeRepository": "https://github.com/ropensci/mcbette",
+    "issueTracker": "https://github.com/ropensci/mcbette/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "1.8.4",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Richèl J.C.",
+        "familyName": "Bilderbeek",
+        "email": "richel@richelbilderbeek.nl",
+        "@id": "https://orcid.org/0000-0003-1107-7049"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Richèl J.C.",
+        "familyName": "Bilderbeek",
+        "email": "richel@richelbilderbeek.nl",
+        "@id": "https://orcid.org/0000-0003-1107-7049"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ape",
+        "name": "ape",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ape"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "devtools",
+        "name": "devtools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=devtools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "hunspell",
+        "name": "hunspell",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hunspell"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lintr",
+        "name": "lintr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lintr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "nLTT",
+        "name": "nLTT",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=nLTT"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "phangorn",
+        "name": "phangorn",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=phangorn"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rappdirs",
+        "name": "rappdirs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tracerer",
+        "name": "tracerer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tracerer"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "babette",
+        "name": "babette",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=babette"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "beautier",
+        "name": "beautier",
+        "version": ">= 2.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "beastier",
+        "name": "beastier",
+        "version": ">= 2.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "mauricer",
+        "name": "mauricer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "Rmpfr",
+        "name": "Rmpfr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=Rmpfr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testit",
+        "name": "testit",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testit"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "txtplot",
+        "name": "txtplot",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=txtplot"
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/mcbette/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/mcbette/blob/master/README.md",
+    "fileSize": "0KB",
+    "contIntegration": ["https://travis-ci.org", "https://www.appveyor.com", "https://www.codecov.io", "https://travis-ci.org/ropensci/mcbette", "https://ci.appveyor.com/project/ropensci/mcbette", "https://codecov.io/github/ropensci/mcbette?branch=master", "https://travis-ci.org/ropensci/mcbette", "https://ci.appveyor.com/project/ropensci/mcbette", "https://codecov.io/github/ropensci/mcbette?branch=develop"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/360",
+      "provider": "https://ropensci.org"
+    }
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "medrxivr",
     "description": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. 'medrxivr' provides programmatic access to the \n    'Cold Spring Harbour Laboratory (CSHL)' API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    'medrxivr' also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
     "name": "medrxivr: Access and Search MedRxiv and BioRxiv Preprint Data",
@@ -30959,7 +31280,7 @@
     ],
     "citation": [
       {
-        "@type": "CreativeWork",
+        "@type": "ScholarlyArticle",
         "datePublished": "2020",
         "author": [
           {
@@ -30973,8 +31294,22 @@
             "familyName": "Schmidt"
           }
         ],
-        "name": "medrxivr: Accessing medRxiv and bioRxiv data in R",
-        "url": "https://github.com/ropensci/medrxivr"
+        "name": "medrxivr: Accessing and searching medRxiv and bioRxiv preprint data in R",
+        "identifier": "10.21105/joss.02651",
+        "url": "https://doi.org/10.21105/joss.02651",
+        "pagination": "2651",
+        "@id": "https://doi.org/10.21105/joss.02651",
+        "sameAs": "https://doi.org/10.21105/joss.02651",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "54",
+          "datePublished": "2020",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "5",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "provider": {
@@ -68998,7 +69333,7 @@
     "description": "Casts (R)Markdown files to XML and back to allow their editing via XPat.",
     "name": "tinkr: Casts (R)Markdown files to XML and back",
     "codeRepository": "https://github.com/ropensci/tinkr",
-    "issueTracker": "https://github.com/ropenscilabs/tinkr/issues",
+    "issueTracker": "https://github.com/ropensci/tinkr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.0.0.9000",
     "programmingLanguage": {
@@ -69212,8 +69547,9 @@
       "r-package",
       "rstats"
     ],
-    "releaseNotes": "https://github.com/ropenscilabs/tinkr/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/tinkr/blob/master/README.md"
+    "releaseNotes": "https://github.com/ropensci/tinkr/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/tinkr/blob/master/README.md",
+    "relatedLink": "https://docs.ropensci.org/tinkr/"
   },
   {
     "@context": [
@@ -75234,7 +75570,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.262",
+    "version": "0.0.1.276",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
