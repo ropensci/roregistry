@@ -29802,12 +29802,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "mapr",
-    "description": "Utilities for visualizing species occurrence data. Includes\n    functions to visualize occurrence data from 'spocc', 'rgbif',\n    and other packages. Mapping options included for base R plots, 'ggplot2',\n    'ggmap', 'leaflet' and 'GitHub' 'gists'.",
+    "description": "Utilities for visualizing species occurrence data. Includes\n    functions to visualize occurrence data from 'spocc', 'rgbif',\n    and other packages. Mapping options included for base R plots, 'ggplot2',\n    'leaflet' and 'GitHub' 'gists'.",
     "name": "mapr: Visualize Species Occurrence Data",
     "codeRepository": "https://github.com/ropensci/mapr",
     "issueTracker": "https://github.com/ropensci/mapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0",
+    "version": "0.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -29898,6 +29898,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rgbif"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "scrubr",
+        "name": "scrubr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=scrubr"
       }
     ],
     "softwareRequirements": [
@@ -30012,13 +30024,13 @@
       }
     ],
     "applicationCategory": "Geospatial",
-    "isPartOf": "https://ropensci.org",
+    "isPartOf": "https://ropensci.org/",
     "keywords": ["maps", "mapping", "ggplot", "leaflet", "interactive", "biodiversity", "occurrences", "rstats", "ggplot2", "map", "r", "spocc", "r-package"],
     "contIntegration": "https://codecov.io/gh/ropensci/mapr",
     "releaseNotes": "https://github.com/ropensci/mapr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/mapr/blob/master/README.md",
     "fileSize": "588.972KB",
-    "relatedLink": "https://docs.ropensci.org/mapr",
+    "relatedLink": ["https://docs.ropensci.org/mapr", "https://docs.ropensci.org/mapr/"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -31767,7 +31779,7 @@
     "relatedLink": "https://docs.ropensci.org/MODIStsp/",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40080,7 +40092,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/parzer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.91",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45313,7 +45325,7 @@
     "codeRepository": "https://github.com/ropensci/rbace",
     "issueTracker": "https://github.com/ropensci/rbace/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45426,7 +45438,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rbace", "https://codecov.io/gh/ropensci/rbace"],
+    "contIntegration": "https://travis-ci.org/ropensci/rbace",
     "developmentStatus": "https://www.repostatus.org/#active",
     "readme": "https://github.com/ropensci/rbace/blob/master/README.md",
     "fileSize": "0KB",
@@ -61165,7 +61177,7 @@
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["specimens", "occurrences", "data", "data-cleaning", "biodiversity", "gbif", "rstats", "r", "spocc", "r-package"],
-    "relatedLink": "https://docs.ropensci.org/scrubr"
+    "relatedLink": ["https://docs.ropensci.org/scrubr", "https://docs.ropensci.org/scrubr/"]
   },
   {
     "@context": [
@@ -75555,7 +75567,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.280",
+    "version": "0.0.1.281",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
