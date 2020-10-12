@@ -52132,7 +52132,7 @@
     "description": "Allows to get weather data from Automated Surface Observing System (ASOS) stations (airports) in the\n    whole world thanks to the Iowa Environment Mesonet website.",
     "name": "riem: Accesses Weather Data from the Iowa Environment Mesonet",
     "codeRepository": "https://github.com/ropensci/riem",
-    "issueTracker": "http://github.com/ropensci/riem/issues",
+    "issueTracker": "https://github.com/ropensci/riem/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.1.1",
     "programmingLanguage": {
@@ -52271,6 +52271,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -52329,7 +52341,7 @@
     "releaseNotes": "https://github.com/ropensci/riem/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/riem/blob/master/README.md",
     "fileSize": "10.998KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/riem", "https://ci.appveyor.com/project/ropensci/riem", "https://codecov.io/gh/ropensci/riem"],
+    "contIntegration": "https://codecov.io/gh/ropensci/riem",
     "developmentStatus": "http://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -52351,7 +52363,8 @@
     ],
     "relatedLink": [
       "https://CRAN.R-project.org/package=riem",
-      "http://docs.ropensci.org/riem"
+      "http://docs.ropensci.org/riem",
+      "https://docs.ropensci.org/riem"
     ],
     "contributor": {},
     "copyrightHolder": {}
@@ -75542,7 +75555,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.276",
+    "version": "0.0.1.280",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
