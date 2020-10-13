@@ -15496,7 +15496,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/drake/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "7.12.6",
+    "version": "7.12.6.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16118,9 +16118,9 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/drake/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/drake/blob/master/README.md",
+    "readme": "https://github.com/ropensci/drake/blob/main/README.md",
     "fileSize": "1128.413KB",
-    "contIntegration": "https://codecov.io/github/ropensci/drake?branch=master",
+    "contIntegration": "https://codecov.io/github/ropensci/drake?branch=main",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -52880,7 +52880,8 @@
     "relatedLink": [
       "https://docs.ropensci.org/rmangal",
       "https://mangal.io",
-      "https://docs.ropensci.org/rmangal/"
+      "https://docs.ropensci.org/rmangal/",
+      "https://CRAN.R-project.org/package=rmangal"
     ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -53254,7 +53255,13 @@
     "readme": "https://github.com/ropensci/rmangal/blob/master/README.md",
     "applicationCategory": "ecologicalNetworks",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["ecology", "networks", "foodwebs", "interactions", "datapublications", "openaccess"]
+    "keywords": ["ecology", "networks", "foodwebs", "interactions", "datapublications", "openaccess"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
