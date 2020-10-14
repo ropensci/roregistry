@@ -12,7 +12,8 @@
     "relatedLink": [
       "http://CornellLabofOrnithology.github.io/auk/",
       "https://CRAN.R-project.org/package=auk",
-      "http://cornelllabofornithology.github.io/auk/"
+      "http://cornelllabofornithology.github.io/auk/",
+      "https://cornelllabofornithology.github.io/auk/"
     ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -12690,7 +12691,7 @@
     "readme": "https://github.com/ropensci/CoordinateCleaner/blob/master/README.md",
     "fileSize": "129427.227KB",
     "contIntegration": ["https://travis-ci.org/ropensci/CoordinateCleaner", "https://codecov.io/github/ropensci/CoordinateCleaner"],
-    "relatedLink": "https://ropensci.github.io/CoordinateCleaner/",
+    "relatedLink": ["https://ropensci.github.io/CoordinateCleaner/", "https://CRAN.R-project.org/package=CoordinateCleaner"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
       {
@@ -52692,7 +52693,13 @@
       "inaturalist",
       "r-package"
     ],
-    "readme": "https://github.com/ropensci/rinat/blob/master/README.md"
+    "readme": "https://github.com/ropensci/rinat/blob/master/README.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -75577,7 +75584,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.281",
+    "version": "0.0.1.307",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
