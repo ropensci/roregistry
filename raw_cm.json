@@ -2662,7 +2662,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11866,13 +11866,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "colpluz",
-    "description": "Client for the Catalogue of Life Plus (CoL+) webservice \n    (<https://github.com/Sp2000/colplus>). The CoL+ webservice is a new\n    interface to the Catalogue of Life (<http://www.catalogueoflife.org/>).\n    Includes functions for each of the API methods, including searching for\n    names, etc.",
+    "description": "Client for the Catalogue of Life Plus ('CoL+') webservice \n    (<https://github.com/CatalogueOfLife/general>). The CoL+ webservice is\n    a new interface to the Catalogue of Life. Includes functions for each\n    of the API methods, including searching for names, and more.",
     "name": "colpluz: Catalogue of Life Plus Client",
     "codeRepository": "https://github.com/ropensci/colpluz",
-    "relatedLink": "https://docs.ropensci.org/colpluz",
+    "relatedLink": ["https://docs.ropensci.org/colpluz", "https://docs.ropensci.org/colpluz/"],
     "issueTracker": "https://github.com/ropensci/colpluz/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.91",
+    "version": "0.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11901,18 +11901,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "testthat",
@@ -12004,7 +11992,8 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species", "rstats", "r"],
     "readme": "https://github.com/ropensci/colpluz/blob/master/README.md",
-    "contIntegration": "https://codecov.io/gh/ropensci/colpluz"
+    "contIntegration": "https://codecov.io/gh/ropensci/colpluz",
+    "releaseNotes": "https://github.com/ropensci/colpluz/blob/master/NEWS.md"
   },
   {
     "@context": [
@@ -75587,7 +75576,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.316",
+    "version": "0.0.1.317",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75750,6 +75739,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "memoise",
+        "name": "memoise",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=memoise"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
@@ -75790,7 +75791,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "179.801KB",
+    "fileSize": "180.576KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
