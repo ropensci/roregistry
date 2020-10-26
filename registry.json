@@ -5384,7 +5384,7 @@
     {
       "name": "stplanr",
       "description": "Sustainable Transport Planning",
-      "details": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <https://cyclestreets.net/>;\n    calculation of route segment attributes such as bearing and aggregate flow;\n    and 'travel watershed' analysis.\n    See Lovelace and Ellison (2018) <doi:10.32614/RJ-2018-053> and vignettes\n    for details.",
+      "details": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <https://cyclestreets.net/> and\n    calculation of route segment attributes such as bearing.\n    The package implementats the 'travel flow aggregration' method\n    described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779>.\n    Further information on the package's aim and scope can be found\n    in the vignettes and in a paper in the R Journal\n    (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>.",
       "maintainer": "Robin Lovelace",
       "keywords": "cycling, desire-lines, origin-destination, peer-reviewed, pubic-transport, route-network, routes, routing, spatial, transport, transport-planning, walking",
       "github": "https://github.com/ropensci/stplanr",
@@ -5396,7 +5396,7 @@
       "url": "https://github.com/ropensci/stplanr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-10-05 12:01:55",
+      "date_last_commit": "2020-10-26 21:33:15",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6094,7 +6094,7 @@
       "url": "https://github.com/ropensci/webchem",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-10-02 19:23:10",
+      "date_last_commit": "2020-10-26 20:55:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -7195,5 +7195,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-10-26 20:45 UTC"
+  "date": "2020-10-26 22:08 UTC"
 }
