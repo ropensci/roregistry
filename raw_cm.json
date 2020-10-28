@@ -21795,7 +21795,7 @@
     "codeRepository": "https://github.com/ropensci/eia",
     "issueTracker": "https://github.com/ropensci/eia/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.6",
+    "version": "0.3.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -22019,7 +22019,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/eia/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/eia/blob/master/README.md",
-    "fileSize": "254.725KB",
+    "fileSize": "1228.225KB",
     "contIntegration": ["https://travis-ci.org/ropensci/eia", "https://ci.appveyor.com/project/leonawicz/eia", "https://codecov.io/gh/ropensci/eia?branch=master"],
     "keywords": [
       "eia-api",
@@ -22038,10 +22038,11 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "developmentStatus": "http://www.repostatus.org/#active",
+    "developmentStatus": "https://www.repostatus.org/#active",
     "relatedLink": [
       "https://CRAN.R-project.org/package=eia",
-      "https://docs.ropensci.org/eia"
+      "https://docs.ropensci.org/eia",
+      "https://docs.ropensci.org/eia/"
     ],
     "review": {
       "@type": "Review",
@@ -51775,7 +51776,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.6.91",
+    "version": "0.6.6.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -51819,30 +51820,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "testthat",
@@ -52054,7 +52031,7 @@
     "funder": {},
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
-    "relatedLink": "https://docs.ropensci.org/rerddap"
+    "relatedLink": "https://docs.ropensci.org/rerddap/"
   },
   {
     "@context": [
