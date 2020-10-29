@@ -51776,7 +51776,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.6.95",
+    "version": "0.6.7.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -51831,54 +51831,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "akima",
-        "name": "akima",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=akima"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "mapdata",
-        "name": "mapdata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=mapdata"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "plot3D",
-        "name": "plot3D",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plot3D"
       },
       {
         "@type": "SoftwareApplication",
@@ -52022,7 +51974,7 @@
         "sameAs": "https://CRAN.R-project.org/package=hoardr"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rerddap", "https://ci.appveyor.com/project/sckott/rerddap", "https://codecov.io/github/ropensci/rerddap?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rerddap?branch=master",
     "releaseNotes": "https://github.com/ropensci/rerddap/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rerddap/blob/master/README.md",
     "fileSize": "1339.911KB",
