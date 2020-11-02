@@ -1,12 +1,18 @@
 [
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "auk",
     "description": "Extract and process bird sightings records from\n    eBird (<http://ebird.org>), an online tool for recording bird\n    observations.  Public access to the full eBird database is via the\n    eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download>\n    for access), a downloadable text file. This package is an interface to\n    AWK for extracting data from the EBD based on taxonomic, spatial, or\n    temporal filters, to produce a manageable file size that can be\n    imported into R.",
     "name": "auk: eBird Data Extraction and Processing in R",
     "codeRepository": "https://github.com/CornellLabofOrnithology/auk",
-    "relatedLink": ["https://cornelllabofornithology.github.io/auk/", "https://CRAN.R-project.org/package=auk"],
+    "relatedLink": [
+      "https://cornelllabofornithology.github.io/auk/",
+      "https://CRAN.R-project.org/package=auk"
+    ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.4.2",
@@ -289,7 +295,11 @@
       "url": "https://github.com/ropensci/software-review/issues/136",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "ebird", "dataset"],
+    "keywords": [
+      "r",
+      "ebird",
+      "dataset"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -318,13 +328,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "credentials",
     "description": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and \n    other services. For HTTPS remotes the package interfaces the 'git-credential' \n    utility which 'git' uses to store HTTP usernames and passwords. For SSH \n    remotes we provide convenient functions to find or generate appropriate SSH \n    keys. The package both helps the user to setup a local git installation, and\n    also provides a back-end for git/ssh client libraries to authenticate with \n    existing user credentials.",
     "name": "credentials: Tools for Managing SSH and Git Credentials",
     "codeRepository": "https://github.com/r-lib/credentials",
-    "relatedLink": ["https://docs.ropensci.org/credentials", "https://CRAN.R-project.org/package=credentials"],
+    "relatedLink": [
+      "https://docs.ropensci.org/credentials",
+      "https://CRAN.R-project.org/package=credentials"
+    ],
     "issueTracker": "https://github.com/r-lib/credentials/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.3.0",
@@ -473,7 +489,10 @@
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "genbankr",
     "description": "Reads Genbank files.",
@@ -3414,13 +3433,21 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "DoOR.data",
     "description": "This is a data package providing Drosophila odorant response data for\n    DoOR.functions. See URLs for the original and the DoOR 2.0 publications.",
     "name": "DoOR.data: Integrating Heterogeneous Odorant Response Data into a Common Response\n    Model: A DoOR to the Complete Olfactome",
     "codeRepository": "https://github.com/ropensci/DoOR.data",
-    "relatedLink": ["https://docs.ropensci.org/DoOR.data", "http://neuro.uni.kn/DoOR", "http://dx.doi.org/10.1038/srep21841", "http://dx.doi.org/10.1093/chemse/bjq042"],
+    "relatedLink": [
+      "https://docs.ropensci.org/DoOR.data",
+      "http://neuro.uni.kn/DoOR",
+      "http://dx.doi.org/10.1038/srep21841",
+      "http://dx.doi.org/10.1093/chemse/bjq042"
+    ],
     "issueTracker": "https://github.com/ropensci/DoOR.data/issues",
     "license": "https://spdx.org/licenses/CC-BY-SA-4.0",
     "version": "2.0.1.9000",
@@ -3511,7 +3538,12 @@
       "url": "https://github.com/ropensci/software-review/issues/35",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -5540,7 +5572,10 @@
     "readme": "https://github.com/ropensci/IEEER/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODISTools",
     "description": "Programmatic interface to the Oak Ridge National Laboratories\n    'MODIS Land Products Subsets' web services \n    (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy\n    downloads of 'MODIS' time series directly to your R workspace or\n    your computer.",
@@ -6953,7 +6988,10 @@
     "keywords": ["r", "spatial", "landscape-ecology", "neutral-landscape-model", "rstats", "r-package", "peer-reviewed"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "PostcodesioR",
     "description": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around <https://postcodes.io>.",
@@ -7099,7 +7137,17 @@
       "url": "https://github.com/ropensci/software-review/issues/176",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "api-wrapper", "geocoder", "postcode", "uk", "geographic-data", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "api-wrapper",
+      "geocoder",
+      "postcode",
+      "uk",
+      "geographic-data",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -15475,7 +15523,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cchecks",
     "description": "Client for the cranchecks.info API.",
@@ -15694,7 +15745,14 @@
     ],
     "readme": "https://github.com/ropensci/cchecks/blob/master/README.md",
     "contIntegration": "https://codecov.io/github/ropensci/cchecks?branch=master",
-    "keywords": ["rstats", "cran", "r", "testing", "r-package", "monitoring"]
+    "keywords": [
+      "rstats",
+      "cran",
+      "r",
+      "testing",
+      "r-package",
+      "monitoring"
+    ]
   },
   {
     "@context": [
@@ -17360,13 +17418,20 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cld2",
     "description": "Bindings to Google's C++ library Compact Language Detector 2\n    (see <https://github.com/cld2owners/cld2#readme> for more information). Probabilistically\n    detects over 80 languages in plain text or HTML. For mixed-language input it returns the\n    top three detected languages and their approximate proportion of the total classified \n    text bytes (e.g. 80% English and 20% French out of 1000 bytes). There is also a 'cld3'\n    package on CRAN which uses a neural network model instead.",
     "name": "cld2: Google's Compact Language Detector 2",
     "codeRepository": "https://github.com/ropensci/cld2",
-    "relatedLink": ["https://docs.ropensci.org/cld2", "https://github.com/cld2owners/cld2", "https://CRAN.R-project.org/package=cld2"],
+    "relatedLink": [
+      "https://docs.ropensci.org/cld2",
+      "https://github.com/cld2owners/cld2",
+      "https://CRAN.R-project.org/package=cld2"
+    ],
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.2",
     "programmingLanguage": {
@@ -17463,16 +17528,31 @@
     "readme": "https://github.com/ropensci/cld2/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/cld2", "https://ci.appveyor.com/project/jeroen/cld2", "https://codecov.io/github/ropensci/cld2?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["cld", "cld2", "language-detection", "language-detector", "r", "rstats", "r-package"]
+    "keywords": [
+      "cld",
+      "cld2",
+      "language-detection",
+      "language-detector",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cld3",
     "description": "Google's Compact Language Detector 3 is a neural network model for language \n    identification and the successor of 'cld2' (available from CRAN). The algorithm is still\n    experimental and takes a novel approach to language detection with different properties\n    and outcomes. It can be useful to combine this with the Bayesian classifier results \n    from 'cld2'. See <https://github.com/google/cld3#readme> for more information.",
     "name": "cld3: Google's Compact Language Detector 3",
     "codeRepository": "https://github.com/ropensci/cld3",
-    "relatedLink": ["https://docs.ropensci.org/cld3", "https://github.com/google/cld3", "https://CRAN.R-project.org/package=cld3"],
+    "relatedLink": [
+      "https://docs.ropensci.org/cld3",
+      "https://github.com/google/cld3",
+      "https://CRAN.R-project.org/package=cld3"
+    ],
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.3",
     "programmingLanguage": {
@@ -17565,16 +17645,30 @@
     "readme": "https://github.com/ropensci/cld3/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/cld3", "https://ci.appveyor.com/project/jeroen/cld3"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["cld", "cld3", "language-detection", "language-detector", "r", "rstats", "r-package"]
+    "keywords": [
+      "cld",
+      "cld3",
+      "language-detection",
+      "language-detector",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "cleanEHR",
     "description": "An electronic health care record (EHR) data cleaning and processing\n    platform. It focus on heterogeneous high resolution longitudinal data. It works with \n    Critical Care Health Informatics Collaborative (CCHIC) dataset. It is\n    created to address various data reliability and accessibility problems of\n    EHRs as such. ",
     "name": "cleanEHR: The Critical Care Clinical Data Processing Tools",
     "codeRepository": "https://github.com/ropensci/cleanEHR",
-    "relatedLink": ["https://docs.ropensci.org/cleanEHR", "http://www.hic.nihr.ac.uk"],
+    "relatedLink": [
+      "https://docs.ropensci.org/cleanEHR",
+      "http://www.hic.nihr.ac.uk"
+    ],
     "issueTracker": "https://github.com/ropensci/cleanEHR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.0",
@@ -17745,7 +17839,16 @@
       "url": "https://github.com/ropensci/software-review/issues/102",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["electronic-health-record", "healthcare", "big-data", "critical-care", "intensive-care", "r", "rstats", "r-package"]
+    "keywords": [
+      "electronic-health-record",
+      "healthcare",
+      "big-data",
+      "critical-care",
+      "intensive-care",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -18009,7 +18112,10 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "clock",
     "description": "Time classes, with hooks for mocking time.",
@@ -18106,7 +18212,12 @@
     "readme": "https://github.com/ropensci/clock/blob/master/README.md",
     "contIntegration": "https://travis-ci.com/ropensci/clock",
     "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["r", "rstats", "time-mock", "mock-time"]
+    "keywords": [
+      "r",
+      "rstats",
+      "time-mock",
+      "mock-time"
+    ]
   },
   {
     "@context": [
@@ -60398,7 +60509,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.9.1.9004",
+    "version": "0.9.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60497,6 +60608,7 @@
         "@type": "SoftwareApplication",
         "identifier": "lattice",
         "name": "lattice",
+        "version": ">= 0.20-41",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -60548,6 +60660,7 @@
         "@type": "SoftwareApplication",
         "identifier": "leafem",
         "name": "leafem",
+        "version": ">= 0.1.3",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -60560,14 +60673,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mapview",
         "name": "mapview",
-        "version": ">= 2.9.0",
+        "version": ">= 2.9.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=mapview"
+        "sameAs": "https://github.com/r-spatial/mapview"
       },
       {
         "@type": "SoftwareApplication",
@@ -60923,7 +61036,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/ruODK/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/ruODK/blob/main/README.md",
-    "fileSize": "10771.493KB",
+    "fileSize": "3662.064KB",
     "contIntegration": ["https://travis-ci.org/ropensci/ruODK", "https://ci.appveyor.com/project/florianm/ruodk/branch/main", "https://codecov.io/gh/ropensci/ruODK"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
