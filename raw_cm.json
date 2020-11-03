@@ -2667,7 +2667,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2876,6 +2876,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vroom"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utf8",
+        "name": "utf8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=utf8"
       }
     ],
     "softwareRequirements": [
@@ -13687,7 +13699,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/datapack/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16865,7 +16877,7 @@
     "codeRepository": "https://github.com/ropensci/EML",
     "issueTracker": "https://github.com/ropensci/EML/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17203,7 +17215,8 @@
     ],
     "relatedLink": [
       "https://CRAN.R-project.org/package=EML",
-      "https://docs.ropensci.org/EML"
+      "https://docs.ropensci.org/EML",
+      "https://docs.ropensci.org/EML/"
     ],
     "funder": {},
     "releaseNotes": "https://github.com/ropensci/EML/blob/master/NEWS.md"
@@ -22171,7 +22184,7 @@
     "keywords": ["http", "API", "web-services", "curl", "data", "GraphQL", "graphql", "graphql-client", "rstats", "r", "graphql-api", "r-package"],
     "readme": "https://github.com/ropensci/ghql/blob/master/README.md",
     "fileSize": "12.665KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/ghql", "https://codecov.io/github/ropensci/ghql?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/ghql?branch=master",
     "releaseNotes": "https://github.com/ropensci/ghql/blob/master/NEWS.md",
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -51112,7 +51125,7 @@
         "sameAs": "https://CRAN.R-project.org/package=dbplyr"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rfishbase", "https://ci.appveyor.com/project/cboettig/rfishbase/branch/master", "https://codecov.io/github/ropensci/rfishbase?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rfishbase?branch=master",
     "releaseNotes": "https://github.com/ropensci/rfishbase/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rfishbase/blob/master/README.md",
     "fileSize": "1611.34KB",
@@ -75185,7 +75198,7 @@
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/worrms", "https://ci.appveyor.com/project/sckott/worrms", "https://codecov.io/gh/ropensci/worrms"],
+    "contIntegration": "https://codecov.io/gh/ropensci/worrms",
     "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
     "fileSize": "49.135KB",
@@ -76315,12 +76328,13 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "circle",
-    "description": "Tools for interacting with the 'Circle CI' API.\n    Besides executing common tasks such as querying build logs and\n    restarting builds, this package also helps setting up permissions to\n    deploy from builds.",
-    "name": "circle: R client package for the Circle CI API",
+    "description": "Tools for interacting with the 'Circle CI' API.  Besides\n    executing common tasks such as querying build logs and restarting\n    builds, this package also helps setting up permissions to deploy from\n    builds.",
+    "name": "circle: R Client Package for Circle CI",
     "codeRepository": "https://github.com/ropenscilabs/circle",
     "relatedLink": [
       "https://ropenscilabs.github.io/circle",
-      "https://docs.ropensci.org/circle"
+      "https://docs.ropensci.org/circle",
+      "https://docs.ropensci.org/circle/"
     ],
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.5.0.9002",
@@ -76543,22 +76557,8 @@
       }
     ],
     "releaseNotes": "https://github.com/ropenscilabs/circle/blob/master/NEWS.md",
-    "readme": "https://github.com/ropenscilabs/circle/blob/master/README.md",
-    "fileSize": "2272.726KB",
-    "citation": [
-      {
-        "@type": "SoftwareSourceCode",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": ["Thomas", "J."],
-            "familyName": "Leeper"
-          }
-        ],
-        "name": "circleci: Circle CI API Client",
-        "description": "R package version "
-      }
-    ],
+    "readme": "https://github.com/ropenscilabs/circle/blob/main/README.md",
+    "fileSize": "2274.79KB",
     "issueTracker": "https://github.com/ropenscilabs/circle/issues",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "contIntegration": ["https://circleci.com/gh/ropenscilabs/circle", "https://codecov.io/gh/ropenscilabs/circle"],
