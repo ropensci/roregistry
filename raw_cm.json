@@ -51335,7 +51335,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.3.1.91",
+    "version": "3.3.1.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63170,30 +63170,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
         "version": ">= 0.8.4",
@@ -63377,7 +63353,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/wellknown"
+        "sameAs": "https://CRAN.R-project.org/package=wellknown"
       }
     ],
     "contIntegration": "https://codecov.io/github/ropensci/spocc?branch=master",
