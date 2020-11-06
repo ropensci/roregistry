@@ -3427,7 +3427,7 @@
     "codeRepository": "https://github.com/ropensci/babette",
     "issueTracker": "https://github.com/ropensci/babette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.1.5",
+    "version": "2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3739,6 +3739,7 @@
       "beast2",
       "bayesian-inference"
     ],
+    "relatedLink": ["https://docs.ropensci.org/babette/", "https://CRAN.R-project.org/package=babette"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -3754,8 +3755,7 @@
       }
     ],
     "copyrightHolder": {},
-    "funder": {},
-    "relatedLink": "https://CRAN.R-project.org/package=babette"
+    "funder": {}
   },
   {
     "@context": [
@@ -17032,7 +17032,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/EML/blob/master/README.md",
-    "fileSize": "491.202KB",
+    "fileSize": "3594.676KB",
     "contIntegration": ["https://travis-ci.org/ropensci/EML", "https://ci.appveyor.com/project/cboettig/eml", "https://codecov.io/gh/ropensci/EML"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "keywords": [
@@ -65377,7 +65377,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.99",
+    "version": "0.9.99.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68723,8 +68723,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "tinkr",
-    "description": "Casts (R)Markdown files to XML and back to allow their editing via XPat.",
-    "name": "tinkr: Casts (R)Markdown files to XML and back",
+    "description": "Casts (R)Markdown files to XML and back to allow their editing via XPath.",
+    "name": "tinkr: Casts (R)Markdown Files to XML and Back Again",
     "codeRepository": "https://github.com/ropensci/tinkr",
     "issueTracker": "https://github.com/ropensci/tinkr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -68788,14 +68788,14 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
-        "version": ">= 2.99.0.9000",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/r-lib/testthat"
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       },
       {
         "@type": "SoftwareApplication",
@@ -68808,6 +68808,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": [
@@ -68931,6 +68943,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
       }
     ],
     "contIntegration": "https://codecov.io/github/ropenscilabs/tinkr?branch=master",
