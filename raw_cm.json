@@ -38199,7 +38199,15 @@
         "@id": "https://orcid.org/0000-0003-1842-9297"
       }
     ],
-    "copyrightHolder": {},
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Dom",
+        "familyName": "Bennett",
+        "email": "dominic.john.bennett@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2722-1359"
+      }
+    ],
     "funder": {},
     "maintainer": [
       {
@@ -38248,6 +38256,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=ape"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
       {
         "@type": "SoftwareApplication",
