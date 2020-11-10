@@ -37086,7 +37086,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.4.1",
+    "version": "0.1.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52486,7 +52486,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/ritis", "https://ci.appveyor.com/project/sckott/ritis/branch/master", "https://codecov.io/gh/ropensci/ritis"],
+    "contIntegration": "https://codecov.io/gh/ropensci/ritis",
     "releaseNotes": "https://github.com/ropensci/ritis/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/ritis/blob/master/README.md",
     "fileSize": "51.448KB",
@@ -56508,7 +56508,7 @@
         "sameAs": "https://CRAN.R-project.org/package=solrium"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rplos", "https://ci.appveyor.com/project/sckott/rplos", "https://codecov.io/github/ropensci/rplos?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rplos?branch=master",
     "releaseNotes": "https://github.com/ropensci/rplos/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rplos/blob/master/README.md",
     "fileSize": "0KB",
@@ -56519,7 +56519,7 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "relatedLink": "https://docs.ropensci.org/rplos"
+    "relatedLink": ["https://docs.ropensci.org/rplos", "https://docs.ropensci.org/rplos/"]
   },
   {
     "@context": [
@@ -57143,7 +57143,7 @@
     "releaseNotes": "https://github.com/ropensci/rredlist/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rredlist/blob/master/README.md",
     "fileSize": "0KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rredlist", "https://codecov.io/github/ropensci/rredlist?branch=master"]
+    "contIntegration": "https://codecov.io/github/ropensci/rredlist?branch=master"
   },
   {
     "@context": [
@@ -60153,7 +60153,7 @@
         "sameAs": "https://CRAN.R-project.org/package=maps"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rvertnet", "https://ci.appveyor.com/project/sckott/rvertnet", "https://codecov.io/github/ropensci/rvertnet?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rvertnet?branch=master",
     "releaseNotes": "https://github.com/ropensci/rvertnet/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rvertnet/blob/master/README.md",
     "fileSize": "745.142KB",
@@ -60723,7 +60723,7 @@
         "sameAs": "https://CRAN.R-project.org/package=curl"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/scrubr", "https://codecov.io/github/ropensci/scrubr?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/scrubr?branch=master",
     "releaseNotes": "https://github.com/ropensci/scrubr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/scrubr/blob/master/README.md",
     "fileSize": "0KB",
@@ -74976,7 +74976,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.333",
+    "version": "0.0.1.335",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80237,6 +80237,172 @@
       "unconf"
     ],
     "readme": "https://github.com/ropenscilabs/packagemetrics/blob/master/README.md"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "packgraph",
+    "description": "Examine and analyse function call graphs of R\n    packages.",
+    "name": "packgraph: Examine and Analyse Function Call Graphs of R Packages",
+    "codeRepository": "https://github.com/ropenscilabs/packgraph",
+    "issueTracker": "https://github.com/mpadge/packgraph/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.0.0.10",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark.padgham@email.com"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark.padgham@email.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.4.0"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "igraph",
+        "name": "igraph",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=igraph"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pkgapi",
+        "name": "pkgapi"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "visNetwork",
+        "name": "visNetwork",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=visNetwork"
+      }
+    ],
+    "readme": "https://github.com/ropenscilabs/packgraph/blob/master/README.md",
+    "fileSize": "40.407KB",
+    "contIntegration": "https://travis-ci.org/mpadge/packgraph",
+    "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
     "@context": [
