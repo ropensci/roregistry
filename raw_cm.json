@@ -36230,7 +36230,7 @@
     "description": "Setup and connect to 'OpenTripPlanner' (OTP) <http://www.opentripplanner.org/>.\n    OTP is an open source platform for multi-modal and multi-agency\n    journey planning written in 'Java'. The package allows you to manage a local version or \n    connect to remote OTP server to find walking, cycling, driving, or transit routes.\n    This package has been peer-reviewed by rOpenSci (v. 0.2.0.0).",
     "name": "opentripplanner: Setup and connect to 'OpenTripPlanner'",
     "codeRepository": "https://github.com/ropensci/opentripplanner",
-    "relatedLink": "https://docs.ropensci.org/opentripplanner/",
+    "relatedLink": ["https://docs.ropensci.org/opentripplanner/", "https://CRAN.R-project.org/package=opentripplanner"],
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.1",
@@ -36503,6 +36503,12 @@
       "java",
       "isochrones"
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "releaseNotes": "https://github.com/ropensci/opentripplanner/blob/master/NEWS.md",
     "citation": [
       {
@@ -43261,7 +43267,7 @@
     ],
     "issueTracker": "http://github.com/ropensci/prism/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9000",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43473,7 +43479,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/prism/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/prism", "https://ci.appveyor.com/project/sckott/prism/branch/master", "https://codecov.io/github/ropensci/prism?branch=master"],
+    "contIntegration": ["https://ci.appveyor.com/project/sckott/prism/branch/master", "https://codecov.io/github/ropensci/prism?branch=master"],
     "keywords": [
       "r",
       "rstats",
