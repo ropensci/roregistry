@@ -27247,7 +27247,7 @@
     "relatedLink": "https://docs.ropensci.org/jenkins/",
     "issueTracker": "https://github.com/ropensci/jenkins/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.9100",
+    "version": "1.0.9101",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43480,7 +43480,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/prism/blob/master/NEWS.md",
-    "contIntegration": ["https://ci.appveyor.com/project/sckott/prism/branch/master", "https://codecov.io/github/ropensci/prism?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/prism?branch=master",
     "keywords": [
       "r",
       "rstats",
@@ -43504,7 +43504,7 @@
         ],
         "name": "prism: Download data from the Oregon prism project",
         "identifier": "10.5281/zenodo.33663",
-        "url": "http://github.com/ropensci/prism",
+        "url": "https://github.com/ropensci/prism",
         "description": "R package version 0.0.6",
         "@id": "https://doi.org/10.5281/zenodo.33663",
         "sameAs": "https://doi.org/10.5281/zenodo.33663"
@@ -55201,7 +55201,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/ropenaq/issues/",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.10.9000",
+    "version": "0.2.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59244,10 +59244,7 @@
     "description": "Access and tidy up data from the 'ODK Central' API.  \n    'ODK Central' is a clearinghouse for digitally captured data \n    <https://docs.getodk.org/central-intro/>.\n    The 'ODK Central' API is documented at <https://odkcentral.docs.apiary.io/>.",
     "name": "ruODK: An R Client for the ODK Central API",
     "codeRepository": "https://github.com/ropensci/ruODK",
-    "relatedLink": [
-      "https://ropensci.github.io/ruODK/",
-      "https://docs.ropensci.org/ruODK"
-    ],
+    "relatedLink": "https://docs.ropensci.org/ruODK",
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.9.3",
@@ -59754,7 +59751,7 @@
     "applicationCategory": "DataAccess",
     "keywords": ["database", "open-data", "opendatakit", "odk", "api", "data", "dataset", "odata", "odata-client", "r"],
     "readme": "https://github.com/ropensci/ruODK/blob/main/README.md",
-    "fileSize": "3702.082KB",
+    "fileSize": "3340.44KB",
     "citation": [
       {
         "@type": "CreativeWork",
@@ -59768,7 +59765,7 @@
         ],
         "name": "ruODK: Client for the ODK Central API",
         "url": "https://github.com/ropensci/ruODK",
-        "description": "R package version 0.9.1"
+        "description": "R package version 0.9.3"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/ruODK/blob/master/NEWS.md",
