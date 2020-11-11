@@ -27448,7 +27448,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/libjq"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/jqr", "https://ci.appveyor.com/project/sckott/jqr", "https://coveralls.io/r/ropensci/jqr?branch=master"],
+    "contIntegration": "https://codecov.io/gh/ropensci/jqr",
     "releaseNotes": "https://github.com/ropensci/jqr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/jqr/blob/master/README.md",
     "fileSize": "41.962KB",
@@ -30143,12 +30143,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "mcbette",
-    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'mcbette' allows to do a Bayesian model comparison over some\n    site and clock models, \n    using 'babette' (<https://www.github.com/ropensci/babette/>).",
+    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'mcbette' allows to do a Bayesian model comparison over some\n    site and clock models, \n    using 'babette' (<https://github.com/ropensci/babette/>).",
     "name": "mcbette: Model Comparison Using 'babette'",
     "codeRepository": "https://github.com/ropensci/mcbette",
     "issueTracker": "https://github.com/ropensci/mcbette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.11",
+    "version": "1.12",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30188,18 +30188,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=ape"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
       },
       {
         "@type": "SoftwareApplication",
@@ -30398,6 +30386,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "devtools",
+        "name": "devtools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=devtools"
       },
       {
         "@type": "SoftwareApplication",
@@ -50882,7 +50882,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.3.3.91",
+    "version": "3.3.3.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
