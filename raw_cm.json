@@ -49465,16 +49465,17 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rentrez",
-    "description": "Provides an R interface to the NCBI's 'EUtils' API, \n    allowing users to search databases like 'GenBank' \n    <https://www.ncbi.nlm.nih.gov/genbank/> and 'PubMed' \n    <https://www.ncbi.nlm.nih.gov/pubmed/>, process the \n    results of those searches and pull data into their R sessions.",
+    "description": "Provides an R interface to the NCBI's 'EUtils' API, \n    allowing users to search databases like 'GenBank' \n    <https://www.ncbi.nlm.nih.gov/genbank/> and 'PubMed' \n    <https://pubmed.ncbi.nlm.nih.gov/>, process the \n    results of those searches and pull data into their R sessions.",
     "name": "rentrez: 'Entrez' in R",
     "codeRepository": "https://github.com/ropensci/rentrez",
     "relatedLink": [
       "https://docs.ropensci.org/rentrez",
-      "https://CRAN.R-project.org/package=rentrez"
+      "https://CRAN.R-project.org/package=rentrez",
+      "https://docs.ropensci.org/rentrez/"
     ],
-    "issueTracker": "https://github.com/ropensci/rentrez/issues",
+    "issueTracker": "https://github.com/ropensci/rentrez/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50875,7 +50876,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.3.2.91",
+    "version": "3.3.3.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50955,30 +50956,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
