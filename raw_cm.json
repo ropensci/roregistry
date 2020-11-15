@@ -4240,7 +4240,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.2.1",
+    "version": "2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4392,6 +4392,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "devtools",
+        "name": "devtools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=devtools"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "phangorn",
         "name": "phangorn",
         "provider": {
@@ -4540,9 +4552,9 @@
     "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'BEAUti 2' (which is part of 'BEAST2') is a GUI tool \n  that allows users to specify the many possible setups\n  and generates the XML file 'BEAST2' needs to run.\n  This package provides a way to create 'BEAST2' input\n  files without active user input, but using\n  R function calls instead.",
     "name": "beautier: 'BEAUti' from R",
     "codeRepository": "https://github.com/ropensci/beautier",
-    "issueTracker": "https://github.com/ropensci/beautier/issues",
+    "issueTracker": "https://github.com/ropensci/beautier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.4",
+    "version": "2.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
