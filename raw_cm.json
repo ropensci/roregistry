@@ -3986,7 +3986,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/BaseSet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.14",
+    "version": "0.0.14.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20911,7 +20911,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonlint",
     "issueTracker": "https://github.com/ropensci/geojsonlint/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.91",
+    "version": "0.4.0.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21057,14 +21057,14 @@
         "sameAs": "https://CRAN.R-project.org/package=V8"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/geojsonlint", "https://codecov.io/github/ropensci/geojsonlint?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/geojsonlint?branch=master",
     "releaseNotes": "https://github.com/ropensci/geojsonlint/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/geojsonlint/blob/master/README.md",
     "fileSize": "881.796KB",
     "keywords": ["geojson", "geospatial", "lint", "hint", "data", "schema", "linter", "r", "rstats", "r-package"],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
-    "relatedLink": "https://docs.ropensci.org/geojsonlint",
+    "relatedLink": ["https://docs.ropensci.org/geojsonlint", "https://docs.ropensci.org/geojsonlint/"],
     "contributor": {},
     "funder": {}
   },
@@ -28274,7 +28274,7 @@
     "codeRepository": "https://github.com/ropensci/lawn",
     "issueTracker": "https://github.com/ropensci/lawn/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1.92",
+    "version": "0.5.1.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -28409,7 +28409,7 @@
     "releaseNotes": "https://github.com/ropensci/lawn/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/lawn/blob/master/README.md",
     "fileSize": "1623.339KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/lawn", "https://ci.appveyor.com/project/sckott/lawn", "https://codecov.io/github/ropensci/lawn?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/lawn?branch=master",
     "keywords": ["geojson", "turf", "geospatial", "conversion", "data", "GeoJSON", "r", "rstats", "r-package", "turfjs"],
     "relatedLink": "https://docs.ropensci.org/lawn",
     "contributor": {},
@@ -30137,7 +30137,7 @@
     "codeRepository": "https://github.com/ropensci/mcbette",
     "issueTracker": "https://github.com/ropensci/mcbette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.12",
+    "version": "1.13",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30780,7 +30780,7 @@
     "codeRepository": "https://github.com/ropensci/microdemic",
     "issueTracker": "https://github.com/ropensci/microdemic/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31383,6 +31383,7 @@
         "@type": "SoftwareApplication",
         "identifier": "shinyFiles",
         "name": "shinyFiles",
+        "version": ">= 0.9.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -45741,7 +45742,7 @@
     "codeRepository": "https://github.com/ropensci/rcitoid",
     "issueTracker": "https://github.com/ropensci/rcitoid/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9101",
+    "version": "0.1.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45833,7 +45834,7 @@
     ],
     "readme": "https://github.com/ropensci/rcitoid/blob/master/README.md",
     "fileSize": "23.113KB",
-    "contIntegration": ["https://travis-ci.com/ropensci/rcitoid", "https://ci.appveyor.com/project/sckott/rcitoid", "https://codecov.io/gh/ropensci/rcitoid"],
+    "contIntegration": "https://codecov.io/gh/ropensci/rcitoid",
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["text-ming", "literature", "publications", "citations", "Wikipedia", "Wikicite", "Citoid", "r", "rstats", "api-client", "wikimedia", "citoid", "doi", "pmid", "pmcid", "isbn", "r-package"],
     "applicationCategory": "Literature",
@@ -45847,7 +45848,8 @@
     },
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/rcitoid/"
   },
   {
     "@context": [
@@ -46356,7 +46358,7 @@
     "codeRepository": "https://github.com/ropensci/rcrossref",
     "issueTracker": "https://github.com/ropensci/rcrossref/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0",
+    "version": "1.1.0.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -48066,7 +48068,7 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": ["https://docs.ropensci.org/rdhs/", "https://CRAN.R-project.org/package=rdhs"],
+    "relatedLink": "https://docs.ropensci.org/rdhs/",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -54445,7 +54447,7 @@
     "description": "Programmatic interface to the\n    Web Service methods provided by the National 'Phenology' Network\n    (<https://usanpn.org/>), which includes data on various life history\n    events that occur at specific times.",
     "name": "rnpn: Interface to the National 'Phenology' Network 'API'",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4.9100",
+    "version": "1.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54461,23 +54463,34 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "givenName": "Lee",
+        "familyName": "Marsh",
+        "email": "lee@usanpn.org"
       },
       {
         "@type": "Person",
-        "givenName": "Lee",
-        "familyName": "Marsh",
-        "email": "npnlee85@gmail.com"
+        "givenName": "Scott",
+        "familyName": "Chamberlain"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alyssa",
+        "familyName": "Rosemartin",
+        "email": "alyssa@usanpn.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kevin",
+        "familyName": "Wong",
+        "email": "kevin@usanpn.org"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "givenName": "Lee",
+        "familyName": "Marsh",
+        "email": "lee@usanpn.org"
       }
     ],
     "softwareSuggestions": [
@@ -54516,13 +54529,74 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RColorBrewer",
+        "name": "RColorBrewer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RColorBrewer"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
       },
       {
         "@type": "SoftwareApplication",
@@ -54552,18 +54626,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
         "version": ">= 1.9.6",
@@ -54577,6 +54639,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "sp",
+        "name": "sp",
+        "version": ">= 1.1-0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sp"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
         "provider": {
@@ -54586,19 +54661,103 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "raster",
+        "name": "raster",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=raster"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rgdal",
+        "name": "rgdal",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgdal"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "plyr",
+        "name": "plyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=plyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "XML",
+        "name": "XML",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=XML"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
     "codeRepository": "https://github.com/ropensci/rnpn",
-    "contIntegration": ["https://travis-ci.org/ropensci/rnpn", "https://ci.appveyor.com/project/sckott/rnpn/branch/master", "https://codecov.io/github/ropensci/rnpn?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rnpn?branch=master",
     "releaseNotes": "https://github.com/ropensci/rnpn/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rnpn/blob/master/README.md",
-    "fileSize": "142.443KB",
-    "relatedLink": "https://docs.ropensci.org/rnpn",
+    "fileSize": "18573.791KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["web-api", "species", "data", "rstats", "r", "national-phenology-network", "phenology", "r-package"]
+    "keywords": [
+      "web-api",
+      "species",
+      "data",
+      "rstats",
+      "r",
+      "national-phenology-network",
+      "phenology",
+      "r-package"
+    ],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=rnpn",
+      "https://docs.ropensci.org/rnpn/"
+    ],
+    "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
     "@context": [
@@ -58048,7 +58207,7 @@
     "codeRepository": "https://github.com/ropensci/rsnps",
     "issueTracker": "https://github.com/ropensci/rsnps/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -58232,7 +58391,7 @@
     "keywords": ["gene", "snp", "sequence", "API", "web", "api-client", "species", "dbSNP", "OpenSNP", "NCBI", "genotype", "web-api", "snps", "data", "rstats", "r", "r-package"],
     "releaseNotes": "https://github.com/ropensci/rsnps/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rsnps/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/rsnps/", "https://ci.appveyor.com/project/sckott/rsnps/branch/master/", "https://codecov.io/github/ropensci/rsnps?branch=master"],
+    "contIntegration": ["https://ci.appveyor.com/project/sckott/rsnps/branch/master/", "https://codecov.io/github/ropensci/rsnps?branch=master"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -63774,6 +63933,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=s2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sfheaders",
+        "name": "sfheaders",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sfheaders"
       }
     ],
     "softwareRequirements": [
@@ -64278,6 +64449,162 @@
       }
     ],
     "readme": "https://github.com/ropensci/suppdata/blob/master/README.md"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "SymbiotaR2",
+    "description": "Download data from Symbiota2 portals using Symbiota's\n    API. Covers the Checklists, Collections, Crowdsource, Exsiccati,\n    Glossary, ImageProcessor, Key, Media, Occurrence, Reference, Taxa,\n    Traits, and UserRoles API families. Each Symbiota2 portal owner\n    can load their own plugins (and modified code), and so this\n    package may not cover every possible API endpoint from a given\n    Symbiota2 instance.",
+    "name": "SymbiotaR2: Downloading Data from Symbiota2 Portals into R",
+    "codeRepository": "https://github.com/ropensci/SymbiotaR2",
+    "issueTracker": "https://github.com/pearselab/SymbiotaR2/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Austin",
+        "familyName": "Koontz",
+        "email": "austinkoontz11@gmail.com",
+        "@id": "https://orcid.org/0000-0002-6103-5896"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William D.",
+        "familyName": "Pearse",
+        "email": "will.pearse@gmail.com",
+        "@id": "https://orcid.org/0000-0002-6241-3164"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Austin",
+        "familyName": "Koontz",
+        "email": "austinkoontz11@gmail.com",
+        "@id": "https://orcid.org/0000-0002-6103-5896"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "version": ">= 1.23",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rjson",
+        "name": "rjson",
+        "version": ">= 0.2.20",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rjson"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "version": ">= 1.2.6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "version": ">= 3.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      }
+    ],
+    "releaseNotes": "https://github.com/pearselab/SymbiotaR2/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/SymbiotaR2/blob/master/README.md",
+    "fileSize": "2017.879KB",
+    "contIntegration": ["https://travis-ci.org/ropensci/SymbiotaR2", "https://codecov.io/gh/ropensci/SymbiotaR2"],
+    "developmentStatus": "https://www.repostatus.org/#wip",
+    "keywords": [
+      "symbiota2-portal",
+      "database",
+      "library",
+      "r",
+      "symbiota",
+      "specimen-records",
+      "symbiota2"
+    ]
   },
   {
     "@context": [
@@ -74843,12 +75170,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "allcontributors",
-    "description": "Acknowledge all contributors to a project in your\n    'README'.",
+    "description": "Acknowledge all contributors to a project via a\n    single function call. The function appends to a 'README' or other\n    specified file(s) a table with names of all individuals who\n    contributed via code or repository issues.  The package also includes\n    several additional functions to extract and quantify contributions to\n    any repository.",
     "name": "allcontributors: Acknowledge all Contributors to a Project",
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "\n    https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.74",
+    "version": "0.0.1.79",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75011,7 +75338,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/allcontributors/blob/master/README.md",
-    "fileSize": "87.515KB",
+    "fileSize": "90.44KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/allcontributors",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
