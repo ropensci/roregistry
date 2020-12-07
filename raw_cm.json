@@ -31376,6 +31376,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "png",
         "name": "png",
         "provider": {
@@ -31385,6 +31397,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=png"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "qpdf",
+        "name": "qpdf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=qpdf"
       },
       {
         "@type": "SoftwareApplication",
@@ -67335,7 +67359,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "tic",
-    "description": "Provides a way to describe common build and deployment\n    workflows for R-based projects: packages, websites (e.g.  blogdown,\n    pkgdown), or data processing (e.g. research compendia).  The recipe is\n    described independent of the continuous integration tool used for\n    processing the workflow (e.g.  'Travis CI' or 'AppVeyor').  This\n    package has been peer-reviewed by rOpenSci (v. 0.3.0.9004).",
+    "description": "Provides a way to describe common build and deployment\n    workflows for R-based projects: packages, websites (e.g.  blogdown,\n    pkgdown), or data processing (e.g. research compendia). The recipe is\n    described independent of the continuous integration tool used for\n    processing the workflow (e.g. 'GitHub Actions' or 'Circle CI').  This\n    package has been peer-reviewed by rOpenSci (v0.3.0.9004).",
     "name": "tic: Tasks Integrating Continuously: CI-Agnostic Workflow Definitions",
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
@@ -67654,13 +67678,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "travis",
-        "name": "travis",
-        "version": ">= 0.2.11.9001",
-        "sameAs": "https://github.com/ropenscilabs/travis"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       }
@@ -67814,7 +67831,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tic/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/tic/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/tic", "https://circleci.com/gh/ropensci/tic", "https://codecov.io/gh/ropensci/tic", "https://travis-ci.org/ropenscilabs/tic.blogdown", "https://travis-ci.org/ropenscilabs/tic.bookdown", "https://travis-ci.org/ropenscilabs/tic.covrpage", "https://travis-ci.org/ropenscilabs/tic.drat", "https://travis-ci.org/ropenscilabs/tic.figshare", "https://travis-ci.org/ropenscilabs/tic.package", "https://travis-ci.org/ropenscilabs/tic.packagedocs", "https://travis-ci.org/ropenscilabs/tic.website"],
+    "contIntegration": ["https://travis-ci.org/ropensci/tic", "https://circleci.com/gh/ropensci/tic", "https://codecov.io/gh/ropensci/tic"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "keywords": [
       "r",
@@ -67826,7 +67843,7 @@
       "rstats",
       "githubactions"
     ],
-    "fileSize": "388.243KB"
+    "fileSize": "2424.916KB"
   },
   {
     "@context": [
