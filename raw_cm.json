@@ -28520,14 +28520,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "pavo",
-        "name": "pavo",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pavo"
+        "name": "pavo"
       },
       {
         "@type": "SoftwareApplication",
@@ -30119,7 +30112,7 @@
     "codeRepository": "https://github.com/ropensci/mcbette",
     "issueTracker": "https://github.com/ropensci/mcbette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.13",
+    "version": "1.14",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34286,7 +34279,7 @@
     "releaseNotes": "https://github.com/ropensci/nlrx/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/nlrx/blob/master/README.md",
     "fileSize": "480.545KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/nlrx", "https://ci.appveyor.com/project/marcosci/nlrx/branch/master", "https://codecov.io/gh/ropensci/nlrx"],
+    "contIntegration": "https://codecov.io/gh/ropensci/nlrx",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "keywords": [
       "peer-reviewed",
@@ -38374,7 +38367,8 @@
     "relatedLink": [
       "https://github.com/ropensci/outsider#readme",
       "https://docs.ropensci.org/outsider",
-      "https://docs.ropensci.org/outsider/"
+      "https://docs.ropensci.org/outsider/",
+      "https://CRAN.R-project.org/package=outsider"
     ],
     "keywords": [
       "docker",
@@ -38441,7 +38435,13 @@
           }
         }
       }
-    ]
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -38818,6 +38818,12 @@
         "@type": "SoftwareApplication",
         "identifier": "outsider",
         "name": "outsider",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/ropensci/outsider"
       },
       {
@@ -39959,15 +39965,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
+        "identifier": "tidyverse",
+        "name": "tidyverse",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+        "sameAs": "https://CRAN.R-project.org/package=tidyverse"
       },
       {
         "@type": "SoftwareApplication",
@@ -39980,6 +39986,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
       {
         "@type": "SoftwareApplication",
@@ -40016,6 +40034,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readxl",
+        "name": "readxl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readxl"
       }
     ],
     "softwareRequirements": [
@@ -40551,7 +40581,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "outsider",
-        "name": "outsider"
+        "name": "outsider",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=outsider"
       }
     ],
     "softwareRequirements": [
@@ -69358,12 +69395,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "tracerer",
-    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'Tracer' (<http://tree.bio.ed.ac.uk/software/tracer/>) is a GUI tool \n  to parse and analyze the files generated by 'BEAST2'.\n  This package provides a way to parse and analyze 'BEAST2' input\n  files without active user input, but using\n  R function calls instead.",
+    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n  Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n  and many model priors to create a posterior of jointly estimated \n  phylogenies and parameters.\n  'Tracer' (<https://tree.bio.ed.ac.uk/software/tracer/>) is a GUI tool \n  to parse and analyze the files generated by 'BEAST2'.\n  This package provides a way to parse and analyze 'BEAST2' input\n  files without active user input, but using\n  R function calls instead.",
     "name": "tracerer: Tracer from R",
     "codeRepository": "https://github.com/ropensci/tracerer",
-    "issueTracker": "https://github.com/ropensci/tracerer",
+    "issueTracker": "https://github.com/ropensci/tracerer/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.1",
+    "version": "2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69598,7 +69635,7 @@
       "rstats"
     ],
     "fileSize": "862.792KB",
-    "relatedLink": ["https://docs.ropensci.org/tracerer", "https://CRAN.R-project.org/package=tracerer"],
+    "relatedLink": ["https://docs.ropensci.org/tracerer/", "https://CRAN.R-project.org/package=tracerer"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -75508,7 +75545,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.410",
+    "version": "0.0.1.434",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76954,140 +76991,6 @@
       "unconf"
     ],
     "readme": "https://github.com/ropenscilabs/cricketdata/blob/master/README.md"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "datapkg",
-    "description": "Convenience functions for reading and writing datasets following\n    the 'data packagist' format.",
-    "name": "datapkg: Read and Write Data Packages",
-    "codeRepository": "https://github.com/ropenscilabs/datapkg",
-    "relatedLink": "http://frictionlessdata.io/data-packages/",
-    "issueTracker": "https://github.com/ropenscilabs/datapkg/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Jeroen",
-        "familyName": "Ooms",
-        "email": "jeroen.ooms@stat.ucla.edu"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Karthik",
-        "familyName": "Ram",
-        "email": "karthik.ram@gmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Jeroen",
-        "familyName": "Ooms",
-        "email": "jeroen.ooms@stat.ucla.edu"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonvalidate",
-        "name": "jsonvalidate",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://github.com/ropenscilabs/jsonvalidate"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://github.com/hadley/readr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "git2r",
-        "name": "git2r",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=git2r"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "curl",
-        "name": "curl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=curl"
-      }
-    ],
-    "developmentStatus": "http://www.repostatus.org/#inactive",
-    "keywords": [
-      "r",
-      "r-package",
-      "rstats"
-    ],
-    "readme": "https://github.com/ropenscilabs/datapkg/blob/master/README.md"
   },
   {
     "@context": [
@@ -83303,86 +83206,6 @@
     "copyrightHolder": {},
     "funder": {},
     "developmentStatus": ["https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/", "https://www.tidyverse.org/lifecycle/"]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "simpletextr",
-    "description": "Simple functions for common repeatable tasks in NLP and text mining.",
-    "name": "simpletextr: Simple Text Wrappers",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Matt",
-        "familyName": "Johnson",
-        "email": "mrjoh3@gmail.com"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Matt",
-        "familyName": "Johnson",
-        "email": "mrjoh3@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.5.1"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tm",
-        "name": "tm",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tm"
-      }
-    ],
-    "codeRepository": "https://github.com/ropenscilabs/simpletextr",
-    "keywords": [
-      "ozunconf18",
-      "unconf",
-      "r",
-      "r-package",
-      "rstats"
-    ],
-    "readme": "https://github.com/ropenscilabs/simpletextr/blob/master/README.md"
   },
   {
     "@context": [
