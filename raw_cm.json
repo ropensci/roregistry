@@ -41847,6 +41847,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "hexbin",
+        "name": "hexbin",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hexbin"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ggthemes",
         "name": "ggthemes",
         "provider": {
@@ -42290,18 +42302,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "hexbin",
-        "name": "hexbin",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hexbin"
       },
       {
         "@type": "SoftwareApplication",
@@ -45899,7 +45899,12 @@
     ],
     "contributor": {},
     "copyrightHolder": {},
-    "funder": {},
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
@@ -71349,7 +71354,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.7.91",
+    "version": "0.5.8.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73644,7 +73649,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.1.91",
+    "version": "0.7.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
