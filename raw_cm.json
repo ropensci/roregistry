@@ -32893,8 +32893,6 @@
     "applicationCategory": "Tools",
     "isPartOf": "https://ropensci.org",
     "keywords": ["NASA", "meteorological-data", "weather", "global", "weather-data", "meteorology", "NASA-POWER", "agroclimatology", "earth-science", "data-access", "climate-data", "r", "nasa-power", "nasa", "agroclimatology-data", "weather-variables", "rstats", "r-package"],
-    "releaseNotes": "https://github.com/ropensci/nasapower/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/nasapower/blob/master/README.md",
     "contIntegration": "https://codecov.io/gh/ropensci/nasapower",
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
@@ -32938,7 +32936,9 @@
       }
     ],
     "relatedLink": ["https://docs.ropensci.org/nasapower/", "https://CRAN.R-project.org/package=nasapower"],
-    "fileSize": "306779.219KB"
+    "fileSize": "602.434KB",
+    "releaseNotes": "https://github.com/ropensci/nasapower/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/nasapower/blob/master/README.md"
   },
   {
     "@context": [
@@ -45875,8 +45875,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rcol",
-    "description": "Client for the Catalogue of Life Plus ('CoL+') webservice \n    (<https://github.com/CatalogueOfLife/general>). The CoL+ webservice is\n    a new interface to the Catalogue of Life. Includes functions for each\n    of the API methods, including searching for names, and more.",
-    "name": "rcol: Catalogue of Life Plus Client",
+    "description": "Client for the Catalogue of Life ('CoL') webservice \n    (<https://api.catalogueoflife.org/>); based on the new\n    CoL webservice, not the old one. Includes functions for each\n    of the API methods, including searching for names, and more.",
+    "name": "rcol: Catalogue of Life Client",
     "codeRepository": "https://github.com/ropensci/rcol",
     "relatedLink": "https://docs.ropensci.org/rcol/",
     "issueTracker": "https://github.com/ropensci/rcol/issues",
@@ -45937,7 +45937,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
+        "sameAs": "https://github.com/ropensci/vcr"
       }
     ],
     "softwareRequirements": [
@@ -50664,7 +50664,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.4.0.95",
+    "version": "3.4.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
