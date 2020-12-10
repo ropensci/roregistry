@@ -59299,6 +59299,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "here",
+        "name": "here",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=here"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "version": ">= 1.26",
@@ -75552,7 +75565,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.440",
+    "version": "0.0.1.448",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75688,18 +75701,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "here",
-        "name": "here",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=here"
       },
       {
         "@type": "SoftwareApplication",
