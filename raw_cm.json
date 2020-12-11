@@ -36922,7 +36922,7 @@
     "codeRepository": "https://github.com/ropensci/originr",
     "issueTracker": "https://github.com/ropensci/originr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37048,14 +37048,14 @@
         "sameAs": "https://CRAN.R-project.org/package=taxize"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/originr", "https://ci.appveyor.com/project/sckott/originr", "https://codecov.io/github/ropensci/originr?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/originr?branch=master",
     "releaseNotes": "https://github.com/ropensci/originr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/originr/blob/master/README.md",
     "fileSize": "30.353KB",
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
     "keywords": ["species", "native", "invasive", "origin", "web", "API", "eol", "gisd", "nsr", "itis", "griis", "rstats", "invasive-species", "flora-europaea", "r", "r-package"],
-    "relatedLink": "https://docs.ropensci.org/originr",
+    "relatedLink": ["https://docs.ropensci.org/originr", "https://docs.ropensci.org/originr/"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -46530,7 +46530,7 @@
     "codeRepository": "https://github.com/ropensci/rcoreoa",
     "issueTracker": "https://github.com/ropensci/rcoreoa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -46696,12 +46696,12 @@
         "sameAs": "https://CRAN.R-project.org/package=hoardr"
       }
     ],
-    "contIntegration": ["https://travis-ci.org/ropensci/rcoreoa", "https://codecov.io/github/ropensci/rcoreoa?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/rcoreoa?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/rcoreoa/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rcoreoa/blob/master/README.md",
     "fileSize": "115.489KB",
-    "relatedLink": "https://docs.ropensci.org/rcoreoa",
+    "relatedLink": ["https://docs.ropensci.org/rcoreoa", "https://docs.ropensci.org/rcoreoa/"],
     "copyrightHolder": {},
     "funder": {},
     "applicationCategory": "Literature",
@@ -74270,149 +74270,6 @@
         }
       }
     ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "webmiddens",
-    "description": "Cache mocked 'HTTP' requests, leveraging 'webmockr'\n    for the 'HTTP' request matching.",
-    "name": "webmiddens: Cache Mocked 'HTTP' Requests",
-    "codeRepository": "https://github.com/ropensci/webmiddens",
-    "relatedLink": "https://docs.ropensci.org/webmiddens/",
-    "issueTracker": "https://github.com/ropensci/webmiddens/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.93",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": [
-      {
-        "@type": "Organization",
-        "name": "rOpenSci"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R6",
-        "name": "R6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=R6"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "webmockr",
-        "name": "webmockr",
-        "version": ">= 0.6.2.92",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "hoardr",
-        "name": "hoardr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hoardr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "callr",
-        "name": "callr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=callr"
-      }
-    ],
-    "applicationCategory": "Web",
-    "isPartOf": "https://ropensci.org",
-    "keywords": ["http", "https", "API", "curl", "mock", "mocking", "fakeweb", "http-mocking", "testing", "testing-tools", "tdd", "api", "web", "caching", "http-cache", "r", "rstats"],
-    "releaseNotes": "https://github.com/ropensci/webmiddens/blob/master/NEWS.md",
-    "contIntegration": ["https://travis-ci.com/ropensci/webmiddens", "https://ci.appveyor.com/project/sckott/webmiddens", "https://codecov.io/gh/ropensci/webmiddens"],
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "readme": "https://github.com/sckott/webmiddens/blob/master/README.md"
   },
   {
     "@context": [
