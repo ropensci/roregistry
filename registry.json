@@ -543,7 +543,7 @@
       "url": "https://github.com/ropensci/bomrang",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-14 04:57:55",
+      "date_last_commit": "2020-12-14 08:32:32",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2522,7 +2522,7 @@
       "url": "https://github.com/ropensci/mapscanner",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2020-11-25 15:22:30",
+      "date_last_commit": "2020-12-14 13:32:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5850,7 +5850,7 @@
       "url": "https://github.com/ropensci/UCSCXenaTools",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-09 06:35:27",
+      "date_last_commit": "2020-12-14 08:44:20",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6236,6 +6236,23 @@
       "staff_maintained": true
     },
     {
+      "name": "arresteddev",
+      "description": "Arrested Development",
+      "details": "Here to help you when your development is, shall we say, arrested.",
+      "maintainer": "Lucy D'Agostino McGowan",
+      "keywords": "unconf, unconf17",
+      "github": "https://github.com/ropensci-archive/arresteddev",
+      "status": "https://www.repostatus.org#unsupported",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "archived",
+      "url": "https://github.com/ropensci-archive/arresteddev",
+      "ropenscilabs": true,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "monkeylearn",
       "description": "Accesses the Monkeylearn API for Text Classifiers and Extractors",
       "details": "Allows using some services of Monkeylearn <http://monkeylearn.com/> which is\n    a Machine Learning platform on the cloud for text analysis (classification and extraction).",
@@ -6272,25 +6289,6 @@
       "staff_maintained": true
     },
     {
-      "name": "arresteddev",
-      "description": "Arrested Development",
-      "details": "Here to help you when your development is, shall we say, arrested.",
-      "maintainer": "Lucy D'Agostino McGowan",
-      "keywords": "unconf, unconf17",
-      "github": "https://github.com/ropenscilabs/arresteddev",
-      "status": "https://www.repostatus.org#concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "experimental",
-      "url": "https://github.com/ropenscilabs/arresteddev",
-      "ropenscilabs": true,
-      "date_last_commit": "2018-06-07 13:55:30",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "autotest",
       "description": "Automatic Package Testing",
       "details": "Automatic testing of R packages via a simple YAML\n    schema.",
@@ -6307,26 +6305,6 @@
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
-    },
-    {
-      "name": "bindertools",
-      "description": "Create requisite files and launch binder with mybinder.org",
-      "details": "Computational reproducibility is a critical component of modern open science. Methods \n    such as docker exist to containerise analyses, ensuring that operating systems and package versions \n    are recorded and can be recreated in order to rerun analyses. Setting up dockerfiles, however, is \n    a nontrivial task on top of a growing technical barrier to reproducible research. Binder is a \n    easy interface to produce a virtual machine within which to rerun analyses without requiring \n    installation or understanding of underlying containerisation principles. It does however still require \n    researchers to search through their code to find packages and version of packages used in the project. \n    This package seeks to make the bridge to using binder for analyses in R even simpler, by setting up\n    the install.R file with all packages and version (both on CRAN and github) in one step. \n    The binder can also be launched right from R, without needing to manually input repository information\n    into the mybinder.org interface. ",
-      "maintainer": "Saras Windecker",
-      "keywords": "ozunconf18, unconf",
-      "github": "https://github.com/ropenscilabs/bindertools",
-      "status": "https://www.repostatus.org#concept",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "experimental",
-      "url": "https://github.com/ropenscilabs/bindertools",
-      "ropensci_category": "scalereprod",
-      "ropenscilabs": true,
-      "date_last_commit": "2018-11-27 09:06:59",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
     },
     {
       "name": "changes",
@@ -7083,5 +7061,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-12-14 08:07 UTC"
+  "date": "2020-12-14 15:12 UTC"
 }
