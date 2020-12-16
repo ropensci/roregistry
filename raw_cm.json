@@ -11685,7 +11685,7 @@
     "codeRepository": "https://github.com/ropensci/coder",
     "issueTracker": "https://github.com/ropensci/coder/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.12.1",
+    "version": "0.13.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20020,7 +20020,7 @@
     "codeRepository": "https://github.com/ropensci/fulltext",
     "issueTracker": "https://github.com/ropensci/fulltext/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.6.0",
+    "version": "1.6.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32630,182 +32630,6 @@
       "provider": "https://ropensci.org"
     },
     "keywords": ["r", "tree-ring-width", "shiny-apps", "shinyapp", "tree-rings", "dendrochronology", "forest", "forestry"]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "mutant",
-    "description": "Mutation testing framework.",
-    "name": "mutant: Mutation Testing Framework",
-    "codeRepository": "https://github.com/ropensci/mutant",
-    "relatedLink": "https://docs.ropensci.org/mutant",
-    "issueTracker": "https://github.com/ropensci/mutant/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.94",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "pkgapi",
-        "name": "pkgapi",
-        "sameAs": "https://github.com/r-lib/pkgapi"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xmlparsedata",
-        "name": "xmlparsedata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xmlparsedata"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "astr",
-        "name": "astr",
-        "sameAs": "https://github.com/sckott/astr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "withr",
-        "name": "withr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=withr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R6",
-        "name": "R6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=R6"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "pkgload",
-        "name": "pkgload",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pkgload"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "liteq",
-        "name": "liteq",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=liteq"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "uuid",
-        "name": "uuid",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=uuid"
-      }
-    ],
-    "developmentStatus": "https://www.repostatus.org/#concept",
-    "keywords": [
-      "rstats",
-      "testing",
-      "ttd",
-      "mutation-testing",
-      "r",
-      "r-package"
-    ],
-    "readme": "https://github.com/ropensci/mutant/blob/master/README.md"
   },
   {
     "@context": [
@@ -75744,9 +75568,9 @@
     "description": "Automatic testing of R packages via a simple YAML\n    schema.",
     "name": "autotest: Automatic Package Testing",
     "codeRepository": "https://github.com/ropenscilabs/autotest",
-    "issueTracker": "https://github.com/mpadge/autotest/issues",
+    "issueTracker": "https://github.com/mpadge/ropenscilabs/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.488",
+    "version": "0.0.1.503",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75949,7 +75773,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "185.994KB",
+    "fileSize": "306.519KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
@@ -76301,7 +76125,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "circle",
-    "description": "Tools for interacting with the 'Circle CI' API.  Besides\n    executing common tasks such as querying build logs and restarting\n    builds, this package also helps setting up permissions to deploy from\n    builds.",
+    "description": "Tools for interacting with the 'Circle CI' API.\n    Besides executing common tasks such as querying build logs and\n    restarting builds, this package also helps setting up permissions to\n    deploy from builds.",
     "name": "circle: R Client Package for Circle CI",
     "codeRepository": "https://github.com/ropenscilabs/circle",
     "relatedLink": [
@@ -76452,6 +76276,7 @@
         "@type": "SoftwareApplication",
         "identifier": "usethis",
         "name": "usethis",
+        "version": ">= 2.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -76531,7 +76356,7 @@
     ],
     "releaseNotes": "https://github.com/ropenscilabs/circle/blob/master/NEWS.md",
     "readme": "https://github.com/ropenscilabs/circle/blob/main/README.md",
-    "fileSize": "2274.79KB",
+    "fileSize": "2275.419KB",
     "issueTracker": "https://github.com/ropenscilabs/circle/issues",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "contIntegration": ["https://circleci.com/gh/ropenscilabs/circle", "https://codecov.io/gh/ropenscilabs/circle"],
