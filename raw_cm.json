@@ -11679,6 +11679,184 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "coder",
+    "description": "\n  Fast categorization of items based on external code data identified by \n  regular expressions. A typical use case considers patient with medically coded \n  data, such as codes from the International Classification of Diseases (ICD) or \n  the Anatomic Therapeutic Chemical (ATC) classification system. \n  Functions of the package relies on a triad of objects: (1) case data with unit \n  id:s and possible dates of interest; (2) external code data for corresponding \n  units in (1) and with optional dates of interest and; (3) a classification \n  scheme ('classcodes' object) with regular expressions to identify and \n  categorize relevant codes from (2). \n  It is easy to introduce new classification schemes ('classcodes' objects) or  \n  to use default schemes included in the package. Use cases includes patient \n  categorization based on comorbidity indices such as Charlson, Elixhauser, \n  RxRisk V, or the co-morbidity-polypharmacy score (CPS), as well as adverse \n  events after hip and knee arthroplasty surgery.",
+    "name": "coder: Deterministic Categorization of Items Based on External Code Data",
+    "codeRepository": "https://github.com/ropensci/coder",
+    "issueTracker": "https://github.com/ropensci/coder/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.12.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Erik",
+        "familyName": "Bulow",
+        "email": "eriklgb@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9973-456X"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Erik",
+        "familyName": "Bulow",
+        "email": "eriklgb@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9973-456X"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "writexl",
+        "name": "writexl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=writexl"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.3"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "decoder",
+        "name": "decoder",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=decoder"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "generics",
+        "name": "generics",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=generics"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      }
+    ],
+    "readme": "https://github.com/ropensci/coder/blob/master/README.md",
+    "fileSize": "1117.802KB",
+    "contIntegration": "https://codecov.io/gh/ropensci/coder",
+    "keywords": [
+      "r",
+      "package",
+      "r-package",
+      "classification",
+      "icd-10",
+      "rstats"
+    ],
+    "releaseNotes": "https://github.com/ropensci/coder/blob/master/NEWS.md",
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "relatedLink": "https://docs.ropensci.org/coder"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "colocr",
     "description": "Automate the co-localization analysis of fluorescence microscopy \n  images. Selecting regions of interest, extract pixel intensities from \n  the image channels and calculate different co-localization statistics. The\n  methods implemented in this package are based on Dunn et al. (2011) \n  <doi:10.1152/ajpcell.00462.2010>.",
     "name": "colocr: Conduct Co-Localization Analysis of Fluorescence Microscopy Images",
@@ -31295,8 +31473,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODIStsp",
-    "description": "Allows automating the creation of time series of rasters derived\n    from MODIS Satellite Land Products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojection and resize\n    of data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    Quality Indicators should be extracted from aggregated MODIS Quality\n    Assurance layers and, in the case of Surface Reflectance products\n    , which Spectral Indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing to automatically update time series\n    related to a MODIS product whenever a new image is available.",
-    "name": "MODIStsp: A Tool for Automating Download and Preprocessing of MODIS Land Products\n    Data",
+    "description": "Allows automating the creation of time series of rasters derived\n    from MODIS satellite land products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojecting and resizing\n    data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    quality indicators should be extracted from aggregated MODIS quality\n    assurance layers and, in the case of surface reflectance products,\n    which spectral indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing users to automatically update time series\n    related to a MODIS product whenever a new image is available.\n    For additional documentation refer to the following article: \n    Busetto and Ranghetti (2016) <doi:10.1016/j.cageo.2016.08.020>.",
+    "name": "MODIStsp: Find, Download and Process MODIS Land Products\n    Data",
     "codeRepository": "https://github.com/ropensci/MODIStsp",
     "relatedLink": "https://docs.ropensci.org/MODIStsp/",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
@@ -31329,7 +31507,13 @@
         "@id": "https://orcid.org/0000-0001-6207-5188"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Babak",
+        "familyName": "Naimi"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -31483,18 +31667,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "markdown",
-        "name": "markdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=markdown"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "png",
         "name": "png",
         "provider": {
@@ -31504,18 +31676,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=png"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "qpdf",
-        "name": "qpdf",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=qpdf"
       },
       {
         "@type": "SoftwareApplication",
@@ -31649,18 +31809,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tibbletime",
-        "name": "tibbletime",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibbletime"
       },
       {
         "@type": "SoftwareApplication",
@@ -75598,7 +75746,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/mpadge/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.484",
+    "version": "0.0.1.488",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
