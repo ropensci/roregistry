@@ -28508,12 +28508,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "lawn",
-    "description": "Client for 'Turfjs' (<http://turfjs.org>) for\n    'geospatial' analysis. The package revolves around using 'GeoJSON'\n    data. Functions are included for creating 'GeoJSON' data objects,\n    measuring aspects of 'GeoJSON', and combining, transforming,\n    and creating random 'GeoJSON' data objects.",
+    "description": "Client for 'Turfjs' (<https://turfjs.org>) for\n    'geospatial' analysis. The package revolves around using 'GeoJSON'\n    data. Functions are included for creating 'GeoJSON' data objects,\n    measuring aspects of 'GeoJSON', and combining, transforming,\n    and creating random 'GeoJSON' data objects.",
     "name": "lawn: Client for 'Turfjs' for 'Geospatial' Analysis",
     "codeRepository": "https://github.com/ropensci/lawn",
     "issueTracker": "https://github.com/ropensci/lawn/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1.93",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -28572,30 +28572,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "leaflet",
         "name": "leaflet",
         "provider": {
@@ -28647,12 +28623,17 @@
     ],
     "releaseNotes": "https://github.com/ropensci/lawn/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/lawn/blob/master/README.md",
-    "fileSize": "1623.339KB",
+    "fileSize": "2056.272KB",
     "contIntegration": "https://codecov.io/github/ropensci/lawn?branch=master",
     "keywords": ["geojson", "turf", "geospatial", "conversion", "data", "GeoJSON", "r", "rstats", "r-package", "turfjs"],
-    "relatedLink": "https://docs.ropensci.org/lawn",
+    "relatedLink": "https://docs.ropensci.org/lawn/",
     "contributor": {},
-    "funder": {},
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "rOpenSci"
+      }
+    ],
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org"
   },
@@ -50631,7 +50612,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.4.1.91",
+    "version": "3.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50988,7 +50969,7 @@
     "contIntegration": "https://codecov.io/github/ropensci/rgbif?branch=master",
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rgbif/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "7646.301KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy", "gbif", "api", "data", "biodiversity", "rstats", "r", "spocc", "r-package", "lifewatch", "oscibio"],
