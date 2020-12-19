@@ -28758,7 +28758,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "pavo",
-        "name": "pavo"
+        "name": "pavo",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pavo"
       },
       {
         "@type": "SoftwareApplication",
@@ -62539,12 +62546,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "spocc",
-    "description": "A programmatic interface to many species occurrence data sources,\n    including Global Biodiversity Information Facility ('GBIF'), 'USGSs'\n    Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist',\n    Berkeley 'Ecoinformatics' Engine, 'eBird', Integrated Digitized\n    'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information\n    System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes\n    functionality for retrieving species occurrence data, and combining\n    those data.",
+    "description": "A programmatic interface to many species occurrence data sources,\n    including Global Biodiversity Information Facility ('GBIF'), 'USGSs'\n    Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist',\n    'eBird', Integrated Digitized\n    'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information\n    System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes\n    functionality for retrieving species occurrence data, and combining\n    those data.",
     "name": "spocc: Interface to Species Occurrence Data Sources",
     "codeRepository": "https://github.com/ropensci/spocc",
     "issueTracker": "https://github.com/ropensci/spocc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.1.91",
+    "version": "1.1.8.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62617,13 +62624,14 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
+        "version": ">= 0.6.0.93",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
+        "sameAs": "https://github.com/ropensci/vcr"
       }
     ],
     "softwareRequirements": [
@@ -62798,7 +62806,7 @@
         "name": "rOpenSci"
       }
     ],
-    "keywords": ["specimens", "API", "web-services", "occurrences", "species", "taxonomy", "GBIF", "INAT", "BISON", "Vertnet", "eBird", "Ecoengine", "iDigBio", "OBIS", "ALA", "gbif", "vertnet", "ecoengine", "antweb", "ebird", "data", "api", "rstats", "r", "inaturalist", "idigbio", "obis", "bison", "species-occurrence", "occurrence", "spocc", "r-package"],
+    "keywords": ["specimens", "API", "web-services", "occurrences", "species", "taxonomy", "GBIF", "INAT", "BISON", "Vertnet", "eBird", "iDigBio", "OBIS", "ALA", "gbif", "vertnet", "ecoengine", "antweb", "ebird", "data", "api", "rstats", "r", "inaturalist", "idigbio", "obis", "bison", "species-occurrence", "occurrence", "spocc", "r-package"],
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "relatedLink": "https://docs.ropensci.org/spocc/",
@@ -71522,7 +71530,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.91",
+    "version": "0.6.0.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
