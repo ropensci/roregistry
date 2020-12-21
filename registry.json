@@ -629,26 +629,6 @@
       "staff_maintained": false
     },
     {
-      "name": "ccafs",
-      "description": "Client for 'CCAFS' 'GCM' Data",
-      "details": "Client for Climate Change, Agriculture, and Food Security ('CCAFS')\n    General Circulation Models ('GCM') data. Data is stored in Amazon 'S3', from\n    which we provide functions to fetch data.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "agriculture, ccafs, climate, climate-data, climatechange, data, gcm, generalcirculationmodel, peer-reviewed",
-      "github": "https://github.com/ropensci/ccafs",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/82",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/ccafs",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-08-25 19:09:51",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "cchecks",
       "description": "Client for the cranchecks.info API",
       "details": "Client for the cranchecks.info API.",
@@ -1726,26 +1706,6 @@
       "staff_maintained": false
     },
     {
-      "name": "geoops",
-      "description": "'GeoJSON' Topology Calculations and Operations",
-      "details": "Tools for doing calculations and manipulations on 'GeoJSON',\n    a 'geospatial' data interchange format (<https://tools.ietf.org/html/rfc7946>).\n    'GeoJSON' is also valid 'JSON'.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "bbox, bearing, conversion, coordinates, data, distance, geojson, geospatial, polygon",
-      "github": "https://github.com/ropensci/geoops",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/geoops",
-      "ropensci_category": "geospatial",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-05-18 14:17:59",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "getCRUCLdata",
       "description": "'CRU' 'CL' v. 2.0 Climatology Client",
       "details": "Provides functions that automate downloading and importing\n    University of East Anglia Climate Research Unit ('CRU') 'CL' v. 2.0\n    climatology data, facilitates the calculation of minimum temperature and\n    maximum temperature and formats the data into a tidy data frame as a\n    'tibble' or a list of 'raster' 'stack' objects for use.  'CRU' 'CL' v. 2.0\n    data are a gridded climatology of 1961-1990 monthly means released in 2002\n    and cover all land areas (excluding Antarctica) at 10 arcminutes\n    (0.1666667 degree) resolution.  For more information see the description of\n    the data provided by the University of East Anglia Climate Research Unit,\n    <https://crudata.uea.ac.uk/cru/data/hrg/tmc/readme.txt>.",
@@ -1840,7 +1800,7 @@
       "url": "https://github.com/ropensci/git2r",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-13 17:54:52",
+      "date_last_commit": "2020-12-21 18:11:16",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3402,26 +3362,6 @@
       "staff_maintained": false
     },
     {
-      "name": "pleiades",
-      "description": "Interface to the 'Pleiades' 'Archeological' Database",
-      "details": "Provides a set of functions for interacting with the\n    'Pleiades' (<https://pleiades.stoa.org/>) 'API', including \n    getting status data, places data, and creating a 'GeoJSON' \n    based map on 'GitHub' 'gists'.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "archeology, data, web-api",
-      "github": "https://github.com/ropensci/pleiades",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/pleiades",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-10-07 16:36:58",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "plotly",
       "description": "Create Interactive Web Graphics via 'plotly.js'",
       "details": "Create interactive web graphics from 'ggplot2' graphs and/or a custom interface to the (MIT-licensed) JavaScript library 'plotly.js' inspired by the grammar of graphics.",
@@ -3476,7 +3416,7 @@
       "url": "https://github.com/ropensci/PostcodesioR",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-19 19:53:27",
+      "date_last_commit": "2020-12-21 19:34:45",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3697,26 +3637,6 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2020-07-17 15:07:26",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
-      "name": "rbraries",
-      "description": "Interface to the 'Libraries.io' API",
-      "details": "Interface to the 'Libraries.io' API (<https://libraries.io/api>).\n    'Libraries.io' indexes data from 36 different package managers for \n    programming languages.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "API, api-client, http, librariesio, metadata, package, software, web-services",
-      "github": "https://github.com/ropensci/rbraries",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rbraries",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-12-09 16:59:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -4275,26 +4195,6 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2020-10-12 09:13:52",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
-      "name": "rif",
-      "description": "Client for 'Neuroscience' Information Framework 'APIs'",
-      "details": "Client for 'Neuroscience' Information Framework ('NIF') 'APIs'\n    (<https://neuinfo.org/>; <https://neuinfo.org/about/webservices>).\n    Package includes functions for each 'API' route, and gives back data\n    in tidy data.frame format.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "api-wrapper, metadata, neuroscience",
-      "github": "https://github.com/ropensci/rif",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rif",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-07-17 19:05:02",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5252,7 +5152,7 @@
       "url": "https://github.com/ropensci/stplanr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-10 21:24:29",
+      "date_last_commit": "2020-12-21 18:00:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6279,7 +6179,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropenscilabs/autotest",
-      "date_last_commit": "2020-12-21 10:41:27",
+      "date_last_commit": "2020-12-21 21:39:33",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6999,5 +6899,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2020-12-21 15:10 UTC"
+  "date": "2020-12-21 22:12 UTC"
 }
