@@ -24306,89 +24306,6 @@
   },
   {
     "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "hathi",
-    "description": "An R client for 'HathiTrust' API (<https://www.hathitrust.org>). Only for the bibliographic \n    API for now.",
-    "name": "hathi: An R client for 'HathiTrust' API",
-    "codeRepository": "https://github.com/ropensci/hathi",
-    "issueTracker": "https://github.com/ropensci/hathi/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      }
-    ],
-    "readme": "https://github.com/ropensci/hathi/blob/master/README.md",
-    "fileSize": "5.357KB",
-    "relatedLink": "https://docs.ropensci.org/hathi",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "keywords": ["r", "rstats", "r-package", "hathitrust", "digital-library", "digital-humanities", "ocr", "text-mining"]
-  },
-  {
-    "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
@@ -74766,7 +74683,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "\n    https://github.com/mpadge/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.531",
+    "version": "0.0.1.533",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
