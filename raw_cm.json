@@ -10346,7 +10346,8 @@
     "relatedLink": [
       "https://docs.ropensci.org/cld3",
       "https://github.com/google/cld3",
-      "https://CRAN.R-project.org/package=cld3"
+      "https://CRAN.R-project.org/package=cld3",
+      "https://docs.ropensci.org/cld3/"
     ],
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.4",
@@ -40899,6 +40900,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/plater/blob/master/NEWS.md",
@@ -61615,7 +61628,7 @@
     "codeRepository": "https://github.com/ropensci/spocc",
     "issueTracker": "https://github.com/ropensci/spocc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.8.92",
+    "version": "1.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61675,7 +61688,6 @@
         "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
-        "version": ">= 0.8.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61688,14 +61700,13 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 0.6.0.93",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/vcr"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -61708,7 +61719,6 @@
         "@type": "SoftwareApplication",
         "identifier": "rgbif",
         "name": "rgbif",
-        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61721,7 +61731,6 @@
         "@type": "SoftwareApplication",
         "identifier": "rbison",
         "name": "rbison",
-        "version": ">= 0.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61734,7 +61743,6 @@
         "@type": "SoftwareApplication",
         "identifier": "rebird",
         "name": "rebird",
-        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61747,7 +61755,6 @@
         "@type": "SoftwareApplication",
         "identifier": "rvertnet",
         "name": "rvertnet",
-        "version": ">= 0.7.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61760,7 +61767,6 @@
         "@type": "SoftwareApplication",
         "identifier": "ridigbio",
         "name": "ridigbio",
-        "version": ">= 0.3.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61773,7 +61779,6 @@
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
-        "version": ">= 1.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61786,7 +61791,6 @@
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
-        "version": ">= 0.3.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61799,7 +61803,6 @@
         "@type": "SoftwareApplication",
         "identifier": "whisker",
         "name": "whisker",
-        "version": ">= 0.3-2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61812,7 +61815,6 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61825,7 +61827,6 @@
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
-        "version": ">= 1.9.6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61838,7 +61839,6 @@
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
-        "version": ">= 1.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61863,7 +61863,7 @@
     "contIntegration": "https://codecov.io/github/ropensci/spocc?branch=master",
     "releaseNotes": "https://github.com/ropensci/spocc/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/spocc/blob/master/README.md",
-    "fileSize": "245.11KB",
+    "fileSize": "50118.967KB",
     "funder": [
       {
         "@type": "Organization",
