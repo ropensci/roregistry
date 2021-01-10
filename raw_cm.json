@@ -40754,11 +40754,12 @@
       "https://plotly-r.com",
       "https://github.com/ropensci/plotly#readme",
       "https://plot.ly/r",
-      "https://CRAN.R-project.org/package=plotly"
+      "https://CRAN.R-project.org/package=plotly",
+      "https://plotly.com/r/"
     ],
     "issueTracker": "https://github.com/ropensci/plotly/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.9.2.9000",
+    "version": "4.9.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41159,12 +41160,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "thematic",
-        "name": "thematic",
-        "sameAs": "https://github.com/rstudio/thematic"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "palmerpenguins",
         "name": "palmerpenguins",
         "provider": {
@@ -41311,7 +41306,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ramnathv/htmlwidgets"
+        "sameAs": "https://CRAN.R-project.org/package=htmlwidgets"
       },
       {
         "@type": "SoftwareApplication",
@@ -52367,7 +52362,14 @@
         "@type": "SoftwareApplication",
         "identifier": "knitcitations",
         "name": "knitcitations",
-        "version": ">= 1.0.1"
+        "version": ">= 1.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitcitations"
       },
       {
         "@type": "SoftwareApplication",
@@ -74441,7 +74443,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "\n    https://github.com/mpadge/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.594",
+    "version": "0.0.1.597",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74632,7 +74634,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "233.071KB",
+    "fileSize": "231.117KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
