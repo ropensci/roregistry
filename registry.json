@@ -931,7 +931,7 @@
     {
       "name": "coder",
       "description": "Deterministic Categorization of Items Based on External Code Data",
-      "details": "\n  Fast categorization of items based on external code data identified by \n  regular expressions. A typical use case considers patient with medically coded \n  data, such as codes from the International Classification of Diseases (ICD) or \n  the Anatomic Therapeutic Chemical (ATC) classification system. \n  Functions of the package relies on a triad of objects: (1) case data with unit \n  id:s and possible dates of interest; (2) external code data for corresponding \n  units in (1) and with optional dates of interest and; (3) a classification \n  scheme ('classcodes' object) with regular expressions to identify and \n  categorize relevant codes from (2). \n  It is easy to introduce new classification schemes ('classcodes' objects) or  \n  to use default schemes included in the package. Use cases includes patient \n  categorization based on comorbidity indices such as Charlson, Elixhauser, \n  RxRisk V, or the co-morbidity-polypharmacy score (CPS), as well as adverse \n  events after hip and knee arthroplasty surgery.",
+      "details": "\n  Fast categorization of items based on external code data identified by \n  regular expressions. A typical use case considers patient with medically coded \n  data, such as codes from the International Classification of Diseases ('ICD') or \n  the Anatomic Therapeutic Chemical ('ATC') classification system. \n  Functions of the package relies on a triad of objects: (1) case data with unit \n  id:s and possible dates of interest; (2) external code data for corresponding \n  units in (1) and with optional dates of interest and; (3) a classification \n  scheme ('classcodes' object) with regular expressions to identify and \n  categorize relevant codes from (2). \n  It is easy to introduce new classification schemes ('classcodes' objects) or  \n  to use default schemes included in the package. Use cases includes patient \n  categorization based on 'comorbidity indices' such as 'Charlson', 'Elixhauser', \n  'RxRisk V', or the 'comorbidity-polypharmacy' score (CPS), as well as adverse \n  events after hip and knee replacement surgery.",
       "maintainer": "Erik Bulow",
       "keywords": "classification, icd-10, package",
       "github": "https://github.com/ropensci/coder",
@@ -941,7 +941,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/coder",
-      "date_last_commit": "2020-12-23 22:53:54",
+      "date_last_commit": "2021-01-12 10:54:54",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2401,7 +2401,7 @@
       "url": "https://github.com/ropensci/magick",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2021-01-11 16:08:54",
+      "date_last_commit": "2021-01-12 14:24:05",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -2959,7 +2959,7 @@
       "url": "https://github.com/ropensci/osmdata",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2020-11-25 15:23:49",
+      "date_last_commit": "2021-01-12 11:15:47",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6820,5 +6820,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-01-12 08:28 UTC"
+  "date": "2021-01-12 15:24 UTC"
 }
