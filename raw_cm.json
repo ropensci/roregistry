@@ -20810,7 +20810,7 @@
     "contIntegration": "https://codecov.io/github/ropensci/geojsonio?branch=master",
     "releaseNotes": "https://github.com/ropensci/geojsonio/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/geojsonio/blob/master/README.md",
-    "fileSize": "2782.97KB",
+    "fileSize": "2782.949KB",
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
     "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output", "io", "rstats", "r", "r-package"],
@@ -21978,13 +21978,19 @@
     ],
     "issueTracker": "https://github.com/ropensci/git2rdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -22164,29 +22170,23 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
+    "fileSize": "762.31KB",
     "releaseNotes": "https://github.com/ropensci/git2rdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/git2rdata/blob/master/README.md",
-    "fileSize": "578.382KB",
     "contIntegration": "https://codecov.io/gh/ropensci/git2rdata",
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/263",
+      "provider": "https://ropensci.org"
+    },
     "keywords": [
       "r",
       "rstats",
       "r-package",
       "version-control",
       "reproducible-research"
-    ],
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/263",
-      "provider": "https://ropensci.org"
-    }
+    ]
   },
   {
     "@context": [
@@ -49457,15 +49457,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "duckdb",
-        "name": "duckdb",
+        "identifier": "RSQLite",
+        "name": "RSQLite",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=duckdb"
+        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
       }
     ],
     "contIntegration": "https://codecov.io/github/ropensci/rfishbase?branch=master",
@@ -49679,7 +49679,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.4.2.93",
+    "version": "3.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49961,18 +49961,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "geoaxe",
-        "name": "geoaxe",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=geoaxe"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
         "provider": {
@@ -49985,16 +49973,16 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "wicket",
-        "name": "wicket",
-        "version": ">= 0.4.0",
+        "identifier": "wellknown",
+        "name": "wellknown",
+        "version": ">= 0.7.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=wicket"
+        "sameAs": "https://CRAN.R-project.org/package=wellknown"
       },
       {
         "@type": "SoftwareApplication",
@@ -50036,7 +50024,7 @@
     "contIntegration": "https://codecov.io/github/ropensci/rgbif?branch=master",
     "releaseNotes": "https://github.com/ropensci/rgbif/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rgbif/blob/master/README.md",
-    "fileSize": "7646.314KB",
+    "fileSize": "7649.329KB",
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy", "gbif", "api", "data", "biodiversity", "rstats", "r", "spocc", "r-package", "lifewatch", "oscibio"],
