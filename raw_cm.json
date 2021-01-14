@@ -11515,7 +11515,7 @@
     "codeRepository": "https://github.com/ropensci/coder",
     "issueTracker": "https://github.com/ropensci/coder/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.13.4",
+    "version": "0.13.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24215,11 +24215,12 @@
     "codeRepository": "https://github.com/ropensci/hddtools",
     "relatedLink": [
       "http://docs.ropensci.org/hddtools",
-      "https://CRAN.R-project.org/package=hddtools"
+      "https://CRAN.R-project.org/package=hddtools",
+      "https://docs.ropensci.org/hddtools/"
     ],
     "issueTracker": "https://github.com/ropensci/hddtools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.9.1",
+    "version": "0.9.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24317,18 +24318,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "pkgdown",
-        "name": "pkgdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pkgdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -24461,7 +24450,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/hddtools/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/hddtools/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/hddtools", "https://ci.appveyor.com/project/ropensci/hddtools", "https://codecov.io/github/ropensci/hddtools?branch=master"],
+    "contIntegration": ["https://travis-ci.com/ropensci/hddtools", "https://ci.appveyor.com/project/ropensci/hddtools", "https://codecov.io/github/ropensci/hddtools?branch=master"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/73",
@@ -64054,7 +64043,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tarchetypes/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/tarchetypes/blob/main/README.md",
-    "fileSize": "431.304KB",
+    "fileSize": "431.61KB",
     "contIntegration": "https://codecov.io/gh/ropensci/targets",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
@@ -64558,7 +64547,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/targets/blob/master/NEWS.md",
-    "fileSize": "1050.874KB",
+    "fileSize": "1052.866KB",
     "contIntegration": "https://codecov.io/gh/ropensci/targets",
     "developmentStatus": "https://www.repostatus.org/#active",
     "relatedLink": [
@@ -75206,7 +75195,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "\n    https://github.com/mpadge/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.630",
+    "version": "0.0.1.649",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75397,7 +75386,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "237.359KB",
+    "fileSize": "246.067KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
