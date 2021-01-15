@@ -14374,7 +14374,8 @@
       "r-package",
       "rstats",
       "hvtn",
-      "immunology"
+      "immunology",
+      "cavd-dataspace"
     ],
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "contributor": {},
@@ -21846,7 +21847,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/git2r/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.28.0",
+    "version": "0.28.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49668,7 +49669,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.5.0",
+    "version": "3.5.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65830,7 +65831,7 @@
     "codeRepository": "https://github.com/ropensci/taxizedb",
     "issueTracker": "https://github.com/ropensci/taxizedb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.3.91",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65888,30 +65889,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=taxize"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -66047,7 +66024,7 @@
     "contIntegration": ["https://circleci.com/gh/ropensci/taxizedb", "https://codecov.io/gh/ropensci/taxizedb"],
     "releaseNotes": "https://github.com/ropensci/taxizedb/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/taxizedb/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "138.205KB",
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -72469,7 +72446,7 @@
     "codeRepository": "https://github.com/ropensci/weathercan",
     "issueTracker": "https://github.com/ropensci/weathercan/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.0.9000",
+    "version": "0.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72899,7 +72876,8 @@
       "https://docs.ropensci.org/weathercan/"
     ],
     "copyrightHolder": {},
-    "funder": {}
+    "funder": {},
+    "fileSize": "46512.421KB"
   },
   {
     "@context": [
