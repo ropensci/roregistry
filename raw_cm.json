@@ -59878,6 +59878,12 @@
         "givenName": "Bastian",
         "familyName": "Torges",
         "email": "bastian.torges@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rick",
+        "familyName": "Saporta",
+        "email": "Rick@TheFarmersDog.com"
       }
     ],
     "copyrightHolder": [
@@ -59906,6 +59912,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dtplyr",
+        "name": "dtplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dtplyr"
       },
       {
         "@type": "SoftwareApplication",
@@ -60160,7 +60190,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/skimr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/skimr/blob/master/README.md",
-    "fileSize": "364473.922KB",
+    "fileSize": "18113.9KB",
     "contIntegration": "https://codecov.io/gh/ropensci/skimr",
     "review": {
       "@type": "Review",
@@ -75203,7 +75233,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "\n    https://github.com/mpadge/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.694",
+    "version": "0.0.1.696",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75291,18 +75321,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=cli"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "data.table",
-        "name": "data.table",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=data.table"
       },
       {
         "@type": "SoftwareApplication",
@@ -75394,7 +75412,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "14654.343KB",
+    "fileSize": "265.718KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
