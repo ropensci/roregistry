@@ -11673,7 +11673,7 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "relatedLink": "https://docs.ropensci.org/coder/",
+    "relatedLink": ["https://docs.ropensci.org/coder/", "https://CRAN.R-project.org/package=coder"],
     "provider": {
       "@id": "https://cran.r-project.org",
       "@type": "Organization",
@@ -17833,6 +17833,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=Hmisc"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplus",
+        "name": "ggplus"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/EndoMineR/blob/master/NEWS.md",
@@ -20168,134 +20173,6 @@
         "name": "rOpenSci"
       }
     ]
-  },
-  {
-    "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "geoaxe",
-    "description": "Split 'geospatial' objects into pieces. Includes\n    support for some spatial object inputs, 'Well-Known Text', and\n    'GeoJSON'.",
-    "name": "geoaxe: Split 'Geospatial' Objects into Pieces",
-    "codeRepository": "https://github.com/ropensci/geoaxe",
-    "issueTracker": "https://github.com/ropensci/geoaxe/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Central R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      }
-    ],
-    "contIntegration": "https://codecov.io/github/ropensci/geoaxe?branch=master",
-    "releaseNotes": "https://github.com/ropensci/geoaxe/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/geoaxe/blob/master/README.md",
-    "fileSize": "620.99KB",
-    "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": [
-      "wkt",
-      "geojson",
-      "spatial",
-      "rstats",
-      "r",
-      "r-package"
-    ],
-    "relatedLink": "https://docs.ropensci.org/geoaxe/",
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {}
   },
   {
     "@context": [
@@ -63871,7 +63748,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "tarchetypes",
-    "description": "The 'targets' package is a pipeline toolkit that brings together\n  function-oriented programming and Make-like declarative workflows for\n  Statistics and data science in R. The 'tarchetypes' package provides\n  convenient user-side functions to make 'targets' easier to use.\n  By establishing reusable archetypes for common kinds of\n  targets and pipelines, these functions help express complicated\n  reproducible workflows concisely and compactly.\n  The methods in this package were influenced by the 'drake' R package\n  by Will Landau (2018) <doi:10.21105/joss.00550>.",
+    "description": "Function-oriented Make-like declarative workflows for\n  Statistics and data science are supported in the 'targets' R package.\n  As an extension to 'targets', the 'tarchetypes' package provides\n  convenient user-side functions to make 'targets' easier to use.\n  By establishing reusable archetypes for common kinds of\n  targets and pipelines, these functions help express complicated\n  reproducible workflows concisely and compactly.\n  The methods in this package were influenced by the 'drake' R package\n  by Will Landau (2018) <doi:10.21105/joss.00550>.",
     "name": "tarchetypes: Archetypes for Targets",
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "relatedLink": [
@@ -63952,6 +63829,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "version": ">= 3.0.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
@@ -64116,7 +64006,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2",
+    "version": "0.0.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
