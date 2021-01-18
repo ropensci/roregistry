@@ -11509,7 +11509,7 @@
     "codeRepository": "https://github.com/ropensci/coder",
     "issueTracker": "https://github.com/ropensci/coder/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.13.5",
+    "version": "0.13.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11673,7 +11673,13 @@
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
-    "relatedLink": "https://docs.ropensci.org/coder/"
+    "relatedLink": "https://docs.ropensci.org/coder/",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -64105,12 +64111,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "targets",
-    "description": "The 'targets' package is a pipeline toolkit that brings together\n  function-oriented programming and 'Make'-like declarative workflows for\n  Statistics and data science in R. It implements a workflow as collection of\n  interconnected tasks, analyzes the dependency relationships among these\n  tasks, skips steps that are already up to date, runs the necessary\n  computation with optional parallel workers, abstracts files as\n  R objects, and provides tangible evidence that the results match\n  the underlying code and data. The methodology in this package\n  borrows from GNU 'Make' (2015, ISBN:978-9881443519)\n  and 'drake' (2018, <doi:10.21105/joss.00550>).",
+    "description": "As a pipeline toolkit for Statistics and data science in R,\n  the 'targets' package brings together function-oriented programming and\n  'Make'-like declarative workflows.\n  It analyzes the dependency relationships among the tasks of a workflow,\n  skips steps that are already up to date, runs the necessary\n  computation with optional parallel workers, abstracts files as\n  R objects, and provides tangible evidence that the results match\n  the underlying code and data. The methodology in this package\n  borrows from GNU 'Make' (2015, ISBN:978-9881443519)\n  and 'drake' (2018, <doi:10.21105/joss.00550>).",
     "name": "targets: Dynamic Function-Oriented 'Make'-Like Declarative Workflows",
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9000",
+    "version": "0.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75233,7 +75239,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "\n    https://github.com/mpadge/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.705",
+    "version": "0.0.1.724",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
