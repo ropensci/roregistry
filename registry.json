@@ -889,26 +889,6 @@
       "staff_maintained": false
     },
     {
-      "name": "clock",
-      "description": "Time Classes",
-      "details": "Time classes, with hooks for mocking time.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "mock-time, time-mock",
-      "github": "https://github.com/ropensci/clock",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/clock",
-      "ropensci_category": "scalereprod",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-11-02 19:41:49",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "codemetar",
       "description": "Generate 'CodeMeta' Metadata for R Packages",
       "details": "The 'Codemeta' Project defines a 'JSON-LD' format\n    for describing software metadata, as detailed at\n    <https://codemeta.github.io>. This package provides utilities to\n    generate, parse, and modify 'codemeta.json' files automatically for R\n    packages, as well as tools and examples for working with\n    'codemeta.json' 'JSON-LD' more generally.",
@@ -3165,6 +3145,24 @@
       "staff_maintained": true
     },
     {
+      "name": "pendulum",
+      "description": "Time Classes",
+      "details": "Time classes, with hooks for mocking time.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "mock-time, time-mock",
+      "github": "https://github.com/ropensci/pendulum",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/pendulum",
+      "date_last_commit": "2021-01-19 18:42:08",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "phonfieldwork",
       "description": "Linguistic Phonetic Fieldwork Tools",
       "details": "There are a lot of different typical tasks that have to be solved during phonetic research and experiments. This includes creating a presentation that will contain all stimuli, renaming and concatenating multiple sound files recorded during a session, automatic annotation in 'Praat' TextGrids (this is one of the sound annotation standards provided by 'Praat' software, see Boersma & Weenink 2020 <https://www.fon.hum.uva.nl/praat/>), creating an html table with annotations and spectrograms, and converting multiple formats ('Praat' TextGrid, 'ELAN', 'EXMARaLDA', 'Audacity', subtitles '.srt', and 'FLEx' flextext). All of these tasks can be solved by a mixture of different tools (any programming language has programs for automatic renaming, and Praat contains scripts for concatenating and renaming files, etc.). 'phonfieldwork' provides a functionality that will make it easier to solve those tasks independently of any additional tools. You can also compare the functionality with other packages: 'rPraat' <https://CRAN.R-project.org/package=rPraat>, 'textgRid' <https://CRAN.R-project.org/package=textgRid>.",
@@ -4333,7 +4331,7 @@
       "url": "https://github.com/ropensci/roadoi",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2020-07-18 10:45:40",
+      "date_last_commit": "2021-01-19 16:48:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5487,7 +5485,7 @@
       "url": "https://github.com/ropensci/timefuzz",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2020-09-17 16:45:26",
+      "date_last_commit": "2021-01-19 18:43:05",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5687,7 +5685,7 @@
       "url": "https://github.com/ropensci/UCSCXenaTools",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-14 08:44:20",
+      "date_last_commit": "2021-01-19 16:02:24",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6838,5 +6836,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-01-19 15:29 UTC"
+  "date": "2021-01-19 19:44 UTC"
 }
