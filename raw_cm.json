@@ -53374,9 +53374,9 @@
     "description": "This web client interfaces Unpaywall <https://unpaywall.org/products/api>, formerly\n    oaDOI, a service finding free full-texts of academic papers by linking DOIs with \n    open access journals and repositories. It provides unified access to various data sources \n    for open access full-text links including Crossref and the Directory of Open Access \n    Journals (DOAJ). API usage is free and no registration is required.",
     "name": "roadoi: Find Free Versions of Scholarly Publications via Unpaywall",
     "codeRepository": "https://github.com/ropensci/roadoi",
-    "issueTracker": "https://github.com/ropensci/roadoi/issues",
+    "issueTracker": "https://github.com/ropensci/roadoi/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.9",
+    "version": "0.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53397,7 +53397,19 @@
         "email": "najko.jahn@gmail.com"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Anne",
+        "familyName": "Hobert",
+        "@id": "https://orcid.org/0000-0003-2429-2995"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Delwen",
+        "familyName": "Franzen"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -53604,6 +53616,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/roadoi/blob/master/NEWS",
@@ -53623,9 +53647,10 @@
       "altmetrics",
       "rstats",
       "r-package",
-      "peer-reviewed"
+      "peer-reviewed",
+      "unpaywall"
     ],
-    "relatedLink": "https://docs.ropensci.org/roadoi"
+    "relatedLink": "https://docs.ropensci.org/roadoi/"
   },
   {
     "@context": [
