@@ -7647,7 +7647,7 @@
     "codeRepository": "https://github.com/ropensci/c14bazAAR",
     "issueTracker": "https://github.com/ropensci/c14bazAAR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.2.0.9000",
+    "version": "1.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53385,7 +53385,7 @@
     "codeRepository": "https://github.com/ropensci/roadoi",
     "issueTracker": "https://github.com/ropensci/roadoi/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7",
+    "version": "0.7.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63932,6 +63932,12 @@
         "identifier": "targets",
         "name": "targets",
         "version": ">= 0.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/ropensci/targets"
       },
       {
@@ -64529,6 +64535,12 @@
       "r-targetopia",
       "peer-reviewed"
     ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "citation": [
       {
         "@type": "ScholarlyArticle",
