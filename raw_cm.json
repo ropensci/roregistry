@@ -747,7 +747,7 @@
     ],
     "issueTracker": "https://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.9000",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3155,7 +3155,7 @@
     "codeRepository": "https://github.com/ropensci/assertr",
     "issueTracker": "https://github.com/ropensci/assertr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.7",
+    "version": "2.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3220,6 +3220,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": [
@@ -3302,7 +3314,7 @@
     "releaseNotes": "https://github.com/ropensci/assertr/blob/master/NEWS",
     "readme": "https://github.com/ropensci/assertr/blob/master/README.md",
     "fileSize": "95.466KB",
-    "relatedLink": ["https://docs.ropensci.org/assertr", "https://CRAN.R-project.org/package=assertr"],
+    "relatedLink": ["https://docs.ropensci.org/assertr/", "https://CRAN.R-project.org/package=assertr"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -21313,10 +21325,10 @@
     "description": "A 'GraphQL' client, with an R6 interface for initializing\n    a connection to a 'GraphQL' instance, and methods for constructing\n    queries, including fragments and parameterized queries. Queries\n    are checked with the 'libgraphqlparser' C++ parser via the\n    'gaphql' package.",
     "name": "ghql: General Purpose 'GraphQL' Client",
     "codeRepository": "https://github.com/ropensci/ghql",
-    "relatedLink": "https://docs.ropensci.org/ghql",
+    "relatedLink": ["https://docs.ropensci.org/ghql", "https://docs.ropensci.org/ghql/"],
     "issueTracker": "https://github.com/ropensci/ghql/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.91",
+    "version": "0.1.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47148,7 +47160,7 @@
     "codeRepository": "https://github.com/ropensci/rebird",
     "issueTracker": "http://github.com/ropensci/rebird/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50156,7 +50168,7 @@
     "relatedLink": "https://ropensci.github.io/rgnparser/",
     "issueTracker": "https://github.com/ropensci/rgnparser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5.91",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50248,7 +50260,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rgnparser/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rgnparser/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "22.428KB",
     "keywords": [
       "r",
       "rstats",
