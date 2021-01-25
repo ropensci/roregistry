@@ -81373,6 +81373,111 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "rssr",
+    "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
+    "name": "rssr: 'rOpenSci' Statistical Software Review",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.38",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark@ropensci.org",
+        "@id": "https://orcid.org/0000-0003-2172-5265"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark@ropensci.org",
+        "@id": "https://orcid.org/0000-0003-2172-5265"
+      }
+    ],
+    "softwareSuggestions": [],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "clipr",
+        "name": "clipr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=clipr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "here",
+        "name": "here",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=here"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "roxygen2",
+        "name": "roxygen2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
+      }
+    ],
+    "codeRepository": "https://github.com/ropenscilabs/rssr",
+    "readme": "https://github.com/ropenscilabs/statistical-software-review/blob/master/README.md",
+    "fileSize": "826.082KB"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "snowball",
     "description": "Spin up a head node, which spins up worker nodes, and performs parallel calculations",
     "name": "snowball: Spin up a managed cluster and perform parallel calculations",
