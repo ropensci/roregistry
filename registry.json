@@ -58,7 +58,7 @@
     {
       "name": "gert",
       "description": "Simple Git Client for R",
-      "details": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent. On Linux, a somewhat recent version of 'libgit2'\n    is required; we provide a 'PPA' for older Ubuntu 'LTS' versions. ",
+      "details": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent.",
       "maintainer": "Jeroen Ooms",
       "keywords": "",
       "github": "https://github.com/r-lib/gert",
@@ -70,7 +70,7 @@
       "url": "https://github.com/r-lib/gert",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-01-25 18:13:22",
+      "date_last_commit": "2021-01-29 08:40:45",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -1823,7 +1823,7 @@
       "ropenscilabs": false,
       "date_last_commit": "2021-01-27 13:09:36",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -2699,7 +2699,7 @@
       "url": "https://github.com/ropensci/nlrx",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-01-08 13:58:32",
+      "date_last_commit": "2021-01-29 14:43:25",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3280,7 +3280,7 @@
     },
     {
       "name": "pixelclasser",
-      "description": "A Package for Classifying Pixels by Colour",
+      "description": "Classifies Image Pixels by Colour",
       "details": "Contains functions to classify the pixels of an image file\n    (jpeg or tiff) by its colour. It implements a simple form of the techniques \n    known as Support Vector Machine adapted to this particular problem.",
       "maintainer": "Carlos Real",
       "keywords": "",
@@ -3291,7 +3291,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/pixelclasser",
-      "date_last_commit": "2021-01-27 12:11:04",
+      "date_last_commit": "2021-01-29 09:41:25",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6890,5 +6890,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-01-29 08:14 UTC"
+  "date": "2021-01-29 15:11 UTC"
 }
