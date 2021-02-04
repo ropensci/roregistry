@@ -17333,7 +17333,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "EndoMineR",
     "description": "This script comprises the functions that are used to clean up endoscopic \n             reports and pathology reports as well as many of the scripts used for analysis.  \n             The scripts assume the endoscopy and histopathology data set is merged already but it can \n             also be used of course with the unmerged datasets.",
@@ -17775,7 +17778,16 @@
       "url": "https://github.com/ropensci/software-review/issues/153",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "endoscopy", "gastroenterology", "semi-structured-data", "text-mining", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "rstats",
+      "endoscopy",
+      "gastroenterology",
+      "semi-structured-data",
+      "text-mining",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
