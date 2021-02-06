@@ -5264,12 +5264,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "bikedata",
-    "description": "Download and aggregate data from all public hire bicycle systems\n    which provide open data, currently including 'Santander' Cycles in London,\n    U.K.; from the U.S.A., 'Ford GoBike' in San Francisco CA, 'citibike' in New\n    York City NY, 'Divvy' in Chicago IL, 'Capital Bikeshare' in Washington DC,\n    'Hubway' in Boston MA, 'Metro' in Los Angeles LA, 'Indego' in Philadelphia\n    PA, and 'Nice Ride' in Minnesota; 'Bixi' from Montreal, Canada; and 'mibici'\n    from Guadalajara, Mexico.",
-    "name": "bikedata: Download and Aggregate Data from Public Hire Bicycle Systems",
+    "description": "Download and aggregate data from all public hire\n    bicycle systems which provide open data, currently including\n    'Santander' Cycles in London, U.K.; from the U.S.A., 'Ford GoBike' in\n    San Francisco CA, 'citibike' in New York City NY, 'Divvy' in Chicago\n    IL, 'Capital Bikeshare' in Washington DC, 'Hubway' in Boston MA,\n    'Metro' in Los Angeles LA, 'Indego' in Philadelphia PA, and 'Nice\n    Ride' in Minnesota; 'Bixi' from Montreal, Canada; and 'mibici' from\n    Guadalajara, Mexico.",
+    "name": "bikedata: Download and Aggregate Data from Public Hire Bicycle\n    Systems",
     "codeRepository": "https://github.com/ropensci/bikedata",
     "issueTracker": "https://github.com/ropensci/bikedata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.5",
+    "version": "0.2.5.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5361,18 +5361,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -5382,18 +5370,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
@@ -5482,18 +5458,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "RSQLite",
-        "name": "RSQLite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "reshape2",
         "name": "reshape2",
         "provider": {
@@ -5503,6 +5467,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=reshape2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RSQLite",
+        "name": "RSQLite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
       },
       {
         "@type": "SoftwareApplication",
@@ -5536,11 +5512,11 @@
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
     "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data", "r", "rstats", "r-package", "peer-reviewed"],
-    "contIntegration": ["https://travis-ci.org/ropensci/bikedata?branch=master", "https://ci.appveyor.com/project/ropensci/bikedata", "https://codecov.io/gh/ropensci/bikedata"],
+    "contIntegration": "https://codecov.io/gh/ropensci/bikedata",
     "developmentStatus": "http://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/bikedata/blob/master/README.md",
-    "fileSize": "2945.533KB",
+    "fileSize": "16415.95KB",
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -36214,7 +36190,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.4.33",
+    "version": "0.1.4.34",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36315,18 +36291,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -36336,18 +36300,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "pkgdown",
-        "name": "pkgdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pkgdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -36372,18 +36324,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
       },
       {
         "@type": "SoftwareApplication",
