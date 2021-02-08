@@ -81437,7 +81437,7 @@
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
     "name": "rssr: 'rOpenSci' Statistical Software Review",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.115",
+    "version": "0.0.0.120",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81466,6 +81466,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "testthat",
@@ -81556,7 +81568,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/rssr",
     "readme": "https://github.com/ropenscilabs/rssr/blob/master/README.md",
-    "fileSize": "2543.439KB",
+    "fileSize": "4733.908KB",
     "issueTracker": "https://github.com/ropenscilabs/rssr/issues",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/rssr",
     "developmentStatus": "https://www.repostatus.org/#concept"
