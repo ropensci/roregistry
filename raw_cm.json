@@ -30077,6 +30077,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/medrxivr/blob/master/NEWS.md",
@@ -81438,7 +81450,7 @@
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
     "name": "rssr: 'rOpenSci' Statistical Software Review",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.123",
+    "version": "0.0.0.125",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
