@@ -81446,11 +81446,11 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "rssr",
+    "identifier": "rrr",
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
-    "name": "rssr: 'rOpenSci' Statistical Software Review",
+    "name": "rrr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.126",
+    "version": "0.0.0.145",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81603,12 +81603,18 @@
         "sameAs": "https://CRAN.R-project.org/package=roxygen2"
       }
     ],
-    "codeRepository": "https://github.com/ropenscilabs/rssr",
-    "readme": "https://github.com/ropenscilabs/rssr/blob/master/README.md",
-    "fileSize": "4018.662KB",
-    "issueTracker": "https://github.com/ropenscilabs/rssr/issues",
-    "contIntegration": "https://codecov.io/gh/ropenscilabs/rssr",
-    "developmentStatus": "https://www.repostatus.org/#concept"
+    "codeRepository": "https://github.com/ropenscilabs/rrr",
+    "readme": "https://github.com/ropenscilabs/rrr/blob/master/README.md",
+    "fileSize": "2567.252KB",
+    "issueTracker": "https://github.com/ropenscilabs/rrr/issues",
+    "contIntegration": "https://codecov.io/gh/ropenscilabs/rrr",
+    "developmentStatus": "https://www.repostatus.org/#concept",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
