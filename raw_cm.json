@@ -19749,7 +19749,7 @@
     "codeRepository": "https://github.com/ropensci/fulltext",
     "issueTracker": "https://github.com/ropensci/fulltext/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.0",
+    "version": "1.7.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24236,11 +24236,11 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "helminthR",
-    "description": "Access to large host-parasite data is often hampered by the \n  availability of data and difficulty in obtaining it in a programmatic way\n  to encourage analyses. 'helminthR' provides a programmatic interface to the \n  London Natural History Museum's host-parasite database, one of the largest \n  host-parasite databases existing currently <http://www.nhm.ac.uk/research-curation/scientific-resources/taxonomy-systematics/host-parasites/>. The package allows the user\n  to query by host species, parasite species, and geographic location.",
+    "description": "Access to large host-parasite data is often hampered by the \n  availability of data and difficulty in obtaining it in a programmatic way\n  to encourage analyses. 'helminthR' provides a programmatic interface to the \n  London Natural History Museum's host-parasite database, one of the largest \n  host-parasite databases existing currently <https://www.nhm.ac.uk/research-curation/scientific-resources/taxonomy-systematics/host-parasites/>. The package allows the user\n  to query by host species, parasite species, and geographic location.",
     "name": "helminthR: Access London Natural History Museum Host-Helminth Record Database",
     "codeRepository": "https://github.com/ropensci/helminthR",
-    "relatedLink": "https://docs.ropensci.org/helminthR",
-    "issueTracker": "https://github.com/rOpenSci/helminthR/issues",
+    "relatedLink": ["https://docs.ropensci.org/helminthR", "https://docs.ropensci.org/helminthR/"],
+    "issueTracker": "https://github.com/rOpenSci/helminthR/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.0.8",
     "programmingLanguage": {
@@ -45933,7 +45933,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rdefra",
-    "description": "Get data from DEFRA's UK-AIR website <https://uk-air.defra.gov.uk/>. It basically scrapes the HTML content.",
+    "description": "Retrieve air pollution data from the Air Information Resource \n  (UK-AIR, <https://uk-air.defra.gov.uk/>) of the Department for Environment, \n  Food and Rural Affairs (DEFRA) in the United Kingdom. UK-AIR does not provide \n  a public API for programmatic access to data, therefore this package scrapes \n  the HTML pages to get relevant information. The package is descibed in Vitolo \n  et al. (2016) \"rdefra: Interact with the UK AIR Pollution Database from DEFRA\"\n  <doi:10.21105/joss.00051>",
     "name": "rdefra: Interact with the UK AIR Pollution Database from DEFRA",
     "codeRepository": "https://github.com/ropensci/rdefra",
     "relatedLink": [
@@ -75334,7 +75334,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.760",
+    "version": "0.0.1.762",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
