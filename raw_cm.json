@@ -14189,6 +14189,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -14237,7 +14249,6 @@
     ],
     "releaseNotes": "https://github.com/ropensci/dbhydroR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/dbhydroR/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropensci/dbhydroR",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -16093,7 +16104,7 @@
         "@type": "Person",
         "givenName": "Matthew",
         "familyName": "Leonawicz",
-        "email": "mfleonawicz@esource.com",
+        "email": "mfleonawicz@gmail.com",
         "@id": "https://orcid.org/0000-0001-9452-2771"
       }
     ],
@@ -16105,7 +16116,7 @@
         "@type": "Person",
         "givenName": "Matthew",
         "familyName": "Leonawicz",
-        "email": "mfleonawicz@esource.com",
+        "email": "mfleonawicz@gmail.com",
         "@id": "https://orcid.org/0000-0001-9452-2771"
       }
     ],
@@ -16295,7 +16306,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/eia/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/eia/blob/master/README.md",
-    "fileSize": "1231.106KB",
+    "fileSize": "1227.97KB",
     "contIntegration": ["https://travis-ci.org/ropensci/eia", "https://ci.appveyor.com/project/leonawicz/eia", "https://codecov.io/gh/ropensci/eia?branch=master"],
     "keywords": [
       "eia-api",
@@ -68607,7 +68618,7 @@
         "@type": "Person",
         "givenName": "Matthew",
         "familyName": "Leonawicz",
-        "email": "mafleonawicz@gmail.com",
+        "email": "mfleonawicz@gmail.com",
         "@id": "https://orcid.org/0000-0001-9452-2771"
       }
     ],
@@ -68616,7 +68627,7 @@
         "@type": "Person",
         "givenName": "Matthew",
         "familyName": "Leonawicz",
-        "email": "mafleonawicz@gmail.com",
+        "email": "mfleonawicz@gmail.com",
         "@id": "https://orcid.org/0000-0001-9452-2771"
       }
     ],
@@ -68770,11 +68781,12 @@
     ],
     "releaseNotes": "https://github.com/ropensci/tiler/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/tiler/blob/master/README.md",
-    "fileSize": "5403.845KB",
+    "fileSize": "5403.901KB",
     "contIntegration": ["https://travis-ci.org/ropensci/tiler", "https://ci.appveyor.com/project/leonawicz/tiler", "https://codecov.io/gh/ropensci/tiler?branch=master"],
     "relatedLink": [
       "https://CRAN.R-project.org/package=tiler",
-      "https://docs.ropensci.org/tiler"
+      "https://docs.ropensci.org/tiler",
+      "https://docs.ropensci.org/tiler/"
     ],
     "review": {
       "@type": "Review",
@@ -81762,7 +81774,7 @@
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.153",
+    "version": "0.0.0.155",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
