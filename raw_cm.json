@@ -27858,7 +27858,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27880,7 +27880,20 @@
         "@id": "https://orcid.org/0000-0003-1990-6083"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Kirill",
+        "familyName": "Koncha",
+        "email": "majortomblog@gmail.com",
+        "@id": "https://orcid.org/0000-0003-0676-2658"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mikhail",
+        "familyName": "Leonov"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -28059,6 +28072,18 @@
         "@type": "SoftwareApplication",
         "identifier": "grDevices",
         "name": "grDevices"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/lingtypology/blob/master/NEWS",
