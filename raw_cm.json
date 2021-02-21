@@ -14122,7 +14122,7 @@
     "description": "Client for programmatic access to the South Florida Water\n  Management District's 'DBHYDRO' database at \n  <https://www.sfwmd.gov/science-data/dbhydro>, with functions\n  for accessing hydrologic and water quality data. ",
     "name": "dbhydroR: 'DBHYDRO' Hydrologic and Water Quality Data",
     "codeRepository": "https://github.com/ropensci/dbhydroR",
-    "relatedLink": "https://docs.ropensci.org/dbhydroR/",
+    "relatedLink": ["https://docs.ropensci.org/dbhydroR/", "https://CRAN.R-project.org/package=dbhydroR"],
     "issueTracker": "https://github.com/ropensci/dbhydroR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.2.8",
@@ -14280,7 +14280,13 @@
         "name": "dbhydroR: Everglades Hydrologic and Water Quality Data from R",
         "url": "https://github.com/ropensci/dbhydroR"
       }
-    ]
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -57733,7 +57739,15 @@
         "@id": "https://orcid.org/0000-0002-0730-4694"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Jonathan",
+        "familyName": "Sidi",
+        "email": "yonicd@gmail.com",
+        "@id": "https://orcid.org/0000-0002-4222-1819"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -75483,7 +75497,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.801",
+    "version": "0.0.1.802",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75758,7 +75772,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "2077.793KB",
+    "fileSize": "2080.732KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/master/README.md"
