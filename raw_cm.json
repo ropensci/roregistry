@@ -40514,7 +40514,12 @@
     ],
     "fileSize": "1534.722KB",
     "developmentStatus": "https://www.repostatus.org/#active",
-    "readme": "https://github.com/ropensci/pixelclasser/blob/main/README.md"
+    "readme": "https://github.com/ropensci/pixelclasser/blob/main/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/406",
+      "provider": "https://ropensci.org"
+    }
   },
   {
     "@context": [
@@ -57977,7 +57982,7 @@
     "releaseNotes": "https://github.com/ropensci/rtweet/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rtweet/blob/master/README.md",
     "fileSize": "3803.895KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/rtweet", "https://codecov.io/gh/ropensci/rtweet?branch=master"],
+    "contIntegration": "https://codecov.io/gh/ropensci/rtweet?branch=master",
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "citation": [
       {
@@ -58009,7 +58014,7 @@
         }
       }
     ],
-    "relatedLink": "https://CRAN.R-project.org/package=rtweet",
+    "relatedLink": ["https://docs.ropensci.org/rtweet", "https://CRAN.R-project.org/package=rtweet"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/302",
@@ -66454,8 +66459,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "terrainr",
-    "description": "Functions for the retrieval, manipulation, and visualization of \n    'geospatial' data, with an aim towards producing '3D' landscape \n    visualizations in the Unity '3D' rendering engine. Functions are also \n    provided for retrieving elevation data and base map tiles from the 'USGS' \n    National Map ('<https://apps.nationalmap.gov/services/>').",
-    "name": "terrainr: Landscape Visualizations in R and Unity",
+    "description": "Functions for the retrieval, manipulation, and visualization of \n    'geospatial' data, with an aim towards producing '3D' landscape \n    visualizations in the 'Unity' '3D' rendering engine. Functions are also \n    provided for retrieving elevation data and base map tiles from the 'USGS' \n    National Map ('<https://apps.nationalmap.gov/services/>').",
+    "name": "terrainr: Landscape Visualizations in R and 'Unity'",
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -66720,7 +66725,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/terrainr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/terrainr/blob/main/README.md",
-    "fileSize": "3115.541KB",
+    "fileSize": "3116.707KB",
     "contIntegration": "https://codecov.io/gh/ropensci/terrainr",
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
     "keywords": [
@@ -81816,7 +81821,7 @@
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.156",
+    "version": "0.0.0.163",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
