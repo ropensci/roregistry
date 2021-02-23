@@ -77777,7 +77777,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "gendercodeR",
-    "description": "gendercodeR allows for simple recoding of freetext gender responses.",
+    "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
     "name": "gendercodeR: Recodes Sex/Gender Descriptions Into A Standard Set",
     "codeRepository": "https://github.com/ropenscilabs/gendercodeR",
     "issueTracker": "https://github.com/ropenscilabs/gendercoder/issues",
@@ -77899,6 +77899,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "readme": "https://github.com/ropenscilabs/gendercodeR/blob/master/README.md",
@@ -77908,7 +77920,8 @@
       "r",
       "r-package",
       "rstats"
-    ]
+    ],
+    "developmentStatus": ["https://www.tidyverse.org/lifecycle/#experimental", "https://www.repostatus.org/#active"]
   },
   {
     "@context": [
