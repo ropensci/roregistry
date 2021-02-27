@@ -57945,6 +57945,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
         "version": ">= 1.5",
@@ -58052,7 +58064,7 @@
       "url": "https://github.com/ropensci/software-review/issues/302",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["rtweet", "r-rtweet", "r-twitter", "twitter", "twitter-api", "stream-api", "rest-api", "cran", "tweets", "r-package", "r", "mkearney-r-package"]
+    "keywords": ["twitter", "r"]
   },
   {
     "@context": [
