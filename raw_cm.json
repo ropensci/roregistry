@@ -2689,7 +2689,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2922,6 +2922,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=utf8"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "MonetDBLite",
+        "name": "MonetDBLite"
       }
     ],
     "softwareRequirements": [
@@ -71580,7 +71585,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.3.91",
+    "version": "0.6.3.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71814,6 +71819,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=base64enc"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "here",
+        "name": "here",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=here"
       },
       {
         "@type": "SoftwareApplication",
@@ -81959,7 +81976,7 @@
     "description": "Companion package to 'rOpenSci' statistical\n    software review project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.5",
+    "version": "0.0.1.12",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -82138,7 +82155,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/srr",
     "readme": "https://github.com/ropenscilabs/srr/blob/main/README.md",
-    "fileSize": "4799.144KB",
+    "fileSize": "2578.601KB",
     "issueTracker": "https://github.com/ropenscilabs/srr/issues",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/srr",
     "developmentStatus": "https://www.repostatus.org/#concept",
