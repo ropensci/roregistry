@@ -65161,6 +65161,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crayon",
+        "name": "crayon",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crayon"
       }
     ],
     "softwareRequirements": [
@@ -65198,14 +65210,14 @@
         "@type": "SoftwareApplication",
         "identifier": "arkdb",
         "name": "arkdb",
-        "version": ">= 0.0.6",
+        "version": "> 0.0.10",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=arkdb"
+        "sameAs": "https://github.com/ropensci/arkdb"
       },
       {
         "@type": "SoftwareApplication",
