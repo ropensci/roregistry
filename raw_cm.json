@@ -7795,7 +7795,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "dataverse",
-        "name": "dataverse"
+        "name": "dataverse",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dataverse"
       },
       {
         "@type": "SoftwareApplication",
@@ -57955,6 +57962,7 @@
         "@type": "SoftwareApplication",
         "identifier": "lifecycle",
         "name": "lifecycle",
+        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -80541,7 +80549,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.15",
+    "version": "0.0.1.21",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80710,7 +80718,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgreport/blob/master/README.md",
-    "fileSize": "687.233KB",
+    "fileSize": "42.206KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
