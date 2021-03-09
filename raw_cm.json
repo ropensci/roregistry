@@ -58618,7 +58618,7 @@
     "applicationCategory": "DataAccess",
     "keywords": ["database", "open-data", "opendatakit", "odk", "api", "data", "dataset", "odata", "odata-client", "r"],
     "readme": "https://github.com/ropensci/ruODK/blob/main/README.md",
-    "fileSize": "6841.247KB",
+    "fileSize": "12320.544KB",
     "citation": [
       {
         "@type": "CreativeWork",
@@ -70943,7 +70943,7 @@
     "codeRepository": "https://github.com/ropensci/UCSCXenaTools",
     "issueTracker": "https://github.com/ropensci/UCSCXenaTools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -77939,15 +77939,12 @@
     ]
   },
   {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
     "@type": "SoftwareSourceCode",
-    "identifier": "gendercodeR",
+    "identifier": "gendercoder",
     "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
-    "name": "gendercodeR: Recodes Sex/Gender Descriptions Into A Standard Set",
-    "codeRepository": "https://github.com/ropenscilabs/gendercodeR",
+    "name": "gendercoder: Recodes Sex/Gender Descriptions Into A Standard Set",
+    "codeRepository": "https://github.com/ropenscilabs/gendercoder",
     "issueTracker": "https://github.com/ropenscilabs/gendercoder/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.0.9000",
@@ -78081,15 +78078,9 @@
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
-    "readme": "https://github.com/ropenscilabs/gendercodeR/blob/master/README.md",
-    "keywords": [
-      "ozunconf18",
-      "unconf",
-      "r",
-      "r-package",
-      "rstats"
-    ],
-    "developmentStatus": ["https://www.tidyverse.org/lifecycle/#experimental", "https://www.repostatus.org/#active"]
+    "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md",
+    "developmentStatus": ["https://www.tidyverse.org/lifecycle/#experimental", "https://www.repostatus.org/#active"],
+    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats", "gender-diversity"]
   },
   {
     "@context": [
