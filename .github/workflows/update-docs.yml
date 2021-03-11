@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      gh-pages
+      
+name: Update docs server
+
+jobs:
+  docs:
+    name: Update docs server
+    runs-on: ubuntu-20.04
+    container: runiverse/base
+    steps:
+      - name: Prepare some tools
+        run: |
+          git config --global user.name "rOpenSci"
+          git config --global user.email "info@ropensci.org"
+          R -e 'install.packages("remotes")'
+          R -e 'remotes::install_github("jeroen/betty")'
+
+      - name: Update Jenkins
+        run: R -e 'betty::sync_ropensci_jenkins()'
+        env:
+          JENKINS_PAT: ${{ secrets.JENKINS_PAT }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update docs server
+        run: R -e 'betty::sync_ropensci_docs()'
+        env:
+          GITHUB_PAT: ${{ secrets.GHPAT }}
