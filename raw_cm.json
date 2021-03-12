@@ -38955,6 +38955,325 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "pathviewr",
+    "description": "Tools to import, clean, and visualize movement data,\n    particularly from motion capture systems such as Optitrack's \n    Motive, the Straw Lab's Flydra, or from other sources. We provide \n    functions to remove artifacts, standardize tunnel position and tunnel \n    axes, select a region of interest, isolate specific trajectories, fill\n    gaps in trajectory data, and calculate 3D and per-axis velocity. For \n    experiments of visual guidance, we also provide functions that use \n    subject position to estimate perception of visual stimuli. ",
+    "name": "pathviewr: Wrangle, Analyze, and Visualize Animal Movement Data",
+    "codeRepository": "https://github.com/ropensci/pathviewr",
+    "issueTracker": "https://github.com/ropensci/pathviewr/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "1.0.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.4 (2021-02-15)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Vikram B.",
+        "familyName": "Baliga",
+        "email": "vbaliga87@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9367-8974"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Melissa S.",
+        "familyName": "Armstrong",
+        "email": "melissa.armstrong@gmail.com",
+        "@id": "https://orcid.org/0000-0002-3059-0094"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eric R.",
+        "familyName": "Press",
+        "email": "epress12@gmail.com",
+        "@id": "https://orcid.org/0000-0002-1944-3755"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Vikram B.",
+        "familyName": "Baliga",
+        "email": "vbaliga87@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9367-8974"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R.matlab",
+        "name": "R.matlab",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.matlab"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "version": ">= 1.12.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "version": ">= 1.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "version": ">= 1.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "version": ">= 3.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "version": ">= 1.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "fANCOVA",
+        "name": "fANCOVA",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fANCOVA"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "version": ">= 0.3.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "version": ">= 3.3.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyselect",
+        "name": "tidyselect",
+        "version": ">= 1.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyselect"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cowplot",
+        "name": "cowplot",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cowplot"
+      }
+    ],
+    "readme": "https://github.com/ropensci/pathviewr/blob/master/README.md",
+    "fileSize": "11561.812KB",
+    "contIntegration": "https://codecov.io/gh/ropensci/pathviewr?branch=master",
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Vikram B.",
+            "familyName": "Baliga",
+            "@id": "https://orcid.org/0000-0002-9367-8974"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Melissa S.",
+            "familyName": "Armstrong",
+            "@id": "https://orcid.org/0000-0002-3059-0094"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Eric R.",
+            "familyName": "Press",
+            "@id": "https://orcid.org/0000-0002-1944-3755"
+          }
+        ],
+        "name": "pathviewR: Tools to import, clean, and visualize animal movement data in R",
+        "url": "https://github.com/vbaliga/pathviewR",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2021",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "name": "Github repository"
+          }
+        }
+      }
+    ],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/409",
+      "provider": "https://ropensci.org"
+    },
+    "relatedLink": "https://docs.ropensci.org/pathviewr",
+    "keywords": [
+      "movement-data",
+      "motion",
+      "animal-movement",
+      "optitrack",
+      "flydra",
+      "visual-guidance",
+      "visual-perception",
+      "rstats",
+      "rstats-package",
+      "trajectory-analysis",
+      "trajectories"
+    ]
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "pdftools",
     "description": "Utilities based on 'libpoppler' for extracting text, fonts, attachments and \n    metadata from a PDF file. Also supports high quality rendering of PDF documents into\n    PNG, JPEG, TIFF format, or into raw bitmap vectors for further processing in R.",
     "name": "pdftools: Text Extraction, Rendering and Converting of PDF Documents",
@@ -71603,7 +71922,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.4.91",
+    "version": "0.6.5.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73789,7 +74108,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.4.95",
+    "version": "0.7.5.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
