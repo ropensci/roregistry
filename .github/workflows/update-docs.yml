@@ -1,5 +1,10 @@
 on:
   workflow_dispatch:
+    inputs:
+      update_jobs:
+        description: Recreate jenkins jobs (in case branch has changed)
+        default: FALSE
+
   push:
     branches:
       gh-pages
@@ -20,7 +25,7 @@ jobs:
           R -e 'remotes::install_github("jeroen/betty")'
 
       - name: Update Jenkins
-        run: R -e 'betty::sync_ropensci_jenkins()'
+        run: R -e 'betty::sync_ropensci_jenkins(update_jobs = ${{ github.event.inputs.update_jobs }})'
         env:
           JENKINS_PAT: ${{ secrets.JENKINS_PAT }}
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
