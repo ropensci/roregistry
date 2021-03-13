@@ -4670,17 +4670,20 @@
       {
         "@type": "Person",
         "givenName": "Paul",
-        "familyName": "Van Els"
+        "familyName": "Van Els",
+        "@id": "https://orcid.org/0000-0002-9499-8873"
       },
       {
         "@type": "Person",
         "givenName": "Raphael",
-        "familyName": "Scherrer"
+        "familyName": "Scherrer",
+        "@id": "https://orcid.org/0000-0002-1447-7630"
       },
       {
         "@type": "Person",
         "givenName": "Yacine B.",
-        "familyName": "Chehida"
+        "familyName": "Chehida",
+        "@id": "https://orcid.org/0000-0001-7269-9082"
       },
       {
         "@type": "Person",
@@ -4690,8 +4693,27 @@
       },
       {
         "@type": "Person",
+        "givenName": "Gary",
+        "familyName": "Napier",
+        "@id": "https://orcid.org/0000-0002-1077-0055"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Griffiths",
+        "@id": "https://orcid.org/0000-0002-1667-8233"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thijs",
+        "familyName": "Janzen",
+        "@id": "https://orcid.org/0000-0002-4162-1140"
+      },
+      {
+        "@type": "Person",
         "givenName": "Jana",
-        "familyName": "Riederer"
+        "familyName": "Riederer",
+        "@id": "https://orcid.org/0000-0001-6951-9984"
       }
     ],
     "maintainer": [
@@ -5281,12 +5303,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "bikedata",
-    "description": "Download and aggregate data from all public hire\n    bicycle systems which provide open data, currently including\n    'Santander' Cycles in London, U.K.; from the U.S.A., 'Ford GoBike' in\n    San Francisco CA, 'citibike' in New York City NY, 'Divvy' in Chicago\n    IL, 'Capital Bikeshare' in Washington DC, 'Hubway' in Boston MA,\n    'Metro' in Los Angeles LA, 'Indego' in Philadelphia PA, and 'Nice\n    Ride' in Minnesota; 'Bixi' from Montreal, Canada; and 'mibici' from\n    Guadalajara, Mexico.",
-    "name": "bikedata: Download and Aggregate Data from Public Hire Bicycle\n    Systems",
+    "description": "Download and aggregate data from all public hire bicycle\n    systems which provide open data, currently including 'Santander'\n    Cycles in London, U.K.; from the U.S.A., 'Ford GoBike' in San\n    Francisco CA, 'citibike' in New York City NY, 'Divvy' in Chicago IL,\n    'Capital Bikeshare' in Washington DC, 'Hubway' in Boston MA, 'Metro'\n    in Los Angeles LA, 'Indego' in Philadelphia PA, and 'Nice Ride' in\n    Minnesota; 'Bixi' from Montreal, Canada; and 'mibici' from\n    Guadalajara, Mexico.",
+    "name": "bikedata: Download and Aggregate Data from Public Hire Bicycle Systems",
     "codeRepository": "https://github.com/ropensci/bikedata",
     "issueTracker": "https://github.com/ropensci/bikedata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.5.6",
+    "version": "0.2.5.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5533,7 +5555,7 @@
     "developmentStatus": "http://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/bikedata/blob/master/README.md",
-    "fileSize": "16415.95KB",
+    "fileSize": "16416.194KB",
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -9192,12 +9214,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "chlorpromazineR",
-    "description": "As different antipsychotic medications have different potencies,\n    the doses of different medications cannot be directly compared. Various\n    strategies are used to convert doses into a common reference so that\n    comparison is meaningful. Chlorpromazine (CPZ) has historically been used\n    as a reference medication into which other antipsychotic doses can be\n    converted, as \"chlorpromazine-equivalent doses\". Using conversion keys\n    generated from widely-cited scientific papers (Gardner et. al 2010\n    <doi:10.1176/appi.ajp.2009.09060802>, Leucht et al. 2016\n    <doi:10.1093/schbul/sbv167>), antipsychotic doses are converted\n    to CPZ (or any specified antipsychotic) equivalents. The use of the package\n    is described in the included vignette. Not for clinical use.",
+    "description": "As different antipsychotic medications have different potencies,\n    the doses of different medications cannot be directly compared. Various\n    strategies are used to convert doses into a common reference so that\n    comparison is meaningful. Chlorpromazine (CPZ) has historically been used\n    as a reference medication into which other antipsychotic doses can be\n    converted, as \"chlorpromazine-equivalent doses\". Using conversion keys\n    generated from widely-cited scientific papers, e.g. Gardner et. al 2010\n    <doi:10.1176/appi.ajp.2009.09060802> and Leucht et al. 2016\n    <doi:10.1093/schbul/sbv167>, antipsychotic doses are converted\n    to CPZ (or any specified antipsychotic) equivalents. The use of the package\n    is described in the included vignette. Not for clinical use.",
     "name": "chlorpromazineR: Convert Antipsychotic Doses to Chlorpromazine Equivalents",
     "codeRepository": "https://github.com/ropensci/chlorpromazineR",
     "issueTracker": "https://github.com/ropensci/chlorpromazineR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.9999",
+    "version": "0.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -9296,7 +9318,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/chlorpromazineR/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/chlorpromazineR", "https://codecov.io/github/ropensci/chlorpromazineR?branch=master"],
+    "contIntegration": "https://codecov.io/github/ropensci/chlorpromazineR?branch=master",
     "keywords": [
       "psychiatry",
       "pharmacology",
@@ -9304,11 +9326,6 @@
       "antipsychotic",
       "schizophrenia"
     ],
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/307",
-      "provider": "https://ropensci.org"
-    },
     "releaseNotes": "https://github.com/ropensci/chlorpromazineR/blob/master/NEWS.md",
     "provider": {
       "@id": "https://cran.r-project.org",
@@ -9316,8 +9333,11 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": "https://docs.ropensci.org/chlorpromazineR",
-    "fileSize": "2426.173KB"
+    "relatedLink": [
+      "https://docs.ropensci.org/chlorpromazineR",
+      "https://docs.ropensci.org/chlorpromazineR/"
+    ],
+    "fileSize": "2447.543KB"
   },
   {
     "@context": [
@@ -25086,7 +25106,7 @@
     "codeRepository": "https://github.com/ropensci/iheatmapr",
     "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1",
+    "version": "0.5.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
