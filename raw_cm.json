@@ -2689,7 +2689,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.10.99",
+    "version": "0.0.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74108,7 +74108,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.5.95",
+    "version": "0.8.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74298,7 +74298,7 @@
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/webmockr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/webmockr/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "342.582KB",
     "relatedLink": [
       "https://ropenscilabs.github.io/http-testing-book/",
       "https://books.ropensci.org/http-testing",
@@ -78296,6 +78296,20 @@
         "givenName": "Rhydwyn",
         "familyName": "McGuire",
         "email": "rhydwyn@rhydwyn.net"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Tierney",
+        "email": "nicholas.tierney@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1460-8722"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mathew",
+        "familyName": "Ling",
+        "email": "mathewtyling@gmail.com",
+        "@id": "https://orcid.org/0000-0002-0940-2538"
       }
     ],
     "contributor": {},
@@ -78359,6 +78373,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
