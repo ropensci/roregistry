@@ -28150,7 +28150,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/magick/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32819,15 +32819,27 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "spatstat",
-        "name": "spatstat",
+        "identifier": "spatstat.core",
+        "name": "spatstat.core",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=spatstat"
+        "sameAs": "https://CRAN.R-project.org/package=spatstat.core"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spatstat.geom",
+        "name": "spatstat.geom",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spatstat.geom"
       },
       {
         "@type": "SoftwareApplication",
@@ -32889,8 +32901,7 @@
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/NLMR", "https://ci.appveyor.com/project/ropensci/NLMR", "https://codecov.io/gh/ropensci/NLMR"],
     "releaseNotes": "https://github.com/ropensci/NLMR/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/NLMR/blob/master/README.md",
-    "fileSize": "1578.046KB",
+    "fileSize": "116308.939KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -32941,6 +32952,7 @@
       "url": "https://github.com/ropensci/software-review/issues/188",
       "provider": "https://ropensci.org"
     },
+    "readme": "https://github.com/ropensci/NLMR/blob/master/README.md",
     "keywords": ["r", "spatial", "landscape-ecology", "neutral-landscape-model", "rstats", "r-package", "peer-reviewed"]
   },
   {
@@ -36038,7 +36050,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.4.37",
+    "version": "0.1.4.38",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36581,7 +36593,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.2.2",
+    "version": "0.3.2.34",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36643,18 +36655,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -36679,18 +36679,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -36700,6 +36688,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "roxygen2",
+        "name": "roxygen2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
       },
       {
         "@type": "SoftwareApplication",
@@ -36848,6 +36848,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "spatstat",
+        "name": "spatstat",
+        "version": ">= 2.0-0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spatstat"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "spatstat.core",
         "name": "spatstat.core",
         "provider": {
@@ -36869,25 +36882,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spatstat.geom"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "spatstat",
-        "name": "spatstat",
-        "version": ">= 2.0-0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=spatstat"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/osmplotr/blob/master/NEWS",
     "readme": "https://github.com/ropensci/osmplotr/blob/master/README.md",
-    "fileSize": "17081.145KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/osmplotr", "https://ci.appveyor.com/project/ropensci/osmplotr", "https://codecov.io/gh/ropensci/osmplotr"],
+    "fileSize": "17083.655KB",
+    "contIntegration": "https://codecov.io/gh/ropensci/osmplotr",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/27",
@@ -80875,7 +80875,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.32",
+    "version": "0.0.1.34",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
