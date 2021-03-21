@@ -1835,7 +1835,7 @@
       "name": "GSODR",
       "description": "Global Surface Summary of the Day ('GSOD') Weather Data Client",
       "details": "Provides automated downloading, parsing, cleaning, unit conversion\n    and formatting of Global Surface Summary of the Day ('GSOD') weather data\n    from the from the USA National Centers for Environmental Information\n    ('NCEI').  Units are converted from from United States Customary System\n    ('USCS') units to International System of Units ('SI').  Stations may be\n    individually checked for number of missing days defined by the user, where\n    stations with too many missing observations are omitted.  Only stations with\n    valid reported latitude and longitude values are permitted in the final\n    data.  Additional useful elements, saturation vapour pressure ('es'), actual\n    vapour pressure ('ea') and relative humidity ('RH') are calculated from the\n    original data using the improved August-Roche-Magnus approximation (Alduchov\n    & Eskridge 1996) and included in the final data set.  The resulting metadata\n    include station identification information, country, state, latitude,\n    longitude, elevation, weather observations and associated flags.  For\n    information on the 'GSOD' data from 'NCEI', please see the 'GSOD'\n    'readme.txt' file available from,\n    <https://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
-      "maintainer": "Adam Sparks",
+      "maintainer": "Adam H. Sparks",
       "keywords": "daily-data, daily-weather, data-access, global-data, global-weather, gsod, historical-data, historical-weather, meteorological-data, meteorology, ncdc, ncei, station-data, surface-weather, US-NCDC, US-NCEI, weather, weather-data, weather-information, weather-stations",
       "github": "https://github.com/ropensci/GSODR",
       "status": "https://www.repostatus.org#active",
@@ -1846,7 +1846,7 @@
       "url": "https://github.com/ropensci/GSODR",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-01-25 01:24:13",
+      "date_last_commit": "2021-03-21 13:19:43",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2026,7 +2026,7 @@
       "url": "https://github.com/ropensci/hydroscoper",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-03-20 20:53:11",
+      "date_last_commit": "2021-03-21 14:38:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4724,7 +4724,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-03-14 17:21:32",
+      "date_last_commit": "2021-03-21 14:15:52",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6863,5 +6863,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-03-21 08:03 UTC"
+  "date": "2021-03-21 15:04 UTC"
 }
