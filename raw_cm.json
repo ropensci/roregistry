@@ -5295,7 +5295,7 @@
     "codeRepository": "https://github.com/ropensci/bikedata",
     "issueTracker": "https://github.com/ropensci/bikedata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.5.13",
+    "version": "0.2.5.25",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5539,10 +5539,10 @@
     "isPartOf": "https://ropensci.org",
     "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data", "r", "rstats", "r-package", "peer-reviewed"],
     "contIntegration": "https://codecov.io/gh/ropensci/bikedata",
-    "developmentStatus": "http://www.repostatus.org/#active",
+    "developmentStatus": "https://www.repostatus.org/",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/bikedata/blob/master/README.md",
-    "fileSize": "16416.194KB",
+    "fileSize": "16416.242KB",
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -5585,7 +5585,8 @@
     ],
     "relatedLink": [
       "https://docs.ropensci.org/bikedata",
-      "https://CRAN.R-project.org/package=bikedata"
+      "https://CRAN.R-project.org/package=bikedata",
+      "https://docs.ropensci.org/bikedata/"
     ]
   },
   {
@@ -27580,7 +27581,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lightr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.4",
+    "version": "1.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27790,7 +27791,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/lightr/blob/master/NEWS.md",
-    "fileSize": "5558.912KB",
+    "fileSize": "5559.352KB",
     "contIntegration": "https://codecov.io/github/ropensci/lightr?branch=main",
     "keywords": [
       "r",
@@ -36051,7 +36052,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.4.38",
+    "version": "0.1.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36361,7 +36362,7 @@
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/osmdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/osmdata/blob/main/README.md",
-    "fileSize": "23358.949KB",
+    "fileSize": "4190.21KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -36594,7 +36595,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.2.34",
+    "version": "0.3.2.38",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80888,7 +80889,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.34",
+    "version": "0.0.1.36",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80961,6 +80962,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ghql",
         "name": "ghql",
         "provider": {
@@ -80970,6 +80983,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=ghql"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "glue",
+        "name": "glue",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=glue"
       },
       {
         "@type": "SoftwareApplication",
@@ -81021,6 +81046,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "logger",
+        "name": "logger",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=logger"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
         "provider": {
@@ -81066,10 +81103,22 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tictoc",
+        "name": "tictoc",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgreport/blob/master/README.md",
-    "fileSize": "49.058KB",
+    "fileSize": "49.258KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
