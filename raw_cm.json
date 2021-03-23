@@ -32876,7 +32876,7 @@
     "codeRepository": "https://github.com/ropensci/NLMR",
     "issueTracker": "https://github.com/ropensci/NLMR/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.2",
+    "version": "0.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32888,7 +32888,7 @@
         "@type": "Person",
         "givenName": "Marco",
         "familyName": "Sciaini",
-        "email": "sciaini.marco@gmail.com",
+        "email": "marco.sciaini@indblik.io",
         "@id": "https://orcid.org/0000-0002-3042-5435"
       },
       {
@@ -32896,6 +32896,12 @@
         "givenName": "Matthias",
         "familyName": "Fritsch",
         "email": "matthias.fritsch@forst.uni-goettingen.de"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maximilian",
+        "familyName": "Hesselbarth",
+        "email": "mhk.hesselbarth@gmail.com"
       },
       {
         "@type": "Person",
@@ -32923,7 +32929,7 @@
         "@type": "Person",
         "givenName": "Marco",
         "familyName": "Sciaini",
-        "email": "sciaini.marco@gmail.com",
+        "email": "marco.sciaini@indblik.io",
         "@id": "https://orcid.org/0000-0002-3042-5435"
       }
     ],
@@ -80889,7 +80895,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.36",
+    "version": "0.0.1.39",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81106,6 +81112,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "remotes",
+        "name": "remotes",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=remotes"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "tictoc",
         "name": "tictoc",
         "provider": {
@@ -81115,10 +81133,22 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgreport/blob/master/README.md",
-    "fileSize": "49.258KB",
+    "fileSize": "55.178KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
