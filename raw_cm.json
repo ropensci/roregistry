@@ -64795,6 +64795,19 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "arrow",
+        "name": "arrow",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=arrow"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "aws.s3",
         "name": "aws.s3",
         "version": ">= 0.3.21",
