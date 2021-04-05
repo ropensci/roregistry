@@ -3788,20 +3788,20 @@
     },
     {
       "name": "rdefra",
-      "description": "Retrieve data from UK AIR Pollution Database hosted by the Department for Environment, Food and Rural Affairs",
+      "description": "Retrieve Data From The UK AIR Database",
       "details": "Retrieve air pollution data from the Air Information Resource\n  (UK-AIR, <https://uk-air.defra.gov.uk/>) of the Department for Environment,\n  Food and Rural Affairs (DEFRA) in the United Kingdom.\n  UK-AIR does not provide a public API for programmatic access to data,\n  therefore this package scrapes the HTML pages to get relevant information.\n  The package is described in Vitolo et al. (2016) \"rdefra: Interact with the\n  UK AIR Pollution Database from DEFRA\" <doi:10.21105/joss.00051>",
       "maintainer": "Claudia Vitolo",
       "keywords": "air-pollution, air-pollution-levels, air-quality, defra, peer-reviewed, uk",
       "github": "https://github.com/ropensci/rdefra",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/68",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/rdefra",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-04-04 16:45:47",
+      "date_last_commit": "2021-04-05 20:39:11",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -4761,7 +4761,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-04-05 13:19:49",
+      "date_last_commit": "2021-04-05 21:15:57",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5241,7 +5241,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-04-01 15:06:32",
+      "date_last_commit": "2021-04-05 15:32:07",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5261,7 +5261,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-04-05 12:42:20",
+      "date_last_commit": "2021-04-05 15:29:46",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6805,5 +6805,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-04-05 15:05 UTC"
+  "date": "2021-04-05 22:07 UTC"
 }
