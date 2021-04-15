@@ -42136,6 +42136,7 @@
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
+        "version": ">= 0.4.10",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -58927,6 +58928,11 @@
       }
     ],
     "relatedLink": ["https://CRAN.R-project.org/package=rtweet", "https://docs.ropensci.org/rtweet"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/302",
+      "provider": "https://ropensci.org"
+    },
     "keywords": ["twitter", "r"]
   },
   {
@@ -65600,7 +65606,7 @@
         "@type": "SoftwareApplication",
         "identifier": "qs",
         "name": "qs",
-        "version": ">= 0.23.2",
+        "version": ">= 0.24.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
