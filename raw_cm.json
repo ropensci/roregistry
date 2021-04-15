@@ -65090,6 +65090,19 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "version": ">= 4.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "version": ">= 1.0.0",
@@ -65217,7 +65230,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.0.1",
+        "version": ">= 0.3.1.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -65329,7 +65342,7 @@
     "relatedLink": "https://docs.ropensci.org/targets/",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1.9000",
+    "version": "0.3.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
