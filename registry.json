@@ -1132,7 +1132,7 @@
       "name": "DataPackageR",
       "description": "Construct Reproducible Analytic Data Sets as R Packages",
       "details": "A framework to help construct R data packages in a \n  reproducible manner. Potentially time consuming processing of \n  raw data sets into analysis ready data sets is done in a reproducible \n  manner and decoupled from the usual R CMD build process so that\n  data sets can be processed into R objects in the data package and \n  the data package can then be shared, built, and installed by others\n  without the need to repeat computationally costly data processing.\n  The package maintains data provenance by turning the data processing\n  scripts into package vignettes, as well as enforcing documentation \n  and version checking of included data objects. Data packages can be\n  version controlled in github, and used to share data for manuscripts,\n  collaboration and general reproducibility.",
-      "maintainer": "Greg Finak",
+      "maintainer": "Ellis Hughes",
       "keywords": "peer-reviewed, reproducibility",
       "github": "https://github.com/ropensci/DataPackageR",
       "status": "https://www.repostatus.org#active",
@@ -1143,7 +1143,7 @@
       "url": "https://github.com/ropensci/DataPackageR",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2020-10-01 18:13:37",
+      "date_last_commit": "2021-04-16 20:58:42",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3987,26 +3987,6 @@
       "staff_maintained": false
     },
     {
-      "name": "rerddap",
-      "description": "General Purpose Client for 'ERDDAP' Servers",
-      "details": "General purpose R client for 'ERDDAP' servers. Includes\n    functions to search for 'datasets', get summary information on\n    'datasets', and fetch 'datasets', in either 'csv' or 'netCDF' format.\n    'ERDDAP' information: \n    <https://upwell.pfeg.noaa.gov/erddap/information.html>.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "api-client, buoy, climate, earth, erddap, NOAA, noaa-data, precipitation, science, storm, temperature",
-      "github": "https://github.com/ropensci/rerddap",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rerddap",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-03-05 20:14:55",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "restez",
       "description": "Create and Query a Local Copy of 'GenBank' in R",
       "details": "Download large sections of\n    'GenBank' <https://www.ncbi.nlm.nih.gov/genbank/> and generate a local\n    SQL-based database. A user can then query this database using 'restez'\n    functions or through 'rentrez' <https://CRAN.R-project.org/package=rentrez>\n    wrappers.",
@@ -4121,7 +4101,7 @@
       "url": "https://github.com/ropensci/rglobi",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-05-13 13:27:02",
+      "date_last_commit": "2021-04-16 19:05:44",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6688,5 +6668,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-04-16 15:07 UTC"
+  "date": "2021-04-16 22:06 UTC"
 }

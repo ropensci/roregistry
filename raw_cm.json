@@ -14104,7 +14104,7 @@
       {
         "@type": "Organization",
         "name": "Greg Finak",
-        "email": "gfinak@fredhutch.org"
+        "email": "greg.finak@gmail.com"
       }
     ],
     "contributor": [
@@ -14114,21 +14114,36 @@
       },
       {
         "@type": "Organization",
-        "name": "Ellis Hughes"
+        "name": "Ellis Hughes",
+        "email": "ehhughes@scharp.org"
+      },
+      {
+        "@type": "Organization",
+        "name": "Jimmy Fulp",
+        "email": "wfulp@scharp.org"
+      },
+      {
+        "@type": "Organization",
+        "name": "Marie Vendettuoli",
+        "email": "mvendett@scharp.org"
+      },
+      {
+        "@type": "Organization",
+        "name": "Jason Taylor"
       }
     ],
     "copyrightHolder": [
       {
         "@type": "Organization",
         "name": "Greg Finak",
-        "email": "gfinak@fredhutch.org"
+        "email": "greg.finak@gmail.com"
       }
     ],
     "maintainer": [
       {
         "@type": "Organization",
-        "name": "Greg Finak",
-        "email": "gfinak@fredhutch.org"
+        "name": "Ellis Hughes",
+        "email": "ehhughes@scharp.org"
       }
     ],
     "softwareSuggestions": [
@@ -14370,7 +14385,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/DataPackageR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/DataPackageR/blob/main/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/DataPackageR", "https://codecov.io/github/ropensci/DataPackageR?branch=master", "https://ci.appveyor.com/project/gfinak/DataPackageR"],
+    "contIntegration": "https://codecov.io/github/ropensci/DataPackageR?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -14383,7 +14398,10 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": ["https://CRAN.R-project.org/package=DataPackageR", "https://docs.ropensci.org/DataPackageR"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=DataPackageR",
+      "https://docs.ropensci.org/DataPackageR/"
+    ],
     "keywords": [
       "r",
       "r-package",
@@ -14391,7 +14409,8 @@
       "rstats",
       "peer-reviewed"
     ],
-    "funder": {}
+    "funder": {},
+    "fileSize": "1356.682KB"
   },
   {
     "@context": [
@@ -49176,227 +49195,6 @@
   },
   {
     "@context": [
-      "http://purl.org/codemeta/2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "rerddap",
-    "description": "General purpose R client for 'ERDDAP' servers. Includes\n    functions to search for 'datasets', get summary information on\n    'datasets', and fetch 'datasets', in either 'csv' or 'netCDF' format.\n    'ERDDAP' information: \n    <https://upwell.pfeg.noaa.gov/erddap/information.html>.",
-    "name": "rerddap: General Purpose Client for 'ERDDAP' Servers",
-    "codeRepository": "https://github.com/ropensci/rerddap",
-    "issueTracker": "https://github.com/ropensci/rerddap/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.4",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Central R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Ben",
-        "familyName": "Tupper"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Roy",
-        "familyName": "Mendelssohn"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "version": ">= 0.2.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 2.10"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "version": ">= 0.7.4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "version": ">= 0.5.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "data.table",
-        "name": "data.table",
-        "version": ">= 1.12.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=data.table"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "version": ">= 1.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "version": ">= 1.2.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ncdf4",
-        "name": "ncdf4",
-        "version": ">= 1.16",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ncdf4"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "hoardr",
-        "name": "hoardr",
-        "version": ">= 0.5.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hoardr"
-      }
-    ],
-    "contIntegration": "https://codecov.io/github/ropensci/rerddap?branch=master",
-    "releaseNotes": "https://github.com/ropensci/rerddap/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/rerddap/blob/master/README.md",
-    "fileSize": "15460.515KB",
-    "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NOAA", "rstats", "erddap", "noaa-data", "api-client", "r", "r-package"],
-    "copyrightHolder": {},
-    "funder": {},
-    "applicationCategory": "Climate",
-    "isPartOf": "https://ropensci.org",
-    "relatedLink": "https://docs.ropensci.org/rerddap/"
-  },
-  {
-    "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
     ],
@@ -50885,10 +50683,10 @@
     "description": "A programmatic interface to the web service methods\n    provided by Global Biotic Interactions (GloBI)\n    (<https://www.globalbioticinteractions.org/>). GloBI provides \n    access to spatial-temporal species interaction records from \n    sources all over the world. rglobi provides methods to search \n    species interactions by location, interaction type, and \n    taxonomic name. In addition, it supports Cypher, a graph query\n    language, to allow for executing custom queries on the GloBI \n    aggregate species interaction data set.",
     "name": "rglobi: R Interface to Global Biotic Interactions",
     "codeRepository": "https://github.com/ropensci/rglobi",
-    "relatedLink": "https://docs.ropensci.org/rglobi",
+    "relatedLink": ["https://docs.ropensci.org/rglobi", "https://docs.ropensci.org/rglobi/"],
     "issueTracker": "https://github.com/ropensci/rglobi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.21",
+    "version": "0.2.22",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50969,6 +50767,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
       },
       {
         "@type": "SoftwareApplication",
