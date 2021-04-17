@@ -3987,6 +3987,26 @@
       "staff_maintained": false
     },
     {
+      "name": "rerddap",
+      "description": "General Purpose Client for 'ERDDAP' Servers",
+      "details": "General purpose R client for 'ERDDAP' servers. Includes\n    functions to search for 'datasets', get summary information on\n    'datasets', and fetch 'datasets', in either 'csv' or 'netCDF' format.\n    'ERDDAP' information: \n    <https://upwell.pfeg.noaa.gov/erddap/information.html>.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api-client, buoy, climate, earth, erddap, NOAA, noaa-data, precipitation, science, storm, temperature",
+      "github": "https://github.com/ropensci/rerddap",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/rerddap",
+      "ropensci_category": "data-access",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-03-05 20:14:55",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "restez",
       "description": "Create and Query a Local Copy of 'GenBank' in R",
       "details": "Download large sections of\n    'GenBank' <https://www.ncbi.nlm.nih.gov/genbank/> and generate a local\n    SQL-based database. A user can then query this database using 'restez'\n    functions or through 'rentrez' <https://CRAN.R-project.org/package=rentrez>\n    wrappers.",
@@ -6668,5 +6688,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-04-16 22:06 UTC"
+  "date": "2021-04-17 02:01 UTC"
 }
