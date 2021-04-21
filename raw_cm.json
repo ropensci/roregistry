@@ -7834,14 +7834,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "dataverse",
-        "name": "dataverse",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dataverse"
+        "name": "dataverse"
       },
       {
         "@type": "SoftwareApplication",
@@ -9498,7 +9491,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "circle",
-    "description": "Tools for interacting with the 'Circle CI' API.  Besides\n    executing common tasks such as querying build logs and restarting\n    builds, this package also helps setting up permissions to deploy from\n    builds.",
+    "description": "Tools for interacting with the 'Circle CI' API\n    (<https://circleci.com/docs/api/v2/>). Besides executing common tasks\n    such as querying build logs and restarting builds, this package also\n    helps setting up permissions to deploy from builds.",
     "name": "circle: R Client Package for Circle CI",
     "codeRepository": "https://github.com/ropensci/circle",
     "relatedLink": [
@@ -9729,7 +9722,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/circle/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/circle/blob/main/README.md",
-    "fileSize": "2167.154KB",
+    "fileSize": "2168.522KB",
     "issueTracker": "https://github.com/ropensci/circle/issues",
     "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
     "contIntegration": ["https://circleci.com/gh/ropensci/circle", "https://codecov.io/gh/ropensci/circle"],
@@ -69075,7 +69068,7 @@
       }
     ],
     "releaseNotes": "https://github.com/ropensci/tic/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/tic/blob/master/README.md",
+    "readme": "https://github.com/ropensci/tic/blob/main/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/tic", "https://circleci.com/gh/ropensci/tic", "https://codecov.io/gh/ropensci/tic"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "keywords": [
