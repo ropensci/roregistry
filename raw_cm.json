@@ -4080,11 +4080,12 @@
     "codeRepository": "https://github.com/ropensci/BaseSet",
     "relatedLink": [
       "https://docs.ropensci.org/BaseSet",
-      "https://docs.ropensci.org/BaseSet/"
+      "https://docs.ropensci.org/BaseSet/",
+      "https://CRAN.R-project.org/package=BaseSet"
     ],
     "issueTracker": "https://github.com/ropensci/BaseSet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.15.9000",
+    "version": "0.0.16.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4295,7 +4296,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/BaseSet/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/BaseSet/blob/master/README.md",
-    "fileSize": "499.634KB",
+    "fileSize": "499.155KB",
     "contIntegration": ["https://travis-ci.org/ropensci/BaseSet", "https://codecov.io/github/ropensci/BaseSet?branch=master"],
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
     "review": {
@@ -15766,7 +15767,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/drake/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "7.13.1.9000",
+    "version": "7.13.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16389,7 +16390,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/drake/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/drake/blob/main/README.md",
-    "fileSize": "1128.413KB",
+    "fileSize": "2962.292KB",
     "contIntegration": "https://codecov.io/github/ropensci/drake?branch=main",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#superseded",
     "review": {
@@ -18030,7 +18031,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/r-lib/rlang"
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
       {
         "@type": "SoftwareApplication",
@@ -45712,8 +45713,9 @@
     ],
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species"],
+    "keywords": ["biology", "science", "API", "web", "api-client", "taxonomy", "species", "rstats", "r"],
     "releaseNotes": "https://github.com/ropensci/rcol/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/rcol/blob/master/README.md",
     "fileSize": "215.34KB",
     "contIntegration": "https://codecov.io/gh/ropensci/rcol",
     "provider": {
@@ -45905,13 +45907,14 @@
     "contIntegration": "https://codecov.io/github/ropensci/rcoreoa?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/rcoreoa/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/rcoreoa/blob/master/README.md",
     "fileSize": "115.489KB",
     "relatedLink": ["https://docs.ropensci.org/rcoreoa", "https://docs.ropensci.org/rcoreoa/"],
     "copyrightHolder": {},
     "funder": {},
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["text-ming", "literature", "pdf", "publications", "citations", "full-text", "metadata"]
+    "keywords": ["text-ming", "literature", "pdf", "publications", "citations", "full-text", "metadata", "api-wrapper", "scholarly-metadata", "r", "rstats", "r-package"]
   },
   {
     "@context": [
@@ -46208,10 +46211,11 @@
     "contIntegration": "https://codecov.io/gh/ropensci/rcrossref",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/rcrossref/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/rcrossref/blob/master/README.md",
     "fileSize": "0KB",
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "Crossref"],
+    "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "Crossref", "crossref-api", "doi", "metadata", "api", "r", "rstats", "api-wrapper", "r-package"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -46355,8 +46359,9 @@
     ],
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
-    "keywords": ["data", "scholarly", "dataset", "https", "API", "web-services"],
+    "keywords": ["data", "scholarly", "dataset", "https", "API", "web-services", "datacite", "oai-pmh", "metadata", "api-wrapper", "rstats", "r", "solr", "identifier", "r-package"],
     "releaseNotes": "https://github.com/ropensci/rdatacite/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/rdatacite/blob/master/README.md",
     "fileSize": "111.704KB",
     "contIntegration": "https://codecov.io/github/ropensci/rdatacite?branch=master",
     "developmentStatus": "http://www.repostatus.org/#active"
@@ -46623,7 +46628,8 @@
       "r",
       "rstats",
       "r-package"
-    ]
+    ],
+    "readme": "https://github.com/ropensci/rdataretriever/blob/main/README.md"
   },
   {
     "@context": [
@@ -65415,7 +65421,7 @@
     "relatedLink": "https://docs.ropensci.org/targets/",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65976,7 +65982,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/targets/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/targets/blob/main/README.md",
-    "fileSize": "1202.964KB",
+    "fileSize": "1296.366KB",
     "contIntegration": "https://codecov.io/gh/ropensci/targets",
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
@@ -68143,7 +68149,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/terrainr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/terrainr/blob/main/README.md",
-    "fileSize": "3123.232KB",
+    "fileSize": "3123.217KB",
     "contIntegration": "https://codecov.io/gh/ropensci/terrainr",
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
     "keywords": [
