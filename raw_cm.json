@@ -43195,11 +43195,12 @@
     "relatedLink": [
       "https://docs.ropensci.org/qpdf",
       "http://qpdf.sourceforge.net/",
-      "https://CRAN.R-project.org/package=qpdf"
+      "https://CRAN.R-project.org/package=qpdf",
+      "https://docs.ropensci.org/qpdf/"
     ],
     "issueTracker": "https://github.com/ropensci/qpdf/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.1",
+    "version": "1.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43221,7 +43222,13 @@
         "@id": "https://orcid.org/0000-0002-4035-0289"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Raymond"
+      }
+    ],
     "copyrightHolder": [
       {
         "@type": "Organization",
@@ -43292,8 +43299,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/qpdf/blob/master/NEWS",
     "readme": "https://github.com/ropensci/qpdf/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/qpdf", "https://ci.appveyor.com/project/jeroen/qpdf"],
-    "developmentStatus": "http://www.repostatus.org/#active",
+    "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": [
       "r",
       "r-package",
