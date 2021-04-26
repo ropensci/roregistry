@@ -7704,12 +7704,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "c14bazAAR",
-    "description": "Query different C14 date databases and apply basic data cleaning, merging and calibration steps. Currently available databases: 14cpalaeolithic, 14sea, adrac, austarch, bda, calpal, context, emedyd, eubar, euroevol, irdd, jomon, katsianis, kiteeastafrica, medafricarbon, mesorad, nerd, pacea, palmisano, radon, radonb.",
+    "description": "Query different C14 date databases and apply basic data cleaning, merging and calibration steps. Currently available databases: 14cpalaeolithic, 14sea, adrac, austarch, bda, calpal, context, eubar, euroevol, irdd, jomon, katsianis, kiteeastafrica, medafricarbon, mesorad, nerd, pacea, palmisano, radon, radonb, rxpand.",
     "name": "c14bazAAR: Download and Prepare C14 Dates from Different Source Databases",
     "codeRepository": "https://github.com/ropensci/c14bazAAR",
     "issueTracker": "https://github.com/ropensci/c14bazAAR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "2.1.0",
+    "version": "2.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -8180,7 +8180,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/c14bazAAR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/c14bazAAR/blob/master/README.md",
-    "fileSize": "10731.197KB",
+    "fileSize": "1433.241KB",
     "contIntegration": ["https://travis-ci.org/ropensci/c14bazAAR", "https://codecov.io/github/ropensci/c14bazAAR?branch=master"],
     "keywords": [
       "radiocarbon-dates",
@@ -48767,7 +48767,7 @@
     "keywords": ["R, reference management, document generation, bibtex, biblatex", "r", "rstats", "r-package", "peer-reviewed"],
     "license": "https://spdx.org/licenses/GPL-2.0",
     "title": "RefManageR",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "name": "RefManageR: Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
     "issueTracker": "https://github.com/ropensci/RefManageR/issues",
     "programmingLanguage": {
@@ -80808,7 +80808,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.126",
+    "version": "0.0.1.141",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81096,8 +81096,8 @@
         "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
-    "readme": "https://github.com/ropenscilabs/pkgreport/blob/master/README.md",
-    "fileSize": "1849.408KB",
+    "readme": "https://github.com/ropenscilabs/pkgreport/blob/main/README.md",
+    "fileSize": "1870.172KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
@@ -81677,7 +81677,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review\n    project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.34",
+    "version": "0.0.1.38",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
