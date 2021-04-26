@@ -8779,6 +8779,258 @@
   },
   {
     "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "censo2017",
+    "description": "Provee un acceso conveniente a mas de 17 millones de registros\n    de la base de datos del Censo 2017. Los datos fueron importados desde\n    el DVD oficial del INE usando el Convertidor REDATAM creado por Pablo De\n    Grande. Esta paquete esta documentado intencionalmente en castellano\n    asciificado para que funcione sin problema en diferentes plataformas.\n    (Provides convenient access to more than 17 million records from the\n    Chilean Census 2017 database. The datasets were imported from the official\n    DVD provided by the Chilean National Bureau of Statistics by using the\n    REDATAM converter created by Pablo De Grande and in addition it includes the\n    maps accompanying these datasets.)",
+    "name": "censo2017: Base de Datos de Facil Acceso del Censo 2017 de Chile\n    (2017 Chilean Census Easy Access Database)",
+    "codeRepository": "https://github.com/ropensci/censo2017",
+    "issueTracker": "https://github.com/ropensci/censo2017/issues/",
+    "license": "https://spdx.org/licenses/CC0-1.0",
+    "version": "0.5",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mauricio",
+        "familyName": "Vargas",
+        "email": "mvargas@dcc.uchile.cl",
+        "@id": "https://orcid.org/0000-0003-1017-7574"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Juan",
+        "familyName": "Correa"
+      },
+      {
+        "@type": "Organization",
+        "name": "Instituto Nacional de Estadisticas (INE)"
+      }
+    ],
+    "contributor.1": [
+      {
+        "@type": "Person",
+        "givenName": "Constanza",
+        "familyName": "Manriquez",
+        "email": "constanza.ima@gmail.com"
+      }
+    ],
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mauricio",
+        "familyName": "Vargas",
+        "email": "mvargas@dcc.uchile.cl",
+        "@id": "https://orcid.org/0000-0003-1017-7574"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dbplyr",
+        "name": "dbplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dbplyr"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "DBI",
+        "name": "DBI",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DBI"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "duckdb",
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "crayon",
+        "name": "crayon",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rstudioapi",
+        "name": "rstudioapi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tools",
+        "name": "tools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.0"
+      }
+    ],
+    "relatedLink": ["https://docs.ropensci.org/censo2017/", "https://CRAN.R-project.org/package=censo2017"],
+    "readme": "https://github.com/ropensci/censo2017/blob/main/README.md",
+    "fileSize": "0KB",
+    "contIntegration": "https://codecov.io/gh/ropensci/censo2017",
+    "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable-1", "https://www.tidyverse.org/lifecycle/#stable"],
+    "keywords": [
+      "chile",
+      "censo",
+      "census",
+      "demografia",
+      "demographics",
+      "rstats",
+      "sqlite",
+      "redatam"
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "releaseNotes": "https://github.com/ropensci/censo2017/blob/master/NEWS.md"
+  },
+  {
+    "@context": [
       "http://purl.org/codemeta/2.0",
       "http://schema.org"
     ],
@@ -67867,7 +68119,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68128,7 +68380,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/terrainr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/terrainr/blob/main/README.md",
-    "fileSize": "5710.684KB",
+    "fileSize": "3123.563KB",
     "contIntegration": "https://codecov.io/gh/ropensci/terrainr",
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
     "keywords": [
