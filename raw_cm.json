@@ -39740,7 +39740,7 @@
     "description": "Tools to import, clean, and visualize movement data,\n    particularly from motion capture systems such as Optitrack's \n    Motive, the Straw Lab's Flydra, or from other sources. We provide \n    functions to remove artifacts, standardize tunnel position and tunnel \n    axes, select a region of interest, isolate specific trajectories, fill\n    gaps in trajectory data, and calculate 3D and per-axis velocity. For \n    experiments of visual guidance, we also provide functions that use \n    subject position to estimate perception of visual stimuli. ",
     "name": "pathviewr: Wrangle, Analyze, and Visualize Animal Movement Data",
     "codeRepository": "https://github.com/ropensci/pathviewr",
-    "issueTracker": "https://github.com/ropensci/pathviewr/issues",
+    "issueTracker": "https://github.com/ropensci/pathviewr/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.0.0",
     "programmingLanguage": {
@@ -39990,7 +39990,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/pathviewr/blob/master/README.md",
-    "fileSize": "11573.957KB",
+    "fileSize": "11635.282KB",
     "contIntegration": "https://codecov.io/gh/ropensci/pathviewr?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
@@ -40037,7 +40037,10 @@
       "url": "https://github.com/ropensci/software-review/issues/409",
       "provider": "https://ropensci.org"
     },
-    "relatedLink": "https://docs.ropensci.org/pathviewr",
+    "relatedLink": [
+      "https://docs.ropensci.org/pathviewr",
+      "https://docs.ropensci.org/pathviewr/"
+    ],
     "keywords": [
       "movement-data",
       "motion",
@@ -76060,7 +76063,7 @@
     "description": "Functions for the import, transformation, and analysis of data \n    from muscle physiology experiments. The work loop technique is used to \n    evaluate the mechanical work and power output of muscle. Josephson (1985) \n    <https://jeb.biologists.org/content/114/1/493> modernized the technique for\n    application in comparative biomechanics. Although our initial motivation \n    was to provide functions to analyze work loop experiment data, as we \n    developed the package we incorporated the ability to analyze data from \n    experiments that are often complementary to work loops. There are currently \n    three supported experiment types: work loops, simple twitches, and tetanus \n    trials. Data can be imported directly from .ddf files or via an object \n    constructor function. Through either method, data can then be cleaned or \n    transformed via methods typically used in studies of muscle physiology. \n    Data can then be analyzed to determine the timing and magnitude of force \n    development and relaxation (for isometric trials) or the magnitude of work, \n    net power, and instantaneous power among other things (for work loops). \n    Although we do not provide plotting functions, all resultant objects are \n    designed to be friendly to visualization via either base-R plotting or \n    'tidyverse' functions.\n This package has been peer-reviewed by rOpenSci (v. 1.1.0).",
     "name": "workloopR: Analysis of Work Loops and Other Data from Muscle Physiology Experiments",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76132,6 +76135,66 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "softwareRequirements": [
@@ -76163,7 +76226,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropensci/workloopR",
-    "fileSize": "872.998KB",
+    "fileSize": "6081.514KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -76198,7 +76261,6 @@
     ],
     "issueTracker": "https://github.com/ropensci/workloopR/issues",
     "readme": "https://github.com/ropensci/workloopR/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropensci/workloopR",
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/workloopR/blob/master/NEWS.md",
     "keywords": [
