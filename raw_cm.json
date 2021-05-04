@@ -3388,7 +3388,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/av/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.1",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36116,7 +36116,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/opencv/blob/master/NEWS",
     "readme": "https://github.com/ropensci/opencv/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/opencv", "https://ci.appveyor.com/project/jeroen/opencv"],
+    "contIntegration": "https://ci.appveyor.com/project/jeroen/opencv",
     "keywords": [
       "unconf18",
       "opencv",
@@ -60393,16 +60393,11 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "rzmq",
-    "description": "Interface to the 'ZeroMQ' lightweight messaging kernel (see <http://www.zeromq.org/> for more information).",
+    "description": "Interface to the 'ZeroMQ' lightweight messaging kernel (see <https://zeromq.org/> for more information).",
     "name": "rzmq: R Bindings for 'ZeroMQ'",
     "codeRepository": "https://github.com/ropensci/rzmq",
-    "relatedLink": [
-      "https://docs.ropensci.org/rzmq",
-      "http://github.com/ropensci/rzmq#readme",
-      "http://www.zeromq.org",
-      "https://CRAN.R-project.org/package=rzmq"
-    ],
-    "issueTracker": "http://github.com/ropensci/rzmq/issues",
+    "relatedLink": ["https://docs.ropensci.org/rzmq/", "https://CRAN.R-project.org/package=rzmq"],
+    "issueTracker": "https://github.com/ropensci/rzmq/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.9.8",
     "programmingLanguage": {
@@ -60465,7 +60460,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rzmq/blob/master/NEWS",
     "readme": "https://github.com/ropensci/rzmq/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/rzmq", "https://ci.appveyor.com/project/jeroen/rzmq"],
+    "contIntegration": "https://ci.appveyor.com/project/jeroen/rzmq",
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": [
       "zmq",
