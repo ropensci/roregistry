@@ -32893,18 +32893,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
         "provider": {
@@ -39737,12 +39725,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "pathviewr",
-    "description": "Tools to import, clean, and visualize movement data,\n    particularly from motion capture systems such as Optitrack's \n    Motive, the Straw Lab's Flydra, or from other sources. We provide \n    functions to remove artifacts, standardize tunnel position and tunnel \n    axes, select a region of interest, isolate specific trajectories, fill\n    gaps in trajectory data, and calculate 3D and per-axis velocity. For \n    experiments of visual guidance, we also provide functions that use \n    subject position to estimate perception of visual stimuli. ",
+    "description": "Tools to import, clean, and visualize movement data,\n    particularly from motion capture systems such as Optitrack's \n    'Motive', the Straw Lab's 'Flydra', or from other sources. We provide \n    functions to remove artifacts, standardize tunnel position and tunnel \n    axes, select a region of interest, isolate specific trajectories, fill\n    gaps in trajectory data, and calculate 3D and per-axis velocity. For \n    experiments of visual guidance, we also provide functions that use \n    subject position to estimate perception of visual stimuli. ",
     "name": "pathviewr: Wrangle, Analyze, and Visualize Animal Movement Data",
     "codeRepository": "https://github.com/ropensci/pathviewr",
     "issueTracker": "https://github.com/ropensci/pathviewr/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39990,7 +39978,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/pathviewr/blob/master/README.md",
-    "fileSize": "11635.861KB",
+    "fileSize": "11637.19KB",
     "contIntegration": "https://codecov.io/gh/ropensci/pathviewr?branch=master",
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
@@ -50744,7 +50732,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.5.2.94",
+    "version": "3.5.2.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76057,10 +76045,10 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "workloopR",
-    "description": "Functions for the import, transformation, and analysis of data \n    from muscle physiology experiments. The work loop technique is used to \n    evaluate the mechanical work and power output of muscle. Josephson (1985) \n    <https://journals.biologists.com/jeb/article/114/1/493/4571/Mechanical-Power-output-from-Striated-Muscle/> \n    modernized the technique for\n    application in comparative biomechanics. Although our initial motivation \n    was to provide functions to analyze work loop experiment data, as we \n    developed the package we incorporated the ability to analyze data from \n    experiments that are often complementary to work loops. There are currently \n    three supported experiment types: work loops, simple twitches, and tetanus \n    trials. Data can be imported directly from .ddf files or via an object \n    constructor function. Through either method, data can then be cleaned or \n    transformed via methods typically used in studies of muscle physiology. \n    Data can then be analyzed to determine the timing and magnitude of force \n    development and relaxation (for isometric trials) or the magnitude of work, \n    net power, and instantaneous power among other things (for work loops). \n    Although we do not provide plotting functions, all resultant objects are \n    designed to be friendly to visualization via either base-R plotting or \n    'tidyverse' functions.\n This package has been peer-reviewed by rOpenSci (v. 1.1.0).",
+    "description": "Functions for the import, transformation, and analysis of data \n    from muscle physiology experiments. The work loop technique is used to \n    evaluate the mechanical work and power output of muscle. Josephson (1985) \n    <doi:10.1242/jeb.114.1.493> modernized the technique for\n    application in comparative biomechanics. Although our initial motivation \n    was to provide functions to analyze work loop experiment data, as we \n    developed the package we incorporated the ability to analyze data from \n    experiments that are often complementary to work loops. There are currently \n    three supported experiment types: work loops, simple twitches, and tetanus \n    trials. Data can be imported directly from .ddf files or via an object \n    constructor function. Through either method, data can then be cleaned or \n    transformed via methods typically used in studies of muscle physiology. \n    Data can then be analyzed to determine the timing and magnitude of force \n    development and relaxation (for isometric trials) or the magnitude of work, \n    net power, and instantaneous power among other things (for work loops). \n    Although we do not provide plotting functions, all resultant objects are \n    designed to be friendly to visualization via either base-R plotting or \n    'tidyverse' functions.\n This package has been peer-reviewed by rOpenSci (v. 1.1.0).",
     "name": "workloopR: Analysis of Work Loops and Other Data from Muscle Physiology Experiments",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76223,7 +76211,7 @@
       }
     ],
     "codeRepository": "https://github.com/ropensci/workloopR",
-    "fileSize": "6081.679KB",
+    "fileSize": "6076.721KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
