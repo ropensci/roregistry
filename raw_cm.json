@@ -19130,6 +19130,230 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "exoplanets",
+    "description": "The goal of exoplanets is to provide access to\n    NASA's Exoplanet Archive TAP Service. For more information regarding\n    the API please read the documentation\n    <https://exoplanetarchive.ipac.caltech.edu/index.html>.",
+    "name": "exoplanets: Access NASA's Exoplanet Archive Data, See\n    <https://exoplanetarchive.ipac.caltech.edu/index.html>",
+    "codeRepository": "https://github.com/ropensci/exoplanets",
+    "issueTracker": "https://github.com/tyluRp/exoplanets/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.2.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Tyler",
+        "familyName": "Littlefield",
+        "email": "tylerlittlefield@hey.com",
+        "@id": "https://orcid.org/0000-0002-6020-1125"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon"
+      }
+    ],
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Tyler",
+        "familyName": "Littlefield",
+        "email": "tylerlittlefield@hey.com",
+        "@id": "https://orcid.org/0000-0002-6020-1125"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httptest",
+        "name": "httptest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httptest"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "scales",
+        "name": "scales",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=scales"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "memoise",
+        "name": "memoise",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=memoise"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      }
+    ],
+    "readme": "https://github.com/ropensci/exoplanets/blob/master/README.md",
+    "fileSize": "3739.23KB",
+    "contIntegration": "https://codecov.io/gh/tyluRp/exoplanets?branch=master",
+    "keywords": [
+      "rstats",
+      "nasa",
+      "exoplanets",
+      "api"
+    ],
+    "releaseNotes": "https://github.com/tyluRp/exoplanets/blob/master/NEWS.md"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "ezknitr",
     "description": "An extension of 'knitr' that adds flexibility in several\n    ways. One common source of frustration with 'knitr' is that it assumes\n    the directory where the source file lives should be the working directory,\n    which is often not true. 'ezknitr' addresses this problem by giving you\n    complete control over where all the inputs and outputs are, and adds several\n    other convenient features to make rendering markdown/HTML documents easier.",
     "name": "ezknitr: Avoid the Typical Working Directory Pain When Using 'knitr'",
@@ -27446,7 +27670,7 @@
     "codeRepository": "https://github.com/ropensci/jqr",
     "issueTracker": "https://github.com/ropensci/jqr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27557,7 +27781,7 @@
     "contIntegration": "https://codecov.io/gh/ropensci/jqr",
     "releaseNotes": "https://github.com/ropensci/jqr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/jqr/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "160.711KB",
     "keywords": [
       "json",
       "rstats",
@@ -27565,7 +27789,10 @@
       "r",
       "r-package"
     ],
-    "relatedLink": ["https://docs.ropensci.org/jqr", "https://docs.ropensci.org/jqr/"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jqr",
+      "https://docs.ropensci.org/jqr/"
+    ],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
@@ -40042,7 +40269,13 @@
       "trajectory-analysis",
       "trajectories"
     ],
-    "releaseNotes": "https://github.com/ropensci/pathviewr/blob/master/NEWS.md"
+    "releaseNotes": "https://github.com/ropensci/pathviewr/blob/master/NEWS.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -40063,7 +40296,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/pdftools/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76267,6 +76500,12 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/326",
       "provider": "https://ropensci.org"
+    },
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
     }
   },
   {
@@ -80732,7 +80971,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgreport",
     "issueTracker": "https://github.com/ropenscilabs/pkgreport/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.216",
+    "version": "0.0.1.218",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
