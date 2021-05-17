@@ -35475,7 +35475,10 @@
     "description": "A general purpose client to work with any 'OAI-PMH'\n    (Open Archives Initiative Protocol for 'Metadata' Harvesting) service.\n    The 'OAI-PMH' protocol is described at\n    <http://www.openarchives.org/OAI/openarchivesprotocol.html>.\n    Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord',\n    'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and\n    'ListSets'.",
     "name": "oai: General Purpose 'Oai-PMH' Services Client",
     "codeRepository": "https://github.com/ropensci/oai",
-    "relatedLink": ["https://docs.ropensci.org/oai", "https://docs.ropensci.org/oai/"],
+    "relatedLink": [
+      "https://docs.ropensci.org/oai",
+      "https://docs.ropensci.org/oai/"
+    ],
     "issueTracker": "https://github.com/ropensci/oai/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.3.2",
@@ -78565,172 +78568,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "changes",
-    "description": "This package provides a set of easy-to-use tools for beginners wanting to implement version control via git for their projects.",
-    "name": "changes: A simple interface and workflow for version control in R (implemented using git as backend but without the confusion)",
-    "codeRepository": "https://github.com/ropenscilabs/changes",
-    "issueTracker": "https://github.com/ropenscilabs/changes/issues",
-    "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.0.0.1",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Nick",
-        "familyName": "Golding",
-        "email": "nick.golding.research@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Diego",
-        "familyName": "Barneche"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Tim",
-        "familyName": "Churches"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Daniel",
-        "familyName": "Falster"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Anikó",
-        "familyName": "Tóth"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Damjan",
-        "familyName": "Vukcevic",
-        "email": "damjan@vukcevic.net"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Saras",
-        "familyName": "Windecker"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Stefan",
-        "familyName": "Bache"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Charles",
-        "familyName": "Gray"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Nick",
-        "familyName": "Golding",
-        "email": "nick.golding.research@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.2.2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "git2r",
-        "name": "git2r",
-        "version": ">= 0.19.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=git2r"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "later",
-        "name": "later",
-        "version": ">= 0.5",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=later"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      }
-    ],
-    "readme": "https://github.com/ropensci-archive/changes/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropenscilabs/changes",
-    "keywords": [
-      "ozunconf17",
-      "r",
-      "r-package",
-      "rstats",
-      "unconf"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "checkers",
     "description": "Package to assess analysis + review guide for analysis best practice",
     "name": "checkers: checkers",
@@ -79677,165 +79514,13 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "notary",
-    "description": "Signing and verification of R packages.",
-    "name": "notary: Signing and Verification of R Packages",
-    "codeRepository": "https://github.com/ropenscilabs/notary",
-    "issueTracker": "https://github.com/ropenscilabs/notary/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Rich",
-        "familyName": "FitzJohn"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Oliver",
-        "familyName": "Keyes"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Steph",
-        "familyName": "Locke"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Jeroen",
-        "familyName": "Ooms"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Bob",
-        "familyName": "Rudis",
-        "email": "bob@rud.is"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Bob",
-        "familyName": "Rudis",
-        "email": "bob@rud.is"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.2.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "gpg",
-        "name": "gpg",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gpg"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sodium",
-        "name": "sodium",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sodium"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "remotes",
-        "name": "remotes",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=remotes"
-      }
-    ],
-    "releaseNotes": "https://github.com/ropenscilabs/notary/blob/master/NEWS.md",
-    "readme": "https://github.com/ropenscilabs/notary/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/notary", "https://ci.appveyor.com/project/jeroen/notary"],
-    "developmentStatus": "http://www.repostatus.org/#wip",
-    "keywords": [
-      "unconf17",
-      "r",
-      "r-package",
-      "rstats",
-      "unconf"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "pkgcheck",
     "description": "Check whether a package is ready for submission to rOpenSci’s\n    peer review system.",
     "name": "pkgcheck: rOpenSci Package Checks",
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.256",
+    "version": "0.0.1.258",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81232,7 +80917,7 @@
     "codeRepository": "https://github.com/ropenscilabs/roreviewapi",
     "issueTracker": "https://github.com/ropenscilabs/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.59",
+    "version": "0.0.0.60",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81429,7 +81114,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "41.622KB",
+    "fileSize": "36.082KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/roreviewapi/blob/main/README.md",
     "relatedLink": "https://ropenscilabs.github.io/roreviewapi"
