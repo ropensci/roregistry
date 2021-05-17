@@ -70191,7 +70191,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.5.2.9000",
+    "version": "0.5.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78882,122 +78882,6 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
-    "identifier": "dirdf",
-    "description": "Extract metadata from directory and file names based on a template into data frame.",
-    "name": "dirdf: Extracts Metadata from Directory and File Names",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.0.5 (2021-03-31)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Henrik",
-        "familyName": "Bengtsson",
-        "email": "henrikb@braju.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Jenny",
-        "familyName": "Bryan"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Joe",
-        "familyName": "Cheng"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Sean",
-        "familyName": "Kross"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Tiffany",
-        "familyName": "Timbers"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Gabriela",
-        "familyName": "de Queiroz"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Melissa",
-        "familyName": "Guzman"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Henrik",
-        "familyName": "Bengtsson",
-        "email": "henrikb@braju.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.2.3"
-      }
-    ],
-    "codeRepository": "https://github.com/ropenscilabs/dirdf",
-    "releaseNotes": "https://github.com/ropenscilabs/dirdf/blob/master/NEWS",
-    "readme": "https://github.com/ropenscilabs/dirdf/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropenscilabs/dirdf", "https://ci.appveyor.com/project/HenrikBengtsson/dirdf", "https://codecov.io/gh/ropenscilabs/dirdf"],
-    "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": [
-      "r",
-      "unconf16",
-      "package",
-      "files",
-      "metadata",
-      "r-package",
-      "rstats",
-      "unconf"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
     "identifier": "gendercoder",
     "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
     "name": "gendercoder: Recodes Sex/Gender Descriptions Into A Standard Set",
@@ -79520,7 +79404,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.258",
+    "version": "0.0.1.259",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80917,7 +80801,7 @@
     "codeRepository": "https://github.com/ropenscilabs/roreviewapi",
     "issueTracker": "https://github.com/ropenscilabs/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.60",
+    "version": "0.0.0.61",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81114,7 +80998,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "36.082KB",
+    "fileSize": "36.086KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/roreviewapi/blob/main/README.md",
     "relatedLink": "https://ropenscilabs.github.io/roreviewapi"
