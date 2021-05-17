@@ -25,7 +25,7 @@ jobs:
           R -e 'remotes::install_github("jeroen/betty")'
 
       - name: Update Jenkins
-        run: R -e 'betty::sync_ropensci_jenkins(update_jobs = ${{ github.event.inputs.update_jobs }})'
+        run: R -e 'betty::sync_ropensci_jenkins(update_jobs = TRUE)'
         env:
           JENKINS_PAT: ${{ secrets.JENKINS_PAT }}
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
