@@ -5361,7 +5361,7 @@
     "codeRepository": "https://github.com/ropensci/bikedata",
     "issueTracker": "https://github.com/ropensci/bikedata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.5.26",
+    "version": "0.2.5.29",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5438,6 +5438,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -5608,7 +5620,7 @@
     "developmentStatus": "https://www.repostatus.org/",
     "releaseNotes": "https://github.com/ropensci/bikedata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/bikedata/blob/master/README.md",
-    "fileSize": "16416.242KB",
+    "fileSize": "13496.273KB",
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -30172,12 +30184,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "mapscanner",
-    "description": "Print maps, draw on them, scan them back in, and\n    convert to spatial objects.",
+    "description": "Print maps, draw on them, scan them back in, and convert to\n    spatial objects.",
     "name": "mapscanner: Print Maps, Draw on Them, Scan Them Back in",
     "codeRepository": "https://github.com/ropensci/mapscanner",
     "issueTracker": "https://github.com/ropensci/mapscanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.14",
+    "version": "0.0.3.16",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30626,7 +30638,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/mapscanner/blob/main/README.md",
-    "fileSize": "5134.893KB",
+    "fileSize": "5035.425KB",
     "contIntegration": ["https://travis-ci.org/ropensci/mapscanner", "https://codecov.io/gh/ropensci/mapscanner"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "keywords": [
@@ -37593,7 +37605,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.5.2",
+    "version": "0.1.5.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37703,6 +37715,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -37903,7 +37927,7 @@
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/osmdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/osmdata/blob/main/README.md",
-    "fileSize": "4187.891KB",
+    "fileSize": "4102.047KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -38136,7 +38160,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.3",
+    "version": "0.3.3.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38231,6 +38255,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -38393,7 +38429,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/osmplotr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/osmplotr/blob/master/README.md",
-    "fileSize": "12710.806KB",
+    "fileSize": "5154.036KB",
     "contIntegration": "https://codecov.io/gh/ropensci/osmplotr",
     "review": {
       "@type": "Review",
@@ -78093,7 +78129,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.6",
+    "version": "0.0.2.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78280,7 +78316,7 @@
     "codeRepository": "https://github.com/ropenscilabs/autotest",
     "issueTracker": "https://github.com/ropenscilabs/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.64",
+    "version": "0.0.2.66",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78567,7 +78603,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "371.674KB",
+    "fileSize": "325.096KB",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/autotest/blob/main/README.md"
@@ -79414,7 +79450,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.266",
+    "version": "0.0.1.269",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79633,7 +79669,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgstats",
     "issueTracker": "https://github.com/ropenscilabs/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.115",
+    "version": "0.0.0.117",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80409,7 +80445,7 @@
     "codeRepository": "https://github.com/ropenscilabs/roreviewapi",
     "issueTracker": "https://github.com/ropenscilabs/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.82",
+    "version": "0.0.0.86",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80606,7 +80642,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "38.055KB",
+    "fileSize": "784.918KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropenscilabs/roreviewapi/blob/main/README.md",
     "relatedLink": "https://ropenscilabs.github.io/roreviewapi"
@@ -80621,7 +80657,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review\n    project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.54",
+    "version": "0.0.1.57",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
