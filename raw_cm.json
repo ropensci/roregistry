@@ -3692,7 +3692,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5",
+        "version": ">= 2.5.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -3705,7 +3705,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.3.1",
+        "version": ">= 2.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -3718,6 +3718,7 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
+        "version": ">= 2.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -4343,7 +4344,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.3.2",
+    "version": "2.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4496,7 +4497,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5",
+        "version": ">= 2.5.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30660,12 +30661,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "mauricer",
-    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<https://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    This package allows to install 'BEAST2' packages from 'R'.",
-    "name": "mauricer: Install 'BEAST2' Packages",
+    "description": "'BEAST2' (<https://www.beast2.org>) is a widely used\n    Bayesian phylogenetic tool, that uses DNA/RNA/protein data\n    and many model priors to create a posterior of jointly estimated \n    phylogenies and parameters.\n    'BEAST2' is commonly accompanied by 'BEAUti 2' (<https://www.beast2.org>),\n    which, among others, allows one to install 'BEAST2' package. \n    This package allows to work with 'BEAST2' packages from 'R'.",
+    "name": "mauricer: Work with 'BEAST2' Packages",
     "codeRepository": "https://github.com/ropensci/mauricer",
     "issueTracker": "https://github.com/ropensci/mauricer/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.3",
+    "version": "2.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30686,7 +30687,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5",
+        "version": ">= 2.5.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30762,7 +30763,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.3.1",
+        "version": ">= 2.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31078,7 +31079,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5",
+        "version": ">= 2.5.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31091,7 +31092,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.3.1",
+        "version": ">= 2.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31128,7 +31129,7 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.3",
+        "version": ">= 2.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -63848,7 +63849,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "stantargets",
-    "description": "Bayesian data analysis usually incurs long runtimes\n  and cumbersome custom code. A specialized pipeline toolkit for\n  Bayesians, the 'stantargets' R package leverages\n  'targets' and 'cmdstanr' to ease these burdens.\n  'stantargets' makes it super easy to set up useful scalable\n  Stan pipelines that automatically parallelize the computation\n  and skip expensive steps when the results are already up to date.\n  Minimal custom code is required, and there is no need to manually\n  configure branching, so usage is much easier than 'targets' alone.\n  'stantargets' can access all of 'cmdstanr''s major algorithms\n  (MCMC, variational Bayes, and optimization) and it supports\n  both single-fit workflows and multi-rep simulation studies.\n  For the statistical methodology, please refer to 'Stan' documentation\n  (Stan Development Team 2020) <https://mc-stan.org/>.",
+    "description": "Bayesian data analysis usually incurs long runtimes\n  and cumbersome custom code. A pipeline toolkit tailored to Bayesian\n  statisticians, the 'stantargets' R package leverages\n  'targets' and 'cmdstanr' to ease these burdens.\n  'stantargets' makes it super easy to set up scalable\n  Stan pipelines that automatically parallelize the computation\n  and skip expensive steps when the results are already up to date.\n  Minimal custom code is required, and there is no need to manually\n  configure branching, so usage is much easier than 'targets' alone.\n  'stantargets' can access all of 'cmdstanr''s major algorithms\n  (MCMC, variational Bayes, and optimization) and it supports\n  both single-fit workflows and multi-rep simulation studies.\n  For the statistical methodology, please refer to 'Stan' documentation\n  (Stan Development Team 2020) <https://mc-stan.org/>.",
     "name": "stantargets: Targets for Stan Workflows",
     "codeRepository": "https://github.com/ropensci/stantargets",
     "relatedLink": [
