@@ -15469,7 +15469,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/dbhydroR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15559,18 +15559,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
       }
     ],
     "softwareRequirements": [
@@ -51595,7 +51583,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.5.3.93",
+    "version": "3.5.3.96",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79525,7 +79513,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.270",
+    "version": "0.0.1.278",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79552,6 +79540,30 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "callr",
+        "name": "callr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=callr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "gert",
+        "name": "gert",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gert"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -79613,18 +79625,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "gert",
-        "name": "gert",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gert"
       },
       {
         "@type": "SoftwareApplication",
@@ -79729,7 +79729,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgcheck/blob/main/README.md",
-    "fileSize": "1828.398KB",
+    "fileSize": "1832.799KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
@@ -80520,7 +80520,7 @@
     "codeRepository": "https://github.com/ropenscilabs/roreviewapi",
     "issueTracker": "https://github.com/ropenscilabs/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.87",
+    "version": "0.0.0.88",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
