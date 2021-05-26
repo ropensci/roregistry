@@ -79496,7 +79496,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.284",
+    "version": "0.0.1.294",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79534,18 +79534,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=callr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "gert",
-        "name": "gert",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gert"
       },
       {
         "@type": "SoftwareApplication",
@@ -79608,6 +79596,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "gert",
+        "name": "gert",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gert"
       },
       {
         "@type": "SoftwareApplication",
@@ -79706,13 +79706,25 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rvest",
+        "name": "rvest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rvest"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "srr",
         "name": "srr",
         "sameAs": "https://github.com/ropenscilabs/srr"
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgcheck/blob/main/README.md",
-    "fileSize": "1834.855KB",
+    "fileSize": "1837.362KB",
     "developmentStatus": "https://www.repostatus.org/#concept"
   },
   {
@@ -80715,7 +80727,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review\n    project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.59",
+    "version": "0.0.1.74",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80833,6 +80845,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "gert",
+        "name": "gert",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gert"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ghql",
         "name": "ghql",
         "provider": {
@@ -80911,7 +80935,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/srr",
     "readme": "https://github.com/ropenscilabs/srr/blob/main/README.md",
-    "fileSize": "2552.868KB",
+    "fileSize": "2555.164KB",
     "issueTracker": "https://github.com/ropenscilabs/srr/issues",
     "contIntegration": "https://codecov.io/gh/ropenscilabs/srr",
     "developmentStatus": "https://www.repostatus.org/#concept",
