@@ -79496,7 +79496,7 @@
     "codeRepository": "https://github.com/ropenscilabs/pkgcheck",
     "issueTracker": "https://github.com/ropenscilabs/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.294",
+    "version": "0.0.1.300",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79549,6 +79549,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "pkgbuild",
+        "name": "pkgbuild",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pkgbuild"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -79558,6 +79570,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": [
@@ -79724,8 +79749,9 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/pkgcheck/blob/main/README.md",
-    "fileSize": "1837.362KB",
-    "developmentStatus": "https://www.repostatus.org/#concept"
+    "fileSize": "1838.287KB",
+    "developmentStatus": "https://www.repostatus.org/#concept",
+    "contIntegration": "https://codecov.io/gh/ropenscilabs/pkgcheck"
   },
   {
     "@context": [
