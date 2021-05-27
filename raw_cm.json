@@ -20438,6 +20438,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
         "provider": {
@@ -20607,7 +20619,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/FedData/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/FedData/blob/master/README.md",
-    "fileSize": "2628.435KB",
+    "fileSize": "3151.37KB",
     "contIntegration": ["https://travis-ci.org/ropensci/FedData", "https://codecov.io/github/ropensci/FedData?branch=master"],
     "review": {
       "@type": "Review",
@@ -67823,7 +67835,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.99.946",
+    "version": "0.9.99.947",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
