@@ -66997,6 +66997,11 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "tools",
+        "name": "tools"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
@@ -74061,7 +74066,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74318,7 +74323,7 @@
     "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "http-mocking", "testing", "testing-tools", "tdd", "unit-testing", "rstats", "vcr", "r", "r-package"],
     "contIntegration": "https://codecov.io/gh/ropensci/vcr",
     "readme": "https://github.com/ropensci/vcr/blob/master/README.md",
-    "fileSize": "1403.087KB",
+    "fileSize": "1403.487KB",
     "relatedLink": [
       "https://ropenscilabs.github.io/http-testing-book/",
       "https://books.ropensci.org/http-testing/"
@@ -79190,282 +79195,6 @@
       "r-package",
       "rstats",
       "gender-diversity"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "MonetDBLite",
-    "description": "An in-process version of 'MonetDB', a SQL database designed for analytical tasks. Similar to 'SQLite', the database runs entirely inside the 'R' shell.",
-    "name": "MonetDBLite: In-Process Version of 'MonetDB'",
-    "codeRepository": "https://github.com/ropenscilabs/MonetDBLite",
-    "issueTracker": "https://github.com/hannesmuehleisen/MonetDBLite-R/issues",
-    "license": "https://spdx.org/licenses/MPL-2.0",
-    "version": "0.6.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.0 (2021-05-18)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Hannes",
-        "familyName": "Mühleisen",
-        "email": "hannes@cwi.nl",
-        "@id": "https://orcid.org/0000-0001-8552-0029"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Mark",
-        "familyName": "Raasveldt"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Thomas",
-        "familyName": "Lumley"
-      }
-    ],
-    "copyrightHolder": [
-      {
-        "@type": "Organization",
-        "name": "MonetDB B.V."
-      },
-      {
-        "@type": "Organization",
-        "name": "The Regents of the University of California"
-      },
-      {
-        "@type": "Organization",
-        "name": "Kungliga Tekniska Hogskolan"
-      },
-      {
-        "@type": "Organization",
-        "name": "Free Software Foundation, Inc."
-      }
-    ],
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Hannes",
-        "familyName": "Mühleisen",
-        "email": "hannes@cwi.nl",
-        "@id": "https://orcid.org/0000-0001-8552-0029"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "survey",
-        "name": "survey",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=survey"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "nycflights13",
-        "name": "nycflights13",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=nycflights13"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "RSQLite",
-        "name": "RSQLite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dbplyr",
-        "name": "dbplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dbplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "gdata",
-        "name": "gdata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gdata"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "callr",
-        "name": "callr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=callr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "DBItest",
-        "name": "DBItest",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DBItest"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "bit64",
-        "name": "bit64",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=bit64"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.2.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "DBI",
-        "name": "DBI",
-        "version": ">= 0.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DBI"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "version": ">= 0.6.4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "codetools",
-        "name": "codetools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=codetools"
-      }
-    ],
-    "readme": "https://github.com/MonetDB/MonetDBLite-R/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/hannesmuehleisen/MonetDBLite-R", "https://ci.appveyor.com/project/hannesmuehleisen/MonetDBLite-R"],
-    "keywords": [
-      "monetdb",
-      "database",
-      "sql-database",
-      "dbi",
-      "rstats",
-      "column-store"
     ]
   },
   {
