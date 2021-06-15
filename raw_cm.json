@@ -38479,7 +38479,7 @@
     "codeRepository": "https://github.com/ropensci/osmextract",
     "issueTracker": "https://github.com/ropensci/osmextract/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.1.9000",
+    "version": "0.3.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38603,7 +38603,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/osmextract/blob/master/README.md",
-    "fileSize": "2440.333KB",
+    "fileSize": "3297.305KB",
     "contIntegration": "https://codecov.io/gh/ropensci/osmextract?branch=master",
     "review": {
       "@type": "Review",
@@ -79746,204 +79746,6 @@
     ],
     "readme": "https://github.com/ropenscilabs/qcoder/blob/master/README.md",
     "contIntegration": "https://travis-ci.com/ropenscilabs/qcoder",
-    "keywords": [
-      "unconf18",
-      "r",
-      "r-package",
-      "rstats",
-      "unconf"
-    ]
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "roomba",
-    "description": "This is a package to transform large, multi-nested lists into a more\n  user-friendly format. The initial focus is on making\n  processing of return values from `jsonlite::fromJSON()` queries more seamless,\n  but ideally this package should be useful for deeply-nested lists from an array\n  of sources.",
-    "name": "roomba: Tidy up nested list hairballs",
-    "codeRepository": "https://github.com/ropenscilabs/roomba",
-    "issueTracker": "https://github.com/ropenscilabs/roomba/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.0 (2021-05-18)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Amanda",
-        "familyName": "Dobbyn"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Christine",
-        "familyName": "Stawitz"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Isabella",
-        "familyName": "Velasquez"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Jim",
-        "familyName": "Hester",
-        "email": "james.f.hester@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Laura",
-        "familyName": "DeCicco"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Jim",
-        "familyName": "Hester",
-        "email": "james.f.hester@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shiny",
-        "name": "shiny",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shiny"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      }
-    ],
-    "readme": "https://github.com/ropenscilabs/roomba/blob/master/README.md",
-    "contIntegration": "https://travis-ci.com/ropenscilabs/roomba",
     "keywords": [
       "unconf18",
       "r",
