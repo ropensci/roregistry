@@ -20,6 +20,24 @@
       "staff_maintained": false
     },
     {
+      "name": "autotest",
+      "description": "Automatic Package Testing",
+      "details": "Automatic testing of R packages via a simple YAML schema.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/autotest",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/autotest",
+      "ropenscilabs": true,
+      "date_last_commit": "2021-06-11 13:58:26",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "credentials",
       "description": "Tools for Managing SSH and Git Credentials",
       "details": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and \n    other services. For HTTPS remotes the package interfaces the 'git-credential' \n    utility which 'git' uses to store HTTP usernames and passwords. For SSH \n    remotes we provide convenient functions to find or generate appropriate SSH \n    keys. The package both helps the user to setup a local git installation, and\n    also provides a back-end for git/ssh client libraries to authenticate with \n    existing user credentials.",
@@ -77,6 +95,23 @@
       "staff_maintained": true
     },
     {
+      "name": "pkgcheck",
+      "description": "rOpenSci Package Checks",
+      "details": "Check whether a package is ready for submission to rOpenSci’s\n    peer review system.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/pkgcheck",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/pkgcheck",
+      "date_last_commit": "2021-06-09 19:19:28",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "pkgreviewr",
       "description": "rOpenSci package review project template",
       "details": "Creates files and collects materials necessary to complete an rOpenSci package review. \n    Review files are prepopulated with review package specific metadata. Review package source code is\n    also cloned for local testing and inspection.",
@@ -92,6 +127,23 @@
       "date_last_commit": "2021-03-22 09:34:58",
       "cran_archived": false,
       "staff_maintained": false
+    },
+    {
+      "name": "pkgstats",
+      "description": "Metrics of R Packages",
+      "details": "Metrics of R packages.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/pkgstats",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/pkgstats",
+      "date_last_commit": "2021-06-16 07:42:44",
+      "cran_archived": false,
+      "staff_maintained": true
     },
     {
       "name": "roblog",
@@ -127,6 +179,40 @@
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
       "date_last_commit": "2021-04-21 08:43:59",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
+      "name": "roreviewapi",
+      "description": "Plumber API to report package structure and function",
+      "details": "Plumber API to report package structure and function.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/roreviewapi",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/roreviewapi",
+      "date_last_commit": "2021-06-09 19:20:28",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
+      "name": "srr",
+      "description": "'rOpenSci' Review Roclets",
+      "details": "Companion package to 'rOpenSci' statistical software review\n    project.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/srr",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/srr",
+      "date_last_commit": "2021-06-11 13:58:48",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -6401,5 +6487,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-06-16 08:00 UTC"
+  "date": "2021-06-16 08:37 UTC"
 }
