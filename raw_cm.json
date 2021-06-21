@@ -5088,7 +5088,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "awardFindR",
     "description": "Queries a number of scientific awards databases.\n    Collects relevant results based on keyword and date parameters,\n    returns list of projects that fit those criteria as a data frame.\n    Sources include: Arnold Ventures, Carnegie Corp, Federal RePORTER,\n    Gates Foundation, MacArthur Foundation, Mellon Foundation, NEH, NIH,\n    NSF, Open Philanthropy, Open Society Foundations, Rockefeller Foundation,\n    Russell Sage Foundation, Robert Wood Johnson Foundation, \n    Sloan Foundation, Social Science Research Council, \n    John Templeton Foundation, and USASpending.gov.",
@@ -45040,6 +45043,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
+        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -65372,7 +65376,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stantargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.9000",
+    "version": "0.0.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65593,7 +65597,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.0.1",
+        "version": ">= 0.5.0.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -67704,7 +67708,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0.9000",
+    "version": "0.2.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67992,7 +67996,7 @@
     "relatedLink": "https://docs.ropensci.org/targets/",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0.9000",
+    "version": "0.5.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
