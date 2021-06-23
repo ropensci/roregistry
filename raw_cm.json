@@ -1895,7 +1895,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.204",
+    "version": "0.0.0.207",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3146,7 +3146,7 @@
     "codeRepository": "https://github.com/YuLab-SMU/treeio",
     "issueTracker": "https://github.com/YuLab-SMU/treeio/issues",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.17.1.992",
+    "version": "1.17.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5095,11 +5095,11 @@
     "@type": "SoftwareSourceCode",
     "identifier": "awardFindR",
     "description": "Queries a number of scientific awards databases.\n    Collects relevant results based on keyword and date parameters,\n    returns list of projects that fit those criteria as a data frame.\n    Sources include: Arnold Ventures, Carnegie Corp, Federal RePORTER,\n    Gates Foundation, MacArthur Foundation, Mellon Foundation, NEH, NIH,\n    NSF, Open Philanthropy, Open Society Foundations, Rockefeller Foundation,\n    Russell Sage Foundation, Robert Wood Johnson Foundation, \n    Sloan Foundation, Social Science Research Council, \n    John Templeton Foundation, and USASpending.gov.",
-    "name": "awardFindR: QDR awardFindR",
+    "name": "awardFindR: awardFindR",
     "codeRepository": "https://github.com/ropensci/awardFindR",
     "issueTracker": "https://github.com/PESData/awardFindR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11027,12 +11027,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "chirps",
-    "description": "API Client for the Climate Hazards Group InfraRed Precipitation\n  with Station Data 'CHIRPS'. The 'CHIRPS' data is a 35+ year quasi-global\n  rainfall data set, which incorporates 0.05 arc-degrees resolution satellite\n  imagery, and in-situ station data to create gridded rainfall time series for\n  trend analysis and seasonal drought monitoring. For more details on 'CHIRPS'\n  data please visit its official home page <https://www.chc.ucsb.edu/data/chirps>.\n  Requests from large time series (> 10 years) and large geographic coverage \n  (global scale) may take several minutes.",
-    "name": "chirps: API Client for CHIRPS",
+    "description": "API Client for the Climate Hazards Center 'CHIRPS' and 'CHIRTS'. \n  The 'CHIRPS' data is a quasi-global (50°S – 50°N) high-resolution \n  (0.05 arc-degrees) rainfall data set, which incorporates satellite imagery \n  and in-situ station data to create gridded rainfall time series for trend \n  analysis and seasonal drought monitoring. 'CHIRTS' is a quasi-global \n  (60°S – 70°N), high-resolution data set of daily maximum and minimum\n  temperatures. For more details on 'CHIRPS' and 'CHIRTS' data please visit \n  its official home page <https://www.chc.ucsb.edu/data>.",
+    "name": "chirps: API Client for CHIRPS and CHIRTS",
     "codeRepository": "https://github.com/ropensci/chirps",
     "issueTracker": "https://github.com/ropensci/chirps/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.9000",
+    "version": "0.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11052,9 +11052,20 @@
         "givenName": "Adam H.",
         "familyName": "Sparks",
         "@id": "https://orcid.org/0000-0002-0061-8359"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Aniruddha",
+        "familyName": "Ghosh",
+        "@id": "https://orcid.org/0000-0003-3667-8019"
       }
     ],
     "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Pete",
+        "familyName": "Peterson"
+      },
       {
         "@type": "Person",
         "givenName": "William",
@@ -11200,6 +11211,19 @@
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "terra",
+        "name": "terra",
+        "version": ">= 1.2-10",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       }
     ],
     "contIntegration": "https://codecov.io/gh/ropensci/chirps",

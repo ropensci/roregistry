@@ -141,7 +141,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/pkgstats",
-      "date_last_commit": "2021-06-16 11:19:23",
+      "date_last_commit": "2021-06-23 13:23:15",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -231,7 +231,7 @@
       "url": "https://github.com/YuLab-SMU/treeio",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2021-06-23 06:56:27",
+      "date_last_commit": "2021-06-23 08:49:48",
       "cran_archived": false,
       "staff_maintained": false
     },
@@ -397,7 +397,7 @@
     },
     {
       "name": "awardFindR",
-      "description": "QDR awardFindR",
+      "description": "awardFindR",
       "details": "Queries a number of scientific awards databases.\n    Collects relevant results based on keyword and date parameters,\n    returns list of projects that fit those criteria as a data frame.\n    Sources include: Arnold Ventures, Carnegie Corp, Federal RePORTER,\n    Gates Foundation, MacArthur Foundation, Mellon Foundation, NEH, NIH,\n    NSF, Open Philanthropy, Open Society Foundations, Rockefeller Foundation,\n    Russell Sage Foundation, Robert Wood Johnson Foundation, \n    Sloan Foundation, Social Science Research Council, \n    John Templeton Foundation, and USASpending.gov.",
       "maintainer": "Michael McCall",
       "keywords": "",
@@ -408,7 +408,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/awardFindR",
-      "date_last_commit": "2021-06-21 11:31:36",
+      "date_last_commit": "2021-06-23 08:56:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -832,8 +832,8 @@
     },
     {
       "name": "chirps",
-      "description": "API Client for CHIRPS",
-      "details": "API Client for the Climate Hazards Group InfraRed Precipitation\n  with Station Data 'CHIRPS'. The 'CHIRPS' data is a 35+ year quasi-global\n  rainfall data set, which incorporates 0.05 arc-degrees resolution satellite\n  imagery, and in-situ station data to create gridded rainfall time series for\n  trend analysis and seasonal drought monitoring. For more details on 'CHIRPS'\n  data please visit its official home page <https://www.chc.ucsb.edu/data/chirps>.\n  Requests from large time series (> 10 years) and large geographic coverage \n  (global scale) may take several minutes.",
+      "description": "API Client for CHIRPS and CHIRTS",
+      "details": "API Client for the Climate Hazards Center 'CHIRPS' and 'CHIRTS'. \n  The 'CHIRPS' data is a quasi-global (50°S – 50°N) high-resolution \n  (0.05 arc-degrees) rainfall data set, which incorporates satellite imagery \n  and in-situ station data to create gridded rainfall time series for trend \n  analysis and seasonal drought monitoring. 'CHIRTS' is a quasi-global \n  (60°S – 70°N), high-resolution data set of daily maximum and minimum\n  temperatures. For more details on 'CHIRPS' and 'CHIRTS' data please visit \n  its official home page <https://www.chc.ucsb.edu/data>.",
       "maintainer": "Kauê de Sousa",
       "keywords": "chirps, climatology, precipitation-data",
       "github": "https://github.com/ropensci/chirps",
@@ -845,7 +845,7 @@
       "url": "https://github.com/ropensci/chirps",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2020-12-14 05:27:14",
+      "date_last_commit": "2021-06-23 12:57:18",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6466,5 +6466,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-06-23 08:02 UTC"
+  "date": "2021-06-23 15:01 UTC"
 }
