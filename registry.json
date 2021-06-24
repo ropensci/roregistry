@@ -3403,26 +3403,6 @@
       "staff_maintained": false
     },
     {
-      "name": "phylocomr",
-      "description": "Interface to 'Phylocom'",
-      "details": "Interface to 'Phylocom' (<http://phylodiversity.net/phylocom/>),\n    a library for analysis of 'phylogenetic' community structure and\n    character evolution. Includes low level methods for interacting with\n    the three executables, as well as higher level interfaces for methods\n    like 'aot', 'ecovolve', 'bladj', 'phylomatic', and more.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "characterevolution, community-ecology, communitystructure, ecology, evolution, Phylocom, phylodiversity, phylogeny, species",
-      "github": "https://github.com/ropensci/phylocomr",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/phylocomr",
-      "ropensci_category": "data-extraction",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-03-17 16:40:37",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
-    },
-    {
       "name": "phylogram",
       "description": "Dendrograms for Evolutionary Analysis",
       "details": "Contains functions for developing phylogenetic trees as\n    deeply-nested lists (\"dendrogram\" objects).\n    Enables bi-directional conversion between dendrogram and\n    \"phylo\" objects\n    (see Paradis et al (2004) <doi:10.1093/bioinformatics/btg412>),\n    and features several tools for command-line tree\n    manipulation and import/export via Newick parenthetic text.",
@@ -3478,26 +3458,6 @@
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
       "date_last_commit": "2021-02-10 17:21:43",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "pixelclasser",
-      "description": "Classifies Image Pixels by Colour",
-      "details": "Contains functions to classify the pixels of an image file\n    (jpeg or tiff) by its colour. It implements a simple form of the techniques \n    known as Support Vector Machine adapted to this particular problem.",
-      "maintainer": "Carlos Real",
-      "keywords": "",
-      "github": "https://github.com/ropensci/pixelclasser",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/406",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/pixelclasser",
-      "ropensci_category": "image-processing",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-02-22 21:16:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3563,26 +3523,6 @@
       "staff_maintained": false
     },
     {
-      "name": "PostcodesioR",
-      "description": "API Wrapper Around 'Postcodes.io'",
-      "details": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around <https://postcodes.io>.",
-      "maintainer": "Eryk Walczak",
-      "keywords": "api-wrapper, geocoder, geographic-data, peer-reviewed, postcode, uk",
-      "github": "https://github.com/ropensci/PostcodesioR",
-      "status": "https://www.repostatus.org/",
-      "onboarding": "https://github.com/ropensci/software-review/issues/176",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/PostcodesioR",
-      "ropensci_category": "geospatial",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-01-07 21:51:29",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "prism",
       "description": "Access Data from the Oregon State Prism Climate Project",
       "details": "Allows users to access the Oregon State Prism climate data\n    (<https://prism.nacse.org/>). Using the web service API data\n    can easily downloaded in bulk and loaded into R for spatial analysis.\n    Some user friendly visualizations are also provided.",
@@ -3641,26 +3581,6 @@
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
-    },
-    {
-      "name": "qualtRics",
-      "description": "Download 'Qualtrics' Survey Data",
-      "details": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
-      "maintainer": "Julia Silge",
-      "keywords": "api, qualtrics, qualtrics-api, survey, survey-data",
-      "github": "https://github.com/ropensci/qualtRics",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/192",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/qualtRics",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-05-03 23:46:44",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
     },
     {
       "name": "rAltmetric",
@@ -3723,26 +3643,6 @@
       "staff_maintained": true
     },
     {
-      "name": "rAvis",
-      "description": "Interface to the Bird-Watching Dataset Proyecto AVIS",
-      "details": "Interface to <http://proyectoavis.com> database. \n    It provides means to download data filtered by species, order,\n    family, and several other criteria. Provides also basic functionality to\n    plot exploratory maps of the datasets.",
-      "maintainer": "Sara Varela",
-      "keywords": "avis, bird, birds, citizen-science, proyectoavis",
-      "github": "https://github.com/ropensci/rAvis",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rAvis",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2019-12-09 14:30:25",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "rbace",
       "description": "'Bielefeld' Academic Search Engine ('BASE') Client",
       "details": "Interface to the API for the 'Bielefeld' Academic Search\n    Engine ('BASE') (<https://www.base-search.net/>). 'BASE' is a\n    search engine for more than 150 million scholarly documents from more\n    than 7000 sources. Methods are provided for searching for documents,\n    as well as getting information on higher level groupings of documents:\n    collections and repositories within collections. Search includes\n    faceting, so you can get a high level overview of number of documents\n    across a given variable (e.g., year). 'BASE' asks users to respect a\n    rate limit, but does not enforce it themselves; we enforce that\n    rate limit.",
@@ -3803,26 +3703,6 @@
       "staff_maintained": true
     },
     {
-      "name": "rcites",
-      "description": "R Interface to the Species+ Database",
-      "details": "A programmatic interface to the Species+ <https://speciesplus.net/> database via the Species+/CITES Checklist API <https://api.speciesplus.net/>.",
-      "maintainer": "Kevin Cazelles",
-      "keywords": "api-client, cites, database, endangered-species, trade",
-      "github": "https://github.com/ropensci/rcites",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/244",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rcites",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-12-04 16:04:25",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "rcitoid",
       "description": "Client for 'Citoid'",
       "details": "Client for 'Citoid' (<https://www.mediawiki.org/wiki/Citoid>),\n    an API for getting citations for various scholarly work identifiers\n    found on 'Wikipedia'.",
@@ -3861,26 +3741,6 @@
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
-    },
-    {
-      "name": "rcol",
-      "description": "Catalogue of Life Client",
-      "details": "Client for the Catalogue of Life ('CoL')\n    (<https://www.catalogueoflife.org/>); based on the new\n    'CoL' service, not the old one. Catalogue of Life is a database of\n    taxonomic names. Includes functions for each\n    of the API methods, including searching for names, and more.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "API, api-client, biology, science, species, taxonomy, web",
-      "github": "https://github.com/ropensci/rcol",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rcol",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-02-08 17:42:48",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": true
     },
     {
       "name": "rcoreoa",
@@ -5435,7 +5295,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-06-21 23:45:21",
+      "date_last_commit": "2021-06-24 20:36:24",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6466,5 +6326,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-06-24 15:05 UTC"
+  "date": "2021-06-24 22:06 UTC"
 }
