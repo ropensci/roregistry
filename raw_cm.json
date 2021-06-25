@@ -1897,7 +1897,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.222",
+    "version": "0.0.0.241",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2081,7 +2081,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "3034.008KB",
+    "fileSize": "3049.682KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/pkgstats/blob/main/README.md",
     "relatedLink": [
@@ -26156,7 +26156,7 @@
     "keywords": ["US-NCEI", "meteorological-data", "global-weather", "weather", "weather-data", "meteorology", "station-data", "surface-weather", "data-access", "US-NCDC", "r", "gsod", "ncdc", "weather-stations", "global-data", "ncei", "weather-information", "historical-weather", "historical-data", "daily-data", "daily-weather", "rstats", "r-package"],
     "license": "https://spdx.org/licenses/MIT",
     "title": "GSODR",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "name": "GSODR: Global Surface Summary of the Day ('GSOD') Weather Data Client",
     "issueTracker": "https://github.com/ropensci/GSODR/issues",
     "programmingLanguage": {
@@ -26192,6 +26192,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
       },
       {
         "@type": "SoftwareApplication",
@@ -26281,7 +26293,6 @@
         "@type": "SoftwareApplication",
         "identifier": "roxygen2",
         "name": "roxygen2",
-        "version": ">= 6.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -26485,7 +26496,7 @@
     "relatedLink": ["https://docs.ropensci.org/GSODR/", "https://CRAN.R-project.org/package=GSODR"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "funder": {},
-    "fileSize": "48722.758KB",
+    "fileSize": "3777.459KB",
     "releaseNotes": "https://github.com/ropensci/GSODR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/GSODR/blob/main/README.md",
     "review": {
@@ -68122,6 +68133,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "DT",
+        "name": "DT",
+        "version": ">= 0.14",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DT"
       },
       {
         "@type": "SoftwareApplication",
