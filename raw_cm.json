@@ -45596,7 +45596,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "PostcodesioR",
     "description": "Free UK geocoding using data from Office for National Statistics.\n    It is using several functions to get information about post codes, outward\n    codes, reverse geocoding, nearest post codes/outward codes, validation, or\n    randomly generate a post code. API wrapper around <https://postcodes.io>.",
@@ -45742,7 +45745,17 @@
       "url": "https://github.com/ropensci/software-review/issues/176",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "api-wrapper", "geocoder", "postcode", "uk", "geographic-data", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "api-wrapper",
+      "geocoder",
+      "postcode",
+      "uk",
+      "geographic-data",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -46259,13 +46272,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "qualtRics",
     "description": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
     "name": "qualtRics: Download 'Qualtrics' Survey Data",
     "codeRepository": "https://github.com/ropensci/qualtRics",
-    "relatedLink": ["https://docs.ropensci.org/qualtRics/", "https://CRAN.R-project.org/package=qualtRics"],
+    "relatedLink": [
+      "https://docs.ropensci.org/qualtRics/",
+      "https://CRAN.R-project.org/package=qualtRics"
+    ],
     "issueTracker": "https://github.com/ropensci/qualtRics/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "3.1.4.9000",
@@ -46581,7 +46600,16 @@
       "url": "https://github.com/ropensci/software-review/issues/192",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["qualtrics", "qualtrics-api", "survey", "r", "r-package", "api", "rstats", "survey-data"]
+    "keywords": [
+      "qualtrics",
+      "qualtrics-api",
+      "survey",
+      "r",
+      "r-package",
+      "api",
+      "rstats",
+      "survey-data"
+    ]
   },
   {
     "@context": [
@@ -47217,7 +47245,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rAvis",
     "description": "Interface to <http://proyectoavis.com> database. \n    It provides means to download data filtered by species, order,\n    family, and several other criteria. Provides also basic functionality to\n    plot exploratory maps of the datasets.",
@@ -47413,7 +47444,16 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rAvis/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rAvis/blob/master/README.md",
-    "keywords": ["r", "rstats", "avis", "citizen-science", "bird", "birds", "proyectoavis", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "avis",
+      "citizen-science",
+      "bird",
+      "birds",
+      "proyectoavis",
+      "r-package"
+    ]
   },
   {
     "@context": [
