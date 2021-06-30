@@ -2950,7 +2950,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review\n    project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.85",
+    "version": "0.0.1.86",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -26022,13 +26022,20 @@
     "readme": "https://github.com/ropensci/grainchanger/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "graphql",
     "description": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax\n    and exports the AST in JSON format.",
     "name": "graphql: A GraphQL Query Parser",
     "codeRepository": "https://github.com/ropensci/graphql",
-    "relatedLink": ["https://docs.ropensci.org/graphql", "http://graphql.org", "https://CRAN.R-project.org/package=graphql"],
+    "relatedLink": [
+      "https://docs.ropensci.org/graphql",
+      "http://graphql.org",
+      "https://CRAN.R-project.org/package=graphql"
+    ],
     "issueTracker": "https://github.com/ropensci/graphql/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.5",
@@ -26129,7 +26136,13 @@
     "readme": "https://github.com/ropensci/graphql/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/graphql", "https://ci.appveyor.com/project/jeroen/graphql", "https://codecov.io/github/ropensci/graphql?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["graphql", "libgraphql", "r", "rstats", "r-package"]
+    "keywords": [
+      "graphql",
+      "libgraphql",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -27507,7 +27520,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "helminthR",
     "description": "Access to large host-parasite data is often hampered by the \n  availability of data and difficulty in obtaining it in a programmatic way\n  to encourage analyses. 'helminthR' provides a programmatic interface to the \n  London Natural History Museum's host-parasite database, one of the largest \n  host-parasite databases existing currently <https://www.nhm.ac.uk/research-curation/scientific-resources/taxonomy-systematics/host-parasites/>. The package allows the user\n  to query by host species, parasite species, and geographic location.",
@@ -27661,7 +27677,15 @@
     "releaseNotes": "https://github.com/rOpenSci/helminthR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/helminthR/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/helminthR", "https://ci.appveyor.com/project/taddallas/helminthr", "https://codecov.io/github/ropensci/helminthR?branch=master"],
-    "keywords": ["helminth", "parasites", "open-data", "disease-networks", "r", "rstats", "r-package"]
+    "keywords": [
+      "helminth",
+      "parasites",
+      "open-data",
+      "disease-networks",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -29974,7 +29998,10 @@
     "releaseNotes": "https://github.com/ropensci/jaod/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jenkins",
     "description": "Manage jobs and builds on your Jenkins CI server <https://jenkins.io/>. \n    Create and edit projects, schedule builds, manage the queue, download build logs,\n    and much more.",
@@ -30174,13 +30201,20 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jsonld",
     "description": "JSON-LD is a light-weight syntax for expressing linked data. It is primarily\n    intended for web-based programming environments, interoperable web services and for \n    storing linked data in JSON-based databases. This package provides bindings to the \n    JavaScript library for converting, expanding and compacting JSON-LD documents.",
     "name": "jsonld: JSON for Linking Data",
     "codeRepository": "https://github.com/ropensci/jsonld",
-    "relatedLink": ["https://docs.ropensci.org/jsonld", "https://www.w3.org/TR/json-ld", "https://CRAN.R-project.org/package=jsonld"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jsonld",
+      "https://www.w3.org/TR/json-ld",
+      "https://CRAN.R-project.org/package=jsonld"
+    ],
     "issueTracker": "https://github.com/ropensci/jsonld/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "version": "2.2",
@@ -30274,10 +30308,18 @@
     "readme": "https://github.com/ropensci/jsonld/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonld", "https://ci.appveyor.com/project/jeroen/jsonld", "https://codecov.io/github/ropensci/jsonld?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["json-ld", "r", "rstats", "r-package"]
+    "keywords": [
+      "json-ld",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jsonvalidate",
     "description": "Uses the node library 'is-my-json-valid' or 'ajv' to\n    validate 'JSON' against a 'JSON' schema.  Drafts 04, 06 and 07 of\n    'JSON' schema are supported.",
@@ -30413,16 +30455,29 @@
     "readme": "https://github.com/ropensci/jsonvalidate/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonvalidate", "https://codecov.io/github/ropensci/jsonvalidate?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["r", "rstats", "jsonvalidate", "json", "json-validation", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "jsonvalidate",
+      "json",
+      "json-validation",
+      "r-package"
+    ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jstor",
     "description": "Functions and helpers to import metadata, ngrams and full-texts \n    delivered by Data for Research by JSTOR. ",
     "name": "jstor: Read Data from JSTOR/DfR",
     "codeRepository": "https://github.com/ropensci/jstor",
-    "relatedLink": ["https://docs.ropensci.org/jstor", "https://CRAN.R-project.org/package=jstor"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jstor",
+      "https://CRAN.R-project.org/package=jstor"
+    ],
     "issueTracker": "https://github.com/ropensci/jstor/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.9",
@@ -30703,7 +30758,15 @@
       "url": "https://github.com/ropensci/software-review/issues/189",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["jstor", "text-analysis", "text-mining", "r", "peer-reviewed", "r-package", "rstats"],
+    "keywords": [
+      "jstor",
+      "text-analysis",
+      "text-mining",
+      "r",
+      "peer-reviewed",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -31244,13 +31307,19 @@
     "readme": "https://github.com/ropensci/lightr/blob/main/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "lingtypology",
     "description": "Provides R with the Glottolog database <https://glottolog.org/> and some more abilities for purposes of linguistic mapping. The Glottolog database contains the catalogue of languages of the world. This package helps researchers to make a linguistic maps, using philosophy of the Cross-Linguistic Linked Data project <https://clld.org/>, which allows for while at the same time facilitating uniform access to the data across publications. A tutorial for this package is available on GitHub pages <https://docs.ropensci.org/lingtypology/> and package vignette. Maps created by this package can be used both for the investigation and linguistic teaching. In addition, package provides an ability to download data from typological databases such as WALS, AUTOTYP and some others and to create your own database website.",
     "name": "lingtypology: Linguistic Typology and Mapping",
     "codeRepository": "https://github.com/ropensci/lingtypology",
-    "relatedLink": ["https://CRAN.R-project.org/package=lingtypology", "https://ropensci.github.io/lingtypology/"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=lingtypology",
+      "https://ropensci.github.io/lingtypology/"
+    ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.1.5",
@@ -31496,7 +31565,23 @@
       "url": "https://github.com/ropensci/software-review/issues/95",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["clld", "linguistics", "typology", "linguistic-maps", "autotype", "wals", "phoible", "glottolog-database", "afbo", "sails", "abvd", "atlas", "r", "r-package", "bivaltyp"],
+    "keywords": [
+      "clld",
+      "linguistics",
+      "typology",
+      "linguistic-maps",
+      "autotype",
+      "wals",
+      "phoible",
+      "glottolog-database",
+      "afbo",
+      "sails",
+      "abvd",
+      "atlas",
+      "r",
+      "r-package",
+      "bivaltyp"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -31514,13 +31599,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "magick",
     "description": "Bindings to 'ImageMagick': the most comprehensive open-source image\n    processing library available. Supports many common formats (png, jpeg, tiff,\n    pdf, etc) and manipulations (rotate, scale, crop, trim, flip, blur, etc).\n    All operations are vectorized via the Magick++ STL meaning they operate either\n    on a single frame or a series of frames for working with layers, collages,\n    or animation. In RStudio images are automatically previewed when printed to\n    the console, resulting in an interactive editing environment. The latest \n    version of the package includes a native graphics device for creating \n    in-memory graphics or drawing onto images using pixel coordinates.",
     "name": "magick: Advanced Graphics and Image-Processing in R",
     "codeRepository": "https://github.com/ropensci/magick",
-    "relatedLink": ["https://docs.ropensci.org/magick/", "https://CRAN.R-project.org/package=magick"],
+    "relatedLink": [
+      "https://docs.ropensci.org/magick/",
+      "https://CRAN.R-project.org/package=magick"
+    ],
     "issueTracker": "https://github.com/ropensci/magick/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.7.2.9000",
@@ -31777,7 +31868,17 @@
     "readme": "https://github.com/ropensci/magick/blob/master/README.md",
     "contIntegration": ["https://travis-ci.com/ropensci/magick", "https://ci.appveyor.com/project/jeroen/magick"],
     "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["magick", "imagemagick-wrapper", "image-processing", "image-manipulation", "r", "rstats", "image-magick", "imagemagick", "r-package"]
+    "keywords": [
+      "magick",
+      "imagemagick-wrapper",
+      "image-processing",
+      "image-manipulation",
+      "r",
+      "rstats",
+      "image-magick",
+      "imagemagick",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -58524,7 +58625,10 @@
     "releaseNotes": "https://github.com/ropensci/rotl/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rperseus",
     "description": "The Perseus Digital Library is a collection of classical texts. This package helps\n    you get them. The available works can also be viewed here: <http://cts.perseids.org/>.",
@@ -58769,7 +58873,20 @@
       "url": "https://github.com/ropensci/software-review/issues/145",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["greek-bible", "greek-new-testament", "latin", "classics", "greek", "perseus", "perseus-digital-library", "translation", "r", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "greek-bible",
+      "greek-new-testament",
+      "latin",
+      "classics",
+      "greek",
+      "perseus",
+      "perseus-digital-library",
+      "translation",
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -59976,7 +60093,10 @@
     "readme": "https://github.com/ropensci/rromeo/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rrricanes",
     "description": "Get archived data of past and current hurricanes and tropical \n  storms for the Atlantic and eastern Pacific oceans. Data is available for \n  storms since 1998. Datasets are updated via the rrricanesdata package. \n  Currently, this package is about 6MB of datasets. See the README or view \n  `vignette(\"drat\")` for more information.",
@@ -60386,7 +60506,14 @@
       "url": "https://github.com/ropensci/software-review/issues/118",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "hurricane", "weather", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "hurricane",
+      "weather",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -60863,7 +60990,10 @@
     "relatedLink": "https://docs.ropensci.org/rsnps/"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtika",
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
@@ -61072,7 +61202,19 @@
       "url": "https://github.com/ropensci/software-review/issues/191",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed", "tika", "extract-metadata", "extract-text", "pdf-files", "parse", "java", "tesseract"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "tika",
+      "extract-metadata",
+      "extract-text",
+      "pdf-files",
+      "parse",
+      "java",
+      "tesseract"
+    ]
   },
   {
     "@context": [
@@ -62026,13 +62168,20 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rusda",
     "description": "An interface to the web service methods provided by the United States Department of Agriculture (USDA). The Agricultural Research Service (ARS) provides a large set of databases. The current version of the package holds interfaces to the Systematic Mycology and Microbiology Laboratory (SMML), which consists of four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. It provides functions for querying these databases. The main function is \\code{associations}, which allows searching for fungus-host combinations. ",
     "name": "rusda: Interface to USDA Databases",
     "codeRepository": "https://github.com/ropensci/rusda",
-    "relatedLink": ["https://docs.ropensci.org/rusda", "http://www.usda.gov/wps/portal/usda/usdahome", "http://nt.ars-grin.gov/fungaldatabases/index.cfm"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rusda",
+      "http://www.usda.gov/wps/portal/usda/usdahome",
+      "http://nt.ars-grin.gov/fungaldatabases/index.cfm"
+    ],
     "issueTracker": "https://github.com/ropensci/rusda/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.0.8",
@@ -62188,7 +62337,11 @@
     "releaseNotes": "https://github.com/ropensci/rusda/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rusda/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rusda", "https://codecov.io/github/ropensci/rusda?branch=master"],
-    "keywords": ["r", "rstats", "r-package"],
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -63561,7 +63714,10 @@
     "readme": "https://github.com/ropensci/skimr/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "skynet",
     "description": "A flexible tool that allows generating bespoke\n    air transport statistics for urban studies based on publicly available\n    data from the Bureau of Transport Statistics (BTS) in the United States\n    <https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0>.",
@@ -63799,7 +63955,20 @@
       "url": "https://github.com/ropensci/software-review/issues/214",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["db1b", "transtats", "bureau-of-transport-statistics", "bts", "rita", "t100", "air-transport", "skynet", "peer-reviewed", "r", "r-package", "rstats"],
+    "keywords": [
+      "db1b",
+      "transtats",
+      "bureau-of-transport-statistics",
+      "bts",
+      "rita",
+      "t100",
+      "air-transport",
+      "skynet",
+      "peer-reviewed",
+      "r",
+      "r-package",
+      "rstats"
+    ],
     "relatedLink": "https://CRAN.R-project.org/package=skynet"
   },
   {
@@ -64668,13 +64837,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "spelling",
     "description": "Spell checking common document formats including latex, markdown, manual pages,\n    and description files. Includes utilities to automate checking of documentation and \n    vignettes as a unit test during 'R CMD check'. Both British and American English are \n    supported out of the box and other languages can be added. In addition, packages may\n    define a 'wordlist' to allow custom terminology without having to abuse punctuation.",
     "name": "spelling: Tools for Spell Checking in R",
     "codeRepository": "https://github.com/ropensci/spelling",
-    "relatedLink": ["https://docs.ropensci.org/spelling/", "https://CRAN.R-project.org/package=spelling"],
+    "relatedLink": [
+      "https://docs.ropensci.org/spelling/",
+      "https://CRAN.R-project.org/package=spelling"
+    ],
     "issueTracker": "https://github.com/ropensci/spelling/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.2.1",
@@ -64786,7 +64961,16 @@
     "readme": "https://github.com/ropensci/spelling/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/spelling", "https://ci.appveyor.com/project/jeroen/spelling"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["spell-check", "spell-checker", "r", "rstats", "spelling", "spellcheck", "spellchecker", "r-package"]
+    "keywords": [
+      "spell-check",
+      "spell-checker",
+      "r",
+      "rstats",
+      "spelling",
+      "spellcheck",
+      "spellchecker",
+      "r-package"
+    ]
   },
   {
     "@context": [
