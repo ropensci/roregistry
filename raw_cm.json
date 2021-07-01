@@ -30796,6 +30796,61 @@
     ]
   },
   {
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@type": "SoftwareSourceCode",
+    "identifier": "katex",
+    "description": "Convert latex math expressions to HTML for use in markdown documents or \n    package manual pages. The rendering is done in R using the V8 engine, which \n    eliminates the need for embedding the 'MathJax' library in the web pages.",
+    "name": "katex: Server-Side Math to HTML Rendering in R",
+    "codeRepository": "https://github.com/ropensci/katex",
+    "relatedLink": ["https://docs.ropensci.org/katex/", "https://katex.org/docs/options.html"],
+    "issueTracker": "https://github.com/ropensci/katex/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.1.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareSuggestions": [],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "V8",
+        "name": "V8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=V8"
+      }
+    ],
+    "readme": "https://github.com/ropensci/katex/blob/master/README.md"
+  },
+  {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
       "http://schema.org"
@@ -78942,7 +78997,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/writexl/issues",
     "license": "https://spdx.org/licenses/BSD-2-Clause",
-    "version": "1.4.0",
+    "version": "1.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
