@@ -30796,16 +30796,22 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "katex",
     "description": "Convert latex math expressions to HTML for use in markdown documents or \n    package manual pages. The rendering is done in R using the V8 engine, which \n    eliminates the need for embedding the 'MathJax' library in the web pages.",
     "name": "katex: Server-Side Math to HTML Rendering in R",
     "codeRepository": "https://github.com/ropensci/katex",
-    "relatedLink": ["https://docs.ropensci.org/katex/", "https://katex.org/docs/options.html"],
+    "relatedLink": [
+      "https://docs.ropensci.org/katex/",
+      "https://katex.org/docs/options.html"
+    ],
     "issueTracker": "https://github.com/ropensci/katex/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
