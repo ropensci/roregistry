@@ -76309,7 +76309,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/visdat/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.9000",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76364,7 +76364,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
-        "version": ">= 2.1.0",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -76445,6 +76445,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
@@ -76570,7 +76582,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/visdat/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/visdat/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/visdat", "https://ci.appveyor.com/project/ropensci/visdat", "https://codecov.io/github/ropensci/visdat?branch=master"],
+    "contIntegration": "https://codecov.io/gh/ropensci/visdat?branch=master",
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": [
       "missingness",
