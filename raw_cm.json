@@ -338,7 +338,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.119",
+    "version": "0.0.2.121",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -625,7 +625,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "14868.335KB",
+    "fileSize": "14870.343KB",
     "contIntegration": "https://codecov.io/gh/ropensci-review-tools/autotest",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/autotest/blob/main/README.md",
@@ -30336,7 +30336,7 @@
     "relatedLink": "https://docs.ropensci.org/jsonvalidate",
     "issueTracker": "https://github.com/ropensci/jsonvalidate/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30355,6 +30355,11 @@
         "givenName": "Rich",
         "familyName": "FitzJohn",
         "email": "rich.fitzjohn@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rob",
+        "familyName": "Ashton"
       }
     ],
     "contributor": [
@@ -30443,6 +30448,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": [
