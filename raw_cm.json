@@ -338,7 +338,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.121",
+    "version": "0.0.2.122",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30333,7 +30333,7 @@
     "description": "Uses the node library 'is-my-json-valid' or 'ajv' to\n    validate 'JSON' against a 'JSON' schema.  Drafts 04, 06 and 07 of\n    'JSON' schema are supported.",
     "name": "jsonvalidate: Validate 'JSON' Schema",
     "codeRepository": "https://github.com/ropensci/jsonvalidate",
-    "relatedLink": "https://docs.ropensci.org/jsonvalidate",
+    "relatedLink": ["https://docs.ropensci.org/jsonvalidate", "https://docs.ropensci.org/jsonvalidate/"],
     "issueTracker": "https://github.com/ropensci/jsonvalidate/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.3.0",
@@ -30879,7 +30879,13 @@
         "sameAs": "https://CRAN.R-project.org/package=V8"
       }
     ],
-    "readme": "https://github.com/ropensci/katex/blob/master/README.md"
+    "readme": "https://github.com/ropensci/katex/blob/master/README.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
@@ -80029,146 +80035,6 @@
     },
     "relatedLink": "https://CRAN.R-project.org/package=allcontributors",
     "releaseNotes": "https://github.com/ropenscilabs/allcontributors/blob/master/NEWS.md"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "datastorr",
-    "description": "Simple dataversioning using GitHub to store data.",
-    "name": "datastorr: Simple Data Versioning",
-    "codeRepository": "https://github.com/ropenscilabs/datastorr",
-    "issueTracker": "https://github.com/ropenscilabs/datastorr/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.0 (2021-05-18)",
-    "author": {},
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Rich",
-        "familyName": "FitzJohn",
-        "email": "rich.fitzjohn@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "version": ">= 0.11.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "whisker",
-        "name": "whisker",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=whisker"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "storr",
-        "name": "storr",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=storr"
-      }
-    ],
-    "readme": "https://github.com/ropenscilabs/datastorr/blob/master/README.md",
-    "keywords": [
-      "r",
-      "r-package",
-      "rstats"
-    ]
   },
   {
     "@context": [
