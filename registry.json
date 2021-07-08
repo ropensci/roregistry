@@ -2493,7 +2493,7 @@
       "github": "https://github.com/ropensci/katex",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/katex",
@@ -5453,15 +5453,15 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-07-05 14:56:16",
+      "date_last_commit": "2021-07-08 21:02:32",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
     },
     {
       "name": "taxa",
-      "description": "Taxonomic Classes",
-      "details": "Provides taxonomic classes for\n    groupings of taxonomic names without data, and those\n    with data. Methods provided are \"taxonomically aware\", in\n    that they know about ordering of ranks, and methods that\n    filter based on taxonomy also filter associated data. \n    This package is described in the publication: \"Taxa: An R \n    package implementing data standards and methods for \n    taxonomic data\", Zachary S.L. Foster, Scott Chamberlain,  \n    Niklaus J. Grünwald (2018) <doi:10.12688/f1000research.14013.2>.",
+      "description": "Classes for Storing and Manipulating Taxonomic Data",
+      "details": "Provides classes for storing and manipulating taxonomic data. \n Most of the classes can be treated like base R vectors (e.g. can be used \n in tables as columns and can be named). Vectorized classes can store taxon names\n and authorities, taxon IDs from databases, taxon ranks, and other types of\n information. More complex classes are provided to store taxonomic trees and\n user-defined data associated with them.",
       "maintainer": "Zachary Foster",
       "keywords": "biology, data-cleaning, hierarchy, taxon, taxonomy",
       "github": "https://github.com/ropensci/taxa",
@@ -5473,7 +5473,7 @@
       "url": "https://github.com/ropensci/taxa",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2020-10-29 10:08:52",
+      "date_last_commit": "2021-07-08 20:13:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6465,5 +6465,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-07-08 15:05 UTC"
+  "date": "2021-07-08 22:07 UTC"
 }
