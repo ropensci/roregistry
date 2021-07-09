@@ -4030,7 +4030,7 @@
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
     "keywords": ["Antarctic", "SouthernOcean", "placenames", "gazetteer", "peer-reviewed", "r", "r-package", "rstats"],
-    "contIntegration": ["https://travis-ci.org/ropensci/antanym", "https://ci.appveyor.com/project/ropensci/antanym", "https://codecov.io/gh/ropensci/antanym"],
+    "contIntegration": "https://codecov.io/gh/ropensci/antanym?branch=master",
     "readme": "https://github.com/ropensci/antanym/blob/master/README.md",
     "fileSize": "1769.203KB",
     "citation": [
@@ -9050,7 +9050,7 @@
     "codeRepository": "https://github.com/ropensci/bowerbird",
     "issueTracker": "https://github.com/ropensci/bowerbird/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.10.6",
+    "version": "0.10.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -9092,19 +9092,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "aws.s3",
-        "name": "aws.s3",
-        "version": ">= 0.3.20",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=aws.s3"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "covr",
@@ -9172,6 +9159,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=assertthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "aws.s3",
+        "name": "aws.s3",
+        "version": ">= 0.3.20",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=aws.s3"
       },
       {
         "@type": "SoftwareApplication",
@@ -10602,7 +10602,7 @@
     "codeRepository": "https://github.com/ropensci/censo2017",
     "issueTracker": "https://github.com/ropensci/censo2017/issues/",
     "license": "https://spdx.org/licenses/CC0-1.0",
-    "version": "0.5",
+    "version": "0.6.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -10708,6 +10708,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dbplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
       {
         "@type": "SoftwareApplication",
@@ -10833,7 +10845,7 @@
     ],
     "relatedLink": ["https://docs.ropensci.org/censo2017/", "https://CRAN.R-project.org/package=censo2017"],
     "readme": "https://github.com/ropensci/censo2017/blob/main/README.md",
-    "fileSize": "0KB",
+    "fileSize": "46.288KB",
     "contIntegration": "https://codecov.io/gh/ropensci/censo2017",
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable-1", "https://www.tidyverse.org/lifecycle/#stable"],
     "keywords": [
@@ -34025,7 +34037,7 @@
     "relatedLink": "https://docs.ropensci.org/MODIStsp/",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.5.9002",
+    "version": "2.0.5.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
