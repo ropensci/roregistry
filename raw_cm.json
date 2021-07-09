@@ -16842,18 +16842,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "DT",
-        "name": "DT",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DT"
       }
     ],
     "softwareRequirements": [
@@ -69055,7 +69043,7 @@
       }
     ],
     "contIntegration": ["https://travis-ci.org/ropensci/taxa", "https://codecov.io/gh/ropensci/taxa"],
-    "developmentStatus": "http://www.repostatus.org/#wip",
+    "developmentStatus": "https://www.repostatus.org/",
     "releaseNotes": "https://github.com/ropensci/taxa/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/taxa/blob/master/README.md",
     "fileSize": "1835.998KB",
@@ -69099,7 +69087,7 @@
         }
       }
     ],
-    "relatedLink": "https://docs.ropensci.org/taxa",
+    "relatedLink": ["https://docs.ropensci.org/taxa", "https://docs.ropensci.org/taxa/"],
     "contributor": {},
     "copyrightHolder": {},
     "funder": {}
