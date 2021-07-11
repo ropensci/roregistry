@@ -30493,13 +30493,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jstor",
     "description": "Functions and helpers to import metadata, ngrams and full-texts \n    delivered by Data for Research by JSTOR. ",
     "name": "jstor: Read Data from JSTOR/DfR",
     "codeRepository": "https://github.com/ropensci/jstor",
-    "relatedLink": ["https://docs.ropensci.org/jstor", "https://CRAN.R-project.org/package=jstor"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jstor",
+      "https://CRAN.R-project.org/package=jstor"
+    ],
     "issueTracker": "https://github.com/ropensci/jstor/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.9",
@@ -30780,7 +30786,15 @@
       "url": "https://github.com/ropensci/software-review/issues/189",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["jstor", "text-analysis", "text-mining", "r", "peer-reviewed", "r-package", "rstats"],
+    "keywords": [
+      "jstor",
+      "text-analysis",
+      "text-mining",
+      "r",
+      "peer-reviewed",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -33725,7 +33739,10 @@
     "isPartOf": "https://ropensci.org"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODISTools",
     "description": "Programmatic interface to the Oak Ridge National Laboratories\n    'MODIS Land Products Subsets' web services \n    (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy\n    downloads of 'MODIS' time series directly to your R workspace or\n    your computer.",
@@ -33996,7 +34013,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODIStsp",
     "description": "Allows automating the creation of time series of rasters derived\n    from MODIS satellite land products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojecting and resizing\n    data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    quality indicators should be extracted from aggregated MODIS quality\n    assurance layers and, in the case of surface reflectance products,\n    which spectral indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing users to automatically update time series\n    related to a MODIS product whenever a new image is available.\n    For additional documentation refer to the following article: \n    Busetto and Ranghetti (2016) <doi:10.1016/j.cageo.2016.08.020>.",
@@ -34534,7 +34554,20 @@
       "url": "https://github.com/ropensci/software-review/issues/184",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["modis", "gdal", "r", "preprocessing", "time-series", "remote-sensing", "satellite-imagery", "modis-data", "modis-land-products", "peer-reviewed", "r-package", "rstats"],
+    "keywords": [
+      "modis",
+      "gdal",
+      "r",
+      "preprocessing",
+      "time-series",
+      "remote-sensing",
+      "satellite-imagery",
+      "modis-data",
+      "modis-land-products",
+      "peer-reviewed",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -35145,7 +35178,10 @@
     "keywords": ["r", "tree-ring-width", "shiny-apps", "shinyapp", "tree-rings", "dendrochronology", "forest", "forestry"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "namext",
     "description": "Extract scientific names from text using the \n    Golang tool gnfinder <https://github.com/gnames/gnfinder>.",
@@ -35245,7 +35281,11 @@
       }
     ],
     "readme": "https://github.com/ropensci/namext/blob/master/README.md",
-    "keywords": ["r", "rstats", "taxonomy"]
+    "keywords": [
+      "r",
+      "rstats",
+      "taxonomy"
+    ]
   },
   {
     "@context": [
@@ -37486,7 +37526,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "oai",
     "description": "A general purpose client to work with any 'OAI-PMH'\n    (Open Archives Initiative Protocol for 'Metadata' Harvesting) service.\n    The 'OAI-PMH' protocol is described at\n    <http://www.openarchives.org/OAI/openarchivesprotocol.html>.\n    Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord',\n    'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and\n    'ListSets'.",
@@ -37670,7 +37713,15 @@
       "url": "https://github.com/ropensci/software-review/issues/19",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["oai-pmh", "rstats", "data-access", "scholarly-api", "r", "r-package", "peer-reviewed"]
+    "keywords": [
+      "oai-pmh",
+      "rstats",
+      "data-access",
+      "scholarly-api",
+      "r",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -38603,7 +38654,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "opencontext",
     "description": "Search, browse, and download data from Open Context (<https://opencontext.org>)",
@@ -38716,7 +38770,11 @@
     "relatedLink": "https://github.org/ropensci/opencontext/",
     "readme": "https://github.com/ropensci/opencontext/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/ropensci/opencontext",
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -46679,13 +46737,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rAltmetric",
     "description": "Provides a programmatic interface to the citation information and alternate metrics provided by 'Altmetric'. Data from Altmetric allows researchers to immediately track the impact of their published work, without having to wait for citations. This allows for faster engagement with the audience interested in your work. For more information, visit <https://www.altmetric.com/>.",
     "name": "rAltmetric: Retrieves Altmerics Data for Any Published Paper from 'Altmetric.com'",
     "codeRepository": "https://github.com/ropensci/rAltmetric",
-    "relatedLink": ["https://docs.ropensci.org/rAltmetric", "https://CRAN.R-project.org/package=rAltmetric"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rAltmetric",
+      "https://CRAN.R-project.org/package=rAltmetric"
+    ],
     "issueTracker": "https://github.com/ropensci/rAltmetric/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.7.9000",
@@ -46866,7 +46930,14 @@
     "readme": "https://github.com/ropensci/rAltmetric/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rAltmetric", "https://travis-ci.org/ropensci/rAltmetric", "https://ci.appveyor.com/project/ropensci/rAltmetric", "https://codecov.io/github/ropensci/rAltmetric?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["altmetrics", "r", "citations", "bibliometrics", "rstats", "r-package"]
+    "keywords": [
+      "altmetrics",
+      "r",
+      "citations",
+      "bibliometrics",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -47299,7 +47370,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rAvis",
     "description": "Interface to <http://proyectoavis.com> database. \n    It provides means to download data filtered by species, order,\n    family, and several other criteria. Provides also basic functionality to\n    plot exploratory maps of the datasets.",
@@ -47495,7 +47569,16 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rAvis/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rAvis/blob/master/README.md",
-    "keywords": ["r", "rstats", "avis", "citizen-science", "bird", "birds", "proyectoavis", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "avis",
+      "citizen-science",
+      "bird",
+      "birds",
+      "proyectoavis",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -53912,7 +53995,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rglobi",
     "description": "A programmatic interface to the web service methods\n    provided by Global Biotic Interactions (GloBI)\n    (<https://www.globalbioticinteractions.org/>). GloBI provides \n    access to spatial-temporal species interaction records from \n    sources all over the world. rglobi provides methods to search \n    species interactions by location, interaction type, and \n    taxonomic name. In addition, it supports Cypher, a graph query\n    language, to allow for executing custom queries on the GloBI \n    aggregate species interaction data set.",
@@ -54091,7 +54177,11 @@
     "releaseNotes": "https://github.com/ropensci/rglobi/blob/master/NEWS",
     "readme": "https://github.com/ropensci/rglobi/blob/main/README.md",
     "contIntegration": "https://travis-ci.org/ropensci/rglobi",
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -54948,13 +55038,19 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rmangal",
     "description": "An interface to the 'Mangal' database - a collection of ecological networks. This package includes functions to work with the 'Mangal RESTful API' methods (<https://mangal.io/doc/api/>).",
     "name": "rmangal: 'Mangal' Client",
     "codeRepository": "https://github.com/ropensci/rmangal",
-    "relatedLink": ["https://docs.ropensci.org/rmangal/", "https://mangal.io"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rmangal/",
+      "https://mangal.io"
+    ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.0.2",
@@ -55935,7 +56031,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rnaturalearthhires",
     "description": "Facilitates mapping by making natural earth map data from http://\n    www.naturalearthdata.com/ more easily available to R users. Focuses on vector\n    data.",
@@ -56020,7 +56119,11 @@
       }
     ],
     "readme": "https://github.com/ropensci/rnaturalearthhires/blob/master/README.md",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -63700,7 +63803,10 @@
     "readme": "https://github.com/ropensci/skimr/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "skynet",
     "description": "A flexible tool that allows generating bespoke\n    air transport statistics for urban studies based on publicly available\n    data from the Bureau of Transport Statistics (BTS) in the United States\n    <https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0>.",
@@ -63938,7 +64044,20 @@
       "url": "https://github.com/ropensci/software-review/issues/214",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["db1b", "transtats", "bureau-of-transport-statistics", "bts", "rita", "t100", "air-transport", "skynet", "peer-reviewed", "r", "r-package", "rstats"],
+    "keywords": [
+      "db1b",
+      "transtats",
+      "bureau-of-transport-statistics",
+      "bts",
+      "rita",
+      "t100",
+      "air-transport",
+      "skynet",
+      "peer-reviewed",
+      "r",
+      "r-package",
+      "rstats"
+    ],
     "relatedLink": "https://CRAN.R-project.org/package=skynet"
   },
   {
@@ -64807,13 +64926,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "spelling",
     "description": "Spell checking common document formats including latex, markdown, manual pages,\n    and description files. Includes utilities to automate checking of documentation and \n    vignettes as a unit test during 'R CMD check'. Both British and American English are \n    supported out of the box and other languages can be added. In addition, packages may\n    define a 'wordlist' to allow custom terminology without having to abuse punctuation.",
     "name": "spelling: Tools for Spell Checking in R",
     "codeRepository": "https://github.com/ropensci/spelling",
-    "relatedLink": ["https://docs.ropensci.org/spelling/", "https://CRAN.R-project.org/package=spelling"],
+    "relatedLink": [
+      "https://docs.ropensci.org/spelling/",
+      "https://CRAN.R-project.org/package=spelling"
+    ],
     "issueTracker": "https://github.com/ropensci/spelling/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.2.1",
@@ -64925,7 +65050,16 @@
     "readme": "https://github.com/ropensci/spelling/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/spelling", "https://ci.appveyor.com/project/jeroen/spelling"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["spell-check", "spell-checker", "r", "rstats", "spelling", "spellcheck", "spellchecker", "r-package"]
+    "keywords": [
+      "spell-check",
+      "spell-checker",
+      "r",
+      "rstats",
+      "spelling",
+      "spellcheck",
+      "spellchecker",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -66145,7 +66279,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "staypuft",
     "description": "Convert complex objects to and from R data structures.",
@@ -68612,7 +68749,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "taxa",
     "description": "Provides classes for storing and manipulating taxonomic data. \n Most of the classes can be treated like base R vectors (e.g. can be used \n in tables as columns and can be named). Vectorized classes can store taxon names\n and authorities, taxon IDs from databases, taxon ranks, and other types of\n information. More complex classes are provided to store taxonomic trees and\n user-defined data associated with them.",
@@ -72963,7 +73103,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "timefuzz",
     "description": "Time travel to test time dependent code.",
@@ -73047,7 +73190,14 @@
     ],
     "readme": "https://github.com/ropensci/timefuzz/blob/master/README.md",
     "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["r", "rstats", "testing", "tdd", "time-dependent", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "testing",
+      "tdd",
+      "time-dependent",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -79595,7 +79745,10 @@
     "keywords": ["monkeylearn", "nlp", "nlp-machine-learning", "extractor", "classifier", "r", "rstats", "r-package", "peer-reviewed"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "reviewer",
     "description": "Provides functionality to compare two versions of an rmarkdown document and display their differences in a nicely-formatted manner, along with an RStudio addin that adds the required JavaScript code to an rmarkdown document, so that when rendered to HTML it can be annotated using the Hypothes.is service.",
@@ -79724,7 +79877,13 @@
     ],
     "codeRepository": "https://github.com/ropensci-archive/reviewer",
     "readme": "https://github.com/ropensci-archive/reviewer/blob/master/README.md",
-    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats"]
+    "keywords": [
+      "ozunconf18",
+      "unconf",
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -80154,7 +80313,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "qcoder",
     "description": "A free, lightweight, open source option for analyzing text-based\n  qualitative data.\n  Enables analysis of interview transcripts, observation notes, memos, \n  and other sources. Supports the work of social scientists, historians, \n  humanists, and other researchers who use qualitative methods. Addresses \n  the unique challenges faced in analyzing qualitative data analysis. \n  Provides opportunities for researchers who otherwise might not develop \n  software to build software development skills. ",
@@ -80517,6 +80679,12 @@
     ],
     "readme": "https://github.com/ropenscilabs/qcoder/blob/master/README.md",
     "contIntegration": "https://travis-ci.com/ropenscilabs/qcoder",
-    "keywords": ["unconf18", "r", "r-package", "rstats", "unconf"]
+    "keywords": [
+      "unconf18",
+      "r",
+      "r-package",
+      "rstats",
+      "unconf"
+    ]
   }
 ]
