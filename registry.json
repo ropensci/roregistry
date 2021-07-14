@@ -1,6 +1,25 @@
 {
   "packages": [
     {
+      "name": "auk",
+      "description": "eBird Data Extraction and Processing in R",
+      "details": "Extract and process bird sightings records from\n    eBird (<http://ebird.org>), an online tool for recording bird\n    observations.  Public access to the full eBird database is via the\n    eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download>\n    for access), a downloadable text file. This package is an interface to\n    AWK for extracting data from the EBD based on taxonomic, spatial, or\n    temporal filters, to produce a manageable file size that can be\n    imported into R.",
+      "maintainer": "Matthew Strimas-Mackey",
+      "keywords": "dataset, ebird",
+      "github": "https://github.com/CornellLabofOrnithology/auk",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/136",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/CornellLabofOrnithology/auk",
+      "ropensci_category": "data-access",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-05-19 15:39:45",
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "autotest",
       "description": "Automatic Package Testing",
       "details": "Automatic testing of R packages via a simple YAML schema.",
@@ -403,7 +422,7 @@
       "github": "https://github.com/ropensci/babette",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/babette",
@@ -462,7 +481,7 @@
       "github": "https://github.com/ropensci/beastier",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/beastier",
@@ -482,7 +501,7 @@
       "github": "https://github.com/ropensci/beautier",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/beautier",
@@ -2612,7 +2631,7 @@
       "github": "https://github.com/ropensci/mauricer",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/mauricer",
@@ -2632,7 +2651,7 @@
       "github": "https://github.com/ropensci/mcbette",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/360",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/mcbette",
@@ -3536,7 +3555,7 @@
       "url": "https://github.com/ropensci/plotly",
       "ropensci_category": "data-visualization",
       "ropenscilabs": false,
-      "date_last_commit": "2021-06-22 14:07:40",
+      "date_last_commit": "2021-07-14 20:43:25",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4536,7 +4555,7 @@
       "url": "https://github.com/ropensci/rnoaa",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-06-29 21:23:22",
+      "date_last_commit": "2021-07-14 15:49:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5454,7 +5473,7 @@
       "url": "https://github.com/ropensci/taxa",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2021-07-13 01:07:45",
+      "date_last_commit": "2021-07-14 16:52:41",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5792,7 +5811,7 @@
       "url": "https://github.com/ropensci/tokenizers",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2020-06-24 18:25:09",
+      "date_last_commit": "2021-07-14 20:54:14",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6446,5 +6465,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2021-07-14 15:06 UTC"
+  "date": "2021-07-14 22:05 UTC"
 }
