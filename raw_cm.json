@@ -644,7 +644,8 @@
     "codeRepository": "https://github.com/r-lib/credentials",
     "relatedLink": [
       "https://docs.ropensci.org/credentials",
-      "https://CRAN.R-project.org/package=credentials"
+      "https://CRAN.R-project.org/package=credentials",
+      "https://docs.ropensci.org/credentials/"
     ],
     "issueTracker": "https://github.com/r-lib/credentials/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -790,7 +791,7 @@
     ],
     "releaseNotes": "https://github.com/r-lib/credentials/blob/master/NEWS",
     "readme": "https://github.com/r-lib/credentials/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/r-lib/credentials", "https://ci.appveyor.com/project/jeroen/credentials"],
+    "contIntegration": "https://ci.appveyor.com/project/jeroen/credentials",
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
@@ -42381,30 +42382,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "tidyr",
-        "name": "tidyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": [
@@ -42447,7 +42424,7 @@
     "relatedLink": ["https://docs.ropensci.org/patentsview/index.html", "https://CRAN.R-project.org/package=patentsview"],
     "releaseNotes": "https://github.com/ropensci/patentsview/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/patentsview/blob/master/README.md",
-    "contIntegration": ["https://github.com/ropensci/patentsview/actions", "https://codecov.io/github/ropensci/patentsview?branch=master"],
+    "contIntegration": "https://github.com/ropensci/patentsview/actions",
     "keywords": [
       "patents",
       "uspto",
