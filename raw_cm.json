@@ -74693,7 +74693,7 @@
     "description": "An implementation that combines trait data and a phylogenetic tree (or trees) into a \n    single object of class treedata.table. The resulting object can be easily \n    manipulated to simultaneously change the trait- and tree-level sampling.\n    Currently implemented functions allow users to use a 'data.table' syntax when\n    performing operations on the trait dataset within the treedata.table object.",
     "name": "treedata.table: Manipulation of Matched Phylogenies and Data using 'data.table'",
     "codeRepository": "https://github.com/ropensci/treedata.table",
-    "relatedLink": ["https://docs.ropensci.org/treedata.table", "https://docs.ropensci.org/treedata.table/"],
+    "relatedLink": ["https://docs.ropensci.org/treedata.table", "https://ropensci.github.io/treedata.table", "https://docs.ropensci.org/treedata.table/"],
     "issueTracker": "https://github.com/ropensci/treedata.table/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.0",
@@ -74740,6 +74740,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -74773,6 +74785,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utf8",
+        "name": "utf8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=utf8"
       }
     ],
     "softwareRequirements": [
@@ -74781,18 +74805,6 @@
         "identifier": "R",
         "name": "R",
         "version": ">= 2.10"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
       },
       {
         "@type": "SoftwareApplication",
@@ -74805,6 +74817,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=ape"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lazyeval",
+        "name": "lazyeval",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
       },
       {
         "@type": "SoftwareApplication",
@@ -74837,7 +74861,7 @@
       }
     ],
     "fileSize": "0KB",
-    "contIntegration": ["https://travis-ci.org/ropensci/treedata.table", "https://codecov.io/gh/ropensci/treedata.table"],
+    "contIntegration": ["https://codecov.io/gh/ropensci/treedata.table", "https://github.com/ropensci/treedata.table/actions"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#ropensci/treedata.table",
     "review": {
       "@type": "Review",
