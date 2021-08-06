@@ -61045,8 +61045,8 @@
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
     "name": "rtika: R Interface to 'Apache Tika' ",
     "codeRepository": "https://github.com/ropensci/rtika",
-    "relatedLink": "https://docs.ropensci.org/rtika",
-    "issueTracker": "https://github.com/ropensci/rtika/issues",
+    "relatedLink": ["https://docs.ropensci.org/rtika", "https://docs.ropensci.org/rtika/"],
+    "issueTracker": "https://github.com/ropensci/rtika/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "2.0.0",
     "programmingLanguage": {
@@ -61233,7 +61233,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.1.0"
+        "version": ">= 3.5.0"
       },
       {
         "@type": "SoftwareApplication",
@@ -61242,12 +61242,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/rtika/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rtika/blob/master/README.md",
-    "contIntegration": ["https://github.com/ropensci/rtika/actions", "https://codecov.io/github/ropensci/rtika?branch=master"],
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/191",
-      "provider": "https://ropensci.org"
-    },
+    "contIntegration": ["https://github.com/ropensci/rtika/actions/", "https://codecov.io/github/ropensci/rtika?branch=master"],
     "keywords": [
       "r",
       "rstats",
@@ -61260,7 +61255,13 @@
       "parse",
       "java",
       "tesseract"
-    ]
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
