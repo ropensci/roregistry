@@ -6145,7 +6145,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.4.3",
+    "version": "2.4.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6298,7 +6298,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5.2",
+        "version": ">= 2.6.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -27559,7 +27559,7 @@
     "relatedLink": "https://docs.ropensci.org/helminthR/",
     "issueTracker": "https://github.com/rOpenSci/helminthR/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27596,6 +27596,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
       },
       {
         "@type": "SoftwareApplication",
@@ -27678,18 +27690,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
         "provider": {
@@ -27703,7 +27703,7 @@
     ],
     "releaseNotes": "https://github.com/rOpenSci/helminthR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/helminthR/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/helminthR", "https://ci.appveyor.com/project/taddallas/helminthr", "https://codecov.io/github/ropensci/helminthR?branch=master"],
+    "contIntegration": ["https://github.com/ropensci/helminthR/actions", "https://ci.appveyor.com/project/taddallas/helminthr", "https://codecov.io/github/ropensci/helminthR?branch=master"],
     "keywords": [
       "helminth",
       "parasites",
@@ -52303,7 +52303,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.5.91",
+    "version": "0.7.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52320,9 +52320,7 @@
       {
         "@type": "Person",
         "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "familyName": "Chamberlain"
       }
     ],
     "contributor": [
@@ -52334,16 +52332,16 @@
       {
         "@type": "Person",
         "givenName": "Roy",
-        "familyName": "Mendelssohn"
+        "familyName": "Mendelssohn",
+        "email": "roy.mendelssohn@noaa.gov"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Roy",
+        "familyName": "Mendelssohn",
+        "email": "roy.mendelssohn@noaa.gov"
       }
     ],
     "softwareSuggestions": [
