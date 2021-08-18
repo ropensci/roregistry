@@ -6145,7 +6145,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.4.5",
+    "version": "2.4.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6378,6 +6378,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
@@ -32857,7 +32869,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4"
+        "version": ">= 2.4.6"
       },
       {
         "@type": "SoftwareApplication",
@@ -35300,12 +35312,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "nasapower",
-    "description": "Client for 'NASA' 'POWER' global meteorology, surface solar\n    energy and climatology data 'API'.  'POWER' (Prediction Of Worldwide Energy\n    Resource) data are freely available global meteorology and surface solar\n    energy climatology data for download with a resolution of 1/2 by 1/2 arc\n    degree longitude and latitude and are funded through the 'NASA' Earth\n    Science Directorate Applied Science Program.  For more on the data\n    themselves, a web-based data viewer and web access, please see\n    <https://power.larc.nasa.gov/>.",
+    "description": "Client for 'NASA' 'POWER' global meteorology, surface solar\n    energy and climatology data 'API'.  'POWER' (Prediction Of Worldwide Energy \n    Resource) data are freely available for download with a spatial resolution \n    of 0.5 x 0.625 degree latitude and longitude for meteorology and  1 x 1\n    degree latitude and longitude for solar parameters with various temporal\n    resolutions depending on the POWER parameter and community.  This work is\n    funded through the 'NASA' Earth Science Directorate Applied Science Program.\n    For more on the data themselves, the methodologies used in creating, a web-\n    based data viewer and web access, please see <https://power.larc.nasa.gov/>.",
     "name": "nasapower: NASA POWER API Client",
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.1.9000",
+    "version": "3.0.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35349,30 +35361,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "apsimx",
-        "name": "apsimx",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=apsimx"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -35382,30 +35370,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "terra",
-        "name": "terra",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
       {
         "@type": "SoftwareApplication",
@@ -35421,30 +35385,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rnaturalearth",
-        "name": "rnaturalearth",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rnaturalearth"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sf",
-        "name": "sf",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sf"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -35454,6 +35394,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
       }
     ],
     "softwareRequirements": [
@@ -35474,18 +35426,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=crul"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "curl",
-        "name": "curl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=curl"
       },
       {
         "@type": "SoftwareApplication",
@@ -35578,7 +35518,10 @@
           }
         ],
         "name": "{nasapower}: NASA-POWER Data from R",
-        "url": "https://CRAN.R-project.org/package=nasapower"
+        "identifier": "10.5281/zenodo.1040727",
+        "url": "https://CRAN.R-project.org/package=nasapower",
+        "@id": "https://doi.org/10.5281/zenodo.1040727",
+        "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       }
     ],
     "relatedLink": ["https://docs.ropensci.org/nasapower/", "https://CRAN.R-project.org/package=nasapower"],
@@ -49013,7 +48956,7 @@
     "codeRepository": "https://github.com/ropensci/rcrossref",
     "issueTracker": "https://github.com/ropensci/rcrossref/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0.94",
+    "version": "1.1.0.99",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49030,9 +48973,7 @@
       {
         "@type": "Person",
         "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "familyName": "Chamberlain"
       },
       {
         "@type": "Person",
@@ -49042,7 +48983,9 @@
       {
         "@type": "Person",
         "givenName": "Najko",
-        "familyName": "Jahn"
+        "familyName": "Jahn",
+        "email": "najko.jahn@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5105-1463"
       },
       {
         "@type": "Person",
@@ -49058,10 +49001,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Najko",
+        "familyName": "Jahn",
+        "email": "najko.jahn@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5105-1463"
       }
     ],
     "softwareSuggestions": [
@@ -49138,6 +49081,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=bibtex"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": [
@@ -61687,7 +61642,7 @@
     "relatedLink": "https://docs.ropensci.org/ruODK",
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.10.2.9000",
+    "version": "0.10.2.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
