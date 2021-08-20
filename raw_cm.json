@@ -1245,7 +1245,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.378",
+    "version": "0.0.1.380",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1917,7 +1917,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.271",
+    "version": "0.0.0.283",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2113,7 +2113,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "1898.876KB",
+    "fileSize": "1792.015KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/pkgstats/blob/main/README.md",
     "relatedLink": [
@@ -21316,10 +21316,10 @@
     "description": "An R Client for the Europe PubMed Central RESTful Web Service\n    (see <https://europepmc.org/RestfulWebService> for more information). It\n    gives access to both metadata on life science literature and open access\n    full texts. Europe PMC indexes all PubMed content and other literature\n    sources including Agricola, a bibliographic database of citations to the\n    agricultural literature, or Biological Patents. In addition to bibliographic\n    metadata, the client allows users to fetch citations and reference lists.\n    Links between life-science literature and other EBI databases, including\n    ENA, PDB or ChEMBL are also accessible. No registration or API key is\n    required. See the vignettes for usage examples.",
     "name": "europepmc: R Interface to the Europe PubMed Central RESTful Web Service",
     "codeRepository": "https://github.com/ropensci/europepmc",
-    "relatedLink": "https://docs.ropensci.org/europepmc",
-    "issueTracker": "http://github.com/ropensci/europepmc/issues",
+    "relatedLink": ["https://docs.ropensci.org/europepmc", "https://docs.ropensci.org/europepmc/"],
+    "issueTracker": "https://github.com/ropensci/europepmc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.0.90",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21556,7 +21556,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/europepmc/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/europepmc/blob/main/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/europepmc", "https://github.com/ropensci/europepmc/actions", "https://ci.appveyor.com/project/sckott/europepmc", "https://codecov.io/github/ropensci/europepmc?branch=master"],
+    "contIntegration": ["https://github.com/ropensci/europepmc/actions", "https://ci.appveyor.com/project/sckott/europepmc", "https://codecov.io/github/ropensci/europepmc?branch=master"],
     "keywords": [
       "europe-pmc",
       "r",
@@ -68121,7 +68121,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0",
+    "version": "0.7.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
