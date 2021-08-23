@@ -46373,7 +46373,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "qualtRics",
-    "description": "Provides functions to access survey results directly into R using \n    the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an \n    online survey and data collection software platform. See \n    <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. \n    This package is community-maintained and is not officially supported by \n    'Qualtrics'.",
+    "description": "Provides functions to access survey results directly into R\n    using the 'Qualtrics' API. 'Qualtrics'\n    <https://www.qualtrics.com/about/> is an online survey and data\n    collection software platform. See <https://api.qualtrics.com/> for\n    more information about the 'Qualtrics' API.  This package is\n    community-maintained and is not officially supported by 'Qualtrics'.",
     "name": "qualtRics: Download 'Qualtrics' Survey Data",
     "codeRepository": "https://github.com/ropensci/qualtRics",
     "relatedLink": [
@@ -46530,54 +46530,6 @@
     "softwareRequirements": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "stringr",
-        "name": "stringr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "assertthat",
         "name": "assertthat",
         "provider": {
@@ -46587,18 +46539,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "sjlabelled",
-        "name": "sjlabelled",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sjlabelled"
       },
       {
         "@type": "SoftwareApplication",
@@ -46615,51 +46555,51 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "tidyr",
-        "name": "tidyr",
+        "identifier": "glue",
+        "name": "glue",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+        "sameAs": "https://CRAN.R-project.org/package=glue"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rlang",
-        "name": "rlang",
+        "identifier": "httr",
+        "name": "httr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rlang"
+        "sameAs": "https://CRAN.R-project.org/package=httr"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
       },
       {
         "@type": "SoftwareApplication",
@@ -46675,15 +46615,87 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "lifecycle",
-        "name": "lifecycle",
+        "identifier": "purrr",
+        "name": "purrr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sjlabelled",
+        "name": "sjlabelled",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sjlabelled"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/qualtRics/blob/master/NEWS.md",
