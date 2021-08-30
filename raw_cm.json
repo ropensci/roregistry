@@ -24616,7 +24616,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "ghql",
-    "description": "A 'GraphQL' client, with an R6 interface for initializing\n    a connection to a 'GraphQL' instance, and methods for constructing\n    queries, including fragments and parameterized queries. Queries\n    are checked with the 'libgraphqlparser' C++ parser via the\n    'gaphql' package.",
+    "description": "A 'GraphQL' client, with an R6 interface for initializing\n    a connection to a 'GraphQL' instance, and methods for constructing\n    queries, including fragments and parameterized queries. Queries\n    are checked with the 'libgraphqlparser' C++ parser via the\n    'graphql' package.",
     "name": "ghql: General Purpose 'GraphQL' Client",
     "codeRepository": "https://github.com/ropensci/ghql",
     "relatedLink": ["https://docs.ropensci.org/ghql", "https://docs.ropensci.org/ghql/"],
@@ -80717,9 +80717,9 @@
     "@type": "SoftwareSourceCode",
     "identifier": "r2readthedocs",
     "description": "Convert R package documentation to a 'readthedocs' website.",
-    "name": "r2readthedocs: Convert R package documentation to a 'readthedocs' website",
+    "name": "r2readthedocs: Convert R Package Documentation to a 'readthedocs' Website",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.32",
+    "version": "0.0.0.59",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80808,11 +80808,23 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=Rd2md"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "readme": "https://github.com/ropenscilabs/r2readthedocs/blob/main/README.md",
-    "fileSize": "31.645KB",
+    "fileSize": "40.547KB",
     "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues"
