@@ -1917,7 +1917,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.297",
+    "version": "0.0.0.298",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27279,13 +27279,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "hddtools",
     "description": "Tools to discover hydrological data, accessing catalogues and databases from various data providers. The package is described in Vitolo (2017) \"hddtools: Hydrological Data Discovery Tools\" <doi:10.21105/joss.00056>.",
     "name": "hddtools: Hydrological Data Discovery Tools",
     "codeRepository": "https://github.com/ropensci/hddtools",
-    "relatedLink": ["https://docs.ropensci.org/hddtools/", "https://CRAN.R-project.org/package=hddtools"],
+    "relatedLink": [
+      "https://docs.ropensci.org/hddtools/",
+      "https://CRAN.R-project.org/package=hddtools"
+    ],
     "issueTracker": "https://github.com/ropensci/hddtools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.9.4",
@@ -27512,7 +27518,19 @@
       "url": "https://github.com/ropensci/software-review/issues/73",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "hydrology", "sepa", "precipitation", "mopex", "data60uk", "grdc", "kgclimateclass", "peer-reviewed"],
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "hydrology",
+      "sepa",
+      "precipitation",
+      "mopex",
+      "data60uk",
+      "grdc",
+      "kgclimateclass",
+      "peer-reviewed"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -28388,7 +28406,10 @@
     "readme": "https://github.com/ropensci/hydroscoper/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "IEEER",
     "description": "An interface to the IEEE Xplore Gateway, for searching\n    IEEE publications.",
@@ -28524,7 +28545,11 @@
     ],
     "readme": "https://github.com/ropensci/IEEER/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/IEEER", "https://ci.appveyor.com/project/karthik/IEEER", "https://codecov.io/github/ropensci/IEEER?branch=master"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -30219,13 +30244,20 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jsonld",
     "description": "JSON-LD is a light-weight syntax for expressing linked data. It is primarily\n    intended for web-based programming environments, interoperable web services and for \n    storing linked data in JSON-based databases. This package provides bindings to the \n    JavaScript library for converting, expanding and compacting JSON-LD documents.",
     "name": "jsonld: JSON for Linking Data",
     "codeRepository": "https://github.com/ropensci/jsonld",
-    "relatedLink": ["https://docs.ropensci.org/jsonld", "https://www.w3.org/TR/json-ld", "https://CRAN.R-project.org/package=jsonld"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jsonld",
+      "https://www.w3.org/TR/json-ld",
+      "https://CRAN.R-project.org/package=jsonld"
+    ],
     "issueTracker": "https://github.com/ropensci/jsonld/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "version": "2.2",
@@ -30319,7 +30351,12 @@
     "readme": "https://github.com/ropensci/jsonld/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonld", "https://ci.appveyor.com/project/jeroen/jsonld", "https://codecov.io/github/ropensci/jsonld?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["json-ld", "r", "rstats", "r-package"]
+    "keywords": [
+      "json-ld",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -30810,13 +30847,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "katex",
     "description": "Convert latex math expressions to HTML and 'MathML' for use in \n    markdown documents or package manual pages. The rendering is done in \n    R using the V8 engine (i.e. server-side), which eliminates the need \n    for embedding the 'MathJax' library into your web pages. In addition\n    a 'math-to-rd' wrapper is provided to automatically render beautiful\n    math in R documentation files.",
     "name": "katex: Rendering Math to HTML, 'MathML', or R-Documentation Format",
     "codeRepository": "https://github.com/ropensci/katex",
-    "relatedLink": ["https://docs.ropensci.org/katex/", "https://katex.org/docs/options.html"],
+    "relatedLink": [
+      "https://docs.ropensci.org/katex/",
+      "https://katex.org/docs/options.html"
+    ],
     "issueTracker": "https://github.com/ropensci/katex/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.1.0",
@@ -31408,13 +31451,19 @@
     "readme": "https://github.com/ropensci/lightr/blob/main/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "lingtypology",
     "description": "Provides R with the Glottolog database <https://glottolog.org/> and some more abilities for purposes of linguistic mapping. The Glottolog database contains the catalogue of languages of the world. This package helps researchers to make a linguistic maps, using philosophy of the Cross-Linguistic Linked Data project <https://clld.org/>, which allows for while at the same time facilitating uniform access to the data across publications. A tutorial for this package is available on GitHub pages <https://docs.ropensci.org/lingtypology/> and package vignette. Maps created by this package can be used both for the investigation and linguistic teaching. In addition, package provides an ability to download data from typological databases such as WALS, AUTOTYP and some others and to create your own database website.",
     "name": "lingtypology: Linguistic Typology and Mapping",
     "codeRepository": "https://github.com/ropensci/lingtypology",
-    "relatedLink": ["https://CRAN.R-project.org/package=lingtypology", "https://ropensci.github.io/lingtypology/"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=lingtypology",
+      "https://ropensci.github.io/lingtypology/"
+    ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.1.5",
@@ -31660,7 +31709,23 @@
       "url": "https://github.com/ropensci/software-review/issues/95",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["clld", "linguistics", "typology", "linguistic-maps", "autotype", "wals", "phoible", "glottolog-database", "afbo", "sails", "abvd", "atlas", "r", "r-package", "bivaltyp"],
+    "keywords": [
+      "clld",
+      "linguistics",
+      "typology",
+      "linguistic-maps",
+      "autotype",
+      "wals",
+      "phoible",
+      "glottolog-database",
+      "afbo",
+      "sails",
+      "abvd",
+      "atlas",
+      "r",
+      "r-package",
+      "bivaltyp"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -59427,7 +59492,10 @@
     "fileSize": "2866.417KB"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rppo",
     "description": "Search plant phenology data aggregated from several sources and available on the Global Plant Phenology Data Portal. ",
@@ -59618,7 +59686,12 @@
       "url": "https://github.com/ropensci/software-review/issues/207",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "r-package", "rstats", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -60948,7 +61021,10 @@
     "relatedLink": "https://docs.ropensci.org/rsnps/"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtika",
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
@@ -61152,7 +61228,19 @@
     "releaseNotes": "https://github.com/ropensci/rtika/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rtika/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/rtika/actions/", "https://codecov.io/github/ropensci/rtika?branch=master"],
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed", "tika", "extract-metadata", "extract-text", "pdf-files", "parse", "java", "tesseract"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "tika",
+      "extract-metadata",
+      "extract-text",
+      "pdf-files",
+      "parse",
+      "java",
+      "tesseract"
+    ]
   },
   {
     "@context": [
@@ -62106,13 +62194,20 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rusda",
     "description": "An interface to the web service methods provided by the United States Department of Agriculture (USDA). The Agricultural Research Service (ARS) provides a large set of databases. The current version of the package holds interfaces to the Systematic Mycology and Microbiology Laboratory (SMML), which consists of four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. It provides functions for querying these databases. The main function is \\code{associations}, which allows searching for fungus-host combinations. ",
     "name": "rusda: Interface to USDA Databases",
     "codeRepository": "https://github.com/ropensci/rusda",
-    "relatedLink": ["https://docs.ropensci.org/rusda", "http://www.usda.gov/wps/portal/usda/usdahome", "http://nt.ars-grin.gov/fungaldatabases/index.cfm"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rusda",
+      "http://www.usda.gov/wps/portal/usda/usdahome",
+      "http://nt.ars-grin.gov/fungaldatabases/index.cfm"
+    ],
     "issueTracker": "https://github.com/ropensci/rusda/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.0.8",
@@ -62268,7 +62363,11 @@
     "releaseNotes": "https://github.com/ropensci/rusda/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rusda/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rusda", "https://codecov.io/github/ropensci/rusda?branch=master"],
-    "keywords": ["r", "rstats", "r-package"],
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -62658,7 +62757,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rzmq",
     "description": "Interface to the 'ZeroMQ' lightweight messaging kernel (see <https://zeromq.org/> for more information).",
@@ -62730,7 +62832,13 @@
     "readme": "https://github.com/ropensci/rzmq/blob/master/README.md",
     "contIntegration": "https://ci.appveyor.com/project/jeroen/rzmq",
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["zmq", "zeromq", "r", "rstats", "r-package"]
+    "keywords": [
+      "zmq",
+      "zeromq",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -64755,13 +64863,19 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "spelling",
     "description": "Spell checking common document formats including latex, markdown, manual pages,\n    and description files. Includes utilities to automate checking of documentation and \n    vignettes as a unit test during 'R CMD check'. Both British and American English are \n    supported out of the box and other languages can be added. In addition, packages may\n    define a 'wordlist' to allow custom terminology without having to abuse punctuation.",
     "name": "spelling: Tools for Spell Checking in R",
     "codeRepository": "https://github.com/ropensci/spelling",
-    "relatedLink": ["https://docs.ropensci.org/spelling/", "https://CRAN.R-project.org/package=spelling"],
+    "relatedLink": [
+      "https://docs.ropensci.org/spelling/",
+      "https://CRAN.R-project.org/package=spelling"
+    ],
     "issueTracker": "https://github.com/ropensci/spelling/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.2.1",
@@ -64873,7 +64987,16 @@
     "readme": "https://github.com/ropensci/spelling/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/spelling", "https://ci.appveyor.com/project/jeroen/spelling"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["spell-check", "spell-checker", "r", "rstats", "spelling", "spellcheck", "spellchecker", "r-package"]
+    "keywords": [
+      "spell-check",
+      "spell-checker",
+      "r",
+      "rstats",
+      "spelling",
+      "spellcheck",
+      "spellchecker",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -65148,13 +65271,19 @@
     "copyrightHolder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "ssh",
     "description": "Connect to a remote server over SSH to transfer files via SCP, \n    setup a secure tunnel, or run a command or script on the host while \n    streaming stdout and stderr directly to the client.",
     "name": "ssh: Secure Shell (SSH) Client for R",
     "codeRepository": "https://github.com/ropensci/ssh",
-    "relatedLink": ["https://docs.ropensci.org/ssh/", "https://CRAN.R-project.org/package=ssh"],
+    "relatedLink": [
+      "https://docs.ropensci.org/ssh/",
+      "https://CRAN.R-project.org/package=ssh"
+    ],
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.8.0",
     "programmingLanguage": {
@@ -65302,7 +65431,14 @@
     "readme": "https://github.com/ropensci/ssh/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/ssh", "https://ci.appveyor.com/project/jeroen/ssh", "https://codecov.io/github/ropensci/ssh?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["libssh", "ssh", "ssh-client", "r", "rstats", "r-package"]
+    "keywords": [
+      "libssh",
+      "ssh",
+      "ssh-client",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
