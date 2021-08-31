@@ -75439,7 +75439,8 @@
       "https://docs.ropensci.org/unrtf",
       "https://github.com/ropensci/unrtf#readme",
       "https://www.gnu.org/software/unrtf/",
-      "https://CRAN.R-project.org/package=unrtf"
+      "https://CRAN.R-project.org/package=unrtf",
+      "https://docs.ropensci.org/unrtf/"
     ],
     "issueTracker": "http://github.com/ropensci/unrtf/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -80730,7 +80731,7 @@
     "description": "Convert R package documentation to a 'readthedocs' website.",
     "name": "r2readthedocs: Convert R Package Documentation to a 'readthedocs' Website",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.59",
+    "version": "0.0.0.66",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80798,6 +80799,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "desc",
+        "name": "desc",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=desc"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "here",
         "name": "here",
         "provider": {
@@ -80835,7 +80848,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "readme": "https://github.com/ropenscilabs/r2readthedocs/blob/main/README.md",
-    "fileSize": "40.547KB",
+    "fileSize": "53.224KB",
     "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues"
