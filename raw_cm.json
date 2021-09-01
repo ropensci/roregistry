@@ -1917,7 +1917,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.301",
+    "version": "0.0.0.304",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35334,7 +35334,7 @@
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.0.0",
+    "version": "4.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35390,6 +35390,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -35399,6 +35411,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
       },
       {
         "@type": "SoftwareApplication",
@@ -35414,15 +35438,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "spelling",
-        "name": "spelling",
+        "identifier": "vcr",
+        "name": "vcr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=spelling"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -35467,6 +35491,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ratelimitr",
+        "name": "ratelimitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ratelimitr"
       },
       {
         "@type": "SoftwareApplication",
@@ -80731,7 +80767,7 @@
     "description": "Convert R package documentation to a 'readthedocs' website.",
     "name": "r2readthedocs: Convert R Package Documentation to a 'readthedocs' Website",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.66",
+    "version": "0.0.0.67",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
