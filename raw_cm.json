@@ -35329,12 +35329,12 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "nasapower",
-    "description": "Client for 'NASA' 'POWER' global meteorology, surface solar\n    energy and climatology data 'API'.  'POWER' (Prediction Of Worldwide Energy \n    Resource) data are freely available for download with a spatial resolution \n    of 0.5 x 0.625 degree latitude and longitude for meteorology and  1 x 1\n    degree latitude and longitude for solar parameters with various temporal\n    resolutions depending on the POWER parameter and community.  This work is\n    funded through the 'NASA' Earth Science Directorate Applied Science Program.\n    For more on the data themselves, the methodologies used in creating, a web-\n    based data viewer and web access, please see <https://power.larc.nasa.gov/>.",
+    "description": "Client for 'NASA' 'POWER' global meteorology, surface solar\n    energy and climatology data 'API'.  'POWER' (Prediction Of Worldwide Energy \n    Resource) data are freely available for download with varying spatial\n    resolutions dependent on the original data and with several temporal\n    resolutions depending on the POWER parameter and community.  This work is\n    funded through the 'NASA' Earth Science Directorate Applied Science Program.\n    For more on the data themselves, the methodologies used in creating, a web-\n    based data viewer and web access, please see <https://power.larc.nasa.gov/>.",
     "name": "nasapower: NASA POWER API Client",
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.0.0.9000",
+    "version": "4.0.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35440,6 +35440,7 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
+        "version": ">= 0.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
