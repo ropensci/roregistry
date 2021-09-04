@@ -42372,7 +42372,7 @@
     "codeRepository": "https://github.com/ropensci/patentsview",
     "issueTracker": "https://github.com/ropensci/patentsview/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42440,6 +42440,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "softwareRequirements": [
