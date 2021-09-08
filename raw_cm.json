@@ -1245,7 +1245,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.403",
+    "version": "0.0.1.407",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5505,7 +5505,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5.2",
+        "version": ">= 2.6.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -5531,7 +5531,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5"
+        "version": ">= 2.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       {
         "@type": "SoftwareApplication",
@@ -5609,7 +5616,7 @@
     "releaseNotes": "https://github.com/ropensci/babette/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/babette/blob/master/README.md",
     "fileSize": "1040.984KB",
-    "contIntegration": ["https://github.com/ropensci/babette/actions", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/babette", "https://codecov.io/github/ropensci/babette/branch/master", "https://travis-ci.org/ropensci/babette", "https://codecov.io/github/ropensci/babette/branch/develop", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/beautier", "https://codecov.io/github/ropensci/beautier/branch/master", "https://travis-ci.org/ropensci/beastier", "https://codecov.io/github/ropensci/beastier/branch/master", "https://travis-ci.org/ropensci/mauricer", "https://codecov.io/github/ropensci/mauricer/branch/master", "https://travis-ci.org/KlausVigo/phangorn", "https://codecov.io/github/KlausVigo/phangorn/branch/master", "https://travis-ci.org/ropensci/tracerer", "https://codecov.io/github/ropensci/tracerer/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beastier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beautier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/mauricer-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/tracerer-on-windows/branch/master", "https://travis-ci.org", "https://www.codecov.io", "https://travis-ci.org/ropensci/lumier", "https://codecov.io/github/ropensci/lumier/branch/master"],
+    "contIntegration": ["https://github.com/ropensci/babette/actions", "https://www.codecov.io", "https://codecov.io/github/ropensci/babette/branch/master", "https://codecov.io/github/ropensci/babette/branch/develop", "https://github.com/ropensci/babette/actions", "https://github.com/ropensci/babette/actions", "https://travis-ci.com", "https://travis-ci.com", "https://www.codecov.io", "https://www.codecov.io", "https://travis-ci.com/ropensci/beautier", "https://travis-ci.com/ropensci/beautier", "https://codecov.io/github/ropensci/beautier/branch/master", "https://codecov.io/github/ropensci/beautier/branch/develop", "https://travis-ci.com/ropensci/beastier", "https://travis-ci.com/ropensci/beastier", "https://codecov.io/github/ropensci/beastier/branch/master", "https://codecov.io/github/ropensci/beastier/branch/develop", "https://travis-ci.com/ropensci/mauricer", "https://travis-ci.com/ropensci/mauricer", "https://codecov.io/github/ropensci/mauricer/branch/master", "https://codecov.io/github/ropensci/mauricer/branch/develop", "https://travis-ci.com/ropensci/tracerer", "https://travis-ci.com/ropensci/tracerer", "https://codecov.io/github/ropensci/tracerer/branch/master", "https://codecov.io/github/ropensci/tracerer/branch/develop", "https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beastier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/beautier-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/mauricer-on-windows/branch/master", "https://ci.appveyor.com/project/richelbilderbeek/tracerer-on-windows/branch/master", "https://travis-ci.com", "https://www.codecov.io", "https://travis-ci.com/ropensci/lumier", "https://codecov.io/github/ropensci/lumier/branch/master"],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -5648,6 +5655,12 @@
     ],
     "relatedLink": "https://docs.ropensci.org/babette/",
     "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Griffiths",
+        "@id": "https://orcid.org/0000-0002-1667-8233"
+      },
       {
         "@type": "Person",
         "givenName": "Giovanni",
@@ -32148,14 +32161,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "scrubr",
-        "name": "scrubr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=scrubr"
+        "name": "scrubr"
       }
     ],
     "softwareRequirements": [
@@ -32937,7 +32943,13 @@
         }
       }
     ],
-    "relatedLink": "https://docs.ropensci.org/mauricer/",
+    "relatedLink": ["https://docs.ropensci.org/mauricer/", "https://CRAN.R-project.org/package=mauricer"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "contributor": {},
     "copyrightHolder": {},
     "funder": {},
@@ -33219,7 +33231,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5"
+        "version": ">= 2.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       {
         "@type": "SoftwareApplication",
