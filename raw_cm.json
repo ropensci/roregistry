@@ -44024,10 +44024,7 @@
     "funder": {}
   },
   {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
     "@type": "SoftwareSourceCode",
     "identifier": "piggyback",
     "description": "Because larger (> 50 MB) data files cannot easily be committed to git,\n  a different approach is required to manage data associated with an analysis in a \n  GitHub repository.  This package provides a simple work-around by allowing larger\n  (up to 2 GB) data files to piggyback on a repository as assets attached to individual\n  GitHub releases.  These files are not handled by git in any way, but instead are\n  uploaded, downloaded, or edited directly by calls through the GitHub API. These\n  data files can be versioned manually by creating different releases.  This approach\n  works equally well with public or private repositories.  Data can be uploaded\n  and downloaded programmatically from scripts. No authentication is required to\n  download data from public repositories.",
@@ -44035,13 +44032,19 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -44190,6 +44193,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=usethis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
       }
     ],
     "softwareRequirements": [
@@ -44267,18 +44282,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
         "provider": {
@@ -44302,32 +44305,19 @@
         "sameAs": "https://CRAN.R-project.org/package=memoise"
       }
     ],
+    "fileSize": "0KB",
+    "funder": {},
     "releaseNotes": "https://github.com/ropensci/piggyback/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/piggyback/blob/master/README.md",
-    "fileSize": "275.036KB",
     "contIntegration": ["https://github.com/ropensci/piggyback/actions", "https://codecov.io/github/ropensci/piggyback?branch=master"],
     "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
-    "keywords": [
-      "git-lfs",
-      "data-store",
-      "r",
-      "peer-reviewed",
-      "r-package",
-      "rstats"
-    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/220",
       "provider": "https://ropensci.org"
     },
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "relatedLink": "https://CRAN.R-project.org/package=piggyback",
-    "funder": {}
+    "keywords": ["git-lfs", "data-store", "r", "peer-reviewed", "r-package", "rstats"],
+    "relatedLink": "https://CRAN.R-project.org/package=piggyback"
   },
   {
     "@context": [
