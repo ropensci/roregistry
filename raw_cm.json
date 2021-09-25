@@ -1556,7 +1556,10 @@
     "readme": "https://github.com/ropensci-review-tools/pkgcheck/blob/main/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "pkgreviewr",
     "description": "Creates files and collects materials necessary to complete an rOpenSci package review. \n    Review files are prepopulated with review package specific metadata. Review package source code is\n    also cloned for local testing and inspection.",
@@ -1937,7 +1940,16 @@
     "readme": "https://github.com/ropensci-org/pkgreviewr/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci-org/pkgreviewr/actions", "https://codecov.io/gh/ropensci-org/pkgreviewr"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
-    "keywords": ["unconf18", "r", "r-package", "rstats", "review", "ropensci-reviews", "ropensci", "unconf"]
+    "keywords": [
+      "unconf18",
+      "r",
+      "r-package",
+      "rstats",
+      "review",
+      "ropensci-reviews",
+      "ropensci",
+      "unconf"
+    ]
   },
   {
     "@context": [
@@ -4183,13 +4195,20 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "antiword",
     "description": "Wraps the 'AntiWord' utility to extract text from Microsoft\n    Word documents. The utility only supports the old 'doc' format, not the \n    new xml based 'docx' format. Use the 'xml2' package to read the latter.",
     "name": "antiword: Extract Text from Microsoft Word Documents",
     "codeRepository": "https://github.com/ropensci/antiword",
-    "relatedLink": ["https://docs.ropensci.org/antiword", "http://www.winfield.demon.nl", "https://CRAN.R-project.org/package=antiword"],
+    "relatedLink": [
+      "https://docs.ropensci.org/antiword",
+      "http://www.winfield.demon.nl",
+      "https://CRAN.R-project.org/package=antiword"
+    ],
     "issueTracker": "http://github.com/ropensci/antiword/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.3",
@@ -4251,7 +4270,13 @@
     "readme": "https://github.com/ropensci/antiword/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/antiword", "https://ci.appveyor.com/project/jeroen/antiword"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["antiword", "extract-text", "r", "rstats", "r-package"]
+    "keywords": [
+      "antiword",
+      "extract-text",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -4698,13 +4723,19 @@
     "readme": "https://github.com/ropensci/arkdb/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "aRxiv",
     "description": "An interface to the API for 'arXiv'\n    (<https://arxiv.org>), a repository of electronic preprints for\n    computer science, mathematics, physics, quantitative biology,\n    quantitative finance, and statistics.",
     "name": "aRxiv: Interface to the arXiv API",
     "codeRepository": "https://github.com/ropensci/aRxiv",
-    "relatedLink": ["https://docs.ropensci.org/aRxiv", "https://CRAN.R-project.org/package=aRxiv"],
+    "relatedLink": [
+      "https://docs.ropensci.org/aRxiv",
+      "https://CRAN.R-project.org/package=aRxiv"
+    ],
     "issueTracker": "https://github.com/ropensci/aRxiv/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.5.20",
@@ -4851,7 +4882,15 @@
     "readme": "https://github.com/ropensci/aRxiv/blob/master/README.md",
     "contIntegration": ["https://ci.appveyor.com/project/ropensci/aRxiv", "https://travis-ci.org/", "https://codecov.io/gh/ropensci/aRxiv"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["arxiv-api", "arxiv", "arxiv-org", "arxiv-analytics", "r", "rstats", "r-package"]
+    "keywords": [
+      "arxiv-api",
+      "arxiv",
+      "arxiv-org",
+      "arxiv-analytics",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -26675,7 +26714,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gtfsr",
     "description": "Provides API wrappers for popular public GTFS feed sharing sites, reads feed data into a gtfs data object, validates data quality, provides convenience functions for common tasks.",
@@ -26944,7 +26986,12 @@
       "url": "https://github.com/ropensci/software-review/issues/55",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -27372,13 +27419,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "hddtools",
     "description": "Tools to discover hydrological data, accessing catalogues and databases from various data providers. The package is described in Vitolo (2017) \"hddtools: Hydrological Data Discovery Tools\" <doi:10.21105/joss.00056>.",
     "name": "hddtools: Hydrological Data Discovery Tools",
     "codeRepository": "https://github.com/ropensci/hddtools",
-    "relatedLink": ["https://docs.ropensci.org/hddtools/", "https://CRAN.R-project.org/package=hddtools"],
+    "relatedLink": [
+      "https://docs.ropensci.org/hddtools/",
+      "https://CRAN.R-project.org/package=hddtools"
+    ],
     "issueTracker": "https://github.com/ropensci/hddtools/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.9.4",
@@ -27605,7 +27658,19 @@
       "url": "https://github.com/ropensci/software-review/issues/73",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "hydrology", "sepa", "precipitation", "mopex", "data60uk", "grdc", "kgclimateclass", "peer-reviewed"],
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "hydrology",
+      "sepa",
+      "precipitation",
+      "mopex",
+      "data60uk",
+      "grdc",
+      "kgclimateclass",
+      "peer-reviewed"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -30319,13 +30384,20 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jsonld",
     "description": "JSON-LD is a light-weight syntax for expressing linked data. It is primarily\n    intended for web-based programming environments, interoperable web services and for \n    storing linked data in JSON-based databases. This package provides bindings to the \n    JavaScript library for converting, expanding and compacting JSON-LD documents.",
     "name": "jsonld: JSON for Linking Data",
     "codeRepository": "https://github.com/ropensci/jsonld",
-    "relatedLink": ["https://docs.ropensci.org/jsonld", "https://www.w3.org/TR/json-ld", "https://CRAN.R-project.org/package=jsonld"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jsonld",
+      "https://www.w3.org/TR/json-ld",
+      "https://CRAN.R-project.org/package=jsonld"
+    ],
     "issueTracker": "https://github.com/ropensci/jsonld/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "version": "2.2",
@@ -30419,7 +30491,12 @@
     "readme": "https://github.com/ropensci/jsonld/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonld", "https://ci.appveyor.com/project/jeroen/jsonld", "https://codecov.io/github/ropensci/jsonld?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["json-ld", "r", "rstats", "r-package"]
+    "keywords": [
+      "json-ld",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -30910,13 +30987,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "katex",
     "description": "Convert latex math expressions to HTML and 'MathML' for use in \n    markdown documents or package manual pages. The rendering is done in \n    R using the V8 engine (i.e. server-side), which eliminates the need \n    for embedding the 'MathJax' library into your web pages. In addition\n    a 'math-to-rd' wrapper is provided to automatically render beautiful\n    math in R documentation files.",
     "name": "katex: Rendering Math to HTML, 'MathML', or R-Documentation Format",
     "codeRepository": "https://github.com/ropensci/katex",
-    "relatedLink": ["https://docs.ropensci.org/katex/", "https://katex.org/docs/options.html"],
+    "relatedLink": [
+      "https://docs.ropensci.org/katex/",
+      "https://katex.org/docs/options.html"
+    ],
     "issueTracker": "https://github.com/ropensci/katex/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.3.0",
@@ -31508,13 +31591,19 @@
     "readme": "https://github.com/ropensci/lightr/blob/main/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "lingtypology",
     "description": "Provides R with the Glottolog database <https://glottolog.org/> and some more abilities for purposes of linguistic mapping. The Glottolog database contains the catalogue of languages of the world. This package helps researchers to make a linguistic maps, using philosophy of the Cross-Linguistic Linked Data project <https://clld.org/>, which allows for while at the same time facilitating uniform access to the data across publications. A tutorial for this package is available on GitHub pages <https://docs.ropensci.org/lingtypology/> and package vignette. Maps created by this package can be used both for the investigation and linguistic teaching. In addition, package provides an ability to download data from typological databases such as WALS, AUTOTYP and some others and to create your own database website.",
     "name": "lingtypology: Linguistic Typology and Mapping",
     "codeRepository": "https://github.com/ropensci/lingtypology",
-    "relatedLink": ["https://CRAN.R-project.org/package=lingtypology", "https://ropensci.github.io/lingtypology/"],
+    "relatedLink": [
+      "https://CRAN.R-project.org/package=lingtypology",
+      "https://ropensci.github.io/lingtypology/"
+    ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.1.5",
@@ -31760,7 +31849,23 @@
       "url": "https://github.com/ropensci/software-review/issues/95",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["clld", "linguistics", "typology", "linguistic-maps", "autotype", "wals", "phoible", "glottolog-database", "afbo", "sails", "abvd", "atlas", "r", "r-package", "bivaltyp"],
+    "keywords": [
+      "clld",
+      "linguistics",
+      "typology",
+      "linguistic-maps",
+      "autotype",
+      "wals",
+      "phoible",
+      "glottolog-database",
+      "afbo",
+      "sails",
+      "abvd",
+      "atlas",
+      "r",
+      "r-package",
+      "bivaltyp"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -34077,7 +34182,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "MODIStsp",
     "description": "Allows automating the creation of time series of rasters derived\n    from MODIS satellite land products data. It performs several typical\n    preprocessing steps such as download, mosaicking, reprojecting and resizing\n    data acquired on a specified time period. All processing parameters\n    can be set using a user-friendly GUI. Users can select which layers of\n    the original MODIS HDF files they want to process, which additional\n    quality indicators should be extracted from aggregated MODIS quality\n    assurance layers and, in the case of surface reflectance products,\n    which spectral indexes should be computed from the original reflectance\n    bands. For each output layer, outputs are saved as single-band raster\n    files corresponding to each available acquisition date. Virtual files\n    allowing access to the entire time series as a single file are also created.\n    Command-line execution exploiting a previously saved processing options\n    file is also possible, allowing users to automatically update time series\n    related to a MODIS product whenever a new image is available.\n    For additional documentation refer to the following article: \n    Busetto and Ranghetti (2016) <doi:10.1016/j.cageo.2016.08.020>.",
@@ -34615,7 +34723,20 @@
       "url": "https://github.com/ropensci/software-review/issues/184",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["modis", "gdal", "r", "preprocessing", "time-series", "remote-sensing", "satellite-imagery", "modis-data", "modis-land-products", "peer-reviewed", "r-package", "rstats"],
+    "keywords": [
+      "modis",
+      "gdal",
+      "r",
+      "preprocessing",
+      "time-series",
+      "remote-sensing",
+      "satellite-imagery",
+      "modis-data",
+      "modis-land-products",
+      "peer-reviewed",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -38362,13 +38483,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "opencage",
     "description": "Geocode with the OpenCage API, either from place name to longitude \n    and latitude (forward geocoding) or from longitude and latitude to the name \n    and address of a location (reverse geocoding), see \n    <https://opencagedata.com>.",
     "name": "opencage: Geocode with the OpenCage API",
     "codeRepository": "https://github.com/ropensci/opencage",
-    "relatedLink": ["https://docs.ropensci.org/opencage/", "https://CRAN.R-project.org/package=opencage"],
+    "relatedLink": [
+      "https://docs.ropensci.org/opencage/",
+      "https://CRAN.R-project.org/package=opencage"
+    ],
     "issueTracker": "https://github.com/ropensci/opencage/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.2.2.9000",
@@ -38658,7 +38785,19 @@
       "url": "https://github.com/ropensci/software-review/issues/36",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["rstats", "rspatial", "geocode", "opencage-geocoder", "r", "opencage-api", "opencage", "geocoder", "placenames", "r-package", "peer-reviewed"]
+    "keywords": [
+      "rstats",
+      "rspatial",
+      "geocode",
+      "opencage-geocoder",
+      "r",
+      "opencage-api",
+      "opencage",
+      "geocoder",
+      "placenames",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -40624,13 +40763,19 @@
     "keywords": ["ocean", "data", "scientific-data-types", "time-series", "r", "rstats", "r-package"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "outcomerate",
     "description": "Standardized survey outcome rate functions, including the response rate, contact rate, cooperation rate, and refusal rate. These outcome rates allow survey researchers to measure the quality of survey data using definitions published by the American Association of Public Opinion Research (AAPOR). For details on these standards, see AAPOR (2016) <https://www.aapor.org/Standards-Ethics/Standard-Definitions-(1).aspx>. ",
     "name": "outcomerate: AAPOR Survey Outcome Rates",
     "codeRepository": "https://github.com/ropensci/outcomerate",
-    "relatedLink": ["https://docs.ropensci.org/outcomerate", "https://CRAN.R-project.org/package=outcomerate"],
+    "relatedLink": [
+      "https://docs.ropensci.org/outcomerate",
+      "https://CRAN.R-project.org/package=outcomerate"
+    ],
     "issueTracker": "https://github.com/ropensci/outcomerate/issues",
     "license": "https://spdx.org/licenses/CC0-1.0",
     "version": "1.0.1.9000",
@@ -40823,7 +40968,16 @@
       "url": "https://github.com/ropensci/software-review/issues/213",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "survey", "aapor", "standards", "disposition-codes", "peer-reviewed", "r-package", "rstats"],
+    "keywords": [
+      "r",
+      "survey",
+      "aapor",
+      "standards",
+      "disposition-codes",
+      "peer-reviewed",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -42357,7 +42511,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "patentsview",
-    "description": "Provides functions to simplify the 'PatentsView' API\n    (<http://www.patentsview.org/api/doc.html>) query language,\n    send GET and POST requests to the API's seven endpoints, and parse the data\n    that comes back.",
+    "description": "Provides functions to simplify the 'PatentsView' API\n    (<https://patentsview.org/apis/purpose>) query language,\n    send GET and POST requests to the API's seven endpoints, and parse the data\n    that comes back.",
     "name": "patentsview: An R Client to the 'PatentsView' API",
     "codeRepository": "https://github.com/ropensci/patentsview",
     "issueTracker": "https://github.com/ropensci/patentsview/issues",
@@ -53998,7 +54152,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rglobi",
     "description": "A programmatic interface to the web service methods\n    provided by Global Biotic Interactions (GloBI)\n    (<https://www.globalbioticinteractions.org/>). GloBI provides \n    access to spatial-temporal species interaction records from \n    sources all over the world. rglobi provides methods to search \n    species interactions by location, interaction type, and \n    taxonomic name. In addition, it supports Cypher, a graph query\n    language, to allow for executing custom queries on the GloBI \n    aggregate species interaction data set.",
@@ -54177,7 +54334,11 @@
     "releaseNotes": "https://github.com/ropensci/rglobi/blob/master/NEWS",
     "readme": "https://github.com/ropensci/rglobi/blob/main/README.md",
     "contIntegration": ["https://github.com/ropensci/rglobi/actions", "https://travis-ci.org/ropensci/rglobi"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -55035,13 +55196,19 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rmangal",
     "description": "An interface to the 'Mangal' database - a collection of ecological networks. This package includes functions to work with the 'Mangal RESTful API' methods (<https://mangal.io/doc/api/>).",
     "name": "rmangal: 'Mangal' Client",
     "codeRepository": "https://github.com/ropensci/rmangal",
-    "relatedLink": ["https://docs.ropensci.org/rmangal/", "https://mangal.io"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rmangal/",
+      "https://mangal.io"
+    ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "2.0.2",
@@ -60571,7 +60738,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rrricanesdata",
     "description": "Includes storm discussions, forecast/advisories, public advisories, \n  wind speed probabilities, strike probabilities and more. This package can be \n  used along with rrricanes (>= 0.2.0-6). Data is considered public domain via \n  the National Hurricane Center.",
@@ -60629,7 +60799,12 @@
       "url": "https://github.com/ropensci/software-review/issues/118",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "weather", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "weather",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -61037,7 +61212,10 @@
     "relatedLink": "https://docs.ropensci.org/rsnps/"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rtika",
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
@@ -61241,7 +61419,19 @@
     "releaseNotes": "https://github.com/ropensci/rtika/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rtika/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/rtika/actions/", "https://codecov.io/github/ropensci/rtika?branch=master"],
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed", "tika", "extract-metadata", "extract-text", "pdf-files", "parse", "java", "tesseract"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "tika",
+      "extract-metadata",
+      "extract-text",
+      "pdf-files",
+      "parse",
+      "java",
+      "tesseract"
+    ]
   },
   {
     "@context": [
@@ -71164,13 +71354,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "textreuse",
     "description": "Tools for measuring similarity among documents and detecting\n    passages which have been reused. Implements shingled n-gram, skip n-gram,\n    and other tokenizers; similarity/dissimilarity functions; pairwise\n    comparisons; minhash and locality sensitive hashing algorithms; and a\n    version of the Smith-Waterman local alignment algorithm suitable for\n    natural language.",
     "name": "textreuse: Detect Text Reuse and Document Similarity",
     "codeRepository": "https://github.com/ropensci/textreuse",
-    "relatedLink": ["https://docs.ropensci.org/textreuse", "https://CRAN.R-project.org/package=textreuse"],
+    "relatedLink": [
+      "https://docs.ropensci.org/textreuse",
+      "https://CRAN.R-project.org/package=textreuse"
+    ],
     "issueTracker": "https://github.com/ropensci/textreuse/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.1.5",
@@ -71393,7 +71589,12 @@
       "url": "https://github.com/ropensci/software-review/issues/20",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -73448,13 +73649,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "tokenizers",
     "description": "Convert natural language text into tokens. Includes tokenizers for\n    shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs,\n    characters, shingled characters, lines, tweets, Penn Treebank, regular\n    expressions, as well as functions for counting characters, words, and sentences,\n    and a function for splitting longer texts into separate documents, each with\n    the same number of words.  The tokenizers have a consistent interface, and\n    the package is built on the 'stringi' and 'Rcpp' packages for  fast\n    yet correct tokenization in 'UTF-8'. ",
     "name": "tokenizers: Fast, Consistent Tokenization of Natural Language Text",
     "codeRepository": "https://github.com/ropensci/tokenizers",
-    "relatedLink": ["https://docs.ropensci.org/tokenizers/", "https://CRAN.R-project.org/package=tokenizers"],
+    "relatedLink": [
+      "https://docs.ropensci.org/tokenizers/",
+      "https://CRAN.R-project.org/package=tokenizers"
+    ],
     "issueTracker": "https://github.com/ropensci/tokenizers/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.2",
@@ -73637,7 +73844,15 @@
       "url": "https://github.com/ropensci/software-review/issues/33",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["text-mining", "tokenizer", "rstats", "nlp", "r", "r-package", "peer-reviewed"],
+    "keywords": [
+      "text-mining",
+      "tokenizer",
+      "rstats",
+      "nlp",
+      "r",
+      "r-package",
+      "peer-reviewed"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -74873,7 +75088,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "treestartr",
     "description": "Combine a list of taxa with a phylogeny to generate a starting tree for use in\n    total evidence dating analyses.",
@@ -75005,10 +75223,17 @@
       "url": "https://github.com/ropensci/software-review/issues/239",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "trufflesniffer",
     "description": "Scan secrets in r scripts, packages, or projects.",
@@ -75087,7 +75312,13 @@
     "readme": "https://github.com/ropensci/trufflesniffer/blob/master/README.md",
     "contIntegration": "https://github.com/ropensci/trufflesniffer/actions?query=workflow%3AR-CMD-check",
     "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["r", "rstats", "secrets", "r-package", "truffle"]
+    "keywords": [
+      "r",
+      "rstats",
+      "secrets",
+      "r-package",
+      "truffle"
+    ]
   },
   {
     "@context": [
@@ -75402,13 +75633,20 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "unrtf",
     "description": "Wraps the 'unrtf' utility to extract text from RTF files. Supports\n    document conversion to HTML, LaTeX or plain text. Output in HTML is recommended\n    because 'unrtf' has limited support for converting between character encodings.",
     "name": "unrtf: Extract Text from Rich Text Format (RTF) Documents",
     "codeRepository": "https://github.com/ropensci/unrtf",
-    "relatedLink": ["https://docs.ropensci.org/unrtf/", "https://www.gnu.org/software/unrtf/", "https://CRAN.R-project.org/package=unrtf"],
+    "relatedLink": [
+      "https://docs.ropensci.org/unrtf/",
+      "https://www.gnu.org/software/unrtf/",
+      "https://CRAN.R-project.org/package=unrtf"
+    ],
     "issueTracker": "http://github.com/ropensci/unrtf/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.4",
@@ -75468,7 +75706,14 @@
     "readme": "https://github.com/ropensci/unrtf/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/unrtf", "https://ci.appveyor.com/project/jeroen/unrtf", "https://codecov.io/github/ropensci/unrtf?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["rtf", "extract-text", "unrtf", "r", "rstats", "r-package"]
+    "keywords": [
+      "rtf",
+      "extract-text",
+      "unrtf",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -76345,13 +76590,19 @@
     "releaseNotes": "https://github.com/ropensci/virtuoso/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "visdat",
     "description": "Create preliminary exploratory data visualisations of an entire \n    dataset to identify problems or unexpected features using 'ggplot2'.",
     "name": "visdat: Preliminary Visualisation of Data",
     "codeRepository": "https://github.com/ropensci/visdat",
-    "relatedLink": ["http://visdat.njtierney.com/", "https://CRAN.R-project.org/package=visdat"],
+    "relatedLink": [
+      "http://visdat.njtierney.com/",
+      "https://CRAN.R-project.org/package=visdat"
+    ],
     "issueTracker": "https://github.com/ropensci/visdat/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.6.0.9000",
@@ -76651,7 +76902,16 @@
       "url": "https://github.com/ropensci/software-review/issues/87",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["missingness", "visualisation", "r", "exploratory-data-analysis", "ropensci", "r-package", "rstats", "peer-reviewed"],
+    "keywords": [
+      "missingness",
+      "visualisation",
+      "r",
+      "exploratory-data-analysis",
+      "ropensci",
+      "r-package",
+      "rstats",
+      "peer-reviewed"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -76683,7 +76943,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "wateRinfo",
     "description": "wateRinfo facilitates access to waterinfo.be \n    (<https://www.waterinfo.be>), a website managed by the Flanders Environment \n    Agency (VMM) and Flanders Hydraulics Research. The website provides access \n    to real-time water and weather related environmental variables for Flanders \n    (Belgium), such as rainfall, air pressure, discharge, and water level. The \n    package provides functions to search for stations and variables, and \n    download time series.",
@@ -76891,7 +77154,20 @@
     "releaseNotes": "https://github.com/ropensci/wateRinfo/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/wateRinfo/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/wateRinfo/actions", "https://codecov.io/gh/ropensci/wateRinfo"],
-    "keywords": ["r", "package", "api", "ropensci", "open-science", "water", "weather", "climate", "r-package", "rstats", "lifewatch", "oscibio"]
+    "keywords": [
+      "r",
+      "package",
+      "api",
+      "ropensci",
+      "open-science",
+      "water",
+      "weather",
+      "climate",
+      "r-package",
+      "rstats",
+      "lifewatch",
+      "oscibio"
+    ]
   },
   {
     "@context": [
@@ -79175,13 +79451,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "xslt",
     "description": "An extension for the 'xml2' package to transform XML documents\n    by applying an 'xslt' style-sheet.",
     "name": "xslt: Extensible Style-Sheet Language Transformations",
     "codeRepository": "https://github.com/ropensci/xslt",
-    "relatedLink": ["https://docs.ropensci.org/xslt/", "https://CRAN.R-project.org/package=xslt"],
+    "relatedLink": [
+      "https://docs.ropensci.org/xslt/",
+      "https://CRAN.R-project.org/package=xslt"
+    ],
     "issueTracker": "https://github.com/ropensci/xslt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.4.3",
@@ -79267,7 +79549,13 @@
     "readme": "https://github.com/ropensci/xslt/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/xslt", "https://ci.appveyor.com/project/jeroen/xslt"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["xslt", "xml", "r", "rstats", "r-package"]
+    "keywords": [
+      "xslt",
+      "xml",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -80038,7 +80326,10 @@
     "releaseNotes": "https://github.com/ropenscilabs/allcontributors/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gendercoder",
     "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
@@ -80266,7 +80557,14 @@
     "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/gendercoder/actions", "https://github.com/ropenscilabs/gendercoder/actions"],
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable", "https://www.repostatus.org/#active"],
-    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats", "gender-diversity"]
+    "keywords": [
+      "ozunconf18",
+      "unconf",
+      "r",
+      "r-package",
+      "rstats",
+      "gender-diversity"
+    ]
   },
   {
     "@context": [
