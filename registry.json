@@ -33,7 +33,7 @@
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/autotest",
       "ropenscilabs": true,
-      "date_last_commit": "2021-09-16 13:48:22",
+      "date_last_commit": "2021-09-27 15:01:02",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -107,7 +107,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/pkgcheck",
-      "date_last_commit": "2021-09-24 11:11:01",
+      "date_last_commit": "2021-09-27 15:01:48",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -141,7 +141,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci-review-tools/pkgstats",
-      "date_last_commit": "2021-09-26 11:57:42",
+      "date_last_commit": "2021-09-27 15:02:23",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -195,7 +195,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
-      "date_last_commit": "2021-09-27 15:00:21",
+      "date_last_commit": "2021-09-27 16:04:08",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -212,7 +212,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/srr",
-      "date_last_commit": "2021-09-18 09:39:36",
+      "date_last_commit": "2021-09-27 15:10:05",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -430,7 +430,7 @@
       "ropenscilabs": false,
       "date_last_commit": "2021-09-26 10:52:08",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -2363,6 +2363,24 @@
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
+    },
+    {
+      "name": "jagstargets",
+      "description": "Targets for JAGS Workflows",
+      "details": "Bayesian data analysis usually incurs long runtimes\n  and cumbersome custom code.\n  A pipeline toolkit tailored to Bayesian statisticians,\n  the 'jagstargets' R package is leverages\n  'targets' and 'R2jags' to ease this burden.\n  'jagstargets' makes it super easy to set up scalable\n  JAGS pipelines that automatically parallelize the computation\n  and skip expensive steps when the results are already up to date.\n  Minimal custom code is required, and there is no need to manually\n  configure branching, so usage is much easier than 'targets' alone.\n  For the underlying methodology, please refer\n  to the documentation of 'targets' <doi:10.21105/joss.02959> and 'JAGS'\n  (Plummer 2003) <https://www.r-project.org/conferences/DSC-2003/Proceedings/Plummer.pdf>.",
+      "maintainer": "William Michael Landau",
+      "keywords": "bayesian, high-performance-computing, jags, make, r-targetopia, reproducibility, rjags, rstats-package, statistics, targets",
+      "github": "https://github.com/ropensci/jagstargets",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/jagstargets",
+      "date_last_commit": "2021-09-27 20:27:37",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
     },
     {
       "name": "jaod",
@@ -5121,6 +5139,24 @@
       "staff_maintained": false
     },
     {
+      "name": "slopes",
+      "description": "Calculate Slopes of Roads, Rivers and Trajectories",
+      "details": "Functions and example data to support research into the\n  slope (also known as longitudinal gradient or steepness)\n  of linear geographic entities such as roads <doi:10.1038/s41597-019-0147-x>\n  and rivers <doi:10.1016/j.jhydrol.2018.06.066>.\n  The package was initially developed to calculate the steepness of street segments\n  but can be used to calculate steepness of any linear feature that can be\n  represented as LINESTRING geometries in the 'sf' class system.\n  The package takes two main types of input data for slope calculation: vector geographic\n  objects representing linear features, and raster geographic objects with elevation values\n  (which can be downloaded using functionality in the package)\n  representing a continuous terrain surface.\n  Where no raster object is provided the package attempts to download elevation\n  data using the 'ceramic' package.",
+      "maintainer": "Robin Lovelace",
+      "keywords": "",
+      "github": "https://github.com/ropensci/slopes",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/420",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/slopes",
+      "date_last_commit": "2021-09-27 21:45:58",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "smapr",
       "description": "Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data",
       "details": "\n    Facilitates programmatic access to NASA Soil Moisture Active\n    Passive (SMAP) data with R. It includes functions to search for, acquire,\n    and extract SMAP data.",
@@ -6483,5 +6519,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2021-09-27 15:06 UTC"
+  "date": "2021-09-27 22:06 UTC"
 }
