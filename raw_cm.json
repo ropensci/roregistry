@@ -1238,7 +1238,6 @@
     ],
     "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
     "readme": "https://github.com/r-lib/gert/blob/master/README.md",
-    "contIntegration": "https://ci.appveyor.com/project/jeroen/gert",
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
@@ -1253,7 +1252,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.494",
+    "version": "0.0.1.517",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1267,6 +1266,11 @@
         "familyName": "Padgham",
         "email": "mark.padgham@email.com",
         "@id": "https://orcid.org/0000-0003-2172-5265"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon"
       }
     ],
     "contributor": {},
@@ -1549,7 +1553,7 @@
         "sameAs": "https://CRAN.R-project.org/package=visNetwork"
       }
     ],
-    "fileSize": "3318.889KB",
+    "fileSize": "3319.033KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -30465,7 +30469,12 @@
       "rstats-package",
       "r-targetopia"
     ],
-    "releaseNotes": "https://github.com/ropensci/jagstargets/blob/master/NEWS.md"
+    "releaseNotes": "https://github.com/ropensci/jagstargets/blob/master/NEWS.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/425",
+      "provider": "https://ropensci.org"
+    }
   },
   {
     "@context": [
