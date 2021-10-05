@@ -3903,8 +3903,8 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "allodb",
-    "description": "Tool to standardize and simplify the tree biomass\n    estimation process across globally distributed extratropical forests.",
-    "name": "allodb: Tree Biomass Estimation at Extratropical Forest Plots",
+    "description": "Tool to standardize and simplify the tree biomass\n    estimation process across globally distributed extra-tropical forests.",
+    "name": "allodb: Tree Biomass Estimation at Extra-Tropical Forest Plots",
     "codeRepository": "https://github.com/ropensci/allodb",
     "relatedLink": [
       "https://forestgeo.github.io/allodb",
@@ -4041,6 +4041,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
       }
     ],
     "softwareRequirements": [
@@ -4048,7 +4053,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.6.0"
+        "version": ">= 3.5"
       },
       {
         "@type": "SoftwareApplication",
@@ -4100,11 +4105,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
       },
       {
         "@type": "SoftwareApplication",
