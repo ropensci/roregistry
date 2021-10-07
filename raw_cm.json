@@ -14268,7 +14268,190 @@
     },
     "readme": "https://github.com/ropensci/codemetar/blob/master/README.md"
   },
-  {},
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "coder",
+    "description": "\n  Fast categorization of items based on external code data identified by \n  regular expressions. A typical use case considers patient with medically coded \n  data, such as codes from the International Classification of Diseases ('ICD') or \n  the Anatomic Therapeutic Chemical ('ATC') classification system. \n  Functions of the package relies on a triad of objects: (1) case data with unit \n  id:s and possible dates of interest; (2) external code data for corresponding \n  units in (1) and with optional dates of interest and; (3) a classification \n  scheme ('classcodes' object) with regular expressions to identify and \n  categorize relevant codes from (2). \n  It is easy to introduce new classification schemes ('classcodes' objects) or  \n  to use default schemes included in the package. Use cases includes patient \n  categorization based on 'comorbidity indices' such as 'Charlson', 'Elixhauser', \n  'RxRisk V', or the 'comorbidity-polypharmacy' score (CPS), as well as adverse \n  events after hip and knee replacement surgery.",
+    "name": "coder: Deterministic Categorization of Items Based on External Code Data",
+    "codeRepository": "https://github.com/ropensci/coder",
+    "issueTracker": "https://github.com/ropensci/coder/issues",
+    "license": "https://spdx.org/licenses/GPL-2.0",
+    "version": "0.13.7",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Erik",
+        "familyName": "Bulow",
+        "email": "eriklgb@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9973-456X"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Erik",
+        "familyName": "Bulow",
+        "email": "eriklgb@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9973-456X"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "writexl",
+        "name": "writexl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=writexl"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.3"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "decoder",
+        "name": "decoder",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=decoder"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "generics",
+        "name": "generics",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=generics"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      }
+    ],
+    "readme": "https://github.com/ropensci/coder/blob/master/README.md",
+    "fileSize": "1117.802KB",
+    "contIntegration": ["https://github.com/ropensci/coder/actions", "https://codecov.io/gh/ropensci/coder"],
+    "keywords": [
+      "r",
+      "package",
+      "r-package",
+      "classification",
+      "icd-10",
+      "rstats"
+    ],
+    "releaseNotes": "https://github.com/ropensci/coder/blob/master/NEWS.md",
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "contributor": {},
+    "copyrightHolder": {},
+    "funder": {},
+    "relatedLink": ["https://docs.ropensci.org/coder/", "https://CRAN.R-project.org/package=coder"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
+  },
   {
     "@context": [
       "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -40250,7 +40433,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.6.8",
+    "version": "0.1.6.12",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40577,7 +40760,7 @@
     "developmentStatus": "https://www.repostatus.org/#active",
     "releaseNotes": "https://github.com/ropensci/osmdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/osmdata/blob/main/README.md",
-    "fileSize": "20531.507KB",
+    "fileSize": "7737.141KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -60997,7 +61180,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/rsat/issues",
     "releaseNotes": "https://github.com/ropensci/rsat/blob/master/NEWS.md",
-    "contIntegration": ["https://codecov.io/gh/spatialstatisticsupna/rsat?branch=master", "https://ci.appveyor.com/project/unai-perez/rsat/branch/master", "https://github.com/ropensci/rsat/actions"],
+    "contIntegration": ["https://codecov.io/gh/ropensci/rsat?branch=master", "https://github.com/ropensci/rsat/actions"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/437",
@@ -80654,7 +80837,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.13",
+    "version": "0.0.2.31",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80719,15 +80902,16 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "webmockr",
-        "name": "webmockr",
+        "identifier": "vcr",
+        "name": "vcr",
+        "version": ">= 0.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=webmockr"
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": [
@@ -80781,6 +80965,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "gitcreds",
+        "name": "gitcreds",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gitcreds"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "provider": {
@@ -80817,7 +81013,7 @@
       }
     ],
     "readme": "https://github.com/ropenscilabs/allcontributors/blob/main/README.md",
-    "fileSize": "65.969KB",
+    "fileSize": "91.795KB",
     "contIntegration": ["https://github.com/ropenscilabs/allcontributors/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropenscilabs/allcontributors"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "provider": {
@@ -81455,7 +81651,7 @@
     "description": "Convert R package documentation to a 'readthedocs' website.",
     "name": "r2readthedocs: Convert R Package Documentation to a 'readthedocs' Website",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.67",
+    "version": "0.0.0.68",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81572,7 +81768,7 @@
     ],
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "readme": "https://github.com/ropenscilabs/r2readthedocs/blob/main/README.md",
-    "fileSize": "53.224KB",
+    "fileSize": "43.684KB",
     "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues"

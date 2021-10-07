@@ -1088,6 +1088,26 @@
       "staff_maintained": false
     },
     {
+      "name": "coder",
+      "description": "Deterministic Categorization of Items Based on External Code Data",
+      "details": "\n  Fast categorization of items based on external code data identified by \n  regular expressions. A typical use case considers patient with medically coded \n  data, such as codes from the International Classification of Diseases ('ICD') or \n  the Anatomic Therapeutic Chemical ('ATC') classification system. \n  Functions of the package relies on a triad of objects: (1) case data with unit \n  id:s and possible dates of interest; (2) external code data for corresponding \n  units in (1) and with optional dates of interest and; (3) a classification \n  scheme ('classcodes' object) with regular expressions to identify and \n  categorize relevant codes from (2). \n  It is easy to introduce new classification schemes ('classcodes' objects) or  \n  to use default schemes included in the package. Use cases includes patient \n  categorization based on 'comorbidity indices' such as 'Charlson', 'Elixhauser', \n  'RxRisk V', or the 'comorbidity-polypharmacy' score (CPS), as well as adverse \n  events after hip and knee replacement surgery.",
+      "maintainer": "Erik Bulow",
+      "keywords": "classification, icd-10, package",
+      "github": "https://github.com/ropensci/coder",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/coder",
+      "ropensci_category": "data-extraction",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-02-02 05:46:57",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "colocr",
       "description": "Conduct Co-Localization Analysis of Fluorescence Microscopy Images",
       "details": "Automate the co-localization analysis of fluorescence microscopy \n  images. Selecting regions of interest, extract pixel intensities from \n  the image channels and calculate different co-localization statistics. The\n  methods implemented in this package are based on Dunn et al. (2011) \n  <doi:10.1152/ajpcell.00462.2010>.",
@@ -3133,7 +3153,7 @@
       "url": "https://github.com/ropensci/osmdata",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2021-10-01 14:41:24",
+      "date_last_commit": "2021-10-07 10:50:05",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4869,7 +4889,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/rsat",
-      "date_last_commit": "2021-10-06 15:46:40",
+      "date_last_commit": "2021-10-07 12:58:09",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6454,7 +6474,7 @@
       "type": "active",
       "url": "https://github.com/ropenscilabs/allcontributors",
       "ropenscilabs": true,
-      "date_last_commit": "2021-09-14 16:09:37",
+      "date_last_commit": "2021-10-07 12:08:07",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6509,11 +6529,11 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropenscilabs/r2readthedocs",
-      "date_last_commit": "2021-09-01 08:13:01",
+      "date_last_commit": "2021-10-07 12:33:17",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
     }
   ],
-  "date": "2021-10-07 08:06 UTC"
+  "date": "2021-10-07 14:03 UTC"
 }
