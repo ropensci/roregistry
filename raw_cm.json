@@ -81034,7 +81034,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "gendercoder",
     "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
-    "name": "gendercoder: Recodes Sex/Gender Descriptions Into A Standard Set",
+    "name": "gendercoder: Recodes Sex/Gender Descriptions into a Standard Set",
     "codeRepository": "https://github.com/ropenscilabs/gendercoder",
     "issueTracker": "https://github.com/ropenscilabs/gendercoder/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -81164,30 +81164,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "shiny",
-        "name": "shiny",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shiny"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "shinydashboard",
-        "name": "shinydashboard",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=shinydashboard"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "provider": {
@@ -81209,30 +81185,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "DT",
-        "name": "DT",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DT"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "haven",
-        "name": "haven",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=haven"
       }
     ],
     "softwareRequirements": [
@@ -81241,22 +81193,10 @@
         "identifier": "R",
         "name": "R",
         "version": ">= 3.0.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
       }
     ],
     "readme": "https://github.com/ropenscilabs/gendercoder/blob/master/README.md",
-    "contIntegration": ["https://github.com/ropenscilabs/gendercoder/actions", "https://github.com/ropenscilabs/gendercoder/actions"],
+    "contIntegration": ["https://github.com/ropenscilabs/gendercoder/actions", "https://codecov.io/gh/ropenscilabs/gendercoder?branch=master"],
     "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable", "https://www.repostatus.org/#active"],
     "keywords": [
       "ozunconf18",
