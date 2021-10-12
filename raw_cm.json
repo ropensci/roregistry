@@ -1252,7 +1252,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.82",
+    "version": "0.0.2.85",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1553,7 +1553,7 @@
         "sameAs": "https://CRAN.R-project.org/package=visNetwork"
       }
     ],
-    "fileSize": "3327.31KB",
+    "fileSize": "3327.332KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -2860,7 +2860,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.5",
+    "version": "0.0.2.18",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2912,6 +2912,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rvest",
+        "name": "rvest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rvest"
       }
     ],
     "softwareRequirements": [
@@ -3095,7 +3107,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "1490.921KB",
+    "fileSize": "2928.749KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/roreviewapi/blob/main/README.md",
     "relatedLink": [
@@ -10866,7 +10878,7 @@
     "relatedLink": "https://docs.ropensci.org/cde",
     "issueTracker": "https://github.com/ropensci/cde/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.1.9000",
+    "version": "0.4.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -10976,7 +10988,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/cde/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/cde/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/cde", "https://coveralls.io/github/ropensci/cde?branch=master"],
+    "contIntegration": ["https://github.com/ropensci/cde/actions", "https://coveralls.io/github/ropensci/cde?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -66997,7 +67009,7 @@
     "keywords": ["stats19", "road-safety", "transport", "car-crashes", "ropensci", "data", "r", "r-package", "rstats"],
     "readme": "https://github.com/ropensci/stats19/blob/master/README.md",
     "fileSize": "1480.58KB",
-    "contIntegration": ["https://github.com/ropensci/stats19/actions", "https://codecov.io/gh/ropensci/stats19"],
+    "contIntegration": ["https://github.com/ropensci/stats19/actions", "https://app.codecov.io/gh/ropensci/stats19"],
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -67255,7 +67267,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67452,18 +67464,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tmap"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "bench",
-        "name": "bench",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=bench"
       },
       {
         "@type": "SoftwareApplication",
