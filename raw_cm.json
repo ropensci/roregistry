@@ -3973,22 +3973,8 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "version": ">= 3.2.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
-        "version": ">= 1.21",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -3996,6 +3982,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       },
       {
         "@type": "SoftwareApplication",
@@ -4045,13 +4043,12 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.5"
+        "version": ">= 3.4"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
-        "version": ">= 1.12.8",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -4064,7 +4061,6 @@
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
-        "version": ">= 3.3.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
