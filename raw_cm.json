@@ -4669,10 +4669,7 @@
     ]
   },
   {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
+    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
     "@type": "SoftwareSourceCode",
     "identifier": "arkdb",
     "description": "Flat text files provide a robust, compressible, and portable\n  way to store tables from databases.  This package provides convenient\n  functions for exporting tables from relational database connections\n  into compressed text files and streaming those text files back into\n  a database without requiring the whole table to fit in working memory.",
@@ -4687,6 +4684,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -4968,36 +4971,19 @@
         "name": "utils"
       }
     ],
+    "fileSize": "5904.726KB",
+    "funder": {},
     "releaseNotes": "https://github.com/ropensci/arkdb/blob/master/NEWS.md",
-    "fileSize": "207.747KB",
+    "readme": "https://github.com/ropensci/arkdb/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/arkdb/actions", "https://travis-ci.org/ropensci/arkdb", "https://codecov.io/github/ropensci/arkdb?branch=master"],
-    "keywords": [
-      "database",
-      "archiving",
-      "r",
-      "rstats",
-      "dbi",
-      "peer-reviewed",
-      "r-package"
-    ],
     "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "relatedLink": [
-      "https://CRAN.R-project.org/package=arkdb",
-      "https://docs.ropensci.org/arkdb"
-    ],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/224",
       "provider": "https://ropensci.org"
     },
-    "funder": {},
-    "readme": "https://github.com/ropensci/arkdb/blob/master/README.md"
+    "keywords": ["database", "archiving", "r", "rstats", "dbi", "peer-reviewed", "r-package"],
+    "relatedLink": "https://CRAN.R-project.org/package=arkdb"
   },
   {
     "@context": [
