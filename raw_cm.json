@@ -4071,6 +4071,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
         "provider": {
@@ -15414,7 +15426,7 @@
     "readme": "https://github.com/ropensci/CoordinateCleaner/blob/master/README.md",
     "fileSize": "129427.227KB",
     "contIntegration": ["https://travis-ci.org/ropensci/CoordinateCleaner", "https://codecov.io/github/ropensci/CoordinateCleaner"],
-    "relatedLink": ["https://ropensci.github.io/CoordinateCleaner/", "https://CRAN.R-project.org/package=CoordinateCleaner"],
+    "relatedLink": "https://ropensci.github.io/CoordinateCleaner/",
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
       {
