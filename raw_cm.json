@@ -15043,7 +15043,7 @@
     "codeRepository": "https://github.com/ropensci/CoordinateCleaner",
     "issueTracker": "https://github.com/ropensci/CoordinateCleaner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.18",
+    "version": "2.0.20",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42581,7 +42581,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "paleobioDB",
     "description": "Includes 19 functions to wrap each endpoint of\n    the PaleobioDB API, plus 8 functions to visualize and process the fossil\n    data. The API documentation for the Paleobiology Database can be found in\n    <http://paleobiodb.org/data1.1/>.",
@@ -42749,7 +42752,11 @@
     "releaseNotes": "https://github.com/ropensci/paleobioDB/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/paleobioDB/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/paleobioDB", "https://codecov.io/github/ropensci/paleobioDB?branch=master"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -46808,13 +46815,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rAltmetric",
     "description": "Provides a programmatic interface to the citation information and alternate metrics provided by 'Altmetric'. Data from Altmetric allows researchers to immediately track the impact of their published work, without having to wait for citations. This allows for faster engagement with the audience interested in your work. For more information, visit <https://www.altmetric.com/>.",
     "name": "rAltmetric: Retrieves Altmerics Data for Any Published Paper from 'Altmetric.com'",
     "codeRepository": "https://github.com/ropensci/rAltmetric",
-    "relatedLink": ["https://docs.ropensci.org/rAltmetric", "https://CRAN.R-project.org/package=rAltmetric"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rAltmetric",
+      "https://CRAN.R-project.org/package=rAltmetric"
+    ],
     "issueTracker": "https://github.com/ropensci/rAltmetric/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.7.9000",
@@ -46995,7 +47008,14 @@
     "readme": "https://github.com/ropensci/rAltmetric/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rAltmetric", "https://travis-ci.org/ropensci/rAltmetric", "https://ci.appveyor.com/project/ropensci/rAltmetric", "https://codecov.io/github/ropensci/rAltmetric?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["altmetrics", "r", "citations", "bibliometrics", "rstats", "r-package"]
+    "keywords": [
+      "altmetrics",
+      "r",
+      "citations",
+      "bibliometrics",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -67061,13 +67081,7 @@
         }
       }
     ],
-    "relatedLink": ["https://docs.ropensci.org/stats19/", "https://CRAN.R-project.org/package=stats19"],
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
+    "relatedLink": "https://docs.ropensci.org/stats19/",
     "copyrightHolder": {},
     "funder": [
       {
@@ -67398,14 +67412,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "stats19",
-        "name": "stats19",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stats19"
+        "name": "stats19"
       },
       {
         "@type": "SoftwareApplication",
