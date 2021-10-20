@@ -3299,26 +3299,6 @@
       "staff_maintained": false
     },
     {
-      "name": "paleobioDB",
-      "description": "Download and Process Data from the Paleobiology Database",
-      "details": "Includes 19 functions to wrap each endpoint of\n    the PaleobioDB API, plus 8 functions to visualize and process the fossil\n    data. The API documentation for the Paleobiology Database can be found in\n    <http://paleobiodb.org/data1.1/>.",
-      "maintainer": "Sara Varela",
-      "keywords": "",
-      "github": "https://github.com/ropensci/paleobioDB",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/paleobioDB",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-07-25 22:10:58",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "pangaear",
       "description": "Client for the 'Pangaea' Database",
       "details": "Tools to interact with the 'Pangaea' Database\n    (<https://www.pangaea.de>), including functions for searching for data,\n    fetching 'datasets' by 'dataset' 'ID', and working with the 'Pangaea'\n    'OAI-PMH' service.",
@@ -3374,24 +3354,6 @@
       "ropensci_category": "literature",
       "ropenscilabs": false,
       "date_last_commit": "2021-09-25 02:06:34",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "pathviewr",
-      "description": "Wrangle, Analyze, and Visualize Animal Movement Data",
-      "details": "Tools to import, clean, and visualize movement data,\n    particularly from motion capture systems such as Optitrack's \n    'Motive', the Straw Lab's 'Flydra', or from other sources. We provide \n    functions to remove artifacts, standardize tunnel position and tunnel \n    axes, select a region of interest, isolate specific trajectories, fill\n    gaps in trajectory data, and calculate 3D and per-axis velocity. For \n    experiments of visual guidance, we also provide functions that use \n    subject position to estimate perception of visual stimuli. ",
-      "maintainer": "Vikram B. Baliga",
-      "keywords": "animal-movement, flydra, motion, movement-data, optitrack, rstats-package, trajectories, trajectory-analysis, visual-guidance, visual-perception",
-      "github": "https://github.com/ropensci/pathviewr",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/409",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/pathviewr",
-      "date_last_commit": "2021-07-28 18:16:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3517,26 +3479,6 @@
       "staff_maintained": false
     },
     {
-      "name": "piggyback",
-      "description": "Managing Larger Data on a GitHub Repository",
-      "details": "Because larger (> 50 MB) data files cannot easily be committed to git,\n  a different approach is required to manage data associated with an analysis in a \n  GitHub repository.  This package provides a simple work-around by allowing larger\n  (up to 2 GB) data files to piggyback on a repository as assets attached to individual\n  GitHub releases.  These files are not handled by git in any way, but instead are\n  uploaded, downloaded, or edited directly by calls through the GitHub API. These\n  data files can be versioned manually by creating different releases.  This approach\n  works equally well with public or private repositories.  Data can be uploaded\n  and downloaded programmatically from scripts. No authentication is required to\n  download data from public repositories.",
-      "maintainer": "Carl Boettiger",
-      "keywords": "data-store, git-lfs, peer-reviewed",
-      "github": "https://github.com/ropensci/piggyback",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/220",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/piggyback",
-      "ropensci_category": "data-publication",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-09-08 23:32:56",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "pixelclasser",
       "description": "Classifies Image Pixels by Colour",
       "details": "Contains functions to classify the pixels of an image file\n    (jpeg or tiff) by its colour. It implements a simple form of the techniques \n    known as Support Vector Machine adapted to this particular problem.",
@@ -3572,26 +3514,6 @@
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
       "date_last_commit": "2021-01-04 23:18:36",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "popler",
-      "description": "Popler R Package",
-      "details": "Browse and query the popler database.",
-      "maintainer": "Compagnoni Aldo",
-      "keywords": "",
-      "github": "https://github.com/ropensci/popler",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/254",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/popler",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2019-11-13 14:19:29",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3637,26 +3559,6 @@
       "staff_maintained": false
     },
     {
-      "name": "pubchunks",
-      "description": "Fetch Sections of XML Scholarly Articles",
-      "details": "Get chunks of XML scholarly articles without\n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull\n    out the information you want. Works with outputs from\n    package 'fulltext', 'xml2' package documents, and file\n    paths to XML documents.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "citations, full-text, literature, open-access, pdf, publications, TDM, text-ming, text-mining, xml",
-      "github": "https://github.com/ropensci/pubchunks",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/pubchunks",
-      "ropensci_category": "literature",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-01-08 02:37:26",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "qpdf",
       "description": "Split, Combine and Compress PDF Files",
       "details": "Content-preserving transformations transformations of PDF files such \n    as split, combine, and compress. This package interfaces directly to the 'qpdf' \n    C++ API and does not require any command line utilities. Note that 'qpdf' does\n    not read actual content from PDF files: to extract text and data you need the\n    'pdftools' package.",
@@ -3692,26 +3594,6 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2021-09-14 19:41:24",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "rAltmetric",
-      "description": "Retrieves Altmerics Data for Any Published Paper from 'Altmetric.com'",
-      "details": "Provides a programmatic interface to the citation information and alternate metrics provided by 'Altmetric'. Data from Altmetric allows researchers to immediately track the impact of their published work, without having to wait for citations. This allows for faster engagement with the audience interested in your work. For more information, visit <https://www.altmetric.com/>.",
-      "maintainer": "Karthik Ram",
-      "keywords": "altmetrics, bibliometrics, citations",
-      "github": "https://github.com/ropensci/rAltmetric",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rAltmetric",
-      "ropensci_category": "literature",
-      "ropenscilabs": false,
-      "date_last_commit": "2019-12-09 14:27:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6535,5 +6417,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2021-10-19 22:06 UTC"
+  "date": "2021-10-20 02:02 UTC"
 }
