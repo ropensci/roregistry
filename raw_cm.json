@@ -15425,7 +15425,7 @@
     "releaseNotes": "https://github.com/ropensci/CoordinateCleaner/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/CoordinateCleaner/blob/master/README.md",
     "fileSize": "130599.254KB",
-    "relatedLink": "https://ropensci.github.io/CoordinateCleaner/",
+    "relatedLink": ["https://ropensci.github.io/CoordinateCleaner/", "https://CRAN.R-project.org/package=CoordinateCleaner"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "citation": [
       {
@@ -45238,6 +45238,12 @@
     ],
     "fileSize": "1534.722KB",
     "developmentStatus": "https://www.repostatus.org/#active",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "readme": "https://github.com/ropensci/pixelclasser/blob/main/README.md",
     "review": {
       "@type": "Review",
@@ -69912,7 +69918,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/taxadb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70050,6 +70056,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RSQLite",
+        "name": "RSQLite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
       }
     ],
     "softwareRequirements": [
@@ -70107,18 +70125,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "memoise",
-        "name": "memoise",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=memoise"
       },
       {
         "@type": "SoftwareApplication",
@@ -70211,18 +70217,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "RSQLite",
-        "name": "RSQLite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
         "provider": {
@@ -70268,6 +70262,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=contentid"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R.utils",
+        "name": "R.utils",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.utils"
       }
     ],
     "fileSize": "0KB",
