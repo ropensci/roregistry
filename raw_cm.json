@@ -40960,11 +40960,35 @@
         "@type": "SoftwareApplication",
         "identifier": "tools",
         "name": "tools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       }
     ],
     "readme": "https://github.com/ropensci/osmextract/blob/master/README.md",
     "fileSize": "3326.71KB",
-    "contIntegration": ["https://github.com/ropensci/osmextract/actions", "https://codecov.io/gh/ropensci/osmextract?branch=master"],
+    "contIntegration": ["https://github.com/ropensci/osmextract/actions", "https://app.codecov.io/gh/ropensci/osmextract?branch=master"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/395",
