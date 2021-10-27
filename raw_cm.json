@@ -328,7 +328,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.167",
+    "version": "0.0.2.169",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -623,7 +623,7 @@
         "sameAs": "https://CRAN.R-project.org/package=yaml"
       }
     ],
-    "fileSize": "14828.592KB",
+    "fileSize": "14846.934KB",
     "contIntegration": ["https://github.com/ropensci-review-tools/autotest/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropensci-review-tools/autotest"],
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/autotest/blob/main/README.md",
@@ -1241,7 +1241,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.97",
+    "version": "0.0.2.102",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1542,7 +1542,7 @@
         "sameAs": "https://CRAN.R-project.org/package=visNetwork"
       }
     ],
-    "fileSize": "3329.441KB",
+    "fileSize": "1903.284KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -2849,7 +2849,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.33",
+    "version": "0.0.2.36",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3096,7 +3096,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "2939.983KB",
+    "fileSize": "2939.742KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/roreviewapi/blob/main/README.md",
     "relatedLink": [
@@ -3115,7 +3115,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review\n    project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.120",
+    "version": "0.0.1.128",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3299,7 +3299,7 @@
     ],
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "readme": "https://github.com/ropensci-review-tools/srr/blob/main/README.md",
-    "fileSize": "4021.92KB",
+    "fileSize": "4022.205KB",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "contIntegration": ["https://github.com/ropensci-review-tools/srr/actions", "https://codecov.io/gh/ropensci-review-tools/srr"],
     "developmentStatus": "https://www.repostatus.org/#concept",
@@ -27545,7 +27545,15 @@
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
-    "contributor": {},
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Thierry",
+        "familyName": "Onkelinx",
+        "email": "thierry.onkelinx@inbo.be",
+        "@id": "https://orcid.org/0000-0001-8804-4216"
+      }
+    ],
     "copyrightHolder": {},
     "funder": {},
     "maintainer": [
@@ -40839,7 +40847,7 @@
     "codeRepository": "https://github.com/ropensci/osmextract",
     "issueTracker": "https://github.com/ropensci/osmextract/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.1.9000",
+    "version": "0.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40987,7 +40995,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/osmextract/blob/master/README.md",
-    "fileSize": "3326.71KB",
+    "fileSize": "3391.207KB",
     "contIntegration": ["https://github.com/ropensci/osmextract/actions", "https://app.codecov.io/gh/ropensci/osmextract?branch=master"],
     "review": {
       "@type": "Review",
@@ -61110,7 +61118,7 @@
     "codeRepository": "https://github.com/ropensci/rsat",
     "readme": "https://github.com/ropensci/rsat/blob/master/README.md",
     "fileSize": "2714.835KB",
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -61217,10 +61225,10 @@
     ],
     "issueTracker": "https://github.com/ropensci/rsat/issues",
     "releaseNotes": "https://github.com/ropensci/rsat/blob/master/NEWS.md",
-    "contIntegration": ["https://codecov.io/gh/ropensci/rsat?branch=master", "https://github.com/ropensci/rsat/actions"],
+    "contIntegration": ["https://app.codecov.io/gh/ropensci/rsat?branch=master", "https://github.com/ropensci/rsat/actions"],
     "review": {
       "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/437",
+      "url": ["https://github.com/ropensci/software-review/issues/437", "https://github.com/ropensci/software-review/issues/437"],
       "provider": "https://ropensci.org"
     },
     "keywords": "satellite-images"
