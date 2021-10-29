@@ -16215,10 +16215,10 @@
     "description": "AIMS Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information.",
     "name": "dataaimsr: AIMS Data Platform API Client",
     "codeRepository": "https://github.com/ropensci/dataaimsr",
-    "relatedLink": "https://ropensci.github.io/dataaimsr",
+    "relatedLink": "https://ropensci.github.io/dataaimsr/",
     "issueTracker": "https://github.com/ropensci/dataaimsr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16521,12 +16521,24 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/dataaimsr/blob/master/NEWS.md",
     "fileSize": "37783.917KB",
-    "contIntegration": ["https://github.com/ropensci/dataaimsr/actions", "https://codecov.io/gh/ropensci/dataaimsr?branch=master"],
-    "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
+    "contIntegration": ["https://github.com/ropensci/dataaimsr/actions", "https://app.codecov.io/gh/ropensci/dataaimsr?branch=master"],
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/428",
