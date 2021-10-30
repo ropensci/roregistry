@@ -34097,12 +34097,10 @@
     "description": "A complete and consistent toolkit to process the Munich\n    ChronoType Questionnaire (MCTQ) for its three versions (standard,\n    micro, and shift).",
     "name": "mctq: An R Package for the Munich ChronoType Questionnaire",
     "codeRepository": "https://github.com/ropensci/mctq",
-    "relatedLink": [
-      "https://gipso.github.io/mctq/"
-    ],
-    "issueTracker": "https://github.com/gipso/mctq/issues/",
+    "relatedLink": "https://docs.ropensci.org/mctq/",
+    "issueTracker": "https://github.com/ropensci/mctq/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.9001",
+    "version": "0.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34378,16 +34376,24 @@
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       }
     ],
-    "releaseNotes": "https://github.com/gipso/mctq/blob/master/NEWS.md",
-    "fileSize": "651.105KB",
-    "contIntegration": ["https://github.com/gipso/mctq/actions", "https://codecov.io/gh/gipso/mctq?branch=main"],
-    "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
+    "releaseNotes": "https://github.com/ropensci/mctq/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/mctq/blob/main/README.md",
+    "fileSize": "672.137KB",
+    "contIntegration": ["https://github.com/ropensci/mctq/actions", "https://app.codecov.io/gh/ropensci/mctq?branch=main"],
+    "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#maturing"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/434",
+      "provider": "https://ropensci.org"
+    },
     "keywords": [
       "chronobiology",
       "mctq",
       "sleep",
       "r-package",
-      "peer-reviewed"
+      "peer-reviewed",
+      "r",
+      "rstats"
     ],
     "citation": [
       {
@@ -34410,17 +34416,11 @@
             "familyName": "Pedrazzoli"
           }
         ],
-        "name": "mctq: An R package for the Munich ChronoType Questionnaire",
-        "url": "https://gipso.github.io/mctq/",
+        "name": "{mctq}: an R package for the Munich ChronoType Questionnaire",
+        "url": "https://docs.ropensci.org/mctq/",
         "description": "Lifecycle: maturing"
       }
-    ],
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/434",
-      "provider": "https://ropensci.org"
-    },
-    "readme": "https://github.com/ropensci/mctq/blob/main/README.md"
+    ]
   },
   {
     "@context": [
