@@ -34093,6 +34093,341 @@
       "http://schema.org"
     ],
     "@type": "SoftwareSourceCode",
+    "identifier": "mctq",
+    "description": "A complete and consistent toolkit to process the Munich\n    ChronoType Questionnaire (MCTQ) for its three versions (standard,\n    micro, and shift).",
+    "name": "mctq: An R Package for the Munich ChronoType Questionnaire",
+    "codeRepository": "https://github.com/ropensci/mctq",
+    "relatedLink": [
+      "https://gipso.github.io/mctq/"
+    ],
+    "issueTracker": "https://github.com/gipso/mctq/issues/",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9001",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Vartanian",
+        "email": "danvartan@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7782-759X"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ana Amelia",
+        "familyName": "Benedito-Silva",
+        "email": "aamelia@usp.br",
+        "@id": "https://orcid.org/0000-0003-4976-2623"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Pedrazzoli",
+        "email": "pedrazzo@usp.br",
+        "@id": "https://orcid.org/0000-0002-5257-591X"
+      }
+    ],
+    "contributor": {},
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Vartanian",
+        "email": "danvartan@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7782-759X"
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "Interdisciplinary Sleep Research Group (GIPSO)"
+      },
+      {
+        "@type": "Organization",
+        "name": "University of Sao Paulo (USP)"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Vartanian",
+        "email": "danvartan@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7782-759X"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "datasets",
+        "name": "datasets"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "grDevices",
+        "name": "grDevices"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "mockr",
+        "name": "mockr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mockr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "usethis",
+        "name": "usethis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=usethis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      }
+    ],
+    "softwareRequirements": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.0"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "checkmate",
+        "name": "checkmate",
+        "version": ">= 2.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=checkmate"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "version": ">= 3.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 1.0.7",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "hms",
+        "name": "hms",
+        "version": ">= 1.1.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hms"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "version": ">= 1.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lubridate",
+        "name": "lubridate",
+        "version": ">= 1.8.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lubridate"
+      }
+    ],
+    "releaseNotes": "https://github.com/gipso/mctq/blob/master/NEWS.md",
+    "fileSize": "651.105KB",
+    "contIntegration": ["https://github.com/gipso/mctq/actions", "https://codecov.io/gh/gipso/mctq?branch=main"],
+    "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
+    "keywords": [
+      "chronobiology",
+      "mctq",
+      "sleep",
+      "r-package",
+      "peer-reviewed"
+    ],
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Vartanian"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Ana", "Amelia"],
+            "familyName": "Benedito-Silva"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Mario",
+            "familyName": "Pedrazzoli"
+          }
+        ],
+        "name": "mctq: An R package for the Munich ChronoType Questionnaire",
+        "url": "https://gipso.github.io/mctq/",
+        "description": "Lifecycle: maturing"
+      }
+    ],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/434",
+      "provider": "https://ropensci.org"
+    },
+    "readme": "https://github.com/ropensci/mctq/blob/main/README.md"
+  },
+  {
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
+    "@type": "SoftwareSourceCode",
     "identifier": "medrxivr",
     "description": "An increasingly important source of health-related bibliographic \n    content are preprints - preliminary versions of research articles that have\n    yet to undergo peer review. The two preprint repositories most relevant to \n    health-related sciences are medRxiv <https://www.medrxiv.org/> and\n    bioRxiv <https://www.biorxiv.org/>, both of which are operated by the Cold \n    Spring Harbor Laboratory. 'medrxivr' provides programmatic access to the \n    'Cold Spring Harbour Laboratory (CSHL)' API <https://api.biorxiv.org/>,\n    allowing users to easily download medRxiv and bioRxiv preprint metadata\n    (e.g. title, abstract, publication date, author list, etc) into R. \n    'medrxivr' also provides functions to search the downloaded preprint records \n    using regular expressions and Boolean logic, as well as helper functions \n    that allow users to export their search results to a .BIB file for easy \n    import to a reference manager and to download the full-text PDFs of \n    preprints matching their search criteria.",
     "name": "medrxivr: Access and Search MedRxiv and BioRxiv Preprint Data",
@@ -67117,7 +67452,13 @@
         }
       }
     ],
-    "relatedLink": "https://docs.ropensci.org/stats19/",
+    "relatedLink": ["https://docs.ropensci.org/stats19/", "https://CRAN.R-project.org/package=stats19"],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "copyrightHolder": {},
     "funder": [
       {
