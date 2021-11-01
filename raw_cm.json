@@ -1226,7 +1226,7 @@
       }
     ],
     "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
-    "readme": "https://github.com/r-lib/gert/blob/main/README.md",
+    "readme": "https://github.com/r-lib/gert/blob/master/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
@@ -48776,7 +48776,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/rcites/blob/master/README.md",
-    "fileSize": "1721.753KB",
+    "fileSize": "1721.984KB",
     "keywords": [
       "cites",
       "api-client",
@@ -65109,7 +65109,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "stplanr",
-        "name": "stplanr"
+        "name": "stplanr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stplanr"
       },
       {
         "@type": "SoftwareApplication",
@@ -67663,7 +67670,7 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "stplanr",
-    "description": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <https://cyclestreets.net/> and\n    calculation of route segment attributes such as bearing.\n    The package implements the 'travel flow aggregration' method\n    described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779>.\n    Further information on the package's aim and scope can be found\n    in the vignettes and in a paper in the R Journal\n    (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>.",
+    "description": "Tools for transport planning with an emphasis on spatial transport\n    data and non-motorized modes. Enables common transport planning tasks including:\n    downloading and cleaning transport datasets; creating geographic \"desire lines\"\n    from origin-destination (OD) data; route assignment, locally and via\n    interfaces to routing services such as <https://cyclestreets.net/> and\n    calculation of route segment attributes such as bearing.\n    The package implements the 'travel flow aggregration' method\n    described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779>.\n    Further information on the package's aim and scope can be found\n    in the vignettes and in a paper in the R Journal\n    (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>.\n    This package Suggests the 'pct' package which at the time of writing\n    is unavailable on CRAN. You can install it from the repository\n    'itsleeds/pct' on GitHub.",
     "name": "stplanr: Sustainable Transport Planning",
     "codeRepository": "https://github.com/ropensci/stplanr",
     "relatedLink": [
