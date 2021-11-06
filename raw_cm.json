@@ -54142,6 +54142,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=RSQLite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "openssl",
+        "name": "openssl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openssl"
       }
     ],
     "contIntegration": ["https://github.com/ropensci/rfishbase/actions?query=workflow%3AR-check", "https://codecov.io/github/ropensci/rfishbase?branch=master"],
