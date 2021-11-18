@@ -22319,7 +22319,7 @@
     "description": "Data that are collected through online sources such as Mechanical Turk may require excluding rows because of IP address duplication, geolocation, or completion duration. This package facilitates exclusion of these data for Qualtrics datasets.",
     "name": "excluder: Checks for Exclusion Criteria in Online Data",
     "codeRepository": "https://github.com/ropensci/excluder",
-    "relatedLink": "https://docs.ropensci.org/excluder/",
+    "relatedLink": ["https://docs.ropensci.org/excluder/", "https://CRAN.R-project.org/package=excluder"],
     "issueTracker": "https://github.com/ropensci/excluder/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.3.2",
@@ -22644,6 +22644,12 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/455",
       "provider": "https://ropensci.org"
+    },
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
     }
   },
   {
@@ -69344,7 +69350,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/suppdata/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69429,19 +69435,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "fulltext",
-        "name": "fulltext",
-        "version": ">= 0.1.4.9000",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=fulltext"
       }
     ],
     "softwareRequirements": [
