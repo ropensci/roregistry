@@ -1241,7 +1241,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.122",
+    "version": "0.0.2.130",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1542,7 +1542,7 @@
         "sameAs": "https://CRAN.R-project.org/package=visNetwork"
       }
     ],
-    "fileSize": "1908.08KB",
+    "fileSize": "1909.128KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -2865,7 +2865,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.38",
+    "version": "0.0.2.42",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3112,7 +3112,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "2939.742KB",
+    "fileSize": "2940.486KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/roreviewapi/blob/main/README.md",
     "relatedLink": [
@@ -8432,6 +8432,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
       }
     ],
     "applicationCategory": "DataAccess",
@@ -34184,6 +34196,12 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/330",
       "provider": "https://ropensci.org"
+    },
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
     }
   },
   {
