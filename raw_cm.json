@@ -1956,7 +1956,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.51",
+    "version": "0.0.3.52",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3131,7 +3131,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.128",
+    "version": "0.0.1.141",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3315,7 +3315,7 @@
     ],
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "readme": "https://github.com/ropensci-review-tools/srr/blob/main/README.md",
-    "fileSize": "4022.205KB",
+    "fileSize": "1567.06KB",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "contIntegration": ["https://github.com/ropensci-review-tools/srr/actions", "https://codecov.io/gh/ropensci-review-tools/srr"],
     "developmentStatus": "https://www.repostatus.org/#concept",
@@ -3325,7 +3325,23 @@
       "name": "Comprehensive R Archive Network (CRAN)",
       "url": "https://cran.r-project.org"
     },
-    "relatedLink": "https://docs.ropensci.org/srr/"
+    "relatedLink": "https://docs.ropensci.org/srr/",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Padgham"
+          }
+        ],
+        "name": "srr",
+        "url": "https://github.com/ropensci-review-tools/srr",
+        "description": "R package version 0.0.1"
+      }
+    ]
   },
   {
     "@context": [
