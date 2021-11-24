@@ -56633,7 +56633,8 @@
     "codeRepository": "https://github.com/ropensci/rmangal",
     "relatedLink": [
       "https://docs.ropensci.org/rmangal/",
-      "https://mangal.io"
+      "https://mangal.io",
+      "https://CRAN.R-project.org/package=rmangal"
     ],
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -56961,7 +56962,7 @@
     "keywords": ["ecology", "networks", "foodwebs", "interactions", "datapublications", "openaccess"],
     "releaseNotes": "https://github.com/ropensci/rmangal/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rmangal/blob/main/README.md",
-    "fileSize": "3679.864KB",
+    "fileSize": "3680.388KB",
     "contIntegration": ["https://github.com/ropensci/rmangal/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/ropensci/ropensci/rmangal"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
@@ -57014,7 +57015,13 @@
         "url": "https://docs.ropensci.org/rmangal/",
         "description": "R package version 2.1.0"
       }
-    ]
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
