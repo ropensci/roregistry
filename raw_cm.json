@@ -3132,7 +3132,7 @@
     "description": "Companion package to 'rOpenSci' statistical software review project.",
     "name": "srr: 'rOpenSci' Review Roclets",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.141",
+    "version": "0.0.1.145",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11370,7 +11370,7 @@
     "codeRepository": "https://github.com/ropensci/cffr",
     "issueTracker": "https://github.com/ropensci/cffr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1",
+    "version": "0.1.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11447,6 +11447,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "usethis",
+        "name": "usethis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=usethis"
       }
     ],
     "softwareRequirements": [
@@ -11524,7 +11536,7 @@
     ],
     "isPartOf": "https://ropensci.org",
     "keywords": ["attribution", "citation", "credit", "citation-files", "cff", "metadata", "r", "r-package", "citation-file-format", "rstats", "ropensci", "cran"],
-    "fileSize": "572.321KB",
+    "fileSize": "570.105KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -28853,7 +28865,10 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "historydata",
     "description": "These sample data sets are intended for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.",
@@ -28938,7 +28953,11 @@
     "releaseNotes": "https://github.com/ropensci/historydata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/historydata/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/ropensci/historydata",
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -29521,7 +29540,10 @@
     "readme": "https://github.com/ropensci/hydroscoper/blob/master/README.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "IEEER",
     "description": "An interface to the IEEE Xplore Gateway, for searching IEEE publications.",
@@ -29657,7 +29679,11 @@
     ],
     "readme": "https://github.com/ropensci/IEEER/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/IEEER", "https://ci.appveyor.com/project/karthik/IEEER", "https://codecov.io/github/ropensci/IEEER?branch=master"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -30770,7 +30796,10 @@
     "keywords": ["r", "r-package", "api-client", "openbis", "peer-reviewed", "rstats"]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "internetarchive",
     "description": "Search the Internet Archive (<https://archive.org>), retrieve metadata, and download files.",
@@ -30880,7 +30909,11 @@
     "releaseNotes": "https://github.com/ropensci/internetarchive/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/internetarchive/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/internetarchive", "https://codecov.io/github/ropensci/internetarchive?branch=master"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -31517,7 +31550,10 @@
     "releaseNotes": "https://github.com/ropensci/jaod/blob/master/NEWS.md"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jenkins",
     "description": "Manage jobs and builds on your Jenkins CI server <https://jenkins.io/>. Create and edit projects, schedule builds, manage the queue, download build logs, and much more.",
@@ -31717,13 +31753,20 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "jsonld",
     "description": "JSON-LD is a light-weight syntax for expressing linked data. It is primarily intended for web-based programming environments, interoperable web services and for storing linked data in JSON-based databases. This package provides bindings to the JavaScript library for converting, expanding and compacting JSON-LD documents.",
     "name": "jsonld: JSON for Linking Data",
     "codeRepository": "https://github.com/ropensci/jsonld",
-    "relatedLink": ["https://docs.ropensci.org/jsonld", "https://www.w3.org/TR/json-ld", "https://CRAN.R-project.org/package=jsonld"],
+    "relatedLink": [
+      "https://docs.ropensci.org/jsonld",
+      "https://www.w3.org/TR/json-ld",
+      "https://CRAN.R-project.org/package=jsonld"
+    ],
     "issueTracker": "https://github.com/ropensci/jsonld/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "version": "2.2",
@@ -31817,7 +31860,12 @@
     "readme": "https://github.com/ropensci/jsonld/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/jsonld", "https://ci.appveyor.com/project/jeroen/jsonld", "https://codecov.io/github/ropensci/jsonld?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["json-ld", "r", "rstats", "r-package"]
+    "keywords": [
+      "json-ld",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -38854,7 +38902,7 @@
     "codeRepository": "https://github.com/ropensci/nodbi",
     "issueTracker": "https://github.com/ropensci/nodbi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39042,7 +39090,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/nodbi/blob/master/README.md",
-    "fileSize": "456.447KB",
+    "fileSize": "457.31KB",
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
     "keywords": ["database", "MongoDB", "Elasticsearch", "CouchDB", "SQLite", "NoSQL", "JSON", "documents", "rstats", "nosql", "couchdb", "mongodb", "elasticsearch", "r", "r-package", "sqlite"],
@@ -50989,7 +51037,10 @@
     "developmentStatus": "http://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rdataretriever",
     "description": "Provides an R interface to the Data Retriever <https://retriever.readthedocs.io/en/latest/> via the Data Retriever's command line interface. The Data Retriever automates the tasks of finding, downloading, and cleaning public datasets, and then stores them in a local database.",
@@ -51239,7 +51290,16 @@
     "releaseNotes": "https://github.com/ropensci/rdataretriever/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rdataretriever/blob/main/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rdataretriever", "https://ci.appveyor.com/project/ethanwhite/rdataretriever"],
-    "keywords": ["science", "data", "data-science", "database", "datasets", "r", "rstats", "r-package"]
+    "keywords": [
+      "science",
+      "data",
+      "data-science",
+      "database",
+      "datasets",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -52321,7 +52381,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rdopa",
     "description": "R client for REST web services of DOPA (Digital Observatory for protected Areas) by the European Union Joint Research Centre.",
@@ -52468,7 +52531,11 @@
     "releaseNotes": "https://github.com/ropensci/rdopa/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rdopa/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rdopa", "https://codecov.io/github/ropensci/rdopa?branch=master"],
-    "keywords": ["r", "rstats", "r-package"]
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -52874,7 +52941,10 @@
     "developmentStatus": "https://www.repostatus.org/"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "refimpact",
     "description": "Provides wrapper functions around the UK Research Excellence Framework 2014 Impact Case Studies Database API <http://impact.ref.ac.uk/>. The database contains relevant publication and research metadata about each case study as well as several paragraphs of text from the case study submissions. Case studies in the database are licenced under a CC-BY 4.0 licence <http://creativecommons.org/licenses/by/4.0/legalcode>.",
@@ -53053,7 +53123,19 @@
       "url": "https://github.com/ropensci/software-review/issues/78",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["uk", "research-funding", "research-improvement", "directed-graph", "directed-graphs", "text-mining", "research-policy", "r", "rstats", "r-package", "peer-reviewed"]
+    "keywords": [
+      "uk",
+      "research-funding",
+      "research-improvement",
+      "directed-graph",
+      "directed-graphs",
+      "text-mining",
+      "research-policy",
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": ["https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld", "http://schema.org"],
@@ -54911,7 +54993,10 @@
     "funder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rfisheries",
     "description": "A programmatic interface to 'openfisheries.org'. This package is part of the 'rOpenSci' suite (https://ropensci.org).",
@@ -55034,7 +55119,14 @@
     "releaseNotes": "https://github.com/ropensci/rfisheries/blob/master/NEWS",
     "readme": "https://github.com/ropensci/rfisheries/blob/master/README.md",
     "contIntegration": "https://ci.appveyor.com/project/karthik/rfisheries",
-    "keywords": ["fisheries", "open-data", "openfisheries", "r", "rstats", "r-package"]
+    "keywords": [
+      "fisheries",
+      "open-data",
+      "openfisheries",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
@@ -57448,7 +57540,10 @@
     }
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rnaturalearthdata",
     "description": "Vector map data from <http://www.naturalearthdata.com/>. Access functions are provided in the accompanying package 'rnaturalearth'.",
@@ -57541,7 +57636,11 @@
     "releaseNotes": "https://github.com/ropensci/rnaturalearthdata/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rnaturalearthdata/blob/master/README.md",
     "contIntegration": "https://travis-ci.org/ropensci/rnaturalearthdata",
-    "keywords": ["r", "r-package", "rstats"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats"
+    ]
   },
   {
     "@context": [
@@ -64187,13 +64286,20 @@
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rusda",
     "description": "An interface to the web service methods provided by the United States Department of Agriculture (USDA). The Agricultural Research Service (ARS) provides a large set of databases. The current version of the package holds interfaces to the Systematic Mycology and Microbiology Laboratory (SMML), which consists of four databases: Fungus-Host Distributions, Specimens, Literature and the Nomenclature database. It provides functions for querying these databases. The main function is \\codeassociations, which allows searching for fungus-host combinations. ",
     "name": "rusda: Interface to USDA Databases",
     "codeRepository": "https://github.com/ropensci/rusda",
-    "relatedLink": ["https://docs.ropensci.org/rusda", "http://www.usda.gov/wps/portal/usda/usdahome", "http://nt.ars-grin.gov/fungaldatabases/index.cfm"],
+    "relatedLink": [
+      "https://docs.ropensci.org/rusda",
+      "http://www.usda.gov/wps/portal/usda/usdahome",
+      "http://nt.ars-grin.gov/fungaldatabases/index.cfm"
+    ],
     "issueTracker": "https://github.com/ropensci/rusda/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.0.8",
@@ -64349,7 +64455,11 @@
     "releaseNotes": "https://github.com/ropensci/rusda/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rusda/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/rusda", "https://codecov.io/github/ropensci/rusda?branch=master"],
-    "keywords": ["r", "rstats", "r-package"],
+    "keywords": [
+      "r",
+      "rstats",
+      "r-package"
+    ],
     "citation": [
       {
         "@type": "ScholarlyArticle",
