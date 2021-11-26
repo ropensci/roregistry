@@ -11536,7 +11536,7 @@
     ],
     "isPartOf": "https://ropensci.org",
     "keywords": ["attribution", "citation", "credit", "citation-files", "cff", "metadata", "r", "r-package", "citation-file-format", "rstats", "ropensci", "cran"],
-    "fileSize": "570.105KB",
+    "fileSize": "582.301KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -11642,7 +11642,7 @@
     "releaseNotes": "https://github.com/ropensci/cffr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/cffr/blob/main/README.md",
     "contIntegration": ["https://github.com/ropensci/cffr/actions/workflows/check-full.yaml", "https://app.codecov.io/gh/ropensci/cffr", "https://github.com/ropensci/cffr/actions/workflows/cff-validator.yml"],
-    "developmentStatus": "https://www.repostatus.org/#active",
+    "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/463",
@@ -18806,6 +18806,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
         "provider": {
@@ -18891,18 +18903,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
@@ -18921,7 +18921,7 @@
     ],
     "releaseNotes": "https://github.com/ropensci/dittodb/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/dittodb/blob/main/README.md",
-    "fileSize": "729.687KB",
+    "fileSize": "729.594KB",
     "contIntegration": ["https://github.com/ropensci/dittodb/actions?workflow=check-macOS", "https://github.com/ropensci/dittodb/actions?workflow=check-linux", "https://github.com/ropensci/dittodb/actions?workflow=check-windows", "https://codecov.io/gh/ropensci/dittodb?branch=main"],
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "provider": {
