@@ -31076,7 +31076,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/jagstargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31434,7 +31434,33 @@
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/425",
       "provider": "https://ropensci.org"
-    }
+    },
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["William", "Michael"],
+            "familyName": "Landau"
+          }
+        ],
+        "name": "The jagstargets R package: a reproducible workflow framework for Bayesian data analysis with JAGS",
+        "url": "https://doi.org/10.21105/joss.03877",
+        "pagination": "3877",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "68",
+          "datePublished": "2021",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "6",
+            "name": "Journal of Open Source Software"
+          }
+        }
+      }
+    ]
   },
   {
     "@context": [
@@ -69921,7 +69947,8 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "tabulizerjars",
-        "name": "tabulizerjars"
+        "name": "tabulizerjars",
+        "sameAs": "https://github.com/ropensci/tabulizerjars"
       },
       {
         "@type": "SoftwareApplication",
@@ -73368,7 +73395,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/tesseract/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "4.1.2",
+    "version": "4.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
