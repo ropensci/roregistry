@@ -66,8 +66,8 @@
       "github": "",
       "status": "",
       "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
+      "on_cran": true,
+      "on_bioc": true,
       "type": "active",
       "url": "",
       "ropensci_category": "data-extraction",
@@ -110,7 +110,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgcheck",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-30 14:36:32",
+      "date_last_commit": "2021-12-02 21:45:22",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -148,7 +148,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-22 14:21:52",
+      "date_last_commit": "2021-12-02 14:01:08",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -205,7 +205,7 @@
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-30 16:58:17",
+      "date_last_commit": "2021-12-02 21:01:27",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -237,8 +237,8 @@
       "github": "https://github.com/YuLab-SMU/treeio",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/179",
-      "on_cran": false,
-      "on_bioc": false,
+      "on_cran": true,
+      "on_bioc": true,
       "type": "active",
       "url": "https://github.com/YuLab-SMU/treeio",
       "ropensci_category": "data-extraction",
@@ -861,7 +861,7 @@
       "url": "https://github.com/ropensci/cffr",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-30 22:13:48",
+      "date_last_commit": "2021-12-02 21:30:46",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2661,7 +2661,7 @@
       "url": "https://github.com/ropensci/lingtypology",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-30 09:27:12",
+      "date_last_commit": "2021-12-02 05:56:17",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4988,23 +4988,20 @@
     },
     {
       "name": "rsat",
-      "description": "Dealing with Multiplatform Satellite Images from Landsat, MODIS, and Sentinel",
+      "description": "Dealing with Multiplatform Satellite Images",
       "details": "Downloading, customizing, and processing time series of satellite images for a region of interest. 'rsat' functions allow a unified access to multispectral images from Landsat, MODIS and Sentinel repositories. 'rsat' also offers capabilities for customizing satellite images, such as tile mosaicking, image cropping and new variables computation. Finally, 'rsat' covers the processing, including cloud masking, compositing and gap-filling/smoothing time series of images (Militino et al., 2018 <doi:10.3390/rs10030398> and Militino et al., 2019 <doi:10.1109/TGRS.2019.2904193>).",
       "maintainer": "Unai Pérez - Goya",
       "keywords": "satellite-images",
       "github": "https://github.com/ropensci/rsat",
       "status": "https://www.repostatus.org#active",
-      "onboarding": [
-        "https://github.com/ropensci/software-review/issues/437",
-        "https://github.com/ropensci/software-review/issues/437"
-      ],
-      "on_cran": false,
+      "onboarding": "https://github.com/ropensci/software-review/issues/437",
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/rsat",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-02 11:45:47",
+      "date_last_commit": "2021-12-02 08:16:56",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5264,7 +5261,7 @@
       "url": "https://github.com/ropensci/skynet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-10-22 11:32:47",
+      "date_last_commit": "2021-12-02 14:24:43",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5624,7 +5621,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-01 16:29:20",
+      "date_last_commit": "2021-12-02 02:54:27",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6318,7 +6315,7 @@
       "github": "https://github.com/ropensci/weathercan",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/160",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/weathercan",
@@ -6662,5 +6659,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2021-12-01 22:06 UTC"
+  "date": "2021-12-02 22:07 UTC"
 }

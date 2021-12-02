@@ -892,7 +892,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "BiocStyle",
-        "name": "BiocStyle"
+        "name": "BiocStyle",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/BiocStyle.html"
       }
     ],
     "softwareRequirements": [
@@ -904,56 +911,126 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "BiocGenerics",
-        "name": "BiocGenerics"
+        "name": "BiocGenerics",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/BiocGenerics.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "IRanges",
         "name": "IRanges",
-        "version": ">= 2.13.15"
+        "version": ">= 2.13.15",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/IRanges.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "GenomicRanges",
         "name": "GenomicRanges",
-        "version": ">= 1.31.10"
+        "version": ">= 1.31.10",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "GenomicFeatures",
         "name": "GenomicFeatures",
-        "version": ">= 1.31.5"
+        "version": ">= 1.31.5",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "Biostrings",
-        "name": "Biostrings"
+        "name": "Biostrings",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biostrings.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "VariantAnnotation",
-        "name": "VariantAnnotation"
+        "name": "VariantAnnotation",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "rtracklayer",
-        "name": "rtracklayer"
+        "name": "rtracklayer",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/rtracklayer.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "S4Vectors",
         "name": "S4Vectors",
-        "version": ">= 0.17.28"
+        "version": ">= 0.17.28",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/S4Vectors.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "GenomeInfoDb",
-        "name": "GenomeInfoDb"
+        "name": "GenomeInfoDb",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "Biobase",
-        "name": "Biobase"
+        "name": "Biobase",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biobase.html"
       }
     ],
     "relatedLink": "https://bioconductor.org/packages/release/bioc/html/genbankr.html"
@@ -1165,7 +1242,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.185",
+    "version": "0.0.2.193",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1466,7 +1543,7 @@
         "sameAs": "https://github.com/ropensci-review-tools/srr"
       }
     ],
-    "fileSize": "1941.922KB",
+    "fileSize": "1940.525KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -1880,7 +1957,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.52",
+    "version": "0.0.3.54",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2126,7 +2203,7 @@
         "identifier": "https://sysreqs.r-hub.io/get/cxx11"
       }
     ],
-    "fileSize": "841.125KB",
+    "fileSize": "837.686KB",
     "developmentStatus": "https://www.repostatus.org/#active",
     "readme": "https://github.com/ropensci-review-tools/pkgstats/blob/main/README.md",
     "relatedLink": [
@@ -2789,7 +2866,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.46",
+    "version": "0.0.2.53",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3036,7 +3113,7 @@
         "sameAs": "https://CRAN.R-project.org/package=tictoc"
       }
     ],
-    "fileSize": "2940.486KB",
+    "fileSize": "2944.353KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "readme": "https://github.com/ropensci-review-tools/roreviewapi/blob/main/README.md",
     "relatedLink": [
@@ -3359,7 +3436,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Biostrings",
-        "name": "Biostrings"
+        "name": "Biostrings",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biostrings.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -3376,7 +3460,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "ggtree",
-        "name": "ggtree"
+        "name": "ggtree",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/ggtree.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -3607,7 +3698,7 @@
     "releaseNotes": "https://github.com/YuLab-SMU/treeio/blob/master/NEWS.md",
     "readme": "https://github.com/YuLab-SMU/treeio/blob/master/README.md",
     "fileSize": "1130.987KB",
-    "relatedLink": ["https://docs.ropensci.org/treeio/", "https://yulab-smu.top/treedata-book/", "https://doi.org/10.1093/molbev/msz240"],
+    "relatedLink": ["https://docs.ropensci.org/treeio/", "https://yulab-smu.top/treedata-book/", "https://doi.org/10.1093/molbev/msz240", "https://bioconductor.org/packages/release/bioc/html/treeio.html"],
     "copyrightHolder": {},
     "funder": {},
     "review": {
@@ -6285,7 +6376,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Biobase",
-        "name": "Biobase"
+        "name": "Biobase",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biobase.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -6331,7 +6429,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "GSEABase",
-        "name": "GSEABase"
+        "name": "GSEABase",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/GSEABase.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -8148,12 +8253,26 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "biomaRt",
-        "name": "biomaRt"
+        "name": "biomaRt",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/biomaRt.html"
       },
       {
         "@type": "SoftwareApplication",
         "identifier": "Biostrings",
-        "name": "Biostrings"
+        "name": "Biostrings",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Biostrings.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -8655,7 +8774,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "sangerseqR",
-        "name": "sangerseqR"
+        "name": "sangerseqR",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/sangerseqR.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -15870,7 +15996,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "AnnotationDbi",
-        "name": "AnnotationDbi"
+        "name": "AnnotationDbi",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -15880,7 +16013,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "clusterProfiler",
-        "name": "clusterProfiler"
+        "name": "clusterProfiler",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html"
       }
     ],
     "softwareRequirements": [
@@ -30055,7 +30195,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "EBImage",
-        "name": "EBImage"
+        "name": "EBImage",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/EBImage.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -32881,7 +33028,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50060,7 +50207,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Rgraphviz",
-        "name": "Rgraphviz"
+        "name": "Rgraphviz",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "BioConductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/Rgraphviz.html"
       },
       {
         "@type": "SoftwareApplication",
@@ -62173,7 +62327,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "rsat",
     "description": "Downloading, customizing, and processing time series of satellite images for a region of interest. 'rsat' functions allow a unified access to multispectral images from Landsat, MODIS and Sentinel repositories. 'rsat' also offers capabilities for customizing satellite images, such as tile mosaicking, image cropping and new variables computation. Finally, 'rsat' covers the processing, including cloud masking, compositing and gap-filling/smoothing time series of images (Militino et al., 2018 <doi:10.3390/rs10030398> and Militino et al., 2019 <doi:10.1109/TGRS.2019.2904193>).",
-    "name": "rsat: Dealing with Multiplatform Satellite Images from Landsat, MODIS, and Sentinel ",
+    "name": "rsat: Dealing with Multiplatform Satellite Images",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.1.16",
     "programmingLanguage": {
@@ -62625,10 +62779,17 @@
     "contIntegration": ["https://app.codecov.io/gh/ropensci/rsat?branch=master", "https://github.com/ropensci/rsat/actions"],
     "review": {
       "@type": "Review",
-      "url": ["https://github.com/ropensci/software-review/issues/437", "https://github.com/ropensci/software-review/issues/437"],
+      "url": "https://github.com/ropensci/software-review/issues/437",
       "provider": "https://ropensci.org"
     },
-    "keywords": "satellite-images"
+    "keywords": "satellite-images",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "relatedLink": "https://CRAN.R-project.org/package=rsat"
   },
   {
     "@context": [
@@ -65961,6 +66122,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=leaflet"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RCurl",
+        "name": "RCurl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RCurl"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/skynet/blob/master/NEWS.md",
