@@ -1242,7 +1242,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.194",
+    "version": "0.0.2.195",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1543,7 +1543,7 @@
         "sameAs": "https://github.com/ropensci-review-tools/srr"
       }
     ],
-    "fileSize": "1940.525KB",
+    "fileSize": "1940.529KB",
     "developmentStatus": "https://www.repostatus.org/#concept",
     "contIntegration": ["https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3AR-CMD-check", "https://github.com/ropensci-review-tools/pkgcheck/actions?query=workflow%3Apush-to-gitlab", "https://codecov.io/gh/ropensci-review-tools/pkgcheck"],
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
@@ -2866,7 +2866,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.53",
+    "version": "0.0.2.55",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31430,6 +31430,12 @@
       "r-targetopia"
     ],
     "releaseNotes": "https://github.com/ropensci/jagstargets/blob/master/NEWS.md",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/425",
@@ -44147,7 +44153,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/parzer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.91",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44161,13 +44167,25 @@
         "familyName": "Chamberlain",
         "email": "sckott@protonmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alban",
+        "familyName": "Sagouis",
+        "email": "sagouis@pm.me",
+        "@id": "https://orcid.org/0000-0002-3827-1063"
       }
     ],
     "contributor": [
       {
         "@type": "Person",
-        "givenName": "Alban",
-        "familyName": "Sagouis"
+        "givenName": "Alec L.",
+        "familyName": "Robitaille"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hiroaki",
+        "familyName": "Yutani"
       },
       {
         "@type": "Person",
@@ -44185,10 +44203,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "sckott@protonmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Alban",
+        "familyName": "Sagouis",
+        "email": "sagouis@pm.me",
+        "@id": "https://orcid.org/0000-0002-3827-1063"
       }
     ],
     "softwareSuggestions": [
