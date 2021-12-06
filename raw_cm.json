@@ -1957,7 +1957,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.54",
+    "version": "0.0.3.56",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80103,7 +80103,7 @@
     ],
     "issueTracker": "https://github.com/ropensci/webchem/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.1.9004",
+    "version": "1.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -80442,7 +80442,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/webchem/blob/master/README.md",
-    "fileSize": "0KB",
+    "fileSize": "616.471KB",
     "keywords": [
       "rstats",
       "ropensci",
@@ -80861,102 +80861,6 @@
     "copyrightHolder": {},
     "funder": {},
     "developmentStatus": "https://www.repostatus.org/#active"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "wicket",
-    "description": "Utilities to generate bounding boxes from 'WKT' (Well-Known Text) objects and R data types, validate 'WKT' objects and convert object types from the 'sp' package into 'WKT' representations.",
-    "name": "wicket: Utilities to Handle WKT Spatial Data",
-    "codeRepository": "https://github.com/ropensci/wicket",
-    "relatedLink": "https://docs.ropensci.org/wicket",
-    "issueTracker": "https://github.com/ropensci/wicket/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
-    "author": {},
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Oliver",
-        "familyName": "Keyes",
-        "email": "ironholds@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "Rcpp",
-        "name": "Rcpp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
-      }
-    ],
-    "releaseNotes": "https://github.com/ropensci/wicket/blob/master/NEWS",
-    "readme": "https://github.com/ropensci/wicket/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropensci/wicket",
-    "keywords": [
-      "wkt",
-      "r",
-      "parser",
-      "geometry",
-      "rstats",
-      "r-package"
-    ]
   },
   {
     "@context": [
