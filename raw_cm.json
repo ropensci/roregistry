@@ -5038,16 +5038,17 @@
     ],
     "@type": "SoftwareSourceCode",
     "identifier": "aRxiv",
-    "description": "An interface to the API for 'arXiv' (<https://arxiv.org>), a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.",
+    "description": "An interface to the API for 'arXiv', a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.",
     "name": "aRxiv: Interface to the arXiv API",
     "codeRepository": "https://github.com/ropensci/aRxiv",
     "relatedLink": [
       "https://docs.ropensci.org/aRxiv",
-      "https://CRAN.R-project.org/package=aRxiv"
+      "https://CRAN.R-project.org/package=aRxiv",
+      "https://docs.ropensci.org/aRxiv/"
     ],
     "issueTracker": "https://github.com/ropensci/aRxiv/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.20",
+    "version": "0.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5189,8 +5190,8 @@
     ],
     "releaseNotes": "https://github.com/ropensci/aRxiv/blob/master/NEWS",
     "readme": "https://github.com/ropensci/aRxiv/blob/master/README.md",
-    "contIntegration": ["https://ci.appveyor.com/project/ropensci/aRxiv", "https://travis-ci.org/", "https://codecov.io/gh/ropensci/aRxiv"],
-    "developmentStatus": "http://www.repostatus.org/#active",
+    "contIntegration": ["https://github.com/ropensci/aRxiv/actions", "https://app.codecov.io/gh/ropensci/aRxiv"],
+    "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": [
       "arxiv-api",
       "arxiv",
