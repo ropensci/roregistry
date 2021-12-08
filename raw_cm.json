@@ -32108,7 +32108,8 @@
     "codeRepository": "https://github.com/ropensci/jstor",
     "relatedLink": [
       "https://docs.ropensci.org/jstor",
-      "https://docs.ropensci.org/jstor/"
+      "https://docs.ropensci.org/jstor/",
+      "https://CRAN.R-project.org/package=jstor"
     ],
     "issueTracker": "https://github.com/ropensci/jstor/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -32419,7 +32420,13 @@
           }
         }
       }
-    ]
+    ],
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    }
   },
   {
     "@context": [
