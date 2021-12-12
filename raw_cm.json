@@ -3123,7 +3123,10 @@
     "contIntegration": "https://github.com/ropensci-review-tools/roreviewapi/actions?query=workflow%3AR-CMD-check"
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "rotemplate",
     "description": "This is a private template for use by rOpenSci packages. Please don't use it for your own non-rOpenSci package.",
@@ -3261,7 +3264,12 @@
     ],
     "releaseNotes": "https://github.com/ropensci-org/rotemplate/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci-org/rotemplate/blob/master/README.md",
-    "keywords": ["pkgdown", "r", "r-package", "rstats"],
+    "keywords": [
+      "pkgdown",
+      "r",
+      "r-package",
+      "rstats"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -63612,7 +63620,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9008",
+    "version": "0.7.0.9009",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
