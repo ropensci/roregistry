@@ -11705,6 +11705,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
         "version": ">= 2.2.1",
@@ -11719,7 +11732,7 @@
     ],
     "isPartOf": "https://ropensci.org",
     "keywords": ["attribution", "citation", "credit", "citation-files", "cff", "metadata", "r", "r-package", "citation-file-format", "rstats", "ropensci", "cran"],
-    "fileSize": "614.956KB",
+    "fileSize": "630.094KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
