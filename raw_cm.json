@@ -11732,7 +11732,7 @@
     ],
     "isPartOf": "https://ropensci.org",
     "keywords": ["attribution", "citation", "credit", "citation-files", "cff", "metadata", "r", "r-package", "citation-file-format", "rstats", "ropensci", "cran"],
-    "fileSize": "630.094KB",
+    "fileSize": "663.303KB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
@@ -29666,152 +29666,6 @@
       }
     ],
     "readme": "https://github.com/ropensci/hydroscoper/blob/master/README.md"
-  },
-  {
-    "@context": [
-      "https://doi.org/10.5063/schema/codemeta-2.0",
-      "http://schema.org"
-    ],
-    "@type": "SoftwareSourceCode",
-    "identifier": "IEEER",
-    "description": "An interface to the IEEE Xplore Gateway, for searching IEEE publications.",
-    "name": "IEEER: Interface to the IEEE Xplore Gateway",
-    "codeRepository": "https://github.com/ropensci/IEEER",
-    "issueTracker": "https://github.com/ropensci/IEEER/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.9",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Saul",
-        "familyName": "Wiggin",
-        "email": "saulwiggin@googlemail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Karl",
-        "familyName": "Broman",
-        "email": "kbroman@biostat.wisc.edu"
-      }
-    ],
-    "contributor": {},
-    "copyrightHolder": {},
-    "funder": {},
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Saul",
-        "familyName": "Wiggin",
-        "email": "saulwiggin@googlemail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.0.0"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      }
-    ],
-    "readme": "https://github.com/ropensci/IEEER/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/IEEER", "https://ci.appveyor.com/project/karthik/IEEER", "https://codecov.io/github/ropensci/IEEER?branch=master"],
-    "keywords": [
-      "r",
-      "rstats",
-      "r-package"
-    ]
   },
   {
     "@context": [
@@ -56230,7 +56084,7 @@
     "codeRepository": "https://github.com/ropensci/riem",
     "issueTracker": "https://github.com/ropensci/riem/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.1.1",
+    "version": "0.2.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
