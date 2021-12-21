@@ -1,25 +1,6 @@
 {
   "packages": [
     {
-      "name": "auk",
-      "description": "eBird Data Extraction and Processing in R",
-      "details": "Extract and process bird sightings records from eBird (<http://ebird.org>), an online tool for recording bird observations. Public access to the full eBird database is via the eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download> for access), a downloadable text file. This package is an interface to AWK for extracting data from the EBD based on taxonomic, spatial, or temporal filters, to produce a manageable file size that can be imported into R.",
-      "maintainer": "Matthew Strimas-Mackey",
-      "keywords": "dataset, ebird",
-      "github": "https://github.com/CornellLabofOrnithology/auk",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/136",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/CornellLabofOrnithology/auk",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-12-06 17:24:53",
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "autotest",
       "description": "Automatic Package Testing",
       "details": "Automatic testing of R packages via a simple YAML schema.",
@@ -110,7 +91,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgcheck",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-03 08:06:11",
+      "date_last_commit": "2021-12-21 16:19:37",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -205,7 +186,7 @@
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-16 09:03:36",
+      "date_last_commit": "2021-12-21 15:31:59",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -5000,7 +4981,7 @@
       "ropenscilabs": false,
       "date_last_commit": "2021-12-14 17:26:02",
       "github_archived": false,
-      "cran_archived": false,
+      "cran_archived": true,
       "staff_maintained": false
     },
     {
@@ -5618,7 +5599,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-17 17:20:11",
+      "date_last_commit": "2021-12-21 15:26:11",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5659,26 +5640,6 @@
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
       "date_last_commit": "2021-12-13 19:46:23",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "taxize",
-      "description": "Taxonomic Information from Around the Web",
-      "details": "Interacts with a suite of web 'APIs' for taxonomic tasks, such as getting database specific taxonomic identifiers, verifying species names, getting taxonomic hierarchies, fetching downstream and upstream taxonomic names, getting taxonomic synonyms, converting scientific to common names and vice versa, and more.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "api, API, api-client, api-wrapper, biodiversity, biology, darwincore, data, identifiers, JSON, names, nomenclature, species, taxize, taxonomy, web",
-      "github": "https://github.com/ropensci/taxize",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/taxize",
-      "ropensci_category": "taxonomy",
-      "ropenscilabs": false,
-      "date_last_commit": "2021-05-27 16:56:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6238,7 +6199,7 @@
       "url": "https://github.com/ropensci/virtuoso",
       "ropensci_category": "databases",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-20 22:11:20",
+      "date_last_commit": "2021-12-21 19:47:38",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6636,5 +6597,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2021-12-21 15:07 UTC"
+  "date": "2021-12-21 22:08 UTC"
 }
