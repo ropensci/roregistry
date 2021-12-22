@@ -1,12 +1,18 @@
 [
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "auk",
     "description": "Extract and process bird sightings records from eBird (<http://ebird.org>), an online tool for recording bird observations. Public access to the full eBird database is via the eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download> for access), a downloadable text file. This package is an interface to AWK for extracting data from the EBD based on taxonomic, spatial, or temporal filters, to produce a manageable file size that can be imported into R.",
     "name": "auk: eBird Data Extraction and Processing in R",
     "codeRepository": "https://github.com/CornellLabofOrnithology/auk",
-    "relatedLink": ["https://cornelllabofornithology.github.io/auk/", "https://CRAN.R-project.org/package=auk"],
+    "relatedLink": [
+      "https://cornelllabofornithology.github.io/auk/",
+      "https://CRAN.R-project.org/package=auk"
+    ],
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.5.1",
@@ -278,7 +284,11 @@
       "url": "https://github.com/ropensci/software-review/issues/136",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "ebird", "dataset"],
+    "keywords": [
+      "r",
+      "ebird",
+      "dataset"
+    ],
     "citation": [
       {
         "@type": "SoftwareSourceCode",
@@ -63817,7 +63827,7 @@
     "relatedLink": "https://docs.ropensci.org/ruODK",
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.3.1",
+    "version": "1.3.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
