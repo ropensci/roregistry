@@ -1,6 +1,25 @@
 {
   "packages": [
     {
+      "name": "auk",
+      "description": "eBird Data Extraction and Processing in R",
+      "details": "Extract and process bird sightings records from eBird (<http://ebird.org>), an online tool for recording bird observations. Public access to the full eBird database is via the eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download> for access), a downloadable text file. This package is an interface to AWK for extracting data from the EBD based on taxonomic, spatial, or temporal filters, to produce a manageable file size that can be imported into R.",
+      "maintainer": "Matthew Strimas-Mackey",
+      "keywords": "dataset, ebird",
+      "github": "https://github.com/CornellLabofOrnithology/auk",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/136",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/CornellLabofOrnithology/auk",
+      "ropensci_category": "data-access",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-12-06 17:24:53",
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "autotest",
       "description": "Automatic Package Testing",
       "details": "Automatic testing of R packages via a simple YAML schema.",
@@ -2659,7 +2678,7 @@
       "url": "https://github.com/ropensci/magick",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-19 13:51:18",
+      "date_last_commit": "2021-12-21 22:35:03",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5645,6 +5664,26 @@
       "staff_maintained": false
     },
     {
+      "name": "taxize",
+      "description": "Taxonomic Information from Around the Web",
+      "details": "Interacts with a suite of web 'APIs' for taxonomic tasks, such as getting database specific taxonomic identifiers, verifying species names, getting taxonomic hierarchies, fetching downstream and upstream taxonomic names, getting taxonomic synonyms, converting scientific to common names and vice versa, and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, API, api-client, api-wrapper, biodiversity, biology, darwincore, data, identifiers, JSON, names, nomenclature, species, taxize, taxonomy, web",
+      "github": "https://github.com/ropensci/taxize",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/taxize",
+      "ropensci_category": "taxonomy",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-05-27 16:56:35",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "taxizedb",
       "description": "Tools for Working with 'Taxonomic' Databases",
       "details": "Tools for working with 'taxonomic' databases, including utilities for downloading databases, loading them into various 'SQL' databases, cleaning up files, and providing a 'SQL' connection that can be used to do 'SQL' queries directly or used in 'dplyr'.",
@@ -5739,7 +5778,7 @@
       "url": "https://github.com/ropensci/tesseract",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-14 14:04:57",
+      "date_last_commit": "2021-12-21 23:24:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6597,5 +6636,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2021-12-21 22:08 UTC"
+  "date": "2021-12-22 02:03 UTC"
 }
