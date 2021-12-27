@@ -28091,13 +28091,19 @@
     ]
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "gutenbergr",
     "description": "Download and process public domain works in the Project Gutenberg collection <http://www.gutenberg.org/>. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.",
     "name": "gutenbergr: Download and Process Public Domain Works from Project Gutenberg",
     "codeRepository": "https://github.com/ropensci/gutenbergr",
-    "relatedLink": ["https://docs.ropensci.org/gutenbergr/", "https://CRAN.R-project.org/package=gutenbergr"],
+    "relatedLink": [
+      "https://docs.ropensci.org/gutenbergr/",
+      "https://CRAN.R-project.org/package=gutenbergr"
+    ],
     "issueTracker": "https://github.com/ropensci/gutenbergr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "0.1.5.9000",
@@ -28319,7 +28325,12 @@
       "url": "https://github.com/ropensci/software-review/issues/41",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["r", "r-package", "rstats", "peer-reviewed"]
+    "keywords": [
+      "r",
+      "r-package",
+      "rstats",
+      "peer-reviewed"
+    ]
   },
   {
     "@context": [
@@ -67743,13 +67754,19 @@
     "copyrightHolder": {}
   },
   {
-    "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      "http://schema.org"
+    ],
     "@type": "SoftwareSourceCode",
     "identifier": "ssh",
     "description": "Connect to a remote server over SSH to transfer files via SCP, setup a secure tunnel, or run a command or script on the host while streaming stdout and stderr directly to the client.",
     "name": "ssh: Secure Shell (SSH) Client for R",
     "codeRepository": "https://github.com/ropensci/ssh",
-    "relatedLink": ["https://docs.ropensci.org/ssh/", "https://CRAN.R-project.org/package=ssh"],
+    "relatedLink": [
+      "https://docs.ropensci.org/ssh/",
+      "https://CRAN.R-project.org/package=ssh"
+    ],
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.8.0",
     "programmingLanguage": {
@@ -67897,7 +67914,14 @@
     "readme": "https://github.com/ropensci/ssh/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/ropensci/ssh", "https://ci.appveyor.com/project/jeroen/ssh", "https://codecov.io/github/ropensci/ssh?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["libssh", "ssh", "ssh-client", "r", "rstats", "r-package"]
+    "keywords": [
+      "libssh",
+      "ssh",
+      "ssh-client",
+      "r",
+      "rstats",
+      "r-package"
+    ]
   },
   {
     "@context": [
