@@ -148,7 +148,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-15 10:12:35",
+      "date_last_commit": "2022-01-03 17:15:37",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -409,7 +409,7 @@
       "description": "Assertive Programming for R Analysis Pipelines",
       "details": "Provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. Similar to 'stopifnot()' but more powerful, friendly, and easier for use in pipelines.",
       "maintainer": "Tony Fischetti",
-      "keywords": "analysis-pipeline, assert, assertion-library, assertion-methods, assertions, audit, checking, defensive, peer-reviewed, predicate-functions, ropensci, sanitization, workflow",
+      "keywords": "analysis-pipeline, assertion-library, assertion-methods, assertions, peer-reviewed, predicate-functions",
       "github": "https://github.com/ropensci/assertr",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -848,7 +848,7 @@
       "description": "Base de Datos de Facil Acceso del Censo 2017 de Chile\n    (2017 Chilean Census Easy Access Database)",
       "details": "Provee un acceso conveniente a mas de 17 millones de registros de la base de datos del Censo 2017. Los datos fueron importados desde el DVD oficial del INE usando el Convertidor REDATAM creado por Pablo De Grande. Esta paquete esta documentado intencionalmente en castellano asciificado para que funcione sin problema en diferentes plataformas. (Provides convenient access to more than 17 million records from the Chilean Census 2017 database. The datasets were imported from the official DVD provided by the Chilean National Bureau of Statistics by using the REDATAM converter created by Pablo De Grande and in addition it includes the maps accompanying these datasets.)",
       "maintainer": "Mauricio Vargas",
-      "keywords": "censo, census, chile, demografia, demographics, duckdb, redatam, sqlite",
+      "keywords": "censo, census, chile, demografia, demographics, duckdb, redatam",
       "github": "https://github.com/ropensci/censo2017",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/414",
@@ -878,7 +878,7 @@
       "url": "https://github.com/ropensci/cffr",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-03 14:57:27",
+      "date_last_commit": "2022-01-03 18:19:17",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1138,7 +1138,7 @@
       "url": "https://github.com/ropensci/codemetar",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-03 11:13:40",
+      "date_last_commit": "2022-01-03 21:34:45",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -1368,7 +1368,7 @@
       "description": "Interface to 'the CAVD DataSpace'",
       "details": "Provides a convenient API interface to access immunological data within 'the CAVD DataSpace'(<https://dataspace.cavd.org>), a data sharing and discovery tool that facilitates exploration of HIV immunological data from pre-clinical and clinical HIV vaccine studies.",
       "maintainer": "Jason Taylor",
-      "keywords": "cavd, cavd-dataspace, dataspace, hiv, hvtn, immunology, labkey, vaccine",
+      "keywords": "cavd-dataspace",
       "github": "https://github.com/ropensci/DataSpaceR",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/261",
@@ -1548,7 +1548,7 @@
       "description": "API Wrapper for 'US Energy Information Administration' Open Data",
       "details": "Provides API access to data from the 'US Energy Information Administration' ('EIA') <https://www.eia.gov/>. Use of the API requires a free API key obtainable at <https://www.eia.gov/opendata/register.php>. The package includes functions for searching 'EIA' data categories and importing time series and geoset time series datasets. Datasets returned by these functions are provided in a tidy format or alternatively in more raw form. It also offers helper functions for working with 'EIA' date strings and time formats and for inspecting different summaries of series metadata. The package also provides control over API key storage and caching of API request results. ",
       "maintainer": "Matthew Leonawicz",
-      "keywords": "cran, eia, eia-api, energy-data, energy-information-administration, open-data, package",
+      "keywords": "cran, eia, eia-api, energy-data, energy-information-administration, open-data",
       "github": "https://github.com/ropensci/eia",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/342",
@@ -3078,7 +3078,7 @@
       "url": "https://github.com/ropensci/nomisr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-05 21:19:12",
+      "date_last_commit": "2022-01-03 15:06:21",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3828,7 +3828,7 @@
       "description": "Download and Read RAM Legacy Stock Assessment Database",
       "details": "Contains functions to download, cache and read in 'Excel' version of the RAM Legacy Stock Assessment Data Base, an online compilation of stock assessment results for commercially exploited marine populations from around the world. The database is named after Dr. Ransom A. Myers whose original stock-recruitment database, is no longer being updated. More information about the database can be found at <https://ramlegacy.org/>. Ricard, D., Minto, C., Jensen, O.P. and Baum, J.K. (2012) <doi:10.1111/j.1467-2979.2011.00435.x>.",
       "maintainer": "Kshitiz Gupta",
-      "keywords": "assessment, cache, database, download, fish, fisheries, Legacy, marine, marine-biology, RAM, ramlegacy, read, ropensci, stock-assessment",
+      "keywords": "fisheries, marine-biology, ramlegacy, ropensci, stock-assessment",
       "github": "https://github.com/ropensci/ramlegacy",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/264",
@@ -4130,7 +4130,7 @@
       "maintainer": "Carl Boettiger",
       "keywords": "peer-reviewed",
       "github": "https://github.com/ropensci/rdflib",
-      "status": "https://www.repostatus.org#active",
+      "status": "https://www.repostatus.org/",
       "onboarding": "https://github.com/ropensci/software-review/issues/169",
       "on_cran": true,
       "on_bioc": false,
@@ -4138,7 +4138,7 @@
       "url": "https://github.com/ropensci/rdflib",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-01 19:14:17",
+      "date_last_commit": "2022-01-03 19:15:33",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4248,7 +4248,7 @@
       "description": "Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
       "details": "Provides tools for importing and working with bibliographic references. It greatly enhances the 'bibentry' class by providing a class 'BibEntry' which stores 'BibTeX' and 'BibLaTeX' references, supports 'UTF-8' encoding, and can be easily searched by any field, by date ranges, and by various formats for name lists (author by last names, translator by full names, etc.). Entries can be updated, combined, sorted, printed in a number of styles, and exported. 'BibTeX' and 'BibLaTeX' '.bib' files can be read into 'R' and converted to 'BibEntry' objects. Interfaces to 'NCBI Entrez', 'CrossRef', and 'Zotero' are provided for importing references and references can be created from locally stored 'PDF' files using 'Poppler'. Includes functions for citing and generating a bibliography with hyperlinks for documents prepared with 'RMarkdown' or 'RHTML'.",
       "maintainer": "Mathew W. McLean",
-      "keywords": "peer-reviewed, R, reference management, document generation, bibtex, biblatex",
+      "keywords": "peer-reviewed",
       "github": "https://github.com/ropensci/RefManageR",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/119",
@@ -5618,7 +5618,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-24 20:21:01",
+      "date_last_commit": "2022-01-03 16:10:11",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5758,7 +5758,7 @@
       "url": "https://github.com/ropensci/terrainr",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-15 14:31:01",
+      "date_last_commit": "2022-01-03 16:07:20",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5778,7 +5778,7 @@
       "url": "https://github.com/ropensci/tesseract",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-22 16:31:43",
+      "date_last_commit": "2022-01-03 20:56:14",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6636,5 +6636,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-01-03 15:07 UTC"
+  "date": "2022-01-03 22:06 UTC"
 }
