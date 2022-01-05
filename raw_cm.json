@@ -1896,7 +1896,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.74",
+    "version": "0.0.3.82",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1948,15 +1948,8 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "pbapply",
-        "name": "pbapply",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pbapply"
+        "identifier": "parallel",
+        "name": "parallel"
       },
       {
         "@type": "SoftwareApplication",
