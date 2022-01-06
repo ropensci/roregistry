@@ -11607,14 +11607,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "climatrends",
-        "name": "climatrends",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=climatrends"
+        "name": "climatrends"
       },
       {
         "@type": "SoftwareApplication",
@@ -13724,12 +13717,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.2 (2021-11-01)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -13894,7 +13881,7 @@
         "description": "R package version 0.1.6"
       }
     ],
-    "relatedLink": ["https://agrdatasci.github.io/climatrends/", "https://CRAN.R-project.org/package=climatrends"],
+    "relatedLink": "https://agrdatasci.github.io/climatrends/",
     "releaseNotes": "https://github.com/ropensci/climatrends/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/climatrends/blob/master/README.md",
     "contIntegration": ["https://travis-ci.org/agrdatasci/climatrends", "https://codecov.io/github/agrdatasci/climatrends?branch=master"],
@@ -21277,7 +21264,7 @@
     "codeRepository": "https://github.com/ropensci/essurvey",
     "issueTracker": "https://github.com/ropensci/essurvey/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.7.9999",
+    "version": "1.0.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
