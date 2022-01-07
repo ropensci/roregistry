@@ -2756,7 +2756,7 @@
     },
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/ropensci/rodev/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci-org/rodev/blob/master/README.md",
+    "readme": "https://github.com/ropensci-archive/rodev/blob/master/README.md",
     "contIntegration": ["https://travis-ci.com/ropensci/rodev", "https://codecov.io/github/ropensci/rodev?branch=master"],
     "developmentStatus": "http://www.repostatus.org/#wip",
     "keywords": ["r", "r-package", "rstats"]
@@ -36670,7 +36670,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "NLMR",
-    "description": "Provides neutral landscape models (<doi:10.1007/BF02275262>, <http://sci-hub.tw/10.1007/bf02275262>). Neutral landscape models range from \"hard\" neutral models (completely random distributed), to \"soft\" neutral models (definable spatial characteristics) and generate landscape patterns that are independent of ecological processes. Thus, these patterns can be used as null models in landscape ecology. 'NLMR' combines a large number of algorithms from other published software for simulating neutral landscapes. The simulation results are obtained in a spatial data format (raster* objects from the 'raster' package) and can, therefore, be used in any sort of raster data operation that is performed with standard observation data. ",
+    "description": "Provides neutral landscape models (<doi:10.1007/BF02275262>, <http://sci-hub.tw/10.1007/bf02275262>). Neutral landscape models range from \"hard\" neutral models (completely random distributed), to \"soft\" neutral models (definable spatial characteristics) and generate landscape patterns that are independent of ecological processes. Thus, these patterns can be used as null models in landscape ecology. 'NLMR' combines a large number of algorithms from other published software for simulating neutral landscapes. The simulation results are obtained in a spatial data format (raster* objects from the 'raster' package) and can, therefore, be used in any sort of raster data operation that is performed with standard observation data.",
     "name": "NLMR: Simulating Neutral Landscape Models",
     "codeRepository": "https://github.com/ropensci/NLMR",
     "issueTracker": "https://github.com/ropensci/NLMR/issues/",
@@ -36741,27 +36741,27 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
+        "identifier": "highcharter",
+        "name": "highcharter",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
+        "sameAs": "https://CRAN.R-project.org/package=highcharter"
       },
       {
         "@type": "SoftwareApplication",
@@ -36777,27 +36777,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
+        "identifier": "landscapemetrics",
+        "name": "landscapemetrics",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lintr",
-        "name": "lintr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lintr"
+        "sameAs": "https://CRAN.R-project.org/package=landscapemetrics"
       },
       {
         "@type": "SoftwareApplication",
@@ -36810,6 +36798,126 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=landscapetools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pals",
+        "name": "pals",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pals"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "plotly",
+        "name": "plotly",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=plotly"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rasterVis",
+        "name": "rasterVis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rasterVis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rayshader",
+        "name": "rayshader",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rayshader"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rgl",
+        "name": "rgl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgl"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "viridis",
+        "name": "viridis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=viridis"
       }
     ],
     "softwareRequirements": {
@@ -36845,6 +36953,18 @@
       },
       "4": {
         "@type": "SoftwareApplication",
+        "identifier": "fasterize",
+        "name": "fasterize",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fasterize"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
         "identifier": "RandomFields",
         "name": "RandomFields",
         "provider": {
@@ -36855,7 +36975,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=RandomFields"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "raster",
         "name": "raster",
@@ -36867,72 +36987,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=raster"
       },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "spatstat.core",
-        "name": "spatstat.core",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=spatstat.core"
-      },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "spatstat.geom",
-        "name": "spatstat.geom",
+        "identifier": "Rcpp",
+        "name": "Rcpp",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=spatstat.geom"
+        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
       },
       "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "igraph",
-        "name": "igraph",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=igraph"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
-      },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
-        "identifier": "fasterize",
-        "name": "fasterize",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=fasterize"
-      },
-      "12": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -36944,17 +37011,46 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "13": {
+      "9": {
         "@type": "SoftwareApplication",
-        "identifier": "Rcpp",
-        "name": "Rcpp",
+        "identifier": "spatstat.core",
+        "name": "spatstat.core",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
+        "sameAs": "https://CRAN.R-project.org/package=spatstat.core"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "spatstat.geom",
+        "name": "spatstat.geom",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spatstat.geom"
+      },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       "SystemRequirements": "C++11"
     },
@@ -50714,218 +50810,6 @@
     "contIntegration": ["https://github.com/ropensci/rdryad/actions?query=workflow%3AR-check", "https://codecov.io/gh/ropensci/rdryad"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["dryad-api", "dryad", "data", "doi", "oai-pmh", "r", "rstats", "r-package"]
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "identifier": "rebird",
-    "description": "A programmatic client for the eBird database (<https://ebird.org/home>), including functions for searching for bird observations by geographic location (latitude, longitude), eBird hotspots, location identifiers, by notable sightings, by region, and by taxonomic name.",
-    "name": "rebird: R Client for the eBird Database of Bird Observations",
-    "relatedLink": "https://docs.ropensci.org/rebird/",
-    "codeRepository": "https://github.com/ropensci/rebird",
-    "issueTracker": "https://github.com/ropensci/rebird/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "1.3.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Rafael",
-        "familyName": "Maia",
-        "email": "rm72@zips.uakron.edu"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Andy",
-        "familyName": "Teucher",
-        "email": "andy.teucher@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Sebastian",
-        "familyName": "Pardo",
-        "email": "sebpardo@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4147-5796"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Guy",
-        "familyName": "Babineau",
-        "email": "guy.babineau@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Marianna",
-        "familyName": "Foos",
-        "email": "marianna.foos@gmail.com"
-      },
-      {
-        "@type": "Person",
-        "givenName": "David",
-        "familyName": "Bradnum",
-        "email": "david.bradnum@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Sebastian",
-        "familyName": "Pardo",
-        "email": "sebpardo@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4147-5796"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 2.10"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      "SystemRequirements": null
-    },
-    "applicationCategory": "DataAccess",
-    "isPartOf": "https://ropensci.org",
-    "keywords": ["birds", "birding", "ebird", "database", "data", "biology", "observations", "sightings", "ornithology", "rstats", "ebird-api", "r", "ebird-webservices", "spocc", "r-package"],
-    "fileSize": "NAKB",
-    "releaseNotes": "https://github.com/ropensci/rebird/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/rebird/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/rebird", "https://ci.appveyor.com/project/sckott/rebird", "https://coveralls.io/github/ropensci/rebird"],
-    "developmentStatus": "https://www.repostatus.org/"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
