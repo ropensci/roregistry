@@ -2983,7 +2983,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.65",
+    "version": "0.0.2.66",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25640,6 +25640,238 @@
       "url": "https://github.com/ropensci/software-review/issues/303",
       "provider": "https://ropensci.org"
     }
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "gittargets",
+    "description": "Pipelines with the 'targets' R package (2021, <doi:10.21105/joss.02959>) skip steps that are up to already date. Although this behavior reduces the runtime of subsequent runs, it comes at the cost of overwriting previous results. So if the pipeline source code is under version control, and if you revert to a previous commit or branch, the data will no longer be up to date with the code you just checked out. Ordinarily, you would need to rerun the pipeline in order to recover the targets you had before. However, 'gittargets' preserves historical output, creating version control snapshots of data store. Each data snapshot remembers the contemporaneous Git commit of the pipeline source code, so you can recover the right data when you navigate the Git history. In other words, 'gittargets' makes it possible to switch commits or branches without invalidating the pipeline. You can simply check out the up-to-date targets from the past instead of taking the time to recompute them from scratch.",
+    "name": "gittargets: Data Version Control for the Targets Package",
+    "relatedLink": "https://docs.ropensci.org/gittargets/",
+    "codeRepository": "https://github.com/ropensci/gittargets",
+    "issueTracker": "https://github.com/ropensci/gittargets/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": ["William", "Michael"],
+        "familyName": "Landau",
+        "email": "will.landau@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1878-3253"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Eli Lilly and Company"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": ["William", "Michael"],
+        "familyName": "Landau",
+        "email": "will.landau@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1878-3253"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "version": ">= 1.30",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "version": ">= 1.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "version": ">= 2.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "version": ">= 3.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "version": ">= 1.12.8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "gert",
+        "name": "gert",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gert"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "processx",
+        "name": "processx",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=processx"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "targets",
+        "name": "targets",
+        "version": ">= 0.6.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=targets"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "uuid",
+        "name": "uuid",
+        "version": ">= 0.1.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=uuid"
+      },
+      "SystemRequirements": "Git (>= 2.0.0)"
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["William", "Michael"],
+            "familyName": "Landau"
+          }
+        ],
+        "name": "gittargets: Version Control for the Targets Package",
+        "description": "https://docs.ropensci.org/gittargets/, https://github.com/ropensci/gittargets"
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/gittargets/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/gittargets/blob/main/README.md",
+    "contIntegration": ["https://github.com/ropensci/gittargets/actions?query=workflow%3Acheck", "https://app.codecov.io/gh/ropensci/gittargets", "https://github.com/ropensci/gittargets/actions?query=workflow%3Alint"],
+    "developmentStatus": "https://www.repostatus.org/#active",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/486",
+      "provider": "https://ropensci.org"
+    },
+    "keywords": ["data-version-control", "data-versioning", "workflow", "data-science", "r", "reproducible-research", "rstats", "r-package", "reproducibility", "targets"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",

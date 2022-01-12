@@ -224,7 +224,7 @@
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-22 10:17:52",
+      "date_last_commit": "2022-01-12 09:59:35",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -2080,6 +2080,24 @@
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
       "date_last_commit": "2021-10-31 21:16:05",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
+      "name": "gittargets",
+      "description": "Data Version Control for the Targets Package",
+      "details": "Pipelines with the 'targets' R package (2021, <doi:10.21105/joss.02959>) skip steps that are up to already date. Although this behavior reduces the runtime of subsequent runs, it comes at the cost of overwriting previous results. So if the pipeline source code is under version control, and if you revert to a previous commit or branch, the data will no longer be up to date with the code you just checked out. Ordinarily, you would need to rerun the pipeline in order to recover the targets you had before. However, 'gittargets' preserves historical output, creating version control snapshots of data store. Each data snapshot remembers the contemporaneous Git commit of the pipeline source code, so you can recover the right data when you navigate the Git history. In other words, 'gittargets' makes it possible to switch commits or branches without invalidating the pipeline. You can simply check out the up-to-date targets from the past instead of taking the time to recompute them from scratch.",
+      "maintainer": "William Michael Landau",
+      "keywords": "data-science, data-version-control, data-versioning, reproducibility, reproducible-research, targets, workflow",
+      "github": "https://github.com/ropensci/gittargets",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/486",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/gittargets",
+      "date_last_commit": "2022-01-12 14:40:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6637,5 +6655,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-01-12 08:01 UTC"
+  "date": "2022-01-12 15:03 UTC"
 }
