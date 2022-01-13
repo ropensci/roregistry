@@ -11536,7 +11536,7 @@
     "codeRepository": "https://github.com/ropensci/chirps",
     "issueTracker": "https://github.com/ropensci/chirps/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.3.6",
+    "version": "0.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11693,15 +11693,15 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
+        "identifier": "httr",
+        "name": "httr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
+        "sameAs": "https://CRAN.R-project.org/package=httr"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -25658,6 +25658,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
