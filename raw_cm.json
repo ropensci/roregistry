@@ -8373,6 +8373,211 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "bittrex",
+    "description": "A client for the Bittrex crypto-currency exchange https://bittrex.com including the ability to query trade data, manage account balances, and place orders.",
+    "name": "bittrex: Client for the Bittrex Exchange",
+    "relatedLink": "https://docs.ropensci.org/bittrex",
+    "codeRepository": "https://github.com/ropensci/bittrex",
+    "issueTracker": "https://github.com/ropensci/bittrex/issues",
+    "license": "https://spdx.org/licenses/LGPL-2.0",
+    "version": "0.2.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Kane",
+        "email": "kaneplusplus@gmail.com",
+        "@id": "http://orcid.org/0000-0003-1899-6662"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Rory",
+        "familyName": "Nolan",
+        "email": "rorynoolan@gmail.com",
+        "@id": "http://orcid.org/0000-0002-5239-4043"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Kane",
+        "email": "kaneplusplus@gmail.com",
+        "@id": "http://orcid.org/0000-0003-1899-6662"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Kane",
+        "email": "kaneplusplus@gmail.com",
+        "@id": "http://orcid.org/0000-0003-1899-6662"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "threejs",
+        "name": "threejs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=threejs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyverse",
+        "name": "tidyverse",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyverse"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "igraph",
+        "name": "igraph",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=igraph"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "quantmod",
+        "name": "quantmod",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=quantmod"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "openssl",
+        "name": "openssl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openssl"
+      },
+      "SystemRequirements": null
+    },
+    "applicationCategory": "DataAccess",
+    "isPartOf": "https://ropensci.org",
+    "keywords": ["cryptocurrency", "cryptocurency-exchange", "finance", "crypto-currency-exchanges", "r", "rstats", "r-package", "peer-reviewed"],
+    "fileSize": "0KB",
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["Michael", "J."],
+            "familyName": "Kane"
+          }
+        ],
+        "name": "bittrex: An R client for the Bittrex Crypto-Currency Exchange",
+        "identifier": "10.5281/zenodo.889710",
+        "url": "http://joss.theoj.org/papers/74d82949fbe75fd7c31ba2eac4b6dd85",
+        "@id": "https://doi.org/10.5281/zenodo.889710",
+        "sameAs": "https://doi.org/10.5281/zenodo.889710",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "402",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "2(17)",
+            "name": "Journal of Open Open Source Software"
+          }
+        }
+      }
+    ],
+    "releaseNotes": "https://github.com/ropensci/bittrex/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/bittrex/blob/master/README.md",
+    "contIntegration": ["https://travis-ci.org/ropensci/bittrex", "https://codecov.io/github/ropensci/bittrex?branch=master"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/120",
+      "provider": "https://ropensci.org"
+    }
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "bold",
     "description": "A programmatic interface to the Web Service methods provided by Bold Systems (<http://www.boldsystems.org/>) for genetic 'barcode' data. Functions include methods for searching by sequences by taxonomic names, ids, collectors, and institutions; as well as a function for searching for specimens, and downloading trace files.",
     "name": "bold: Interface to Bold Systems API",
@@ -70460,18 +70665,41 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
+        "datePublished": "2022",
         "author": [
           {
             "@type": "Person",
-            "givenName": "Michael",
+            "givenName": ["Michael", "J."],
             "familyName": "Mahoney"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Colin", "M."],
+            "familyName": "Beier"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Aidan", "C."],
+            "familyName": "Ackerman"
           }
         ],
-        "name": "{terrainr}: Landscape Visualizations in R and Unity",
-        "identifier": " 10.5281/zenodo.5142763",
-        "url": "https://CRAN.R-project.org/package=terrainr",
-        "description": "R package version 0.5.1"
+        "name": "{terrainr}: An R package for creating immersive virtual environments",
+        "identifier": "10.21105/joss.04060",
+        "url": "https://doi.org/10.21105/joss.04060",
+        "pagination": "4060",
+        "@id": "https://doi.org/10.21105/joss.04060",
+        "sameAs": "https://doi.org/10.21105/joss.04060",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "69",
+          "datePublished": "2022",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "7",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "releaseNotes": "https://github.com/ropensci/terrainr/blob/master/NEWS.md",
