@@ -73583,7 +73583,7 @@
     "codeRepository": "https://github.com/ropensci/tradestatistics",
     "issueTracker": "https://github.com/ropensci/tradestatistics/issues",
     "license": "Apache License 2",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73725,6 +73725,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "arrow",
+        "name": "arrow",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=arrow"
       }
     ],
     "softwareRequirements": {
