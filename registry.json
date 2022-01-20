@@ -129,7 +129,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgcheck",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-20 14:18:23",
+      "date_last_commit": "2022-01-20 18:44:17",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -2483,26 +2483,6 @@
       "staff_maintained": false
     },
     {
-      "name": "jaod",
-      "description": "Directory of Open Access Journals Client",
-      "details": "Client for the Directory of Open Access Journals ('DOAJ') (<https://doaj.org/>). API documentation at <https://doaj.org/api/v1/docs>. Methods included for working with all 'DOAJ' API routes: fetch article information by identifier, search for articles, fetch journal information by identifier, and search for journals.",
-      "maintainer": "Scott Chamberlain",
-      "keywords": "api-client, citations, full-text, literature, metadata, open-access, pdf, publications, scholarly-articles, text-ming, web-api, xml",
-      "github": "https://github.com/ropensci/jaod",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/jaod",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-12-02 17:26:33",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "jenkins",
       "description": "Simple Jenkins Client for R",
       "details": "Manage jobs and builds on your Jenkins CI server <https://jenkins.io/>. Create and edit projects, schedule builds, manage the queue, download build logs, and much more.",
@@ -3217,7 +3197,7 @@
       "url": "https://github.com/ropensci/opentripplanner",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-20 14:49:04",
+      "date_last_commit": "2022-01-20 16:38:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4277,7 +4257,7 @@
       "url": "https://github.com/ropensci/refsplitr",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2021-05-06 15:26:04",
+      "date_last_commit": "2022-01-20 18:03:03",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4458,26 +4438,6 @@
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
       "date_last_commit": "2021-05-03 22:40:06",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "rgpdd",
-      "description": "R Interface to the Global Population Dynamics Database",
-      "details": "R Interface to the Global Population Dynamics Database (<https://ecologicaldata.org/wiki/global-population-dynamics-database>)",
-      "maintainer": "Carl Boettiger",
-      "keywords": "",
-      "github": "https://github.com/ropensci/rgpdd",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/rgpdd",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-05-18 16:02:50",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6223,6 +6183,26 @@
       "staff_maintained": false
     },
     {
+      "name": "visdat",
+      "description": "Preliminary Visualisation of Data",
+      "details": "Create preliminary exploratory data visualisations of an entire dataset to identify problems or unexpected features using 'ggplot2'.",
+      "maintainer": "Nicholas Tierney",
+      "keywords": "exploratory-data-analysis, missingness, peer-reviewed, ropensci, visualisation",
+      "github": "https://github.com/ropensci/visdat",
+      "status": "https://www.repostatus.org/",
+      "onboarding": "https://github.com/ropensci/software-review/issues/87",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/visdat",
+      "ropensci_category": "data-visualization",
+      "ropenscilabs": false,
+      "date_last_commit": "2021-09-17 15:50:30",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "wateRinfo",
       "description": "Download Time Series Data from Waterinfo.be",
       "details": "wateRinfo facilitates access to waterinfo.be (<https://www.waterinfo.be>), a website managed by the Flanders Environment Agency (VMM) and Flanders Hydraulics Research. The website provides access to real-time water and weather related environmental variables for Flanders (Belgium), such as rainfall, air pressure, discharge, and water level. The package provides functions to search for stations and variables, and download time series.",
@@ -6497,24 +6477,6 @@
       "staff_maintained": false
     },
     {
-      "name": "reviewer",
-      "description": "Improving the Track Changes and Reviewing Experience in R Markdown",
-      "details": "Provides functionality to compare two versions of an rmarkdown document and display their differences in a nicely-formatted manner, along with an RStudio addin that adds the required JavaScript code to an rmarkdown document, so that when rendered to HTML it can be annotated using the Hypothes.is service.",
-      "maintainer": "Amy Stringer",
-      "keywords": "ozunconf18, unconf",
-      "github": "https://github.com/ropensci-archive/reviewer",
-      "status": "https://www.repostatus.org#unsupported",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "archived",
-      "url": "https://github.com/ropensci-archive/reviewer",
-      "ropensci_category": "scalereprod",
-      "ropenscilabs": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "allcontributors",
       "description": "Acknowledge all Contributors to a Project",
       "details": "Acknowledge all contributors to a project via a single function call. The function appends to a 'README' or other specified file(s) a table with names of all individuals who contributed via code or repository issues. The package also includes several additional functions to extract and quantify contributions to any repository.",
@@ -6595,5 +6557,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-01-20 15:03 UTC"
+  "date": "2022-01-20 18:53 UTC"
 }
