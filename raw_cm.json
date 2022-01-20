@@ -1411,7 +1411,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.209",
+    "version": "0.0.2.215",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39339,7 +39339,7 @@
     "codeRepository": "https://github.com/ropensci/opentripplanner",
     "issueTracker": "https://github.com/ropensci/opentripplanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40068,7 +40068,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.8.17",
+    "version": "0.1.8.18",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53619,6 +53619,123 @@
     "contIntegration": "https://github.com/ropensci/rgnparser/actions/",
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["r", "rstats", "taxonomy", "r-package"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "rgpdd",
+    "description": "R Interface to the Global Population Dynamics Database (<https://ecologicaldata.org/wiki/global-population-dynamics-database>)",
+    "name": "rgpdd: R Interface to the Global Population Dynamics Database",
+    "relatedLink": "https://docs.ropensci.org/rgpdd",
+    "codeRepository": "https://github.com/ropensci/rgpdd",
+    "issueTracker": "https://github.com/ropensci/rgpdd/issues",
+    "license": "https://spdx.org/licenses/CC0-1.0",
+    "version": "0.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Carl",
+        "familyName": "Boettiger",
+        "email": "cboettig@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ted",
+        "familyName": "Harte"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karthik",
+        "familyName": "Ram"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Carl",
+        "familyName": "Boettiger",
+        "email": "cboettig@gmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      }
+    ],
+    "softwareRequirements": {
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/rgpdd/blob/master/README.md",
+    "keywords": ["r", "rstats", "r-package"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -78319,6 +78436,133 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "reviewer",
+    "description": "Provides functionality to compare two versions of an rmarkdown document and display their differences in a nicely-formatted manner, along with an RStudio addin that adds the required JavaScript code to an rmarkdown document, so that when rendered to HTML it can be annotated using the Hypothes.is service.",
+    "name": "reviewer: Improving the Track Changes and Reviewing Experience in R Markdown",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Amy",
+        "familyName": "Stringer",
+        "email": "amy.stringer@me.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Raymond"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Dulhunty"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Laura",
+        "familyName": "de Jong"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Amy",
+        "familyName": "Stringer",
+        "email": "amy.stringer@me.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "assertthat",
+        "name": "assertthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=assertthat"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "htmltools",
+        "name": "htmltools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=htmltools"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "rstudioapi",
+        "name": "rstudioapi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
+      },
+      "SystemRequirements": "git"
+    },
+    "fileSize": "0KB",
+    "codeRepository": "https://github.com/ropensci-archive/reviewer",
+    "readme": "https://github.com/ropensci-archive/reviewer/blob/master/README.md",
+    "keywords": ["ozunconf18", "unconf", "r", "r-package", "rstats"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "allcontributors",
     "description": "Acknowledge all contributors to a project via a single function call. The function appends to a 'README' or other specified file(s) a table with names of all individuals who contributed via code or repository issues. The package also includes several additional functions to extract and quantify contributions to any repository.",
     "name": "allcontributors: Acknowledge all Contributors to a Project",
@@ -79056,7 +79300,7 @@
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.68",
+    "version": "0.0.0.69",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
