@@ -1411,7 +1411,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.225",
+    "version": "0.0.2.226",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25470,7 +25470,7 @@
     "fileSize": "NAKB",
     "relatedLink": ["https://ropensci.github.io/git2rdata/", "https://CRAN.R-project.org/package=git2rdata"],
     "releaseNotes": "https://github.com/ropensci/git2rdata/blob/master/NEWS.md",
-    "readme": "https://github.com/ropensci/git2rdata/blob/master/README.md",
+    "readme": "https://github.com/ropensci/git2rdata/blob/main/README.md",
     "contIntegration": "https://codecov.io/gh/ropensci/git2rdata",
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "review": {
@@ -32522,7 +32522,7 @@
     "codeRepository": "https://github.com/ropensci/mapscanner",
     "issueTracker": "https://github.com/ropensci/mapscanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.6.1",
+    "version": "0.0.6.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40087,7 +40087,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.8.33",
+    "version": "0.1.8.38",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52065,6 +52065,11 @@
         "givenName": "François",
         "familyName": "Michonneau",
         "email": "francois.michonneau@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marcus",
+        "familyName": "Beck"
       }
     ],
     "maintainer": [
@@ -52220,17 +52225,14 @@
             "familyName": "Turner"
           }
         ],
-        "name": "rfema",
-        "url": "TBD",
-        "pagination": "TBD",
+        "name": "rfema: Access the openFEMA API",
+        "url": "https://github.com/ropensci/rfema",
         "isPartOf": {
           "@type": "PublicationIssue",
-          "issueNumber": "TBD",
           "datePublished": "2022",
           "isPartOf": {
             "@type": ["PublicationVolume", "Periodical"],
-            "volumeNumber": "TBD",
-            "name": "TBD"
+            "name": "rOpenSci"
           }
         }
       }
