@@ -60235,7 +60235,7 @@
     "codeRepository": "https://github.com/ropensci/rsnps",
     "issueTracker": "https://github.com/ropensci/rsnps/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0.9000",
+    "version": "0.5.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60325,6 +60325,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
     "softwareRequirements": {
@@ -60390,18 +60402,6 @@
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "RJSONIO",
-        "name": "RJSONIO",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RJSONIO"
-      },
-      "7": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -70658,7 +70658,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.11.3.9000",
+    "version": "0.11.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
