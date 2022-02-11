@@ -53,7 +53,7 @@ jobs:
           # upload new registry files to github
           echo "pushing changes to github"
           git commit --allow-empty -am 'registry.json and raw_cm.json updated'
-          git push
+          # git push
         else
           echo "Only $pkgslength package(s), this is not good. :-("
           exit 1
