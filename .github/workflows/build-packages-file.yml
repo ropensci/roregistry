@@ -32,6 +32,8 @@ jobs:
       with:
         path: roregistry
         ref: 'gh-pages'
+    
+    - name: push
       run: |
         git config --global user.email "accounts+ropenscibot@ropensci.org"
         git config --global user.name "ropenscibot"
