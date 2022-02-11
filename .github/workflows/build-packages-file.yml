@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - gh-pages
   schedule:
     - cron: "2 * * * *"
 
@@ -28,17 +28,15 @@ jobs:
       run: |
         makeregistry::build_ropensci_packages_json()
       shell: Rscript {0}
-    - name: Push packages.json
+    - uses: actions/checkout@v2
+      with:
+        path: roregistry
+        ref: 'gh-pages'
       run: |
         git config --global user.email "accounts+ropenscibot@ropensci.org"
         git config --global user.name "ropenscibot"
         echo "pushing up packages.json"
-        # go into roregistry dir, pull any changes
-        echo "pulling any changes in roregistry"
-        git clone https://REPO_PAT:$REPO_PAT@github.com/ropensci/roregistry.git
         cd roregistry
-        git fetch origin
-        git reset --hard origin/gh-pages
 
         # copy files into roregistry directory
         echo "copy packages.json into roregistry"
