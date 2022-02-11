@@ -23,6 +23,7 @@ jobs:
     
     - name: Install makeregistry
       run: |
+         install.packages("pak")
          pak::pkg_install("ropensci-org/makeregistry")
       shell: Rscript {0}
       
