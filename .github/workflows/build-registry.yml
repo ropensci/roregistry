@@ -42,11 +42,7 @@ jobs:
         git config --global user.email "accounts+ropenscibot@ropensci.org"
         git config --global user.name "ropenscibot"
         # go into roregistry dir, pull any changes
-        echo "pulling any changes in roregistry"
-        git clone https://REPO_PAT:$REPO_PAT@github.com/ropensci/roregistry.git
         cd roregistry
-        git fetch origin
-        git reset --hard origin/gh-pages
 
         # copy files into roregistry directory
         echo "copying registry files into roregistry"
