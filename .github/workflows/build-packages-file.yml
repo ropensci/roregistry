@@ -30,7 +30,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         path: roregistry
-        ref: 'gh-pages'
     
     - name: push
       run: |
