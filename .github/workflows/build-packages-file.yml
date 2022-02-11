@@ -1,0 +1,50 @@
+name: build-packages-file
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "2 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      REPO_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: r-lib/actions/setup-r@v2
+    - uses: r-lib/actions/setup-r-dependencies@v2
+      with:
+        cache-version: 2
+    - name: Install makeregistry
+      run: |
+        pak::pkg_install("ropensci-org/makeregistry")
+      shell: Rscript {0}
+    - name: Build packages.json
+      run: |
+        makeregistry::build_ropensci_packages_json()
+      shell: Rscript {0}
+    - name: Push packages.json
+      run: |
+        git config --global user.email "accounts+ropenscibot@ropensci.org"
+        git config --global user.name "ropenscibot"
+        echo "pushing up packages.json"
+        # go into roregistry dir, pull any changes
+        echo "pulling any changes in roregistry"
+        git clone https://REPO_PAT:$REPO_PAT@github.com/ropensci/roregistry.git
+        cd roregistry
+        git fetch origin
+        git reset --hard origin/gh-pages
+
+        # copy files into roregistry directory
+        echo "copy packages.json into roregistry"
+        cp ../packages.json .
+
+        # upload new registry files to github
+        echo "pushing changes to github"
+        git commit --allow-empty -am 'packages.json updated'
+        git push
