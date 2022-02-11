@@ -34,7 +34,10 @@ jobs:
       run: |
         source("inst/scripts/make_registry.R")
       shell: Rscript {0}
-    - name: Push to roregistry
+    - uses: actions/checkout@v2
+      with:
+        path: roregistry
+    - name: push
       run: |
         git config --global user.email "accounts+ropenscibot@ropensci.org"
         git config --global user.name "ropenscibot"
