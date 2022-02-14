@@ -2,9 +2,8 @@ name: build-registry
 
 on:
   workflow_dispatch:
-  push:
   schedule:
-    - cron: "45 */7 * * *"
+    - cron: "45 7 * * *"
 
 jobs:
   build:
