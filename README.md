@@ -37,7 +37,7 @@ This second function can run up to 10 minutes and requires many API calls (multi
 
 ## Why the CI runs in a container
 
-To speed up the CI builds, the roregistry workflow runs in a docker container which has R and makeregistry preinstalled. This container is automatically built and published on GHCR in the same [ropenscilabs/makeregistry][https://github.com/ropensci-org/makeregistry/pkgs/container/makeregistry] repository using [this workflow](https://github.com/ropensci-org/makeregistry/blob/master/.github/workflows/docker-build.yml). 
+To speed up the CI builds, the roregistry workflow runs in a docker container which has R and makeregistry preinstalled. This container is automatically built and published on GHCR using [this workflow](https://github.com/ropensci-org/makeregistry/blob/master/.github/workflows/docker-build.yml).
 
 When a change is committed to makeregistry, it takes a few minutes before the container is updated. This is exactly the time we save for each CI run in roregistry because it does not have to install R and makeregistry + dependencies for each build.
 
