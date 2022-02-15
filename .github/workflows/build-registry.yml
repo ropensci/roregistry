@@ -2,6 +2,9 @@ name: build-registry
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'packages.json'
   schedule:
     - cron: "45 7 * * *"
 
