@@ -58,6 +58,23 @@
       "staff_maintained": true
     },
     {
+      "name": "frictionless",
+      "description": "Read and Write Frictionless Data Packages",
+      "details": "Read and write Frictionless Data Packages. A Data Package (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.",
+      "maintainer": "Peter Desmet",
+      "keywords": "frictionlessdata, oscibio",
+      "github": "https://github.com/frictionlessdata/frictionless-r",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/495",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/frictionlessdata/frictionless-r",
+      "date_last_commit": "2022-02-11 10:52:34",
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "genbankr",
       "description": "Parsing GenBank files into semantically useful objects",
       "details": "Reads Genbank files.",
@@ -380,7 +397,7 @@
       "url": "https://github.com/ropensci/arkdb",
       "ropensci_category": "databases",
       "ropenscilabs": false,
-      "date_last_commit": "2021-11-29 21:21:30",
+      "date_last_commit": "2022-02-14 23:00:21",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -539,7 +556,7 @@
       "url": "https://github.com/ropensci/beastier",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-14 08:04:57",
+      "date_last_commit": "2022-02-14 09:30:02",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1459,7 +1476,7 @@
       "url": "https://github.com/ropensci/dittodb",
       "ropensci_category": "databases",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-20 18:12:44",
+      "date_last_commit": "2022-02-14 14:28:29",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1479,7 +1496,7 @@
       "url": "https://github.com/ropensci/DoOR.data",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-27 12:10:50",
+      "date_last_commit": "2022-01-27 12:40:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1499,7 +1516,7 @@
       "url": "https://github.com/ropensci/DoOR.functions",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2019-12-09 20:58:51",
+      "date_last_commit": "2022-02-14 14:02:12",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4163,25 +4180,6 @@
       "staff_maintained": false
     },
     {
-      "name": "refimpact",
-      "description": "API Wrapper for the UK REF 2014 Impact Case Studies Database",
-      "details": "Provides wrapper functions around the UK Research Excellence Framework 2014 Impact Case Studies Database API <http://impact.ref.ac.uk/>. The database contains relevant publication and research metadata about each case study as well as several paragraphs of text from the case study submissions. Case studies in the database are licenced under a CC-BY 4.0 licence <http://creativecommons.org/licenses/by/4.0/legalcode>.",
-      "maintainer": "Perry Stephenson",
-      "keywords": "directed-graph, directed-graphs, peer-reviewed, research-funding, research-improvement, research-policy, text-mining, uk",
-      "github": "https://github.com/ropensci/refimpact",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/78",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/refimpact",
-      "ropensci_category": "literature",
-      "ropenscilabs": false,
-      "date_last_commit": "2022-02-14 10:27:47",
-      "cran_archived": true,
-      "staff_maintained": false
-    },
-    {
       "name": "RefManageR",
       "description": "Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
       "details": "Provides tools for importing and working with bibliographic references. It greatly enhances the 'bibentry' class by providing a class 'BibEntry' which stores 'BibTeX' and 'BibLaTeX' references, supports 'UTF-8' encoding, and can be easily searched by any field, by date ranges, and by various formats for name lists (author by last names, translator by full names, etc.). Entries can be updated, combined, sorted, printed in a number of styles, and exported. 'BibTeX' and 'BibLaTeX' '.bib' files can be read into 'R' and converted to 'BibEntry' objects. Interfaces to 'NCBI Entrez', 'CrossRef', and 'Zotero' are provided for importing references and references can be created from locally stored 'PDF' files using 'Poppler'. Includes functions for citing and generating a bibliography with hyperlinks for documents prepared with 'RMarkdown' or 'RHTML'.",
@@ -6482,7 +6480,7 @@
       "description": "Recodes Sex/Gender Descriptions into a Standard Set",
       "details": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
       "maintainer": "Emily Kothe",
-      "keywords": "",
+      "keywords": "gender-diversity, ozunconf18, unconf",
       "github": "https://github.com/ropenscilabs/gendercoder",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -6502,7 +6500,7 @@
       "description": "Lightweight Qualitative Coding",
       "details": "A free, lightweight, open source option for analyzing text-based qualitative data. Enables analysis of interview transcripts, observation notes, memos, and other sources. Supports the work of social scientists, historians, humanists, and other researchers who use qualitative methods. Addresses the unique challenges faced in analyzing qualitative data analysis. Provides opportunities for researchers who otherwise might not develop software to build software development skills. ",
       "maintainer": "Elin Waring",
-      "keywords": "",
+      "keywords": "unconf, unconf18",
       "github": "https://github.com/ropenscilabs/qcoder",
       "status": "https://www.repostatus.org#concept",
       "onboarding": "",
@@ -6538,5 +6536,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-02-14 11:01 UTC"
+  "date": "2022-02-15 07:59 UTC"
 }
