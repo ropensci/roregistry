@@ -5,8 +5,8 @@ rOpenSci Package Registry
 
 This repository contains 2 files that define the official rOpenSci package suite:
 
- [packages.json](packages.json): the official list of rOpenSci packages, identified by the package name and git url (updated hourly).
- [registry.json](registry.json): lots of metadata about these packages collected using [codemetar](https://docs.ropensci.org/codemetar) (updated daily).
+ - [packages.json](packages.json): the official list of rOpenSci packages, identified by the package name and git url (updated hourly).
+ - [registry.json](registry.json): lots of metadata about these packages collected using [codemetar](https://docs.ropensci.org/codemetar) (updated daily).
 
 The rOpenSci package suite consists of all R packages in the [ropensci](https://github.com/ropensci) and [ropenscilabs](https://github.com/ropenscilabs) GitHub organizations, except for packages listed in [exclude list](info/exclude_list.txt), plus some extra packages listed in [not_transferred.json](info/not_transferred.json). 
 
