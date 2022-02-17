@@ -770,25 +770,31 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "frictionless",
-    "description": "Read and write Frictionless Data Packages. A Data Package (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.",
+    "description": "Read and write Frictionless Data Packages. A 'Data Package' (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.",
     "name": "frictionless: Read and Write Frictionless Data Packages",
     "relatedLink": "https://docs.ropensci.org/frictionless/",
     "codeRepository": "https://github.com/frictionlessdata/frictionless-r",
     "issueTracker": "https://github.com/frictionlessdata/frictionless-r/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.11.0.9000",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
         "givenName": "Peter",
         "familyName": "Desmet",
-        "email": "peter.desmet@inbo.be",
+        "email": "peter.desmet.work@gmail.com",
         "@id": "https://orcid.org/0000-0002-8442-8025"
       },
       {
@@ -811,7 +817,7 @@
         "@type": "Person",
         "givenName": "Peter",
         "familyName": "Desmet",
-        "email": "peter.desmet@inbo.be",
+        "email": "peter.desmet.work@gmail.com",
         "@id": "https://orcid.org/0000-0002-8442-8025"
       }
     ],
@@ -1001,16 +1007,16 @@
           }
         ],
         "name": "frictionless: Read and Write Frictionless Data Packages",
-        "identifier": "https://doi.org/10.5281/zenodo.5815355",
+        "identifier": "10.5281/zenodo.5815355",
         "url": "https://github.com/frictionlessdata/frictionless-r",
-        "description": "R package version 0.11.0.9000",
+        "description": "R package version 1.0.0",
         "@id": "https://doi.org/10.5281/zenodo.5815355",
         "sameAs": "https://doi.org/10.5281/zenodo.5815355"
       }
     ],
     "releaseNotes": "https://github.com/frictionlessdata/frictionless-r/blob/master/NEWS.md",
     "readme": "https://github.com/frictionlessdata/frictionless-r/blob/main/README.md",
-    "contIntegration": ["https://github.com/frictionlessdata/frictionless-r/actions", "https://codecov.io/gh/frictionlessdata/frictionless-r"],
+    "contIntegration": ["https://github.com/frictionlessdata/frictionless-r/actions", "https://app.codecov.io/gh/frictionlessdata/frictionless-r/"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -43300,18 +43306,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "jpeg",
-        "name": "jpeg",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jpeg"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "png",
         "name": "png",
         "provider": {
@@ -76242,7 +76236,7 @@
     "codeRepository": "https://github.com/ropensci/wdman",
     "issueTracker": "https://github.com/ropensci/wdman/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.5",
+    "version": "0.2.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76399,7 +76393,7 @@
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/ropensci/wdman/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/wdman/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/wdman", "https://ci.appveyor.com/project/juyeongkim/wdman", "https://codecov.io/gh/ropensci/wdman"],
+    "contIntegration": ["https://github.com/ropensci/wdman/actions", "https://codecov.io/gh/ropensci/wdman"],
     "keywords": ["r", "selenium", "webdriver", "webdriver-manager", "rselenium", "r-package", "rstats"]
   },
   {
