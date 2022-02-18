@@ -772,11 +772,11 @@
     "identifier": "frictionless",
     "description": "Read and write Frictionless Data Packages. A 'Data Package' (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.",
     "name": "frictionless: Read and Write Frictionless Data Packages",
-    "relatedLink": "https://docs.ropensci.org/frictionless/",
+    "relatedLink": ["https://docs.ropensci.org/frictionless/", "https://CRAN.R-project.org/package=frictionless"],
     "codeRepository": "https://github.com/frictionlessdata/frictionless-r",
     "issueTracker": "https://github.com/frictionlessdata/frictionless-r/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1009,7 +1009,7 @@
         "name": "frictionless: Read and Write Frictionless Data Packages",
         "identifier": "10.5281/zenodo.5815355",
         "url": "https://github.com/frictionlessdata/frictionless-r",
-        "description": "R package version 1.0.0",
+        "description": "R package version 1.0.0.9000",
         "@id": "https://doi.org/10.5281/zenodo.5815355",
         "sameAs": "https://doi.org/10.5281/zenodo.5815355"
       }
@@ -70901,7 +70901,7 @@
         "@type": "SoftwareApplication",
         "identifier": "cli",
         "name": "cli",
-        "version": ">= 2.0.0",
+        "version": ">= 3.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -76332,7 +76332,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=binman"
+        "sameAs": "https://github.com/ropensci/binman"
       },
       "3": {
         "@type": "SoftwareApplication",
