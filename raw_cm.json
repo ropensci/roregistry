@@ -25141,7 +25141,7 @@
     "codeRepository": "https://github.com/ropensci/ghql",
     "issueTracker": "https://github.com/ropensci/ghql/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1.93",
+    "version": "0.1.1.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78714,6 +78714,122 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "deposits",
+    "description": "What the package does (one paragraph).",
+    "name": "deposits: What the Package Does (One Line, Title Case)",
+    "codeRepository": "https://github.com/ropenscilabs/deposits",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.1.43",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark.padgham@email.com",
+        "@id": "https://orcid.org/0000-0003-2172-5265"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Padgham",
+        "email": "mark.padgham@email.com",
+        "@id": "https://orcid.org/0000-0003-2172-5265"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "crul",
+        "name": "crul",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crul"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "relatedLink": "https://mpadge.github.io/deposits",
+    "readme": "https://github.com/ropenscilabs/deposits/blob/main/README.md",
+    "contIntegration": ["https://github.com/mpadge/deposits/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/mpadge/deposits"],
+    "developmentStatus": "https://www.repostatus.org/#concept"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "gendercoder",
     "description": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
     "name": "gendercoder: Recodes Sex/Gender Descriptions into a Standard Set",
@@ -79243,9 +79359,7 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "readme": "https://github.com/ropenscilabs/qcoder/blob/master/README.md",
-    "contIntegration": "https://travis-ci.com/ropenscilabs/qcoder",
-    "keywords": ["unconf18", "r", "r-package", "rstats", "unconf"]
+    "contIntegration": "https://travis-ci.com/ropenscilabs/qcoder"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -79370,7 +79484,6 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "readme": "https://github.com/ropenscilabs/r2readthedocs/blob/main/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
     "developmentStatus": "https://www.repostatus.org/#concept"
   }
