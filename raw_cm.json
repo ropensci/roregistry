@@ -59930,7 +59930,7 @@
     "codeRepository": "https://github.com/ropensci/RSelenium",
     "issueTracker": "http://github.com/ropensci/RSelenium/issues",
     "license": "https://spdx.org/licenses/AGPL-3.0",
-    "version": "1.7.6",
+    "version": "1.7.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59987,7 +59987,8 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Rcompression",
-        "name": "Rcompression"
+        "name": "Rcompression",
+        "sameAs": "https://github.com/omegahat/Rcompression"
       },
       {
         "@type": "SoftwareApplication",
@@ -60095,7 +60096,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=wdman"
+        "sameAs": "https://github.com/ropensci/wdman"
       },
       "10": {
         "@type": "SoftwareApplication",
@@ -60107,7 +60108,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=binman"
+        "sameAs": "https://github.com/ropensci/binman"
       },
       "SystemRequirements": null
     },
@@ -60115,7 +60116,7 @@
     "relatedLink": "http://docs.ropensci.org/RSelenium",
     "releaseNotes": "https://github.com/ropensci/RSelenium/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/RSelenium/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/RSelenium", "https://codecov.io/gh/ropensci/RSelenium"],
+    "contIntegration": ["https://github.com/ropensci/RSelenium/actions", "https://codecov.io/gh/ropensci/RSelenium"],
     "keywords": ["rselenium", "webdriver", "selenium", "r", "rstats", "r-package"]
   },
   {
@@ -67576,6 +67577,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pkgload"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "processx",
+        "name": "processx",
+        "version": ">= 3.4.3",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=processx"
       },
       {
         "@type": "SoftwareApplication",
@@ -78720,7 +78734,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.94",
+    "version": "0.0.1.129",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78798,6 +78812,18 @@
       },
       "2": {
         "@type": "SoftwareApplication",
+        "identifier": "checkmate",
+        "name": "checkmate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=checkmate"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
         "provider": {
@@ -78808,7 +78834,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=crul"
       },
-      "3": {
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -78820,12 +78858,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "4": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "5": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
@@ -78837,13 +78875,25 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
       },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
     "relatedLink": "https://docs.ropensci.org/deposits/",
     "readme": "https://github.com/ropenscilabs/deposits/blob/main/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/deposits/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropenscilabs/deposits"],
-    "developmentStatus": "https://www.repostatus.org/#concept"
+    "developmentStatus": "https://www.repostatus.org/#wip"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
