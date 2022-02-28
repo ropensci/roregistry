@@ -20255,14 +20255,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "taxadb",
-        "name": "taxadb",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=taxadb"
+        "name": "taxadb"
       },
       {
         "@type": "SoftwareApplication",
@@ -68325,12 +68318,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.2 (2021-11-01)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -68722,8 +68709,7 @@
     "releaseNotes": "https://github.com/ropensci/taxadb/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/taxadb/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/taxadb/actions", "https://codecov.io/github/ropensci/taxadb?branch=master"],
-    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
-    "relatedLink": "https://CRAN.R-project.org/package=taxadb"
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
