@@ -70581,7 +70581,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.11.4.9000",
+    "version": "0.12.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73412,6 +73412,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -73625,7 +73631,7 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "relatedLink": "https://docs.ropensci.org/tradestatistics/",
+    "relatedLink": ["https://docs.ropensci.org/tradestatistics/", "https://CRAN.R-project.org/package=tradestatistics"],
     "releaseNotes": "https://github.com/ropensci/tradestatistics/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/tradestatistics/blob/master/README.md",
     "contIntegration": ["https://github.com/ropensci/tradestatistics/actions?workflow=R-CMD-check", "https://codecov.io/github/ropensci/tradestatistics?branch=master"],
@@ -79010,30 +79016,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rlang",
-        "name": "rlang",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rlang"
       }
     ],
     "softwareRequirements": {
