@@ -1458,7 +1458,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.253",
+    "version": "0.0.2.259",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3731,7 +3731,7 @@
     "codeRepository": "https://github.com/YuLab-SMU/treeio",
     "issueTracker": "https://github.com/YuLab-SMU/treeio/issues",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.19.1.900",
+    "version": "1.19.1.901",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -22751,7 +22751,7 @@
     "codeRepository": "https://github.com/ropensci/FedData",
     "issueTracker": "https://github.com/ropensci/FedData/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.1.9000",
+    "version": "3.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -22889,6 +22889,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=pkgdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "precommit",
+        "name": "precommit",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=precommit"
       },
       {
         "@type": "SoftwareApplication",
@@ -54718,7 +54730,7 @@
     "codeRepository": "https://github.com/ropensci/rnassqs",
     "issueTracker": "http://www.github.com/ropensci/rnassqs/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.2",
+    "version": "0.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54737,14 +54749,14 @@
         "givenName": "Nicholas",
         "familyName": "Potter",
         "email": "potter.nicholas@gmail.com"
-      },
+      }
+    ],
+    "contributor": [
       {
         "@type": "Person",
         "givenName": "Robert",
         "familyName": "Dinterman"
-      }
-    ],
-    "contributor": [
+      },
       {
         "@type": "Person",
         "givenName": "Jonathan",
@@ -54775,18 +54787,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "httptest",
@@ -54906,12 +54906,12 @@
         ],
         "name": "{rnassqs}: Access the NASS 'Quick Stats' API",
         "url": "https://CRAN.R-project.org/package=rnassqs",
-        "description": "R package version 0.5.2"
+        "description": "R package version 0.6.0"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rnassqs/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rnassqs/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/rnassqs", "https://codecov.io/gh/ropensci/rnassqs"],
+    "contIntegration": ["https://github.com/ropensci/rnassqs/actions", "https://travis-ci.org/ropensci/rnassqs", "https://codecov.io/gh/ropensci/rnassqs"],
     "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#maturing"],
     "review": {
       "@type": "Review",
@@ -74504,6 +74504,81 @@
       "provider": "https://ropensci.org"
     },
     "keywords": ["ucsc-xena", "downloader", "api-client", "tcga", "ccle", "icgc", "ucsc", "toil", "treehouse", "r", "bioinformatics"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "universe",
+    "description": "Utilities to interact with the R-universe platform. Includes functions to manage local package repositories, as well as API wrappers for retrieving data and metadata about packages in r-universe.",
+    "name": "universe: Tools for Working with R-universe <https://r-universe.dev>",
+    "codeRepository": "https://github.com/ropensci/universe",
+    "license": "Apache License 2",
+    "version": "1.0.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/universe/blob/master/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
