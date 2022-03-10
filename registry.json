@@ -39,11 +39,28 @@
       "staff_maintained": true
     },
     {
+      "name": "commonmark",
+      "description": "High Performance CommonMark and Github Markdown Rendering in R",
+      "details": "The CommonMark specification defines a rationalized version of markdown syntax. This package uses the 'cmark' reference implementation for converting markdown text into various formats including html, latex and groff man. In addition it exposes the markdown parse tree in xml format. Also includes opt-in support for GFM extensions including tables, autolinks, and strikethrough text.",
+      "maintainer": "Jeroen Ooms",
+      "keywords": "cmark, cmark-gfm, gfm, markdown",
+      "github": "https://github.com/r-lib/commonmark",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/r-lib/commonmark",
+      "date_last_commit": "2022-03-09 14:38:19",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "credentials",
       "description": "Tools for Managing SSH and Git Credentials",
       "details": "Setup and retrieve HTTPS and SSH credentials for use with 'git' and other services. For HTTPS remotes the package interfaces the 'git-credential' utility which 'git' uses to store HTTP usernames and passwords. For SSH remotes we provide convenient functions to find or generate appropriate SSH keys. The package both helps the user to setup a local git installation, and also provides a back-end for git/ssh client libraries to authenticate with existing user credentials.",
       "maintainer": "Jeroen Ooms",
-      "keywords": "",
+      "keywords": "git, password, ssh",
       "github": "https://github.com/r-lib/credentials",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -359,7 +376,7 @@
       "url": "https://github.com/ropensci/antiword",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2019-11-07 14:00:41",
+      "date_last_commit": "2022-03-09 15:00:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -3078,7 +3095,7 @@
       "url": "https://github.com/ropensci/nomisr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-06 16:05:31",
+      "date_last_commit": "2022-03-06 20:43:27",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4525,7 +4542,7 @@
     },
     {
       "name": "rnassqs",
-      "description": "Access data from the NASS 'Quick Stats' API",
+      "description": "Access Data from the NASS 'Quick Stats' API",
       "details": "Interface to access data via the United States Department of Agriculture's National Agricultural Statistical Service (NASS) 'Quick Stats' web API <https://quickstats.nass.usda.gov/api>. Convenience functions facilitate building queries based on available parameters and valid parameter values. This product uses the NASS API but is not endorsed or certified by NASS.",
       "maintainer": "Nicholas Potter",
       "keywords": "",
@@ -4538,7 +4555,7 @@
       "url": "https://github.com/ropensci/rnassqs",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-09 06:16:25",
+      "date_last_commit": "2022-03-10 00:42:02",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6524,7 +6541,7 @@
       "description": "Lightweight Qualitative Coding",
       "details": "A free, lightweight, open source option for analyzing text-based qualitative data. Enables analysis of interview transcripts, observation notes, memos, and other sources. Supports the work of social scientists, historians, humanists, and other researchers who use qualitative methods. Addresses the unique challenges faced in analyzing qualitative data analysis. Provides opportunities for researchers who otherwise might not develop software to build software development skills. ",
       "maintainer": "Elin Waring",
-      "keywords": "unconf, unconf18",
+      "keywords": "",
       "github": "https://github.com/ropenscilabs/qcoder",
       "status": "https://www.repostatus.org#concept",
       "onboarding": "",
@@ -6560,5 +6577,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-03-09 07:58 UTC"
+  "date": "2022-03-10 07:59 UTC"
 }
