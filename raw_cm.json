@@ -30591,7 +30591,7 @@
     "codeRepository": "https://github.com/ropensci/jqr",
     "issueTracker": "https://github.com/ropensci/jqr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30632,9 +30632,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu"
       }
     ],
     "softwareSuggestions": [
@@ -30699,7 +30699,7 @@
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/ropensci/jqr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/jqr/blob/master/README.md",
-    "contIntegration": ["https://github.com/ropensci/jqr/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropensci/jqr"],
+    "contIntegration": ["https://github.com/ropensci/jqr/actions?query=workflow%3AR-CMD-check", "http://app.codecov.io/gh/ropensci/jqr"],
     "keywords": ["json", "rstats", "jq", "r", "r-package"]
   },
   {
@@ -54824,7 +54824,7 @@
     "codeRepository": "https://github.com/ropensci/rnassqs",
     "issueTracker": "https://github.com/ropensci/rnassqs/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55012,7 +55012,7 @@
         ],
         "name": "{rnassqs}: Access the NASS 'Quick Stats' API",
         "url": "https://CRAN.R-project.org/package=rnassqs",
-        "description": "R package version 0.6.0"
+        "description": "R package version 0.6.1"
       }
     ],
     "releaseNotes": "https://github.com/ropensci/rnassqs/blob/master/NEWS.md",
@@ -67800,7 +67800,7 @@
     "codeRepository": "https://github.com/ropensci/taxa",
     "issueTracker": "https://github.com/ropensci/taxa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67899,30 +67899,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "R6",
-        "name": "R6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=R6"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "provider": {
@@ -67933,19 +67909,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
-      },
-      "7": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -67957,7 +67921,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "8": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -67969,19 +67933,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      "10": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -67993,7 +67945,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "11": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -68005,7 +67957,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "12": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "crayon",
         "name": "crayon",
@@ -68017,24 +67969,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=crayon"
       },
-      "13": {
-        "@type": "SoftwareApplication",
-        "identifier": "tidyr",
-        "name": "tidyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      "14": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "15": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "pillar",
         "name": "pillar",
@@ -68046,12 +67986,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=pillar"
       },
-      "16": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "17": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "viridisLite",
         "name": "viridisLite",
@@ -68063,7 +68003,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=viridisLite"
       },
-      "18": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "cli",
         "name": "cli",
