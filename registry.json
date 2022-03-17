@@ -1901,6 +1901,26 @@
       "staff_maintained": false
     },
     {
+      "name": "gendercoder",
+      "description": "Recodes Sex/Gender Descriptions into a Standard Set",
+      "details": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
+      "maintainer": "Emily Kothe",
+      "keywords": "gender-diversity, ozunconf18, unconf",
+      "github": "https://github.com/ropensci/gendercoder",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/gendercoder",
+      "ropensci_category": "data-extraction",
+      "ropenscilabs": true,
+      "date_last_commit": "2022-03-17 00:03:26",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "geojson",
       "description": "Classes for 'GeoJSON'",
       "details": "Classes for 'GeoJSON' to make working with 'GeoJSON' easier. Includes S3 classes for 'GeoJSON' classes with brief summary output, and a few methods such as extracting and adding bounding boxes, properties, and coordinate reference systems; working with newline delimited 'GeoJSON'; linting through the 'geojsonlint' package; and serializing to/from 'Geobuf' binary 'GeoJSON' format.",
@@ -2495,7 +2515,7 @@
       "url": "https://github.com/ropensci/jagstargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-12-04 03:36:37",
+      "date_last_commit": "2022-03-16 13:24:38",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3121,6 +3141,24 @@
       "staff_maintained": false
     },
     {
+      "name": "occCite",
+      "description": "Querying and Managing Large Biodiversity Occurrence Datasets",
+      "details": "Facilitates the gathering of biodiversity occurrence data from disparate sources. Metadata is managed throughout the process to facilitate reporting and enhanced ability to repeat analyses.",
+      "maintainer": "Hannah L. Owens",
+      "keywords": "biodiversity-data, biodiversity-informatics, biodiversity-standards, citations, museum-collection-specimens, museum-collections, museum-metadata",
+      "github": "https://github.com/ropensci/occCite",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/407",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/occCite",
+      "date_last_commit": "2022-03-15 20:20:53",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "onekp",
       "description": "Retrieve Data from the 1000 Plants Initiative (1KP)",
       "details": " The 1000 Plants Initiative (www.onekp.com) has sequenced the transcriptomes of over 1000 plant species. This package allows these sequences and metadata to be retrieved and filtered by code, species or recursively by clade. Scientific names and NCBI taxonomy IDs are both supported.",
@@ -3275,7 +3313,7 @@
       "url": "https://github.com/ropensci/osmextract",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-15 16:40:57",
+      "date_last_commit": "2022-03-16 16:38:30",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4395,7 +4433,7 @@
       "url": "https://github.com/ropensci/rgbif",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-28 13:44:47",
+      "date_last_commit": "2022-03-16 14:19:14",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5755,7 +5793,7 @@
       "url": "https://github.com/ropensci/tic",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-14 21:03:02",
+      "date_last_commit": "2022-03-16 21:02:11",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5775,7 +5813,7 @@
       "url": "https://github.com/ropensci/tidyhydat",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-15 17:55:02",
+      "date_last_commit": "2022-03-16 22:59:44",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6517,26 +6555,6 @@
       "staff_maintained": true
     },
     {
-      "name": "gendercoder",
-      "description": "Recodes Sex/Gender Descriptions into a Standard Set",
-      "details": "Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories.",
-      "maintainer": "Emily Kothe",
-      "keywords": "gender-diversity, ozunconf18, unconf",
-      "github": "https://github.com/ropenscilabs/gendercoder",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropenscilabs/gendercoder",
-      "ropensci_category": "data-extraction",
-      "ropenscilabs": true,
-      "date_last_commit": "2022-03-02 03:04:03",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "qcoder",
       "description": "Lightweight Qualitative Coding",
       "details": "A free, lightweight, open source option for analyzing text-based qualitative data. Enables analysis of interview transcripts, observation notes, memos, and other sources. Supports the work of social scientists, historians, humanists, and other researchers who use qualitative methods. Addresses the unique challenges faced in analyzing qualitative data analysis. Provides opportunities for researchers who otherwise might not develop software to build software development skills. ",
@@ -6577,5 +6595,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-03-16 07:59 UTC"
+  "date": "2022-03-17 07:59 UTC"
 }
