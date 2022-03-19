@@ -25705,7 +25705,7 @@
     "codeRepository": "https://github.com/ropensci/git2r",
     "issueTracker": "https://github.com/ropensci/git2r/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.30.1",
+    "version": "0.30.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25766,7 +25766,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.1"
+        "version": ">= 3.4"
       },
       "SystemRequirements": "By default, git2r uses a system installation of\n    the libgit2 headers and library. However, if a system installation\n    is not available, builds and uses a bundled version of the libgit2\n    source. zlib headers and library. OpenSSL headers and library\n    (non-macOS). LibSSH2 (optional on non-Windows) to enable the SSH\n    transport."
     },
@@ -46978,6 +46978,253 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "qualR",
+    "description": "A package to download information from CETESB QUALAR <https://cetesb.sp.gov.br/ar/qualar/> and MonitorAr <https://www.rio.rj.gov.br/web/smac/monitorar-rio1> systems. It contains function to download different parameters, a set of criteria pollutants and the most frequent meteorological parameters used in air quality data analysis and air quality model evaluation.",
+    "name": "qualR: An R package to download São Paulo and Rio de Janeiro air pollution data",
+    "codeRepository": "https://github.com/ropensci/qualR",
+    "issueTracker": "https://github.com/quishqa/qualR/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.9.6",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.3 (2022-03-10)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Gavidia-Calderón",
+        "email": "mario.calderon@iag.usp.br",
+        "@id": "https://orcid.org/0000-0002-7371-1116"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Schuch",
+        "email": "d.schuch@northeastern.edu",
+        "@id": "https://orcid.org/0000-0001-5977-4519"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Maria de Fatima",
+        "familyName": "Andrade",
+        "email": "maria.andrade@iag.usp.br",
+        "@id": "https://orcid.org/0000-0001-5351-8311"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Schuch",
+        "email": "d.schuch@northeastern.edu",
+        "@id": "https://orcid.org/0000-0001-5977-4519"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maria de Fatima",
+        "familyName": "Andrade",
+        "email": "maria.andrade@iag.usp.br",
+        "@id": "https://orcid.org/0000-0001-5351-8311"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Gavidia-Calderón",
+        "email": "mario.calderon@iag.usp.br",
+        "@id": "https://orcid.org/0000-0002-7371-1116"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "openair",
+        "name": "openair",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openair"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "XML",
+        "name": "XML",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=XML"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2022",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Mario",
+            "familyName": "Gavidia-Calderón"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Schuch"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Maria de Fatima",
+            "familyName": "Andrade"
+          }
+        ],
+        "name": "qualR: An R package to download São Paulo and Rio de Janeiro air pollution data",
+        "identifier": "10.5281/zenodo.5904262",
+        "url": "https://quishqa.github.io/qualR/",
+        "@id": "https://doi.org/10.5281/zenodo.5904262",
+        "sameAs": "https://doi.org/10.5281/zenodo.5904262"
+      }
+    ],
+    "releaseNotes": "https://github.com/quishqa/qualR/blob/master/NEWS.md",
+    "readme": "https://github.com/ropensci/qualR/blob/master/README.md",
+    "contIntegration": ["https://ci.appveyor.com/project/quishqa/qualR", "https://codecov.io/github/quishqa/qualR?branch=master"],
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/474",
+      "provider": "https://ropensci.org"
+    },
+    "keywords": ["cetesb", "sao-paulo", "brazil", "air-quality-data", "air-quality-measurements", "rio-de-janeiro", "air-pollutants", "weather-data", "r", "rstats", "r-package"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "qualtRics",
     "description": "Provides functions to access survey results directly into R using the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an online survey and data collection software platform. See <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. This package is community-maintained and is not officially supported by 'Qualtrics'.",
     "name": "qualtRics: Download 'Qualtrics' Survey Data",
@@ -52844,222 +53091,6 @@
       "url": "https://github.com/ropensci/software-review/issues/484",
       "provider": "https://ropensci.org"
     }
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "identifier": "rfigshare",
-    "description": "An R interface to figshare.",
-    "name": "rfigshare: An R Interface to 'figshare'",
-    "relatedLink": "https://docs.ropensci.org/rfigshare",
-    "codeRepository": "https://github.com/ropensci/rfigshare",
-    "issueTracker": "https://github.com/ropensci/rfigshare/issues",
-    "license": "https://spdx.org/licenses/CC0-1.0",
-    "version": "0.3.7.100",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.1.3 (2022-03-10)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Carl",
-        "familyName": "Boettiger",
-        "email": "cboettig@gmail.com",
-        "@id": "https://orcid.org/0000-0002-1642-628X"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Karthik",
-        "familyName": "Ram",
-        "@id": "https://orcid.org/0000-0002-0233-1757"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Edmund",
-        "familyName": "Hart",
-        "@id": "https://orcid.org/0000-0001-7367-7969"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Carl",
-        "familyName": "Boettiger",
-        "email": "cboettig@gmail.com",
-        "@id": "https://orcid.org/0000-0002-1642-628X"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "gdata",
-        "name": "gdata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gdata"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "uuid",
-        "name": "uuid",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=uuid"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.0"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "RJSONIO",
-        "name": "RJSONIO",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RJSONIO"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 0.3",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "httpuv",
-        "name": "httpuv",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httpuv"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "yaml",
-        "name": "yaml",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=yaml"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      "SystemRequirements": null
-    },
-    "applicationCategory": "DataPublication",
-    "isPartOf": "https://ropensci.org",
-    "keywords": ["data", "archiving", "repository", "doi", "r", "rstats", "r-package"],
-    "fileSize": "0KB",
-    "releaseNotes": "https://github.com/ropensci/rfigshare/blob/master/NEWS",
-    "readme": "https://github.com/ropensci/rfigshare/blob/master/README.md",
-    "contIntegration": "https://travis-ci.org/ropensci/rfigshare"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -79383,7 +79414,6 @@
     },
     "fileSize": "NAKB",
     "relatedLink": "https://docs.ropensci.org/deposits/",
-    "readme": "https://github.com/ropenscilabs/deposits/blob/main/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/deposits/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropenscilabs/deposits"],
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
