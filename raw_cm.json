@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.93",
+    "version": "0.0.3.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3158,7 +3158,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.68",
+    "version": "0.0.2.71",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -46971,8 +46971,9 @@
     "identifier": "qualR",
     "description": "A package to download information from CETESB QUALAR <https://cetesb.sp.gov.br/ar/qualar/> and MonitorAr <https://www.rio.rj.gov.br/web/smac/monitorar-rio1> systems. It contains function to download different parameters, a set of criteria pollutants and the most frequent meteorological parameters used in air quality data analysis and air quality model evaluation.",
     "name": "qualR: An R package to download São Paulo and Rio de Janeiro air pollution data",
+    "relatedLink": "https://docs.ropensci.org/qualR",
     "codeRepository": "https://github.com/ropensci/qualR",
-    "issueTracker": "https://github.com/quishqa/qualR/issues",
+    "issueTracker": "https://github.com/ropensci/qualR/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.9.6",
     "programmingLanguage": {
@@ -47197,12 +47198,12 @@
         ],
         "name": "qualR: An R package to download São Paulo and Rio de Janeiro air pollution data",
         "identifier": "10.5281/zenodo.5904262",
-        "url": "https://quishqa.github.io/qualR/",
+        "url": "https://docs.ropensci.org/qualR/",
         "@id": "https://doi.org/10.5281/zenodo.5904262",
         "sameAs": "https://doi.org/10.5281/zenodo.5904262"
       }
     ],
-    "releaseNotes": "https://github.com/quishqa/qualR/blob/master/NEWS.md",
+    "releaseNotes": "https://github.com/ropensci/qualR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/qualR/blob/master/README.md",
     "contIntegration": ["https://ci.appveyor.com/project/quishqa/qualR", "https://codecov.io/github/quishqa/qualR?branch=master"],
     "review": {
@@ -79404,6 +79405,7 @@
     },
     "fileSize": "NAKB",
     "relatedLink": "https://docs.ropensci.org/deposits/",
+    "readme": "https://github.com/ropenscilabs/deposits/blob/main/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/deposits/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropenscilabs/deposits"],
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
