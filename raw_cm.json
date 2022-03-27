@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.95",
+    "version": "0.0.3.96",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61023,7 +61023,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9016",
+    "version": "0.7.0.9017",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61076,6 +61076,19 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "version": ">= 0.6.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "askpass",
