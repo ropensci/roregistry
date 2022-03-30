@@ -1365,13 +1365,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "gert",
-    "description": "Simple git client for R based on 'libgit2' with support for SSH and HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors and data-frames) for their arguments and return values. User credentials are shared with command line 'git' through the git-credential store and ssh keys stored on disk or ssh-agent.",
+    "description": "Simple git client for R based on 'libgit2' <https://libgit2.org> with support for SSH and HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors and data-frames) for their arguments and return values. User credentials are shared with command line 'git' through the git-credential store and ssh keys stored on disk or ssh-agent.",
     "name": "gert: Simple Git Client for R",
-    "relatedLink": ["https://docs.ropensci.org/gert/", "https://libgit2.org"],
+    "relatedLink": "https://docs.ropensci.org/gert/",
     "codeRepository": "https://github.com/r-lib/gert",
     "issueTracker": "https://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5.9000",
+    "version": "1.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1538,7 +1538,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=zip"
       },
-      "SystemRequirements": "libgit2 (>= 0.26): libgit2-devel (rpm) or libgit2-dev (deb)"
+      "SystemRequirements": "libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)"
     },
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/r-lib/gert/blob/master/NEWS",
@@ -1555,7 +1555,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.276",
+    "version": "0.0.2.290",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23489,7 +23489,7 @@
     "codeRepository": "https://github.com/ropensci/fingertipsR",
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.8",
+    "version": "1.0.8.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
