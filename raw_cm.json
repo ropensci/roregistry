@@ -1371,7 +1371,7 @@
     "codeRepository": "https://github.com/r-lib/gert",
     "issueTracker": "https://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.6.0",
+    "version": "1.6.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6459,7 +6459,7 @@
     "identifier": "baRcodeR",
     "description": "Tools to generate unique identifier codes and printable barcoded labels for the management of biological samples. The creation of unique ID codes and printable PDF files can be initiated by standard commands, user prompts, or through a GUI addin for R Studio. Biologically informative codes can be included for hierarchically structured sampling designs.",
     "name": "baRcodeR: Label Creation for Tracking and Collecting Data from\n    Biological Samples",
-    "relatedLink": ["https://docs.ropensci.org/baRcodeR", "https://CRAN.R-project.org/package=baRcodeR"],
+    "relatedLink": ["https://docs.ropensci.org/baRcodeR/", "https://CRAN.R-project.org/package=baRcodeR"],
     "codeRepository": "https://github.com/ropensci/baRcodeR",
     "issueTracker": "https://github.com/ropensci/baRcodeR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -6503,10 +6503,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Yihan",
-        "familyName": "Wu",
-        "email": "yihan.wu@queensu.ca",
-        "@id": "https://orcid.org/0000-0002-1202-4208"
+        "givenName": "Robert",
+        "familyName": "Colautti",
+        "email": "robert.colautti@queensu.ca",
+        "@id": "https://orcid.org/0000-0003-4213-0711"
       }
     ],
     "softwareSuggestions": [
@@ -6657,7 +6657,7 @@
     "fileSize": "0KB",
     "releaseNotes": "https://github.com/ropensci/baRcodeR/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/baRcodeR/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/baRcodeR", "https://codecov.io/gh/ropensci/baRcodeR?branch=master"],
+    "contIntegration": ["https://travis-ci.org/ropensci/baRcodeR", "https://app.codecov.io/gh/ropensci/baRcodeR?branch=master"],
     "developmentStatus": "https://www.repostatus.org/#active",
     "review": {
       "@type": "Review",
@@ -73863,9 +73863,9 @@
     "description": "Access 'Open Trade Statistics' API from R to download international trade data.",
     "name": "tradestatistics: Open Trade Statistics API Wrapper and Utility Program",
     "codeRepository": "https://github.com/ropensci/tradestatistics",
-    "issueTracker": "https://github.com/ropensci/tradestatistics/issues",
+    "issueTracker": "https://github.com/ropensci/tradestatistics/issues/",
     "license": "Apache License 2",
-    "version": "3.0.2",
+    "version": "4.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73883,7 +73883,7 @@
         "@type": "Person",
         "givenName": "Mauricio",
         "familyName": "Vargas",
-        "email": "mvargas@dcc.uchile.cl",
+        "email": "mavargas11@uc.cl",
         "@id": "https://orcid.org/0000-0003-1017-7574"
       }
     ],
@@ -73909,11 +73909,6 @@
         "familyName": "de los Santos"
       },
       {
-        "@type": "Person",
-        "givenName": "Elio",
-        "familyName": "Campitelli"
-      },
-      {
         "@type": "Organization",
         "name": "UN Comtrade"
       },
@@ -73927,7 +73922,7 @@
         "@type": "Person",
         "givenName": "Mauricio",
         "familyName": "Vargas",
-        "email": "mvargas@dcc.uchile.cl",
+        "email": "mavargas11@uc.cl",
         "@id": "https://orcid.org/0000-0003-1017-7574"
       }
     ],
@@ -73936,7 +73931,7 @@
         "@type": "Person",
         "givenName": "Mauricio",
         "familyName": "Vargas",
-        "email": "mvargas@dcc.uchile.cl",
+        "email": "mavargas11@uc.cl",
         "@id": "https://orcid.org/0000-0003-1017-7574"
       }
     ],
@@ -73967,15 +73962,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "DT",
-        "name": "DT",
+        "identifier": "tibble",
+        "name": "tibble",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=DT"
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
@@ -74087,6 +74082,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       },
       "SystemRequirements": null
     },
