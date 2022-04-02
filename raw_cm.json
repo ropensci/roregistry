@@ -1555,7 +1555,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.2",
+    "version": "0.0.3.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.96",
+    "version": "0.0.4.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71876,7 +71876,7 @@
     "codeRepository": "https://github.com/ropensci/tidync",
     "issueTracker": "https://github.com/ropensci/tidync/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.4.9001",
+    "version": "0.2.4.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71927,6 +71927,11 @@
         "@type": "Person",
         "givenName": "Hadley",
         "familyName": "Wickham"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adrian",
+        "familyName": "Odenweller"
       }
     ],
     "maintainer": [
@@ -72147,7 +72152,7 @@
     "relatedLink": ["https://docs.ropensci.org/tidync/", "https://CRAN.R-project.org/package=tidync"],
     "releaseNotes": "https://github.com/ropensci/tidync/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/tidync/blob/master/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/tidync", "https://travis-ci.org/ropensci/tidync", "https://ci.appveyor.com/project/mdsumner/tidync-nvwwt", "https://codecov.io/github/ropensci/tidync?branch=master"],
+    "contIntegration": "https://github.com/ropensci/tidync/actions",
     "developmentStatus": "https://www.tidyverse.org/lifecycle/#maturing",
     "review": {
       "@type": "Review",
