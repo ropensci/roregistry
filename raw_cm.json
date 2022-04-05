@@ -1555,7 +1555,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.6",
+    "version": "0.0.3.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -48147,12 +48147,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.3 (2022-03-10)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -48235,14 +48229,7 @@
       "4": {
         "@type": "SoftwareApplication",
         "identifier": "scrapeR",
-        "name": "scrapeR",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=scrapeR"
+        "name": "scrapeR"
       },
       "5": {
         "@type": "SoftwareApplication",
@@ -59847,7 +59834,7 @@
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/ropensci/rrricanes/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/rrricanes/blob/main/README.md",
-    "contIntegration": ["https://travis-ci.org/ropensci/rrricanes", "https://ci.appveyor.com/project/timtrice/rrricanes-g4dos", "https://codecov.io/gh/ropensci/rrricanes"],
+    "contIntegration": ["https://github.com/ropensci/rrricanes/actions", "https://codecov.io/gh/ropensci/rrricanes"],
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/118",
@@ -60991,7 +60978,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9017",
+    "version": "0.7.0.9018",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66255,7 +66242,7 @@
     "codeRepository": "https://github.com/ropensci/stplanr",
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.7",
+    "version": "0.9.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
