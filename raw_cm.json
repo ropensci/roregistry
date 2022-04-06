@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.4",
+    "version": "0.0.4.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17117,7 +17117,7 @@
     "codeRepository": "https://github.com/ropensci/DataPackageR",
     "issueTracker": "https://github.com/ropensci/DataPackageR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.15.8",
+    "version": "0.15.8.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17145,7 +17145,7 @@
       {
         "@type": "Organization",
         "name": "Ellis Hughes",
-        "email": "ehhughes@scharp.org"
+        "email": "ellishughes@live.com"
       },
       {
         "@type": "Organization",
@@ -17155,11 +17155,12 @@
       {
         "@type": "Organization",
         "name": "Marie Vendettuoli",
-        "email": "mvendett@scharp.org"
+        "email": "sc.mvendett.viscdevelopers@scharp.org"
       },
       {
         "@type": "Organization",
-        "name": "Jason Taylor"
+        "name": "Jason Taylor",
+        "email": "jmtaylor@fredhutch.org"
       }
     ],
     "copyrightHolder": [
@@ -17172,8 +17173,8 @@
     "maintainer": [
       {
         "@type": "Organization",
-        "name": "Ellis Hughes",
-        "email": "ehhughes@scharp.org"
+        "name": "Marie Vendettuoli",
+        "email": "sc.mvendett.viscdevelopers@scharp.org"
       }
     ],
     "softwareSuggestions": [
@@ -17407,6 +17408,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      "17": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       },
       "SystemRequirements": "pandoc (>= 1.12.3) - http://pandoc.org"
     },
@@ -79222,7 +79235,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.138",
+    "version": "0.0.1.140",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79756,7 +79769,7 @@
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.0.72",
+    "version": "0.0.1.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79870,7 +79883,7 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
+    "contIntegration": ["https://github.com/ropenscilabs/r2readthedocs/actions", "https://github.com/ropenscilabs/r2readthedocs/actions?query=workflow%3Apkgcheck", "https://codecov.io/gh/ropenscilabs/r2readthedocs"],
     "developmentStatus": "https://www.repostatus.org/#concept"
   }
 ]
