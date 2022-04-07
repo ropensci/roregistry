@@ -1555,7 +1555,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.7",
+    "version": "0.0.3.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.5",
+    "version": "0.0.4.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2311,6 +2311,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "hms",
         "name": "hms",
         "provider": {
@@ -2320,6 +2332,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=hms"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       {
         "@type": "SoftwareApplication",
@@ -79230,12 +79254,12 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "deposits",
-    "description": "What the package does (one paragraph).",
-    "name": "deposits: What the Package Does (One Line, Title Case)",
+    "description": "A universal client for depositing and accessing research data anywhere. Currently supported services are zenodo and figshare.",
+    "name": "deposits: A universal client for depositing and accessing research data\n    anywhere.",
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.140",
+    "version": "0.0.1.141",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
