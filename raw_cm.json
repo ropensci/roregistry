@@ -34826,10 +34826,22 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "terra",
+        "name": "terra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=terra"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "memoise",
         "name": "memoise",
@@ -34841,7 +34853,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=memoise"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -79793,7 +79805,7 @@
     "codeRepository": "https://github.com/ropenscilabs/r2readthedocs",
     "issueTracker": "https://github.com/ropenscilabs/r2readthedocs/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.1.5",
+    "version": "0.0.1.18",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
