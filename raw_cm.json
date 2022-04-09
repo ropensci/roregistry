@@ -316,7 +316,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.180",
+    "version": "0.0.2.181",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11596,7 +11596,7 @@
     "codeRepository": "https://github.com/ropensci/cffr",
     "issueTracker": "https://github.com/ropensci/cffr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30633,7 +30633,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.6.0",
+        "version": ">= 0.11.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -53600,7 +53600,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.1",
+    "version": "3.7.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53930,19 +53930,6 @@
       },
       "10": {
         "@type": "SoftwareApplication",
-        "identifier": "wellknown",
-        "name": "wellknown",
-        "version": ">= 0.7.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=wellknown"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
         "identifier": "lazyeval",
         "name": "lazyeval",
         "provider": {
@@ -53953,7 +53940,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lazyeval"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
@@ -53965,7 +53952,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "conditionz",
         "name": "conditionz",
@@ -53977,10 +53964,22 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=conditionz"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "wk",
+        "name": "wk",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=wk"
       },
       "SystemRequirements": null
     },
@@ -54031,7 +54030,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.1"
+        "description": "R package version 3.7.2"
       },
       {
         "@type": "ScholarlyArticle",
@@ -65579,7 +65578,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.6.0",
+        "version": ">= 0.11.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -67710,7 +67709,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.6.0",
+        "version": ">= 0.11.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -79267,11 +79266,11 @@
     "@type": "SoftwareSourceCode",
     "identifier": "deposits",
     "description": "A universal client for depositing and accessing research data anywhere. Currently supported services are zenodo and figshare.",
-    "name": "deposits: A universal client for depositing and accessing research data\n    anywhere.",
+    "name": "deposits: A universal client for depositing and accessing research data\n    anywhere",
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.141",
+    "version": "0.0.1.144",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
