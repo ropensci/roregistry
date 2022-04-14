@@ -58617,7 +58617,7 @@
     "identifier": "Rpolyhedra",
     "description": "A polyhedra database scraped from various sources as R6 objects and 'rgl' visualizing capabilities.",
     "name": "Rpolyhedra: Polyhedra Database",
-    "relatedLink": "https://docs.ropensci.org/Rpolyhedra",
+    "relatedLink": "https://docs.ropensci.org/Rpolyhedra/",
     "codeRepository": "https://github.com/ropensci/Rpolyhedra",
     "issueTracker": "https://github.com/ropensci/Rpolyhedra/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -58684,6 +58684,30 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -58802,30 +58826,6 @@
       },
       "6": {
         "@type": "SoftwareApplication",
-        "identifier": "stringi",
-        "name": "stringi",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringi"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
         "identifier": "XML",
         "name": "XML",
         "provider": {
@@ -58836,7 +58836,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=XML"
       },
-      "9": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "digest",
         "name": "digest",
@@ -58848,19 +58848,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=digest"
       },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      "11": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "futile.logger",
         "name": "futile.logger",
@@ -58872,7 +58860,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=futile.logger"
       },
-      "12": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "git2r",
         "name": "git2r",
