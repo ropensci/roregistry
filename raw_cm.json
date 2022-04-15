@@ -1555,7 +1555,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.10",
+    "version": "0.0.3.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2283,7 +2283,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.6",
+    "version": "0.0.4.28",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -58617,17 +58617,23 @@
     "identifier": "Rpolyhedra",
     "description": "A polyhedra database scraped from various sources as R6 objects and 'rgl' visualizing capabilities.",
     "name": "Rpolyhedra: Polyhedra Database",
-    "relatedLink": "https://docs.ropensci.org/Rpolyhedra/",
+    "relatedLink": ["https://docs.ropensci.org/Rpolyhedra/", "https://CRAN.R-project.org/package=Rpolyhedra"],
     "codeRepository": "https://github.com/ropensci/Rpolyhedra",
     "issueTracker": "https://github.com/ropensci/Rpolyhedra/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.3 (2022-03-10)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -60849,6 +60855,150 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "rsvg",
+    "description": "Renders vector-based svg images into high-quality custom-size bitmap arrays using 'librsvg2'. The resulting bitmap can be written to e.g. png, jpeg or webp format. In addition, the package can convert images directly to various formats such as pdf or postscript.",
+    "name": "rsvg: Render SVG Images into PDF, PNG, (Encapsulated) PostScript, or Bitmap Arrays",
+    "relatedLink": "https://docs.ropensci.org/rsvg/",
+    "codeRepository": "https://github.com/ropensci/rsvg",
+    "issueTracker": "https://github.com/ropensci/rsvg/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "2.3.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.1.3 (2022-03-10)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Salim",
+        "familyName": "Brüggemann",
+        "email": "salim-b@pm.me",
+        "@id": "https://orcid.org/0000-0002-5329-5987"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magick",
+        "name": "magick",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magick"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "svglite",
+        "name": "svglite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=svglite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webp",
+        "name": "webp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webp"
+      }
+    ],
+    "softwareRequirements": {
+      "SystemRequirements": "librsvg2"
+    },
+    "fileSize": "NAKB",
+    "releaseNotes": "https://github.com/ropensci/rsvg/blob/master/NEWS",
+    "readme": "https://github.com/ropensci/rsvg/blob/master/README.md",
+    "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "rtika",
     "description": "Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content. ",
     "name": "rtika: R Interface to 'Apache Tika' ",
@@ -62995,7 +63145,7 @@
     "codeRepository": "https://github.com/ropensci/skimr",
     "issueTracker": "https://github.com/ropensci/skimr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.1.3",
+    "version": "2.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63190,6 +63340,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "crayon",
+        "name": "crayon",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
         "provider": {
@@ -63272,6 +63434,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": {
@@ -63295,18 +63469,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "crayon",
-        "name": "crayon",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crayon"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "version": ">= 0.8.0",
@@ -63318,7 +63480,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
@@ -63331,7 +63493,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -63344,7 +63506,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "pillar",
         "name": "pillar",
@@ -63357,7 +63519,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=pillar"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -63369,7 +63531,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "repr",
         "name": "repr",
@@ -63381,7 +63543,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=repr"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -63394,12 +63556,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -63412,7 +63574,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -63425,7 +63587,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -63438,7 +63600,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -63451,7 +63613,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -63463,24 +63625,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "17": {
-        "@type": "SoftwareApplication",
-        "identifier": "withr",
-        "name": "withr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=withr"
-      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
     "releaseNotes": "https://github.com/ropensci/skimr/blob/master/NEWS.md",
     "readme": "https://github.com/ropensci/skimr/blob/master/README.md",
-    "contIntegration": ["https://github.com/ropensci/skimr/actions?workflow=R-CMD-check", "https://codecov.io/gh/ropensci/skimr/"],
+    "contIntegration": ["https://github.com/ropensci/skimr/actions?workflow=R-CMD-check", "https://app.codecov.io/gh/ropensci/skimr"],
     "developmentStatus": "https://www.repostatus.org/",
     "review": {
       "@type": "Review",
@@ -63505,12 +63655,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.1.3 (2022-03-10)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -63739,8 +63883,7 @@
       "url": "https://github.com/ropensci/software-review/issues/214",
       "provider": "https://ropensci.org"
     },
-    "keywords": ["db1b", "transtats", "bureau-of-transport-statistics", "bts", "rita", "t100", "air-transport", "skynet", "peer-reviewed", "r", "r-package", "rstats"],
-    "relatedLink": "https://CRAN.R-project.org/package=skynet"
+    "keywords": ["db1b", "transtats", "bureau-of-transport-statistics", "bts", "rita", "t100", "air-transport", "skynet", "peer-reviewed", "r", "r-package", "rstats"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -79479,7 +79622,6 @@
     },
     "fileSize": "NAKB",
     "relatedLink": "https://docs.ropensci.org/deposits/",
-    "readme": "https://github.com/ropenscilabs/deposits/blob/main/README.md",
     "contIntegration": ["https://github.com/ropenscilabs/deposits/actions?query=workflow%3AR-CMD-check", "https://codecov.io/gh/ropenscilabs/deposits"],
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
