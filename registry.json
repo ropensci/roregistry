@@ -1235,7 +1235,7 @@
       "url": "https://github.com/ropensci/comtradr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-19 00:45:46",
+      "date_last_commit": "2022-04-20 03:09:09",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1898,6 +1898,24 @@
       "date_last_commit": "2021-06-11 23:45:08",
       "github_archived": false,
       "cran_archived": true,
+      "staff_maintained": false
+    },
+    {
+      "name": "gbifdb",
+      "description": "Local Database Interface to 'GBIF'",
+      "details": "A high performance interface to the Global Biodiversity Information Facility, 'GBIF'. In contrast to 'rgbif', which can access small subsets of 'GBIF' data through web-based queries to a central server, 'gbifdb' provides enhanced performance for R users performing large-scale analyses on servers and cloud computing providers, providing full support for arbitrary 'SQL' or 'dplyr' operations on the complete 'GBIF' data tables (now over 1 billion records, and over a terabyte in size). 'gbifdb' accesses a copy of the 'GBIF' data in 'parquet' format, which is already readily available in commercial computing clouds such as the Amazon Open Data portal and the Microsoft Planetary Computer, or can be accessed directly without downloading, or downloaded to any server with suitable bandwidth and storage space.",
+      "maintainer": "Carl Boettiger",
+      "keywords": "",
+      "github": "https://github.com/ropensci/gbifdb",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/gbifdb",
+      "date_last_commit": "2022-04-19 22:56:55",
+      "github_archived": false,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -2695,7 +2713,7 @@
       "url": "https://github.com/ropensci/lingtypology",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-11 22:16:26",
+      "date_last_commit": "2022-04-19 19:22:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3553,7 +3571,7 @@
       "url": "https://github.com/ropensci/pdftools",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-05 12:09:19",
+      "date_last_commit": "2022-04-19 16:37:15",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -5089,7 +5107,7 @@
       "url": "https://github.com/ropensci/ruODK",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-24 01:20:33",
+      "date_last_commit": "2022-04-20 06:20:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5589,7 +5607,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-13 14:39:23",
+      "date_last_commit": "2022-04-19 15:06:56",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5609,7 +5627,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-18 17:10:06",
+      "date_last_commit": "2022-04-19 20:28:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5658,7 +5676,7 @@
       "name": "taxize",
       "description": "Taxonomic Information from Around the Web",
       "details": "Interacts with a suite of web 'APIs' for taxonomic tasks, such as getting database specific taxonomic identifiers, verifying species names, getting taxonomic hierarchies, fetching downstream and upstream taxonomic names, getting taxonomic synonyms, converting scientific to common names and vice versa, and more.",
-      "maintainer": "Scott Chamberlain",
+      "maintainer": "Zachary Foster",
       "keywords": "api, API, api-client, api-wrapper, biodiversity, biology, darwincore, data, identifiers, JSON, names, nomenclature, species, taxize, taxonomy, web",
       "github": "https://github.com/ropensci/taxize",
       "status": "https://www.repostatus.org#active",
@@ -5669,7 +5687,7 @@
       "url": "https://github.com/ropensci/taxize",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-19 05:14:07",
+      "date_last_commit": "2022-04-19 17:19:49",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6517,7 +6535,7 @@
       "description": "'ZooBank' API Client",
       "details": "Interface to the 'ZooBank' API (<http://zoobank.org/Api>) client. 'ZooBank' (<http://zoobank.org/>) is the official registry of zoological nomenclature. Methods are provided for using each of the API endpoints, including for querying by author, querying for publications, get statistics on 'ZooBank' activity, and more.",
       "maintainer": "Scott Chamberlain",
-      "keywords": "API, api-client, biology, identifiers, JSON, names, nomenclature, species, taxonomy, web, zoobank, ZooBank, Zoological, zoology",
+      "keywords": "API, api-client, biology, JSON, names, nomenclature, species, taxonomy, web, ZooBank, Zoological",
       "github": "https://github.com/ropensci/zbank",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -6611,5 +6629,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-04-19 07:58 UTC"
+  "date": "2022-04-20 08:04 UTC"
 }
