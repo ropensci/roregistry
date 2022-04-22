@@ -1,6 +1,7 @@
 name,ropensci_category,ropenscilabs
 auk,data-access,FALSE
 autotest,scalereprod,FALSE
+commonmark,data-extraction,FALSE
 credentials,scalereprod,FALSE
 frictionless,data-publication,FALSE
 genbankr,data-extraction,FALSE
@@ -11,7 +12,7 @@ pkgstats,scalereprod,FALSE
 roblog,scalereprod,TRUE
 rodev,scalereprod,FALSE
 roreviewapi,scalereprod,FALSE
-rotemplate,NA,FALSE
+rotemplate,scalereprod,FALSE
 srr,scalereprod,FALSE
 treeio,data-extraction,FALSE
 addressable,geospatial,FALSE
@@ -94,6 +95,8 @@ FedData,data-access,FALSE
 finch,data-extraction,FALSE
 fingertipsR,data-access,FALSE
 fulltext,literature,FALSE
+gbifdb,data-access,FALSE
+gendercoder,data-extraction,FALSE
 geojson,geospatial,FALSE
 geojsonio,geospatial,FALSE
 geojsonlint,geospatial,FALSE
@@ -155,6 +158,7 @@ nlrx,scalereprod,FALSE
 nodbi,databases,FALSE
 nomisr,data-access,FALSE
 oai,literature,FALSE
+occCite,data-access,FALSE
 onekp,data-access,FALSE
 opencage,geospatial,FALSE
 opencontext,data-access,FALSE
@@ -189,6 +193,7 @@ PostcodesioR,geospatial,FALSE
 prism,data-access,FALSE
 pubchunks,literature,FALSE
 qpdf,literature,FALSE
+qualR,data-access,FALSE
 qualtRics,data-access,FALSE
 rAltmetric,literature,FALSE
 ramlegacy,data-access,FALSE
@@ -215,7 +220,6 @@ rentrez,data-access,FALSE
 rerddap,data-access,FALSE
 restez,data-extraction,FALSE
 rfema,data-access,FALSE
-rfigshare,data-publication,FALSE
 rfishbase,data-access,FALSE
 rfisheries,data-access,FALSE
 rgbif,data-access,FALSE
@@ -232,7 +236,6 @@ rnaturalearthdata,geospatial,FALSE
 rnaturalearthhires,data-access,FALSE
 RNeXML,data-publication,FALSE
 rnoaa,data-access,FALSE
-rnpn,data-access,FALSE
 roadoi,literature,FALSE
 robotstxt,http-tools,FALSE
 rorcid,literature,FALSE
@@ -249,6 +252,7 @@ rrricanesdata,data-access,FALSE
 rsat,geospatial,FALSE
 RSelenium,http-tools,FALSE
 rsnps,data-access,FALSE
+rsvg,image-processing,FALSE
 rtika,literature,FALSE
 rtweet,data-access,FALSE
 ruODK,scalereprod,FALSE
@@ -305,6 +309,7 @@ treedata.table,data-extraction,FALSE
 treestartr,data-extraction,FALSE
 trufflesniffer,http-tools,FALSE
 UCSCXenaTools,data-access,FALSE
+universe,scalereprod,FALSE
 unrtf,literature,FALSE
 USAboundaries,data-access,FALSE
 USAboundariesData,data-access,FALSE
@@ -324,6 +329,6 @@ writexl,data-extraction,FALSE
 xslt,data-extraction,FALSE
 zbank,taxonomy,FALSE
 allcontributors,scalereprod,TRUE
-gendercoder,data-extraction,TRUE
+deposits,data-publication,TRUE
 qcoder,data-extraction,TRUE
 r2readthedocs,scalereprod,TRUE
