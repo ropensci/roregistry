@@ -1584,6 +1584,24 @@
       "staff_maintained": false
     },
     {
+      "name": "EDIutils",
+      "description": "An API Client for the Environmental Data Initiative Repository",
+      "details": "A client for the Environmental Data Initiative repository REST API. The EDI data repository <https://portal.edirepository.org/nis/home.jsp> is for publication and reuse of ecological data with emphasis on metadata accuracy and completeness. It is built upon the PASTA+ software stack <https://pastaplus-core.readthedocs.io/en/latest/index.html#> and was developed in collaboration with the US LTER Network <https://lternet.edu/>. EDIutils includes functions to search and access existing data, evaluate and upload new data, and assist other data management tasks common to repository users.",
+      "maintainer": "Colin Smith",
+      "keywords": "",
+      "github": "https://github.com/ropensci/EDIutils",
+      "status": "https://www.repostatus.org#wip",
+      "onboarding": "https://github.com/ropensci/software-review/issues/498",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci/EDIutils",
+      "date_last_commit": "2022-04-23 22:17:46",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "eia",
       "description": "API Wrapper for 'US Energy Information Administration' Open Data",
       "details": "Provides API access to data from the 'US Energy Information Administration' ('EIA') <https://www.eia.gov/>. Use of the API requires a free API key obtainable at <https://www.eia.gov/opendata/register.php>. The package includes functions for searching 'EIA' data categories and importing time series and geoset time series datasets. Datasets returned by these functions are provided in a tidy format or alternatively in more raw form. It also offers helper functions for working with 'EIA' date strings and time formats and for inspecting different summaries of series metadata. The package also provides control over API key storage and caching of API request results. ",
@@ -6528,7 +6546,7 @@
       "description": "Extensible Style-Sheet Language Transformations",
       "details": "An extension for the 'xml2' package to transform XML documents by applying an 'xslt' style-sheet.",
       "maintainer": "Jeroen Ooms",
-      "keywords": "xml, xslt",
+      "keywords": "",
       "github": "https://github.com/ropensci/xslt",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -6644,5 +6662,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-04-23 07:58 UTC"
+  "date": "2022-04-24 07:58 UTC"
 }
