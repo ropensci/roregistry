@@ -11093,7 +11093,7 @@
     "codeRepository": "https://github.com/ropensci/cde",
     "issueTracker": "https://github.com/ropensci/cde/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.1.9001",
+    "version": "0.4.1.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40201,13 +40201,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "opencv",
-    "description": "Experimenting with computer vision and machine learning in R. This package exposes some of the available 'OpenCV' <https://opencv.org/> algorithms, such as edge, body or face detection. These can either be applied to analyze static images, or to filter live video footage from a camera device.",
+    "description": "Exposes some of the available 'OpenCV' <https://opencv.org/> algorithms, such as edge, body or face detection. These can either be applied to analyze static images, or to filter live video footage from a camera device.",
     "name": "opencv: Bindings to 'OpenCV' Computer Vision Library",
     "relatedLink": "https://docs.ropensci.org/opencv/",
     "codeRepository": "https://github.com/ropensci/opencv",
     "issueTracker": "https://github.com/ropensci/opencv/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -48241,191 +48241,6 @@
     "readme": "https://github.com/ropensci/randgeo/blob/HEAD/README.md",
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": ["geojson", "wkt"]
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "identifier": "rAvis",
-    "description": "Interface to <http://proyectoavis.com> database. It provides means to download data filtered by species, order, family, and several other criteria. Provides also basic functionality to plot exploratory maps of the datasets.",
-    "name": "rAvis: Interface to the Bird-Watching Dataset Proyecto AVIS",
-    "relatedLink": "https://docs.ropensci.org/rAvis",
-    "codeRepository": "https://github.com/ropensci/rAvis",
-    "issueTracker": "https://github.com/ropensci/rAvis/issues",
-    "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.1.4",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": ["Javier", "González"],
-        "familyName": "Hernández",
-        "email": "javigzz@yahoo.es"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Sara",
-        "familyName": "Varela",
-        "email": "svarela@paleobiogeography.org"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "stringr",
-        "name": "stringr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringr"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "RCurl",
-        "name": "RCurl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RCurl"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "scrapeR",
-        "name": "scrapeR"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "gdata",
-        "name": "gdata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=gdata"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "scales",
-        "name": "scales",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=scales"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "maptools",
-        "name": "maptools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=maptools"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
-      },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
-        "identifier": "tools",
-        "name": "tools"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "0KB",
-    "readme": "https://github.com/ropensci/rAvis/blob/HEAD/README.md",
-    "developmentStatus": [],
-    "keywords": ["avis", "bird", "birds", "citizen-science", "proyectoavis"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -61782,7 +61597,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9021",
+    "version": "0.7.0.9022",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74576,7 +74391,7 @@
     "codeRepository": "https://github.com/ropensci/tradestatistics",
     "issueTracker": "https://github.com/ropensci/tradestatistics/issues/",
     "license": "Apache License 2",
-    "version": "4.0.1",
+    "version": "4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74719,18 +74534,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "arrow",
-        "name": "arrow",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=arrow"
       }
     ],
     "softwareRequirements": {
@@ -74748,15 +74551,15 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
+        "identifier": "arrow",
+        "name": "arrow",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+        "sameAs": "https://CRAN.R-project.org/package=arrow"
       },
       "3": {
         "@type": "SoftwareApplication",
