@@ -2856,7 +2856,7 @@
       "url": "https://github.com/ropensci/mctq",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-14 23:29:46",
+      "date_last_commit": "2022-05-02 03:13:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4324,9 +4324,9 @@
     {
       "name": "ReLTER",
       "description": "An Interface for the 'eLTER' Community",
-      "details": "ReLTER provides access to DEIMS-SDR (https://deims.org/), and allows interaction with data and software implemented by eLTER Research Infrastructure (RI) thus improving data sharing among European LTER projects. ReLTER uses the R language to access and interact with the DEIMS-SDR archive of information shared by the Long Term Ecological Research (LTER) network. This package grew within eLTER H2020 as a major project that will help advance the development of European Long-Term Ecosystem Research Infrastructures (eLTER RI - https://elter-ri.eu). The ReLTER package functions in particular allow to: - retrieve the information about entities (e.g. sites, datasets, and activities) shared by DEIMS-SDR (see e.g. get_site_info function); - interact with the [ODSEurope](maps.opendatascience.eu) starting with the dataset shared by [DEIMS-SDR](https://deims.org/) (see e.g. [get_site_ODS](https://ropensci.github.io/ReLTER/reference/get_site_ODS.html) function); - use the eLTER site informations to download and crop geospatial data from other platforms (see e.g. get_site_ODS function); - improve the quality of the dataset (see e.g. get_id_worms). Functions currently implemented are derived from discussions of the needs among the eLTER users community. The ReLTER package will continue to follow the progress of eLTER-RI and evolve, adding new tools and improvements as required.",
+      "details": "ReLTER provides access to DEIMS-SDR (https://deims.org/), and allows interaction with data and software implemented by eLTER Research Infrastructure (RI) thus improving data sharing among European LTER projects. ReLTER uses the R language to access and interact with the DEIMS-SDR archive of information shared by the Long Term Ecological Research (LTER) network. This package grew within eLTER H2020 as a major project that will help advance the development of European Long-Term Ecosystem Research Infrastructures (eLTER RI - https://elter-ri.eu). The ReLTER package functions in particular allow to: - retrieve the information about entities (e.g. sites, datasets, and activities) shared by DEIMS-SDR (see e.g. get_site_info function); - interact with the [ODSEurope](maps.opendatascience.eu) starting with the dataset shared by [DEIMS-SDR](https://deims.org/) (see e.g. [get_site_ODS](https://docs.ropensci.org/ReLTER/reference/get_site_ODS.html) function); - use the eLTER site informations to download and crop geospatial data from other platforms (see e.g. get_site_ODS function); - improve the quality of the dataset (see e.g. get_id_worms). Functions currently implemented are derived from discussions of the needs among the eLTER users community. The ReLTER package will continue to follow the progress of eLTER-RI and evolve, adding new tools and improvements as required.",
       "maintainer": "Alessandro Oggioni",
-      "keywords": "",
+      "keywords": "biodiversity-informatics, data-science, ecology, elter, research-infrastructure",
       "github": "https://github.com/ropensci/ReLTER",
       "status": "https://www.repostatus.org#active",
       "onboarding": "",
@@ -4334,7 +4334,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/ReLTER",
-      "date_last_commit": "2022-04-29 12:29:52",
+      "date_last_commit": "2022-05-01 22:06:16",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6200,6 +6200,24 @@
       "staff_maintained": false
     },
     {
+      "name": "unifir",
+      "description": "A Unifying API for Calling the 'Unity' '3D' Video Game Engine",
+      "details": "Functions for the creation and manipulation of scenes and objects within the 'Unity' '3D' video game engine (<https://unity.com/>). Specific focuses include the creation and import of terrain data and 'GameObjects' as well as scene management.",
+      "maintainer": "Michael Mahoney",
+      "keywords": "cran-r, unifir, unity, unity3d, visualization",
+      "github": "https://github.com/ropensci/unifir",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/521",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/unifir",
+      "date_last_commit": "2022-05-01 21:38:58",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "universe",
       "description": "//r-universe.dev>",
       "details": "Utilities to interact with the R-universe platform. Includes functions to manage local package repositories, as well as API wrappers for retrieving data and metadata about packages in r-universe.",
@@ -6660,5 +6678,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-05-01 07:57 UTC"
+  "date": "2022-05-02 07:58 UTC"
 }
