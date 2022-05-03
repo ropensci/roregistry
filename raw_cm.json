@@ -1547,7 +1547,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.11",
+    "version": "0.0.3.15",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2088,7 +2088,8 @@
       "10": {
         "@type": "SoftwareApplication",
         "identifier": "goodpractice",
-        "name": "goodpractice"
+        "name": "goodpractice",
+        "sameAs": "https://github.com/mangoTheCat/goodpractice"
       },
       "11": {
         "@type": "SoftwareApplication",
@@ -61647,19 +61648,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "version": ">= 0.6.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "askpass",
         "name": "askpass",
         "provider": {
@@ -61684,8 +61672,22 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 1.0.9",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
+        "version": ">= 3.3.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -61744,6 +61746,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "maps",
+        "name": "maps",
+        "version": ">= 3.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=maps"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "openssl",
         "name": "openssl",
         "provider": {
@@ -61790,6 +61805,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "version": ">= 0.6.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       },
       {
         "@type": "SoftwareApplication",
@@ -68079,7 +68107,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69312,7 +69340,7 @@
     "name": "taxadb: A High-Performance Local Taxonomic Database Interface",
     "issueTracker": "https://github.com/ropensci/taxadb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69698,7 +69726,6 @@
           }
         ],
         "name": "taxadb: A high-performance local taxonomic database interface",
-        "url": "https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13440",
         "pagination": "1153--1159",
         "isPartOf": {
           "@type": "PublicationIssue",
