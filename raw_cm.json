@@ -1540,6 +1540,107 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "gitcellar",
+    "description": "Provide functionality to download archives for all repositories in a GitHub organization.",
+    "name": "gitcellar: Helps Download Archives of GitHub Repositories",
+    "codeRepository": "https://github.com/ropensci-org/gitcellar",
+    "issueTracker": "https://github.com/ropensci-org/gitcellar/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "maelle.salmon@yahoo.se",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "maelle.salmon@yahoo.se",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "gh",
+        "name": "gh",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gh"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci-org/gitcellar/blob/HEAD/README.md",
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "pkgcheck",
     "description": "Check whether a package is ready for submission to rOpenSci’s peer review system.",
     "name": "pkgcheck: rOpenSci Package Checks",
@@ -1547,7 +1648,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.15",
+    "version": "0.0.3.16",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11088,7 +11189,7 @@
     "codeRepository": "https://github.com/ropensci/cde",
     "issueTracker": "https://github.com/ropensci/cde/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.1.9002",
+    "version": "0.4.1.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38009,7 +38110,7 @@
     "codeRepository": "https://github.com/ropensci/nodbi",
     "issueTracker": "https://github.com/ropensci/nodbi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9000",
+    "version": "0.7.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59977,6 +60078,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rgdal",
+        "name": "rgdal",
+        "version": ">= 1.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgdal"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -60177,19 +60291,6 @@
       },
       "13": {
         "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "version": ">= 1.4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      "14": {
-        "@type": "SoftwareApplication",
         "identifier": "rgeos",
         "name": "rgeos",
         "version": ">= 0.4",
@@ -60201,7 +60302,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rgeos"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -60214,7 +60315,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "rnaturalearthdata",
         "name": "rnaturalearthdata",
@@ -60227,7 +60328,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rnaturalearthdata"
       },
-      "17": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "rvest",
         "name": "rvest",
@@ -60240,7 +60341,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rvest"
       },
-      "18": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -60253,7 +60354,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "19": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -60266,7 +60367,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "20": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -60279,7 +60380,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "21": {
+      "20": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -60292,7 +60393,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "22": {
+      "21": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
