@@ -1661,7 +1661,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.19",
+    "version": "0.0.3.20",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1879,7 +1879,8 @@
       "9": {
         "@type": "SoftwareApplication",
         "identifier": "goodpractice",
-        "name": "goodpractice"
+        "name": "goodpractice",
+        "sameAs": "https://github.com/MangoTheCat/goodpractice"
       },
       "10": {
         "@type": "SoftwareApplication",
@@ -2373,7 +2374,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.30",
+    "version": "0.0.4.49",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3023,7 +3024,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.80",
+    "version": "0.0.2.84",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4961,14 +4962,7 @@
         "@type": "SoftwareApplication",
         "identifier": "leafletR",
         "name": "leafletR",
-        "version": ">= 0.1-1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=leafletR"
+        "version": ">= 0.1-1"
       },
       "SystemRequirements": null
     },
@@ -49975,6 +49969,92 @@
       "SystemRequirements": "Python (>= 3.7), retriever (>= 3.0.0) (version must be listed to patch to allow parsing)"
     },
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Henry",
+            "familyName": "Senyondo"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Daniel", "J."],
+            "familyName": "McGlinn"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Pranita",
+            "familyName": "Sharma"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["David", "J."],
+            "familyName": "Harris"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Hao",
+            "familyName": "Ye"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Shawn", "D."],
+            "familyName": "Taylor"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Jeroen",
+            "familyName": "Ooms"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Francisco",
+            "familyName": "Rodríguez-Sánchez"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Karthik",
+            "familyName": "Ram"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Apoorva",
+            "familyName": "Pandey"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Harshit",
+            "familyName": "Bansal"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Max",
+            "familyName": "Pohlman"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Ethan", "P."],
+            "familyName": "White"
+          }
+        ],
+        "name": "Rdataretriever: R Interface to the Data Retriever",
+        "url": "https://doi.org/10.21105/joss.02800",
+        "pagination": "2800",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "57",
+          "datePublished": "2021",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "6",
+            "name": "Journal of Open Source Software"
+          }
+        }
+      }
+    ],
     "readme": "https://github.com/ropensci/rdataretriever/blob/HEAD/README.md",
     "developmentStatus": [],
     "keywords": ["data", "data-science", "database", "datasets", "science"]
@@ -59813,6 +59893,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "here",
+        "name": "here",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=here"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -59847,6 +59939,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rnaturalearthdata",
+        "name": "rnaturalearthdata",
+        "version": ">= 0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rnaturalearthdata"
       },
       {
         "@type": "SoftwareApplication",
@@ -59960,6 +60065,18 @@
       },
       "7": {
         "@type": "SoftwareApplication",
+        "identifier": "iotools",
+        "name": "iotools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=iotools"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "version": ">= 1.4",
@@ -59971,7 +60088,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -59984,33 +60101,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "version": ">= 1.5",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
       "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "maptools",
-        "name": "maptools",
-        "version": ">= 0.9",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=maptools"
-      },
-      "11": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -60023,7 +60114,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -60036,20 +60127,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "13": {
-        "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
-        "version": ">= 0.4",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      "14": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -60062,20 +60140,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "15": {
-        "@type": "SoftwareApplication",
-        "identifier": "rnaturalearthdata",
-        "name": "rnaturalearthdata",
-        "version": ">= 0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rnaturalearthdata"
-      },
-      "16": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "rvest",
         "name": "rvest",
@@ -60088,7 +60153,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rvest"
       },
-      "17": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -60101,7 +60166,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "18": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -60114,7 +60179,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "19": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -60127,7 +60192,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "20": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -60140,7 +60205,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "21": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -75653,7 +75718,7 @@
     "codeRepository": "https://github.com/ropensci/unifir",
     "issueTracker": "https://github.com/ropensci/unifir/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75865,17 +75930,41 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
+        "datePublished": "2022",
         "author": [
           {
             "@type": "Person",
-            "givenName": "Michael",
+            "givenName": ["Michael", "J."],
             "familyName": "Mahoney"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Colin", "M."],
+            "familyName": "Beier"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Aidan", "C."],
+            "familyName": "Ackerman"
           }
         ],
-        "name": "{unifir}: A Unifying API for Calling Unity from R",
-        "url": "https://github.com/ropensci/unifir",
-        "description": "R package version 0.2.0"
+        "name": "{unifir:} A Unifying {API} for Working with {Unity} in {R}",
+        "identifier": "10.21105/joss.04388",
+        "url": "https://doi.org/10.21105/joss.04388",
+        "pagination": "4388",
+        "@id": "https://doi.org/10.21105/joss.04388",
+        "sameAs": "https://doi.org/10.21105/joss.04388",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "73",
+          "datePublished": "2022",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "7",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "readme": "https://github.com/ropensci/unifir/blob/HEAD/README.md",
