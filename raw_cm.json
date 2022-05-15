@@ -50087,6 +50087,12 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Cheryl",
+        "familyName": "Lim",
+        "email": "cheryl.academic@gmail.com"
+      },
+      {
+        "@type": "Person",
         "givenName": "Claudia",
         "familyName": "Vitolo",
         "email": "cvitolodev@gmail.com",
@@ -50118,10 +50124,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Claudia",
-        "familyName": "Vitolo",
-        "email": "cvitolodev@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4252-1176"
+        "givenName": "Cheryl",
+        "familyName": "Lim",
+        "email": "cheryl.academic@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -55482,7 +55487,7 @@
     "codeRepository": "https://github.com/ropensci/rmangal",
     "issueTracker": "https://github.com/ropensci/rmangal/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.1.0",
+    "version": "2.1.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55754,6 +55759,7 @@
         "@type": "SoftwareApplication",
         "identifier": "igraph",
         "name": "igraph",
+        "version": ">= 1.2.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -55791,18 +55797,6 @@
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
       "SystemRequirements": null
     },
@@ -55853,7 +55847,7 @@
         ],
         "name": "rmangal: An R package to interact with Mangal database",
         "url": "https://docs.ropensci.org/rmangal/",
-        "description": "R package version 2.1.0"
+        "description": "R package version 2.1.0.9000"
       }
     ],
     "readme": "https://github.com/ropensci/rmangal/blob/HEAD/README.md",
@@ -61514,7 +61508,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9024",
+    "version": "0.7.0.9025",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61539,6 +61533,7 @@
         "@type": "Person",
         "givenName": "Lluís",
         "familyName": "Revilla Sancho",
+        "email": "lluis.revilla@gmail.com",
         "@id": "https://orcid.org/0000-0001-9747-2570"
       },
       {
@@ -61560,10 +61555,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Michael W.",
-        "familyName": "Kearney",
-        "email": "kearneymw@missouri.edu",
-        "@id": "https://orcid.org/0000-0002-0730-4694"
+        "givenName": "Lluís",
+        "familyName": "Revilla Sancho",
+        "email": "lluis.revilla@gmail.com",
+        "@id": "https://orcid.org/0000-0001-9747-2570"
       }
     ],
     "softwareSuggestions": [
