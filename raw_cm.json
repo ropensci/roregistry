@@ -16882,12 +16882,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Organization",
@@ -19665,7 +19659,7 @@
     "codeRepository": "https://github.com/ropensci/EDIutils",
     "issueTracker": "https://github.com/ropensci/EDIutils/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.9003",
+    "version": "0.0.0.9004",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53984,7 +53978,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.2",
+    "version": "3.7.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54414,7 +54408,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.2"
+        "description": "R package version 3.7.2.1"
       },
       {
         "@type": "ScholarlyArticle",
@@ -79960,7 +79954,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.175",
+    "version": "0.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79986,6 +79980,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httptest2",
+        "name": "httptest2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httptest2"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
