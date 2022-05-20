@@ -1926,7 +1926,7 @@
     {
       "name": "gbifdb",
       "description": "High Performance Interface to 'GBIF'",
-      "details": "A high performance interface to the Global Biodiversity Information Facility, 'GBIF'. In contrast to 'rgbif', which can access small subsets of 'GBIF' data through web-based queries to a central server, 'gbifdb' provides enhanced performance for R users performing large-scale analyses on servers and cloud computing providers, providing full support for arbitrary 'SQL' or 'dplyr' operations on the complete 'GBIF' data tables (now over 1 billion records, and over a terabyte in size). 'gbifdb' accesses a copy of the 'GBIF' data in 'parquet' format, which is already readily available in commercial computing clouds such as the Amazon Open Data portal and the Microsoft Planetary Computer, or can be accessed directly without downloading, or downloaded to any server with suitable bandwidth and storage space.",
+      "details": "A high performance interface to the Global Biodiversity Information Facility, 'GBIF'. In contrast to 'rgbif', which can access small subsets of 'GBIF' data through web-based queries to a central server, 'gbifdb' provides enhanced performance for R users performing large-scale analyses on servers and cloud computing providers, providing full support for arbitrary 'SQL' or 'dplyr' operations on the complete 'GBIF' data tables (now over 1 billion records, and over a terabyte in size). 'gbifdb' accesses a copy of the 'GBIF' data in 'parquet' format, which is already readily available in commercial computing clouds such as the Amazon Open Data portal and the Microsoft Planetary Computer, or can be accessed directly without downloading, or downloaded to any server with suitable bandwidth and storage space. The high-performance techniques for local and remote access are described in <https://duckdb.org/why_duckdb> and <https://arrow.apache.org/docs/r/articles/fs.html> respectively.",
       "maintainer": "Carl Boettiger",
       "keywords": "",
       "github": "https://github.com/ropensci/gbifdb",
@@ -1938,7 +1938,7 @@
       "url": "https://github.com/ropensci/gbifdb",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-17 16:13:24",
+      "date_last_commit": "2022-05-19 21:02:12",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2678,7 +2678,7 @@
       "url": "https://github.com/ropensci/katex",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-08 22:14:35",
+      "date_last_commit": "2022-05-19 19:58:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -3738,7 +3738,7 @@
       "url": "https://github.com/ropensci/piggyback",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-06 19:37:36",
+      "date_last_commit": "2022-05-19 18:46:13",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4398,7 +4398,7 @@
       "url": "https://github.com/ropensci/restez",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-09 10:34:50",
+      "date_last_commit": "2022-05-19 23:40:49",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -5118,7 +5118,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-18 22:06:11",
+      "date_last_commit": "2022-05-19 22:03:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6018,7 +6018,7 @@
       "url": "https://github.com/ropensci/tinkr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-14 16:14:30",
+      "date_last_commit": "2022-05-19 17:24:13",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6638,7 +6638,7 @@
       "url": "https://github.com/ropenscilabs/deposits",
       "ropensci_category": "data-publication",
       "ropenscilabs": true,
-      "date_last_commit": "2022-05-19 07:02:35",
+      "date_last_commit": "2022-05-19 19:22:14",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6684,5 +6684,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-05-19 07:59 UTC"
+  "date": "2022-05-20 08:03 UTC"
 }
