@@ -1661,7 +1661,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.39",
+    "version": "0.0.3.40",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45140,12 +45140,12 @@
     "@type": "SoftwareSourceCode",
     "identifier": "phylotaR",
     "description": "A pipeline for the identification, within taxonomic groups, of orthologous sequence clusters from 'GenBank' <https://www.ncbi.nlm.nih.gov/genbank/> as the first step in a phylogenetic analysis. The pipeline depends on a local alignment search tool and is, therefore, not dependent on differences in gene naming conventions and naming errors.",
-    "name": "phylotaR: Automated Phylogenetic Sequence Cluster Identification from 'GenBank'",
+    "name": "phylotaR: Automated Phylogenetic Sequence Cluster Identification from\n    'GenBank'",
     "relatedLink": "https://docs.ropensci.org/phylotaR",
     "codeRepository": "https://github.com/ropensci/phylotaR",
     "issueTracker": "https://github.com/ropensci/phylotaR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0",
+    "version": "1.2.0.999",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45153,6 +45153,12 @@
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
     "author": [
+      {
+        "@type": "Person",
+        "givenName": "Shixiang",
+        "familyName": "Wang",
+        "email": "dominic.john.bennett@gmail.com"
+      },
       {
         "@type": "Person",
         "givenName": "Hannes",
@@ -45183,24 +45189,12 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Dom",
-        "familyName": "Bennett",
+        "givenName": "Shixiang",
+        "familyName": "Wang",
         "email": "dominic.john.bennett@gmail.com"
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -45212,6 +45206,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "outsider",
+        "name": "outsider",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=outsider"
       },
       {
         "@type": "SoftwareApplication",
@@ -45227,66 +45233,30 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "outsider",
-        "name": "outsider",
+        "identifier": "testthat",
+        "name": "testthat",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=outsider"
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.3.0"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
       "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "igraph",
-        "name": "igraph",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=igraph"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "rentrez",
-        "name": "rentrez",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rentrez"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      "6": {
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
@@ -45298,7 +45268,49 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "igraph",
+        "name": "igraph",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=igraph"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "R.utils",
+        "name": "R.utils",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.utils"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "rentrez",
+        "name": "rentrez",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rentrez"
+      },
       "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "restez",
+        "name": "restez",
+        "sameAs": "https://github.com/ropensci/restez"
+      },
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "sys",
         "name": "sys",
@@ -45310,7 +45322,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sys"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "treeman",
         "name": "treeman",
@@ -45322,7 +45334,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=treeman"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "treemapify",
         "name": "treemapify",
@@ -45334,23 +45346,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=treemapify"
       },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "restez",
-        "name": "restez",
-        "sameAs": "https://github.com/ropensci/restez"
-      },
       "11": {
         "@type": "SoftwareApplication",
-        "identifier": "R.utils",
-        "name": "R.utils",
+        "identifier": "XML",
+        "name": "XML",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=R.utils"
+        "sameAs": "https://CRAN.R-project.org/package=XML"
       },
       "SystemRequirements": "BLAST+ (>=2.0)"
     },
@@ -54008,7 +54014,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.2.1",
+    "version": "3.7.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54438,7 +54444,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.2.1"
+        "description": "R package version 3.7.2.2"
       },
       {
         "@type": "ScholarlyArticle",
@@ -79984,7 +79990,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.2.44",
+    "version": "0.0.2.52",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
