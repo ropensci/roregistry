@@ -46822,7 +46822,7 @@
     "identifier": "qpdf",
     "description": "Content-preserving transformations transformations of PDF files such as split, combine, and compress. This package interfaces directly to the 'qpdf' C++ API and does not require any command line utilities. Note that 'qpdf' does not read actual content from PDF files: to extract text and data you need the 'pdftools' package.",
     "name": "qpdf: Split, Combine and Compress PDF Files",
-    "relatedLink": ["https://docs.ropensci.org/qpdf/", "http://qpdf.sourceforge.net/"],
+    "relatedLink": ["https://docs.ropensci.org/qpdf/", "https://qpdf.sourceforge.io/"],
     "codeRepository": "https://github.com/ropensci/qpdf",
     "issueTracker": "https://github.com/ropensci/qpdf/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
@@ -59631,197 +59631,6 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "rromeo",
-    "description": "Fetches information from the 'SHERPA/RoMEO' API <http://www.sherpa.ac.uk/romeo/apimanual.php> which indexes policies of journal regarding the archival of scientific manuscripts before and/or after peer-review as well as formatted manuscripts.",
-    "name": "rromeo: Access Publisher Copyright & Self-Archiving Policies via the \n  'SHERPA/RoMEO' API",
-    "relatedLink": "https://docs.ropensci.org/rromeo/",
-    "codeRepository": "https://github.com/ropensci/rromeo",
-    "issueTracker": "https://github.com/ropensci/rromeo/issues",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.9000",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Matthias",
-        "familyName": "Grenié",
-        "email": "matthias.grenie@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4659-7522"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Hugo",
-        "familyName": "Gruson",
-        "@id": "https://orcid.org/0000-0002-4094-1476"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Matthias",
-        "familyName": "Grenié",
-        "email": "matthias.grenie@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4659-7522"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "version": ">= 0.5.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ISOcodes",
-        "name": "ISOcodes",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ISOcodes"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "mockery",
-        "name": "mockery",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=mockery"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "xml2",
-        "name": "xml2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "CreativeWork",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Matthias",
-            "familyName": "Grenié"
-          },
-          {
-            "@type": "Person",
-            "givenName": "Hugo",
-            "familyName": "Gruson"
-          }
-        ],
-        "name": "{rromeo}: An {R} Client for {SHERPA/RoMEO} {API}",
-        "url": "https://CRAN.R-project.org/package=rromeo",
-        "description": "R package version 0.1.1.9000"
-      },
-      {
-        "@type": "CreativeWork",
-        "datePublished": "2022",
-        "author": [
-          {
-            "@type": "Organization",
-            "name": "SHERPA/RoMEO"
-          }
-        ],
-        "url": "http://www.sherpa.ac.uk/romeo/",
-        "description": "Data released under the Creative Commons Attribution-NonCommercial-ShareAlike 2.5 (CC BY-NC-SA 2.5) license"
-      }
-    ],
-    "readme": "https://github.com/ropensci/rromeo/blob/HEAD/README.md",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/285",
-      "provider": "https://ropensci.org"
-    },
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["api-client", "sherpa-romeo"]
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
     "identifier": "rrricanes",
     "description": "Get archived data of past and current hurricanes and tropical storms for the Atlantic and eastern Pacific oceans. Data is available for storms since 1998. Datasets are updated via the rrricanesdata package. Currently, this package is about 6MB of datasets. See the README or view `vignette(\"drat\")` for more information.",
     "name": "rrricanes: Web Scraper for Atlantic and East Pacific Hurricanes and Tropical Storms",
@@ -71150,7 +70959,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "tesseract",
-    "description": "Bindings to 'Tesseract' <https://opensource.google/projects/tesseract>: a powerful optical character recognition (OCR) engine that supports over 100 languages. The engine is highly configurable in order to tune the detection algorithms and obtain the best possible results.",
+    "description": "Bindings to 'Tesseract': a powerful optical character recognition (OCR) engine that supports over 100 languages. The engine is highly configurable in order to tune the detection algorithms and obtain the best possible results.",
     "name": "tesseract: Open Source OCR Engine",
     "relatedLink": "https://docs.ropensci.org/tesseract/",
     "codeRepository": "https://github.com/ropensci/tesseract",
