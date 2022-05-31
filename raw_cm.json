@@ -3024,7 +3024,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.85",
+    "version": "0.0.2.88",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79783,7 +79783,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.48",
+    "version": "0.0.3.51",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79954,6 +79954,82 @@
     "fileSize": "NAKB",
     "readme": "https://github.com/ropenscilabs/deposits/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#wip"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "icepalace",
+    "description": "What the package does (one paragraph).",
+    "name": "icepalace: Locally Backs Up Current Versions of R Universes",
+    "codeRepository": "https://github.com/ropenscilabs/icepalace",
+    "issueTracker": "https://github.com/ropenscilabs/icepalace/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "msmaellesalmon@gmail.com",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "msmaellesalmon@gmail.com",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "0KB",
+    "readme": "https://github.com/ropenscilabs/icepalace/blob/HEAD/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
