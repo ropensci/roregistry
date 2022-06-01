@@ -1661,7 +1661,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.50",
+    "version": "0.0.3.52",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3024,7 +3024,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.88",
+    "version": "0.0.2.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38084,7 +38084,7 @@
     "codeRepository": "https://github.com/ropensci/nomisr",
     "issueTracker": "https://github.com/ropensci/nomisr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45379,7 +45379,7 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.3",
+    "version": "0.1.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61755,7 +61755,7 @@
     "codeRepository": "https://github.com/ropensci/ruODK",
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.3.9",
+    "version": "1.3.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79783,7 +79783,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.51",
+    "version": "0.0.3.54",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79960,11 +79960,11 @@
     "@type": "SoftwareSourceCode",
     "identifier": "icepalace",
     "description": "What the package does (one paragraph).",
-    "name": "icepalace: Locally Backs Up Current Versions of R Universes",
+    "name": "icepalace: Snapshot Current Versions of CRAN-like Repositories",
     "codeRepository": "https://github.com/ropenscilabs/icepalace",
     "issueTracker": "https://github.com/ropenscilabs/icepalace/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.9000",
+    "version": "0.0.0.9004",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79995,6 +79995,33 @@
         "@id": "https://orcid.org/0000-0002-2815-0399"
       }
     ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      }
+    ],
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
@@ -80016,6 +80043,42 @@
       },
       "3": {
         "@type": "SoftwareApplication",
+        "identifier": "httr2",
+        "name": "httr2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr2"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "memoise",
+        "name": "memoise",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=memoise"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
         "provider": {
@@ -80026,10 +80089,23 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "rversions",
+        "name": "rversions",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rversions"
+      },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
-    "readme": "https://github.com/ropenscilabs/icepalace/blob/HEAD/README.md"
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropenscilabs/icepalace/blob/HEAD/README.md",
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
