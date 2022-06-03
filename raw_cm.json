@@ -39940,119 +39940,6 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "opencontext",
-    "description": "Search, browse, and download data from Open Context (<https://opencontext.org>)",
-    "name": "opencontext: API Client for the Open Context Archeological Database",
-    "codeRepository": "https://github.com/ropensci/opencontext",
-    "issueTracker": "https://github.org/ropensci/opencontext/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.9000",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Ben",
-        "familyName": "Marwick",
-        "email": "bmarwick@uw.edu"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "scott@ropensci.org"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Lincoln",
-        "familyName": "Mullen",
-        "email": "lincoln@lincolnmullen.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Ben",
-        "familyName": "Marwick",
-        "email": "bmarwick@uw.edu"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "0KB",
-    "readme": "https://github.com/ropensci/opencontext/blob/HEAD/README.md",
-    "developmentStatus": []
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
     "identifier": "opencv",
     "description": "Exposes some of the available 'OpenCV' <https://opencv.org/> algorithms, such as edge, body or face detection. These can either be applied to analyze static images, or to filter live video footage from a camera device.",
     "name": "opencv: Bindings to 'OpenCV' Computer Vision Library",
@@ -40871,7 +40758,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.9.16",
+    "version": "0.1.9.24",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40960,6 +40847,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httptest2",
+        "name": "httptest2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httptest2"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -52825,7 +52724,7 @@
     "codeRepository": "https://github.com/ropensci/restez",
     "issueTracker": "https://github.com/ropensci/restez/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52833,6 +52732,13 @@
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
     "author": [
+      {
+        "@type": "Person",
+        "givenName": "Joel H.",
+        "familyName": "Nitta",
+        "email": "joelnitta@gmail.com",
+        "@id": "https://orcid.org/0000-0003-4719-7472"
+      },
       {
         "@type": "Person",
         "givenName": "Dom",
@@ -52844,10 +52750,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Dom",
-        "familyName": "Bennett",
-        "email": "dominic.john.bennett@gmail.com",
-        "@id": "https://orcid.org/0000-0003-2722-1359"
+        "givenName": "Joel H.",
+        "familyName": "Nitta",
+        "email": "joelnitta@gmail.com",
+        "@id": "https://orcid.org/0000-0003-4719-7472"
       }
     ],
     "softwareSuggestions": [
@@ -63580,6 +63486,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
