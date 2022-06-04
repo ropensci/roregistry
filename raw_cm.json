@@ -19648,13 +19648,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "EDIutils",
-    "description": "A client for the Environmental Data Initiative repository REST API. The EDI data repository <https://portal.edirepository.org/nis/home.jsp> is for publication and reuse of ecological data with emphasis on metadata accuracy and completeness. It is built upon the PASTA+ software stack <https://pastaplus-core.readthedocs.io/en/latest/index.html#> and was developed in collaboration with the US LTER Network <https://lternet.edu/>. EDIutils includes functions to search and access existing data, evaluate and upload new data, and assist other data management tasks common to repository users.",
+    "description": "A client for the Environmental Data Initiative repository REST API. The 'EDI' data repository <https://portal.edirepository.org/nis/home.jsp> is for publication and reuse of ecological data with emphasis on metadata accuracy and completeness. It is built upon the 'PASTA+' software stack <https://pastaplus-core.readthedocs.io/en/latest/index.html#> and was developed in collaboration with the US 'LTER' Network <https://lternet.edu/>. 'EDIutils' includes functions to search and access existing data, evaluate and upload new data, and assist other data management tasks common to repository users.",
     "name": "EDIutils: An API Client for the Environmental Data Initiative Repository",
     "relatedLink": "https://docs.ropensci.org/EDIutils/",
     "codeRepository": "https://github.com/ropensci/EDIutils",
     "issueTracker": "https://github.com/ropensci/EDIutils/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.0.9004",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19722,7 +19722,6 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 0.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -19840,7 +19839,7 @@
       "url": "https://github.com/ropensci/software-review/issues/498",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/#wip",
+    "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["ecology", "eml-metadata", "open-access", "open-data", "research-data-management", "research-data-repository"]
   },
   {
@@ -24138,7 +24137,7 @@
         "@type": "SoftwareApplication",
         "identifier": "arrow",
         "name": "arrow",
-        "version": ">= 6.0.1",
+        "version": ">= 8.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -24151,7 +24150,7 @@
         "@type": "SoftwareApplication",
         "identifier": "duckdb",
         "name": "duckdb",
-        "version": ">= 0.2.9",
+        "version": ">= 0.3.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -40758,7 +40757,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.9.24",
+    "version": "0.1.9.31",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40858,6 +40857,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=httptest2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       {
         "@type": "SoftwareApplication",
@@ -67817,7 +67828,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.12.0.9000",
+    "version": "0.12.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
