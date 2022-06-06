@@ -70316,7 +70316,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0",
+    "version": "0.7.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70508,10 +70508,22 @@
       },
       "3": {
         "@type": "SoftwareApplication",
+        "identifier": "glue",
+        "name": "glue",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=glue"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
         "identifier": "grDevices",
         "name": "grDevices"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -70523,7 +70535,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "magick",
         "name": "magick",
@@ -70536,12 +70548,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magick"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "png",
         "name": "png",
@@ -70553,7 +70565,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=png"
       },
-      "8": {
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -70566,7 +70590,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "9": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -70578,7 +70602,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "10": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "unifir",
         "name": "unifir",
@@ -70590,7 +70614,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=unifir"
       },
-      "11": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "units",
         "name": "units",
