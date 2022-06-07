@@ -38412,7 +38412,14 @@
       {
         "@type": "Person",
         "givenName": "Michal",
-        "familyName": "Bojanowski"
+        "familyName": "Bojanowski",
+        "@id": "https://orcid.org/0000-0001-7503-852X"
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "National Science Centre"
       }
     ],
     "maintainer": [
@@ -38483,6 +38490,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": {
@@ -47068,7 +47087,7 @@
     "codeRepository": "https://github.com/ropensci/qualtRics",
     "issueTracker": "https://github.com/ropensci/qualtRics/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.1.5.9000",
+    "version": "3.1.6.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50812,7 +50831,7 @@
     "codeRepository": "https://github.com/ropensci/rdryad",
     "issueTracker": "https://github.com/ropensci/rdryad/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1.94",
+    "version": "1.0.1.95",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
