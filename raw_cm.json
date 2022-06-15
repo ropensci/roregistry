@@ -1667,7 +1667,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.60",
+    "version": "0.0.3.61",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2374,13 +2374,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "pkgstats",
-    "description": "Metrics of R packages.",
+    "description": "Static code analyses for R packages using the external code-tagging libraries \"ctags\" and \"gtags\". Static analyses enable packages to be analysed very quickly, generally a couple of seconds at most. The package also provides access to a database generating by applying the main function to the full CRAN archive, enabling the statistical properties of any package to be compared with all other CRAN packages.",
     "name": "pkgstats: Metrics of R Packages",
     "relatedLink": "https://docs.ropensci.org/pkgstats/",
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.75",
+    "version": "0.0.4.85",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6814,7 +6814,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.4.9",
+    "version": "2.4.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6985,7 +6985,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.1",
+        "version": ">= 2.6.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -7110,7 +7110,7 @@
           }
         ],
         "name": "babette: BEAUti 2, BEAST 2 and Tracer for R",
-        "url": "https://doi.org/10.1111/2041-210X.13032",
+        "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13032",
         "isPartOf": {
           "@type": "PublicationIssue",
           "datePublished": "2018",
@@ -28137,6 +28137,12 @@
         "familyName": "Vitolo",
         "email": "cvitolodev@gmail.com",
         "@id": "https://orcid.org/0000-0002-4252-1176"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dorothea",
+        "familyName": "Hug Peter",
+        "email": "dorothea.hug@wsl.ch"
       }
     ],
     "contributor": [
@@ -28159,10 +28165,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Claudia",
-        "familyName": "Vitolo",
-        "email": "cvitolodev@gmail.com",
-        "@id": "https://orcid.org/0000-0002-4252-1176"
+        "givenName": "Dorothea",
+        "familyName": "Hug Peter",
+        "email": "dorothea.hug@wsl.ch"
       }
     ],
     "softwareSuggestions": [
