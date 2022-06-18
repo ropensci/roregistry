@@ -1667,7 +1667,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.62",
+    "version": "0.0.3.69",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1933,6 +1933,12 @@
         "@type": "SoftwareApplication",
         "identifier": "pkgstats",
         "name": "pkgstats",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/ropensci-review-tools/pkgstats"
       },
       "15": {
@@ -2380,13 +2386,19 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.4.89",
+    "version": "0.1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -3030,7 +3042,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.96",
+    "version": "0.0.2.107",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3223,6 +3235,12 @@
         "@type": "SoftwareApplication",
         "identifier": "pkgstats",
         "name": "pkgstats",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/ropensci-review-tools/pkgstats"
       },
       "14": {
@@ -11437,7 +11455,8 @@
       "url": "https://github.com/ropensci/software-review/issues/414",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable-1", "https://www.tidyverse.org/lifecycle/#stable"]
+    "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#stable-1", "https://www.tidyverse.org/lifecycle/#stable"],
+    "keywords": ["censo", "census", "chile", "demografia", "demographics", "duckdb", "redatam"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -52000,7 +52019,7 @@
         "givenName": "Dylan",
         "familyName": "Turner",
         "email": "dylan.turner3@outlook.com",
-        "@id": "https://orcid.org/000-0002-0915-7384"
+        "@id": "https://orcid.org/0000-0002-0915-7384"
       }
     ],
     "contributor": [
@@ -52022,7 +52041,7 @@
         "givenName": "Dylan",
         "familyName": "Turner",
         "email": "dylan.turner3@outlook.com",
-        "@id": "https://orcid.org/000-0002-0915-7384"
+        "@id": "https://orcid.org/0000-0002-0915-7384"
       }
     ],
     "softwareSuggestions": [
