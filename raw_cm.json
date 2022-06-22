@@ -2386,7 +2386,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.3",
+    "version": "0.1.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2531,6 +2531,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       {
         "@type": "SoftwareApplication",
@@ -6037,7 +6049,7 @@
     "codeRepository": "https://github.com/ropensci/babette",
     "issueTracker": "https://github.com/ropensci/babette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.3",
+    "version": "2.3.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6234,7 +6246,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.2",
+        "version": ">= 2.6.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -6247,7 +6259,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.8",
+        "version": ">= 2.4.10",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -6271,6 +6283,12 @@
       },
       "4": {
         "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
         "identifier": "tracerer",
         "name": "tracerer",
         "provider": {
@@ -6281,7 +6299,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tracerer"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "phangorn",
         "name": "phangorn",
@@ -6293,7 +6311,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=phangorn"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "remotes",
         "name": "remotes",
@@ -6305,7 +6323,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=remotes"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -6316,18 +6334,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "testit",
-        "name": "testit",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testit"
       },
       "9": {
         "@type": "SoftwareApplication",
@@ -6378,7 +6384,8 @@
       "url": "https://github.com/ropensci/software-review/issues/209",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": []
+    "developmentStatus": [],
+    "keywords": ["bayesian-inference", "beast2", "phylogenetics"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -22044,7 +22051,7 @@
     "codeRepository": "https://github.com/ropensci/excluder",
     "issueTracker": "https://github.com/ropensci/excluder/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.3",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
