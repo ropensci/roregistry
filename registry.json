@@ -205,7 +205,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-06-21 11:43:30",
+      "date_last_commit": "2022-06-23 08:59:43",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -1797,7 +1797,7 @@
       "url": "https://github.com/ropensci/excluder",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-06-21 18:34:22",
+      "date_last_commit": "2022-06-22 14:15:48",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4897,7 +4897,7 @@
       "url": "https://github.com/ropensci/rsat",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-06-20 15:50:01",
+      "date_last_commit": "2022-06-23 08:55:24",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5805,7 +5805,7 @@
     {
       "name": "tidyqpcr",
       "description": "Quantitative PCR Analysis with the Tidyverse",
-      "details": "This package is for reproducible quantitative PCR (qPCR) analysis using packages from the tidyverse, notably dplyr and ggplot2. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche lightcycler machines. It does NOT (yet) calculate Cq data from amplification curves.",
+      "details": "For reproducible quantitative PCR (qPCR) analysis building on packages from the ’tidyverse’, notably ’dplyr’ and ’ggplot2’. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche Lightcycler (tm) machines. It does NOT (yet) calculate Cq data from amplification curves.",
       "maintainer": "Edward Wallace",
       "keywords": "miqe, qpcr, qpcr-analysis, tidyverse",
       "github": "https://github.com/ropensci/tidyqpcr",
@@ -5815,7 +5815,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/tidyqpcr",
-      "date_last_commit": "2022-06-08 13:19:18",
+      "date_last_commit": "2022-06-23 10:51:27",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6481,6 +6481,24 @@
       "staff_maintained": true
     },
     {
+      "name": "yfR",
+      "description": "Downloads and Organizes Financial Data from Yahoo Finance",
+      "details": "Facilitates download of financial data from Yahoo Finance <https://finance.yahoo.com/>, a vast repository of stock price data across multiple financial exchanges. The package offers a local caching system and support for parallel computation.",
+      "maintainer": "Marcelo Perlin",
+      "keywords": "",
+      "github": "https://github.com/ropensci/yfR",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/523",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/yfR",
+      "date_last_commit": "2022-06-22 12:24:19",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "zbank",
       "description": "'ZooBank' API Client",
       "details": "Interface to the 'ZooBank' API (<http://zoobank.org/Api>) client. 'ZooBank' (<http://zoobank.org/>) is the official registry of zoological nomenclature. Methods are provided for using each of the API endpoints, including for querying by author, querying for publications, get statistics on 'ZooBank' activity, and more.",
@@ -6601,5 +6619,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-06-22 08:01 UTC"
+  "date": "2022-06-23 11:10 UTC"
 }
