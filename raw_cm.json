@@ -66871,6 +66871,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "quarto",
+        "name": "quarto",
+        "version": ">= 1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=quarto"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "version": ">= 2.1",
@@ -76289,6 +76302,18 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=forcats"
       },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
@@ -78701,6 +78726,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -79340,7 +79371,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.59",
+    "version": "0.0.3.71",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
