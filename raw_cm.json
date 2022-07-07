@@ -904,7 +904,7 @@
     "funder": [
       {
         "@type": "Organization",
-        "name": "Research Foundation - Flanders (FWO)"
+        "name": "LifeWatch Belgium"
       }
     ],
     "maintainer": [
@@ -44061,7 +44061,7 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.3.9001",
+    "version": "0.1.3.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44081,6 +44081,12 @@
         "familyName": "Boettiger",
         "email": "cboettig@gmail.com",
         "@id": "https://orcid.org/0000-0002-1642-628X"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tan",
+        "familyName": "Ho",
+        "@id": "https://orcid.org/0000-0001-8388-5155"
       }
     ],
     "contributor": [
@@ -44101,12 +44107,6 @@
         "givenName": "Kevin",
         "familyName": "Kuo",
         "@id": "https://orcid.org/0000-0001-7803-7901"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Tan",
-        "familyName": "Ho",
-        "@id": "https://orcid.org/0000-0001-8388-5155"
       }
     ],
     "copyrightHolder": [
@@ -51817,12 +51817,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "MonetDBLite",
-        "name": "MonetDBLite",
-        "version": ">= 0.6.0"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -51868,6 +51862,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "mockery",
+        "name": "mockery",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mockery"
       }
     ],
     "softwareRequirements": {
@@ -51954,6 +51960,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=stringi"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "duckdb",
+        "name": "duckdb",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=duckdb"
       },
       "SystemRequirements": null
     },
