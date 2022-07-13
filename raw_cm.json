@@ -3054,7 +3054,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.119",
+    "version": "0.0.2.122",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3280,6 +3280,12 @@
         "sameAs": "https://CRAN.R-project.org/package=remotes"
       },
       "16": {
+        "@type": "SoftwareApplication",
+        "identifier": "srr",
+        "name": "srr",
+        "sameAs": "https://github.com/ropensci-review-tools/srr"
+      },
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "tictoc",
         "name": "tictoc",
@@ -43989,6 +43995,7 @@
         "@type": "SoftwareApplication",
         "identifier": "restez",
         "name": "restez",
+        "version": ">= 2.0.0",
         "sameAs": "https://github.com/ropensci/restez"
       },
       "8": {
@@ -67064,6 +67071,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=future.callr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "gargle",
+        "name": "gargle",
+        "version": ">= 1.2.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gargle"
       },
       {
         "@type": "SoftwareApplication",
