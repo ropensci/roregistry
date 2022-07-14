@@ -1886,6 +1886,12 @@
         "@type": "SoftwareApplication",
         "identifier": "goodpractice",
         "name": "goodpractice",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/MangoTheCat/goodpractice"
       },
       "10": {
@@ -2216,6 +2222,12 @@
         "@type": "SoftwareApplication",
         "identifier": "goodpractice",
         "name": "goodpractice",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/mangoTheCat/goodpractice"
       },
       "11": {
@@ -3054,7 +3066,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.122",
+    "version": "0.0.2.124",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60169,7 +60181,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9035",
+    "version": "0.7.0.9037",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60702,6 +60714,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "here",
+        "name": "here",
+        "version": ">= 1.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=here"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "version": ">= 1.33",
@@ -60957,19 +60982,6 @@
       },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "here",
-        "name": "here",
-        "version": ">= 1.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=here"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "version": ">= 1.4.2",
@@ -60981,7 +60993,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "janitor",
         "name": "janitor",
@@ -60994,7 +61006,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=janitor"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "lifecycle",
         "name": "lifecycle",
@@ -61007,7 +61019,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lifecycle"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -61020,7 +61032,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -61033,7 +61045,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -61046,7 +61058,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -61059,7 +61071,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -61072,7 +61084,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -61085,7 +61097,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "17": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -61098,7 +61110,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "18": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -61111,7 +61123,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "19": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
