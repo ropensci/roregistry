@@ -1661,13 +1661,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "pkgcheck",
-    "description": "Check whether a package is ready for submission to rOpenSci’s peer review system.",
+    "description": "Check whether a package is ready for submission to rOpenSci's peer review system.",
     "name": "pkgcheck: rOpenSci Package Checks",
     "relatedLink": "https://docs.ropensci.org/pkgcheck/",
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.76",
+    "version": "0.0.3.77",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1892,7 +1892,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/MangoTheCat/goodpractice"
+        "sameAs": "https://CRAN.R-project.org/package=goodpractice"
       },
       "10": {
         "@type": "SoftwareApplication",
@@ -3066,7 +3066,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.135",
+    "version": "0.0.2.136",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43916,7 +43916,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "outsider",
-        "name": "outsider"
+        "name": "outsider",
+        "sameAs": "https://github.com/ropensci-archive/outsider"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "outsider.base",
+        "name": "outsider.base",
+        "sameAs": "https://github.com/ropensci-archive/outsider.base"
       },
       {
         "@type": "SoftwareApplication",
@@ -58980,12 +58987,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.0 (2022-04-22)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
