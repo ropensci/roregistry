@@ -1443,6 +1443,24 @@
       "staff_maintained": false
     },
     {
+      "name": "datefixR",
+      "description": "Standardize Dates in Different Formats or with Missing Data",
+      "details": "There are many different formats dates are commonly represented with: the order of day, month, or year can differ, different separators (\"-\", \"/\", or whitespace) can be used, months can be numerical, names, or abbreviations and year given as two digits or four. `datefixR` takes dates in all these different formats and converts them to R's built-in date class. If `datefixR` cannot standardize a date, such as because it is too malformed, then the user is told which date cannot be standardized and the corresponding ID for the row. `datefixR` also allows the imputation of missing days and months with user-controlled behavior. ",
+      "maintainer": "Nathan Constantine-Cooke",
+      "keywords": "dates, wrangling",
+      "github": "https://github.com/ropensci/datefixR",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/533",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/datefixR",
+      "date_last_commit": "2022-07-16 13:44:21",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "dbhydroR",
       "description": "'DBHYDRO' Hydrologic and Water Quality Data",
       "details": "Client for programmatic access to the South Florida Water Management District's 'DBHYDRO' database at <https://www.sfwmd.gov/science-data/dbhydro>, with functions for accessing hydrologic and water quality data. ",
@@ -2697,7 +2715,7 @@
       "url": "https://github.com/ropensci/lightr",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-04 12:26:07",
+      "date_last_commit": "2022-07-16 08:22:50",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4995,7 +5013,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-13 21:46:44",
+      "date_last_commit": "2022-07-16 10:29:47",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6617,5 +6635,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-07-16 08:07 UTC"
+  "date": "2022-07-17 07:57 UTC"
 }
