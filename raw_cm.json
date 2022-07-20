@@ -2398,7 +2398,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.3",
+    "version": "0.1.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2810,7 +2810,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
-        "version": ">= 2.1.0",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -2823,6 +2823,18 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
+        "identifier": "base64enc",
+        "name": "base64enc",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=base64enc"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
         "identifier": "commonmark",
         "name": "commonmark",
         "provider": {
@@ -2833,7 +2845,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=commonmark"
       },
-      "2": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
@@ -2844,9 +2856,9 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/crul"
+        "sameAs": "https://CRAN.R-project.org/package=crul"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
@@ -2858,7 +2870,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
@@ -2870,7 +2882,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "gh",
         "name": "gh",
@@ -2881,18 +2893,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=gh"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "git2r",
-        "name": "git2r",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=git2r"
       },
       "7": {
         "@type": "SoftwareApplication",
@@ -2908,18 +2908,6 @@
       },
       "8": {
         "@type": "SoftwareApplication",
-        "identifier": "hrbrthemes",
-        "name": "hrbrthemes",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hrbrthemes"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
         "provider": {
@@ -2930,7 +2918,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "praise",
         "name": "praise",
@@ -2942,7 +2930,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=praise"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -2954,7 +2942,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -2966,7 +2954,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rstudioapi",
         "name": "rstudioapi",
@@ -2978,7 +2966,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "snakecase",
         "name": "snakecase",
@@ -2990,7 +2978,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=snakecase"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -3002,7 +2990,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -3014,19 +3002,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "17": {
+      "16": {
         "@type": "SoftwareApplication",
-        "identifier": "tidytext",
-        "name": "tidytext",
+        "identifier": "whoami",
+        "name": "whoami",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=tidytext"
+        "sameAs": "https://CRAN.R-project.org/package=whoami"
       },
-      "18": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -3038,7 +3026,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "19": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
@@ -3052,7 +3040,7 @@
       },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
+    "fileSize": "NAKB",
     "readme": "https://github.com/ropenscilabs/roblog/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#wip"
   },
@@ -3373,6 +3361,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "magick",
+        "name": "magick",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magick"
       },
       {
         "@type": "SoftwareApplication",
@@ -6855,7 +6855,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.4.10",
+    "version": "2.4.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -7026,7 +7026,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.4",
+        "version": ">= 2.6.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -13562,7 +13562,7 @@
     "codeRepository": "https://github.com/ropensci/clifro",
     "issueTracker": "https://github.com/ropensci/clifro/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "3.2.5.9001",
+    "version": "3.2.5.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43315,6 +43315,18 @@
         "identifier": "tools",
         "name": "tools"
       },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "mime",
+        "name": "mime",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mime"
+      },
       "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org"
     },
     "fileSize": "NAKB",
@@ -44240,7 +44252,7 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.3.9004",
+    "version": "0.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
