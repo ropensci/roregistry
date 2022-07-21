@@ -21354,6 +21354,167 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "epair",
+    "description": " Aid the user in making queries to the EPA API site found at https://aqs.epa.gov/aqsweb/documents/data_api. This package combines API calling methods from various web scraping packages with specific strings to retrieve data from the EPA API. It also contains easy to use loaded variables that help a user navigate services offered by the API and aid the user in determining the appropriate way to make a an API call.",
+    "name": "epair: EPA Data Helper for R",
+    "codeRepository": "https://github.com/ropensci/epair",
+    "issueTracker": "https://github.com/GLOrozcoM/epair/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.1.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "G.L.",
+        "familyName": "Orozco-Mulfinger",
+        "email": "glo003@bucknell.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Madyline",
+        "familyName": "Lawrence"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Owais",
+        "familyName": "Gilani",
+        "email": "og005@bucknell.edu"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "G.L.",
+        "familyName": "Orozco-Mulfinger",
+        "email": "glo003@bucknell.edu"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httptest",
+        "name": "httptest",
+        "version": ">= 4.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httptest"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "version": ">= 1.33",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "version": ">= 2.8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.3.3"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "version": ">= 1.4.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "version": ">= 1.6.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "R.cache",
+        "name": "R.cache",
+        "version": ">= 0.15.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.cache"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      "SystemRequirements": "pandoc"
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/epair/blob/HEAD/README.md",
+    "developmentStatus": []
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "epubr",
     "description": "Provides functions supporting the reading and parsing of internal e-book content from EPUB files. The 'epubr' package provides functions supporting the reading and parsing of internal e-book content from EPUB files. E-book metadata and text content are parsed separately and joined together in a tidy, nested tibble data frame. E-book formatting is not completely standardized across all literature. It can be challenging to curate parsed e-book content across an arbitrary collection of e-books perfectly and in completely general form, to yield a singular, consistently formatted output. Many EPUB files do not even contain all the same pieces of information in their respective metadata. EPUB file parsing functionality in this package is intended for relatively general application to arbitrary EPUB e-books. However, poorly formatted e-books or e-books with highly uncommon formatting may not work with this package. There may even be cases where an EPUB file has DRM or some other property that makes it impossible to read with 'epubr'. Text is read 'as is' for the most part. The only nominal changes are minor substitutions, for example curly quotes changed to straight quotes. Substantive changes are expected to be performed subsequently by the user as part of their text analysis. Additional text cleaning can be performed at the user's discretion, such as with functions from packages like 'tm' or 'qdap'.",
     "name": "epubr: Read EPUB File Metadata and Text",
@@ -33979,7 +34140,7 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#maturing"],
-    "keywords": ["chronobiology", "mctq", "peer-reviewed", "sleep"]
+    "keywords": ["chronobiology", "chronotype", "mctq", "peer-reviewed", "sleep"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -44252,7 +44413,7 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.4",
+    "version": "0.1.4.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60354,7 +60515,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9037",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
