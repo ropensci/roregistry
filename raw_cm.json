@@ -1667,7 +1667,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.3.77",
+    "version": "0.0.3.80",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3609,7 +3609,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.167",
+    "version": "0.0.1.170",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69393,7 +69393,7 @@
     "codeRepository": "https://github.com/ropensci/taxlist",
     "issueTracker": "https://github.com/ropensci/taxlist/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.3",
+    "version": "0.2.3.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69472,6 +69472,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "taxa",
+        "name": "taxa",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=taxa"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -69526,18 +69538,6 @@
       },
       "6": {
         "@type": "SoftwareApplication",
-        "identifier": "taxa",
-        "name": "taxa",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=taxa"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
         "provider": {
@@ -69548,7 +69548,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=taxize"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "stringdist",
         "name": "stringdist",
@@ -69559,6 +69559,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=stringdist"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
       "9": {
         "@type": "SoftwareApplication",
