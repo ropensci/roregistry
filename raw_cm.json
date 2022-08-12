@@ -3819,7 +3819,7 @@
     "codeRepository": "https://github.com/YuLab-SMU/treeio",
     "issueTracker": "https://github.com/YuLab-SMU/treeio/issues",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.21.0",
+    "version": "1.21.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6258,13 +6258,27 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.5"
+        "version": ">= 2.6.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       "2": {
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.10"
+        "version": ">= 2.4.10",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
       },
       "3": {
         "@type": "SoftwareApplication",
@@ -6847,6 +6861,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -7005,7 +7025,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.5"
+        "version": ">= 2.6.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -7159,6 +7186,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -17780,6 +17813,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=shiny"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "shinytest",
+        "name": "shinytest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=shinytest"
       },
       {
         "@type": "SoftwareApplication",
@@ -33312,7 +33357,7 @@
     "codeRepository": "https://github.com/ropensci/mauricer",
     "issueTracker": "https://github.com/ropensci/mauricer/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -33332,7 +33377,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.2"
+        "version": ">= 2.6.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       {
         "@type": "SoftwareApplication",
@@ -33413,7 +33465,14 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.7"
+        "version": ">= 2.4.7",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
       },
       "2": {
         "@type": "SoftwareApplication",
@@ -33682,13 +33741,27 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5.2"
+        "version": ">= 2.5.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beautier"
       },
       "3": {
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4"
+        "version": ">= 2.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=beastier"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -45814,7 +45887,12 @@
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "tdm", "open-access", "text-mining"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/pubchunks/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/139",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -49546,7 +49624,7 @@
     "codeRepository": "https://github.com/ropensci/rdhs",
     "issueTracker": "https://github.com/ropensci/rdhs/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.4",
+    "version": "0.7.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69720,7 +69798,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0.9000",
+    "version": "0.7.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69823,18 +69901,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=progressr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
       },
       {
         "@type": "SoftwareApplication",
@@ -69971,6 +70037,19 @@
       },
       "9": {
         "@type": "SoftwareApplication",
+        "identifier": "raster",
+        "name": "raster",
+        "version": ">= 3.5-19",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=raster"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
         "provider": {
@@ -69981,7 +70060,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -69994,7 +70073,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -70006,7 +70085,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "unifir",
         "name": "unifir",
@@ -70018,7 +70097,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=unifir"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "units",
         "name": "units",
@@ -73475,7 +73554,7 @@
     "codeRepository": "https://github.com/ropensci/tradestatistics",
     "issueTracker": "https://github.com/ropensci/tradestatistics/issues/",
     "license": "Apache License 2",
-    "version": "4.3",
+    "version": "4.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74843,7 +74922,7 @@
     "codeRepository": "https://github.com/ropensci/unifir",
     "issueTracker": "https://github.com/ropensci/unifir/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1",
+    "version": "0.2.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -79258,7 +79337,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.49",
+    "version": "0.1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
