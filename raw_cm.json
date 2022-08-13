@@ -315,7 +315,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.182",
+    "version": "0.0.2.183",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3066,7 +3066,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.136",
+    "version": "0.0.2.137",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3609,7 +3609,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.174",
+    "version": "0.0.1.175",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6074,6 +6074,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -6284,7 +6290,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5"
+        "version": ">= 2.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -6389,8 +6402,7 @@
       "url": "https://github.com/ropensci/software-review/issues/209",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": [],
-    "keywords": ["bayesian-inference", "beast2", "phylogenetics"]
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -17710,7 +17722,7 @@
     "codeRepository": "https://github.com/ropensci/datefixR",
     "issueTracker": "https://github.com/ropensci/datefixR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0.9000",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17923,7 +17935,7 @@
         "name": "{datefixR}: Standardize Dates in Different Formats or with Missing Data",
         "identifier": "10.5281/zenodo.5655311",
         "url": "https://CRAN.R-project.org/package=datefixR",
-        "description": "R package version 1.0.0.9000",
+        "description": "R package version 1.1.0",
         "@id": "https://doi.org/10.5281/zenodo.5655311",
         "sameAs": "https://doi.org/10.5281/zenodo.5655311"
       }
@@ -17934,8 +17946,7 @@
       "url": "https://github.com/ropensci/software-review/issues/533",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["dates", "wrangling"]
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -27568,7 +27579,7 @@
     "codeRepository": "https://github.com/ropensci/GSODR",
     "issueTracker": "https://github.com/ropensci/GSODR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.1.5",
+    "version": "3.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30806,8 +30817,7 @@
       "url": "https://github.com/ropensci/software-review/issues/425",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["bayesian", "high-performance-computing", "jags", "make", "r-targetopia", "reproducibility", "rjags", "statistics", "targets"]
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -33364,6 +33374,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "maintainer": [
       {
         "@type": "Person",
@@ -33735,7 +33751,14 @@
         "@type": "SoftwareApplication",
         "identifier": "babette",
         "name": "babette",
-        "version": ">= 2.1.5"
+        "version": ">= 2.1.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=babette"
       },
       "2": {
         "@type": "SoftwareApplication",
@@ -33791,7 +33814,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5"
+        "version": ">= 2.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       "7": {
         "@type": "SoftwareApplication",
@@ -36207,7 +36237,7 @@
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.0.7",
+    "version": "4.0.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36465,7 +36495,7 @@
         "name": "{nasapower}: NASA-POWER Data from R",
         "identifier": "10.5281/zenodo.1040727",
         "url": "https://CRAN.R-project.org/package=nasapower",
-        "description": "R package version 4.0.7",
+        "description": "R package version 4.0.8",
         "@id": "https://doi.org/10.5281/zenodo.1040727",
         "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       }
@@ -45887,12 +45917,7 @@
     "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "tdm", "open-access", "text-mining"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/pubchunks/blob/HEAD/README.md",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/139",
-      "provider": "https://ropensci.org"
-    },
-    "developmentStatus": []
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -65213,8 +65238,7 @@
       "url": "https://github.com/ropensci/software-review/issues/430",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/#active",
-    "keywords": ["bayesian", "high-performance-computing", "make", "r-targetopia", "reproducibility", "stan", "statistics", "targets"]
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -79337,7 +79361,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.1",
+    "version": "0.1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",

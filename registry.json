@@ -34,7 +34,7 @@
       "url": "https://github.com/ropensci-review-tools/autotest",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-18 11:40:52",
+      "date_last_commit": "2022-08-12 08:48:57",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-15 12:35:56",
+      "date_last_commit": "2022-08-12 08:47:56",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -300,7 +300,7 @@
       "url": "https://github.com/ropensci-review-tools/srr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-05 11:00:51",
+      "date_last_commit": "2022-08-12 08:47:07",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -528,19 +528,19 @@
       "description": "Control 'BEAST2'",
       "details": "'BEAST2' (<https://www.beast2.org>) is a widely used Bayesian phylogenetic tool, that uses DNA/RNA/protein data and many model priors to create a posterior of jointly estimated phylogenies and parameters. 'BEAST2' is commonly accompanied by 'BEAUti 2', 'Tracer' and 'DensiTree'. 'babette' provides for an alternative workflow of using all these tools separately. This allows doing complex Bayesian phylogenetics easily and reproducibly from 'R'. ",
       "maintainer": "Richèl J.C. Bilderbeek",
-      "keywords": "bayesian-inference, beast2, phylogenetics",
+      "keywords": "",
       "github": "https://github.com/ropensci/babette",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/babette",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-25 09:03:56",
+      "date_last_commit": "2022-08-12 08:43:35",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -1447,7 +1447,7 @@
       "description": "Standardize Dates in Different Formats or with Missing Data",
       "details": "There are many different formats dates are commonly represented with: the order of day, month, or year can differ, different separators (\"-\", \"/\", or whitespace) can be used, months can be numerical, names, or abbreviations and year given as two digits or four. 'datefixR' takes dates in all these different formats and converts them to R's built-in date class. If 'datefixR' cannot standardize a date, such as because it is too malformed, then the user is told which date cannot be standardized and the corresponding ID for the row. 'datefixR' also allows the imputation of missing days and months with user-controlled behavior.",
       "maintainer": "Nathan Constantine-Cooke",
-      "keywords": "dates, wrangling",
+      "keywords": "",
       "github": "https://github.com/ropensci/datefixR",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/533",
@@ -1457,7 +1457,7 @@
       "url": "https://github.com/ropensci/datefixR",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-11 22:15:55",
+      "date_last_commit": "2022-08-12 10:55:50",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2237,7 +2237,7 @@
       "url": "https://github.com/ropensci/gittargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-05 13:14:19",
+      "date_last_commit": "2022-08-12 16:45:18",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2317,7 +2317,7 @@
       "url": "https://github.com/ropensci/GSODR",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-05-08 01:05:35",
+      "date_last_commit": "2022-08-13 06:47:09",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2567,7 +2567,7 @@
       "description": "Targets for JAGS Workflows",
       "details": "Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the 'jagstargets' R package is leverages 'targets' and 'R2jags' to ease this burden. 'jagstargets' makes it super easy to set up scalable JAGS pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than 'targets' alone. For the underlying methodology, please refer to the documentation of 'targets' <doi:10.21105/joss.02959> and 'JAGS' (Plummer 2003) <https://www.r-project.org/conferences/DSC-2003/Proceedings/Plummer.pdf>.",
       "maintainer": "William Michael Landau",
-      "keywords": "bayesian, high-performance-computing, jags, make, r-targetopia, reproducibility, rjags, statistics, targets",
+      "keywords": "",
       "github": "https://github.com/ropensci/jagstargets",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/425",
@@ -2577,7 +2577,7 @@
       "url": "https://github.com/ropensci/jagstargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-06-24 14:52:28",
+      "date_last_commit": "2022-08-12 17:55:44",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2831,7 +2831,7 @@
       "github": "https://github.com/ropensci/mauricer",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/209",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/mauricer",
@@ -2839,7 +2839,7 @@
       "ropenscilabs": false,
       "date_last_commit": "2022-08-12 07:50:39",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -3037,7 +3037,7 @@
       "url": "https://github.com/ropensci/nasapower",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-10 02:04:36",
+      "date_last_commit": "2022-08-13 06:39:02",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3217,7 +3217,7 @@
       "url": "https://github.com/ropensci/occCite",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-09 15:57:51",
+      "date_last_commit": "2022-08-12 11:58:57",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3790,7 +3790,7 @@
       "keywords": "citations, full-text, literature, open-access, pdf, publications, tdm, text-ming, text-mining, xml",
       "github": "https://github.com/ropensci/pubchunks",
       "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/139",
+      "onboarding": "",
       "on_cran": true,
       "on_bioc": false,
       "type": "active",
@@ -5387,7 +5387,7 @@
       "description": "Targets for Stan Workflows",
       "details": "Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the 'stantargets' R package leverages 'targets' and 'cmdstanr' to ease these burdens. 'stantargets' makes it super easy to set up scalable Stan pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than 'targets' alone. 'stantargets' can access all of 'cmdstanr''s major algorithms (MCMC, variational Bayes, and optimization) and it supports both single-fit workflows and multi-rep simulation studies. For the statistical methodology, please refer to 'Stan' documentation (Stan Development Team 2020) <https://mc-stan.org/>.",
       "maintainer": "William Michael Landau",
-      "keywords": "bayesian, high-performance-computing, make, r-targetopia, reproducibility, stan, statistics, targets",
+      "keywords": "",
       "github": "https://github.com/ropensci/stantargets",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/430",
@@ -5397,7 +5397,7 @@
       "url": "https://github.com/ropensci/stantargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-07 13:51:00",
+      "date_last_commit": "2022-08-12 17:54:39",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5557,7 +5557,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-05 13:13:43",
+      "date_last_commit": "2022-08-12 16:44:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5577,7 +5577,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-07 14:51:42",
+      "date_last_commit": "2022-08-12 16:44:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5677,7 +5677,7 @@
       "url": "https://github.com/ropensci/taxlist",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2022-08-09 10:10:32",
+      "date_last_commit": "2022-08-12 22:44:11",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6577,7 +6577,7 @@
       "url": "https://github.com/ropenscilabs/allcontributors",
       "ropensci_category": "scalereprod",
       "ropenscilabs": true,
-      "date_last_commit": "2022-08-11 10:01:10",
+      "date_last_commit": "2022-08-12 08:40:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6663,5 +6663,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-08-12 08:01 UTC"
+  "date": "2022-08-13 08:02 UTC"
 }
