@@ -37099,7 +37099,7 @@
     "codeRepository": "https://github.com/ropensci/NLMR",
     "issueTracker": "https://github.com/ropensci/NLMR/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1",
+    "version": "1.1.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37267,6 +37267,23 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "RandomFields",
+        "name": "RandomFields"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "RandomFieldsUtils",
+        "name": "RandomFieldsUtils",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RandomFieldsUtils"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rasterVis",
         "name": "rasterVis",
         "provider": {
@@ -37383,11 +37400,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "RandomFields",
-        "name": "RandomFields"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
         "identifier": "raster",
         "name": "raster",
         "provider": {
@@ -37398,7 +37410,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=raster"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "Rcpp",
         "name": "Rcpp",
@@ -37410,7 +37422,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=Rcpp"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -37422,7 +37434,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "spatstat.random",
         "name": "spatstat.random",
@@ -37434,7 +37446,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=spatstat.random"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "spatstat.geom",
         "name": "spatstat.geom",
@@ -37446,12 +37458,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=spatstat.geom"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
