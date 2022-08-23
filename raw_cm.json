@@ -1667,7 +1667,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.7",
+    "version": "0.1.0.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3066,7 +3066,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.143",
+    "version": "0.0.2.144",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3138,6 +3138,18 @@
       },
       "2": {
         "@type": "SoftwareApplication",
+        "identifier": "bspm",
+        "name": "bspm",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=bspm"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
         "identifier": "callr",
         "name": "callr",
         "provider": {
@@ -3148,7 +3160,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=callr"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
@@ -3160,7 +3172,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "gert",
         "name": "gert",
@@ -3172,7 +3184,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=gert"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "ghql",
         "name": "ghql",
@@ -3184,7 +3196,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ghql"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "here",
         "name": "here",
@@ -3196,7 +3208,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=here"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -3208,7 +3220,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -3220,7 +3232,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "logger",
         "name": "logger",
@@ -3232,7 +3244,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=logger"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -3244,18 +3256,18 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "pkgcheck",
         "name": "pkgcheck",
         "sameAs": "https://github.com/ropensci-review-tools/pkgcheck"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "plumber",
         "name": "plumber",
@@ -3267,7 +3279,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=plumber"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "rappdirs",
         "name": "rappdirs",
@@ -3279,7 +3291,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rappdirs"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "remotes",
         "name": "remotes",
@@ -3291,13 +3303,13 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=remotes"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "srr",
         "name": "srr",
         "sameAs": "https://github.com/ropensci-review-tools/srr"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "tictoc",
         "name": "tictoc",
@@ -33894,7 +33906,7 @@
     "codeRepository": "https://github.com/ropensci/mctq",
     "issueTracker": "https://github.com/ropensci/mctq/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.3.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72348,8 +72360,8 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "tidytags",
-    "description": "The 'tidytags' package coordinates the simplicity of collecting tweets over time with a 'Twitter Archiving Google Sheet' (TAGS; <https://tags.hawksey.info/>) and the utility of the 'rtweet' package (<https://docs.ropensci.org/rtweet/>) for processing and preparing additional Twitter metadata. 'tidytags' also introduces functions developed to facilitate systematic yet flexible analyses of data from Twitter.",
-    "name": "tidytags: Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets",
+    "description": "The 'tidytags' package coordinates the simplicity of collecting tweets over time with a 'Twitter Archiving Google Sheet' (TAGS; <https://tags.hawksey.info/>) and the utility of the 'rtweet' package (<https://docs.ropensci.org/rtweet/>) for processing and preparing additional 'Twitter' metadata. 'tidytags' also introduces functions developed to facilitate systematic yet flexible analyses of data from 'Twitter'.",
+    "name": "tidytags: Importing and Analyzing 'Twitter' Data Collected with 'Twitter Archiving Google Sheets'",
     "relatedLink": "https://docs.ropensci.org/tidytags/",
     "codeRepository": "https://github.com/ropensci/tidytags",
     "issueTracker": "https://github.com/ropensci/tidytags/issues",
@@ -75481,6 +75493,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       },
       "SystemRequirements": null
     },
