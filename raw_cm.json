@@ -1667,7 +1667,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.8",
+    "version": "0.1.0.18",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3066,7 +3066,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.144",
+    "version": "0.0.2.146",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -13408,185 +13408,6 @@
     "readme": "https://github.com/ropensci/cld3/blob/HEAD/README.md",
     "developmentStatus": "http://www.repostatus.org/#active",
     "keywords": ["cld", "cld3", "language-detection", "language-detector"]
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "identifier": "cleanEHR",
-    "description": "An electronic health care record (EHR) data cleaning and processing platform. It focus on heterogeneous high resolution longitudinal data. It works with Critical Care Health Informatics Collaborative (CCHIC) dataset. It is created to address various data reliability and accessibility problems of EHRs as such. ",
-    "name": "cleanEHR: The Critical Care Clinical Data Processing Tools",
-    "relatedLink": ["https://docs.ropensci.org/cleanEHR", "http://www.hic.nihr.ac.uk"],
-    "codeRepository": "https://github.com/ropensci/cleanEHR",
-    "issueTracker": "https://github.com/ropensci/cleanEHR/issues",
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.2.1 (2022-06-23)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "David",
-        "familyName": "Perez-Suarez"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Steve",
-        "familyName": "Harris"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Niall",
-        "familyName": "MacCallum"
-      },
-      {
-        "@type": "Person",
-        "givenName": "David",
-        "familyName": "Brealey"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Mervyn",
-        "familyName": "Singer"
-      },
-      {
-        "@type": "Person",
-        "givenName": "James",
-        "familyName": "Hetherington"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Sinan",
-        "familyName": "Shi",
-        "email": "s.shi@ucl.ac.uk"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 3.1.0"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "data.table",
-        "name": "data.table",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=data.table"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "yaml",
-        "name": "yaml",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=yaml"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "Rcpp",
-        "name": "Rcpp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "pander",
-        "name": "pander",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pander"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "0KB",
-    "readme": "https://github.com/ropensci/cleanEHR/blob/HEAD/README.md",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/102",
-      "provider": "https://ropensci.org"
-    },
-    "developmentStatus": [],
-    "keywords": ["big-data", "critical-care", "electronic-health-record", "healthcare", "intensive-care"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -53732,6 +53553,12 @@
         "givenName": "Sergey",
         "familyName": "Slyusarev",
         "email": "cph.lmy@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Helen",
+        "familyName": "Waters",
+        "email": "helen.waters@ed.ac.uk"
       }
     ],
     "maintainer": [
@@ -72373,6 +72200,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -72669,7 +72502,7 @@
     "codeRepository": "https://github.com/ropensci/tif",
     "issueTracker": "http://github.com/ropensci/tif/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.3",
+    "version": "0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72743,7 +72576,7 @@
       },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
+    "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/tif/blob/HEAD/README.md",
     "developmentStatus": [],
     "keywords": ["corpus", "natural-language-processing", "term-frequency", "text-processing", "tokenizer"]
