@@ -315,7 +315,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.195",
+    "version": "0.0.2.196",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -14179,7 +14179,7 @@
     "codeRepository": "https://github.com/ropensci/coder",
     "issueTracker": "https://github.com/ropensci/coder/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.13.7",
+    "version": "0.13.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -33397,7 +33397,7 @@
     "codeRepository": "https://github.com/ropensci/mcbette",
     "issueTracker": "https://github.com/ropensci/mcbette/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.14",
+    "version": "1.15",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -33598,7 +33598,7 @@
         "@type": "SoftwareApplication",
         "identifier": "babette",
         "name": "babette",
-        "version": ">= 2.1.5",
+        "version": ">= 2.3",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -33611,7 +33611,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.5.2",
+        "version": ">= 2.6.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -33624,7 +33624,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4",
+        "version": ">= 2.4.6",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -34804,7 +34804,7 @@
     "codeRepository": "https://github.com/ropensci/MODIStsp",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.7",
+    "version": "2.0.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35052,6 +35052,7 @@
         "@type": "SoftwareApplication",
         "identifier": "shinyalert",
         "name": "shinyalert",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -35346,7 +35347,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xts"
       },
-      "SystemRequirements": ""
+      "SystemRequirements": "GDAL (>= 2.1.2) with support for HDF4 format, PROJ (>= 4.9.1)."
     },
     "fileSize": "NAKB",
     "citation": [
@@ -41099,7 +41100,7 @@
     "codeRepository": "https://github.com/ropensci/osmextract",
     "issueTracker": "https://github.com/ropensci/osmextract/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.0.9000",
+    "version": "0.4.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -64388,6 +64389,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
