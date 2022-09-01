@@ -8185,7 +8185,7 @@
     "codeRepository": "https://github.com/ropensci/binman",
     "issueTracker": "https://github.com/ropensci/binman/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36941,7 +36941,7 @@
     "codeRepository": "https://github.com/ropensci/NLMR",
     "issueTracker": "https://github.com/ropensci/NLMR/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.0.9000",
+    "version": "1.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59736,12 +59736,12 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "RSelenium",
-    "description": "Provides a set of R bindings for the 'Selenium 2.0 WebDriver' (see <https://selenium.dev/documentation/en/> for more information) using the 'JsonWireProtocol' (see <https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol> for more information). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. Selenium automates web browsers (commonly referred to as browsers). Using RSelenium you can automate browsers locally or remotely.",
+    "description": "Provides a set of R bindings for the 'Selenium 2.0 WebDriver' (see <https://www.selenium.dev/documentation/> for more information) using the 'JsonWireProtocol' (see <https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol> for more information). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. Selenium automates web browsers (commonly referred to as browsers). Using RSelenium you can automate browsers locally or remotely.",
     "name": "RSelenium: R Bindings for 'Selenium WebDriver'",
     "codeRepository": "https://github.com/ropensci/RSelenium",
-    "issueTracker": "http://github.com/ropensci/RSelenium/issues",
+    "issueTracker": "https://github.com/ropensci/RSelenium/issues",
     "license": "https://spdx.org/licenses/AGPL-3.0",
-    "version": "1.7.7",
+    "version": "1.7.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -59773,6 +59773,30 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "binman",
+        "name": "binman",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=binman"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "XML",
+        "name": "XML",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=XML"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -59794,12 +59818,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "Rcompression",
-        "name": "Rcompression",
-        "sameAs": "https://github.com/omegahat/Rcompression"
       },
       {
         "@type": "SoftwareApplication",
@@ -59835,22 +59853,10 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "XML",
-        "name": "XML",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=XML"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "4": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "caTools",
         "name": "caTools",
@@ -59862,29 +59868,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=caTools"
       },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "tools",
-        "name": "tools"
-      },
-      "6": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "openssl",
-        "name": "openssl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=openssl"
-      },
-      "8": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -59896,7 +59885,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "9": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "wdman",
         "name": "wdman",
@@ -59907,19 +59896,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/wdman"
-      },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "binman",
-        "name": "binman",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://github.com/ropensci/binman"
+        "sameAs": "https://CRAN.R-project.org/package=wdman"
       },
       "SystemRequirements": null
     },
@@ -76890,13 +76867,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "wdman",
-    "description": "There are a number of binary files associated with the 'Webdriver'/'Selenium' project (see <http://www.seleniumhq.org/download/>, <https://sites.google.com/a/chromium.org/chromedriver/>, <https://github.com/mozilla/geckodriver>, <http://phantomjs.org/download.html> and <https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver> for more information). This package provides functions to download these binaries and to manage processes involving them.",
+    "description": "There are a number of binary files associated with the 'Webdriver'/'Selenium' project. This package provides functions to download these binaries and to manage processes involving them.",
     "name": "wdman: 'Webdriver'/'Selenium' Binary Manager",
-    "relatedLink": "https://docs.ropensci.org/wdman",
+    "relatedLink": "https://docs.ropensci.org/wdman/",
     "codeRepository": "https://github.com/ropensci/wdman",
     "issueTracker": "https://github.com/ropensci/wdman/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.5.1",
+    "version": "0.2.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76992,7 +76969,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/binman"
+        "sameAs": "https://CRAN.R-project.org/package=binman"
       },
       "3": {
         "@type": "SoftwareApplication",
