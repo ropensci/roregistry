@@ -5014,7 +5014,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19272,7 +19272,7 @@
     "codeRepository": "https://github.com/ropensci/EDIutils",
     "issueTracker": "https://github.com/ropensci/EDIutils/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23505,7 +23505,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonio",
     "issueTracker": "https://github.com/ropensci/geojsonio/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.4.91",
+    "version": "0.9.4.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41476,7 +41476,8 @@
       {
         "@type": "Person",
         "givenName": "Shixiang",
-        "familyName": "Wang"
+        "familyName": "Wang",
+        "email": "wangshx@shanghaitech.edu.cn"
       },
       {
         "@type": "Person",
@@ -41508,7 +41509,8 @@
       {
         "@type": "Person",
         "givenName": "Shixiang",
-        "familyName": "Wang"
+        "familyName": "Wang",
+        "email": "wangshx@shanghaitech.edu.cn"
       }
     ],
     "softwareSuggestions": [
@@ -41637,7 +41639,8 @@
       "9": {
         "@type": "SoftwareApplication",
         "identifier": "treeman",
-        "name": "treeman"
+        "name": "treeman",
+        "sameAs": "https://github.com/dombennett/treeman"
       },
       "10": {
         "@type": "SoftwareApplication",
@@ -63439,7 +63442,7 @@
         "@type": "SoftwareApplication",
         "identifier": "arkdb",
         "name": "arkdb",
-        "version": "> 0.0.10",
+        "version": ">= 0.0.16",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -64212,6 +64215,220 @@
     ],
     "readme": "https://github.com/ropensci/taxize/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "taxizedb",
+    "description": "Tools for working with 'taxonomic' databases, including utilities for downloading databases, loading them into various 'SQL' databases, cleaning up files, and providing a 'SQL' connection that can be used to do 'SQL' queries directly or used in 'dplyr'.",
+    "name": "taxizedb: Tools for Working with 'Taxonomic' Databases",
+    "relatedLink": "https://docs.ropensci.org/taxizedb/",
+    "codeRepository": "https://github.com/ropensci/taxizedb",
+    "issueTracker": "https://github.com/ropensci/taxizedb/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.3.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus+r@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zebulun",
+        "familyName": "Arendsee"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Tamás",
+        "familyName": "Stirling",
+        "email": "stirling.tamas@gmail.com"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Tamás",
+        "familyName": "Stirling",
+        "email": "stirling.tamas@gmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "taxize",
+        "name": "taxize",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=taxize"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "version": ">= 2.4",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "DBI",
+        "name": "DBI",
+        "version": ">= 0.6-1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DBI"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "RSQLite",
+        "name": "RSQLite",
+        "version": ">= 1.1.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RSQLite"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "version": ">= 0.7.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "version": ">= 1.1.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "dbplyr",
+        "name": "dbplyr",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dbplyr"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "version": ">= 1.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "hoardr",
+        "name": "hoardr",
+        "version": ">= 0.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=hoardr"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/taxizedb/blob/HEAD/README.md",
+    "developmentStatus": "https://www.repostatus.org/#abandoned",
+    "keywords": ["itis", "taxize", "taxonomic-databases", "taxonomy"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -72793,21 +73010,16 @@
       {
         "@type": "Person",
         "givenName": "Bart",
-        "familyName": "V."
+        "familyName": "V.",
+        "email": "bartv@vliz.be"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
-      },
-      {
-        "@type": "Person",
         "givenName": "Bart",
-        "familyName": "V."
+        "familyName": "V.",
+        "email": "bartv@vliz.be"
       }
     ],
     "softwareSuggestions": [
