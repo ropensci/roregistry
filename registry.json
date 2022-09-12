@@ -2327,7 +2327,7 @@
       "description": "Targets for JAGS Workflows",
       "details": "Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the 'jagstargets' R package is leverages 'targets' and 'R2jags' to ease this burden. 'jagstargets' makes it super easy to set up scalable JAGS pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than 'targets' alone. For the underlying methodology, please refer to the documentation of 'targets' <doi:10.21105/joss.02959> and 'JAGS' (Plummer 2003) <https://www.r-project.org/conferences/DSC-2003/Proceedings/Plummer.pdf>.",
       "maintainer": "William Michael Landau",
-      "keywords": "",
+      "keywords": "bayesian, high-performance-computing, jags, make, r-targetopia, reproducibility, rjags, statistics, targets",
       "github": "https://github.com/ropensci/jagstargets",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/425",
@@ -2637,7 +2637,7 @@
       "url": "https://github.com/ropensci/medrxivr",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2021-02-24 16:51:14",
+      "date_last_commit": "2022-09-11 19:39:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4767,7 +4767,7 @@
       "description": "Targets for Stan Workflows",
       "details": "Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the 'stantargets' R package leverages 'targets' and 'cmdstanr' to ease these burdens. 'stantargets' makes it super easy to set up scalable Stan pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than 'targets' alone. 'stantargets' can access all of 'cmdstanr''s major algorithms (MCMC, variational Bayes, and optimization) and it supports both single-fit workflows and multi-rep simulation studies. For the statistical methodology, please refer to 'Stan' documentation (Stan Development Team 2020) <https://mc-stan.org/>.",
       "maintainer": "William Michael Landau",
-      "keywords": "",
+      "keywords": "bayesian, high-performance-computing, make, r-targetopia, reproducibility, stan, statistics, targets",
       "github": "https://github.com/ropensci/stantargets",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/430",
@@ -4937,7 +4937,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-09-09 13:44:51",
+      "date_last_commit": "2022-09-11 13:08:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5037,7 +5037,7 @@
       "url": "https://github.com/ropensci/taxlist",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2022-09-09 12:34:54",
+      "date_last_commit": "2022-09-11 23:53:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5338,6 +5338,26 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2022-08-12 03:14:51",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
+      "name": "traits",
+      "description": "Species Trait Data from Around the Web",
+      "details": "Species trait data from many different sources, including sequence data from 'NCBI' (<https://www.ncbi.nlm.nih.gov/>), plant trait data from 'BETYdb', data from 'EOL' 'Traitbank', 'Birdlife' International, and more.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "api, api-client, species, taxonomy, traits, web-services",
+      "github": "https://github.com/ropensci/traits",
+      "status": "https://www.repostatus.org#abandoned",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "archived",
+      "url": "https://github.com/ropensci/traits",
+      "ropensci_category": "data-access",
+      "ropenscilabs": false,
+      "date_last_commit": "2022-09-09 12:02:51",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5923,5 +5943,5 @@
       "staff_maintained": true
     }
   ],
-  "date": "2022-09-11 07:57 UTC"
+  "date": "2022-09-12 08:08 UTC"
 }
