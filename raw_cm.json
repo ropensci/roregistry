@@ -23532,17 +23532,61 @@
         "givenName": "Andy",
         "familyName": "Teucher",
         "email": "andy.teucher@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Mahoney",
+        "email": "mike.mahoney.218@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2402-304X"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "givenName": "Michael",
+        "familyName": "Mahoney",
+        "email": "mike.mahoney.218@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2402-304X"
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "DBI",
+        "name": "DBI",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DBI"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "geojsonlint",
+        "name": "geojsonlint",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=geojsonlint"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "gistr",
@@ -23554,18 +23598,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=gistr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
       },
       {
         "@type": "SoftwareApplication",
@@ -23593,18 +23625,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "DBI",
-        "name": "DBI",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DBI"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "RPostgres",
         "name": "RPostgres",
         "provider": {
@@ -23617,15 +23637,16 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "geojsonlint",
-        "name": "geojsonlint",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=geojsonlint"
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
@@ -23633,39 +23654,34 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 2.10"
+        "version": ">= 3.5"
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
+        "identifier": "crul",
+        "name": "crul",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crul"
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
+        "identifier": "geojson",
+        "name": "geojson",
+        "version": ">= 0.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
+        "sameAs": "https://CRAN.R-project.org/package=geojson"
       },
       "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "sf",
-        "name": "sf",
-        "version": ">= 0.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sf"
-      },
-      "5": {
         "@type": "SoftwareApplication",
         "identifier": "geojsonsf",
         "name": "geojsonsf",
@@ -23677,29 +23693,42 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=geojsonsf"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
+        "identifier": "jqr",
+        "name": "jqr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
+        "sameAs": "https://CRAN.R-project.org/package=jqr"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "version": ">= 0.9.21",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "crul",
-        "name": "crul",
+        "identifier": "magrittr",
+        "name": "magrittr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=crul"
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
       "8": {
         "@type": "SoftwareApplication",
@@ -23715,30 +23744,10 @@
       },
       "9": {
         "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "version": ">= 0.9.21",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+        "identifier": "methods",
+        "name": "methods"
       },
       "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      "11": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -23751,7 +23760,44 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "rgeos",
+        "name": "rgeos",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgeos"
+      },
       "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "version": ">= 0.6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      "13": {
+        "@type": "SoftwareApplication",
+        "identifier": "sp",
+        "name": "sp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sp"
+      },
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "V8",
         "name": "V8",
@@ -23762,31 +23808,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=V8"
-      },
-      "13": {
-        "@type": "SoftwareApplication",
-        "identifier": "geojson",
-        "name": "geojson",
-        "version": ">= 0.2.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=geojson"
-      },
-      "14": {
-        "@type": "SoftwareApplication",
-        "identifier": "jqr",
-        "name": "jqr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jqr"
       },
       "SystemRequirements": null
     },
@@ -68608,7 +68629,7 @@
     "codeRepository": "https://github.com/ropensci/traits",
     "issueTracker": "https://github.com/ropensci/traits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68622,6 +68643,13 @@
       "url": "https://cran.r-project.org"
     },
     "author": [
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "LeBauer",
+        "email": "dlebauer@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7228-053X"
+      },
       {
         "@type": "Person",
         "givenName": "Scott",
@@ -68638,11 +68666,6 @@
         "@type": "Person",
         "givenName": "Ignasi",
         "familyName": "Bartomeus"
-      },
-      {
-        "@type": "Person",
-        "givenName": "David",
-        "familyName": "LeBauer"
       },
       {
         "@type": "Person",
@@ -68665,10 +68688,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "David",
+        "familyName": "LeBauer",
+        "email": "dlebauer@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7228-053X"
       }
     ],
     "softwareSuggestions": [
@@ -68876,7 +68899,7 @@
     "keywords": ["traits", "api", "web-services", "species", "taxonomy", "api-client"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/traits/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#abandoned"
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
