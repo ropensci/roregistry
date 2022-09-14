@@ -1485,14 +1485,14 @@
         "@type": "SoftwareApplication",
         "identifier": "openssl",
         "name": "openssl",
-        "version": ">= 1.4.1",
+        "version": ">= 2.0.3",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=openssl"
+        "sameAs": "https://github.com/jeroen/openssl"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -2393,7 +2393,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.21",
+    "version": "0.1.1.44",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23507,7 +23507,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonio",
     "issueTracker": "https://github.com/ropensci/geojsonio/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.4.92",
+    "version": "0.9.5.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34216,13 +34216,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "neotoma",
-    "description": "Access paleoecological datasets from the Neotoma Paleoecological Database using the published API (<http://wnapi.neotomadb.org/>). The functions in this package access various pre-built API functions and attempt to return the results from Neotoma in a usable format for researchers and the public.",
+    "description": "NOTE: This package is deprecated. Please use the neotoma2 package described at https://github.com/NeotomaDB/neotoma2. Access paleoecological datasets from the Neotoma Paleoecological Database using the published API (<http://wnapi.neotomadb.org/>), only containing datasets uploaded prior to June 2020. The functions in this package access various pre-built API functions and attempt to return the results from Neotoma in a usable format for researchers and the public.",
     "name": "neotoma: Access to the Neotoma Paleoecological Database Through R",
     "relatedLink": "https://docs.ropensci.org/neotoma",
     "codeRepository": "https://github.com/ropensci/neotoma",
     "issueTracker": "https://github.com/ropensci/neotoma/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.6",
+    "version": "1.7.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34425,6 +34425,11 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=assertthat"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
       },
       "SystemRequirements": null
     },
