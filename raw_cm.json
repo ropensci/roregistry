@@ -1569,6 +1569,14 @@
         "email": "jeroen@berkeley.edu"
       }
     ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Hugo",
+        "familyName": "Gruson",
+        "@id": "https://orcid.org/0000-0002-4094-1476"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
@@ -1576,6 +1584,21 @@
         "familyName": "Salmon",
         "email": "maelle.salmon@yahoo.se",
         "@id": "https://orcid.org/0000-0002-2815-0399"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
@@ -37922,7 +37945,7 @@
       "url": "https://github.com/ropensci/software-review/issues/36",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": [],
+    "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["geocode", "geocoder", "opencage", "opencage-api", "opencage-geocoder", "peer-reviewed", "placenames", "rspatial"]
   },
   {
@@ -41951,7 +41974,7 @@
         "@type": "Person",
         "givenName": "Shixiang",
         "familyName": "Wang",
-        "email": "wangshx@shanghaitech.edu.cn"
+        "email": "w_shixiang@163.com"
       },
       {
         "@type": "Person",
@@ -41984,7 +42007,7 @@
         "@type": "Person",
         "givenName": "Shixiang",
         "familyName": "Wang",
-        "email": "wangshx@shanghaitech.edu.cn"
+        "email": "w_shixiang@163.com"
       }
     ],
     "softwareSuggestions": [
