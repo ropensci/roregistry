@@ -4324,7 +4324,7 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": "http://www.repostatus.org/#active",
-    "keywords": ["exporter", "parser", "phylogenetic-trees"]
+    "keywords": ["bioconductor-package", "exporter", "parser", "phylogenetic-trees"]
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -22497,7 +22497,7 @@
     "codeRepository": "https://github.com/ropensci/exoplanets",
     "issueTracker": "https://github.com/ropensci/exoplanets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.2.9000",
+    "version": "0.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38487,6 +38487,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rprojroot"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "brio",
+        "name": "brio",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=brio"
       },
       {
         "@type": "SoftwareApplication",
