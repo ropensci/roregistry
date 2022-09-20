@@ -11005,7 +11005,12 @@
       }
     ],
     "readme": "https://github.com/ropensci/canaper/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#wip",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/475",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["biodiversity", "canape"]
   },
   {
@@ -11680,9 +11685,15 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Roel M.",
+        "familyName": "Hogervorst",
+        "email": "hogervorst.rm@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7509-0328"
+      },
+      {
+        "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       },
       {
@@ -11707,10 +11718,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus+r@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Roel M.",
+        "familyName": "Hogervorst",
+        "email": "hogervorst.rm@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7509-0328"
       }
     ],
     "softwareSuggestions": [
@@ -34529,7 +34540,7 @@
     "codeRepository": "https://github.com/ropensci/nbaR",
     "issueTracker": "https://github.com/ropensci/nbaR/issues/new",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "0.1.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34547,29 +34558,25 @@
         "@type": "Person",
         "givenName": "Rutger",
         "familyName": "Vos"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kevin",
+        "familyName": "Cazelles",
+        "email": "kevin.cazelles@gmail.com",
+        "@id": "https://orcid.org/0000-0001-6619-9874"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Hannes",
-        "familyName": "Hettling",
-        "email": "hannes.hettling@naturalis.nl"
+        "givenName": "Kevin",
+        "familyName": "Cazelles",
+        "email": "kevin.cazelles@gmail.com",
+        "@id": "https://orcid.org/0000-0001-6619-9874"
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
@@ -34581,18 +34588,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -34617,6 +34612,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=remotes"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
@@ -34628,15 +34647,15 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
+        "identifier": "ape",
+        "name": "ape",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+        "sameAs": "https://CRAN.R-project.org/package=ape"
       },
       "3": {
         "@type": "SoftwareApplication",
@@ -34652,6 +34671,18 @@
       },
       "4": {
         "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
         "provider": {
@@ -34661,18 +34692,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "ape",
-        "name": "ape",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ape"
       },
       "SystemRequirements": null
     },
