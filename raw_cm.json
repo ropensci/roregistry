@@ -2416,7 +2416,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.44",
+    "version": "0.1.1.50",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2448,6 +2448,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "callr",
+        "name": "callr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=callr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "curl",
@@ -29603,7 +29615,7 @@
     "codeRepository": "https://github.com/ropensci/jsonvalidate",
     "issueTracker": "https://github.com/ropensci/jsonvalidate/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32816,6 +32828,228 @@
     },
     "developmentStatus": "https://www.repostatus.org/#active",
     "keywords": ["bibliographic-database", "biorxiv", "evidence-synthesis", "medrxiv-data", "peer-reviewed", "preprint-records", "systematic-reviews"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "melt",
+    "description": "Performs multiple empirical likelihood tests for linear and generalized linear models. The package offers an easy-to-use interface and flexibility in specifying hypotheses and calibration methods, extending the framework to simultaneous inferences. The core computational routines are implemented using the 'Eigen' C++ library and 'RcppEigen' interface, with OpenMP for parallel computation. Details of the testing procedures are given in Kim, MacEachern, and Peruggia (2021) <arxiv:2112.09206>. This work was supported by the U.S. National Science Foundation under Grants No. SES-1921523 and DMS-2015552.",
+    "name": "melt: Multiple Empirical Likelihood Tests",
+    "relatedLink": "https://docs.ropensci.org/melt/",
+    "codeRepository": "https://github.com/ropensci/melt",
+    "issueTracker": "https://github.com/ropensci/melt/issues",
+    "license": "https://spdx.org/licenses/GPL-2.0",
+    "version": "1.8.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Eunseop",
+        "familyName": "Kim",
+        "email": "kim.7302@osu.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Steven",
+        "familyName": "MacEachern"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Peruggia"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steven",
+        "familyName": "MacEachern"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Peruggia"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Eunseop",
+        "familyName": "Kim",
+        "email": "kim.7302@osu.edu"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "microbenchmark",
+        "name": "microbenchmark",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=microbenchmark"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R.rsp",
+        "name": "R.rsp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.rsp"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "graphics",
+        "name": "graphics"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "Rcpp",
+        "name": "Rcpp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=Rcpp"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/melt/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/550",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -39375,7 +39609,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.3.4",
+    "version": "0.3.3.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49016,7 +49250,7 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Joel",
+        "givenName": "Joel H.",
         "familyName": "Nitta",
         "email": "joelnitta@gmail.com",
         "@id": "https://orcid.org/0000-0003-4719-7472"
@@ -49032,7 +49266,7 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Joel",
+        "givenName": "Joel H.",
         "familyName": "Nitta",
         "email": "joelnitta@gmail.com",
         "@id": "https://orcid.org/0000-0003-4719-7472"
@@ -68144,7 +68378,7 @@
     "codeRepository": "https://github.com/ropensci/tinkr",
     "issueTracker": "https://github.com/ropensci/tinkr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0",
+    "version": "0.1.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74518,7 +74752,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.2",
+    "version": "0.1.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
