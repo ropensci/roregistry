@@ -205,7 +205,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-09-20 16:22:58",
+      "date_last_commit": "2022-09-22 13:17:32",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -262,7 +262,7 @@
       "url": "https://github.com/ropensci-org/rotemplate",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-20 07:38:08",
+      "date_last_commit": "2022-09-22 14:04:44",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -384,23 +384,21 @@
       "staff_maintained": true
     },
     {
-      "name": "AntWeb",
-      "description": "programmatic interface to the AntWeb",
-      "details": "A complete programmatic interface to the AntWeb database from the California Academy of Sciences.",
-      "maintainer": "Karthik Ram",
+      "name": "aorsf",
+      "description": "Accelerated Oblique Random Survival Forests",
+      "details": "Fit, interpret, and make predictions with oblique random survival forests. Oblique decision trees are notoriously slow compared to their axis based counterparts, but 'aorsf' runs as fast or faster than axis-based decision tree algorithms for right-censored time-to-event outcomes. Methods to accelerate and interpret the oblique random survival forest are described in Jaeger et al., (2022) <arXiv:2208.01129>.",
+      "maintainer": "Byron Jaeger",
       "keywords": "",
-      "github": "https://github.com/ropensci/AntWeb",
+      "github": "https://github.com/ropensci/aorsf",
       "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
+      "onboarding": "https://github.com/ropensci/software-review/issues/532/",
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
-      "url": "https://github.com/ropensci/AntWeb",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2022-09-10 16:25:21",
+      "url": "https://github.com/ropensci/aorsf",
+      "date_last_commit": "2022-09-22 23:42:48",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -637,7 +635,7 @@
       "url": "https://github.com/ropensci/bibtex",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-01-13 17:32:44",
+      "date_last_commit": "2022-09-23 03:25:13",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1395,7 +1393,7 @@
       "url": "https://github.com/ropensci/datefixR",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-09-21 17:36:57",
+      "date_last_commit": "2022-09-22 12:57:30",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1518,26 +1516,6 @@
       "date_last_commit": "2022-08-19 15:07:29",
       "github_archived": false,
       "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "ecoengine",
-      "description": "Programmatic Interface to the Web Service Methods Provided by UC Berkeley's Natural History Data",
-      "details": "The ecoengine ('ecoengine'; <https://ecoengine.berkeley.edu/>). provides access to more than 5 million georeferenced specimen records from the University of California, Berkeley's Natural History Museums.",
-      "maintainer": "Karthik Ram",
-      "keywords": "",
-      "github": "https://github.com/ropensci/ecoengine",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/ecoengine",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2020-02-20 00:32:00",
-      "github_archived": false,
-      "cran_archived": true,
       "staff_maintained": false
     },
     {
@@ -2913,7 +2891,7 @@
       "url": "https://github.com/ropensci/oai",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-09-21 13:27:16",
+      "date_last_commit": "2022-09-22 17:26:20",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3253,7 +3231,7 @@
       "url": "https://github.com/ropensci/phonfieldwork",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-07-19 15:04:36",
+      "date_last_commit": "2022-09-23 04:53:22",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5259,26 +5237,6 @@
       "staff_maintained": false
     },
     {
-      "name": "tif",
-      "description": "Text Interchange Format",
-      "details": "Provides validation functions for common interchange formats for representing text data in R. Includes formats for corpus objects, document term matrices, and tokens. Other annotations can be stored by overloading the tokens structure.",
-      "maintainer": "Taylor Arnold",
-      "keywords": "",
-      "github": "https://github.com/ropensci/tif",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/tif",
-      "ropensci_category": "literature",
-      "ropenscilabs": false,
-      "date_last_commit": "2022-08-24 03:08:09",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
       "name": "tiler",
       "description": "Create Geographic and Non-Geographic Map Tiles",
       "details": "Creates geographic map tiles from geospatial map files or non-geographic map tiles from simple image files. This package provides a tile generator function for creating map tile sets for use with packages such as 'leaflet'. In addition to generating map tiles based on a common raster layer source, it also handles the non-geographic edge case, producing map tiles from arbitrary images. These map tiles, which have a non-geographic, simple coordinate reference system (CRS), can also be used with 'leaflet' when applying the simple CRS option. Map tiles can be created from an input file with any of the following extensions: tif, grd and nc for spatial maps and png, jpg and bmp for basic images. This package requires 'Python' and the 'gdal' library for 'Python'. 'Windows' users are recommended to install 'OSGeo4W' (<https://trac.osgeo.org/osgeo4w/>) as an easy way to obtain the required 'gdal' support for 'Python'.",
@@ -5333,7 +5291,7 @@
       "url": "https://github.com/ropensci/tokenizers",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2021-07-14 20:54:14",
+      "date_last_commit": "2022-09-23 00:47:56",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5977,7 +5935,27 @@
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
+    },
+    {
+      "name": "tif",
+      "description": "Text Interchange Format",
+      "details": "Provides validation functions for common interchange formats for representing text data in R. Includes formats for corpus objects, document term matrices, and tokens. Other annotations can be stored by overloading the tokens structure.",
+      "maintainer": "Taylor Arnold",
+      "keywords": "",
+      "github": "https://github.com/ropenscilabs/tif",
+      "status": "https://www.repostatus.org#concept",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropenscilabs/tif",
+      "ropensci_category": "literature",
+      "ropenscilabs": false,
+      "date_last_commit": "2022-09-22 16:50:18",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
     }
   ],
-  "date": "2022-09-22 08:13 UTC"
+  "date": "2022-09-23 07:56 UTC"
 }
