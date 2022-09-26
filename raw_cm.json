@@ -26237,11 +26237,11 @@
     "identifier": "graphql",
     "description": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax and exports the AST in JSON format.",
     "name": "graphql: A GraphQL Query Parser",
-    "relatedLink": ["https://docs.ropensci.org/graphql", "http://graphql.org"],
+    "relatedLink": ["https://docs.ropensci.org/graphql/", "https://graphql.org"],
     "codeRepository": "https://github.com/ropensci/graphql",
     "issueTracker": "https://github.com/ropensci/graphql/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5",
+    "version": "1.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -26335,7 +26335,7 @@
       },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
+    "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/graphql/blob/HEAD/README.md",
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -38608,11 +38608,11 @@
     "identifier": "osfr",
     "description": "An interface for interacting with 'OSF' (<https://osf.io>). 'osfr' enables you to access open research materials and data, or create and manage your own private or public projects.",
     "name": "osfr: Interface to the 'Open Science Framework' ('OSF')",
-    "relatedLink": "https://docs.ropensci.org/osfr",
+    "relatedLink": "https://docs.ropensci.org/osfr/",
     "codeRepository": "https://github.com/ropensci/osfr",
     "issueTracker": "https://github.com/ropensci/osfr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.8.9002",
+    "version": "0.2.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -56875,7 +56875,7 @@
     "codeRepository": "https://github.com/ropensci/rtika",
     "issueTracker": "https://github.com/ropensci/rtika/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "2.0.0",
+    "version": "2.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57032,18 +57032,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
         "identifier": "digest",
         "name": "digest",
         "provider": {
@@ -57053,6 +57041,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "backports",
+        "name": "backports",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=backports"
       },
       "7": {
         "@type": "SoftwareApplication",
