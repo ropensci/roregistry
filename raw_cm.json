@@ -10893,7 +10893,7 @@
     "codeRepository": "https://github.com/ropensci/canaper",
     "issueTracker": "https://github.com/ropensci/canaper/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11031,13 +11031,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxyglobals",
-        "name": "roxyglobals",
-        "version": ">= 0.2.1",
-        "sameAs": "https://github.com/anthonynorth/roxyglobals"
       },
       {
         "@type": "SoftwareApplication",
@@ -13674,7 +13667,7 @@
     "relatedLink": ["https://docs.ropensci.org/cld2/", "https://github.com/cld2owners/cld2"],
     "codeRepository": "https://github.com/ropensci/cld2",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24379,7 +24372,7 @@
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/geojsonio/blob/HEAD/README.md",
-    "developmentStatus": []
+    "developmentStatus": "https://www.repostatus.org/#inactive"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -27853,7 +27846,7 @@
     "codeRepository": "https://github.com/ropensci/hydroscoper",
     "issueTracker": "https://github.com/ropensci/hydroscoper/issues             ",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47699,7 +47692,7 @@
     "codeRepository": "https://github.com/ropensci/RefManageR",
     "issueTracker": "https://github.com/ropensci/RefManageR/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.3.5",
+    "version": "1.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47766,19 +47759,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "bibtex",
-        "name": "bibtex",
-        "version": ">= 0.4.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=bibtex"
       }
     ],
     "softwareRequirements": {
@@ -47871,6 +47851,19 @@
         "name": "methods"
       },
       "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "bibtex",
+        "name": "bibtex",
+        "version": ">= 0.4.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=bibtex"
+      },
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -49013,7 +49006,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.0",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49057,28 +49050,27 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
+        "identifier": "knitr",
+        "name": "knitr",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "version": ">= 0.2.6",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": {
@@ -49086,7 +49078,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 2.10"
+        "version": ">= 4.00"
       },
       "2": {
         "@type": "SoftwareApplication",
