@@ -4993,9 +4993,9 @@
     "identifier": "aorsf",
     "description": "Fit, interpret, and make predictions with oblique random survival forests. Oblique decision trees are notoriously slow compared to their axis based counterparts, but 'aorsf' runs as fast or faster than axis-based decision tree algorithms for right-censored time-to-event outcomes. Methods to accelerate and interpret the oblique random survival forest are described in Jaeger et al., (2022) <arXiv:2208.01129>.",
     "name": "aorsf: Accelerated Oblique Random Survival Forests",
-    "relatedLink": "https://bcjaeger.github.io/aorsf/",
+    "relatedLink": "https://docs.ropensci.org/aorsf/",
     "codeRepository": "https://github.com/ropensci/aorsf",
-    "issueTracker": "https://github.com/bcjaeger/aorsf/issues/",
+    "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.0.3",
     "programmingLanguage": {
@@ -22988,6 +22988,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
@@ -66550,7 +66562,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.5.6",
+    "version": "0.5.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66652,6 +66664,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
