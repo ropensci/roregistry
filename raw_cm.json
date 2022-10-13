@@ -1571,6 +1571,12 @@
         "givenName": "Hugo",
         "familyName": "Gruson",
         "@id": "https://orcid.org/0000-0002-4094-1476"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhian N.",
+        "familyName": "Kamvar",
+        "@id": "https://orcid.org/0000-0003-1458-7108"
       }
     ],
     "maintainer": [
@@ -1663,6 +1669,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
       },
       "SystemRequirements": null
     },
@@ -53033,7 +53051,7 @@
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
-        "version": ">= 0.5.0",
+        "version": ">= 0.7.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -53043,19 +53061,6 @@
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
       "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "version": ">= 0.1.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
-      },
-      "11": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -53068,7 +53073,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -53081,7 +53086,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "stringi",
         "name": "stringi",
@@ -53093,7 +53098,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringi"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -53105,7 +53110,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
