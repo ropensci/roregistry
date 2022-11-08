@@ -5009,7 +5009,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.9000",
+    "version": "0.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23256,7 +23256,7 @@
     "codeRepository": "https://github.com/ropensci/FedData",
     "issueTracker": "https://github.com/ropensci/FedData/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.0",
+    "version": "3.0.1.9999",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23506,6 +23506,18 @@
       },
       "15": {
         "@type": "SoftwareApplication",
+        "identifier": "rgdal",
+        "name": "rgdal",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rgdal"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "provider": {
@@ -23516,7 +23528,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -23529,7 +23541,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "sp",
         "name": "sp",
@@ -23541,7 +23553,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sp"
       },
-      "18": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -23553,7 +23565,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "19": {
+      "20": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -23566,7 +23578,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "20": {
+      "21": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -23578,7 +23590,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "21": {
+      "22": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -23590,7 +23602,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "22": {
+      "23": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -61753,7 +61765,7 @@
     "codeRepository": "https://github.com/ropensci/stplanr",
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62677,6 +62689,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": {
