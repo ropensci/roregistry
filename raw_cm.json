@@ -30933,7 +30933,7 @@
     "codeRepository": "https://github.com/ropensci/lingtypology",
     "issueTracker": "https://github.com/ropensci/lingtypology/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.1.9",
+    "version": "1.1.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30976,8 +30976,8 @@
       },
       {
         "@type": "Person",
-        "givenName": "Sasha",
-        "familyName": "Shakhnova"
+        "givenName": "Ekaterina",
+        "familyName": "Zalivina"
       }
     ],
     "maintainer": [
@@ -31073,30 +31073,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
       {
         "@type": "SoftwareApplication",
@@ -36866,11 +36842,11 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "npi",
-    "description": "Access the United States National Provider Identifier Registry API (if available) and provide informative error messages when it's not.",
+    "description": "Access the United States National Provider Identifier Registry API (if available) and provide informative error messages when it's not. Obtain rich administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and many other attributes.",
     "name": "npi: Access the U.S. National Provider Identifier Registry API",
-    "relatedLink": ["https://docs.ropensci.org/npi", "https://npiregistry.cms.hhs.gov/api/"],
+    "relatedLink": ["https://docs.ropensci.org/npi/", "https://npiregistry.cms.hhs.gov/api/"],
     "codeRepository": "https://github.com/ropensci/npi",
-    "issueTracker": "https://github.com/ropensci/npi/issues",
+    "issueTracker": "https://github.com/ropensci/npi/issues/",
     "license": "https://spdx.org/licenses/MIT",
     "version": "0.2.0",
     "programmingLanguage": {
@@ -37171,9 +37147,9 @@
             "familyName": "Farach"
           }
         ],
-        "name": "npi: Access the U.S. National Provider Identifier Registry API (Version 0.1.0)",
+        "name": "npi: Access the U.S. National Provider Identifier Registry API (Version 0.2.0)",
         "identifier": "10.5281/zenodo.6326729",
-        "url": "https://github.com/frankfarach/npi",
+        "url": "https://github.com/ropensci/npi",
         "@id": "https://doi.org/10.5281/zenodo.6326729",
         "sameAs": "https://doi.org/10.5281/zenodo.6326729"
       },
@@ -37189,8 +37165,8 @@
         ],
         "name": "{npi}: Access the U.S. National Provider Identifier Registry API",
         "identifier": "10.5281/zenodo.6326729",
-        "url": "https://github.com/frankfarach/npi",
-        "description": "R package version 0.1.0",
+        "url": "https://github.com/ropensci/npi",
+        "description": "R package version 0.2.0",
         "@id": "https://doi.org/10.5281/zenodo.6326729",
         "sameAs": "https://doi.org/10.5281/zenodo.6326729"
       }
@@ -45773,7 +45749,7 @@
     "codeRepository": "https://github.com/ropensci/rcrossref",
     "issueTracker": "https://github.com/ropensci/rcrossref/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0.99",
+    "version": "1.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
