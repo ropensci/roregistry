@@ -6266,18 +6266,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "readxl",
-        "name": "readxl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readxl"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "provider": {
@@ -6288,19 +6276,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "withr",
-        "name": "withr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=withr"
-      },
-      "6": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -6312,7 +6288,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "7": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -6324,7 +6300,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "8": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -16389,13 +16365,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "daiquiri",
-    "description": "Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are sharable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the \"event date\", and other columns contain any associated values for the event).",
+    "description": "Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are shareable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the \"event date\", and other columns contain any associated values for the event).",
     "name": "daiquiri: Data Quality Reporting for Temporal Datasets",
-    "relatedLink": "https://ropensci.github.io/daiquiri",
+    "relatedLink": "https://ropensci.github.io/daiquiri/",
     "codeRepository": "https://github.com/ropensci/daiquiri",
     "issueTracker": "https://github.com/ropensci/daiquiri/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16608,7 +16584,7 @@
         "name": "daiquiri: Data quality reporting for temporal datasets",
         "identifier": "10.5281/zenodo.6334341",
         "url": "https://github.com/ropensci/daiquiri",
-        "description": "R package version 1.0.0",
+        "description": "R package version 1.0.1",
         "@id": "https://doi.org/10.5281/zenodo.6334341",
         "sameAs": "https://doi.org/10.5281/zenodo.6334341"
       }
@@ -37189,7 +37165,7 @@
     "codeRepository": "https://github.com/ropensci/oai",
     "issueTracker": "https://github.com/ropensci/oai/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -55830,7 +55806,7 @@
     "codeRepository": "https://github.com/ropensci/rredlist",
     "issueTracker": "https://github.com/ropensci/rredlist/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63427,6 +63403,19 @@
       },
       "5": {
         "@type": "SoftwareApplication",
+        "identifier": "furrr",
+        "name": "furrr",
+        "version": ">= 0.3.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=furrr"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
         "version": ">= 0.4.7",
@@ -63438,7 +63427,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
@@ -63451,7 +63440,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=targets"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -63464,7 +63453,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -63477,12 +63466,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -63495,7 +63484,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -75339,7 +75328,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.169",
+    "version": "0.0.3.173",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
