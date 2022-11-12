@@ -16365,7 +16365,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "daiquiri",
-    "description": "Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are shareable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the \"event date\", and other columns contain any associated values for the event).",
+    "description": "Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are shareable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single \"event\", one column contains the \"event date\", and other columns contain any associated values for the event).",
     "name": "daiquiri: Data Quality Reporting for Temporal Datasets",
     "relatedLink": "https://ropensci.github.io/daiquiri/",
     "codeRepository": "https://github.com/ropensci/daiquiri",
@@ -16378,6 +16378,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -49734,7 +49740,7 @@
     "codeRepository": "https://github.com/ropensci/restez",
     "issueTracker": "https://github.com/ropensci/restez/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.1.3",
+    "version": "2.1.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -60906,13 +60912,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "spocc",
-    "description": "A programmatic interface to many species occurrence data sources, including Global Biodiversity Information Facility ('GBIF'), 'USGSs' Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist', 'eBird', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes functionality for retrieving species occurrence data, and combining those data.",
+    "description": "A programmatic interface to many species occurrence data sources, including Global Biodiversity Information Facility ('GBIF'), 'iNaturalist', 'eBird', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes functionality for retrieving species occurrence data, and combining those data.",
     "name": "spocc: Interface to Species Occurrence Data Sources",
     "relatedLink": "https://docs.ropensci.org/spocc/",
     "codeRepository": "https://github.com/ropensci/spocc",
     "issueTracker": "https://github.com/ropensci/spocc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0.91",
+    "version": "1.2.1.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61031,18 +61037,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "rbison",
-        "name": "rbison",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rbison"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "rebird",
         "name": "rebird",
         "provider": {
@@ -61053,7 +61047,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rebird"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "rvertnet",
         "name": "rvertnet",
@@ -61065,7 +61059,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rvertnet"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "ridigbio",
         "name": "ridigbio",
@@ -61077,7 +61071,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ridigbio"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -61089,7 +61083,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
@@ -61101,7 +61095,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=crul"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "whisker",
         "name": "whisker",
@@ -61113,7 +61107,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=whisker"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -61125,7 +61119,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
@@ -61137,7 +61131,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -61149,7 +61143,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "wellknown",
         "name": "wellknown",
@@ -71514,7 +71508,7 @@
     "codeRepository": "https://github.com/ropensci/vcr",
     "issueTracker": "https://github.com/ropensci/vcr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0",
+    "version": "1.1.0.93",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71787,7 +71781,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rprojroot"
       },
-      "SystemRequirements": "C++11"
+      "SystemRequirements": null
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
