@@ -16596,6 +16596,11 @@
       }
     ],
     "readme": "https://github.com/ropensci/daiquiri/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/535",
+      "provider": "https://ropensci.org"
+    },
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
@@ -36824,19 +36829,25 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "npi",
-    "description": "Access the United States National Provider Identifier Registry API (if available) and provide informative error messages when it's not. Obtain rich administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and many other attributes.",
+    "description": "Access the United States National Provider Identifier Registry API <https://npiregistry.cms.hhs.gov/api/>. Obtain and transform administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and other attributes exposed by the API.",
     "name": "npi: Access the U.S. National Provider Identifier Registry API",
     "relatedLink": ["https://docs.ropensci.org/npi/", "https://npiregistry.cms.hhs.gov/api/"],
     "codeRepository": "https://github.com/ropensci/npi",
     "issueTracker": "https://github.com/ropensci/npi/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
+    "version": "0.2.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
