@@ -858,7 +858,7 @@
     "codeRepository": "https://github.com/frictionlessdata/frictionless-r",
     "issueTracker": "https://github.com/frictionlessdata/frictionless-r/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.2",
+    "version": "1.0.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -1100,7 +1100,7 @@
         "name": "Read and Write Frictionless Data Packages",
         "identifier": "10.5281/zenodo.5815355",
         "url": "https://cran.r-project.org/package=frictionless",
-        "description": "R package version 1.0.2",
+        "description": "R package version 1.0.2.9000",
         "@id": "https://doi.org/10.5281/zenodo.5815355",
         "sameAs": "https://doi.org/10.5281/zenodo.5815355"
       }
@@ -10155,7 +10155,7 @@
     "codeRepository": "https://github.com/ropensci/brranching",
     "issueTracker": "https://github.com/ropensci/brranching/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0",
+    "version": "0.7.0.91",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -10177,13 +10177,22 @@
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Luna L",
+        "familyName": "Sanchez Reyes",
+        "email": "sanchez.reyes.luna@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7668-2528"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Luna L",
+        "familyName": "Sanchez Reyes",
+        "email": "sanchez.reyes.luna@gmail.com",
+        "@id": "https://orcid.org/0000-0001-7668-2528"
       }
     ],
     "softwareSuggestions": [
@@ -11815,7 +11824,7 @@
     "codeRepository": "https://github.com/ropensci/cffr",
     "issueTracker": "https://github.com/ropensci/cffr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.0.9000",
+    "version": "0.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18229,7 +18238,7 @@
     "codeRepository": "https://github.com/ropensci/datefixR",
     "issueTracker": "https://github.com/ropensci/datefixR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.3.1",
+    "version": "1.3.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18520,7 +18529,7 @@
         "name": "{datefixR}: Standardize Dates in Different Formats or with Missing Data",
         "identifier": "10.5281/zenodo.5655311",
         "url": "https://CRAN.R-project.org/package=datefixR",
-        "description": "R package version 1.3.1",
+        "description": "R package version 1.3.1.9000",
         "@id": "https://doi.org/10.5281/zenodo.5655311",
         "sameAs": "https://doi.org/10.5281/zenodo.5655311"
       }
@@ -40201,7 +40210,7 @@
     "codeRepository": "https://github.com/ropensci/osmplotr",
     "issueTracker": "https://github.com/ropensci/osmplotr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.3.6",
+    "version": "0.3.3.22",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -40444,15 +40453,15 @@
       },
       "11": {
         "@type": "SoftwareApplication",
-        "identifier": "spatstat.core",
-        "name": "spatstat.core",
+        "identifier": "spatstat.explore",
+        "name": "spatstat.explore",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=spatstat.core"
+        "sameAs": "https://CRAN.R-project.org/package=spatstat.explore"
       },
       "12": {
         "@type": "SoftwareApplication",
@@ -44350,6 +44359,69 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "prismjs",
+    "description": "Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. This package provides server-side rendering in 'R' using 'V8' such that no JavaScript is required in the resulting HTML documents.",
+    "name": "prismjs: Server-Side Syntax Highlighting",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.1.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "V8",
+        "name": "V8",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=V8"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "codeRepository": "https://github.com/ropensci/prismjs",
+    "readme": "https://github.com/ropensci/prismjs/blob/HEAD/README.md"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "qpdf",
     "description": "Content-preserving transformations transformations of PDF files such as split, combine, and compress. This package interfaces directly to the 'qpdf' C++ API and does not require any command line utilities. Note that 'qpdf' does not read actual content from PDF files: to extract text and data you need the 'pdftools' package.",
     "name": "qpdf: Split, Combine and Compress PDF Files",
@@ -44848,6 +44920,7 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
+        "version": ">= 1.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -60970,11 +61043,11 @@
     "identifier": "spocc",
     "description": "A programmatic interface to many species occurrence data sources, including Global Biodiversity Information Facility ('GBIF'), 'iNaturalist', 'eBird', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes functionality for retrieving species occurrence data, and combining those data.",
     "name": "spocc: Interface to Species Occurrence Data Sources",
-    "relatedLink": "https://docs.ropensci.org/spocc/",
+    "relatedLink": "http://docs.ropensci.org/spocc/",
     "codeRepository": "https://github.com/ropensci/spocc",
-    "issueTracker": "https://github.com/ropensci/spocc/issues",
+    "issueTracker": "http://github.com/ropensci/spocc/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.1.91",
+    "version": "1.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61214,7 +61287,7 @@
       "SystemRequirements": null
     },
     "applicationCategory": "Biodiversity",
-    "isPartOf": "https://ropensci.org",
+    "isPartOf": "ropensci.org",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/spocc/blob/HEAD/README.md",
     "developmentStatus": []
@@ -73377,6 +73450,11 @@
         "@type": "Person",
         "givenName": "Gordon",
         "familyName": "Getzinger"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ethan",
+        "familyName": "Bass"
       },
       {
         "@type": "Person",
