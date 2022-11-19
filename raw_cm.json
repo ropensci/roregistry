@@ -16425,7 +16425,7 @@
     "codeRepository": "https://github.com/ropensci/daiquiri",
     "issueTracker": "https://github.com/ropensci/daiquiri/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.1",
+    "version": "1.0.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16644,7 +16644,7 @@
         "name": "daiquiri: Data quality reporting for temporal datasets",
         "identifier": "10.5281/zenodo.6334341",
         "url": "https://github.com/ropensci/daiquiri",
-        "description": "R package version 1.0.1",
+        "description": "R package version 1.0.1.9000",
         "@id": "https://doi.org/10.5281/zenodo.6334341",
         "sameAs": "https://doi.org/10.5281/zenodo.6334341"
       }
@@ -39637,7 +39637,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.10.4",
+    "version": "0.1.10.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44360,10 +44360,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "prismjs",
-    "description": "Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. This package provides server-side rendering in 'R' using 'V8' such that no JavaScript is required in the resulting HTML documents.",
+    "description": "'Prism' <https://prismjs.com/> is a lightweight, extensible syntax highlighter, built with modern web standards in mind. This package provides server-side rendering in 'R' using 'V8' such that no 'JavaScript' library is required in the resulting 'HTML' documents. Over 400 languages are supported.",
     "name": "prismjs: Server-Side Syntax Highlighting",
+    "relatedLink": "https://docs.ropensci.org/prismjs/",
+    "codeRepository": "https://github.com/ropensci/prismjs",
+    "issueTracker": "https://github.com/ropensci/prismjs/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44377,6 +44380,12 @@
         "familyName": "Ooms",
         "email": "jeroen@berkeley.edu",
         "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Lea Verou"
       }
     ],
     "maintainer": [
@@ -44416,7 +44425,6 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "codeRepository": "https://github.com/ropensci/prismjs",
     "readme": "https://github.com/ropensci/prismjs/blob/HEAD/README.md"
   },
   {
@@ -44786,7 +44794,7 @@
     "codeRepository": "https://github.com/ropensci/qualtRics",
     "issueTracker": "https://github.com/ropensci/qualtRics/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.1.6.9000",
+    "version": "3.1.7.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68402,7 +68410,7 @@
     "codeRepository": "https://github.com/ropensci/tidytags",
     "issueTracker": "https://github.com/ropensci/tidytags/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68588,7 +68596,7 @@
         "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
-        "version": ">= 1.0",
+        "version": ">= 1.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
