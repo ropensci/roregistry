@@ -15795,12 +15795,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -36491,6 +36485,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "callr",
+        "name": "callr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=callr"
       }
     ],
     "softwareRequirements": {
