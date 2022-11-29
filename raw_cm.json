@@ -30447,7 +30447,7 @@
     "codeRepository": "https://github.com/ropensci/katex",
     "issueTracker": "https://github.com/ropensci/katex/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30467,6 +30467,12 @@
         "familyName": "Ooms",
         "email": "jeroen@berkeley.edu",
         "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Khan Academy and other contributors"
       }
     ],
     "maintainer": [
@@ -39739,7 +39745,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.10.6",
+    "version": "0.1.10.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44246,13 +44252,19 @@
     "codeRepository": "https://github.com/ropensci/postdoc",
     "issueTracker": "https://github.com/ropensci/postdoc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
