@@ -39787,7 +39787,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.10.11",
+    "version": "0.1.10.13",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41601,7 +41601,7 @@
     "codeRepository": "https://github.com/ropensci/pathviewr",
     "issueTracker": "https://github.com/ropensci/pathviewr/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41904,7 +41904,7 @@
         "name": "pathviewR: Tools to import, clean, and visualize animal movement data in R",
         "identifier": "10.5281/zenodo.4270187",
         "url": "https://github.com/ropensci/pathviewR",
-        "description": "R package version 1.1.5",
+        "description": "R package version 1.1.6",
         "@id": "https://doi.org/10.5281/zenodo.4270187",
         "sameAs": "https://doi.org/10.5281/zenodo.4270187",
         "isPartOf": {
@@ -66070,7 +66070,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.1.9000",
+    "version": "0.7.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66240,6 +66240,7 @@
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
+        "version": ">= 3.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -66380,6 +66381,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=units"
+      },
+      "15": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       },
       "SystemRequirements": null
     },
