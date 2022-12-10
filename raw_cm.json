@@ -51675,6 +51675,114 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "rgnparser",
+    "description": "Parse scientific names using 'gnparser' (<https://github.com/gnames/gnparser>), written in Go. 'gnparser' parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names.",
+    "name": "rgnparser: Parse Scientific Names",
+    "relatedLink": "https://ropensci.github.io/rgnparser/",
+    "codeRepository": "https://github.com/ropensci/rgnparser",
+    "issueTracker": "https://github.com/ropensci/rgnparser/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.2.5.91",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "sys",
+        "name": "sys",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sys"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      "SystemRequirements": "gnparser (<https://github.com/gnames/gnparser>)"
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/rgnparser/blob/HEAD/README.md",
+    "developmentStatus": "https://www.repostatus.org/#abandoned"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "rgpdd",
     "description": "R Interface to the Global Population Dynamics Database (<https://ecologicaldata.org/wiki/global-population-dynamics-database>)",
     "name": "rgpdd: R Interface to the Global Population Dynamics Database",
@@ -60906,6 +61014,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vdiffr",
+        "name": "vdiffr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vdiffr"
       },
       {
         "@type": "SoftwareApplication",
