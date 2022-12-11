@@ -32220,12 +32220,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -34868,7 +34862,7 @@
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.0.8",
+    "version": "4.0.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -34951,18 +34945,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ratelimitr",
-        "name": "ratelimitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ratelimitr"
       },
       {
         "@type": "SoftwareApplication",
@@ -35125,7 +35107,7 @@
         "name": "{nasapower}: NASA-POWER Data from R",
         "identifier": "10.5281/zenodo.1040727",
         "url": "https://CRAN.R-project.org/package=nasapower",
-        "description": "R package version 4.0.8",
+        "description": "R package version 4.0.9",
         "@id": "https://doi.org/10.5281/zenodo.1040727",
         "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       }
@@ -44306,7 +44288,7 @@
     "codeRepository": "https://github.com/ropensci/postdoc",
     "issueTracker": "https://github.com/ropensci/postdoc/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49775,7 +49757,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49974,8 +49956,7 @@
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
-    "readme": "https://github.com/ropensci/rerddap/blob/HEAD/README.md",
-    "developmentStatus": []
+    "readme": "https://github.com/ropensci/rerddap/blob/HEAD/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
