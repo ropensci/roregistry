@@ -27104,7 +27104,7 @@
     "codeRepository": "https://github.com/ropensci/gutenbergr",
     "issueTracker": "https://github.com/ropensci/gutenbergr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27114,17 +27114,22 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Myfanwy",
+        "familyName": "Johnston",
+        "email": "mrowlan1@gmail.com"
+      },
+      {
+        "@type": "Person",
         "givenName": "David",
-        "familyName": "Robinson",
-        "email": "admiral.david@gmail.com"
+        "familyName": "Robinson"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "David",
-        "familyName": "Robinson",
-        "email": "admiral.david@gmail.com"
+        "givenName": "Myfanwy",
+        "familyName": "Johnston",
+        "email": "mrowlan1@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -49956,7 +49961,8 @@
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
-    "readme": "https://github.com/ropensci/rerddap/blob/HEAD/README.md"
+    "readme": "https://github.com/ropensci/rerddap/blob/HEAD/README.md",
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -63650,6 +63656,32 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "future",
+        "name": "future",
+        "version": ">= 1.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=future"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "future.callr",
+        "name": "future.callr",
+        "version": ">= 0.2.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=future.callr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
         "version": ">= 0.4.7",
@@ -63661,7 +63693,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "7": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
@@ -63674,7 +63706,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=targets"
       },
-      "8": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -63687,7 +63719,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "9": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -63700,12 +63732,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "10": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "11": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -63718,7 +63750,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "12": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
