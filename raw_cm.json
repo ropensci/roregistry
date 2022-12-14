@@ -5064,7 +5064,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20240,6 +20240,340 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "dynamite",
+    "description": "Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of the models is carried out via 'Stan'.",
+    "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
+    "relatedLink": "https://docs.ropensci.org/dynamite",
+    "codeRepository": "https://github.com/ropensci/dynamite",
+    "issueTracker": "https://github.com/ropensci/dynamite/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.0.3",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Santtu",
+        "familyName": "Tikka",
+        "email": "santtuth@gmail.com",
+        "@id": "https://orcid.org/0000-0003-4039-4342"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jouni",
+        "familyName": "Helske",
+        "email": "jouni.helske@iki.fi",
+        "@id": "https://orcid.org/0000-0001-7130-793X"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Santtu",
+        "familyName": "Tikka",
+        "email": "santtuth@gmail.com",
+        "@id": "https://orcid.org/0000-0003-4039-4342"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "cmdstanr",
+        "name": "cmdstanr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "plm",
+        "name": "plm",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=plm"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "bayesplot",
+        "name": "bayesplot",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=bayesplot"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "checkmate",
+        "name": "checkmate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=checkmate"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "version": ">= 1.14.7",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "glue",
+        "name": "glue",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=glue"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "loo",
+        "name": "loo",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=loo"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "MASS",
+        "name": "MASS",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=MASS"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "methods",
+        "name": "methods"
+      },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "posterior",
+        "name": "posterior",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=posterior"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "13": {
+        "@type": "SoftwareApplication",
+        "identifier": "rstan",
+        "name": "rstan",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rstan"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "15": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "version": ">= 2.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2022",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Santtu",
+            "familyName": "Tikka"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Jouni",
+            "familyName": "Helske"
+          }
+        ],
+        "name": "Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
+        "url": "https://github.com/ropensci/dynamite",
+        "description": "R package version 0.0.3"
+      }
+    ],
+    "readme": "https://github.com/ropensci/dynamite/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/554",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "EDIutils",
     "description": "A client for the Environmental Data Initiative repository REST API. The 'EDI' data repository <https://portal.edirepository.org/nis/home.jsp> is for publication and reuse of ecological data with emphasis on metadata accuracy and completeness. It is built upon the 'PASTA+' software stack <https://pastaplus-core.readthedocs.io/en/latest/index.html#> and was developed in collaboration with the US 'LTER' Network <https://lternet.edu/>. 'EDIutils' includes functions to search and access existing data, evaluate and upload new data, and assist other data management tasks common to repository users.",
     "name": "EDIutils: An API Client for the Environmental Data Initiative Repository",
@@ -27098,13 +27432,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "gutenbergr",
-    "description": "Download and process public domain works in the Project Gutenberg collection <http://www.gutenberg.org/>. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.",
+    "description": "Download and process public domain works in the Project Gutenberg collection <https://www.gutenberg.org/>. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.",
     "name": "gutenbergr: Download and Process Public Domain Works from Project Gutenberg",
     "relatedLink": "https://docs.ropensci.org/gutenbergr/",
     "codeRepository": "https://github.com/ropensci/gutenbergr",
     "issueTracker": "https://github.com/ropensci/gutenbergr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39789,7 +40123,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.10.13",
+    "version": "0.1.10.15",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39823,6 +40157,12 @@
         "@type": "Person",
         "givenName": "Maëlle",
         "familyName": "Salmon"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joan",
+        "familyName": "Maspons",
+        "@id": "https://orcid.org/0000-0003-2286-8727"
       }
     ],
     "contributor": [
@@ -39867,12 +40207,6 @@
         "familyName": "Pousson",
         "email": "eli.pousson@gmail.com",
         "@id": "https://orcid.org/0000-0001-8280-1706"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Joan",
-        "familyName": "Maspons",
-        "@id": "https://orcid.org/0000-0003-2286-8727"
       }
     ],
     "copyrightHolder": [
@@ -63700,7 +64034,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.11.0",
+        "version": ">= 0.14.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
