@@ -53991,7 +53991,7 @@
     "codeRepository": "https://github.com/ropensci/RNeXML",
     "issueTracker": "https://github.com/ropensci/RNeXML/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
-    "version": "2.4.8",
+    "version": "2.4.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54196,6 +54196,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=taxalight"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "progress",
+        "name": "progress",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=progress"
       }
     ],
     "softwareRequirements": {
