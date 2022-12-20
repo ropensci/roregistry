@@ -33811,7 +33811,7 @@
     "codeRepository": "https://github.com/ropensci/MODISTools",
     "issueTracker": "https://github.com/ropensci/MODISTools/issues",
     "license": "https://spdx.org/licenses/AGPL-3.0",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -33827,17 +33827,29 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Hufkens",
-        "familyName": "Koen",
+        "givenName": "Koen",
+        "familyName": "Hufkens",
         "email": "koen.hufkens@gmail.com",
         "@id": "https://orcid.org/0000-0002-5070-8109"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "BlueGreen Labs"
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "BlueGreen Labs"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Hufkens",
-        "familyName": "Koen",
+        "givenName": "Koen",
+        "familyName": "Hufkens",
         "email": "koen.hufkens@gmail.com",
         "@id": "https://orcid.org/0000-0002-5070-8109"
       }
@@ -33857,15 +33869,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
+        "identifier": "markdown",
+        "name": "markdown",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
       },
       {
         "@type": "SoftwareApplication",
@@ -33890,18 +33902,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
       },
       {
         "@type": "SoftwareApplication",
@@ -33966,15 +33966,15 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
+        "identifier": "sp",
+        "name": "sp",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
+        "sameAs": "https://CRAN.R-project.org/package=sp"
       },
       "6": {
         "@type": "SoftwareApplication",
@@ -40153,7 +40153,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.10.16",
+    "version": "0.1.10.23",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66727,18 +66727,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -66861,19 +66849,6 @@
       },
       "9": {
         "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "version": ">= 3.5-19",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
-      },
-      "10": {
-        "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
         "provider": {
@@ -66884,7 +66859,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -66897,7 +66872,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -66909,7 +66884,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "unifir",
         "name": "unifir",
@@ -66921,7 +66896,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=unifir"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "units",
         "name": "units",
@@ -66933,7 +66908,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=units"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -69713,13 +69688,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "tokenizers",
-    "description": "Convert natural language text into tokens. Includes tokenizers for shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, shingled characters, lines, tweets, Penn Treebank, regular expressions, as well as functions for counting characters, words, and sentences, and a function for splitting longer texts into separate documents, each with the same number of words. The tokenizers have a consistent interface, and the package is built on the 'stringi' and 'Rcpp' packages for fast yet correct tokenization in 'UTF-8'. ",
+    "description": "Convert natural language text into tokens. Includes tokenizers for shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, shingled characters, lines, Penn Treebank, regular expressions, as well as functions for counting characters, words, and sentences, and a function for splitting longer texts into separate documents, each with the same number of words. The tokenizers have a consistent interface, and the package is built on the 'stringi' and 'Rcpp' packages for fast yet correct tokenization in 'UTF-8'. ",
     "name": "tokenizers: Fast, Consistent Tokenization of Natural Language Text",
     "relatedLink": "https://docs.ropensci.org/tokenizers/",
     "codeRepository": "https://github.com/ropensci/tokenizers",
     "issueTracker": "https://github.com/ropensci/tokenizers/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.3",
+    "version": "0.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
