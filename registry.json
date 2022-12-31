@@ -2364,7 +2364,7 @@
     },
     {
       "name": "jagstargets",
-      "description": "Targets for JAGS Workflows",
+      "description": "Targets for JAGS Pipelines",
       "details": "Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the 'jagstargets' R package is leverages 'targets' and 'R2jags' to ease this burden. 'jagstargets' makes it super easy to set up scalable JAGS pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than 'targets' alone. For the underlying methodology, please refer to the documentation of 'targets' <doi:10.21105/joss.02959> and 'JAGS' (Plummer 2003) <https://www.r-project.org/conferences/DSC-2003/Proceedings/Plummer.pdf>.",
       "maintainer": "William Michael Landau",
       "keywords": "",
@@ -2377,7 +2377,7 @@
       "url": "https://github.com/ropensci/jagstargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-15 20:46:09",
+      "date_last_commit": "2022-12-30 20:38:17",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3057,7 +3057,7 @@
       "url": "https://github.com/ropensci/opentripplanner",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-29 13:02:28",
+      "date_last_commit": "2022-12-30 13:44:18",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3097,7 +3097,7 @@
       "url": "https://github.com/ropensci/osmdata",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-19 09:57:46",
+      "date_last_commit": "2022-12-30 13:57:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3318,6 +3318,24 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2022-11-18 18:06:49",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
+      "name": "phruta",
+      "description": "Phylogenetic Reconstruction and Time-dating",
+      "details": "The phruta R package is designed to simplify the basic phylogenetic pipeline. Specifically, all code is run within the same program and data from intermediate steps are saved in independent folders. Furthrmore, all code is run within the same environment which increases the reproducibility of your analysis. phruta retrieves gene sequences, combines newly downloaded and local gene sequences, and performs sequence alignments.",
+      "maintainer": "Cristian Roman Palacios",
+      "keywords": "",
+      "github": "https://github.com/ropensci/phruta",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/phruta",
+      "date_last_commit": "2022-12-26 20:32:13",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4017,7 +4035,7 @@
       "url": "https://github.com/ropensci/rgbif",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-29 14:40:21",
+      "date_last_commit": "2022-12-30 19:46:40",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4457,7 +4475,7 @@
       "url": "https://github.com/ropensci/rrricanes",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-15 21:59:35",
+      "date_last_commit": "2022-12-30 23:13:22",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4877,7 +4895,7 @@
       "url": "https://github.com/ropensci/stantargets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-15 20:49:40",
+      "date_last_commit": "2022-12-30 20:31:38",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5005,7 +5023,7 @@
     {
       "name": "tarchetypes",
       "description": "Archetypes for Targets",
-      "details": "Function-oriented Make-like declarative workflows for Statistics and data science are supported in the 'targets' R package. As an extension to 'targets', the 'tarchetypes' package provides convenient user-side functions to make 'targets' easier to use. By establishing reusable archetypes for common kinds of targets and pipelines, these functions help express complicated reproducible workflows concisely and compactly. The methods in this package were influenced by the 'drake' R package by Will Landau (2018) <doi:10.21105/joss.00550>.",
+      "details": "Function-oriented Make-like declarative pipelines for Statistics and data science are supported in the 'targets' R package. As an extension to 'targets', the 'tarchetypes' package provides convenient user-side functions to make 'targets' easier to use. By establishing reusable archetypes for common kinds of targets and pipelines, these functions help express complicated reproducible pipelines concisely and compactly. The methods in this package were influenced by the 'drake' R package by Will Landau (2018) <doi:10.21105/joss.00550>.",
       "maintainer": "William Michael Landau",
       "keywords": "",
       "github": "https://github.com/ropensci/tarchetypes",
@@ -5017,15 +5035,15 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-14 23:44:24",
+      "date_last_commit": "2022-12-30 20:38:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
     },
     {
       "name": "targets",
-      "description": "Dynamic Function-Oriented 'Make'-Like Declarative Workflows",
-      "details": "As a pipeline toolkit for Statistics and data science in R, the 'targets' package brings together function-oriented programming and 'Make'-like declarative workflows. It analyzes the dependency relationships among the tasks of a workflow, skips steps that are already up to date, runs the necessary computation with optional parallel workers, abstracts files as R objects, and provides tangible evidence that the results match the underlying code and data. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
+      "description": "Dynamic Function-Oriented 'Make'-Like Declarative Pipelines",
+      "details": "A pipeline toolkit for Statistics and data science in R, the 'targets' package brings function-oriented programming to 'Make'-like declarative pipelines. 'targets' orchestrates a pipeline as a graph of dependencies, skips steps that are already up to date, runs the necessary computation with optional parallel workers, abstracts files as R objects, and provides tangible evidence that the results are reproducible given the underlying code and data. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
       "maintainer": "William Michael Landau",
       "keywords": "",
       "github": "https://github.com/ropensci/targets",
@@ -5037,7 +5055,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-28 03:43:18",
+      "date_last_commit": "2022-12-30 20:36:16",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6043,5 +6061,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2022-12-30 07:59 UTC"
+  "date": "2022-12-31 07:59 UTC"
 }
