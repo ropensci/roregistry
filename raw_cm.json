@@ -16468,7 +16468,7 @@
     "codeRepository": "https://github.com/ropensci/daiquiri",
     "issueTracker": "https://github.com/ropensci/daiquiri/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.3",
+    "version": "1.0.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16675,7 +16675,7 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
         "datePublished": "2022",
         "author": [
           {
@@ -16684,12 +16684,21 @@
             "familyName": "Quan"
           }
         ],
-        "name": "daiquiri: Data quality reporting for temporal datasets",
-        "identifier": "10.5281/zenodo.6334341",
-        "url": "https://github.com/ropensci/daiquiri",
-        "description": "R package version 1.0.3",
-        "@id": "https://doi.org/10.5281/zenodo.6334341",
-        "sameAs": "https://doi.org/10.5281/zenodo.6334341"
+        "name": "daiquiri: Data Quality Reporting for Temporal Datasets",
+        "identifier": "10.21105/joss.05034",
+        "pagination": "5034",
+        "@id": "https://doi.org/10.21105/joss.05034",
+        "sameAs": "https://doi.org/10.21105/joss.05034",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "80",
+          "datePublished": "2022",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "7",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "readme": "https://github.com/ropensci/daiquiri/blob/HEAD/README.md",
@@ -25366,7 +25375,7 @@
     "codeRepository": "https://github.com/ropensci/ghql",
     "issueTracker": "https://github.com/ropensci/ghql/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1.98",
+    "version": "0.1.1.99",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76450,7 +76459,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.227",
+    "version": "0.0.3.238",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
