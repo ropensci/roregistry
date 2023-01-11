@@ -148,7 +148,7 @@
       "url": "https://github.com/ropensci-org/gitcellar",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-10-17 11:20:07",
+      "date_last_commit": "2023-01-10 09:01:36",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -392,7 +392,7 @@
       "github": "https://github.com/ropensci/aorsf",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/532/",
-      "on_cran": true,
+      "on_cran": false,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/aorsf",
@@ -720,25 +720,6 @@
       "date_last_commit": "2022-05-15 16:33:50",
       "github_archived": false,
       "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "bomrang",
-      "description": "Australian Government Bureau of Meteorology ('BOM') Data Client",
-      "details": "Provides functions to interface with Australian Government Bureau of Meteorology ('BOM') data, fetching data and returning a data frame of precis forecasts, historical and current weather data from stations, agriculture bulletin data, 'BOM' 0900 or 1500 weather bulletins and downloading and importing radar and satellite imagery files. Data (c) Australian Government Bureau of Meteorology Creative Commons (CC) Attribution 3.0 licence or Public Access Licence (PAL) as appropriate. See <http://www.bom.gov.au/other/copyright.shtml> for further details.",
-      "maintainer": "Adam H. Sparks",
-      "keywords": "australia, australia-bureau-of-meteorology, bom, meteorological-data, meteorology, weather, weather-data, weather-forecast",
-      "github": "https://github.com/ropensci/bomrang",
-      "status": "https://www.repostatus.org#unsupported",
-      "onboarding": "https://github.com/ropensci/software-review/issues/121",
-      "on_cran": false,
-      "on_bioc": false,
-      "type": "archived",
-      "url": "https://github.com/ropensci/bomrang",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2023-01-10 01:27:32",
-      "cran_archived": true,
       "staff_maintained": false
     },
     {
@@ -2656,7 +2637,7 @@
       "url": "https://github.com/ropensci/mctq",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-11-04 19:04:43",
+      "date_last_commit": "2023-01-11 03:02:24",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2697,26 +2678,6 @@
       "ropensci_category": "stat",
       "ropenscilabs": false,
       "date_last_commit": "2022-11-04 22:28:56",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "MODISTools",
-      "description": "Interface to the 'MODIS Land Products Subsets' Web Services",
-      "details": "Programmatic interface to the Oak Ridge National Laboratories 'MODIS Land Products Subsets' web services (<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy downloads of 'MODIS' time series directly to your R workspace or your computer.",
-      "maintainer": "Koen Hufkens",
-      "keywords": "",
-      "github": "https://github.com/ropensci/MODISTools",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "https://github.com/ropensci/software-review/issues/246",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/MODISTools",
-      "ropensci_category": "data-access",
-      "ropenscilabs": false,
-      "date_last_commit": "2022-12-19 11:57:16",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3016,7 +2977,7 @@
       "url": "https://github.com/ropensci/opencage",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-10-24 07:23:41",
+      "date_last_commit": "2023-01-10 16:03:46",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4614,7 +4575,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-01-09 22:51:11",
+      "date_last_commit": "2023-01-10 22:53:04",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5174,7 +5135,7 @@
       "url": "https://github.com/ropensci/terrainr",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-12-19 14:36:34",
+      "date_last_commit": "2023-01-10 17:31:47",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5334,7 +5295,7 @@
       "url": "https://github.com/ropensci/tidytags",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-01-10 04:35:03",
+      "date_last_commit": "2023-01-10 21:58:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5823,7 +5784,7 @@
       "name": "wikitaxa",
       "description": "Taxonomic Information from 'Wikipedia'",
       "details": "'Taxonomic' information from 'Wikipedia', 'Wikicommons', 'Wikispecies', and 'Wikidata'. Functions included for getting taxonomic information from each of the sources just listed, as well performing taxonomic search.",
-      "maintainer": "Scott Chamberlain",
+      "maintainer": "Zachary Foster",
       "keywords": "",
       "github": "https://github.com/ropensci/wikitaxa",
       "status": "https://www.repostatus.org#active",
@@ -5834,7 +5795,7 @@
       "url": "https://github.com/ropensci/wikitaxa",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2022-11-15 17:03:24",
+      "date_last_commit": "2023-01-10 17:45:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5974,7 +5935,7 @@
       "url": "https://github.com/ropenscilabs/deposits",
       "ropensci_category": "data-publication",
       "ropenscilabs": true,
-      "date_last_commit": "2023-01-03 17:52:18",
+      "date_last_commit": "2023-01-10 17:17:00",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6060,5 +6021,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-01-10 09:25 UTC"
+  "date": "2023-01-11 07:57 UTC"
 }
