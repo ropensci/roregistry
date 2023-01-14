@@ -1682,6 +1682,18 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
@@ -1698,7 +1710,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.32",
+    "version": "0.1.1.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3120,7 +3132,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.172",
+    "version": "0.0.2.175",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3771,7 +3783,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.186",
+    "version": "0.0.1.188",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5071,6 +5083,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -47835,7 +47853,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.7.3",
+    "version": "1.8.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47868,6 +47886,13 @@
         "familyName": "Leeper",
         "email": "thosjleeper@gmail.com",
         "@id": "https://orcid.org/0000-0003-4097-6326"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Detlef",
+        "familyName": "Steuer",
+        "email": "steuer@hsu-hh.de",
+        "@id": "https://orcid.org/0000-0003-2676-5290"
       }
     ],
     "contributor": [
@@ -48063,6 +48088,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       },
       "SystemRequirements": null
     },
@@ -53136,13 +53167,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "rnaturalearth",
-    "description": "Facilitates mapping by making natural earth map data from <http://www.naturalearthdata.com/> more easily available to R users.",
+    "description": "Facilitates mapping by making natural earth map data from <https://www.naturalearthdata.com/> more easily available to R users.",
     "name": "rnaturalearth: World Map Data from Natural Earth",
-    "relatedLink": "https://docs.ropensci.org/rnaturalearth",
+    "relatedLink": "https://docs.ropensci.org/rnaturalearth/",
     "codeRepository": "https://github.com/ropensci/rnaturalearth",
     "issueTracker": "https://github.com/ropensci/rnaturalearth/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53158,17 +53189,34 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Andy",
-        "familyName": "South",
-        "email": "southandy@gmail.com"
-      }
-    ],
-    "maintainer": [
+        "givenName": "Philippe",
+        "familyName": "Massicotte",
+        "email": "pmassicotte@hotmail.com",
+        "@id": "https://orcid.org/0000-0002-5919-4116"
+      },
       {
         "@type": "Person",
         "givenName": "Andy",
         "familyName": "South",
         "email": "southandy@gmail.com"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Koen",
+        "familyName": "Hufkens",
+        "email": "koen.hufkens@gmail.com",
+        "@id": "https://orcid.org/0000-0002-5070-8109"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Philippe",
+        "familyName": "Massicotte",
+        "email": "pmassicotte@hotmail.com",
+        "@id": "https://orcid.org/0000-0002-5919-4116"
       }
     ],
     "softwareSuggestions": [
@@ -53256,16 +53304,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "version": ">= 2.5-2",
+        "identifier": "terra",
+        "name": "terra",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
       {
         "@type": "SoftwareApplication",
@@ -53401,7 +53448,7 @@
       "url": "https://github.com/ropensci/software-review/issues/22",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -73074,7 +73121,7 @@
     "codeRepository": "https://github.com/ropensci/weathercan",
     "issueTracker": "https://github.com/ropensci/weathercan/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75621,7 +75668,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.243",
+    "version": "0.0.3.250",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
