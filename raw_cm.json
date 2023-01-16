@@ -27832,6 +27832,130 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "hoardr",
+    "description": "Suite of tools for managing cached files, targeting use in other R packages. Uses 'rappdirs' for cross-platform paths. Provides utilities to manage cache directories, including targeting files by path or by key; cached directories can be compressed and uncompressed easily to save disk space.",
+    "name": "hoardr: Manage Cached Files",
+    "relatedLink": "https://docs.ropensci.org/hoardr",
+    "codeRepository": "https://github.com/ropensci/hoardr",
+    "issueTracker": "https://github.com/ropensci/hoardr/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.5.2.93",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2542-2202"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com",
+        "@id": "https://orcid.org/0000-0003-2542-2202"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R6",
+        "name": "R6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R6"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "rappdirs",
+        "name": "rappdirs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "digest",
+        "name": "digest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=digest"
+      },
+      "SystemRequirements": null
+    },
+    "applicationCategory": "Data",
+    "isPartOf": "https://ropensci.org",
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/hoardr/blob/HEAD/README.md",
+    "developmentStatus": "https://www.repostatus.org/#abandoned"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "hunspell",
     "description": "Low level spell checker and morphological analyzer based on the famous 'hunspell' library <https://hunspell.github.io>. The package can analyze or check individual words as well as parse text, latex, html or xml documents. For a more user-friendly interface use the 'spelling' package which builds on this package to automate checking of files, documentation and vignettes in all common formats.",
     "name": "hunspell: High-Performance Stemmer, Tokenizer, and Spell Checker",
@@ -47943,6 +48067,12 @@
         "@type": "Person",
         "givenName": "Matt",
         "familyName": "Kerlogue"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michal",
+        "familyName": "Lauer",
+        "email": "michal.lauer.25@gmail.com"
       }
     ],
     "maintainer": [
@@ -53173,7 +53303,7 @@
     "codeRepository": "https://github.com/ropensci/rnaturalearth",
     "issueTracker": "https://github.com/ropensci/rnaturalearth/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53300,8 +53430,7 @@
         "@type": "SoftwareApplication",
         "identifier": "rnaturalearthhires",
         "name": "rnaturalearthhires",
-        "version": ">= 0.1.0",
-        "sameAs": "https://github.com/ropensci/rnaturalearthhires"
+        "version": ">= 0.1.0"
       },
       {
         "@type": "SoftwareApplication",
@@ -53374,6 +53503,42 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tmap",
+        "name": "tmap",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tmap"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "svglite",
+        "name": "svglite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=svglite"
       }
     ],
     "softwareRequirements": {
@@ -73981,7 +74146,7 @@
     "codeRepository": "https://github.com/ropensci/webmockr",
     "issueTracker": "https://github.com/ropensci/webmockr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.2",
+    "version": "0.8.2.92",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
