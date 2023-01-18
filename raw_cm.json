@@ -1710,7 +1710,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.10",
+    "version": "0.1.1.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17712,7 +17712,7 @@
     "codeRepository": "https://github.com/ropensci/datefixR",
     "issueTracker": "https://github.com/ropensci/datefixR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.3.1.9000",
+    "version": "1.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17860,15 +17860,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "shinytest",
-        "name": "shinytest",
+        "identifier": "shinytest2",
+        "name": "shinytest2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=shinytest"
+        "sameAs": "https://CRAN.R-project.org/package=shinytest2"
       },
       {
         "@type": "SoftwareApplication",
@@ -17930,6 +17930,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "png",
+        "name": "png",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=png"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pkgbuild",
+        "name": "pkgbuild",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pkgbuild"
       }
     ],
     "softwareRequirements": {
@@ -18003,7 +18027,7 @@
         "name": "{datefixR}: Standardize Dates in Different Formats or with Missing Data",
         "identifier": "10.5281/zenodo.5655311",
         "url": "https://CRAN.R-project.org/package=datefixR",
-        "description": "R package version 1.3.1.9000",
+        "description": "R package version 1.4.0.9000",
         "@id": "https://doi.org/10.5281/zenodo.5655311",
         "sameAs": "https://doi.org/10.5281/zenodo.5655311"
       }
@@ -27839,7 +27863,7 @@
     "codeRepository": "https://github.com/ropensci/hoardr",
     "issueTracker": "https://github.com/ropensci/hoardr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5.2.93",
+    "version": "0.5.2.94",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27857,17 +27881,23 @@
         "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
         "@id": "https://orcid.org/0000-0003-2542-2202"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Tamás",
+        "familyName": "Stirling",
+        "email": "stirling.tamas@gmail.com"
       }
     ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
-        "@id": "https://orcid.org/0000-0003-2542-2202"
+        "givenName": "Tamás",
+        "familyName": "Stirling",
+        "email": "stirling.tamas@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -27951,7 +27981,7 @@
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/hoardr/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#abandoned"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -75834,7 +75864,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.250",
+    "version": "0.0.3.273",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
