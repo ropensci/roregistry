@@ -4976,6 +4976,7 @@
     },
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
+    "keywords": ["Antarctic", "SouthernOcean", "placenames", "gazetteer"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -8483,6 +8484,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["bicycle-hire-systems", "bike-hire-systems", "bike-hire", "bicycle-hire", "database", "bike-data"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -9073,6 +9075,7 @@
       "SystemRequirements": null
     },
     "applicationCategory": "DataAccess",
+    "keywords": ["BioMart", "genomic-data-retrieval", "annotation-retrieval", "database-retrieval", "NCBI", "ENSEMBL", "biological-data-retrieval"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -9292,6 +9295,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["biodiversity", "barcode", "DNA", "sequences", "fasta"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/bold/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -9607,6 +9611,7 @@
     },
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
+    "keywords": ["ropensci", "Antarctic", "SouthernOcean", "data", "environmental", "satellite", "climate"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/bowerbird/blob/HEAD/README.md",
     "review": {
@@ -9778,6 +9783,7 @@
     },
     "applicationCategory": "Phylogenetics",
     "isPartOf": "\"https://ropensci.org\"",
+    "keywords": ["phylogeny", "tree", "phylomatic", "molecular", "plants"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/brranching/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -11486,6 +11492,7 @@
       "SystemRequirements": null
     },
     "isPartOf": "https://ropensci.org",
+    "keywords": ["attribution", "citation", "credit", "citation-files", "cff", "metadata"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -12619,6 +12626,7 @@
     },
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["doi", "metadata", "citation", "opencitations", "bibtex"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/citecorp/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -13224,6 +13232,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "\"https://ropensci.org\"",
+    "keywords": ["database", "open-data", "ckan", "api", "data", "dataset"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/ckanr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -13671,6 +13680,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "\"https://ropensci.org\"",
+    "keywords": ["r", "opensci", "zealand", "weather", "climate", "cliflo", "data", "api", "windrose", "rain", "wind", "temperature"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -14172,6 +14182,7 @@
       "SystemRequirements": null
     },
     "isPartOf": "https://ropensci.org",
+    "keywords": ["metadata", "codemeta", "ropensci", "citation", "credit", "linked-data"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/codemetar/blob/HEAD/README.md",
     "review": {
@@ -15749,6 +15760,7 @@
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["http", "https", "API", "web-services", "curl", "download", "libcurl", "async", "mocking", "caching"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/crul/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -19721,7 +19733,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19860,18 +19872,6 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "bayesplot",
-        "name": "bayesplot",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=bayesplot"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
         "identifier": "checkmate",
         "name": "checkmate",
         "provider": {
@@ -19882,7 +19882,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=checkmate"
       },
-      "4": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "cli",
         "name": "cli",
@@ -19894,7 +19894,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=cli"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
@@ -19906,7 +19906,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "glue",
         "name": "glue",
@@ -19918,7 +19918,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=glue"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
@@ -19930,7 +19930,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "loo",
         "name": "loo",
@@ -19942,7 +19942,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=loo"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "MASS",
         "name": "MASS",
@@ -19954,10 +19954,22 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=MASS"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "patchwork",
+        "name": "patchwork",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=patchwork"
       },
       "11": {
         "@type": "SoftwareApplication",
@@ -20615,6 +20627,7 @@
     },
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["database", "Elasticsearch", "HTTP", "API", "search", "NoSQL", "Java", "JSON", "documents"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/elastic/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -24527,6 +24540,7 @@
     },
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["geojson", "topojson", "geospatial", "conversion", "data", "input-output"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/geojsonio/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#inactive"
@@ -24782,6 +24796,7 @@
     },
     "applicationCategory": "Tools",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["anglia-cru", "climate-data", "cru-cl2", "temperature", "rainfall", "elevation", "data-access", "wind", "relative-humidity", "solar-radiation", "diurnal-temperature", "frost"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -24933,6 +24948,7 @@
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["http", "API", "web-services", "curl", "data", "GraphQL"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/ghql/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -25120,6 +25136,7 @@
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["http", "https", "API", "web-services", "GitHub", "GitHubAPI", "gist", "gists", "code", "script", "snippet"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/gistr/blob/HEAD/README.md",
     "developmentStatus": []
@@ -26872,6 +26889,7 @@
     },
     "applicationCategory": "Tools",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["US-NCEI", "meteorological-data", "global-weather", "weather", "weather-data", "meteorology", "station-data", "surface-weather", "data-access", "US-NCDC"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -27360,6 +27378,7 @@
     },
     "applicationCategory": "Metadata",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["doi", "metadata", "citation", "bibtex", "Crossref", "Crosscite", "Codemeta", "RIS", "Citeproc", "RDF", "XML", "JSON"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/handlr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -27986,6 +28005,7 @@
     },
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["caching", "data", "files", "xml", "pdf"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/hoardr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -28739,6 +28759,7 @@
     },
     "applicationCategory": "Visualization",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["heatmap", "plotly", "r", "interactive-visualizations", "data-visualization", "htmlwidgets"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -34789,6 +34810,7 @@
     },
     "applicationCategory": "Tools",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["NASA", "meteorological-data", "weather", "global", "weather", "weather-data", "meteorology", "NASA-POWER", "agroclimatology", "earth-science", "data-access", "climate-data"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -36400,6 +36422,7 @@
     },
     "applicationCategory": "Databases",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["database", "MongoDB", "Elasticsearch", "CouchDB", "SQLite", "PostgreSQL", "DuckDB", "NoSQL", "JSON", "documents"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/nodbi/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -39791,6 +39814,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["open0street0map", "openstreetmap", "overpass0API", "OSM"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -40906,6 +40930,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["Pangaea", "environmentalscience", "earthscience", "archive", "paleontology", "ecology", "chemistry", "atmosphere"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/pangaear/blob/HEAD/README.md",
     "developmentStatus": []
@@ -41104,6 +41129,7 @@
     },
     "applicationCategory": "Geospatial",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["geospatial", "data", "latitude", "longitude", "parser", "coordinates"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/parzer/blob/HEAD/README.md",
     "review": {
@@ -42846,6 +42872,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["phylogeny", "Phylocom", "phylodiversity", "communitystructure", "characterevolution", "species"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/phylocomr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -46305,6 +46332,7 @@
     },
     "applicationCategory": "Literature",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "Crossref"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rcrossref/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -46422,6 +46450,7 @@
     },
     "applicationCategory": "Data",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["data", "scholarly", "dataset", "https", "API", "web-services"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rdatacite/blob/HEAD/README.md",
     "developmentStatus": "http://www.repostatus.org/#active"
@@ -48479,6 +48508,7 @@
     },
     "applicationCategory": "DataAccess",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["birds", "birding", "ebird", "database", "data", "biology", "observations", "sightings", "ornithology"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rebird/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/"
@@ -48977,6 +49007,7 @@
       "SystemRequirements": null
     },
     "isPartOf": "https://ropensci.org",
+    "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "metascience", "references", "scientometrics", "scienceofscience", "WebofScience"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -50165,6 +50196,7 @@
     },
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NOAA"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rerddap/blob/HEAD/README.md",
     "developmentStatus": []
@@ -51579,6 +51611,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["GBIF", "specimens", "API", "web-services", "occurrences", "species", "taxonomy"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -51850,7 +51883,7 @@
     "codeRepository": "https://github.com/ropensci/rgnparser",
     "issueTracker": "https://github.com/ropensci/rgnparser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.5.92",
+    "version": "0.2.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52767,6 +52800,7 @@
     },
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["taxonomy", "biology", "nomenclature", "JSON", "API", "web", "api-client", "identifiers", "species", "names"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/ritis/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -53096,6 +53130,7 @@
     },
     "applicationCategory": "ecologicalNetworks",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["ecology", "networks", "foodwebs", "interactions", "datapublications", "openaccess"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -54238,6 +54273,7 @@
     },
     "applicationCategory": "DataPublication",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["metadata", "nexml", "phylogenetics", "linked-data"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -54709,6 +54745,7 @@
     },
     "applicationCategory": "Climate",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["earth", "science", "climate", "precipitation", "temperature", "storm", "buoy", "NCDC", "NOAA", "tornadoe", "seaice", "ISD"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rnoaa/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -55443,6 +55480,7 @@
       "SystemRequirements": null
     },
     "isPartOf": "https://ropensci.org",
+    "keywords": ["metadata", "ropensci", "phylogenetics", "independant-contrasts", "biodiversity"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -56390,6 +56428,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["IUCN", "biodiversity", "API", "web-services", "traits", "habitat", "species", "conservation"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rredlist/blob/HEAD/README.md",
     "developmentStatus": []
@@ -57771,6 +57810,7 @@
     },
     "applicationCategory": "Genes",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["gene", "snp", "sequence", "API", "web", "api-client", "species", "dbSNP", "OpenSNP", "NCBI", "genotype"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rsnps/blob/HEAD/README.md",
     "developmentStatus": []
@@ -59097,6 +59137,7 @@
       "SystemRequirements": null
     },
     "applicationCategory": "DataAccess",
+    "keywords": ["database", "open-data", "opendatakit", "odk", "api", "data", "dataset"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -60844,7 +60885,7 @@
     "codeRepository": "https://github.com/ropensci/spatsoc",
     "issueTracker": "https://github.com/ropensci/spatsoc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.16.9000",
+    "version": "0.1.16.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61642,6 +61683,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "ropensci.org",
+    "keywords": ["specimens", "API", "web-services", "occurrences", "species", "taxonomy", "GBIF", "INAT", "Vertnet", "eBird", "iDigBio", "OBIS", "ALA"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/spocc/blob/HEAD/README.md",
     "developmentStatus": []
@@ -62506,6 +62548,7 @@
       },
       "SystemRequirements": null
     },
+    "keywords": ["stats19", "road-safety", "transport", "car-crashes", "ropensci", "data"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -64994,6 +65037,7 @@
       "SystemRequirements": null
     },
     "applicationCategory": "Taxonomy",
+    "keywords": ["taxonomy", "biology", "hierarchy"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -65888,6 +65932,7 @@
     },
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["taxonomy", "biology", "nomenclature", "JSON", "API", "web", "api-client", "identifiers", "species", "names"],
     "fileSize": "NAKB",
     "citation": [
       {
@@ -66478,7 +66523,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.2.9000",
+    "version": "0.7.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67744,7 +67789,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.5.8.9000",
+    "version": "0.5.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70552,6 +70597,7 @@
     },
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["traits", "API", "web-services", "species", "taxonomy"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/traits/blob/HEAD/README.md",
     "developmentStatus": []
@@ -72299,6 +72345,7 @@
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "http-mocking", "testing", "testing-tools", "tdd"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/vcr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -72594,7 +72641,7 @@
     "codeRepository": "https://github.com/ropensci/visdat",
     "issueTracker": "https://github.com/ropensci/visdat/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0",
+    "version": "0.6.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -74388,6 +74435,7 @@
     },
     "applicationCategory": "Web",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["http", "https", "API", "web-services", "curl", "mock", "mocking", "fakeweb", "http-mocking", "testing", "testing-tools", "tdd"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/webmockr/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -74506,6 +74554,7 @@
     },
     "applicationCategory": "Geosptial",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["spatial", "geospatial", "wkt", "wkb", "well-known-text", "geojson", "binary", "conversion"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/wellknown/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -74711,6 +74760,7 @@
     },
     "applicationCategory": "Taxonomy",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["taxonomy", "species", "API", "web-services", "Wikipedia", "vernacular", "Wikispecies", "Wikicommons"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/wikitaxa/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
@@ -75098,6 +75148,7 @@
     },
     "applicationCategory": "Biology",
     "isPartOf": "https://ropensci.org",
+    "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species"],
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/worrms/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
