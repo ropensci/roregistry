@@ -19762,6 +19762,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "bookdown",
+        "name": "bookdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=bookdown"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "cmdstanr",
         "name": "cmdstanr"
       },
@@ -20023,23 +20035,31 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
-        "datePublished": "2022",
+        "@type": "CreativeWork",
+        "datePublished": "2023",
         "author": [
           {
-            "@type": "Person",
-            "givenName": "Santtu",
-            "familyName": "Tikka"
+            "@type": "Organization",
+            "name": "Tikka"
           },
           {
-            "@type": "Person",
-            "givenName": "Jouni",
-            "familyName": "Helske"
+            "@type": "Organization",
+            "name": "Santtu"
+          },
+          {
+            "@type": "Organization",
+            "name": "Helske"
+          },
+          {
+            "@type": "Organization",
+            "name": "Jouni"
           }
         ],
-        "name": "Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
-        "url": "https://github.com/ropensci/dynamite",
-        "description": "R package version 1.0.0"
+        "name": "dynamite: An R Package for Dynamic Multivariate Panel Models",
+        "identifier": "10.48550/ARXIV.2302.01607",
+        "url": "https://arxiv.org/abs/2302.01607",
+        "@id": "https://doi.org/10.48550/ARXIV.2302.01607",
+        "sameAs": "https://doi.org/10.48550/ARXIV.2302.01607"
       },
       {
         "@type": "CreativeWork",
@@ -20058,6 +20078,25 @@
         ],
         "name": "Estimating Causal Effects from Panel Data with Dynamic Multivariate Panel Models",
         "url": "https://osf.io/preprints/socarxiv/mdwu5/"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2022",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Santtu",
+            "familyName": "Tikka"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Jouni",
+            "familyName": "Helske"
+          }
+        ],
+        "name": "Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
+        "url": "https://github.com/ropensci/dynamite",
+        "description": "R package version 1.0.0"
       }
     ],
     "readme": "https://github.com/ropensci/dynamite/blob/HEAD/README.md",
@@ -41598,7 +41637,7 @@
     "codeRepository": "https://github.com/ropensci/pdftools",
     "issueTracker": "https://github.com/ropensci/pdftools/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75899,7 +75938,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.3.301",
+    "version": "0.1.0.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
