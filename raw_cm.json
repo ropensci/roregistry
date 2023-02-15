@@ -51249,7 +51249,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.5.1",
+    "version": "3.7.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -51654,7 +51654,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.5.1"
+        "description": "R package version 3.7.5.2"
       },
       {
         "@type": "ScholarlyArticle",
@@ -65382,6 +65382,7 @@
           }
         ],
         "name": "taxadb: A high-performance local taxonomic database interface",
+        "identifier": "doi:10.1111/2041-210X.13440",
         "pagination": "1153--1159",
         "isPartOf": {
           "@type": "PublicationIssue",
@@ -66339,6 +66340,18 @@
       },
       "7": {
         "@type": "SoftwareApplication",
+        "identifier": "stringi",
+        "name": "stringi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringi"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
         "provider": {
@@ -66349,12 +66362,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "vegdata",
         "name": "vegdata",
@@ -75852,7 +75865,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.13",
+    "version": "0.1.0.24",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
