@@ -3132,7 +3132,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.181",
+    "version": "0.0.2.183",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -5076,7 +5076,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.6",
+    "version": "0.0.7.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19722,7 +19722,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19813,18 +19813,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "plm",
-        "name": "plm",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plm"
       },
       {
         "@type": "SoftwareApplication",
@@ -19945,22 +19933,10 @@
       },
       "8": {
         "@type": "SoftwareApplication",
-        "identifier": "MASS",
-        "name": "MASS",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=MASS"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "patchwork",
         "name": "patchwork",
@@ -19972,7 +19948,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=patchwork"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "posterior",
         "name": "posterior",
@@ -19984,7 +19960,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=posterior"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -19996,7 +19972,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rstan",
         "name": "rstan",
@@ -20008,12 +19984,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rstan"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -20026,7 +20002,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -20071,7 +20047,7 @@
             "familyName": "Helske"
           }
         ],
-        "name": "Estimating Causal Effects from Panel Data with Dynamic Multivariate Panel Models",
+        "name": "Estimating Causal Effects from Panel Data with Dynamic\n    Multivariate Panel Models",
         "url": "https://osf.io/preprints/socarxiv/mdwu5/"
       },
       {
@@ -39461,7 +39437,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0.1",
+    "version": "0.2.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41795,18 +41771,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "tidyverse",
-        "name": "tidyverse",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyverse"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
         "provider": {
@@ -41981,6 +41945,17 @@
     },
     "fileSize": "NAKB",
     "citation": [
+      {
+        "datePublished": "2023",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Moroz"
+          }
+        ],
+        "name": "Phonetic fieldwork research and experiments with the R package phonfieldwork"
+      },
       {
         "@type": "SoftwareSourceCode",
         "datePublished": "2020",
@@ -66432,7 +66407,7 @@
     "codeRepository": "https://github.com/ropensci/terrainr",
     "issueTracker": "https://github.com/ropensci/terrainr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.3.9000",
+    "version": "0.7.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75632,7 +75607,7 @@
     "citation": [
       {
         "@type": "SoftwareSourceCode",
-        "datePublished": "2022",
+        "datePublished": "2023",
         "author": [
           {
             "@type": "Person",
@@ -75642,7 +75617,7 @@
         ],
         "name": "yfR: Downloads and Organizes Financial Data from Yahoo Finance",
         "url": "https://github.com/ropensci/yfR",
-        "description": "R package version 1.0.4"
+        "description": "R package version 1.1.0"
       }
     ],
     "readme": "https://github.com/ropensci/yfR/blob/HEAD/README.md",
@@ -75865,7 +75840,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.24",
+    "version": "0.1.0.25",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
