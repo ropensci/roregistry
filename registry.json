@@ -127,7 +127,7 @@
       "url": "",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2022-11-01 15:13:33",
+      "date_last_commit": "2023-02-27 22:41:01",
       "cran_archived": false,
       "staff_maintained": false
     },
@@ -1554,7 +1554,7 @@
       "url": "https://github.com/ropensci/dynamite",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2023-02-24 10:13:27",
+      "date_last_commit": "2023-02-27 12:56:54",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3002,7 +3002,7 @@
     {
       "name": "openalexR",
       "description": "Getting Bibliographic Records from 'OpenAlex' Database Using 'DSL'\n    API",
-      "details": "A set of tools to extract bibliographic content from 'OpenAlex' database using API <https://docs.openalex.org/api/>.",
+      "details": "A set of tools to extract bibliographic content from 'OpenAlex' database using API <https://docs.openalex.org>.",
       "maintainer": "Massimo Aria",
       "keywords": "",
       "github": "https://github.com/ropensci/openalexR",
@@ -3012,7 +3012,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/openalexR",
-      "date_last_commit": "2023-02-26 20:26:22",
+      "date_last_commit": "2023-02-28 05:41:17",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3710,7 +3710,7 @@
       "url": "https://github.com/ropensci/rcrossref",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-11-18 12:15:18",
+      "date_last_commit": "2023-02-27 14:11:49",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5756,6 +5756,24 @@
       "staff_maintained": false
     },
     {
+      "name": "waywiser",
+      "description": "Ergonomic Methods for Assessing Spatial Models",
+      "details": "Assessing predictive models of spatial data can be challenging, both because these models are typically built for extrapolating outside the original region represented by training data and due to potential spatially structured errors, with \"hot spots\" of higher than expected error clustered geographically due to spatial structure in the underlying data. Methods are provided for assessing models fit to spatial data, including approaches for measuring the spatial structure of model errors, assessing model predictions at multiple spatial scales, and evaluating where predictions can be made safely. Methods are particularly useful for models fit using the 'tidymodels' framework. Methods include Moran's I ('Moran' (1950) <doi:10.2307/2332142>), Geary's C ('Geary' (1954) <doi:10.2307/2986645>), Getis-Ord's G ('Ord' and 'Getis' (1995) <doi:10.1111/j.1538-4632.1995.tb00912.x>), agreement coefficients from 'Ji' and Gallo (2006) (<doi: 10.14358/PERS.72.7.823>), agreement metrics from 'Willmott' (1981) (<doi: 10.1080/02723646.1981.10642213>) and 'Willmott' 'et' 'al'. (2012) (<doi: 10.1002/joc.2419>), an implementation of the area of applicability methodology from 'Meyer' and 'Pebesma' (2021) (<doi:10.1111/2041-210X.13650>), and an implementation of multi-scale assessment as described in 'Riemann' 'et' 'al'. (2010) (<doi:10.1016/j.rse.2010.05.010>).",
+      "maintainer": "Michael Mahoney",
+      "keywords": "",
+      "github": "https://github.com/ropensci/waywiser",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/571",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/waywiser",
+      "date_last_commit": "2023-02-27 14:57:47",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "wdman",
       "description": "'Webdriver'/'Selenium' Binary Manager",
       "details": "There are a number of binary files associated with the 'Webdriver'/'Selenium' project. This package provides functions to download these binaries and to manage processes involving them.",
@@ -5830,7 +5848,7 @@
       "url": "https://github.com/ropensci/webmockr",
       "ropensci_category": "http-tools",
       "ropenscilabs": false,
-      "date_last_commit": "2023-02-08 14:42:26",
+      "date_last_commit": "2023-02-28 04:33:42",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6096,5 +6114,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-02-27 07:59 UTC"
+  "date": "2023-02-28 08:02 UTC"
 }
