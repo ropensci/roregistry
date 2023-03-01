@@ -9415,6 +9415,12 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Dubois",
+        "familyName": "Salix",
+        "email": "salixdubois+bold@gmail.com"
+      },
+      {
+        "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
         "email": "myrmecocystus@gmail.com",
@@ -9467,6 +9473,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
       }
     ],
     "softwareRequirements": {
@@ -9497,15 +9515,15 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "stringr",
-        "name": "stringr",
+        "identifier": "stringi",
+        "name": "stringi",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=stringr"
+        "sameAs": "https://CRAN.R-project.org/package=stringi"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -9521,30 +9539,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "reshape",
-        "name": "reshape",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=reshape"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
         "provider": {
@@ -9555,17 +9549,16 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       },
-      "8": {
+      "6": {
         "@type": "SoftwareApplication",
-        "identifier": "tibble",
-        "name": "tibble",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tibble"
+        "identifier": "methods",
+        "name": "methods"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
       },
       "SystemRequirements": null
     },
@@ -74178,6 +74171,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "exactextractr",
+        "name": "exactextractr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=exactextractr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
         "provider": {
@@ -74247,6 +74252,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spatialsample"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "terra",
+        "name": "terra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
       {
         "@type": "SoftwareApplication",
@@ -74345,6 +74362,7 @@
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
+        "version": ">= 1.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -74508,13 +74526,14 @@
         "@type": "SoftwareApplication",
         "identifier": "yardstick",
         "name": "yardstick",
+        "version": "> 1.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=yardstick"
+        "sameAs": "https://github.com/tidymodels/yardstick"
       },
       "SystemRequirements": null
     },
