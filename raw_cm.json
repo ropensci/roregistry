@@ -24489,7 +24489,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonio",
     "issueTracker": "https://github.com/ropensci/geojsonio/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.10.0.9000",
+    "version": "0.11.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41786,7 +41786,7 @@
     "codeRepository": "https://github.com/ropensci/pathviewr",
     "issueTracker": "https://github.com/ropensci/pathviewr/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41867,6 +41867,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "anomalize",
+        "name": "anomalize",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=anomalize"
       },
       {
         "@type": "SoftwareApplication",
@@ -42037,18 +42049,6 @@
       },
       "13": {
         "@type": "SoftwareApplication",
-        "identifier": "anomalize",
-        "name": "anomalize",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=anomalize"
-      },
-      "14": {
-        "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
         "provider": {
@@ -42089,7 +42089,7 @@
         "name": "pathviewR: Tools to import, clean, and visualize animal movement data in R",
         "identifier": "10.5281/zenodo.4270187",
         "url": "https://github.com/ropensci/pathviewR",
-        "description": "R package version 1.1.6",
+        "description": "R package version 1.1.7",
         "@id": "https://doi.org/10.5281/zenodo.4270187",
         "sameAs": "https://doi.org/10.5281/zenodo.4270187",
         "isPartOf": {
@@ -52223,7 +52223,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.5.3",
+    "version": "3.7.5.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52628,7 +52628,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.5.3"
+        "description": "R package version 3.7.5.4"
       },
       {
         "@type": "ScholarlyArticle",
@@ -64763,7 +64763,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.4.9000",
+    "version": "0.7.5.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66058,7 +66058,7 @@
     "name": "taxadb: A High-Performance Local Taxonomic Database Interface",
     "issueTracker": "https://github.com/ropensci/taxadb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71982,6 +71982,381 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "tsbox",
+    "description": "Time series toolkit with identical behavior for all time series classes: 'ts','xts', 'data.frame', 'data.table', 'tibble', 'zoo', 'timeSeries', 'tsibble', 'tis' or 'irts'. Also converts reliably between these classes.",
+    "name": "tsbox: Class-Agnostic Time Series",
+    "relatedLink": "https://docs.ropensci.org/tsbox",
+    "codeRepository": "https://github.com/ropensci/tsbox",
+    "issueTracker": "https://github.com/ropensci/tsbox/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.3.1.9005",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Christoph",
+        "familyName": "Sax",
+        "email": "christoph.sax@gmail.com",
+        "@id": "https://orcid.org/0000-0002-7192-7044"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Christoph",
+        "familyName": "Sax",
+        "email": "christoph.sax@gmail.com",
+        "@id": "https://orcid.org/0000-0002-7192-7044"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "forecast",
+        "name": "forecast",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=forecast"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "seasonal",
+        "name": "seasonal",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=seasonal"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dygraphs",
+        "name": "dygraphs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dygraphs"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "xts",
+        "name": "xts",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xts"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "scales",
+        "name": "scales",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=scales"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tsibble",
+        "name": "tsibble",
+        "version": ">= 0.8.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tsibble"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tsibbledata",
+        "name": "tsibbledata",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tsibbledata"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tibbletime",
+        "name": "tibbletime",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibbletime"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tseries",
+        "name": "tseries",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tseries"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "units",
+        "name": "units",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=units"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "zoo",
+        "name": "zoo",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=zoo"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tis",
+        "name": "tis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "timeSeries",
+        "name": "timeSeries",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=timeSeries"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "nycflights13",
+        "name": "nycflights13",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=nycflights13"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "imputeTS",
+        "name": "imputeTS",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=imputeTS"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "version": ">= 1.10.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "anytime",
+        "name": "anytime",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=anytime"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Sax",
+            "email": "christoph.sax@gmail.com"
+          }
+        ],
+        "name": "tsbox: Class-Agnostic Time Series in in {R}",
+        "url": "https://www.tsbox.help",
+        "description": "{R package}"
+      }
+    ],
+    "readme": "https://github.com/ropensci/tsbox/blob/HEAD/README.md",
+    "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "UCSCXenaTools",
     "description": "Download and explore datasets from UCSC Xena data hubs, which are a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others. Databases are normalized so they can be combined, linked, filtered, explored and downloaded.",
     "name": "UCSCXenaTools: Download and Explore Datasets from UCSC Xena Data Hubs",
@@ -74279,6 +74654,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "rsample",
+        "name": "rsample",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rsample"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "spatialsample",
         "name": "spatialsample",
         "provider": {
@@ -74493,18 +74880,6 @@
       },
       "10": {
         "@type": "SoftwareApplication",
-        "identifier": "rsample",
-        "name": "rsample",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rsample"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
         "version": ">= 1.0-0",
@@ -74516,7 +74891,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "spdep",
         "name": "spdep",
@@ -74529,12 +74904,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=spdep"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -74546,7 +74921,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -74558,7 +74933,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "yardstick",
         "name": "yardstick",
@@ -77357,7 +77732,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.25",
+    "version": "0.1.0.30",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
