@@ -1989,7 +1989,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.1.13",
+    "version": "0.1.1.17",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4062,7 +4062,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.1.188",
+    "version": "0.0.1.191",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -13715,7 +13715,7 @@
     "codeRepository": "https://github.com/ropensci/clifro",
     "issueTracker": "https://github.com/ropensci/clifro/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "3.2.5.9002",
+    "version": "3.2.5.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24489,7 +24489,7 @@
     "codeRepository": "https://github.com/ropensci/geojsonio",
     "issueTracker": "https://github.com/ropensci/geojsonio/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.11.0",
+    "version": "0.11.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39964,7 +39964,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.1.1",
+    "version": "0.2.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -41510,18 +41510,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "randgeo",
-        "name": "randgeo",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=randgeo"
       },
       {
         "@type": "SoftwareApplication",
@@ -52367,18 +52355,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "randgeo",
-        "name": "randgeo",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=randgeo"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "vcr",
         "name": "vcr",
         "version": ">= 1.2.0",
@@ -52553,22 +52529,10 @@
       },
       "12": {
         "@type": "SoftwareApplication",
-        "identifier": "conditionz",
-        "name": "conditionz",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=conditionz"
-      },
-      "13": {
-        "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "wk",
         "name": "wk",
@@ -65084,7 +65048,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.14.2.9000",
+    "version": "0.14.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71985,11 +71949,11 @@
     "identifier": "tsbox",
     "description": "Time series toolkit with identical behavior for all time series classes: 'ts','xts', 'data.frame', 'data.table', 'tibble', 'zoo', 'timeSeries', 'tsibble', 'tis' or 'irts'. Also converts reliably between these classes.",
     "name": "tsbox: Class-Agnostic Time Series",
-    "relatedLink": "https://docs.ropensci.org/tsbox",
+    "relatedLink": "https://docs.ropensci.org/tsbox/",
     "codeRepository": "https://github.com/ropensci/tsbox",
     "issueTracker": "https://github.com/ropensci/tsbox/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.1.9005",
+    "version": "0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72297,6 +72261,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": {
@@ -72347,7 +72323,7 @@
           }
         ],
         "name": "tsbox: Class-Agnostic Time Series in in {R}",
-        "url": "https://www.tsbox.help",
+        "url": "https://docs.ropensci.org/tsbox/",
         "description": "{R package}"
       }
     ],
