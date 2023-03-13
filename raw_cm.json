@@ -6508,7 +6508,7 @@
         "identifier": "graphics",
         "name": "graphics"
       },
-      "SystemRequirements": "FFmpeg (>= 3.2); with at least libx264 and lame (mp3) drivers.\n\tDebian/Ubuntu: libavfilter-dev, Fedora/CentOS: ffmpeg-devel (via https://rpmfusion.org), \n\tMacOS Homebrew: ffmpeg."
+      "SystemRequirements": "FFmpeg (>= 3.2); with at least libx264 and lame (mp3) drivers.\n\tMacOS Homebrew: ffmpeg. Debian/Ubuntu: libavfilter-dev. Fedora/CentOS: either \n\tffmpeg-free-devel or (via https://rpmfusion.org) ffmpeg-devel."
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/av/blob/HEAD/README.md",
@@ -48946,7 +48946,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -64998,7 +64998,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.14.3",
+    "version": "0.14.3.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67083,7 +67083,7 @@
     "codeRepository": "https://github.com/ropensci/taxlist",
     "issueTracker": "https://github.com/ropensci/taxlist/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.2.3.9001",
+    "version": "0.2.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67190,12 +67190,13 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.5.0"
+        "version": ">= 4.0"
       },
       "2": {
         "@type": "SoftwareApplication",
         "identifier": "biblio",
         "name": "biblio",
+        "version": ">= 0.0.8",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -67288,6 +67289,20 @@
     },
     "fileSize": "NAKB",
     "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Miguel",
+            "familyName": "Alvarez",
+            "email": "kamapu78@gmail.com",
+            "@id": "https://orcid.org/0000-0003-1500-1834"
+          }
+        ],
+        "name": "taxlist: Handling Taxonomic Lists",
+        "description": " https://cran.r-project.org/package=taxlist, https://github.com/ropensci/taxlist, https://docs.ropensci.org/taxlist/"
+      },
       {
         "@type": "ScholarlyArticle",
         "datePublished": "2018",
