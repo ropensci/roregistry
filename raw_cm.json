@@ -15064,6 +15064,183 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "concstats",
+    "description": "Based on individual market shares of all participants in a market or space, the package offers a set of different structural and concentration measures frequently - and not so frequently - used in research and in practice. Measures can be calculated in groups or individually. The calculated measure or the resulting vector in table format should help practitioners make more informed decisions. Methods used in this package are from: 1. Chang, E. J., Guerra, S. M., de Souza Penaloza, R. A. & Tabak, B. M. (2005) \"Banking concentration: the Brazilian case\". 2. Cobham, A. and A. Summer (2013). \"Is It All About the Tails? The Palma Measure of Income Inequality\". 3. Garcia Alba Idunate, P. (1994). \"Un Indice de dominancia para el analisis de la estructura de los mercados\". 4. Ginevicius, R. and S. Cirba (2009). \"Additive measurement of market concentration\" <doi:10.3846/1611-1699.2009.10.191-198>. 5. Herfindahl, O. C. (1950), \"Concentration in the steel industry\" (PhD thesis). 6. Hirschmann, A. O. (1945), \"National power and structure of foreign trade\". 7. Melnik, A., O. Shy, and R. Stenbacka (2008), \"Assessing market dominance\" <doi:10.1016/j.jebo.2008.03.010>. 8. Palma, J. G. (2006). \"Globalizing Inequality: 'Centrifugal' and 'Centripetal' Forces at Work\". 9. Shannon, C. E. (1948). \"A Mathematical Theory of Communication\". 10. Simpson, E. H. (1949). \"Measurement of Diversity\" <doi:10.1038/163688a0>.",
+    "name": "concstats: Market Structure, Concentration and Inequality Measures",
+    "relatedLink": "https//schneiderpy.github.io/constats",
+    "codeRepository": "https://github.com/ropensci/concstats",
+    "issueTracker": "https://github.com/schneiderpy/concstats/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.1.6",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Andreas",
+        "familyName": "Schneider",
+        "email": "schneiderconsultingpy@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5630-1097"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Andreas",
+        "familyName": "Schneider",
+        "email": "schneiderconsultingpy@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5630-1097"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "devtools",
+        "name": "devtools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=devtools"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "kableExtra",
+        "name": "kableExtra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=kableExtra"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2022",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Schneider"
+          }
+        ],
+        "name": "concstats: Market Structure, Concentration, and Inequality\n              Measures",
+        "identifier": "10.5281/zenodo.6456536",
+        "url": "https://CRAN.R-project.org/package=concstats",
+        "description": "R package version 0.1.2",
+        "@id": "https://doi.org/10.5281/zenodo.6456536",
+        "sameAs": "https://doi.org/10.5281/zenodo.6456536"
+      }
+    ],
+    "readme": "https://github.com/ropensci/concstats/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/559",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "CoordinateCleaner",
     "description": "Automated flagging of common spatial and temporal errors in biological and paleontological collection data, for the use in conservation, ecology and paleontology. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets. The reference for the methodology is: Zizka et al. (2019) <doi:10.1111/2041-210X.13152>.",
     "name": "CoordinateCleaner: Automated Cleaning of Occurrence Records from Biological Collections",
