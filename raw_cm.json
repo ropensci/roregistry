@@ -15067,10 +15067,10 @@
     "identifier": "concstats",
     "description": "Based on individual market shares of all participants in a market or space, the package offers a set of different structural and concentration measures frequently - and not so frequently - used in research and in practice. Measures can be calculated in groups or individually. The calculated measure or the resulting vector in table format should help practitioners make more informed decisions. Methods used in this package are from: 1. Chang, E. J., Guerra, S. M., de Souza Penaloza, R. A. & Tabak, B. M. (2005) \"Banking concentration: the Brazilian case\". 2. Cobham, A. and A. Summer (2013). \"Is It All About the Tails? The Palma Measure of Income Inequality\". 3. Garcia Alba Idunate, P. (1994). \"Un Indice de dominancia para el analisis de la estructura de los mercados\". 4. Ginevicius, R. and S. Cirba (2009). \"Additive measurement of market concentration\" <doi:10.3846/1611-1699.2009.10.191-198>. 5. Herfindahl, O. C. (1950), \"Concentration in the steel industry\" (PhD thesis). 6. Hirschmann, A. O. (1945), \"National power and structure of foreign trade\". 7. Melnik, A., O. Shy, and R. Stenbacka (2008), \"Assessing market dominance\" <doi:10.1016/j.jebo.2008.03.010>. 8. Palma, J. G. (2006). \"Globalizing Inequality: 'Centrifugal' and 'Centripetal' Forces at Work\". 9. Shannon, C. E. (1948). \"A Mathematical Theory of Communication\". 10. Simpson, E. H. (1949). \"Measurement of Diversity\" <doi:10.1038/163688a0>.",
     "name": "concstats: Market Structure, Concentration and Inequality Measures",
-    "relatedLink": "https//schneiderpy.github.io/constats",
+    "relatedLink": "https://docs.ropensci.org/concstats/",
     "codeRepository": "https://github.com/ropensci/concstats",
-    "issueTracker": "https://github.com/schneiderpy/concstats/issues",
-    "license": "https://spdx.org/licenses/MIT",
+    "issueTracker": "https://github.com/ropensci/concstats/issues/",
+    "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
@@ -46605,7 +46605,7 @@
     "codeRepository": "https://github.com/ropensci/rb3",
     "issueTracker": "https://github.com/ropensci/rb3/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75302,17 +75302,20 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "CreativeWork",
+        "datePublished": "2023",
         "author": [
           {
             "@type": "Person",
-            "givenName": "Michael",
+            "givenName": ["Michael", "J"],
             "familyName": "Mahoney"
           }
         ],
-        "name": "{waywiser}: Ergonomic Methods for Assessing Spatial Models",
-        "url": "https://CRAN.R-project.org/package=waywiser",
-        "description": "R package version 0.3.0.9000"
+        "name": "waywiser: Ergonomic Methods for Assessing Spatial Models",
+        "identifier": "10.48550/arXiv.2303.11312",
+        "url": "https://arxiv.org/abs/2303.11312",
+        "@id": "https://doi.org/10.48550/arXiv.2303.11312",
+        "sameAs": "https://doi.org/10.48550/arXiv.2303.11312"
       }
     ],
     "readme": "https://github.com/ropensci/waywiser/blob/HEAD/README.md",
@@ -78788,6 +78791,167 @@
     "fileSize": "NAKB",
     "readme": "https://github.com/ropenscilabs/qcoder/blob/HEAD/README.md",
     "developmentStatus": []
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "quartificate",
+    "description": "Automate the Transformation of a Google Document into a Quarto Book source.",
+    "name": "quartificate: Transform Google Docs into Quarto Books",
+    "codeRepository": "https://github.com/ropenscilabs/quartificate",
+    "issueTracker": "https://github.com/ropenscilabs/quartificate/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.0.0.9000",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "msmaellesalmon@gmail.com",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Maëlle",
+        "familyName": "Salmon",
+        "email": "msmaellesalmon@gmail.com",
+        "@id": "https://orcid.org/0000-0002-2815-0399"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "brio",
+        "name": "brio",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=brio"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "fs",
+        "name": "fs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=fs"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "googledrive",
+        "name": "googledrive",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=googledrive"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "pandoc",
+        "name": "pandoc",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pandoc"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "quarto",
+        "name": "quarto",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=quarto"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "whisker",
+        "name": "whisker",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=whisker"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "0KB",
+    "readme": "https://github.com/ropenscilabs/quartificate/blob/HEAD/README.md",
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
