@@ -45709,13 +45709,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "qualR",
-    "description": "A package to download information from CETESB QUALAR <https://cetesb.sp.gov.br/ar/qualar/> and MonitorAr <https://www.rio.rj.gov.br/web/smac/monitorar-rio1> systems. It contains function to download different parameters, a set of criteria pollutants and the most frequent meteorological parameters used in air quality data analysis and air quality model evaluation.",
+    "description": "A package to download information from CETESB QUALAR <https://cetesb.sp.gov.br/ar/qualar/> and MonitorAr <http://jeap.rio.rj.gov.br/je-metinfosmac/institucional/index.html> systems. It contains function to download different parameters, a set of criteria pollutants and the most frequent meteorological parameters used in air quality data analysis and air quality model evaluation.",
     "name": "qualR: An R package to download São Paulo and Rio de Janeiro air pollution data",
     "relatedLink": "https://docs.ropensci.org/qualR",
     "codeRepository": "https://github.com/ropensci/qualR",
     "issueTracker": "https://github.com/ropensci/qualR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.6",
+    "version": "0.9.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -78237,10 +78237,22 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "jsonvalidate",
+        "name": "jsonvalidate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonvalidate"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
@@ -78252,7 +78264,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -78264,7 +78276,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
