@@ -55170,18 +55170,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "terra",
-        "name": "terra",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=terra"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "pbapply",
         "name": "pbapply",
         "provider": {
@@ -55316,6 +55304,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "terra",
+        "name": "terra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
       "SystemRequirements": null
     },
@@ -67790,7 +67790,7 @@
     "codeRepository": "https://github.com/ropensci/taxizedb",
     "issueTracker": "https://github.com/ropensci/taxizedb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -67990,7 +67990,7 @@
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/taxizedb/blob/HEAD/README.md",
-    "developmentStatus": []
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
