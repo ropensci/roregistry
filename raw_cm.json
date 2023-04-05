@@ -49703,7 +49703,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -49946,6 +49946,18 @@
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
       "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "zip",
+        "name": "zip",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=zip"
+      },
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -52930,7 +52942,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.6",
+    "version": "3.7.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53311,7 +53323,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.6"
+        "description": "R package version 3.7.7"
       },
       {
         "@type": "ScholarlyArticle",
@@ -78477,7 +78489,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.1.20",
+    "version": "0.1.1.24",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
