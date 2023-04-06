@@ -10866,18 +10866,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "tidyverse",
-        "name": "tidyverse",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=tidyverse"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "version": ">= 3.0.0",
@@ -40352,7 +40340,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.1.3",
+    "version": "0.2.1.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45589,7 +45577,7 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
         "datePublished": "2023",
         "author": [
           {
@@ -45599,18 +45587,41 @@
           },
           {
             "@type": "Person",
-            "givenName": "Robin",
+            "givenName": ["Robin", "D"],
             "familyName": "Blythe"
           },
           {
             "@type": "Person",
-            "givenName": "Adrian",
+            "givenName": ["Adrian", "G"],
             "familyName": "Barnett"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Susanna", "M"],
+            "familyName": "Cramb"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Steven", "M"],
+            "familyName": "McPhail"
           }
         ],
-        "name": "{predictNMB}: Evaluate Clinical Prediction Models by Net Monetary Benefit",
-        "url": "https://github.com/ropensci/predictNMB",
-        "description": "0.1.0"
+        "name": "predictNMB: An R package to estimate if or when a clinical prediction model is worthwhile",
+        "identifier": "10.21105/joss.05328",
+        "url": "https://doi.org/10.21105/joss.05328",
+        "pagination": "5328",
+        "@id": "https://doi.org/10.21105/joss.05328",
+        "sameAs": "https://doi.org/10.21105/joss.05328",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "84",
+          "datePublished": "2023",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "8",
+            "name": "Journal of Open Source Software"
+          }
+        }
       }
     ],
     "readme": "https://github.com/ropensci/predictNMB/blob/HEAD/README.md",
