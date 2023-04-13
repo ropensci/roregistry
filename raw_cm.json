@@ -14905,12 +14905,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.3 (2023-03-15)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -15724,6 +15718,104 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "CRediTas",
+    "description": "A tiny package to generate CRediT author statements (<https://credit.niso.org/>). It provides three functions: create a template, read it back and generate the CRediT author statement in a text file.",
+    "name": "CRediTas: Generate CRediT Author Statements",
+    "relatedLink": "https://docs.ropensci.org/CRediTas/",
+    "codeRepository": "https://github.com/ropensci/CRediTas",
+    "issueTracker": "https://github.com/ropensci/CRediTas/issues/",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.2.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Josep",
+        "familyName": "Pueyo-Ros",
+        "email": "josep.pueyo@udg.edu",
+        "@id": "https://orcid.org/0000-0002-1236-5651"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Josep",
+        "familyName": "Pueyo-Ros",
+        "email": "josep.pueyo@udg.edu",
+        "@id": "https://orcid.org/0000-0002-1236-5651"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rvest",
+        "name": "rvest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rvest"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/CRediTas/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/576",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -18886,7 +18978,7 @@
     "codeRepository": "https://github.com/ropensci/dittodb",
     "issueTracker": "https://github.com/ropensci/dittodb/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.1.4.9000",
+    "version": "0.1.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25767,7 +25859,7 @@
     "codeRepository": "https://github.com/ropensci/git2r",
     "issueTracker": "https://github.com/ropensci/git2r/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.31.0.9000",
+    "version": "0.32.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25833,26 +25925,6 @@
       "SystemRequirements": "By default, git2r uses a system installation of\n    the libgit2 headers and library. However, if a system installation\n    is not available, builds and uses a bundled version of the libgit2\n    source. zlib headers and library. OpenSSL headers and library\n    (non-macOS). LibSSH2 (optional on non-Windows) to enable the SSH\n    transport."
     },
     "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "SoftwareSourceCode",
-        "datePublished": "2020",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Stefan",
-            "familyName": "Widgren"
-          },
-          {
-            "@type": "Organization",
-            "name": "others"
-          }
-        ],
-        "name": "{git2r}: Provides Access to Git Repositories",
-        "url": "https://CRAN.R-project.org/package=git2r",
-        "description": "R package version 0.27.1"
-      }
-    ],
     "readme": "https://github.com/ropensci/git2r/blob/HEAD/README.md",
     "developmentStatus": []
   },
@@ -45274,7 +45346,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "predictNMB",
-    "description": "Estimates when and where a model-guided treatment strategy may outperform a treat-all or treat-none approach by Monte Carlo simulation and evaluation of the Net Monetary Benefit (NMB).",
+    "description": "Estimates when and where a model-guided treatment strategy may outperform a treat-all or treat-none approach by Monte Carlo simulation and evaluation of the Net Monetary Benefit. Details can be viewed in Parsons et al. (2023) <doi:10.21105/joss.05328>.",
     "name": "predictNMB: Evaluate Clinical Prediction Models by Net Monetary Benefit",
     "codeRepository": "https://github.com/ropensci/predictNMB",
     "issueTracker": "https://github.com/ropensci/predictNMB/issues",
@@ -45286,6 +45358,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -52941,7 +53019,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.7",
+    "version": "3.7.7.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53322,7 +53400,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.7"
+        "description": "R package version 3.7.7.1"
       },
       {
         "@type": "ScholarlyArticle",
@@ -59850,7 +59928,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0.9000",
+    "version": "1.2.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62562,6 +62640,13 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Eduard",
+        "familyName": "Szöcs",
+        "email": "eduardszoecs@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1444-9135"
+      },
+      {
+        "@type": "Person",
         "givenName": "Scott",
         "familyName": "Chamberlain",
         "email": "myrmecocystus@gmail.com",
@@ -62577,9 +62662,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com",
+        "givenName": "Eduard",
+        "familyName": "Szöcs",
+        "email": "eduardszoecs@gmail.com",
         "@id": "https://orcid.org/0000-0003-1444-9135"
       }
     ],
@@ -62679,7 +62764,7 @@
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/sofa/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#abandoned"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -66021,6 +66106,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "crew",
+        "name": "crew",
+        "version": ">= 0.0.5.9007",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://github.com/wlandau/crew"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
         "version": ">= 4.3",
@@ -66190,6 +66288,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "parallelly",
+        "name": "parallelly",
+        "version": ">= 1.35.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=parallelly"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "paws",
         "name": "paws",
         "version": ">= 0.1.11",
@@ -66278,6 +66389,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "R.utils",
+        "name": "R.utils",
+        "version": ">= 2.6.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=R.utils"
       },
       {
         "@type": "SoftwareApplication",
