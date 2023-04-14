@@ -15736,6 +15736,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -25920,7 +25926,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.4"
+        "version": ">= 4.0"
       },
       "SystemRequirements": "By default, git2r uses a system installation of\n    the libgit2 headers and library. However, if a system installation\n    is not available, builds and uses a bundled version of the libgit2\n    source. zlib headers and library. OpenSSL headers and library\n    (non-macOS). LibSSH2 (optional on non-Windows) to enable the SSH\n    transport."
     },
@@ -66007,13 +66013,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "targets",
-    "description": "A pipeline toolkit for Statistics and data science in R, the 'targets' package brings function-oriented programming to 'Make'-like declarative pipelines. 'targets' orchestrates a pipeline as a graph of dependencies, skips steps that are already up to date, runs the necessary computation with optional parallel workers, abstracts files as R objects, and provides tangible evidence that the results are reproducible given the underlying code and data. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
+    "description": "Pipeline tools coordinate the pieces of computationally demanding analysis projects. The 'targets' package is a 'Make'-like pipeline tool for statistics and data science in R. The package skips costly runtime for tasks that are already up to date, orchestrates the necessary computation with implicit parallel computing, and abstracts files as R objects. If all the current output matches the current upstream code and data, then the whole pipeline is up to date, and the results are more trustworthy than otherwise. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
     "name": "targets: Dynamic Function-Oriented 'Make'-Like Declarative Pipelines",
     "relatedLink": "https://docs.ropensci.org/targets/",
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.14.3.9000",
+    "version": "0.14.3.9005",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66108,7 +66114,7 @@
         "@type": "SoftwareApplication",
         "identifier": "crew",
         "name": "crew",
-        "version": ">= 0.0.5.9007",
+        "version": ">= 0.0.5.9011",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",

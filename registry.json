@@ -53,7 +53,7 @@
       "url": "https://github.com/ropensci-review-tools/babeldown",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-02-23 16:49:51",
+      "date_last_commit": "2023-04-14 07:51:11",
       "cran_archived": false,
       "staff_maintained": false
     },
@@ -1250,7 +1250,7 @@
       "github": "https://github.com/ropensci/CRediTas",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/576",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/CRediTas",
@@ -2074,7 +2074,7 @@
       "url": "https://github.com/ropensci/git2r",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-04-13 05:09:06",
+      "date_last_commit": "2023-04-13 21:24:48",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3114,7 +3114,7 @@
       "url": "https://github.com/ropensci/opencv",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2023-03-15 19:40:28",
+      "date_last_commit": "2023-04-13 12:24:44",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -4734,7 +4734,7 @@
       "url": "https://github.com/ropensci/rtweet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-04-12 23:27:55",
+      "date_last_commit": "2023-04-13 23:40:18",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5182,7 +5182,7 @@
     {
       "name": "targets",
       "description": "Dynamic Function-Oriented 'Make'-Like Declarative Pipelines",
-      "details": "A pipeline toolkit for Statistics and data science in R, the 'targets' package brings function-oriented programming to 'Make'-like declarative pipelines. 'targets' orchestrates a pipeline as a graph of dependencies, skips steps that are already up to date, runs the necessary computation with optional parallel workers, abstracts files as R objects, and provides tangible evidence that the results are reproducible given the underlying code and data. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
+      "details": "Pipeline tools coordinate the pieces of computationally demanding analysis projects. The 'targets' package is a 'Make'-like pipeline tool for statistics and data science in R. The package skips costly runtime for tasks that are already up to date, orchestrates the necessary computation with implicit parallel computing, and abstracts files as R objects. If all the current output matches the current upstream code and data, then the whole pipeline is up to date, and the results are more trustworthy than otherwise. The methodology in this package borrows from GNU 'Make' (2015, ISBN:978-9881443519) and 'drake' (2018, <doi:10.21105/joss.00550>).",
       "maintainer": "William Michael Landau",
       "keywords": "",
       "github": "https://github.com/ropensci/targets",
@@ -5194,7 +5194,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-04-13 02:27:49",
+      "date_last_commit": "2023-04-14 00:08:15",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6240,5 +6240,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-04-13 08:00 UTC"
+  "date": "2023-04-14 07:57 UTC"
 }
