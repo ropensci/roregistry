@@ -1607,7 +1607,7 @@
     "description": "Reads Genbank files.",
     "name": "genbankr: Parsing GenBank files into semantically useful objects",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.27.1",
+    "version": "1.29.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -11544,6 +11544,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.0 (2023-04-21)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -34112,7 +34118,7 @@
     "codeRepository": "https://github.com/ropensci/melt",
     "issueTracker": "https://github.com/ropensci/melt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.9.0.9000",
+    "version": "1.9.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66251,7 +66257,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76198,8 +76204,21 @@
       },
       "15": {
         "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
         "identifier": "yardstick",
         "name": "yardstick",
+        "version": ">= 1.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -76863,7 +76882,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "webchem",
-    "description": "Chemical information from around the web. This package interacts with a suite of web services for chemical information. Sources include: Alan Wood's Compendium of Pesticide Common Names, Chemical Identifier Resolver, ChEBI, Chemical Translation Service, ChemIDplus, ChemSpider, ETOX, Flavornet, NIST Chemistry WebBook, OPSIN, PAN Pesticide Database, PubChem, SRS, Wikidata.",
+    "description": "Chemical information from around the web. This package interacts with a suite of web services for chemical information. Sources include: Alan Wood's Compendium of Pesticide Common Names, Chemical Identifier Resolver, ChEBI, Chemical Translation Service, ChemSpider, ETOX, Flavornet, NIST Chemistry WebBook, OPSIN, PAN Pesticide Database, PubChem, SRS, Wikidata.",
     "name": "webchem: Chemical Information from the Web",
     "relatedLink": "https://docs.ropensci.org/webchem/",
     "codeRepository": "https://github.com/ropensci/webchem",
@@ -78879,7 +78898,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4.1",
+    "version": "0.1.4.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
