@@ -63433,7 +63433,7 @@
     "codeRepository": "https://github.com/ropensci/spiro",
     "issueTracker": "https://github.com/ropensci/spiro/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.9000",
+    "version": "0.2.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66592,6 +66592,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "nanonext",
+        "name": "nanonext",
+        "version": ">= 0.8.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=nanonext"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "version": ">= 2.4",
@@ -66925,19 +66938,6 @@
       },
       "10": {
         "@type": "SoftwareApplication",
-        "identifier": "nanonext",
-        "name": "nanonext",
-        "version": ">= 0.8.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=nanonext"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
         "version": ">= 2.4.1",
@@ -66949,7 +66949,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -66962,12 +66962,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -66980,7 +66980,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -66993,17 +66993,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tools",
         "name": "tools"
       },
-      "17": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "18": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -67016,7 +67016,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "19": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
@@ -78971,7 +78971,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4.88",
+    "version": "0.1.4.99",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
