@@ -13188,378 +13188,6 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "citesdb",
-    "description": "Provides convenient access to over 40 years and 20 million records of endangered wildlife trade data from the Convention on International Trade in Endangered Species of Wild Fauna and Flora, stored on a local on-disk, out-of memory 'DuckDB' database for bulk analysis.",
-    "name": "citesdb: A High-Performance Database of Shipment-Level 'CITES' Trade Data",
-    "relatedLink": ["https://docs.ropensci.org/citesdb", "https://www.cites.org/"],
-    "codeRepository": "https://github.com/ropensci/citesdb",
-    "issueTracker": "https://github.com/ropensci/citesdb/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.0",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.3.0 (2023-04-21)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Noam",
-        "familyName": "Ross",
-        "email": "ross@ecohealthalliance.org",
-        "@id": "https://orcid.org/0000-0002-2136-0000"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Evan A.",
-        "familyName": "Eskew",
-        "email": "eskew@ecohealthalliance.org",
-        "@id": "https://orcid.org/0000-0002-1153-5356"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Mauricio",
-        "familyName": "Vargas"
-      }
-    ],
-    "contributor": [
-      {
-        "@type": "Person",
-        "givenName": "Nicolas",
-        "familyName": "Ray"
-      },
-      {
-        "@type": "Organization",
-        "name": "UNEP World Conservation Monitoring Centre"
-      }
-    ],
-    "copyrightHolder": [
-      {
-        "@type": "Organization",
-        "name": "EcoHealth Alliance"
-      }
-    ],
-    "funder": [
-      {
-        "@type": "Organization",
-        "name": "USAID PREDICT"
-      },
-      {
-        "@type": "Organization",
-        "name": "EcoHealth Alliance"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Noam",
-        "familyName": "Ross",
-        "email": "ross@ecohealthalliance.org",
-        "@id": "https://orcid.org/0000-0002-2136-0000"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "spelling",
-        "name": "spelling",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=spelling"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rmarkdown",
-        "name": "rmarkdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rstudioapi",
-        "name": "rstudioapi",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lintr",
-        "name": "lintr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lintr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "callr",
-        "name": "callr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=callr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "here",
-        "name": "here",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=here"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rcites",
-        "name": "rcites",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rcites"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "duckdb",
-        "name": "duckdb",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=duckdb"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "DBI",
-        "name": "DBI",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DBI"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "R.utils",
-        "name": "R.utils",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=R.utils"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "tools",
-        "name": "tools"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "dplyr",
-        "name": "dplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dplyr"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "dbplyr",
-        "name": "dbplyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=dbplyr"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "ScholarlyArticle",
-        "datePublished": "2019",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Noam",
-            "familyName": "Ross"
-          },
-          {
-            "@type": "Person",
-            "givenName": ["Evan", "A."],
-            "familyName": "Eskew"
-          },
-          {
-            "@type": "Person",
-            "givenName": "Nicolas",
-            "familyName": "Ray"
-          }
-        ],
-        "name": "citesdb: An R package to support analysis of CITES Trade Database shipment-level data",
-        "identifier": "10.21105/joss.01483",
-        "url": "https://doi.org/10.21105/joss.01483",
-        "pagination": "1483",
-        "@id": "https://doi.org/10.21105/joss.01483",
-        "sameAs": "https://doi.org/10.21105/joss.01483",
-        "isPartOf": {
-          "@type": "PublicationIssue",
-          "issueNumber": "37",
-          "datePublished": "2019",
-          "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
-            "volumeNumber": "4",
-            "name": "Journal of Open Source Software"
-          }
-        }
-      },
-      {
-        "@type": "CreativeWork",
-        "datePublished": "2020",
-        "author": [
-          {
-            "@type": "Organization",
-            "name": "UNEP-WCMC"
-          }
-        ],
-        "name": "Full CITES Trade Database Download. Version 2020.1",
-        "url": "https://trade.cites.org"
-      }
-    ],
-    "readme": "https://github.com/ropensci/citesdb/blob/HEAD/README.md",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/292",
-      "provider": "https://ropensci.org"
-    },
-    "developmentStatus": "https://www.repostatus.org/#active"
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
     "identifier": "ckanr",
     "description": "Client for 'CKAN' API (<https://ckan.org/>). Includes interface to 'CKAN' 'APIs' for search, list, show for packages, organizations, and resources. In addition, provides an interface to the 'datastore' API.",
     "name": "ckanr: Client for the Comprehensive Knowledge Archive Network ('CKAN') API",
@@ -36747,7 +36375,7 @@
     "codeRepository": "https://github.com/ropensci/nlrx",
     "issueTracker": "https://github.com/ropensci/nlrx/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.3",
+    "version": "0.4.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36796,6 +36424,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "mockery",
+        "name": "mockery",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mockery"
       },
       {
         "@type": "SoftwareApplication",
@@ -37096,7 +36736,7 @@
         "name": "R",
         "version": ">= 3.3"
       },
-      "SystemRequirements": "\n    NetLogo (>= 5.3.1), Java (JDK 1.8), pandoc, OpenSSL, udunits-2, PROJ.4, GEOS, GDAL, libxml2"
+      "SystemRequirements": "\n    NetLogo (>= 5.3.1), Java (>= 11), pandoc, OpenSSL, udunits-2, PROJ.4, GEOS, GDAL, libxml2"
     },
     "fileSize": "NAKB",
     "citation": [
@@ -37127,7 +36767,7 @@
         ],
         "name": "The nlrx r package: A next-generation framework for reproducible NetLogo model analyses",
         "identifier": "10.1111/2041-210X.13286",
-        "url": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13286",
+        "url": "https://doi.org/10.1111/2041-210X.13286",
         "pagination": "2041--210X",
         "@id": "https://doi.org/10.1111/2041-210X.13286",
         "sameAs": "https://doi.org/10.1111/2041-210X.13286",
@@ -37148,7 +36788,7 @@
       "url": "https://github.com/ropensci/software-review/issues/262",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html"
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#maturing"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -78971,7 +78611,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.4.99",
+    "version": "0.2.0.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
