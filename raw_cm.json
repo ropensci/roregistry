@@ -36788,7 +36788,7 @@
     "codeRepository": "https://github.com/ropensci/nodbi",
     "issueTracker": "https://github.com/ropensci/nodbi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.4",
+    "version": "0.9.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36983,18 +36983,6 @@
       },
       "4": {
         "@type": "SoftwareApplication",
-        "identifier": "jsonify",
-        "name": "jsonify",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonify"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "uuid",
         "name": "uuid",
         "provider": {
@@ -37005,7 +36993,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=uuid"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "jqr",
         "name": "jqr",
@@ -37017,7 +37005,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jqr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "DBI",
         "name": "DBI",
@@ -65637,7 +65625,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.6",
+    "version": "0.7.6.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65958,7 +65946,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0.9002",
+    "version": "1.0.0.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66053,7 +66041,7 @@
         "@type": "SoftwareApplication",
         "identifier": "crew",
         "name": "crew",
-        "version": ">= 0.1.1.9006",
+        "version": ">= 0.1.1.9012",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -66220,9 +66208,22 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "mirai",
+        "name": "mirai",
+        "version": ">= 0.8.7.9012",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://github.com/shikokuchuo/mirai"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "nanonext",
         "name": "nanonext",
-        "version": ">= 0.8.2",
+        "version": ">= 0.8.3.9004",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
