@@ -16582,6 +16582,18 @@
         "identifier": "stats",
         "name": "stats"
       },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "xfun",
+        "name": "xfun",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xfun"
+      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
@@ -40315,7 +40327,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.2.1",
+    "version": "0.2.2.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63035,7 +63047,7 @@
       },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
+    "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/spelling/blob/HEAD/README.md",
     "developmentStatus": "http://www.repostatus.org/#active"
   },
@@ -65946,7 +65958,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0",
+    "version": "1.1.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66041,7 +66053,7 @@
         "@type": "SoftwareApplication",
         "identifier": "crew",
         "name": "crew",
-        "version": ">= 0.1.1.9012",
+        "version": ">= 0.2.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
