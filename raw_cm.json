@@ -20178,9 +20178,9 @@
     "identifier": "dwctaxon",
     "description": "Provides functions to create, manipulate, and validate taxonomic data in compliance with Darwin Core standards (Darwin Core \"Taxon\" class https://dwc.tdwg.org/terms/#taxon).",
     "name": "dwctaxon: Tools for Working with Darwin Core Taxon Data",
-    "relatedLink": "https://joelnitta.github.io/dwctaxon/",
+    "relatedLink": "https://docs.ropensci.org/dwctaxon/",
     "codeRepository": "https://github.com/ropensci/dwctaxon",
-    "issueTracker": "https://github.com/joelnitta/dwctaxon/issues",
+    "issueTracker": "https://github.com/ropensci/dwctaxon/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.0.0.9000",
     "programmingLanguage": {
@@ -20485,7 +20485,7 @@
           }
         ],
         "name": "The dwctaxon R package for working with Darwin Core Taxon data",
-        "url": "https://github.com/joelnitta/dwctaxon"
+        "url": "https://github.com/ropensci/dwctaxon"
       }
     ],
     "readme": "https://github.com/ropensci/dwctaxon/blob/HEAD/README.md",
@@ -20506,7 +20506,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23866,6 +23866,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.0 (2023-04-21)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -23971,7 +23977,7 @@
     "codeRepository": "https://github.com/ropensci/FedData",
     "issueTracker": "https://github.com/ropensci/FedData/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24085,6 +24091,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=usethis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "styler",
+        "name": "styler",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=styler"
       }
     ],
     "softwareRequirements": {
