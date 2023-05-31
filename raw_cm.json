@@ -20194,13 +20194,19 @@
     "codeRepository": "https://github.com/ropensci/dwctaxon",
     "issueTracker": "https://github.com/ropensci/dwctaxon/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.2",
+    "version": "2.0.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.0 (2023-04-21)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -20508,7 +20514,7 @@
       "url": "https://github.com/ropensci/software-review/issues/574",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/#wip"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -20527,6 +20533,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.0 (2023-04-21)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
