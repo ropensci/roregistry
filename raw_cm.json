@@ -35664,7 +35664,7 @@
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.0.9",
+    "version": "4.0.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35872,12 +35872,28 @@
     "fileSize": "NAKB",
     "citation": [
       {
+        "@type": "SoftwareSourceCode",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Adam H.",
+            "familyName": "Sparks"
+          }
+        ],
+        "name": "{nasapower}: NASA-POWER Data from R",
+        "identifier": "10.5281/zenodo.1040727",
+        "url": "https://CRAN.R-project.org/package=nasapower",
+        "description": "R package version 4.0.10",
+        "@id": "https://doi.org/10.5281/zenodo.1040727",
+        "sameAs": "https://doi.org/10.5281/zenodo.1040727"
+      },
+      {
         "@type": "ScholarlyArticle",
         "datePublished": "2018",
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Adam", "H"],
+            "givenName": "Adam H.",
             "familyName": "Sparks"
           }
         ],
@@ -35896,22 +35912,6 @@
             "name": "The Journal of Open Source Software"
           }
         }
-      },
-      {
-        "@type": "SoftwareSourceCode",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Adam",
-            "familyName": "Sparks"
-          }
-        ],
-        "name": "{nasapower}: NASA-POWER Data from R",
-        "identifier": "10.5281/zenodo.1040727",
-        "url": "https://CRAN.R-project.org/package=nasapower",
-        "description": "R package version 4.0.9",
-        "@id": "https://doi.org/10.5281/zenodo.1040727",
-        "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       }
     ],
     "readme": "https://github.com/ropensci/nasapower/blob/HEAD/README.md",
