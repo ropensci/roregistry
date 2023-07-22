@@ -25036,15 +25036,15 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "aws.s3",
-        "name": "aws.s3",
+        "identifier": "minioclient",
+        "name": "minioclient",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=aws.s3"
+        "sameAs": "https://CRAN.R-project.org/package=minioclient"
       }
     ],
     "softwareRequirements": {
@@ -25069,31 +25069,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "duckdb",
-        "name": "duckdb",
-        "version": ">= 0.3.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=duckdb"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "DBI",
-        "name": "DBI",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=DBI"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "provider": {
@@ -25103,6 +25078,12 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "duckdbfs",
+        "name": "duckdbfs",
+        "sameAs": "https://github.com/cboettig/duckdbfs"
       },
       "SystemRequirements": null
     },
