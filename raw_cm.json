@@ -37507,6 +37507,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=callr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "webfakes",
+        "name": "webfakes",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=webfakes"
       }
     ],
     "softwareRequirements": {
@@ -50363,7 +50375,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.8.3",
+    "version": "1.9.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50392,10 +50404,9 @@
       },
       {
         "@type": "Person",
-        "givenName": "Thomas J.",
-        "familyName": "Leeper",
-        "email": "thosjleeper@gmail.com",
-        "@id": "https://orcid.org/0000-0003-4097-6326"
+        "givenName": "Peter",
+        "familyName": "Brohan",
+        "email": "peter.brohan@gmail.com"
       },
       {
         "@type": "Person",
@@ -50403,6 +50414,13 @@
         "familyName": "Steuer",
         "email": "steuer@hsu-hh.de",
         "@id": "https://orcid.org/0000-0003-2676-5290"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thomas J.",
+        "familyName": "Leeper",
+        "email": "thosjleeper@gmail.com",
+        "@id": "https://orcid.org/0000-0003-4097-6326"
       }
     ],
     "contributor": [
@@ -50601,18 +50619,6 @@
       },
       "6": {
         "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
         "identifier": "zip",
         "name": "zip",
         "provider": {
@@ -50623,7 +50629,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=zip"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
