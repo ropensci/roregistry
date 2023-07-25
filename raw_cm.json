@@ -25249,11 +25249,11 @@
     "identifier": "geojson",
     "description": "Classes for 'GeoJSON' to make working with 'GeoJSON' easier. Includes S3 classes for 'GeoJSON' classes with brief summary output, and a few methods such as extracting and adding bounding boxes, properties, and coordinate reference systems; working with newline delimited 'GeoJSON'; and serializing to/from 'Geobuf' binary 'GeoJSON' format.",
     "name": "geojson: Classes for 'GeoJSON'",
-    "relatedLink": "https://docs.ropensci.org/geojson",
+    "relatedLink": "https://docs.ropensci.org/geojson/",
     "codeRepository": "https://github.com/ropensci/geojson",
     "issueTracker": "https://github.com/ropensci/geojson/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.4.9001",
+    "version": "0.3.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25360,6 +25360,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=stringi"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       }
     ],
     "softwareRequirements": {
@@ -29625,7 +29637,7 @@
     "codeRepository": "https://github.com/ropensci/iheatmapr",
     "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.6.0.9000",
+    "version": "0.7.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -29656,7 +29668,7 @@
       },
       {
         "@type": "Person",
-        "givenName": "Étienne ",
+        "givenName": "Étienne",
         "familyName": "Tétreault-Pinard"
       },
       {
@@ -29723,10 +29735,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Alicia",
-        "familyName": "Schep",
-        "email": "aschep@gmail.com",
-        "@id": "orcid.org/0000-0002-3915-0618"
+        "givenName": "Alan",
+        "familyName": "O'Callaghan",
+        "email": "alan.ocallaghan@outlook.com"
       }
     ],
     "softwareSuggestions": [
@@ -50469,6 +50480,18 @@
         "givenName": "Till",
         "familyName": "Straube",
         "email": "straube@geo.uni-frankfurt.de"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marcin",
+        "familyName": "Kalicinski"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Marcin",
+        "familyName": "Kalicinski"
       }
     ],
     "maintainer": [
@@ -50617,9 +50640,21 @@
       },
       "7": {
         "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 2.10"
+        "version": ">= 3.5"
       },
       "SystemRequirements": null
     },
@@ -60223,7 +60258,7 @@
     "codeRepository": "https://github.com/ropensci/rsvg",
     "issueTracker": "https://github.com/ropensci/rsvg/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76170,7 +76205,7 @@
     "codeRepository": "https://github.com/ropensci/waywiser",
     "issueTracker": "https://github.com/ropensci/waywiser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1.9000",
+    "version": "0.4.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
