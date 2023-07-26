@@ -9153,9 +9153,7 @@
         "givenName": "John",
         "familyName": "Harrison",
         "email": "johndharrison0@gmail.com"
-      }
-    ],
-    "maintainer": [
+      },
       {
         "@type": "Person",
         "givenName": "Ju Yeong",
@@ -9163,19 +9161,15 @@
         "email": "jkim2345@fredhutch.org"
       }
     ],
-    "softwareSuggestions": [
+    "maintainer": [
       {
-        "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
+        "@type": "Person",
+        "givenName": "Jonathan",
+        "familyName": "Völkle",
+        "email": "jonathan.voelkle@web.de"
+      }
+    ],
+    "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
         "identifier": "covr",
@@ -9211,6 +9205,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
@@ -9222,29 +9229,17 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "rappdirs",
-        "name": "rappdirs",
+        "identifier": "assertthat",
+        "name": "assertthat",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+        "sameAs": "https://CRAN.R-project.org/package=assertthat"
       },
       "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "yaml",
-        "name": "yaml",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=yaml"
-      },
-      "4": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -9256,7 +9251,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -9268,7 +9263,41 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "rappdirs",
+        "name": "rappdirs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
       "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "semver",
+        "name": "semver",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=semver"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -9280,39 +9309,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
       "10": {
         "@type": "SoftwareApplication",
-        "identifier": "semver",
-        "name": "semver",
+        "identifier": "yaml",
+        "name": "yaml",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=semver"
+        "sameAs": "https://CRAN.R-project.org/package=yaml"
       },
       "SystemRequirements": null
     },
@@ -50651,6 +50658,19 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "version": ">= 0.4.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
+      },
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
