@@ -817,6 +817,18 @@
       },
       "8": {
         "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
         "identifier": "memoise",
         "name": "memoise",
         "provider": {
@@ -827,7 +839,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=memoise"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -839,7 +851,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -851,7 +863,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -863,7 +875,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "rstudioapi",
         "name": "rstudioapi",
@@ -875,7 +887,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "snakecase",
         "name": "snakecase",
@@ -887,7 +899,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=snakecase"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -899,7 +911,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "tinkr",
         "name": "tinkr",
@@ -912,7 +924,7 @@
         },
         "sameAs": "https://github.com/ropensci/tinkr"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -924,7 +936,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -936,7 +948,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "18": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
@@ -37516,6 +37528,7 @@
         "@type": "SoftwareApplication",
         "identifier": "webfakes",
         "name": "webfakes",
+        "version": ">= 1.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -50379,7 +50392,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.9.0",
+    "version": "2.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50511,6 +50524,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
