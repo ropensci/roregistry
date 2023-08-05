@@ -50655,11 +50655,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "utils",
-        "name": "utils"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
         "provider": {
@@ -50670,7 +50665,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -50683,7 +50678,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "zip",
         "name": "zip",
@@ -50695,7 +50690,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=zip"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -76942,7 +76937,7 @@
     "codeRepository": "https://github.com/ropensci/weathercan",
     "issueTracker": "https://github.com/ropensci/weathercan/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.6.3",
+    "version": "0.7.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76954,7 +76949,7 @@
         "@type": "Person",
         "givenName": "Steffi",
         "familyName": "LaZerte",
-        "email": "steffi@steffi.ca",
+        "email": "sel@steffilazerte.ca",
         "@id": "https://orcid.org/0000-0002-7690-8360"
       }
     ],
@@ -76986,7 +76981,7 @@
         "@type": "Person",
         "givenName": "Steffi",
         "familyName": "LaZerte",
-        "email": "steffi@steffi.ca",
+        "email": "sel@steffilazerte.ca",
         "@id": "https://orcid.org/0000-0002-7690-8360"
       }
     ],
@@ -77113,20 +77108,9 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -77147,6 +77131,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": {
