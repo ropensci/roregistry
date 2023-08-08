@@ -1935,8 +1935,8 @@
     "identifier": "gert",
     "description": "Simple git client for R based on 'libgit2' <https://libgit2.org> with support for SSH and HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors and data-frames) for their arguments and return values. User credentials are shared with command line 'git' through the git-credential store and ssh keys stored on disk or ssh-agent.",
     "name": "gert: Simple Git Client for R",
-    "relatedLink": "https://docs.ropensci.org/gert/",
-    "codeRepository": "https://github.com/r-lib/gert",
+    "relatedLink": "https://ropensci.r-universe.dev/gert",
+    "codeRepository": "https://docs.ropensci.org/gert/",
     "issueTracker": "https://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
     "version": "1.9001",
@@ -2109,8 +2109,7 @@
       "SystemRequirements": "libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)"
     },
     "fileSize": "NAKB",
-    "readme": "https://github.com/r-lib/gert/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "readme": "https://docs.ropensci.org/gert//blob/HEAD/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -32568,7 +32567,7 @@
     "identifier": "magick",
     "description": "Bindings to 'ImageMagick': the most comprehensive open-source image processing library available. Supports many common formats (png, jpeg, tiff, pdf, etc) and manipulations (rotate, scale, crop, trim, flip, blur, etc). All operations are vectorized via the Magick++ STL meaning they operate either on a single frame or a series of frames for working with layers, collages, or animation. In RStudio images are automatically previewed when printed to the console, resulting in an interactive editing environment. The latest version of the package includes a native graphics device for creating in-memory graphics or drawing onto images using pixel coordinates.",
     "name": "magick: Advanced Graphics and Image-Processing in R",
-    "relatedLink": "https://docs.ropensci.org/magick/",
+    "relatedLink": "https://ropensci.r-universe.dev/magick",
     "codeRepository": "https://github.com/ropensci/magick",
     "issueTracker": "https://github.com/ropensci/magick/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -37363,7 +37362,7 @@
     "codeRepository": "https://github.com/ropensci/nodbi",
     "issueTracker": "https://github.com/ropensci/nodbi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.5.9000",
+    "version": "0.9.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -37611,7 +37610,7 @@
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/nodbi/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#active"
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#stable"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
