@@ -25055,14 +25055,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "minioclient",
-        "name": "minioclient",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=minioclient"
+        "name": "minioclient"
       }
     ],
     "softwareRequirements": {
@@ -25101,6 +25094,12 @@
         "@type": "SoftwareApplication",
         "identifier": "duckdbfs",
         "name": "duckdbfs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/cboettig/duckdbfs"
       },
       "SystemRequirements": null
@@ -25271,7 +25270,7 @@
     "codeRepository": "https://github.com/ropensci/geojson",
     "issueTracker": "https://github.com/ropensci/geojson/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.5",
+    "version": "0.3.5.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
