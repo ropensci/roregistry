@@ -12764,13 +12764,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "chromer",
-    "description": "A programmatic interface to the Chromosome Counts Database (<http://ccdb.tau.ac.il/>), Rice et al. (2014) <doi:10.1111/nph.13191>. This package is part of the 'ROpenSci' suite (<https://ropensci.org>).",
+    "description": "A programmatic interface to the Chromosome Counts Database (<https://ccdb.tau.ac.il/>), Rice et al. (2014) <doi:10.1111/nph.13191>. This package is part of the 'ROpenSci' suite (<https://ropensci.org>).",
     "name": "chromer: Interface to Chromosome Counts Database API",
     "relatedLink": "https://docs.ropensci.org/chromer/",
     "codeRepository": "https://github.com/ropensci/chromer",
     "issueTracker": "https://github.com/ropensci/chromer/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.5",
+    "version": "0.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -23261,7 +23261,7 @@
     "codeRepository": "https://github.com/ropensci/europepmc",
     "issueTracker": "https://github.com/ropensci/europepmc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.2",
+    "version": "0.4.2.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27727,7 +27727,7 @@
     "codeRepository": "https://github.com/ropensci/GSODR",
     "issueTracker": "https://github.com/ropensci/GSODR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.1.8.9000",
+    "version": "3.1.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27912,18 +27912,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "remotes",
-        "name": "remotes",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=remotes"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -27933,18 +27921,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxygen2",
-        "name": "roxygen2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxygen2"
       },
       {
         "@type": "SoftwareApplication",
@@ -28016,18 +27992,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
         "identifier": "R.utils",
         "name": "R.utils",
         "provider": {
@@ -28038,12 +28002,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R.utils"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -28076,7 +28040,7 @@
         "name": "{GSODR}: Global Summary Daily Weather Data in R",
         "identifier": "10.5281/zenodo.1040727",
         "url": "https://CRAN.R-project.org/package=nasapower",
-        "description": "R package version 3.1.8.9000",
+        "description": "R package version 3.1.9",
         "@id": "https://doi.org/10.5281/zenodo.1040727",
         "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       },
@@ -50309,7 +50273,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -52305,7 +52269,7 @@
     "codeRepository": "https://github.com/ropensci/rerddap",
     "issueTracker": "https://github.com/ropensci/rerddap/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63407,7 +63371,7 @@
     "codeRepository": "https://github.com/ropensci/spatsoc",
     "issueTracker": "https://github.com/ropensci/spatsoc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.16.9003",
+    "version": "0.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63535,32 +63499,33 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
+        "identifier": "sf",
+        "name": "sf",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
+        "sameAs": "https://CRAN.R-project.org/package=sf"
       },
       "4": {
         "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
+        "identifier": "units",
+        "name": "units",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
+        "sameAs": "https://CRAN.R-project.org/package=units"
       },
       "5": {
         "@type": "SoftwareApplication",
         "identifier": "adehabitatHR",
         "name": "adehabitatHR",
+        "version": ">= 0.4.21",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -63581,12 +63546,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=igraph"
       },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      "SystemRequirements": "GEOS (>= 3.2.0)"
+      "SystemRequirements": "GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3"
     },
     "fileSize": "NAKB",
     "citation": [
@@ -66655,7 +66615,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.2.9000",
+    "version": "1.2.2.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
