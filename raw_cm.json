@@ -7593,7 +7593,7 @@
     "codeRepository": "https://github.com/ropensci/BaseSet",
     "issueTracker": "https://github.com/ropensci/BaseSet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.17.9005",
+    "version": "0.9.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53549,7 +53549,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.7.2",
+    "version": "3.7.7.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53930,7 +53930,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.7.2"
+        "description": "R package version 3.7.7.3"
       },
       {
         "@type": "ScholarlyArticle",
@@ -63365,13 +63365,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "spatsoc",
-    "description": "Detects spatial and temporal groups in GPS relocations (Robitaille et al. (2020) <doi:10.1111/2041-210X.13215>). It can be used to convert GPS relocations to gambit-of-the-group format to build proximity-based social networks In addition, the randomizations function provides data-stream randomization methods suitable for GPS data. ",
+    "description": "Detects spatial and temporal groups in GPS relocations (Robitaille et al. (2019) <doi:10.1111/2041-210X.13215>). It can be used to convert GPS relocations to gambit-of-the-group format to build proximity-based social networks In addition, the randomizations function provides data-stream randomization methods suitable for GPS data.",
     "name": "spatsoc: Group Animal Relocation Data by Spatial and Temporal Relationship",
     "relatedLink": "https://docs.ropensci.org/spatsoc/",
     "codeRepository": "https://github.com/ropensci/spatsoc",
     "issueTracker": "https://github.com/ropensci/spatsoc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63417,16 +63417,15 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "testthat",
-        "name": "testthat",
-        "version": ">= 2.1.0",
+        "identifier": "asnipe",
+        "name": "asnipe",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=testthat"
+        "sameAs": "https://CRAN.R-project.org/package=asnipe"
       },
       {
         "@type": "SoftwareApplication",
@@ -63442,6 +63441,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "markdown",
+        "name": "markdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=markdown"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -63454,27 +63465,16 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "asnipe",
-        "name": "asnipe",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 2.1.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=asnipe"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "markdown",
-        "name": "markdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=markdown"
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
       }
     ],
     "softwareRequirements": {
@@ -63485,43 +63485,6 @@
         "version": ">= 3.4"
       },
       "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "data.table",
-        "name": "data.table",
-        "version": ">= 1.10.5",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=data.table"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "sf",
-        "name": "sf",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sf"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "units",
-        "name": "units",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=units"
-      },
-      "5": {
         "@type": "SoftwareApplication",
         "identifier": "adehabitatHR",
         "name": "adehabitatHR",
@@ -63534,7 +63497,20 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=adehabitatHR"
       },
-      "6": {
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "version": ">= 1.10.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "igraph",
         "name": "igraph",
@@ -63546,7 +63522,36 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=igraph"
       },
-      "SystemRequirements": "GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3"
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "units",
+        "name": "units",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=units"
+      },
+      "SystemRequirements": "GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0),\n    sqlite3"
     },
     "fileSize": "NAKB",
     "citation": [
@@ -63588,7 +63593,7 @@
       "url": "https://github.com/ropensci/software-review/issues/237",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
