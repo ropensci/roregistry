@@ -39465,7 +39465,7 @@
     "codeRepository": "https://github.com/ropensci/openalexR",
     "issueTracker": "https://github.com/ropensci/openalexR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0.9000",
+    "version": "1.2.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53549,7 +53549,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.7.5",
+    "version": "3.7.7.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -53942,7 +53942,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.7.5"
+        "description": "R package version 3.7.7.6"
       },
       {
         "@type": "ScholarlyArticle",
@@ -55599,6 +55599,12 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.5.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "provider": {
@@ -55609,7 +55615,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "2": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -55621,12 +55627,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -55641,7 +55647,7 @@
         "author": [
           {
             "@type": "Person",
-            "givenName": ["Nicholas", "A"],
+            "givenName": ["Nicholas", "A."],
             "familyName": "Potter"
           }
         ],
@@ -55657,10 +55663,11 @@
       },
       {
         "@type": "SoftwareSourceCode",
+        "datePublished": "2023",
         "author": [
           {
             "@type": "Person",
-            "givenName": "Nicholas",
+            "givenName": "Nicholas A.",
             "familyName": "Potter"
           }
         ],
@@ -66316,7 +66323,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.7.9000",
+    "version": "0.7.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66637,7 +66644,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.2.9002",
+    "version": "1.2.2.9003",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
