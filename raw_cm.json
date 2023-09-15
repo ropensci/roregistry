@@ -38969,9 +38969,9 @@
     "identifier": "ohun",
     "description": "Facilitates the automatic detection of acoustic signals, providing functions to diagnose and optimize the performance of detection routines. Detections from other software can also be explored and optimized. Araya-Salas et al. (2022) <doi:10.1101/2022.12.13.520253>.",
     "name": "ohun: Optimizing Acoustic Signal Detection",
-    "relatedLink": "https://marce10.github.io/ohun/",
+    "relatedLink": "https://docs.ropensci.org/ohun",
     "codeRepository": "https://github.com/ropensci/ohun",
-    "issueTracker": "https://github.com/maRce10/ohun/issues/",
+    "issueTracker": "https://github.com/ropensci/ohun/issues/",
     "license": "https://spdx.org/licenses/GPL-2.0",
     "version": "1.0.0",
     "programmingLanguage": {
@@ -49810,7 +49810,7 @@
     "codeRepository": "https://github.com/ropensci/rdflib",
     "issueTracker": "https://github.com/ropensci/rdflib/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50051,6 +50051,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonld",
+        "name": "jsonld",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonld"
       }
     ],
     "softwareRequirements": {
@@ -50068,27 +50080,15 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "jsonld",
-        "name": "jsonld",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonld"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "4": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "stringi",
         "name": "stringi",
@@ -50100,7 +50100,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringi"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -50112,7 +50112,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
@@ -50124,7 +50124,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -65582,7 +65582,7 @@
     "codeRepository": "https://github.com/ropensci/stplanr",
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.2",
+    "version": "1.1.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65636,6 +65636,12 @@
         "givenName": "Mark",
         "familyName": "Padgham",
         "email": "mark.padgham@email.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhao",
+        "familyName": "Wang",
+        "@id": "https://orcid.org/0000-0002-4054-0533"
       },
       {
         "@type": "Person",
@@ -66022,8 +66028,11 @@
             "name": "Richard Ellison"
           }
         ],
-        "name": "{stplanr: A Package for Transport Planning}",
-        "url": "https://doi.org/10.32614/RJ-2018-053",
+        "name": "stplanr: A Package for Transport Planning",
+        "identifier": "10.32614/RJ-2018-053",
+        "pagination": "10",
+        "@id": "https://doi.org/10.32614/RJ-2018-053",
+        "sameAs": "https://doi.org/10.32614/RJ-2018-053",
         "isPartOf": {
           "@type": "PublicationIssue",
           "issueNumber": "2",
@@ -74076,7 +74085,7 @@
     "codeRepository": "https://github.com/ropensci/tsbox",
     "issueTracker": "https://github.com/ropensci/tsbox/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.1",
+    "version": "0.4.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
