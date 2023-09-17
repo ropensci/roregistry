@@ -22868,6 +22868,437 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "eph",
+    "description": "Tools to download and manipulate the Permanent Household Survey from Argentina (EPH is the Spanish acronym for Permanent Household Survey). e.g: get_microdata() for downloading the datasets, get_poverty_lines() for downloading the official poverty baskets, calculate_poverty() for the calculation of stating if a household is in poverty or not, following the official methodology. organize_panels() is used to concatenate observations from different periods, and organize_labels() adds the official labels to the data. The implemented methods are based on INDEC (2016) <http://www.estadistica.ec.gba.gov.ar/dpe/images/SOCIEDAD/EPH_metodologia_22_pobreza.pdf>. As this package works with the argentinian Permanent Household Survey and its main audience is from this country, the documentation was written in Spanish.",
+    "name": "eph: Argentina's Permanent Household Survey Data and Manipulation Utilities",
+    "codeRepository": "https://github.com/ropensci/eph",
+    "issueTracker": "https://github.com/holatam/eph/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "1.0.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.3.1 (2023-06-16)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Carolina",
+        "familyName": "Pradier",
+        "email": "carolinapradier@gmail.com",
+        "@id": "https://orcid.org/0009-0007-5058-6352"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Diego",
+        "familyName": "Kozlowski",
+        "email": "diegokoz92@gmail.com",
+        "@id": "https://orcid.org/0000-0002-5396-3471"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Pablo",
+        "familyName": "Tiscornia",
+        "email": "pablotisco@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Guido",
+        "familyName": "Weksler",
+        "email": "guidowe45@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Natsumi",
+        "familyName": "Shokida",
+        "email": "natsumi.shokida@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "German",
+        "familyName": "Rosati",
+        "email": "german.rosati@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9775-0435"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Juan Gabriel",
+        "familyName": "Juara",
+        "email": "jg.juara@gmail.com"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Carolina",
+        "familyName": "Pradier",
+        "email": "carolinapradier@gmail.com",
+        "@id": "https://orcid.org/0009-0007-5058-6352"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lubridate",
+        "name": "lubridate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lubridate"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "forcats",
+        "name": "forcats",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=forcats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "httptest",
+        "name": "httptest",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httptest"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "expss",
+        "name": "expss",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=expss"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "readxl",
+        "name": "readxl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readxl"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "attempt",
+        "name": "attempt",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=attempt"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "zoo",
+        "name": "zoo",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=zoo"
+      },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "leaflet",
+        "name": "leaflet",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=leaflet"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "htmltools",
+        "name": "htmltools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=htmltools"
+      },
+      "13": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "15": {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
+        "identifier": "httr",
+        "name": "httr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=httr"
+      },
+      "17": {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
+      },
+      "18": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyselect",
+        "name": "tidyselect",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyselect"
+      },
+      "19": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 2.10"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2020",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Diego",
+            "familyName": "Kozlowski"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Pablo",
+            "familyName": "Tiscornia"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Guido",
+            "familyName": "Weksler"
+          },
+          {
+            "@type": "Person",
+            "givenName": "German",
+            "familyName": "Rosati"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Natsumi",
+            "familyName": "Shokida"
+          }
+        ],
+        "name": "eph: Argentina's Permanent Household Survey Data and Manipulation Utilities",
+        "identifier": "10.5281/zenodo.3462677",
+        "url": "https://holatam.github.io/eph/",
+        "@id": "https://doi.org/10.5281/zenodo.3462677",
+        "sameAs": "https://doi.org/10.5281/zenodo.3462677"
+      }
+    ],
+    "readme": "https://github.com/ropensci/eph/blob/HEAD/README.md",
+    "developmentStatus": []
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "epubr",
     "description": "Provides functions supporting the reading and parsing of internal e-book content from EPUB files. The 'epubr' package provides functions supporting the reading and parsing of internal e-book content from EPUB files. E-book metadata and text content are parsed separately and joined together in a tidy, nested tibble data frame. E-book formatting is not completely standardized across all literature. It can be challenging to curate parsed e-book content across an arbitrary collection of e-books perfectly and in completely general form, to yield a singular, consistently formatted output. Many EPUB files do not even contain all the same pieces of information in their respective metadata. EPUB file parsing functionality in this package is intended for relatively general application to arbitrary EPUB e-books. However, poorly formatted e-books or e-books with highly uncommon formatting may not work with this package. There may even be cases where an EPUB file has DRM or some other property that makes it impossible to read with 'epubr'. Text is read 'as is' for the most part. The only nominal changes are minor substitutions, for example curly quotes changed to straight quotes. Substantive changes are expected to be performed subsequently by the user as part of their text analysis. Additional text cleaning can be performed at the user's discretion, such as with functions from packages like 'tm' or 'qdap'.",
     "name": "epubr: Read EPUB File Metadata and Text",
@@ -54598,7 +55029,7 @@
     "identifier": "rgnparser",
     "description": "Parse scientific names using 'gnparser' (<https://github.com/gnames/gnparser>), written in Go. 'gnparser' parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names.",
     "name": "rgnparser: Parse Scientific Names",
-    "relatedLink": "https://ropensci.github.io/rgnparser/",
+    "relatedLink": "https://docs.ropensci.org/rgnparser/",
     "codeRepository": "https://github.com/ropensci/rgnparser",
     "issueTracker": "https://github.com/ropensci/rgnparser/issues",
     "license": "https://spdx.org/licenses/MIT",
