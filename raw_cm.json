@@ -6726,7 +6726,7 @@
     "codeRepository": "https://github.com/ropensci/av",
     "issueTracker": "https://github.com/ropensci/av/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.4",
+    "version": "0.8.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -13626,7 +13626,7 @@
     "relatedLink": ["https://docs.ropensci.org/cld3/", "https://ropensci.r-universe.dev/cld3"],
     "codeRepository": "https://github.com/ropensci/cld3",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15342,11 +15342,11 @@
     "@type": "SoftwareSourceCode",
     "identifier": "CoordinateCleaner",
     "description": "Automated flagging of common spatial and temporal errors in biological and paleontological collection data, for the use in conservation, ecology and paleontology. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets. The reference for the methodology is: Zizka et al. (2019) <doi:10.1111/2041-210X.13152>.",
-    "name": "CoordinateCleaner: Automated Cleaning of Occurrence Records from Biological Collections",
+    "name": "CoordinateCleaner: Automated Cleaning of Occurrence Records from Biological\n    Collections",
     "codeRepository": "https://github.com/ropensci/CoordinateCleaner",
     "issueTracker": "https://github.com/ropensci/CoordinateCleaner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.20",
+    "version": "3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15432,6 +15432,11 @@
         "@type": "Person",
         "givenName": "Alexandre",
         "familyName": "Antonelli"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bruno",
+        "familyName": "Vilela"
       }
     ],
     "maintainer": [
@@ -15445,18 +15450,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "covr",
-        "name": "covr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=covr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "countrycode",
         "name": "countrycode",
         "provider": {
@@ -15466,6 +15459,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=countrycode"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
       },
       {
         "@type": "SoftwareApplication",
@@ -15481,18 +15486,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "maps",
-        "name": "maps",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=maps"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
         "provider": {
@@ -15502,6 +15495,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "maps",
+        "name": "maps",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=maps"
       },
       {
         "@type": "SoftwareApplication",
@@ -15531,6 +15536,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rnaturalearthdata"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
       },
       {
         "@type": "SoftwareApplication",
@@ -15617,18 +15634,6 @@
       },
       "8": {
         "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
         "identifier": "rgbif",
         "name": "rgbif",
         "provider": {
@@ -15639,31 +15644,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rgbif"
       },
-      "10": {
-        "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgeos"
-      },
-      "11": {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=rgdal"
-      },
-      "12": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "rnaturalearth",
         "name": "rnaturalearth",
@@ -15676,24 +15657,24 @@
         },
         "sameAs": "https://github.com/ropensci/rnaturalearth"
       },
-      "13": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "14": {
+      "11": {
         "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
+        "identifier": "terra",
+        "name": "terra",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "15": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -15705,7 +15686,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "16": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -15792,7 +15773,7 @@
         "name": "CoordinateCleaner: standardized cleaning of occurrence records from biological collection databases",
         "identifier": "10.1111/2041-210X.13152",
         "url": "https://github.com/ropensci/CoordinateCleaner",
-        "description": "R package version 2.0-20",
+        "description": "R package version 3.0",
         "pagination": "-7",
         "@id": "https://doi.org/10.1111/2041-210X.13152",
         "sameAs": "https://doi.org/10.1111/2041-210X.13152",
@@ -43828,7 +43809,7 @@
     "codeRepository": "https://github.com/ropensci/pdftools",
     "issueTracker": "https://github.com/ropensci/pdftools/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.3.3",
+    "version": "3.4.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70291,7 +70272,7 @@
     "codeRepository": "https://github.com/ropensci/tesseract",
     "issueTracker": "https://github.com/ropensci/tesseract/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "5.1.0",
+    "version": "5.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
