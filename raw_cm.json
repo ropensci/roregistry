@@ -39388,7 +39388,7 @@
     "identifier": "ohun",
     "description": "Facilitates the automatic detection of acoustic signals, providing functions to diagnose and optimize the performance of detection routines. Detections from other software can also be explored and optimized. Araya-Salas et al. (2022) <doi:10.1101/2022.12.13.520253>.",
     "name": "ohun: Optimizing Acoustic Signal Detection",
-    "relatedLink": "https://docs.ropensci.org/ohun",
+    "relatedLink": "https://docs.ropensci.org/ohun/",
     "codeRepository": "https://github.com/ropensci/ohun",
     "issueTracker": "https://github.com/ropensci/ohun/issues/",
     "license": "https://spdx.org/licenses/GPL-2.0",
@@ -67349,44 +67349,10 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "furrr",
-        "name": "furrr",
-        "version": ">= 0.3.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=furrr"
+        "identifier": "parallel",
+        "name": "parallel"
       },
       "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "future",
-        "name": "future",
-        "version": ">= 1.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=future"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "future.callr",
-        "name": "future.callr",
-        "version": ">= 0.2.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=future.callr"
-      },
-      "8": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -67399,7 +67365,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "9": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
@@ -67412,7 +67378,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=targets"
       },
-      "10": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -67425,7 +67391,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "11": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -67438,12 +67404,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "12": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "13": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -67456,7 +67422,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "14": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -67505,7 +67471,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.3.0.9000",
+    "version": "1.3.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
