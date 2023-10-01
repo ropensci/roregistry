@@ -15532,11 +15532,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "paleobioDB",
-        "name": "paleobioDB"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -15677,7 +15672,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/rnaturalearth"
+        "sameAs": "https://CRAN.R-project.org/package=rnaturalearth"
       },
       "10": {
         "@type": "SoftwareApplication",
@@ -66053,7 +66048,7 @@
     "codeRepository": "https://github.com/ropensci/stplanr",
     "issueTracker": "https://github.com/ropensci/stplanr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.2",
+    "version": "1.1.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66119,6 +66114,12 @@
         "givenName": "Andrea",
         "familyName": "Gilardi",
         "@id": "https://orcid.org/0000-0002-9424-7439"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Josiah",
+        "familyName": "Parry",
+        "@id": "https://orcid.org/0000-0001-9910-865X"
       }
     ],
     "maintainer": [
@@ -66266,6 +66267,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rsgeo",
+        "name": "rsgeo",
+        "version": ">= 0.1.6",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rsgeo"
       },
       {
         "@type": "SoftwareApplication",
@@ -66481,6 +66495,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=sfheaders"
+      },
+      "17": {
+        "@type": "SoftwareApplication",
+        "identifier": "vctrs",
+        "name": "vctrs",
+        "version": ">= 0.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
       "SystemRequirements": "GNU make"
     },
