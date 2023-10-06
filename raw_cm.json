@@ -20739,7 +20739,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -27581,6 +27581,12 @@
     "contributor": [
       {
         "@type": "Person",
+        "givenName": "Aleksander",
+        "familyName": "Dietrichson",
+        "email": "dietrichson@gmail.com"
+      },
+      {
+        "@type": "Person",
         "givenName": "John",
         "familyName": "Muschelli",
         "email": "muschellij2@gmail.com"
@@ -27595,6 +27601,18 @@
       }
     ],
     "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pdftools",
+        "name": "pdftools",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pdftools"
+      },
       {
         "@type": "SoftwareApplication",
         "identifier": "cld2",
@@ -29597,11 +29615,11 @@
     "identifier": "hunspell",
     "description": "Low level spell checker and morphological analyzer based on the famous 'hunspell' library <https://hunspell.github.io>. The package can analyze or check individual words as well as parse text, latex, html or xml documents. For a more user-friendly interface use the 'spelling' package which builds on this package to automate checking of files, documentation and vignettes in all common formats.",
     "name": "hunspell: High-Performance Stemmer, Tokenizer, and Spell Checker",
-    "relatedLink": ["https://docs.ropensci.org/hunspell/", "https://hunspell.github.io"],
+    "relatedLink": "https://ropensci.r-universe.dev/hunspell",
     "codeRepository": "https://github.com/ropensci/hunspell",
     "issueTracker": "https://github.com/ropensci/hunspell/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54899,7 +54917,7 @@
     "codeRepository": "https://github.com/ropensci/rglobi",
     "issueTracker": "https://github.com/ropensci/rglobi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.3.1",
+    "version": "0.3.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61087,7 +61105,7 @@
     "codeRepository": "https://github.com/ropensci/rsvg",
     "issueTracker": "https://github.com/ropensci/rsvg/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.5.1",
+    "version": "2.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61202,6 +61220,19 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "webp",
         "name": "webp",
         "provider": {
@@ -61211,6 +61242,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=webp"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "png",
+        "name": "png",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=png"
       }
     ],
     "softwareRequirements": {
@@ -66351,6 +66394,18 @@
       },
       "5": {
         "@type": "SoftwareApplication",
+        "identifier": "geosphere",
+        "name": "geosphere",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=geosphere"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "version": ">= 1.3.1",
@@ -66362,7 +66417,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -66375,7 +66430,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "lwgeom",
         "name": "lwgeom",
@@ -66388,7 +66443,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lwgeom"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -66400,12 +66455,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "nabor",
         "name": "nabor",
@@ -66418,7 +66473,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=nabor"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "od",
         "name": "od",
@@ -66430,7 +66485,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=od"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "pbapply",
         "name": "pbapply",
@@ -66442,7 +66497,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=pbapply"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "Rcpp",
         "name": "Rcpp",
@@ -66455,7 +66510,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=Rcpp"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -66468,7 +66523,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -66481,7 +66536,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "sfheaders",
         "name": "sfheaders",
