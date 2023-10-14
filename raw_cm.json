@@ -35008,7 +35008,7 @@
     "codeRepository": "https://github.com/ropensci/MODIStsp",
     "issueTracker": "https://github.com/ropensci/MODIStsp/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.0.10.9000",
+    "version": "2.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -47154,7 +47154,8 @@
         "@type": "Person",
         "givenName": "Alan",
         "familyName": "Butler",
-        "email": "rabutler@usbr.gov"
+        "email": "rabutler@usbr.gov",
+        "@id": "https://orcid.org/0000-0002-8625-6386"
       }
     ],
     "maintainer": [
@@ -47162,7 +47163,8 @@
         "@type": "Person",
         "givenName": "Alan",
         "familyName": "Butler",
-        "email": "rabutler@usbr.gov"
+        "email": "rabutler@usbr.gov",
+        "@id": "https://orcid.org/0000-0002-8625-6386"
       }
     ],
     "softwareSuggestions": [
@@ -47291,18 +47293,6 @@
       },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "provider": {
@@ -47313,7 +47303,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -61503,7 +61493,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.0.9004",
+    "version": "1.2.0.9006",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61704,6 +61694,7 @@
         "@type": "SoftwareApplication",
         "identifier": "spelling",
         "name": "spelling",
+        "version": ">= 2.2.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
