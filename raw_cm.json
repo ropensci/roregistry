@@ -1704,7 +1704,7 @@
     "description": "Reads Genbank files.",
     "name": "genbankr: Parsing GenBank files into semantically useful objects",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.29.1",
+    "version": "1.31.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -7035,12 +7035,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -7225,40 +7219,19 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.9",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beautier"
+        "version": ">= 2.6.9"
       },
       "2": {
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.11",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beastier"
+        "version": ">= 2.4.11"
       },
       "3": {
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=mauricer"
+        "version": ">= 2.5.2"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -7833,12 +7806,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -7985,27 +7952,13 @@
       "2": {
         "@type": "SoftwareApplication",
         "identifier": "assertive",
-        "name": "assertive",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertive"
+        "name": "assertive"
       },
       "3": {
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.9",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beautier"
+        "version": ">= 2.6.9"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -8148,8 +8101,9 @@
     "identifier": "beautier",
     "description": "'BEAST2' (<https://www.beast2.org>) is a widely used Bayesian phylogenetic tool, that uses DNA/RNA/protein data and many model priors to create a posterior of jointly estimated phylogenies and parameters. 'BEAUti 2' (which is part of 'BEAST2') is a GUI tool that allows users to specify the many possible setups and generates the XML file 'BEAST2' needs to run. This package provides a way to create 'BEAST2' input files without active user input, but using R function calls instead.",
     "name": "beautier: 'BEAUti' from R",
+    "relatedLink": "https://docs.ropensci.org/beautier/",
     "codeRepository": "https://github.com/ropensci/beautier",
-    "issueTracker": "https://github.com/ropensci/beautier",
+    "issueTracker": "https://github.com/ropensci/beautier/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "2.6.10",
     "programmingLanguage": {
@@ -8158,12 +8112,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -8253,18 +8201,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "devtools",
-        "name": "devtools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=devtools"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -8274,42 +8210,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "hunspell",
-        "name": "hunspell",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=hunspell"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "lintr",
-        "name": "lintr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lintr"
       },
       {
         "@type": "SoftwareApplication",
@@ -8376,30 +8276,6 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "assertive",
-        "name": "assertive",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertive"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "pryr",
-        "name": "pryr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pryr"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "rappdirs",
         "name": "rappdirs",
         "provider": {
@@ -8409,6 +8285,31 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rappdirs"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "version": ">= 1.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
       "5": {
         "@type": "SoftwareApplication",
@@ -8434,25 +8335,13 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "testit",
-        "name": "testit",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testit"
-      },
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
     "citation": [
       {
         "@type": "ScholarlyArticle",
-        "datePublished": "2008",
+        "datePublished": "2018",
         "author": [
           {
             "@type": "Person",
@@ -8466,10 +8355,12 @@
           }
         ],
         "name": "babette: BEAUti 2, BEAST 2 and Tracer for R",
-        "url": "https://doi.org/10.1111/2041-210X.13032",
+        "identifier": "10.1111/2041-210X.13032",
+        "@id": "https://doi.org/10.1111/2041-210X.13032",
+        "sameAs": "https://doi.org/10.1111/2041-210X.13032",
         "isPartOf": {
           "@type": "PublicationIssue",
-          "datePublished": "2008",
+          "datePublished": "2018",
           "isPartOf": {
             "@type": ["PublicationVolume", "Periodical"],
             "name": "Methods in Ecology and Evolution"
@@ -9345,7 +9236,7 @@
     "codeRepository": "https://github.com/ropensci/biomartr",
     "issueTracker": "https://github.com/ropensci/biomartr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.0.6.9000",
+    "version": "1.0.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15410,7 +15301,7 @@
     "codeRepository": "https://github.com/ropensci/CoordinateCleaner",
     "issueTracker": "https://github.com/ropensci/CoordinateCleaner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "3.0",
+    "version": "3.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15832,7 +15723,7 @@
         "name": "CoordinateCleaner: standardized cleaning of occurrence records from biological collection databases",
         "identifier": "10.1111/2041-210X.13152",
         "url": "https://github.com/ropensci/CoordinateCleaner",
-        "description": "R package version 3.0",
+        "description": "R package version 3.0.1",
         "pagination": "-7",
         "@id": "https://doi.org/10.1111/2041-210X.13152",
         "sameAs": "https://doi.org/10.1111/2041-210X.13152",
@@ -33645,12 +33536,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "maintainer": [
       {
         "@type": "Person",
@@ -33664,14 +33549,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.9",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beautier"
+        "version": ">= 2.6.9"
       },
       {
         "@type": "SoftwareApplication",
@@ -33764,14 +33642,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.11",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beastier"
+        "version": ">= 2.4.11"
       },
       "SystemRequirements": "BEAST2 (https://www.beast2.org/)"
     },
@@ -33828,12 +33699,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -34028,27 +33893,13 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beautier"
+        "version": ">= 2.6.2"
       },
       "2": {
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=beastier"
+        "version": ">= 2.4.6"
       },
       "3": {
         "@type": "SoftwareApplication",
@@ -34078,27 +33929,13 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=mauricer"
+        "version": ">= 2.5"
       },
       "6": {
         "@type": "SoftwareApplication",
         "identifier": "babette",
         "name": "babette",
-        "version": ">= 2.3",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=babette"
+        "version": ">= 2.3"
       },
       "7": {
         "@type": "SoftwareApplication",
@@ -71574,7 +71411,7 @@
     "codeRepository": "https://github.com/ropensci/tidync",
     "issueTracker": "https://github.com/ropensci/tidync/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.0.9001",
+    "version": "0.3.0.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71630,6 +71467,11 @@
         "@type": "Person",
         "givenName": "Adrian",
         "familyName": "Odenweller"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Van Laake"
       }
     ],
     "maintainer": [
@@ -71843,6 +71685,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "CFtime",
+        "name": "CFtime",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=CFtime"
       },
       "SystemRequirements": "netcdf udunits-2"
     },
