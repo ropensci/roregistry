@@ -40851,7 +40851,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "SystemRequirements": "OpenCV 3 or newer: libopencv-dev (Debian, Ubuntu) or opencv-devel (Fedora)"
+      "SystemRequirements": "OpenCV 3 or newer: libopencv-dev (Debian, Ubuntu) or opencv-devel (Fedora).\n    The QR code detector requires at least libopencv 4.5.2."
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/opencv/blob/HEAD/README.md",
@@ -43854,12 +43854,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.1 (2023-06-16)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -44046,14 +44040,7 @@
       "9": {
         "@type": "SoftwareApplication",
         "identifier": "uchardet",
-        "name": "uchardet",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=uchardet"
+        "name": "uchardet"
       },
       "10": {
         "@type": "SoftwareApplication",
