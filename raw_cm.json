@@ -24525,6 +24525,127 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "fastMatMR",
+    "description": "\"fastMatMR is an R package offering high-performance read and write operations for Matrix Market files. It acts as a thin wrapper around the 'fast_matrix_market' C++ library, offering speed and extended support for Matrix Market formats. Unlike other R packages, fastMatMR supports not just sparse matrices but also dense vectors and matrices. This makes it a versatile choice for dealing with .mtx files in R.\"",
+    "name": "fastMatMR: \"fastMatMR: High-Performance Matrix Market File Operations\"",
+    "codeRepository": "https://github.com/ropensci/fastMatMR",
+    "issueTracker": "https://github.com/ropensci/fastMatMR/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "1.1.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.3.1 (2023-06-16)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Rohit",
+        "familyName": "Goswami",
+        "email": "rgoswami@ieee.org",
+        "@id": "https://orcid.org/0000-0002-2393-8056"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Rohit",
+        "familyName": "Goswami",
+        "email": "rgoswami@ieee.org",
+        "@id": "https://orcid.org/0000-0002-2393-8056"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "Matrix",
+        "name": "Matrix",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=Matrix"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "microbenchmark",
+        "name": "microbenchmark",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=microbenchmark"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "SystemRequirements": "C++17"
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/fastMatMR/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/606",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#stable"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "FedData",
     "description": "Functions to automate downloading geospatial data available from several federated data sources (mainly sources maintained by the US Federal government). Currently, the package enables extraction from seven datasets: The National Elevation Dataset digital elevation models (1 and 1/3 arc-second; USGS); The National Hydrography Dataset (USGS); The Soil Survey Geographic (SSURGO) database from the National Cooperative Soil Survey (NCSS), which is led by the Natural Resources Conservation Service (NRCS) under the USDA; the Global Historical Climatology Network (GHCN), coordinated by National Climatic Data Center at NOAA; the Daymet gridded estimates of daily weather parameters for North America, version 3, available from the Oak Ridge National Laboratory's Distributed Active Archive Center (DAAC); the International Tree Ring Data Bank; and the National Land Cover Database (NLCD).",
     "name": "FedData: Functions to Automate Downloading Geospatial Data Available from\n    Several Federated Data Sources",
@@ -40758,7 +40879,7 @@
     "codeRepository": "https://github.com/ropensci/opencv",
     "issueTracker": "https://github.com/ropensci/opencv/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
