@@ -5579,9 +5579,8 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "antiword",
-    "description": "Wraps the 'AntiWord' utility to extract text from Microsoft Word documents. The utility only supports the old 'doc' format, not the new xml based 'docx' format. Use the 'xml2' package to read the latter.",
+    "description": "Wraps the 'AntiWord' utility <http://www.winfield.demon.nl> to extract text from Microsoft Word documents. The utility only supports the old 'doc' format, not the new xml based 'docx' format. Use the 'xml2' package to read the latter.",
     "name": "antiword: Extract Text from Microsoft Word Documents",
-    "relatedLink": ["https://docs.ropensci.org/antiword/", "http://www.winfield.demon.nl"],
     "codeRepository": "https://github.com/ropensci/antiword",
     "issueTracker": "https://github.com/ropensci/antiword/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
@@ -8163,6 +8162,11 @@
         "givenName": "Pedro",
         "familyName": "Taucce",
         "@id": "https://orcid.org/0000-0002-3088-4543"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Olivier",
+        "familyName": "Roy"
       },
       {
         "@type": "Person",
@@ -24531,12 +24535,12 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "fastMatMR",
-    "description": "\"fastMatMR is an R package offering high-performance read and write operations for Matrix Market files. It acts as a thin wrapper around the 'fast_matrix_market' C++ library, offering speed and extended support for Matrix Market formats. Unlike other R packages, fastMatMR supports not just sparse matrices but also dense vectors and matrices. This makes it a versatile choice for dealing with .mtx files in R.\"",
-    "name": "fastMatMR: \"fastMatMR: High-Performance Matrix Market File Operations\"",
+    "description": "\"An interface to the 'fast_matrix_market' 'C++' library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).\"",
+    "name": "fastMatMR: \"High-Performance Matrix Market File Operations\"",
     "codeRepository": "https://github.com/ropensci/fastMatMR",
     "issueTracker": "https://github.com/ropensci/fastMatMR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.1",
+    "version": "1.2.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",

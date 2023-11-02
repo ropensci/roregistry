@@ -404,7 +404,7 @@
     {
       "name": "antiword",
       "description": "Extract Text from Microsoft Word Documents",
-      "details": "Wraps the 'AntiWord' utility to extract text from Microsoft Word documents. The utility only supports the old 'doc' format, not the new xml based 'docx' format. Use the 'xml2' package to read the latter.",
+      "details": "Wraps the 'AntiWord' utility <http://www.winfield.demon.nl> to extract text from Microsoft Word documents. The utility only supports the old 'doc' format, not the new xml based 'docx' format. Use the 'xml2' package to read the latter.",
       "maintainer": "Jeroen Ooms",
       "keywords": "",
       "github": "https://github.com/ropensci/antiword",
@@ -416,7 +416,7 @@
       "url": "https://github.com/ropensci/antiword",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-03 22:25:14",
+      "date_last_commit": "2023-11-01 22:40:05",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -635,7 +635,7 @@
       "url": "https://github.com/ropensci/beautier",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-10-25 06:24:19",
+      "date_last_commit": "2023-11-02 06:27:47",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -1902,8 +1902,8 @@
     },
     {
       "name": "fastMatMR",
-      "description": "High-Performance Matrix Market File Operations\"",
-      "details": "\"fastMatMR is an R package offering high-performance read and write operations for Matrix Market files. It acts as a thin wrapper around the 'fast_matrix_market' C++ library, offering speed and extended support for Matrix Market formats. Unlike other R packages, fastMatMR supports not just sparse matrices but also dense vectors and matrices. This makes it a versatile choice for dealing with .mtx files in R.\"",
+      "description": "\"High-Performance Matrix Market File Operations\"",
+      "details": "\"An interface to the 'fast_matrix_market' 'C++' library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).\"",
       "maintainer": "Rohit Goswami",
       "keywords": "",
       "github": "https://github.com/ropensci/fastMatMR",
@@ -1913,7 +1913,7 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/fastMatMR",
-      "date_last_commit": "2023-11-01 07:32:19",
+      "date_last_commit": "2023-11-01 22:00:49",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2713,7 +2713,7 @@
       "url": "https://github.com/ropensci/magick",
       "ropensci_category": "image-processing",
       "ropenscilabs": false,
-      "date_last_commit": "2023-10-27 10:41:41",
+      "date_last_commit": "2023-11-01 16:18:52",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6339,5 +6339,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-11-01 08:07 UTC"
+  "date": "2023-11-02 08:00 UTC"
 }
