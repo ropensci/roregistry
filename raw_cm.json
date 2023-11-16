@@ -39326,12 +39326,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.2 (2023-10-31)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -60127,11 +60121,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -60313,18 +60302,6 @@
       },
       "13": {
         "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      "14": {
-        "@type": "SoftwareApplication",
         "identifier": "Rdpack",
         "name": "Rdpack",
         "provider": {
@@ -60335,7 +60312,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=Rdpack"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "fields",
         "name": "fields",
@@ -60347,7 +60324,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fields"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "calendR",
         "name": "calendR",
@@ -60359,19 +60336,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=calendR"
       },
-      "17": {
-        "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
-      },
-      "18": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -60383,7 +60348,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "19": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "stars",
         "name": "stars",
@@ -60395,7 +60360,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stars"
       },
-      "20": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -60406,6 +60371,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
+      },
+      "19": {
+        "@type": "SoftwareApplication",
+        "identifier": "sp",
+        "name": "sp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sp"
+      },
+      "20": {
+        "@type": "SoftwareApplication",
+        "identifier": "raster",
+        "name": "raster",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=raster"
       },
       "SystemRequirements": null
     },
