@@ -18537,7 +18537,7 @@
         "@type": "Person",
         "givenName": "Jemma",
         "familyName": "Stachelek",
-        "email": "stachel2@msu.edu",
+        "email": "jemma.stachelek@gmail.com",
         "@id": "https://orcid.org/0000-0002-5924-2464"
       }
     ],
@@ -18546,7 +18546,7 @@
         "@type": "Person",
         "givenName": "Jemma",
         "familyName": "Stachelek",
-        "email": "stachel2@msu.edu",
+        "email": "jemma.stachelek@gmail.com",
         "@id": "https://orcid.org/0000-0002-5924-2464"
       }
     ],
@@ -20473,7 +20473,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.7",
+    "version": "1.4.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -26717,7 +26717,7 @@
         "name": "R",
         "version": ">= 4.0"
       },
-      "SystemRequirements": "By default, git2r uses a system installation of\n    the libgit2 headers and library. However, if a system installation\n    is not available, builds and uses a bundled version of the libgit2\n    source. zlib headers and library. OpenSSL headers and library\n    (non-macOS). LibSSH2 (optional on non-Windows) to enable the SSH\n    transport."
+      "SystemRequirements": "libgit2 (>= 0.26)"
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/git2r/blob/HEAD/README.md",
@@ -52414,11 +52414,6 @@
       },
       "27": {
         "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos"
-      },
-      "28": {
-        "@type": "SoftwareApplication",
         "identifier": "rnaturalearth",
         "name": "rnaturalearth",
         "provider": {
@@ -52429,7 +52424,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rnaturalearth"
       },
-      "29": {
+      "28": {
         "@type": "SoftwareApplication",
         "identifier": "rosm",
         "name": "rosm",
@@ -52441,7 +52436,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rosm"
       },
-      "30": {
+      "29": {
         "@type": "SoftwareApplication",
         "identifier": "rworldmap",
         "name": "rworldmap",
@@ -52453,7 +52448,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rworldmap"
       },
-      "31": {
+      "30": {
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
@@ -52466,7 +52461,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sf"
       },
-      "32": {
+      "31": {
         "@type": "SoftwareApplication",
         "identifier": "spocc",
         "name": "spocc",
@@ -52478,7 +52473,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=spocc"
       },
-      "33": {
+      "32": {
         "@type": "SoftwareApplication",
         "identifier": "stringi",
         "name": "stringi",
@@ -52490,7 +52485,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringi"
       },
-      "34": {
+      "33": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -52502,7 +52497,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "35": {
+      "34": {
         "@type": "SoftwareApplication",
         "identifier": "taxize",
         "name": "taxize",
@@ -52515,7 +52510,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=taxize"
       },
-      "36": {
+      "35": {
         "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
@@ -52527,7 +52522,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "37": {
+      "36": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -52539,7 +52534,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "38": {
+      "37": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -52551,7 +52546,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "39": {
+      "38": {
         "@type": "SoftwareApplication",
         "identifier": "tmap",
         "name": "tmap",
@@ -52564,7 +52559,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tmap"
       },
-      "40": {
+      "39": {
         "@type": "SoftwareApplication",
         "identifier": "units",
         "name": "units",
@@ -52576,12 +52571,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=units"
       },
-      "41": {
+      "40": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "42": {
+      "41": {
         "@type": "SoftwareApplication",
         "identifier": "waffle",
         "name": "waffle",
@@ -52593,7 +52588,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=waffle"
       },
-      "43": {
+      "42": {
         "@type": "SoftwareApplication",
         "identifier": "webshot",
         "name": "webshot",
@@ -52605,7 +52600,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=webshot"
       },
-      "44": {
+      "43": {
         "@type": "SoftwareApplication",
         "identifier": "worrms",
         "name": "worrms",
@@ -52617,7 +52612,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=worrms"
       },
-      "45": {
+      "44": {
         "@type": "SoftwareApplication",
         "identifier": "XML",
         "name": "XML",
@@ -52629,7 +52624,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=XML"
       },
-      "46": {
+      "45": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -52641,7 +52636,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "47": {
+      "46": {
         "@type": "SoftwareApplication",
         "identifier": "xslt",
         "name": "xslt",
@@ -52653,7 +52648,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xslt"
       },
-      "48": {
+      "47": {
         "@type": "SoftwareApplication",
         "identifier": "zen4R",
         "name": "zen4R",
@@ -54152,7 +54147,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.8",
+    "version": "3.7.8.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54545,7 +54540,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.8"
+        "description": "R package version 3.7.8.1"
       },
       {
         "@type": "ScholarlyArticle",
