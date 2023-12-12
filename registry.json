@@ -343,6 +343,23 @@
       "staff_maintained": false
     },
     {
+      "name": "wmm",
+      "description": "World Magnetic Model",
+      "details": "Calculate magnetic field at a given location and time according to the World Magnetic Model (WMM). Both the main field and secular variation components are returned. This functionality is useful for physicists and geophysicists who need orthogonal components from WMM. Currently, this package supports annualized time inputs between 2000 and 2025. If desired, users can specify which WMM version to use, e.g., the original WMM2015 release or the recent out-of-cycle WMM2015 release. Methods used to implement WMM, including the Gauss coefficients for each release, are described in the following publications: Chulliat et al (2020) <doi:10.25923/ytk1-yx35>, Chulliat et al (2019) <doi:10.25921/xhr3-0t19>, Chulliat et al (2015) <doi:10.7289/V5TB14V7>, Maus et al (2010) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/WMM2010_Report.pdf>, McLean et al (2004) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/TRWMM_2005.pdf>, and Macmillian et al (2000) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/wmm2000.pdf>.",
+      "maintainer": "Will Frierson",
+      "keywords": "",
+      "github": "https://github.com/wfrierson/wmm",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/522",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/wfrierson/wmm",
+      "date_last_commit": "2023-10-07 23:58:46",
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "allodb",
       "description": "Tree Biomass Estimation at Extra-Tropical Forest Plots",
       "details": "Standardize and simplify the tree biomass estimation process across globally distributed extratropical forests.",
@@ -417,7 +434,7 @@
       "url": "https://github.com/ropensci/aorsf",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-08 15:42:16",
+      "date_last_commit": "2023-12-11 21:12:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -896,7 +913,7 @@
       "url": "https://github.com/ropensci/cffr",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2023-11-02 11:08:14",
+      "date_last_commit": "2023-12-11 14:58:29",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1116,7 +1133,7 @@
       "url": "https://github.com/ropensci/codemetar",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-09 04:46:59",
+      "date_last_commit": "2023-12-11 14:45:47",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1436,7 +1453,7 @@
       "url": "https://github.com/ropensci/datefixR",
       "ropensci_category": "data-extraction",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-06 12:47:24",
+      "date_last_commit": "2023-12-11 14:11:55",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1576,7 +1593,7 @@
       "url": "https://github.com/ropensci/dwctaxon",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-06 04:27:00",
+      "date_last_commit": "2023-12-12 07:53:17",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -1916,7 +1933,7 @@
       "url": "https://github.com/ropensci/FedData",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-11-13 22:32:11",
+      "date_last_commit": "2023-12-11 23:23:10",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -2156,7 +2173,7 @@
       "url": "https://github.com/ropensci/gitignore",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-10 22:47:59",
+      "date_last_commit": "2023-12-11 12:40:09",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5252,7 +5269,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-05 18:51:58",
+      "date_last_commit": "2023-12-11 21:16:02",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5272,7 +5289,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-06 22:19:22",
+      "date_last_commit": "2023-12-11 21:15:30",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6318,5 +6335,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-12-11 07:57 UTC"
+  "date": "2023-12-12 07:57 UTC"
 }
