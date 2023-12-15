@@ -36365,9 +36365,9 @@
     "identifier": "naijR",
     "description": "A set of convenience functions as well as geographical/political data about Nigeria, aimed at simplifying work with data and information that are specific to the country.",
     "name": "naijR: Operations to Ease Data Analyses Specific to Nigeria",
-    "relatedLink": "https://brovic.github.io/naijR/",
+    "relatedLink": "https://docs.ropensci.org/naijR/",
     "codeRepository": "https://github.com/ropensci/naijR",
-    "issueTracker": "https://github.com/BroVic/naijR/issues",
+    "issueTracker": "https://github.com/ropensci/naijR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.6.1",
     "programmingLanguage": {
@@ -36389,6 +36389,14 @@
         "familyName": "Ordu",
         "email": "victorordu@outlook.com",
         "@id": "https://orcid.org/0000-0003-3716-0668"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Laura",
+        "familyName": "DeCicco",
+        "email": "ldecicco@usgs.gov"
       }
     ],
     "maintainer": [
@@ -36509,6 +36517,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=usethis"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "WikidataR",
+        "name": "WikidataR",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=WikidataR"
       }
     ],
     "softwareRequirements": {
@@ -56961,7 +56981,7 @@
     "codeRepository": "https://github.com/ropensci/rnaturalearth",
     "issueTracker": "https://github.com/ropensci/rnaturalearth/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0.9000",
+    "version": "1.0.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
