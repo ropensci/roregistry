@@ -50664,7 +50664,7 @@
     "codeRepository": "https://github.com/ropensci/rdflib",
     "issueTracker": "https://github.com/ropensci/rdflib/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57274,9 +57274,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "rnaturalearthdata",
-    "description": "Vector map data from <http://www.naturalearthdata.com/>. Access functions are provided in the accompanying package 'rnaturalearth'.",
+    "description": "Vector map data from <https://www.naturalearthdata.com/>. Access functions are provided in the accompanying package 'rnaturalearth'.",
     "name": "rnaturalearthdata: World Vector Map Data from Natural Earth Used in 'rnaturalearth'",
-    "relatedLink": ["https://docs.ropensci.org/rnaturalearthdata", "https://github.com/ropensci/rnaturalearthdata"],
+    "relatedLink": "https://docs.ropensci.org/rnaturalearthdata/",
     "codeRepository": "https://github.com/ropensci/rnaturalearthdata",
     "issueTracker": "https://github.com/ropensci/rnaturalearthdata/issues",
     "license": "https://spdx.org/licenses/CC0-1.0",
@@ -57358,19 +57358,6 @@
         "identifier": "R",
         "name": "R",
         "version": ">= 3.1.1"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "version": ">= 1.0.15",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
       },
       "SystemRequirements": null
     },
@@ -71110,7 +71097,7 @@
     "codeRepository": "https://github.com/ropensci/tic",
     "issueTracker": "https://github.com/ropensci/tic/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.13.2",
+    "version": "0.14.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
