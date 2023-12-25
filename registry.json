@@ -424,7 +424,7 @@
     {
       "name": "aorsf",
       "description": "Accelerated Oblique Random Survival Forests",
-      "details": "Fit, interpret, and make predictions with oblique random survival forests. Oblique decision trees are notoriously slow compared to their axis based counterparts, but 'aorsf' runs as fast or faster than axis-based decision tree algorithms for right-censored time-to-event outcomes. Methods to accelerate and interpret the oblique random survival forest are described in Jaeger et al., (2023) <DOI:10.1080/10618600.2023.2231048>.",
+      "details": "Fit, interpret, and compute predictions with oblique random forests. Includes support for partial dependence, variable importance, passing customized functions for variable importance and identification of linear combinations of features. Methods for the oblique random survival forest are described in Jaeger et al., (2023) <DOI:10.1080/10618600.2023.2231048>.",
       "maintainer": "Byron Jaeger",
       "keywords": "",
       "github": "https://github.com/ropensci/aorsf",
@@ -436,7 +436,7 @@
       "url": "https://github.com/ropensci/aorsf",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2023-12-24 02:20:09",
+      "date_last_commit": "2023-12-25 02:48:53",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6361,5 +6361,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2023-12-24 07:58 UTC"
+  "date": "2023-12-25 08:00 UTC"
 }
