@@ -27754,17 +27754,23 @@
     "identifier": "GLMMcosinor",
     "description": "Allows users to fit a cosinor model using the 'glmmTMB' framework. This extends on existing cosinor modelling packages, including 'cosinor' and 'circacompare', by including a wide range of available link functions and the capability to fit mixed models. The cosinor model is described by Cornelissen (2014) <doi:10.1186/1742-4682-11-16>.",
     "name": "GLMMcosinor: Fit a Cosinor Model Using a Generalised Mixed Modelling Framework",
-    "relatedLink": ["https://github.com/ropensci/GLMMcosinor", "https://ropensci.github.io/GLMMcosinor/"],
+    "relatedLink": ["https://github.com/ropensci/GLMMcosinor", "https://docs.ropensci.org/GLMMcosinor/"],
     "codeRepository": "https://github.com/ropensci/GLMMcosinor",
     "issueTracker": "https://github.com/ropensci/GLMMcosinor/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0",
+    "version": "0.2.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -27797,6 +27803,11 @@
         "givenName": "Prasad",
         "familyName": "Chunduri",
         "@id": "https://orcid.org/0000-0001-7297-7580"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Doyle"
       }
     ],
     "funder": [
@@ -71924,7 +71935,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.6.0.9000",
+    "version": "0.6.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
