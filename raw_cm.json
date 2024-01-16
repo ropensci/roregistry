@@ -5601,7 +5601,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -6017,7 +6017,7 @@
     "codeRepository": "https://github.com/ropensci/arkdb",
     "issueTracker": "https://github.com/ropensci/arkdb/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30354,7 +30354,7 @@
     "codeRepository": "https://github.com/ropensci/hydroscoper",
     "issueTracker": "https://github.com/ropensci/hydroscoper/issues             ",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -30391,7 +30391,7 @@
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
-        "version": ">= 3.3",
+        "version": ">= 3.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30404,7 +30404,7 @@
         "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
-        "version": ">= 1.31",
+        "version": ">= 1.45",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30417,7 +30417,7 @@
         "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
-        "version": ">= 2.7",
+        "version": ">= 2.25",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30430,7 +30430,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
-        "version": ">= 3.0",
+        "version": ">= 3.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30451,7 +30451,7 @@
         "@type": "SoftwareApplication",
         "identifier": "stringi",
         "name": "stringi",
-        "version": ">= 1.5",
+        "version": ">= 1.8",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30464,7 +30464,7 @@
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
-        "version": ">= 1.4",
+        "version": ">= 1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30477,7 +30477,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
-        "version": ">= 3.1",
+        "version": ">= 3.2",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30503,7 +30503,7 @@
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
-        "version": ">= 1.4",
+        "version": ">= 2.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -30516,7 +30516,7 @@
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
-        "version": ">= 1.7",
+        "version": ">= 1.8",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -50721,12 +50721,12 @@
     "@type": "SoftwareSourceCode",
     "identifier": "rdefra",
     "description": "This packages allows to retrieve air pollution data from the Air Information Resource (UK-AIR, <https://uk-air.defra.gov.uk/>) of the Department for Environment, Food and Rural Affairs (DEFRA) in the United Kingdom. UK-AIR does not provide a public API for programmatic access to data, therefore this package scrapes the HTML pages to get relevant information. The package is described in Vitolo et al. (2016) \"rdefra: Interact with the UK AIR Pollution Database from DEFRA\" <doi:10.21105/joss.00051>.",
-    "name": "rdefra: Retrieve Data from the UK AIR Database",
+    "name": "rdefra: Interact with the UK AIR Pollution Database from DEFRA",
     "relatedLink": ["https://docs.ropensci.org/rdefra/", "https://github.com/ropensci/rdefra"],
     "codeRepository": "https://github.com/ropensci/rdefra",
     "issueTracker": "https://github.com/ropensci/rdefra/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.3.9",
+    "version": "0.3.9.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -50773,9 +50773,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Cheryl",
-        "familyName": "Lim",
-        "email": "cheryl.academic@gmail.com"
+        "givenName": "Claudia",
+        "familyName": "Vitolo",
+        "email": "cvitolodev@gmail.com",
+        "@id": "https://orcid.org/0000-0002-4252-1176"
       }
     ],
     "softwareSuggestions": [
@@ -50921,11 +50922,6 @@
       },
       "8": {
         "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
         "provider": {
@@ -50936,7 +50932,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
       },
-      "SystemRequirements": "GDAL"
+      "SystemRequirements": null
     },
     "fileSize": "NAKB",
     "citation": [
