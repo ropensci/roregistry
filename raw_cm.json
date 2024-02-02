@@ -9945,7 +9945,7 @@
     "codeRepository": "https://github.com/ropensci/bowerbird",
     "issueTracker": "https://github.com/ropensci/bowerbird/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.13.3",
+    "version": "0.14.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -10070,6 +10070,18 @@
       },
       "5": {
         "@type": "SoftwareApplication",
+        "identifier": "CopernicusMarine",
+        "name": "CopernicusMarine",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=CopernicusMarine"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
         "provider": {
@@ -10080,7 +10092,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
@@ -10092,7 +10104,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -10104,7 +10116,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -10116,7 +10128,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -10128,7 +10140,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -10140,12 +10152,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "openssl",
         "name": "openssl",
@@ -10157,7 +10169,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=openssl"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "R.utils",
         "name": "R.utils",
@@ -10169,7 +10181,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R.utils"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
@@ -10181,7 +10193,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "rvest",
         "name": "rvest",
@@ -10194,7 +10206,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rvest"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -10206,7 +10218,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "sys",
         "name": "sys",
@@ -10219,7 +10231,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sys"
       },
-      "18": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -10231,7 +10243,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "19": {
+      "20": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -36828,7 +36840,7 @@
     "codeRepository": "https://github.com/ropensci/nasapower",
     "issueTracker": "https://github.com/ropensci/nasapower/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "4.1.0",
+    "version": "4.2.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36870,12 +36882,24 @@
         "familyName": "Alderman",
         "email": "phillip.alderman@okstate.edu",
         "@id": "https://orcid.org/0000-0003-1467-2337"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Aleksandar",
+        "familyName": "Blagotić",
+        "email": "alex@rapporter.net"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gergely",
+        "familyName": "Daróczi",
+        "email": "daroczig@rapporter.net"
       }
     ],
     "copyrightHolder": [
       {
         "@type": "Organization",
-        "name": "Western Australia Agriculture Authority (WAAA)"
+        "name": "Curtin University"
       }
     ],
     "maintainer": [
@@ -37073,7 +37097,7 @@
         "name": "{nasapower}: NASA-POWER Data from R",
         "identifier": "10.5281/zenodo.1040727",
         "url": "https://CRAN.R-project.org/package=nasapower",
-        "description": "R package version 4.1.0",
+        "description": "R package version 4.2.0",
         "@id": "https://doi.org/10.5281/zenodo.1040727",
         "sameAs": "https://doi.org/10.5281/zenodo.1040727"
       },
@@ -43386,13 +43410,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "paleobioDB",
-    "description": "Includes 19 functions to wrap each endpoint of the PaleobioDB API, plus 8 functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found in <http://paleobiodb.org/data1.1/>.",
+    "description": "Includes 19 functions to wrap each endpoint of the PaleobioDB API, plus 8 functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found in <https://paleobiodb.org/data1.2/>.",
     "name": "paleobioDB: Download and Process Data from the Paleobiology Database",
     "relatedLink": ["https://docs.ropensci.org/paleobioDB", "https://github.com/ropensci/paleobioDB"],
     "codeRepository": "https://github.com/ropensci/paleobioDB",
     "issueTracker": "https://github.com/ropensci/paleobioDB/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.7.0",
+    "version": "0.7.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -43404,7 +43428,7 @@
         "@type": "Person",
         "givenName": "Sara",
         "familyName": "Varela",
-        "email": "svarela@paleobiogeography.org"
+        "email": "sara.varela@uvigo.gal"
       },
       {
         "@type": "Person",
@@ -43419,12 +43443,20 @@
         "email": "luciano.f.sgarbi@gmail.com"
       }
     ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Adrián",
+        "familyName": "Castro Insua",
+        "email": "adrian.castro.insua@uvigo.gal"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
         "givenName": "Sara",
         "familyName": "Varela",
-        "email": "svarela@paleobiogeography.org"
+        "email": "sara.varela@uvigo.gal"
       }
     ],
     "softwareSuggestions": [
@@ -43480,6 +43512,18 @@
       },
       "3": {
         "@type": "SoftwareApplication",
+        "identifier": "maps",
+        "name": "maps",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=maps"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
         "identifier": "RCurl",
         "name": "RCurl",
         "provider": {
@@ -43490,7 +43534,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=RCurl"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "plyr",
         "name": "plyr",
@@ -43502,7 +43546,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=plyr"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "scales",
         "name": "scales",
@@ -43514,29 +43558,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=scales"
       },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "raster",
-        "name": "raster",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=raster"
-      },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "maps",
-        "name": "maps",
+        "identifier": "terra",
+        "name": "terra",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=maps"
+        "sameAs": "https://CRAN.R-project.org/package=terra"
       },
       "SystemRequirements": null
     },
@@ -52011,7 +52043,7 @@
     "identifier": "readODS",
     "description": "Read ODS (OpenDocument Spreadsheet) into R as data frame. Also support writing data frame into ODS file.",
     "name": "readODS: Read and Write ODS Files",
-    "relatedLink": "https://github.com/ropensci/readODS",
+    "relatedLink": ["https://docs.ropensci.org/readODS/", "https://github.com/ropensci/readODS"],
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -75708,7 +75740,7 @@
     "codeRepository": "https://github.com/ropensci/unifir",
     "issueTracker": "https://github.com/ropensci/unifir/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.3.9000",
+    "version": "0.2.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
