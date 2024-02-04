@@ -61040,6 +61040,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -62256,7 +62262,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.1.9001",
+    "version": "1.2.1.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62556,7 +62562,7 @@
         "@type": "SoftwareApplication",
         "identifier": "httr2",
         "name": "httr2",
-        "version": ">= 0.2.3.9000",
+        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
