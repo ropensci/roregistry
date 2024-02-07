@@ -1,6 +1,25 @@
 {
   "packages": [
     {
+      "name": "assertr",
+      "description": "Assertive Programming for R Analysis Pipelines",
+      "details": "Provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. Similar to 'stopifnot()' but more powerful, friendly, and easier for use in pipelines.",
+      "maintainer": "Tony Fischetti",
+      "keywords": "",
+      "github": "https://github.com/ropensci/assertr",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/assertr",
+      "ropensci_category": "scalereprod",
+      "ropenscilabs": false,
+      "date_last_commit": "2023-11-23 00:30:33",
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "auk",
       "description": "eBird Data Extraction and Processing in R",
       "details": "Extract and process bird sightings records from eBird (<http://ebird.org>), an online tool for recording bird observations. Public access to the full eBird database is via the eBird Basic Dataset (EBD; see <http://ebird.org/ebird/data/download> for access), a downloadable text file. This package is an interface to AWK for extracting data from the EBD based on taxonomic, spatial, or temporal filters, to produce a manageable file size that can be imported into R.",
@@ -34,7 +53,7 @@
       "url": "https://github.com/ropensci-review-tools/autotest",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-10-18 15:38:17",
+      "date_last_commit": "2024-02-06 11:12:17",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -224,7 +243,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-09-23 13:46:03",
+      "date_last_commit": "2024-02-06 11:17:37",
       "cran_archived": true,
       "staff_maintained": true
     },
@@ -262,7 +281,7 @@
       "url": "https://github.com/ropensci-review-tools/roreviewapi",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-11-04 08:27:26",
+      "date_last_commit": "2024-02-06 11:11:17",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -319,7 +338,7 @@
       "url": "https://github.com/ropensci-review-tools/srr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-08-29 12:03:23",
+      "date_last_commit": "2024-02-06 11:20:08",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -477,26 +496,6 @@
       "ropensci_category": "literature",
       "ropenscilabs": false,
       "date_last_commit": "2024-01-22 19:39:31",
-      "github_archived": false,
-      "cran_archived": false,
-      "staff_maintained": false
-    },
-    {
-      "name": "assertr",
-      "description": "Assertive Programming for R Analysis Pipelines",
-      "details": "Provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. Similar to 'stopifnot()' but more powerful, friendly, and easier for use in pipelines.",
-      "maintainer": "Tony Fischetti",
-      "keywords": "",
-      "github": "https://github.com/ropensci/assertr",
-      "status": "https://www.repostatus.org#active",
-      "onboarding": "",
-      "on_cran": true,
-      "on_bioc": false,
-      "type": "active",
-      "url": "https://github.com/ropensci/assertr",
-      "ropensci_category": "scalereprod",
-      "ropenscilabs": false,
-      "date_last_commit": "2023-11-23 00:30:33",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -695,7 +694,7 @@
       "url": "https://github.com/ropensci/bikedata",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-23 14:55:25",
+      "date_last_commit": "2024-02-06 11:25:54",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -935,7 +934,7 @@
       "url": "https://github.com/ropensci/cffr",
       "ropensci_category": "data-publication",
       "ropenscilabs": false,
-      "date_last_commit": "2024-01-22 21:02:28",
+      "date_last_commit": "2024-02-06 22:34:06",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1209,15 +1208,15 @@
       "github": "https://github.com/ropensci/comtradr",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/613",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/comtradr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-02-05 23:41:29",
+      "date_last_commit": "2024-02-06 17:14:56",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -2755,7 +2754,7 @@
       "url": "https://github.com/ropensci/mapscanner",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2022-03-23 14:57:22",
+      "date_last_commit": "2024-02-06 11:27:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3295,7 +3294,7 @@
       "url": "https://github.com/ropensci/osmdata",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2023-10-06 09:49:55",
+      "date_last_commit": "2024-02-06 11:29:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3335,7 +3334,7 @@
       "url": "https://github.com/ropensci/osmplotr",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2024-01-19 11:34:56",
+      "date_last_commit": "2024-02-06 11:33:52",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -3375,7 +3374,7 @@
       "url": "https://github.com/ropensci/paleobioDB",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-02-05 10:00:39",
+      "date_last_commit": "2024-02-06 10:12:07",
       "github_archived": false,
       "cran_archived": true,
       "staff_maintained": false
@@ -4919,6 +4918,24 @@
       "staff_maintained": false
     },
     {
+      "name": "rvertnet",
+      "description": "Search 'Vertnet', a 'Database' of Vertebrate Specimen Records",
+      "details": "Retrieve, map and summarize data from the 'VertNet.org' archives (<https://vertnet.org/>). Functions allow searching by many parameters, including 'taxonomic' names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large 'datasets' via email.",
+      "maintainer": "Scott Chamberlain",
+      "keywords": "",
+      "github": "https://github.com/ropensci/rvertnet",
+      "status": "https://www.repostatus.org#abandoned",
+      "onboarding": "",
+      "on_cran": true,
+      "on_bioc": false,
+      "type": "archived",
+      "url": "https://github.com/ropensci/rvertnet",
+      "date_last_commit": "2023-04-17 05:36:26",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "rWBclimate",
       "description": "A package for accessing World Bank climate data",
       "details": "This package will download model predictions from 15 different global circulation models in 20 year intervals from the world bank. Users can also access historical data, and create maps at 2 different spatial scales.",
@@ -5313,7 +5330,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-01-23 19:16:01",
+      "date_last_commit": "2024-02-06 20:23:12",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5333,7 +5350,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-02-02 19:25:09",
+      "date_last_commit": "2024-02-06 21:45:28",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6359,5 +6376,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-02-06 08:00 UTC"
+  "date": "2024-02-07 08:00 UTC"
 }
