@@ -63543,7 +63543,7 @@
     "codeRepository": "https://github.com/ropensci/rvertnet",
     "issueTracker": "https://github.com/ropensci/rvertnet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.2",
+    "version": "0.8.2.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63562,6 +63562,12 @@
         "givenName": "Scott",
         "familyName": "Chamberlain",
         "email": "myrmecocystus@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dave",
+        "familyName": "Slager",
+        "email": "slager@users.noreply.github.com"
       }
     ],
     "contributor": [
@@ -63579,9 +63585,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Scott",
-        "familyName": "Chamberlain",
-        "email": "myrmecocystus@gmail.com"
+        "givenName": "Dave",
+        "familyName": "Slager",
+        "email": "slager@users.noreply.github.com"
       }
     ],
     "softwareSuggestions": [
@@ -63692,7 +63698,7 @@
     "isPartOf": "\"https://ropensci.org\"",
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rvertnet/blob/HEAD/README.md",
-    "developmentStatus": "https://www.repostatus.org/#abandoned"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -68681,14 +68687,14 @@
         "@type": "SoftwareApplication",
         "identifier": "crew",
         "name": "crew",
-        "version": ">= 0.8.0.9003",
+        "version": ">= 0.9.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/wlandau/crew"
+        "sameAs": "https://CRAN.R-project.org/package=crew"
       },
       {
         "@type": "SoftwareApplication",
