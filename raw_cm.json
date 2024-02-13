@@ -14936,12 +14936,12 @@
     "@type": "SoftwareSourceCode",
     "identifier": "comtradr",
     "description": "Interface with and extract data from the United Nations 'Comtrade' API <https://comtradeplus.un.org/>. 'Comtrade' provides country level shipping data for a variety of commodities, these functions allow for easy API query and data returned as a tidy data frame.",
-    "name": "comtradr: Interface with the United Nations 'Comtrade' API",
+    "name": "comtradr: Interface with the United Nations Comtrade API",
     "relatedLink": ["https://docs.ropensci.org/comtradr/", "https://github.com/ropensci/comtradr"],
     "codeRepository": "https://github.com/ropensci/comtradr",
     "issueTracker": "https://github.com/ropensci/comtradr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.4.0.0",
+    "version": "0.4.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63616,7 +63616,7 @@
         "@type": "Person",
         "givenName": "Dave",
         "familyName": "Slager",
-        "email": "slager@users.noreply.github.com"
+        "email": "slager@uw.edu"
       }
     ],
     "contributor": [
@@ -63631,12 +63631,26 @@
         "familyName": "Barve"
       }
     ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain",
+        "email": "myrmecocystus@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dave",
+        "familyName": "Slager",
+        "email": "slager@uw.edu"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
         "givenName": "Dave",
         "familyName": "Slager",
-        "email": "slager@users.noreply.github.com"
+        "email": "slager@uw.edu"
       }
     ],
     "softwareSuggestions": [
@@ -68677,7 +68691,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5.0.9000",
+    "version": "1.5.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68729,19 +68743,6 @@
       }
     ],
     "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "arrow",
-        "name": "arrow",
-        "version": ">= 3.0.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=arrow"
-      },
       {
         "@type": "SoftwareApplication",
         "identifier": "bs4Dash",
