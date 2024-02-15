@@ -25160,7 +25160,7 @@
     "codeRepository": "https://github.com/ropensci/fingertipsR",
     "issueTracker": "https://github.com/ropensci/fingertipsR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.10.9002",
+    "version": "1.0.12",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25182,6 +25182,12 @@
       },
       {
         "@type": "Person",
+        "givenName": "Hadley",
+        "familyName": "Nanayakkara",
+        "email": "hadley.nanayakkara@dhsc.gov.uk"
+      },
+      {
+        "@type": "Person",
         "givenName": "Julian",
         "familyName": "Flowers"
       }
@@ -25192,6 +25198,12 @@
         "givenName": "Sebastian",
         "familyName": "Fox",
         "email": "sebsfox@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hadley",
+        "familyName": "Nanayakkara",
+        "email": "hadley.nanayakkara@dhsc.gov.uk"
       },
       {
         "@type": "Person",
@@ -25450,6 +25462,61 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": []
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "fluidsynth",
+    "description": "Bindings to libfluidsynth to synthesize midi files.",
+    "name": "fluidsynth: Play and Render MIDI files in R",
+    "relatedLink": "https://docs.ropensci.org/fluidsynth/",
+    "codeRepository": "https://github.com/ropensci/fluidsynth",
+    "issueTracker": "https://github.com/ropensci/fluidsynth/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "0.1.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms",
+        "email": "jeroen@berkeley.edu",
+        "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "av",
+        "name": "av",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=av"
+      }
+    ],
+    "softwareRequirements": {
+      "SystemRequirements": "fluidsynth: fluidsynth-devel (rpm) or libfluidsynth-dev (deb)."
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/ropensci/fluidsynth/blob/HEAD/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -35239,13 +35306,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "melt",
-    "description": "Performs multiple empirical likelihood tests for linear and generalized linear models. The package offers an easy-to-use interface and flexibility in specifying hypotheses and calibration methods, extending the framework to simultaneous inferences. The core computational routines are implemented using the 'Eigen' C++ library and 'RcppEigen' interface, with OpenMP for parallel computation. Details of the testing procedures are given in Kim, MacEachern, and Peruggia (2023) <doi:10.1080/10485252.2023.2206919>. This work was supported by the U.S. National Science Foundation under Grants No. SES-1921523 and DMS-2015552.",
+    "description": "Performs multiple empirical likelihood tests. It offers an easy-to-use interface and flexibility in specifying hypotheses and calibration methods, extending the framework to simultaneous inferences. The core computational routines are implemented using the 'Eigen' 'C++' library and 'RcppEigen' interface, with 'OpenMP' for parallel computation. Details of the testing procedures are provided in Kim, MacEachern, and Peruggia (2023) <doi:10.1080/10485252.2023.2206919>. A companion paper by Kim, MacEachern, and Peruggia (2024) <doi:10.18637/jss.v108.i05> is available for further information. This work was supported by the U.S. National Science Foundation under Grants No. SES-1921523 and DMS-2015552.",
     "name": "melt: Multiple Empirical Likelihood Tests",
     "relatedLink": ["https://docs.ropensci.org/melt/", "https://github.com/ropensci/melt"],
     "codeRepository": "https://github.com/ropensci/melt",
     "issueTracker": "https://github.com/ropensci/melt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.10.0.1",
+    "version": "1.10.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35286,6 +35353,14 @@
         "@type": "Person",
         "givenName": "Mario",
         "familyName": "Peruggia"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Eunseop",
+        "familyName": "Kim",
+        "email": "markean@pm.me"
       }
     ],
     "maintainer": [
@@ -35449,6 +35524,47 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Eunseop",
+            "familyName": "Kim",
+            "email": "kim.7302@osu.edu"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Steven", "N."],
+            "familyName": "MacEachern",
+            "email": "snm@stat.osu.edu"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Mario",
+            "familyName": "Peruggia",
+            "email": "peruggia@stat.osu.edu"
+          }
+        ],
+        "name": "{melt}: Multiple Empirical Likelihood Tests in {R}",
+        "identifier": "10.18637/jss.v108.i05",
+        "pagination": "1--33",
+        "@id": "https://doi.org/10.18637/jss.v108.i05",
+        "sameAs": "https://doi.org/10.18637/jss.v108.i05",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "5",
+          "datePublished": "2024",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "108",
+            "name": "Journal of Statistical Software"
+          }
+        }
+      }
+    ],
     "readme": "https://github.com/ropensci/melt/blob/HEAD/README.md",
     "review": {
       "@type": "Review",
@@ -41222,6 +41338,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "coro",
+        "name": "coro",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=coro"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "covr",
         "name": "covr",
         "provider": {
@@ -43525,7 +43653,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "paleobioDB",
-    "description": "Includes 19 functions to wrap each endpoint of the PaleobioDB API, plus 8 functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found in <https://paleobiodb.org/data1.2/>.",
+    "description": "Includes functions to wrap each endpoint of the 'PaleobioDB' API and functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <https://paleobiodb.org/data1.2/>.",
     "name": "paleobioDB: Download and Process Data from the Paleobiology Database",
     "relatedLink": ["https://docs.ropensci.org/paleobioDB", "https://github.com/ropensci/paleobioDB"],
     "codeRepository": "https://github.com/ropensci/paleobioDB",
@@ -43603,17 +43731,27 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
-        "identifier": "rjson",
-        "name": "rjson",
+        "identifier": "curl",
+        "name": "curl",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=rjson"
+        "sameAs": "https://CRAN.R-project.org/package=curl"
       },
       "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "graphics",
+        "name": "graphics"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "grDevices",
+        "name": "grDevices"
+      },
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "gtools",
         "name": "gtools",
@@ -43625,7 +43763,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=gtools"
       },
-      "3": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "maps",
         "name": "maps",
@@ -43637,41 +43775,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=maps"
       },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "RCurl",
-        "name": "RCurl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=RCurl"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
       "6": {
         "@type": "SoftwareApplication",
-        "identifier": "scales",
-        "name": "scales",
+        "identifier": "rjson",
+        "name": "rjson",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=scales"
+        "sameAs": "https://CRAN.R-project.org/package=rjson"
       },
       "7": {
         "@type": "SoftwareApplication",
@@ -43688,6 +43802,64 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2015",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Sara",
+            "familyName": "Varela"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Javier",
+            "familyName": "González-Hernández"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Luciano", "F."],
+            "familyName": "Sgarbi"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Marshall"
+          },
+          {
+            "@type": "Person",
+            "givenName": ["Mark", "D."],
+            "familyName": "Uhen"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Shanan",
+            "familyName": "Peters"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "McClennen"
+          }
+        ],
+        "name": "paleobioDB: an R package for downloading, visualizing and processing data from the Paleobiology Database.",
+        "identifier": "10.1111/ecog.01154",
+        "pagination": "419-425",
+        "@id": "https://doi.org/10.1111/ecog.01154",
+        "sameAs": "https://doi.org/10.1111/ecog.01154",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "4",
+          "datePublished": "2015",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "38",
+            "name": "Ecography"
+          }
+        }
+      }
+    ],
     "readme": "https://github.com/ropensci/paleobioDB/blob/HEAD/README.md",
     "developmentStatus": []
   },
