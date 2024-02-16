@@ -20706,7 +20706,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.9",
+    "version": "1.4.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25498,8 +25498,8 @@
         "@id": "https://orcid.org/0000-0002-4035-0289"
       }
     ],
-    "softwareSuggestions": [
-      {
+    "softwareRequirements": {
+      "1": {
         "@type": "SoftwareApplication",
         "identifier": "av",
         "name": "av",
@@ -25510,10 +25510,8 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=av"
-      }
-    ],
-    "softwareRequirements": {
-      "SystemRequirements": "fluidsynth: fluidsynth-devel (rpm) or libfluidsynth-dev (deb)."
+      },
+      "SystemRequirements": "fluidsynth: fluidsynth-devel (rpm) or libfluidsynth-dev (deb). On\n    Linux you also need a soundfont provided by 'fluid-soundfont-gm' (Fedora) or \n    'sf3-soundfont-gm' (Debian/Ubuntu)"
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/fluidsynth/blob/HEAD/README.md"
@@ -43653,9 +43651,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "paleobioDB",
-    "description": "Includes functions to wrap each endpoint of the 'PaleobioDB' API and functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <https://paleobiodb.org/data1.2/>.",
+    "description": "Includes functions to wrap most endpoints of the 'PaleobioDB' API and functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <https://paleobiodb.org/data1.2/>.",
     "name": "paleobioDB: Download and Process Data from the Paleobiology Database",
-    "relatedLink": ["https://docs.ropensci.org/paleobioDB", "https://github.com/ropensci/paleobioDB"],
+    "relatedLink": ["https://docs.ropensci.org/paleobioDB/", "https://github.com/ropensci/paleobioDB"],
     "codeRepository": "https://github.com/ropensci/paleobioDB",
     "issueTracker": "https://github.com/ropensci/paleobioDB/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
@@ -43861,7 +43859,7 @@
       }
     ],
     "readme": "https://github.com/ropensci/paleobioDB/blob/HEAD/README.md",
-    "developmentStatus": []
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -63764,7 +63762,7 @@
     "codeRepository": "https://github.com/ropensci/rvertnet",
     "issueTracker": "https://github.com/ropensci/rvertnet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.3.9000",
+    "version": "0.8.4.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68863,7 +68861,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.5.0.9001",
+    "version": "1.5.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75115,11 +75113,11 @@
     "identifier": "treebase",
     "description": "Interface to the API for 'TreeBASE' <http://treebase.org> from 'R.' 'TreeBASE' is a repository of user-submitted phylogenetic trees (of species, population, or genes) and the data used to create them.",
     "name": "treebase: Discovery, Access and Manipulation of 'TreeBASE' Phylogenies",
-    "relatedLink": ["https://docs.ropensci.org/treebase", "https://github.com/ropensci/treebase"],
+    "relatedLink": ["https://docs.ropensci.org/treebase/", "https://github.com/ropensci/treebase"],
     "codeRepository": "https://github.com/ropensci/treebase",
-    "issueTracker": "http://www.github.com/ropensci/treebase/issues",
+    "issueTracker": "https://github.com/ropensci/treebase/issues",
     "license": "https://spdx.org/licenses/CC0-1.0",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75259,8 +75257,7 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "readme": "https://github.com/ropensci/treebase/blob/HEAD/README.md",
-    "developmentStatus": []
+    "readme": "https://github.com/ropensci/treebase/blob/HEAD/README.md"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
