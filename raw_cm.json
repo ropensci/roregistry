@@ -18891,11 +18891,11 @@
     "identifier": "dbparser",
     "description": "This tool is for parsing public drug databases such as 'DrugBank' XML database <https://go.drugbank.com/>. The parsed data are then returned in a proper 'R' object called 'dvobject'.",
     "name": "dbparser: Drugs Databases Parser",
-    "relatedLink": ["https://docs.ropensci.org/dbparser/", "https://github.com/ropensci/dbparser/"],
+    "relatedLink": ["https://docs.ropensci.org/dbparser/", "https://github.com/ropensci/dbparser"],
     "codeRepository": "https://github.com/ropensci/dbparser",
     "issueTracker": "https://github.com/ropensci/dbparser/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.1.9000",
+    "version": "2.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18933,6 +18933,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "canvasXpress",
+        "name": "canvasXpress",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=canvasXpress"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -18966,6 +18978,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
       }
     ],
     "softwareRequirements": {
@@ -19060,7 +19084,7 @@
         ],
         "name": "DrugBank Database XML Parser",
         "url": "https://CRAN.R-project.org/package=dbparser",
-        "description": "R package version 2.0.1.9000"
+        "description": "R package version 2.0.2"
       }
     ],
     "readme": "https://github.com/ropensci/dbparser/blob/HEAD/README.md",
@@ -25469,7 +25493,7 @@
     "identifier": "fluidsynth",
     "description": "Bindings to libfluidsynth to synthesize midi files.",
     "name": "fluidsynth: Play and Render MIDI files in R",
-    "relatedLink": "https://docs.ropensci.org/fluidsynth/",
+    "relatedLink": ["https://docs.ropensci.org/fluidsynth/", "https://ropensci.r-universe.dev/fluidsynth"],
     "codeRepository": "https://github.com/ropensci/fluidsynth",
     "issueTracker": "https://github.com/ropensci/fluidsynth/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -35310,7 +35334,7 @@
     "codeRepository": "https://github.com/ropensci/melt",
     "issueTracker": "https://github.com/ropensci/melt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.10.0.9000",
+    "version": "1.11.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35384,6 +35408,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
         "provider": {
@@ -35408,6 +35444,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "MASS",
+        "name": "MASS",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=MASS"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "microbenchmark",
         "name": "microbenchmark",
         "provider": {
@@ -35417,18 +35465,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=microbenchmark"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "R.rsp",
-        "name": "R.rsp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=R.rsp"
       },
       {
         "@type": "SoftwareApplication",
