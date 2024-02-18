@@ -25491,13 +25491,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "fluidsynth",
-    "description": "Bindings to libfluidsynth to synthesize midi files.",
-    "name": "fluidsynth: Play and Render MIDI files in R",
+    "description": "Bindings to 'libfluidsynth' to parse and synthesize midi files.",
+    "name": "fluidsynth: Read and Play Digital Music (MIDI) in R",
     "relatedLink": ["https://docs.ropensci.org/fluidsynth/", "https://ropensci.r-universe.dev/fluidsynth"],
     "codeRepository": "https://github.com/ropensci/fluidsynth",
     "issueTracker": "https://github.com/ropensci/fluidsynth/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25511,6 +25511,12 @@
         "familyName": "Ooms",
         "email": "jeroen@berkeley.edu",
         "@id": "https://orcid.org/0000-0002-4035-0289"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "S. Christian Collins"
       }
     ],
     "maintainer": [
@@ -25534,6 +25540,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=av"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "rappdirs",
+        "name": "rappdirs",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rappdirs"
       },
       "SystemRequirements": "fluidsynth: fluidsynth-devel (rpm) or libfluidsynth-dev (deb). On\n    Linux you also need a soundfont provided by 'fluid-soundfont-gm' (Fedora) or \n    'sf3-soundfont-gm' (Debian/Ubuntu)"
     },
