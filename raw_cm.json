@@ -177,6 +177,11 @@
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/assertr/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/23",
+      "provider": "https://ropensci.org"
+    },
     "developmentStatus": []
   },
   {
@@ -25756,6 +25761,13 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
+      },
+      {
+        "@type": "Person",
         "givenName": "Jennifer",
         "familyName": "Beaudry",
         "email": "jbeaudry@swin.edu.au",
@@ -25799,10 +25811,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Emily",
-        "familyName": "Kothe",
-        "email": "emily.kothe@deakin.edu.au",
-        "@id": "https://orcid.org/0000-0003-1210-0554"
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
       }
     ],
     "softwareSuggestions": [
@@ -31532,7 +31544,7 @@
     "codeRepository": "https://github.com/ropensci/jagstargets",
     "issueTracker": "https://github.com/ropensci/jagstargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0.9000",
+    "version": "1.1.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31808,7 +31820,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.12.0",
+        "version": ">= 1.5.1.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31821,7 +31833,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tarchetypes",
         "name": "tarchetypes",
-        "version": ">= 0.6.0",
+        "version": ">= 0.7.12.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31845,15 +31857,27 @@
       },
       "15": {
         "@type": "SoftwareApplication",
+        "identifier": "tidyselect",
+        "name": "tidyselect",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyselect"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
         "identifier": "tools",
         "name": "tools"
       },
-      "16": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -65509,7 +65533,7 @@
     "codeRepository": "https://github.com/ropensci/sofa",
     "issueTracker": "https://github.com/ropensci/sofa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -65523,6 +65547,13 @@
       "url": "https://cran.r-project.org"
     },
     "author": [
+      {
+        "@type": "Person",
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
+      },
       {
         "@type": "Person",
         "givenName": "Eduard",
@@ -65547,10 +65578,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Eduard",
-        "familyName": "Szöcs",
-        "email": "eduardszoecs@gmail.com",
-        "@id": "https://orcid.org/0000-0003-1444-9135"
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
       }
     ],
     "softwareSuggestions": [
@@ -66642,7 +66673,7 @@
     "codeRepository": "https://github.com/ropensci/stantargets",
     "issueTracker": "https://github.com/ropensci/stantargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9000",
+    "version": "0.1.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66900,7 +66931,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 0.12.0",
+        "version": ">= 1.5.1.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -66913,7 +66944,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tarchetypes",
         "name": "tarchetypes",
-        "version": ">= 0.6.0",
+        "version": ">= 0.7.12.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -66936,6 +66967,18 @@
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
       "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyselect",
+        "name": "tidyselect",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyselect"
+      },
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -68628,7 +68671,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.12.9000",
+    "version": "0.7.12.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68813,7 +68856,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 1.4.0",
+        "version": ">= 1.5.1.9001",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -69685,7 +69728,7 @@
     "codeRepository": "https://github.com/ropensci/taxa",
     "issueTracker": "https://github.com/ropensci/taxa/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
