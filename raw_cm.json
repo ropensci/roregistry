@@ -6785,7 +6785,7 @@
         "identifier": "graphics",
         "name": "graphics"
       },
-      "SystemRequirements": "FFmpeg (>= 3.2); with at least libx264 and lame (mp3) drivers.\n\tMacOS Homebrew: ffmpeg. Debian/Ubuntu: libavfilter-dev. Fedora/CentOS: either \n\tffmpeg-free-devel or (via https://rpmfusion.org) ffmpeg-devel."
+      "SystemRequirements": "FFmpeg (>= 3.2); with at least libx264 and lame (mp3) drivers.\n\tMacOS Homebrew: ffmpeg. Debian/Ubuntu: libavfilter-dev. Fedora/RHEL: either \n\tffmpeg-devel from https://rpmfusion.org (preferred), or libavfilter-free-devel\n\twhich is a more limited version available on Fedora/EPEL9."
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/av/blob/HEAD/README.md",
@@ -35386,7 +35386,7 @@
     "codeRepository": "https://github.com/ropensci/melt",
     "issueTracker": "https://github.com/ropensci/melt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.11.0.9000",
+    "version": "1.11.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35448,6 +35448,30 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "car",
+        "name": "car",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=car"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "carData",
+        "name": "carData",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=carData"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "covr",
         "name": "covr",
         "provider": {
@@ -35484,6 +35508,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "ggridges",
+        "name": "ggridges",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggridges"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -35517,6 +35553,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=microbenchmark"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "multcomp",
+        "name": "multcomp",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=multcomp"
       },
       {
         "@type": "SoftwareApplication",
@@ -35577,15 +35625,27 @@
       },
       "2": {
         "@type": "SoftwareApplication",
+        "identifier": "checkmate",
+        "name": "checkmate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=checkmate"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
         "identifier": "graphics",
         "name": "graphics"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "Rcpp",
         "name": "Rcpp",
@@ -35597,12 +35657,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=Rcpp"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -38701,7 +38761,7 @@
     "codeRepository": "https://github.com/ropensci/nodbi",
     "issueTracker": "https://github.com/ropensci/nodbi/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.10.1.9000",
+    "version": "0.10.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -46521,7 +46581,7 @@
     "identifier": "piggyback",
     "description": "Helps store files as GitHub release assets, which is a convenient way for large/binary data files to piggyback onto public and private GitHub repositories. Includes functions for file downloads, uploads, and managing releases via the GitHub API.",
     "name": "piggyback: Managing Larger Data on a GitHub Repository",
-    "relatedLink": "https://github.com/ropensci/piggyback",
+    "relatedLink": ["https://docs.ropensci.org/piggyback/", "https://github.com/ropensci/piggyback"],
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -62629,7 +62689,7 @@
     "codeRepository": "https://github.com/ropensci/rtweet",
     "issueTracker": "https://github.com/ropensci/rtweet/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.1.9002",
+    "version": "2.0.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
