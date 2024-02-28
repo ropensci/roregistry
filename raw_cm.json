@@ -25158,6 +25158,12 @@
         "identifier": "arcgislayers",
         "name": "arcgislayers",
         "version": ">= 0.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
         "sameAs": "https://github.com/R-ArcGIS/arcgislayers"
       },
       "SystemRequirements": "GDAL (>= 3.1.0)"
@@ -36296,7 +36302,7 @@
     "codeRepository": "https://github.com/ropensci/mregions",
     "issueTracker": "https://github.com/ropensci/mregions/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -36371,16 +36377,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "rgeos",
-        "name": "rgeos"
       },
       {
         "@type": "SoftwareApplication",
