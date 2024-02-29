@@ -25157,14 +25157,14 @@
         "@type": "SoftwareApplication",
         "identifier": "arcgislayers",
         "name": "arcgislayers",
-        "version": ">= 0.1.0",
+        "version": ">= 0.2.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/R-ArcGIS/arcgislayers"
+        "sameAs": "https://CRAN.R-project.org/package=arcgislayers"
       },
       "SystemRequirements": "GDAL (>= 3.1.0)"
     },
@@ -43801,7 +43801,8 @@
         "@type": "Person",
         "givenName": "Sara",
         "familyName": "Varela",
-        "email": "sara.varela@uvigo.gal"
+        "email": "sara.varela@uvigo.gal",
+        "@id": "https://orcid.org/0000-0002-5756-5737"
       },
       {
         "@type": "Person",
@@ -43813,7 +43814,8 @@
         "@type": "Person",
         "givenName": "Luciano",
         "familyName": "Fabris Sgarbi",
-        "email": "luciano.f.sgarbi@gmail.com"
+        "email": "luciano.f.sgarbi@gmail.com",
+        "@id": "https://orcid.org/0000-0002-0416-3275"
       }
     ],
     "contributor": [
@@ -43821,7 +43823,8 @@
         "@type": "Person",
         "givenName": "Adrián",
         "familyName": "Castro Insua",
-        "email": "adrian.castro.insua@uvigo.gal"
+        "email": "adrian.castro.insua@uvigo.gal",
+        "@id": "https://orcid.org/0000-0003-4184-8641"
       }
     ],
     "maintainer": [
@@ -43829,7 +43832,8 @@
         "@type": "Person",
         "givenName": "Adrián",
         "familyName": "Castro Insua",
-        "email": "adrian.castro.insua@uvigo.gal"
+        "email": "adrian.castro.insua@uvigo.gal",
+        "@id": "https://orcid.org/0000-0003-4184-8641"
       }
     ],
     "softwareSuggestions": [
@@ -43849,6 +43853,7 @@
         "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
+        "version": ">= 3.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
