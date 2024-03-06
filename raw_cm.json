@@ -52910,6 +52910,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vcr",
+        "name": "vcr",
+        "version": ">= 0.6.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vcr"
       }
     ],
     "softwareRequirements": {
@@ -63125,13 +63138,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "ruODK",
-    "description": "Access and tidy up data from the 'ODK Central' API. 'ODK Central' is a clearinghouse for digitally captured data <https://docs.getodk.org/central-intro/>. The 'ODK Central' API is documented at <https://odkcentral.docs.apiary.io/>.",
+    "description": "Access and tidy up data from the 'ODK Central' API. 'ODK Central' is a clearinghouse for digitally captured data <https://docs.getodk.org/central-intro/>. 'ODK Central' and its API are documented at <https://docs.getodk.org/>.",
     "name": "ruODK: An R Client for the ODK Central API",
     "relatedLink": ["https://docs.ropensci.org/ruODK", "https://github.com/ropensci/ruODK"],
     "codeRepository": "https://github.com/ropensci/ruODK",
     "issueTracker": "https://github.com/ropensci/ruODK/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -63613,6 +63626,19 @@
       },
       "16": {
         "@type": "SoftwareApplication",
+        "identifier": "semver",
+        "name": "semver",
+        "version": ">= 0.2.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=semver"
+      },
+      "17": {
+        "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
         "version": ">= 3.1.8",
@@ -63624,7 +63650,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "17": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "tidyr",
         "name": "tidyr",
@@ -63637,7 +63663,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
       },
-      "18": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
