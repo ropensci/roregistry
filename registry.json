@@ -338,7 +338,7 @@
       "url": "https://github.com/ropensci-review-tools/srr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-03-13 20:07:27",
+      "date_last_commit": "2024-03-14 08:55:01",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -3120,6 +3120,24 @@
       "staff_maintained": false
     },
     {
+      "name": "nuts",
+      "description": "Convert European Regional Data",
+      "details": "Motivated by changing administrative boundaries over time, the 'nuts' package can convert European regional data with NUTS codes between versions (2006, 2010, 2013, 2016 and 2021) and levels (NUTS 1, NUTS 2 and NUTS 3). The package uses spatial interpolation based on granular (100mx100m) population and land use data provided by the European Commission's Joint Research Center.",
+      "maintainer": "Moritz Hennicke",
+      "keywords": "",
+      "github": "https://github.com/ropensci/nuts",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/623",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/nuts",
+      "date_last_commit": "2024-03-14 11:31:30",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "oai",
       "description": "General Purpose 'Oai-PMH' Services Client",
       "details": "A general purpose client to work with any 'OAI-PMH' (Open Archives Initiative Protocol for 'Metadata' Harvesting) service. The 'OAI-PMH' protocol is described at <http://www.openarchives.org/OAI/openarchivesprotocol.html>. Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord', 'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and 'ListSets'.",
@@ -5254,7 +5272,7 @@
       "url": "https://github.com/ropensci/stplanr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-11-03 11:39:57",
+      "date_last_commit": "2024-03-14 17:22:49",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6112,6 +6130,8 @@
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/weatherOz",
+      "ropensci_category": "data-access",
+      "ropenscilabs": false,
       "date_last_commit": "2024-03-11 08:17:15",
       "github_archived": false,
       "cran_archived": false,
@@ -6418,5 +6438,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-03-14 07:57 UTC"
+  "date": "2024-03-15 07:56 UTC"
 }
