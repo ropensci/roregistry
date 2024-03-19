@@ -4382,7 +4382,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.5",
+    "version": "0.1.2.6",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20727,7 +20727,7 @@
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.4.10",
+    "version": "1.4.11",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -20904,6 +20904,7 @@
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
+        "version": ">= 1.15.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -39705,9 +39706,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "nuts",
-    "description": "Motivated by changing administrative boundaries over time, the 'nuts' package can convert European regional data with NUTS codes between versions (2006, 2010, 2013, 2016 and 2021) and levels (NUTS 1, NUTS 2 and NUTS 3). The package uses spatial interpolation based on granular (100mx100m) population and land use data provided by the European Commission's Joint Research Center.",
+    "description": "Motivated by changing administrative boundaries over time, the 'nuts' package can convert European regional data with NUTS codes between versions (2006, 2010, 2013, 2016 and 2021) and levels (NUTS 1, NUTS 2 and NUTS 3). The package uses spatial interpolation based on granular (100m x 100m) population and land use data provided by the European Commission's Joint Research Center.",
     "name": "nuts: 'nuts': Convert European Regional Data",
-    "relatedLink": "https://docs.ropensci.org/nuts",
+    "relatedLink": "https://docs.ropensci.org/nuts/",
     "codeRepository": "https://github.com/ropensci/nuts",
     "issueTracker": "https://github.com/ropensci/nuts",
     "license": "https://spdx.org/licenses/MIT",
@@ -39719,6 +39720,22 @@
     },
     "runtimePlatform": "R version 4.3.3 (2024-02-29)",
     "author": [
+      {
+        "@type": "Person",
+        "givenName": "Moritz",
+        "familyName": "Hennicke",
+        "email": "AAoritz@posteo.de",
+        "@id": "https://orcid.org/0000-0001-6811-1821"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Werner",
+        "familyName": "Krause",
+        "email": "werner.krause@uni-potsdam.de",
+        "@id": "https://orcid.org/0000-0002-5069-7964"
+      }
+    ],
+    "copyrightHolder": [
       {
         "@type": "Person",
         "givenName": "Moritz",
@@ -48969,7 +48986,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "quadkeyr",
     "description": "'Quadkeyr' functions generate raster images based on QuadKey-identified data, facilitating efficient integration of Tile Maps data into R workflows. In particular, 'Quadkeyr' provides support to process and analyze Facebook mobility datasets within the R environment.",
-    "name": "quadkeyr: Tools for converting QuadKey-identified datasets (Microsoft's Bing Maps Tile System) into raster images and analyzing Meta (Facebook) mobility data.",
+    "name": "quadkeyr: Tools for converting QuadKey-identified datasets (Microsoft's Bing Maps Tile System) into raster images and analyzing Meta (Facebook) Mobility Data.",
     "relatedLink": ["https://docs.ropensci.org/quadkeyr/", "https://github.com/ropensci/quadkeyr"],
     "codeRepository": "https://github.com/ropensci/quadkeyr",
     "issueTracker": "https://github.com/ropensci/quadkeyr/issues",
@@ -49000,7 +49017,7 @@
     "copyrightHolder": [
       {
         "@type": "Organization",
-        "name": "Washington State University"
+        "name": "Paul G. Allen School for Global Health, Washington State University"
       }
     ],
     "funder": [
@@ -69491,7 +69508,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.12.9002",
+    "version": "0.8.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69559,7 +69576,7 @@
         "@type": "SoftwareApplication",
         "identifier": "quarto",
         "name": "quarto",
-        "version": ">= 1.0",
+        "version": ">= 1.4",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
