@@ -1789,18 +1789,6 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
-        "identifier": "assertthat",
-        "name": "assertthat",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=assertthat"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
         "identifier": "cli",
         "name": "cli",
         "provider": {
@@ -1811,7 +1799,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=cli"
       },
-      "3": {
+      "2": {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
@@ -1823,19 +1811,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "glue",
-        "name": "glue",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=glue"
-      },
-      "5": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
@@ -1847,7 +1823,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "6": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -1859,7 +1835,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "7": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -1871,7 +1847,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "8": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -1884,12 +1860,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "9": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "10": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
@@ -48880,7 +48856,7 @@
     "codeRepository": "https://github.com/ropensci/qpdf",
     "issueTracker": "https://github.com/ropensci/qpdf/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
