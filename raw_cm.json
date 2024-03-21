@@ -20891,6 +20891,18 @@
       },
       "5": {
         "@type": "SoftwareApplication",
+        "identifier": "ggforce",
+        "name": "ggforce",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggforce"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
         "identifier": "glue",
         "name": "glue",
         "provider": {
@@ -20901,7 +20913,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=glue"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
@@ -20913,7 +20925,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ggplot2"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "loo",
         "name": "loo",
@@ -20925,12 +20937,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=loo"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "patchwork",
         "name": "patchwork",
@@ -20942,7 +20954,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=patchwork"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "posterior",
         "name": "posterior",
@@ -20954,7 +20966,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=posterior"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -20966,7 +20978,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "rstan",
         "name": "rstan",
@@ -20978,12 +20990,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rstan"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -20996,7 +21008,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -35357,7 +35369,7 @@
     "codeRepository": "https://github.com/ropensci/melt",
     "issueTracker": "https://github.com/ropensci/melt/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "1.11.1.9000",
+    "version": "1.11.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -39682,8 +39694,8 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "nuts",
-    "description": "Motivated by changing administrative boundaries over time, the 'nuts' package can convert European regional data with NUTS codes between versions (2006, 2010, 2013, 2016 and 2021) and levels (NUTS 1, NUTS 2 and NUTS 3). The package uses spatial interpolation based on granular (100m x 100m) population and land use data provided by the European Commission's Joint Research Center.",
-    "name": "nuts: 'nuts': Convert European Regional Data",
+    "description": "Motivated by changing administrative boundaries over time, the 'nuts' package can convert European regional data with NUTS codes between versions (2006, 2010, 2013, 2016 and 2021) and levels (NUTS 1, NUTS 2 and NUTS 3). The package uses spatial interpolation as in Lam (1983) <doi:10.1559/152304083783914958> based on granular (100m x 100m) area, population and land use data provided by the European Commission's Joint Research Center.",
+    "name": "nuts: Convert European Regional Data",
     "relatedLink": "https://docs.ropensci.org/nuts/",
     "codeRepository": "https://github.com/ropensci/nuts",
     "issueTracker": "https://github.com/ropensci/nuts",
@@ -40077,7 +40089,7 @@
           }
         ],
         "name": "nuts: Convert European Regional Data",
-        "url": "https://docs.ropensci.org/nuts",
+        "url": "https://docs.ropensci.org/nuts/",
         "description": "R package version 1.0.0"
       }
     ],
