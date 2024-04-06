@@ -831,6 +831,13 @@
         "@id": "https://orcid.org/0000-0002-2815-0399"
       }
     ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Xavier",
+        "familyName": "Timbeau"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
@@ -1144,7 +1151,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/ropensci/tinkr"
+        "sameAs": "https://CRAN.R-project.org/package=tinkr"
       },
       "17": {
         "@type": "SoftwareApplication",
@@ -31883,7 +31890,7 @@
     "codeRepository": "https://github.com/ropensci/jagstargets",
     "issueTracker": "https://github.com/ropensci/jagstargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0.9001",
+    "version": "1.1.0.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -32048,19 +32055,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "version": ">= 0.6.25",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "fst",
         "name": "fst",
         "version": ">= 0.9.2",
@@ -32072,7 +32066,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fst"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "posterior",
         "name": "posterior",
@@ -32085,7 +32079,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=posterior"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -32098,7 +32092,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "qs",
         "name": "qs",
@@ -32111,7 +32105,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=qs"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "R2jags",
         "name": "R2jags",
@@ -32124,7 +32118,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R2jags"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "rjags",
         "name": "rjags",
@@ -32137,7 +32131,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rjags"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -32150,6 +32144,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "secretbase",
+        "name": "secretbase",
+        "version": ">= 0.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=secretbase"
+      },
       "11": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
@@ -32159,7 +32166,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 1.5.1.9001",
+        "version": ">= 1.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -32172,7 +32179,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tarchetypes",
         "name": "tarchetypes",
-        "version": ">= 0.7.12.9001",
+        "version": ">= 0.8.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -56848,7 +56855,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.9.2",
+    "version": "3.7.9.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57241,7 +57248,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.9.2"
+        "description": "R package version 3.7.9.3"
       },
       {
         "@type": "ScholarlyArticle",
@@ -67865,7 +67872,7 @@
     "codeRepository": "https://github.com/ropensci/stantargets",
     "issueTracker": "https://github.com/ropensci/stantargets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.0.9001",
+    "version": "0.1.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -68025,19 +68032,6 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "version": ">= 0.6.25",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
         "version": ">= 1.5.0",
@@ -68049,7 +68043,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "fst",
         "name": "fst",
@@ -68062,7 +68056,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fst"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "posterior",
         "name": "posterior",
@@ -68075,7 +68069,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=posterior"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -68088,7 +68082,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "qs",
         "name": "qs",
@@ -68101,7 +68095,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=qs"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -68114,6 +68108,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "secretbase",
+        "name": "secretbase",
+        "version": ">= 0.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=secretbase"
+      },
       "10": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
@@ -68123,7 +68130,7 @@
         "@type": "SoftwareApplication",
         "identifier": "targets",
         "name": "targets",
-        "version": ">= 1.5.1.9001",
+        "version": ">= 1.6.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -68136,7 +68143,7 @@
         "@type": "SoftwareApplication",
         "identifier": "tarchetypes",
         "name": "tarchetypes",
-        "version": ">= 0.7.12.9001",
+        "version": ">= 0.8.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -69863,7 +69870,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.8.0.9000",
+    "version": "0.8.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69989,19 +69996,6 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "version": ">= 0.6.25",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
         "version": ">= 1.0.0",
@@ -70013,7 +70007,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "4": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
@@ -70026,12 +70020,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "parallel",
         "name": "parallel"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -70043,6 +70037,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "secretbase",
+        "name": "secretbase",
+        "version": ">= 0.4.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=secretbase"
       },
       "7": {
         "@type": "SoftwareApplication",
@@ -70150,7 +70157,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.6.0.9000",
+    "version": "1.6.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70719,19 +70726,6 @@
       },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "digest",
-        "name": "digest",
-        "version": ">= 0.6.25",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=digest"
-      },
-      "8": {
-        "@type": "SoftwareApplication",
         "identifier": "igraph",
         "name": "igraph",
         "version": ">= 2.0.0",
@@ -70743,7 +70737,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=igraph"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
@@ -70756,7 +70750,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "ps",
         "name": "ps",
@@ -70768,7 +70762,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=ps"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "R6",
         "name": "R6",
@@ -70781,7 +70775,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=R6"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -70794,10 +70788,11 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "secretbase",
         "name": "secretbase",
+        "version": ">= 0.4.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -70806,12 +70801,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=secretbase"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -70824,7 +70819,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "tidyselect",
         "name": "tidyselect",
@@ -70837,17 +70832,17 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyselect"
       },
-      "17": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "tools",
         "name": "tools"
       },
-      "18": {
+      "17": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "19": {
+      "18": {
         "@type": "SoftwareApplication",
         "identifier": "vctrs",
         "name": "vctrs",
@@ -70860,7 +70855,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=vctrs"
       },
-      "20": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
