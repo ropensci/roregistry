@@ -194,7 +194,7 @@
     "codeRepository": "https://github.com/CornellLabofOrnithology/auk",
     "issueTracker": "\n    https://github.com/CornellLabofOrnithology/auk/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -8684,9 +8684,9 @@
     "identifier": "bib2df",
     "description": "Parse a BibTeX file to a data.frame to make it accessible for further analysis and visualization.",
     "name": "bib2df: Parse a BibTeX File to a Data Frame",
-    "relatedLink": ["https://docs.ropensci.org/bib2df", "https://github.com/ropensci/bib2df"],
+    "relatedLink": ["https://docs.ropensci.org/bib2df/", "https://github.com/ropensci/bib2df/"],
     "codeRepository": "https://github.com/ropensci/bib2df",
-    "issueTracker": "http://github.com/ropensci/bib2df/issues",
+    "issueTracker": "https://github.com/ropensci/bib2df/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.1.2.0",
     "programmingLanguage": {
@@ -8744,9 +8744,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Philipp",
-        "familyName": "Ottolinger",
-        "email": "philipp@ottolinger.de"
+        "givenName": "Gianluca",
+        "familyName": "Baio",
+        "email": "g.baio@ucl.ac.uk"
       }
     ],
     "softwareSuggestions": [
@@ -12251,7 +12251,7 @@
     "codeRepository": "https://github.com/ropensci/cffr",
     "issueTracker": "https://github.com/ropensci/cffr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0.9000",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -16690,7 +16690,7 @@
     "codeRepository": "https://github.com/ropensci/crul",
     "issueTracker": "https://github.com/ropensci/crul/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19431,7 +19431,7 @@
     "codeRepository": "https://github.com/ropensci/dittodb",
     "issueTracker": "https://github.com/ropensci/dittodb/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.1.7.9000",
+    "version": "0.1.8",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21644,7 +21644,7 @@
     "codeRepository": "https://github.com/ropensci/eia",
     "issueTracker": "https://github.com/ropensci/eia/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21817,18 +21817,6 @@
       },
       "4": {
         "@type": "SoftwareApplication",
-        "identifier": "purrr",
-        "name": "purrr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=purrr"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "memoise",
         "name": "memoise",
         "provider": {
@@ -21839,7 +21827,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=memoise"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -21850,18 +21838,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "readxl",
-        "name": "readxl",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readxl"
       },
       "SystemRequirements": null
     },
@@ -45676,7 +45652,7 @@
     "codeRepository": "https://github.com/ropensci/phonfieldwork",
     "issueTracker": "https://github.com/ropensci/phonfieldwork/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45868,8 +45844,15 @@
       },
       "9": {
         "@type": "SoftwareApplication",
-        "identifier": "uchardet",
-        "name": "uchardet"
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
       },
       "10": {
         "@type": "SoftwareApplication",
