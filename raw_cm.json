@@ -69365,14 +69365,14 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "tabulizer",
-    "description": "Bindings for the 'Tabula' <http://tabula.technology/> 'Java' library, which can extract tables from PDF documents. The 'tabulizerjars' package <https://github.com/ropensci/tabulizerjars> provides versioned 'Java' .jar files, including all dependencies, aligned to releases of 'Tabula'.",
-    "name": "tabulizer: Bindings for 'Tabula' PDF Table Extractor Library",
-    "relatedLink": ["https://docs.ropensci.org/tabulizer", "https://github.com/ropensci/tabulizer"],
-    "codeRepository": "https://github.com/ropensci/tabulizer",
-    "issueTracker": "https://github.com/ropensci/tabulizer/issues",
+    "identifier": "tabulapdf",
+    "description": "Bindings for the 'Tabula' <http://tabula.technology/> 'Java' library, which can extract tables from PDF documents.",
+    "name": "tabulapdf: Extract tables from PDF documents",
+    "relatedLink": ["https://docs.ropensci.org/tabulapdf", "https://github.com/ropensci/tabulapdf"],
+    "codeRepository": "https://github.com/ropensci/tabulapdf",
+    "issueTracker": "https://github.com/ropensci/tabulapdf/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.3",
+    "version": "1.0.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -69390,8 +69390,8 @@
       {
         "@type": "Person",
         "givenName": "Mauricio",
-        "familyName": "Vargas",
-        "email": "hello+r@pacha.dev",
+        "familyName": "Vargas Sepulveda",
+        "email": "m.sepulveda@mail.utoronto.ca",
         "@id": "https://orcid.org/0000-0003-1017-7574"
       },
       {
@@ -69403,6 +69403,11 @@
       }
     ],
     "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Manuel",
+        "familyName": "Aristaran"
+      },
       {
         "@type": "Person",
         "givenName": "David",
@@ -69418,8 +69423,8 @@
       {
         "@type": "Person",
         "givenName": "Mauricio",
-        "familyName": "Vargas",
-        "email": "hello+r@pacha.dev",
+        "familyName": "Vargas Sepulveda",
+        "email": "m.sepulveda@mail.utoronto.ca",
         "@id": "https://orcid.org/0000-0003-1017-7574"
       }
     ],
@@ -69534,21 +69539,15 @@
       },
       "3": {
         "@type": "SoftwareApplication",
-        "identifier": "tabulizerjars",
-        "name": "tabulizerjars",
-        "sameAs": "https://github.com/ropensci/tabulizerjars"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
         "identifier": "tools",
         "name": "tools"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "SystemRequirements": "Java (>= 7.0)"
+      "SystemRequirements": "Java (>= 7.0):\n    openjdk-11-jdk (deb),\n    java-11-openjdk.x86_64 (rpm),\n    openjdk@11 (brew)"
     },
     "fileSize": "NAKB",
     "citation": [
@@ -69561,11 +69560,11 @@
             "familyName": "Leeper"
           }
         ],
-        "name": "tabulizer: Bindings for Tabula PDF Table Extractor Library",
-        "description": "R package version 0.2.3"
+        "name": "tabulapdf: Bindings for Tabula PDF Table Extractor Library",
+        "description": "R package version 1.0.5"
       }
     ],
-    "readme": "https://github.com/ropensci/tabulizer/blob/HEAD/README.md",
+    "readme": "https://github.com/ropensci/tabulapdf/blob/HEAD/README.md",
     "review": {
       "@type": "Review",
       "url": "https://github.com/ropensci/software-review/issues/42",
