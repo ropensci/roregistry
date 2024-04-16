@@ -21638,8 +21638,8 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "eia",
-    "description": "Provides API access to data from the 'US Energy Information Administration' ('EIA') <https://www.eia.gov/>. Use of the API requires a free API key obtainable at <https://www.eia.gov/opendata/register.php>. The package includes functions for searching 'EIA' data categories and importing time series and geoset time series datasets. Datasets returned by these functions are provided in a tidy format or alternatively in more raw form. It also offers helper functions for working with 'EIA' date strings and time formats and for inspecting different summaries of series metadata. The package also provides control over API key storage and caching of API request results.",
-    "name": "eia: API Wrapper for 'US Energy Information Administration' Open Data",
+    "description": "Provides API access to data from the U.S. Energy Information Administration ('EIA') <https://www.eia.gov/>. Use of the EIA's API and this package requires a free API key obtainable at <https://www.eia.gov/opendata/register.php>. This package includes functions for searching the EIA data directory and returning time series and geoset time series datasets. Datasets returned by these functions are provided by default in a tidy format, or alternatively, in more raw formats. It also offers helper functions for working with EIA date strings and time formats and for inspecting different summaries of series metadata. The package also provides control over API key storage and caching of API request results.",
+    "name": "eia: API Wrapper for U.S. Energy Information Administration ('EIA') Open Data",
     "relatedLink": ["https://docs.ropensci.org/eia/", "https://github.com/ropensci/eia"],
     "codeRepository": "https://github.com/ropensci/eia",
     "issueTracker": "https://github.com/ropensci/eia/issues",
@@ -45659,6 +45659,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.3 (2024-02-29)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -53438,7 +53444,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.2.0",
+    "version": "2.2.0.999",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71107,6 +71113,12 @@
         "familyName": "Ross",
         "email": "ross@ecohealthalliance.org",
         "@id": "https://orcid.org/0000-0002-2136-0000"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mattia",
+        "familyName": "Ghilardi",
+        "@id": "https://orcid.org/0000-0001-9592-7252"
       }
     ],
     "maintainer": [
