@@ -167,7 +167,7 @@
       "url": "https://github.com/r-lib/gert",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-02-26 12:17:39",
+      "date_last_commit": "2024-04-16 12:29:18",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -1420,21 +1420,21 @@
     {
       "name": "DataPackageR",
       "description": "Construct Reproducible Analytic Data Sets as R Packages",
-      "details": "A framework to help construct R data packages in a reproducible manner. Potentially time consuming processing of raw data sets into analysis ready data sets is done in a reproducible manner and decoupled from the usual R CMD build process so that data sets can be processed into R objects in the data package and the data package can then be shared, built, and installed by others without the need to repeat computationally costly data processing. The package maintains data provenance by turning the data processing scripts into package vignettes, as well as enforcing documentation and version checking of included data objects. Data packages can be version controlled in github, and used to share data for manuscripts, collaboration and general reproducibility.",
-      "maintainer": "Marie Vendettuoli",
+      "details": "A framework to help construct R data packages in a reproducible manner. Potentially time consuming processing of raw data sets into analysis ready data sets is done in a reproducible manner and decoupled from the usual 'R CMD build' process so that data sets can be processed into R objects in the data package and the data package can then be shared, built, and installed by others without the need to repeat computationally costly data processing. The package maintains data provenance by turning the data processing scripts into package vignettes, as well as enforcing documentation and version checking of included data objects. Data packages can be version controlled on 'GitHub', and used to share data for manuscripts, collaboration and reproducible research.",
+      "maintainer": "Dave Slager",
       "keywords": "",
       "github": "https://github.com/ropensci/DataPackageR",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/230",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/DataPackageR",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2022-04-05 18:07:06",
+      "date_last_commit": "2024-04-17 00:23:31",
       "github_archived": false,
-      "cran_archived": true,
+      "cran_archived": false,
       "staff_maintained": false
     },
     {
@@ -1953,6 +1953,24 @@
       "ropensci_category": "data-access",
       "ropenscilabs": false,
       "date_last_commit": "2024-04-08 01:44:37",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
+      "name": "fellingdater",
+      "description": "Estimate, report and combine felling dates of historical tree-ring \n    series",
+      "details": "fellingdater is an R package that aims to facilitate the analysis and interpretation of tree-ring data from wooden cultural heritage objects and structures. The package standarizes the process of computing and combining felling date estimates, both for individual and groups of related tree-ring series.",
+      "maintainer": "Kristof Haneca",
+      "keywords": "",
+      "github": "https://github.com/ropensci/fellingdater",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/618",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/fellingdater",
+      "date_last_commit": "2024-04-16 19:58:41",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4852,7 +4870,7 @@
       "url": "https://github.com/ropensci/rsat",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2024-01-25 12:53:17",
+      "date_last_commit": "2024-04-16 11:20:25",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5112,7 +5130,7 @@
       "url": "https://github.com/ropensci/slopes",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2021-09-28 19:37:18",
+      "date_last_commit": "2024-04-16 13:53:24",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6476,5 +6494,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-04-16 07:58 UTC"
+  "date": "2024-04-17 07:56 UTC"
 }

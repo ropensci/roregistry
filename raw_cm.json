@@ -17942,64 +17942,87 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "DataPackageR",
-    "description": "A framework to help construct R data packages in a reproducible manner. Potentially time consuming processing of raw data sets into analysis ready data sets is done in a reproducible manner and decoupled from the usual R CMD build process so that data sets can be processed into R objects in the data package and the data package can then be shared, built, and installed by others without the need to repeat computationally costly data processing. The package maintains data provenance by turning the data processing scripts into package vignettes, as well as enforcing documentation and version checking of included data objects. Data packages can be version controlled in github, and used to share data for manuscripts, collaboration and general reproducibility.",
+    "description": "A framework to help construct R data packages in a reproducible manner. Potentially time consuming processing of raw data sets into analysis ready data sets is done in a reproducible manner and decoupled from the usual 'R CMD build' process so that data sets can be processed into R objects in the data package and the data package can then be shared, built, and installed by others without the need to repeat computationally costly data processing. The package maintains data provenance by turning the data processing scripts into package vignettes, as well as enforcing documentation and version checking of included data objects. Data packages can be version controlled on 'GitHub', and used to share data for manuscripts, collaboration and reproducible research.",
     "name": "DataPackageR: Construct Reproducible Analytic Data Sets as R Packages",
-    "relatedLink": ["https://docs.ropensci.org/DataPackageR/", "https://github.com/ropensci/DataPackageR/"],
+    "relatedLink": ["https://github.com/ropensci/DataPackageR/", "https://docs.ropensci.org/DataPackageR/"],
     "codeRepository": "https://github.com/ropensci/DataPackageR",
     "issueTracker": "https://github.com/ropensci/DataPackageR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.15.8.9000",
+    "version": "0.15.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.3.3 (2024-02-29)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
-        "@type": "Organization",
-        "name": "Greg Finak",
+        "@type": "Person",
+        "givenName": "Greg",
+        "familyName": "Finak",
         "email": "greg.finak@gmail.com"
       }
     ],
     "contributor": [
       {
-        "@type": "Organization",
-        "name": "Paul Obrecht"
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Obrecht"
       },
       {
-        "@type": "Organization",
-        "name": "Ellis Hughes",
-        "email": "ellishughes@live.com"
+        "@type": "Person",
+        "givenName": "Ellis",
+        "familyName": "Hughes",
+        "email": "ellishughes@live.com",
+        "@id": "https://orcid.org/0000-0003-0637-4436"
       },
       {
-        "@type": "Organization",
-        "name": "Jimmy Fulp",
-        "email": "wfulp@scharp.org"
+        "@type": "Person",
+        "givenName": "Jimmy",
+        "familyName": "Fulp",
+        "email": "williamjfulp@gmail.com"
       },
       {
-        "@type": "Organization",
-        "name": "Marie Vendettuoli",
-        "email": "sc.mvendett.viscdevelopers@scharp.org"
+        "@type": "Person",
+        "givenName": "Marie",
+        "familyName": "Vendettuoli",
+        "@id": "https://orcid.org/0000-0001-9321-1410"
       },
       {
-        "@type": "Organization",
-        "name": "Jason Taylor",
+        "@type": "Person",
+        "givenName": "Dave",
+        "familyName": "Slager",
+        "email": "dslager@scharp.org",
+        "@id": "https://orcid.org/0000-0003-2525-2039"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Taylor",
         "email": "jmtaylor@fredhutch.org"
       }
     ],
     "copyrightHolder": [
       {
-        "@type": "Organization",
-        "name": "Greg Finak",
+        "@type": "Person",
+        "givenName": "Greg",
+        "familyName": "Finak",
         "email": "greg.finak@gmail.com"
       }
     ],
     "maintainer": [
       {
-        "@type": "Organization",
-        "name": "Marie Vendettuoli",
-        "email": "sc.mvendett.viscdevelopers@scharp.org"
+        "@type": "Person",
+        "givenName": "Dave",
+        "familyName": "Slager",
+        "email": "dslager@scharp.org",
+        "@id": "https://orcid.org/0000-0003-2525-2039"
       }
     ],
     "softwareSuggestions": [
@@ -25384,6 +25407,261 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": "https://www.repostatus.org/#active"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "fellingdater",
+    "description": "fellingdater is an R package that aims to facilitate the analysis and interpretation of tree-ring data from wooden cultural heritage objects and structures. The package standarizes the process of computing and combining felling date estimates, both for individual and groups of related tree-ring series.",
+    "name": "fellingdater: Estimate, report and combine felling dates of historical tree-ring \n    series",
+    "relatedLink": ["https://docs.ropensci.org/fellingdater", "https://github.com/ropensci/fellingdater"],
+    "codeRepository": "https://github.com/ropensci/fellingdater",
+    "issueTracker": "https://github.com/ropensci/fellingdater/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "1.0.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.3.3 (2024-02-29)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Kristof",
+        "familyName": "Haneca",
+        "email": "Kristof.Haneca@vlaanderen.be",
+        "@id": "https://orcid.org/0000-0002-7719-8305"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Koen",
+        "familyName": "Van Daele",
+        "@id": "https://orcid.org/0000-0002-8153-2978"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ronald",
+        "familyName": "Visser",
+        "@id": "https://orcid.org/0000-0001-6966-1729"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Kristof",
+        "familyName": "Haneca",
+        "email": "Kristof.Haneca@vlaanderen.be",
+        "@id": "https://orcid.org/0000-0002-7719-8305"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Kristof",
+        "familyName": "Haneca",
+        "email": "Kristof.Haneca@vlaanderen.be",
+        "@id": "https://orcid.org/0000-0002-7719-8305"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "ggtext",
+        "name": "ggtext",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggtext"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "MASS",
+        "name": "MASS",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=MASS"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplR",
+        "name": "dplR",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplR"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Kristof",
+            "familyName": "Haneca"
+          }
+        ],
+        "name": "fellingdater: an R package to facilitate the organisation, analysis and interpretation of tree-ring data from wooden heritage objects and structures",
+        "url": "https://github.com/ropensci/fellingdater",
+        "description": "R package, version 1.0.0"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2020",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Kristof",
+            "familyName": "Haneca"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Vincent",
+            "familyName": "Debonne"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Patrick",
+            "familyName": "Hoffsummer"
+          }
+        ],
+        "name": "The ups and downs of the building trade in a medieval city: Tree-ring data as proxies for economic, social and demographic dynamics in Bruges (c. 1200–1500)",
+        "identifier": "10.1016/j.dendro.2020.125773",
+        "pagination": "125773",
+        "@id": "https://doi.org/10.1016/j.dendro.2020.125773",
+        "sameAs": "https://doi.org/10.1016/j.dendro.2020.125773",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2020",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "64",
+            "name": "Dendrochronologia"
+          }
+        }
+      }
+    ],
+    "readme": "https://github.com/ropensci/fellingdater/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/618",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -62461,7 +62739,7 @@
     "codeRepository": "https://github.com/ropensci/rsat",
     "issueTracker": "https://github.com/ropensci/rsat/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.19",
+    "version": "0.1.21",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62794,7 +63072,7 @@
     "citation": [
       {
         "@type": "SoftwareSourceCode",
-        "datePublished": "2022",
+        "datePublished": "2024",
         "author": [
           {
             "@type": "Organization",
@@ -62815,7 +63093,7 @@
         ],
         "name": "rsat: Dealing with Multiplatform Satellite Images from Landsat, MODIS, and Sentinel",
         "url": "https://CRAN.R-project.org/package=rsat",
-        "description": "R package version 0.1.19"
+        "description": "R package version 0.1.21"
       },
       {
         "@type": "ScholarlyArticle",
