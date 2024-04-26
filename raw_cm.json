@@ -19446,6 +19446,267 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "dendroNetwork",
+    "description": "This package makes it easy to create dendrochronological networks based on the similarity between tree-ring series or chronologies. It includes various functions to compare tree-ring curves building upon dplR. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance or wood-use within a structure/context/site.",
+    "name": "dendroNetwork: Create networks of dendrochronological series using pairwise similarity",
+    "relatedLink": ["https://github.com/RonaldVisser/dendroNetwork", "https://ronaldvisser.github.io/dendroNetwork/"],
+    "codeRepository": "https://github.com/ropensci/dendroNetwork",
+    "issueTracker": "https://github.com/RonaldVisser/dendroNetwork/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.5.4",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Ronald",
+        "familyName": "Visser",
+        "email": "r.m.visser@saxion.nl",
+        "@id": "https://orcid.org/0000-0001-6966-1729"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Angelino",
+        "familyName": "Salentino",
+        "@id": "https://orcid.org/0000-0002-4763-3943"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andy",
+        "familyName": "Bunn",
+        "@id": "https://orcid.org/0000-0001-9027-2162"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Ronald",
+        "familyName": "Visser",
+        "email": "r.m.visser@saxion.nl",
+        "@id": "https://orcid.org/0000-0001-6966-1729"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "DiagrammeR",
+        "name": "DiagrammeR",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=DiagrammeR"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplR",
+        "name": "dplR",
+        "version": ">= 1.7.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplR"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "igraph",
+        "name": "igraph",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=igraph"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringr",
+        "name": "stringr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringr"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "reshape2",
+        "name": "reshape2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=reshape2"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "RCy3",
+        "name": "RCy3",
+        "provider": {
+          "@id": "https://www.bioconductor.org",
+          "@type": "Organization",
+          "name": "Bioconductor",
+          "url": "https://www.bioconductor.org"
+        },
+        "sameAs": "https://bioconductor.org/packages/release/bioc/html/RCy3.html"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "RColorBrewer",
+        "name": "RColorBrewer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=RColorBrewer"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "foreach",
+        "name": "foreach",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=foreach"
+      },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "doParallel",
+        "name": "doParallel",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=doParallel"
+      },
+      "13": {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "grDevices",
+        "name": "grDevices"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "0KB",
+    "readme": "https://github.com/ropensci/dendroNetwork/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/627",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#stable"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "dittodb",
     "description": "Testing and documenting code that communicates with remote databases can be painful. Although the interaction with R is usually relatively simple (e.g. data(frames) passed to and from a database), because they rely on a separate service and the data there, testing them can be difficult to set up, unsustainable in a continuous integration environment, or impossible without replicating an entire production cluster. This package addresses that by allowing you to make recordings from your database interactions and then play them back while testing (or in other contexts) all without needing to spin up or have access to the database your code would typically connect to.",
     "name": "dittodb: A Test Environment for Database Requests",
@@ -68812,7 +69073,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "stplanr",
-    "description": "Tools for transport planning with an emphasis on spatial transport data and non-motorized modes. Create geographic \"desire lines\" from origin-destination (OD) data (building on the 'od' package); calculate routes on the transport network locally and via interfaces to routing services such as <https://cyclestreets.net/>; calculate route segment attributes such as bearing. The package implements the 'travel flow aggregration' method described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779>. Further information on the package's aim and scope can be found in the vignettes and in a paper in the R Journal (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>.",
+    "description": "Tools for transport planning with an emphasis on spatial transport data and non-motorized modes. The package was originally developed to support the 'Propensity to Cycle Tool', a publicly available strategic cycle network planning tool (Lovelace et al. 2017) <doi:10.5198/jtlu.2016.862>, but has since been extended to support public transport routing and accessibility analysis (Moreno-Monroy et al. 2017) <doi:10.1016/j.jtrangeo.2017.08.012> and routing with locally hosted routing engines such as 'OSRM' (Lowans et al. 2023) <doi:10.1016/j.enconman.2023.117337>. The main functions are for creating and manipulating geographic \"desire lines\" from origin-destination (OD) data (building on the 'od' package); calculating routes on the transport network locally and via interfaces to routing services such as <https://cyclestreets.net/> (Desjardins et al. 2021) <doi:10.1007/s11116-021-10197-1>; and calculating route segment attributes such as bearing. The package implements the 'travel flow aggregration' method described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779> and the 'OD jittering' method described in Lovelace et al. (2022) <doi:10.32866/001c.33873>. Further information on the package's aim and scope can be found in the vignettes and in a paper in the R Journal (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>, and in a paper outlining the landscape of open source software for geographic methods in transport planning (Lovelace, 2021) <doi:10.1007/s10109-020-00342-2>.",
     "name": "stplanr: Sustainable Transport Planning",
     "relatedLink": ["https://github.com/ropensci/stplanr", "https://docs.ropensci.org/stplanr/"],
     "codeRepository": "https://github.com/ropensci/stplanr",

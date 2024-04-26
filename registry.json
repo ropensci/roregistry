@@ -972,7 +972,7 @@
       "url": "https://github.com/ropensci/charlatan",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2023-10-21 20:47:40",
+      "date_last_commit": "2024-04-25 20:23:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -992,7 +992,7 @@
       "url": "https://github.com/ropensci/chirps",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2023-01-06 11:38:27",
+      "date_last_commit": "2024-04-25 08:06:33",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -1518,6 +1518,24 @@
       "staff_maintained": false
     },
     {
+      "name": "dendroNetwork",
+      "description": "Create networks of dendrochronological series using pairwise similarity",
+      "details": "This package makes it easy to create dendrochronological networks based on the similarity between tree-ring series or chronologies. It includes various functions to compare tree-ring curves building upon dplR. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance or wood-use within a structure/context/site.",
+      "maintainer": "Ronald Visser",
+      "keywords": "",
+      "github": "https://github.com/ropensci/dendroNetwork",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/627",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/dendroNetwork",
+      "date_last_commit": "2024-04-26 07:26:12",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "dittodb",
       "description": "A Test Environment for Database Requests",
       "details": "Testing and documenting code that communicates with remote databases can be painful. Although the interaction with R is usually relatively simple (e.g. data(frames) passed to and from a database), because they rely on a separate service and the data there, testing them can be difficult to set up, unsustainable in a continuous integration environment, or impossible without replicating an entire production cluster. This package addresses that by allowing you to make recordings from your database interactions and then play them back while testing (or in other contexts) all without needing to spin up or have access to the database your code would typically connect to.",
@@ -1632,7 +1650,7 @@
       "url": "https://github.com/ropensci/dynamite",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2024-04-25 05:03:15",
+      "date_last_commit": "2024-04-25 14:07:34",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3390,7 +3408,7 @@
       "url": "https://github.com/ropensci/osmextract",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2023-08-11 07:09:51",
+      "date_last_commit": "2024-04-26 06:12:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4390,7 +4408,7 @@
       "url": "https://github.com/ropensci/rgbif",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-04-24 14:08:47",
+      "date_last_commit": "2024-04-25 12:53:01",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5318,7 +5336,7 @@
     {
       "name": "stplanr",
       "description": "Sustainable Transport Planning",
-      "details": "Tools for transport planning with an emphasis on spatial transport data and non-motorized modes. Create geographic \"desire lines\" from origin-destination (OD) data (building on the 'od' package); calculate routes on the transport network locally and via interfaces to routing services such as <https://cyclestreets.net/>; calculate route segment attributes such as bearing. The package implements the 'travel flow aggregration' method described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779>. Further information on the package's aim and scope can be found in the vignettes and in a paper in the R Journal (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>.",
+      "details": "Tools for transport planning with an emphasis on spatial transport data and non-motorized modes. The package was originally developed to support the 'Propensity to Cycle Tool', a publicly available strategic cycle network planning tool (Lovelace et al. 2017) <doi:10.5198/jtlu.2016.862>, but has since been extended to support public transport routing and accessibility analysis (Moreno-Monroy et al. 2017) <doi:10.1016/j.jtrangeo.2017.08.012> and routing with locally hosted routing engines such as 'OSRM' (Lowans et al. 2023) <doi:10.1016/j.enconman.2023.117337>. The main functions are for creating and manipulating geographic \"desire lines\" from origin-destination (OD) data (building on the 'od' package); calculating routes on the transport network locally and via interfaces to routing services such as <https://cyclestreets.net/> (Desjardins et al. 2021) <doi:10.1007/s11116-021-10197-1>; and calculating route segment attributes such as bearing. The package implements the 'travel flow aggregration' method described in Morgan and Lovelace (2020) <doi:10.1177/2399808320942779> and the 'OD jittering' method described in Lovelace et al. (2022) <doi:10.32866/001c.33873>. Further information on the package's aim and scope can be found in the vignettes and in a paper in the R Journal (Lovelace and Ellison 2018) <doi:10.32614/RJ-2018-053>, and in a paper outlining the landscape of open source software for geographic methods in transport planning (Lovelace, 2021) <doi:10.1007/s10109-020-00342-2>.",
       "maintainer": "Robin Lovelace",
       "keywords": "",
       "github": "https://github.com/ropensci/stplanr",
@@ -5330,7 +5348,7 @@
       "url": "https://github.com/ropensci/stplanr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-04-24 00:35:58",
+      "date_last_commit": "2024-04-25 11:13:43",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5568,7 +5586,7 @@
       "url": "https://github.com/ropensci/terrainr",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2024-04-24 17:52:26",
+      "date_last_commit": "2024-04-25 15:10:36",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6494,5 +6512,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-04-25 08:06 UTC"
+  "date": "2024-04-26 08:01 UTC"
 }
