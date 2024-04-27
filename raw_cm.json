@@ -4391,7 +4391,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/srr",
     "issueTracker": "https://github.com/ropensci-review-tools/srr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.2.7",
+    "version": "0.1.2.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19447,11 +19447,11 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "dendroNetwork",
-    "description": "This package makes it easy to create dendrochronological networks based on the similarity between tree-ring series or chronologies. It includes various functions to compare tree-ring curves building upon dplR. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance or wood-use within a structure/context/site.",
-    "name": "dendroNetwork: Create networks of dendrochronological series using pairwise similarity",
-    "relatedLink": ["https://github.com/RonaldVisser/dendroNetwork", "https://ronaldvisser.github.io/dendroNetwork/"],
+    "description": "The aim of this package is to easily to create dendrochronological networks based on the similarity between tree-ring series or chronologies. It includes various functions to compare tree-ring curves building upon dplR. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance or wood-use within a structure/context/site.",
+    "name": "dendroNetwork: Create Networks of Dendrochronological Series using Pairwise Similarity",
+    "relatedLink": ["https://github.com/ropensci/dendroNetwork", "https://ropensci.github.io/dendroNetwork/"],
     "codeRepository": "https://github.com/ropensci/dendroNetwork",
-    "issueTracker": "https://github.com/RonaldVisser/dendroNetwork/issues",
+    "issueTracker": "https://github.com/ropensci/dendroNetwork/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "0.5.4",
     "programmingLanguage": {
@@ -19695,7 +19695,79 @@
       },
       "SystemRequirements": null
     },
-    "fileSize": "0KB",
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["Ronald", "M."],
+            "familyName": "Visser"
+          }
+        ],
+        "name": "dendroNetwork: a R-package to create dendrochronological networks",
+        "identifier": "https://zenodo.org/doi/10.5281/zenodo.10636310",
+        "url": "https://github.com/ropensci/dendroNetwork",
+        "description": "R package, version 0.5.4"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2021",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["Ronald", "M."],
+            "familyName": "Visser"
+          }
+        ],
+        "name": "Dendrochronological Provenance Patterns. Network Analysis of Tree-Ring Material Reveals Spatial and Economic Relations of Roman Timber in the Continental North-Western Provinces",
+        "identifier": "10.5334/jcaa.79",
+        "pagination": "230-253",
+        "@id": "https://doi.org/10.5334/jcaa.79",
+        "sameAs": "https://doi.org/10.5334/jcaa.79",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2021",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "4",
+            "name": "Journal of Computer Applications in Archaeology"
+          }
+        }
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2022",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": ["Ronald", "M."],
+            "familyName": "Visser"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Yardeni",
+            "familyName": "Vorst"
+          }
+        ],
+        "name": "Connecting Ships: Using Dendrochronological Network Analysis to Determine the Wood Provenance of Roman-Period River Barges Found in the Lower Rhine Region and Visualise Wood Use Patterns",
+        "identifier": "10.1163/27723194-bja10014",
+        "pagination": "123-151",
+        "@id": "https://doi.org/10.1163/27723194-bja10014",
+        "sameAs": "https://doi.org/10.1163/27723194-bja10014",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2022",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "3",
+            "name": "International Journal of Wood Culture"
+          }
+        }
+      }
+    ],
     "readme": "https://github.com/ropensci/dendroNetwork/blob/HEAD/README.md",
     "review": {
       "@type": "Review",
