@@ -19449,7 +19449,7 @@
     "identifier": "dendroNetwork",
     "description": "Creating dendrochronological networks based on the similarity between tree-ring series or chronologies. The package includes various functions to compare tree-ring curves building upon the 'dplR' package. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance of wood as described in Visser (2021) <DOI:10.5334/jcaa.79> or wood-use within a structure/context/site as described in Visser and Vorst (2022) <DOI:10.1163/27723194-bja10014>.",
     "name": "dendroNetwork: Create Networks of Dendrochronological Series using Pairwise Similarity",
-    "relatedLink": ["https://github.com/ropensci/dendroNetwork", "https://ropensci.github.io/dendroNetwork/"],
+    "relatedLink": ["https://github.com/ropensci/dendroNetwork", "https://docs.ropensci.org/dendroNetwork/"],
     "codeRepository": "https://github.com/ropensci/dendroNetwork",
     "issueTracker": "https://github.com/ropensci/dendroNetwork/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -19460,6 +19460,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -44338,7 +44344,7 @@
     "codeRepository": "https://github.com/ropensci/osmextract",
     "issueTracker": "https://github.com/ropensci/osmextract/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.5.0.9000",
+    "version": "0.5.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71300,7 +71306,7 @@
         "@type": "SoftwareApplication",
         "identifier": "secretbase",
         "name": "secretbase",
-        "version": ">= 0.4.0",
+        "version": ">= 0.5.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
