@@ -5812,7 +5812,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.3.9002",
+    "version": "0.1.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -29762,18 +29762,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "spelling",
-        "name": "spelling",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=spelling"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
         "provider": {
@@ -29846,6 +29834,30 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "roxyglobals",
+        "name": "roxyglobals",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=roxyglobals"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -29867,18 +29879,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidyr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxyglobals",
-        "name": "roxyglobals",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxyglobals"
       }
     ],
     "softwareRequirements": {
@@ -38207,18 +38207,6 @@
       },
       "4": {
         "@type": "SoftwareApplication",
-        "identifier": "lubridate",
-        "name": "lubridate",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lubridate"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
         "provider": {
@@ -38228,6 +38216,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "lubridate",
+        "name": "lubridate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
       "6": {
         "@type": "SoftwareApplication",
@@ -42599,7 +42599,7 @@
     "codeRepository": "https://github.com/ropensci/openalexR",
     "issueTracker": "https://github.com/ropensci/openalexR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.2.2.9999",
+    "version": "1.3.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -81290,6 +81290,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "mailR",
+        "name": "mailR",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mailR"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "mapproj",
         "name": "mapproj",
         "provider": {
@@ -81314,18 +81326,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "mailR",
-        "name": "mailR",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=mailR"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -81335,6 +81335,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "roxyglobals",
+        "name": "roxyglobals",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=roxyglobals"
       },
       {
         "@type": "SoftwareApplication",
@@ -81397,22 +81409,16 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "roxyglobals",
-        "name": "roxyglobals",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=roxyglobals"
       }
     ],
     "softwareRequirements": {
       "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
         "@type": "SoftwareApplication",
         "identifier": "apsimx",
         "name": "apsimx",
@@ -81424,7 +81430,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=apsimx"
       },
-      "2": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "clock",
         "name": "clock",
@@ -81436,7 +81442,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=clock"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "crayon",
         "name": "crayon",
@@ -81448,7 +81454,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=crayon"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "crul",
         "name": "crul",
@@ -81460,7 +81466,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=crul"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
@@ -81472,7 +81478,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
@@ -81484,7 +81490,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=data.table"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "foreign",
         "name": "foreign",
@@ -81496,12 +81502,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=foreign"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "grDevices",
         "name": "grDevices"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -81513,7 +81519,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
@@ -81525,7 +81531,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
       },
-      "11": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "lubridate",
         "name": "lubridate",
@@ -81537,7 +81543,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=lubridate"
       },
-      "12": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "magick",
         "name": "magick",
@@ -81549,12 +81555,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magick"
       },
-      "13": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -81566,18 +81572,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
-      },
-      "15": {
-        "@type": "SoftwareApplication",
-        "identifier": "stringi",
-        "name": "stringi",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringi"
       },
       "16": {
         "@type": "SoftwareApplication",
@@ -81593,6 +81587,23 @@
       },
       "17": {
         "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      "18": {
+        "@type": "SoftwareApplication",
+        "identifier": "stringi",
+        "name": "stringi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=stringi"
+      },
+      "19": {
+        "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
         "provider": {
@@ -81603,17 +81614,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "18": {
-        "@type": "SoftwareApplication",
-        "identifier": "stats",
-        "name": "stats"
-      },
-      "19": {
+      "20": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "20": {
+      "21": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
@@ -81624,12 +81630,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
-      },
-      "21": {
-        "@type": "SoftwareApplication",
-        "identifier": "R",
-        "name": "R",
-        "version": ">= 4.1.0"
       },
       "SystemRequirements": null
     },
