@@ -506,7 +506,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.207",
+    "version": "0.0.2.208",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2317,7 +2317,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.21",
+    "version": "0.1.2.22",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3029,7 +3029,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.3.13",
+    "version": "0.1.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3715,7 +3715,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.18",
+    "version": "0.1.0.19",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -42831,6 +42831,52 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Aria",
+            "familyName": "Massimo"
+          },
+          {
+            "@type": "Organization",
+            "name": "Le Trang"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Cuccurullo",
+            "familyName": "Corrado"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Belfiore",
+            "familyName": "Alessandra"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Choe",
+            "familyName": "June"
+          }
+        ],
+        "name": "openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex",
+        "identifier": "https://doi.org/10.32614/RJ-2023-089",
+        "pagination": "167-180",
+        "@id": "https://doi.org/10.32614/RJ-2023-089",
+        "sameAs": "https://doi.org/10.32614/RJ-2023-089",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "datePublished": "2024",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "15",
+            "name": "The R Journal"
+          }
+        }
+      }
+    ],
     "readme": "https://github.com/ropensci/openalexR/blob/HEAD/README.md",
     "review": {
       "@type": "Review",
