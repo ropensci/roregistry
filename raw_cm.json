@@ -2317,7 +2317,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.34",
+    "version": "0.1.2.39",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25802,7 +25802,7 @@
     "codeRepository": "https://github.com/ropensci/fellingdater",
     "issueTracker": "https://github.com/ropensci/fellingdater/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -25990,7 +25990,7 @@
     "fileSize": "NAKB",
     "citation": [
       {
-        "@type": "SoftwareSourceCode",
+        "@type": "ScholarlyArticle",
         "datePublished": "2024",
         "author": [
           {
@@ -25999,9 +25999,21 @@
             "familyName": "Haneca"
           }
         ],
-        "name": "fellingdater: an R package to facilitate the organisation, analysis and interpretation of tree-ring data from wooden heritage objects and structures",
-        "url": "https://github.com/ropensci/fellingdater",
-        "description": "R package, version 1.0.1"
+        "name": "fellingdater: a toolkit to estimate, report and combine felling dates derived from historical tree-ring series",
+        "identifier": "10.21105/joss.06716",
+        "pagination": "6716",
+        "@id": "https://doi.org/10.21105/joss.06716",
+        "sameAs": "https://doi.org/10.21105/joss.06716",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "97",
+          "datePublished": "2024",
+          "isPartOf": {
+            "@type": ["PublicationVolume", "Periodical"],
+            "volumeNumber": "9",
+            "name": "Journal of Open Source Software"
+          }
+        }
       },
       {
         "@type": "ScholarlyArticle",
@@ -44434,7 +44446,7 @@
     "codeRepository": "https://github.com/ropensci/osmextract",
     "issueTracker": "https://github.com/ropensci/osmextract/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.5.1",
+    "version": "0.5.1.900",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54152,7 +54164,7 @@
     "codeRepository": "https://github.com/ropensci/readODS",
     "issueTracker": "https://github.com/ropensci/readODS/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.2.0.999",
+    "version": "2.2.0.9999",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -54360,6 +54372,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "version": ">= 1.2.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
       }
     ],
     "softwareRequirements": {
@@ -54377,16 +54402,15 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "version": ">= 1.2.1",
+        "identifier": "minty",
+        "name": "minty",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
+        "sameAs": "https://CRAN.R-project.org/package=minty"
       },
       "3": {
         "@type": "SoftwareApplication",
