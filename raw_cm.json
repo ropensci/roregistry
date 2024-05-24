@@ -2317,7 +2317,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.39",
+    "version": "0.1.2.40",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15303,7 +15303,7 @@
     "codeRepository": "https://github.com/ropensci/comtradr",
     "issueTracker": "https://github.com/ropensci/comtradr/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -15608,6 +15608,11 @@
       },
       "13": {
         "@type": "SoftwareApplication",
+        "identifier": "tools",
+        "name": "tools"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
         "identifier": "rappdirs",
         "name": "rappdirs",
         "provider": {
@@ -15618,7 +15623,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rappdirs"
       },
-      "14": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "memoise",
         "name": "memoise",
@@ -15630,7 +15635,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=memoise"
       },
-      "15": {
+      "16": {
         "@type": "SoftwareApplication",
         "identifier": "cachem",
         "name": "cachem",
@@ -21781,10 +21786,10 @@
           }
         ],
         "name": "dynamite: An R Package for Dynamic Multivariate Panel Models",
-        "identifier": "10.48550/ARXIV.2302.01607",
+        "identifier": "10.48550/arXiv.2302.01607",
         "url": "https://arxiv.org/abs/2302.01607",
-        "@id": "https://doi.org/10.48550/ARXIV.2302.01607",
-        "sameAs": "https://doi.org/10.48550/ARXIV.2302.01607"
+        "@id": "https://doi.org/10.48550/arXiv.2302.01607",
+        "sameAs": "https://doi.org/10.48550/arXiv.2302.01607"
       },
       {
         "@type": "ScholarlyArticle",
@@ -21831,7 +21836,7 @@
             "familyName": "Helske"
           }
         ],
-        "name": "Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
+        "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
         "url": "https://github.com/ropensci/dynamite",
         "description": "R package version 1.5.1"
       }
@@ -70791,7 +70796,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.0.9000",
+    "version": "1.7.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -70845,16 +70850,15 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "bs4Dash",
-        "name": "bs4Dash",
-        "version": ">= 2.0.0",
+        "identifier": "bslib",
+        "name": "bslib",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=bs4Dash"
+        "sameAs": "https://CRAN.R-project.org/package=bslib"
       },
       {
         "@type": "SoftwareApplication",
@@ -72160,7 +72164,7 @@
     "codeRepository": "https://github.com/ropensci/taxize",
     "issueTracker": "https://github.com/ropensci/taxize/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.100",
+    "version": "0.9.101",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
