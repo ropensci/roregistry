@@ -15310,6 +15310,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -19052,6 +19058,54 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "parsedate",
+        "name": "parsedate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=parsedate"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pkgbuild",
+        "name": "pkgbuild",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pkgbuild"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "png",
+        "name": "png",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=png"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "readr",
+        "name": "readr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readr"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "readxl",
         "name": "readxl",
         "provider": {
@@ -19134,54 +19188,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=withr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "parsedate",
-        "name": "parsedate",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=parsedate"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "png",
-        "name": "png",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=png"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "pkgbuild",
-        "name": "pkgbuild",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pkgbuild"
       }
     ],
     "softwareRequirements": {
@@ -57471,7 +57477,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.7.9.3",
+    "version": "3.8.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -57864,7 +57870,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.7.9.3"
+        "description": "R package version 3.8.0"
       },
       {
         "@type": "ScholarlyArticle",
@@ -73777,6 +73783,13 @@
     "author": [
       {
         "@type": "Person",
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
+      },
+      {
+        "@type": "Person",
         "givenName": "Lincoln",
         "familyName": "Mullen",
         "email": "lincoln@lincolnmullen.com",
@@ -73786,10 +73799,10 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Lincoln",
-        "familyName": "Mullen",
-        "email": "lincoln@lincolnmullen.com",
-        "@id": "https://orcid.org/0000-0001-5103-6917"
+        "givenName": "Yaoxiang",
+        "familyName": "Li",
+        "email": "liyaoxiang@outlook.com",
+        "@id": "https://orcid.org/0000-0001-9200-1016"
       }
     ],
     "softwareSuggestions": [
