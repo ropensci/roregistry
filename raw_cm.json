@@ -2317,7 +2317,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.40",
+    "version": "0.1.2.42",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21444,13 +21444,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "dynamite",
-    "description": "Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data using dynamic multivariate panel models by Helske and Tikka (2024) <doi:10.1016/j.alcr.2024.100617>. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of these dynamic multivariate panel models is carried out via 'Stan'. For an in-depth tutorial of the package, see (Tikka and Helske, 2023) <arxiv:2302.01607>.",
+    "description": "Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data using dynamic multivariate panel models by Helske and Tikka (2024) <doi:10.1016/j.alcr.2024.100617>. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of these dynamic multivariate panel models is carried out via 'Stan'. For an in-depth tutorial of the package, see (Tikka and Helske, 2024) <arxiv:2302.01607>.",
     "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
     "relatedLink": ["https://docs.ropensci.org/dynamite/", "https://github.com/ropensci/dynamite/"],
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21778,7 +21778,7 @@
     "citation": [
       {
         "@type": "CreativeWork",
-        "datePublished": "2023",
+        "datePublished": "2024",
         "author": [
           {
             "@type": "Person",
@@ -21844,7 +21844,7 @@
         ],
         "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
         "url": "https://github.com/ropensci/dynamite",
-        "description": "R package version 1.5.1"
+        "description": "R package version 1.5.2"
       }
     ],
     "readme": "https://github.com/ropensci/dynamite/blob/HEAD/README.md",
@@ -55483,14 +55483,7 @@
       "5": {
         "@type": "SoftwareApplication",
         "identifier": "geodata",
-        "name": "geodata",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=geodata"
+        "name": "geodata"
       },
       "6": {
         "@type": "SoftwareApplication",
@@ -75975,6 +75968,19 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "version": ">= 0.4.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
         "provider": {
@@ -75985,7 +75991,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xml2"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "xslt",
         "name": "xslt",
@@ -75997,7 +76003,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=xslt"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "yaml",
         "name": "yaml",
@@ -81194,7 +81200,7 @@
     "name": "weatherOz: An API Client for Australian Weather and Climate Data Resources",
     "relatedLink": ["https://github.com/ropensci/weatherOz/", "https://docs.ropensci.org/weatherOz/"],
     "codeRepository": "https://github.com/ropensci/weatherOz",
-    "issueTracker": "https://github.com/ropensci/weatherOz/issues/",
+    "issueTracker": "https://github.com/ropensci/weatherOz/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "1.0.0",
     "programmingLanguage": {
@@ -81288,6 +81294,13 @@
         "familyName": "Salmon",
         "email": "maelle.salmon@yahoo.se",
         "@id": "https://orcid.org/0000-0002-2815-0399"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Max",
+        "familyName": "Moldovan",
+        "email": "max.moldovan@adelaide.edu.au",
+        "@id": "https://orcid.org/0000-0001-9680-8474"
       },
       {
         "@type": "Person",
@@ -81445,6 +81458,18 @@
       },
       {
         "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "spelling",
         "name": "spelling",
         "provider": {
@@ -81577,6 +81602,7 @@
         "@type": "SoftwareApplication",
         "identifier": "data.table",
         "name": "data.table",
+        "version": ">= 1.1.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -81659,7 +81685,6 @@
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
-        "version": ">= 1.1.1",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
