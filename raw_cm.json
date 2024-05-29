@@ -2310,6 +2310,314 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "goodpractice",
+    "description": "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
+    "name": "goodpractice: Advice on R Package Building",
+    "relatedLink": ["https://mangothecat.github.io/goodpractice/", "https://github.com/mangothecat/goodpractice"],
+    "codeRepository": "https://github.com/mangothecat/goodpractice",
+    "issueTracker": "https://github.com/mangothecat/goodpractice/issues",
+    "license": "https://spdx.org/licenses/MIT",
+    "version": "1.0.4.1",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Karina",
+        "familyName": "Marks",
+        "email": "karina.marks@ascent.io"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "de Bortoli"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gabor",
+        "familyName": "Csardi",
+        "email": "csardi.gabor@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hannah",
+        "familyName": "Frick",
+        "email": "hannah.frick@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Owen",
+        "familyName": "Jones",
+        "email": "owenjonesuob@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hannah",
+        "familyName": "Alexander",
+        "email": "halexander@mango-solutions.com"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Ana",
+        "familyName": "Simmons",
+        "email": "ana.simmons@ascent.io"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fabian",
+        "familyName": "Scheipl"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Ascent Digital Services UK Limited"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Karina",
+        "familyName": "Marks",
+        "email": "karina.marks@ascent.io"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "clisymbols",
+        "name": "clisymbols",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=clisymbols"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "covr",
+        "name": "covr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "crayon",
+        "name": "crayon",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=crayon"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "cyclocomp",
+        "name": "cyclocomp",
+        "version": ">= 1.1.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cyclocomp"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "desc",
+        "name": "desc",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=desc"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "lintr",
+        "name": "lintr",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lintr"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "praise",
+        "name": "praise",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=praise"
+      },
+      "9": {
+        "@type": "SoftwareApplication",
+        "identifier": "rcmdcheck",
+        "name": "rcmdcheck",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rcmdcheck"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
+        "identifier": "rstudioapi",
+        "name": "rstudioapi",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
+      },
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "tools",
+        "name": "tools"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "13": {
+        "@type": "SoftwareApplication",
+        "identifier": "whoami",
+        "name": "whoami",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=whoami"
+      },
+      "14": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
+      },
+      "15": {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      "16": {
+        "@type": "SoftwareApplication",
+        "identifier": "xmlparsedata",
+        "name": "xmlparsedata",
+        "version": ">= 1.0.1",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xmlparsedata"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "readme": "https://github.com/mangothecat/goodpractice/blob/HEAD/README.md",
+    "developmentStatus": []
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "pkgcheck",
     "description": "Check whether a package is ready for submission to rOpenSci's peer review system.",
     "name": "pkgcheck: rOpenSci Package Checks",
@@ -21444,13 +21752,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "dynamite",
-    "description": "Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data using dynamic multivariate panel models by Helske and Tikka (2024) <doi:10.1016/j.alcr.2024.100617>. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of these dynamic multivariate panel models is carried out via 'Stan'. For an in-depth tutorial of the package, see (Tikka and Helske, 2024) <arxiv:2302.01607>.",
+    "description": "Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data using dynamic multivariate panel models by Helske and Tikka (2024) <doi:10.1016/j.alcr.2024.100617>. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of these dynamic multivariate panel models is carried out via 'Stan'. For an in-depth tutorial of the package, see (Tikka and Helske, 2024) <doi:10.48550/arXiv.2302.01607>.",
     "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
     "relatedLink": ["https://docs.ropensci.org/dynamite/", "https://github.com/ropensci/dynamite/"],
     "codeRepository": "https://github.com/ropensci/dynamite",
     "issueTracker": "https://github.com/ropensci/dynamite/issues/",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -21565,6 +21873,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=mockthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pder",
+        "name": "pder",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pder"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "pryr",
+        "name": "pryr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=pryr"
       },
       {
         "@type": "SoftwareApplication",
@@ -21844,7 +22176,7 @@
         ],
         "name": "dynamite: Bayesian Modeling and Causal Inference for Multivariate\n    Longitudinal Data",
         "url": "https://github.com/ropensci/dynamite",
-        "description": "R package version 1.5.2"
+        "description": "R package version 1.5.3"
       }
     ],
     "readme": "https://github.com/ropensci/dynamite/blob/HEAD/README.md",
@@ -81458,18 +81790,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "sf",
-        "name": "sf",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sf"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "spelling",
         "name": "spelling",
         "provider": {
@@ -81683,15 +82003,15 @@
       },
       "15": {
         "@type": "SoftwareApplication",
-        "identifier": "readr",
-        "name": "readr",
+        "identifier": "sf",
+        "name": "sf",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=readr"
+        "sameAs": "https://CRAN.R-project.org/package=sf"
       },
       "16": {
         "@type": "SoftwareApplication",
@@ -81712,18 +82032,6 @@
       },
       "18": {
         "@type": "SoftwareApplication",
-        "identifier": "stringi",
-        "name": "stringi",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stringi"
-      },
-      "19": {
-        "@type": "SoftwareApplication",
         "identifier": "terra",
         "name": "terra",
         "provider": {
@@ -81734,12 +82042,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=terra"
       },
-      "20": {
+      "19": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "21": {
+      "20": {
         "@type": "SoftwareApplication",
         "identifier": "xml2",
         "name": "xml2",
