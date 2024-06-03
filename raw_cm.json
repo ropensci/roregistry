@@ -6129,7 +6129,7 @@
     "codeRepository": "https://github.com/ropensci/aorsf",
     "issueTracker": "https://github.com/ropensci/aorsf/issues/",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5",
+    "version": "0.1.5.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -73147,6 +73147,18 @@
       },
       "2": {
         "@type": "SoftwareApplication",
+        "identifier": "data.table",
+        "name": "data.table",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=data.table"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
         "identifier": "DBI",
         "name": "DBI",
         "version": ">= 0.6-1",
@@ -73158,7 +73170,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=DBI"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "RSQLite",
         "name": "RSQLite",
@@ -73171,7 +73183,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=RSQLite"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
@@ -73184,7 +73196,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -73196,7 +73208,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -73208,7 +73220,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -73221,7 +73233,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "dbplyr",
         "name": "dbplyr",
@@ -73234,7 +73246,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dbplyr"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -73247,7 +73259,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "hoardr",
         "name": "hoardr",
