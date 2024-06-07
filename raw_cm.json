@@ -44352,7 +44352,7 @@
     "codeRepository": "https://github.com/ropensci/osmdata",
     "issueTracker": "https://github.com/ropensci/osmdata/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.5.9",
+    "version": "0.2.5.17",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -61737,6 +61737,289 @@
       "provider": "https://ropensci.org"
     },
     "developmentStatus": "https://www.repostatus.org/"
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "identifier": "rOPTRAM",
+    "description": "The OPtical TRapezoid Model (OPTRAM) derives soil moisture based on the linear relation between a vegetation index and Land Surface Temperature (LST). The Short Wave Infra-red (SWIR) band is used as a proxy for LST. See: Sadeghi, M. et al., 2017. <https://doi.org/10.1016/j.rse.2017.05.041> .",
+    "name": "rOPTRAM: Derive Soil Moisture Using the OPTRAM Algorithm",
+    "relatedLink": "https://github.com/ropensci/rOPTRAM.git",
+    "codeRepository": "https://github.com/ropensci/rOPTRAM",
+    "issueTracker": "https://github.com/ropensci/rOPTRAM/issues",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "version": "0.2.0.0",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Micha",
+        "familyName": "Silver",
+        "email": "silverm@post.bgu.ac.il",
+        "@id": "https://orcid.org/0000-0002-1128-1325"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Arnon",
+        "familyName": "Karnieli",
+        "email": "karnieli@bgu.ac.il",
+        "@id": "https://orcid.org/0000-0001-8065-9793"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ron",
+        "familyName": "Beiden",
+        "email": "beiden@post.bgu.ac.il"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Natalya",
+        "familyName": "Panov",
+        "email": "npanov@bgu.ac.il"
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Person",
+        "givenName": "Arnon",
+        "familyName": "Karnieli",
+        "email": "karnieli@bgu.ac.il",
+        "@id": "https://orcid.org/0000-0001-8065-9793"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Micha",
+        "familyName": "Silver",
+        "email": "silverm@post.bgu.ac.il",
+        "@id": "https://orcid.org/0000-0002-1128-1325"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "geojsonio",
+        "name": "geojsonio",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=geojsonio"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "lwgeom",
+        "name": "lwgeom",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lwgeom"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "stats",
+        "name": "stats"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "xml2",
+        "name": "xml2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=xml2"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "openeo",
+        "name": "openeo",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=openeo"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "CDSE",
+        "name": "CDSE",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=CDSE"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "jsonlite",
+        "name": "jsonlite",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "qpdf",
+        "name": "qpdf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=qpdf"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 4.1.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "sf",
+        "name": "sf",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=sf"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "terra",
+        "name": "terra",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=terra"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "utils",
+        "name": "utils"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "datePublished": "2023",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Micha",
+            "familyName": "Silver"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Ron",
+            "familyName": "Beiden"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Arnon",
+            "familyName": "Karnieli"
+          }
+        ],
+        "name": "rOPTRAM: an R package for preparing soil moisture grids based on the OPTRAM model"
+      }
+    ],
+    "readme": "https://github.com/ropensci/rOPTRAM/blob/HEAD/README.md",
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -81581,13 +81864,6 @@
       },
       {
         "@type": "Person",
-        "givenName": "Keith",
-        "familyName": "Pembleton",
-        "email": "keith.pembleton@usq.edu.au",
-        "@id": "https://orcid.org/0000-0002-1896-4516"
-      },
-      {
-        "@type": "Person",
         "givenName": "Adam H.",
         "familyName": "Sparks",
         "email": "adamhsparks@gmail.com",
@@ -81595,6 +81871,13 @@
       }
     ],
     "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Keith",
+        "familyName": "Pembleton",
+        "email": "keith.pembleton@usq.edu.au",
+        "@id": "https://orcid.org/0000-0002-1896-4516"
+      },
       {
         "@type": "Person",
         "givenName": "Maëlle",
