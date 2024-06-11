@@ -7574,7 +7574,9 @@
           }
         ],
         "name": "babette: BEAUti 2, BEAST 2 and Tracer for R",
-        "url": "https://doi.org/10.1111/2041-210X.13032",
+        "identifier": "10.1111/2041-210X.13032",
+        "@id": "https://doi.org/10.1111/2041-210X.13032",
+        "sameAs": "https://doi.org/10.1111/2041-210X.13032",
         "isPartOf": {
           "@type": "PublicationIssue",
           "datePublished": "2008",
@@ -8410,7 +8412,7 @@
     "codeRepository": "https://github.com/ropensci/beastier",
     "issueTracker": "https://github.com/ropensci/beastier",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35388,23 +35390,40 @@
     "identifier": "mauricer",
     "description": "'BEAST2' (<https://www.beast2.org>) is a widely used Bayesian phylogenetic tool, that uses DNA/RNA/protein data and many model priors to create a posterior of jointly estimated phylogenies and parameters. 'BEAST2' is commonly accompanied by 'BEAUti 2' (<https://www.beast2.org>), which, among others, allows one to install 'BEAST2' package. This package allows to work with 'BEAST2' packages from 'R'.",
     "name": "mauricer: Work with 'BEAST2' Packages",
-    "relatedLink": ["https://docs.ropensci.org/mauricer/", "https://github.com/ropensci/mauricer/"],
+    "relatedLink": ["https://docs.ropensci.org/mauricer/", "https://github.com/ropensci/mauricer"],
     "codeRepository": "https://github.com/ropensci/mauricer",
     "issueTracker": "https://github.com/ropensci/mauricer/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.5.3",
+    "version": "2.5.4",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Richèl J.C.",
+        "familyName": "Bilderbeek",
+        "email": "rjcbilderbeek@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1107-7049"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Olivier",
+        "familyName": "Roy"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": ["Richèl", "J.C."],
+        "givenName": "Richèl J.C.",
         "familyName": "Bilderbeek",
-        "email": "richel@richelbilderbeek.nl"
+        "email": "rjcbilderbeek@gmail.com",
+        "@id": "https://orcid.org/0000-0003-1107-7049"
       }
     ],
     "softwareSuggestions": [
@@ -35412,7 +35431,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beautier",
         "name": "beautier",
-        "version": ">= 2.6.9",
+        "version": ">= 2.6.11",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -35447,18 +35466,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "markdown",
-        "name": "markdown",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=markdown"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "rmarkdown",
         "name": "rmarkdown",
         "provider": {
@@ -35468,18 +35475,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "testit",
-        "name": "testit",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=testit"
       },
       {
         "@type": "SoftwareApplication",
@@ -35493,6 +35488,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "tracerer",
+        "name": "tracerer",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tracerer"
       }
     ],
     "softwareRequirements": {
@@ -35512,7 +35519,7 @@
         "@type": "SoftwareApplication",
         "identifier": "beastier",
         "name": "beastier",
-        "version": ">= 2.4.11",
+        "version": ">= 2.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -35541,7 +35548,9 @@
           }
         ],
         "name": "babette: BEAUti 2, BEAST 2 and Tracer for R",
-        "url": "https://doi.org/10.1111/2041-210X.13032",
+        "identifier": "https://doi.org/10.1111/2041-210X.13032",
+        "@id": "https://doi.org/10.1111/2041-210X.13032",
+        "sameAs": "https://doi.org/10.1111/2041-210X.13032",
         "isPartOf": {
           "@type": "PublicationIssue",
           "datePublished": "2018",
@@ -55743,7 +55752,14 @@
       "5": {
         "@type": "SoftwareApplication",
         "identifier": "geodata",
-        "name": "geodata"
+        "name": "geodata",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=geodata"
       },
       "6": {
         "@type": "SoftwareApplication",
