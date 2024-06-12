@@ -4003,7 +4003,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.20",
+    "version": "0.1.0.21",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -7485,7 +7485,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5.2"
+        "version": ">= 2.5.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       "4": {
         "@type": "SoftwareApplication",
@@ -35401,6 +35408,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -35830,7 +35843,14 @@
         "@type": "SoftwareApplication",
         "identifier": "mauricer",
         "name": "mauricer",
-        "version": ">= 2.5"
+        "version": ">= 2.5",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=mauricer"
       },
       "6": {
         "@type": "SoftwareApplication",
@@ -48215,7 +48235,7 @@
     "codeRepository": "https://github.com/ropensci/piggyback",
     "issueTracker": "https://github.com/ropensci/piggyback/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.5.9004",
+    "version": "0.1.5.9005",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71067,7 +71087,7 @@
     "codeRepository": "https://github.com/ropensci/tarchetypes",
     "issueTracker": "https://github.com/ropensci/tarchetypes/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.9.0.9000",
+    "version": "0.9.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -71354,7 +71374,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.0.9001",
+    "version": "1.7.0.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
