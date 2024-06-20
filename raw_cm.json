@@ -23880,9 +23880,9 @@
     "name": "eph: Argentina's Permanent Household Survey Data and Manipulation Utilities",
     "relatedLink": "https://github.com/ropensci/eph",
     "codeRepository": "https://github.com/ropensci/eph",
-    "issueTracker": "https://github.com/holatam/eph/issues",
+    "issueTracker": "https://github.com/ropensci/eph/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -24296,7 +24296,7 @@
         ],
         "name": "eph: Argentina's Permanent Household Survey Data and Manipulation Utilities",
         "identifier": "10.5281/zenodo.3462677",
-        "url": "https://holatam.github.io/eph/",
+        "url": "https://github.com/ropensci/eph",
         "@id": "https://doi.org/10.5281/zenodo.3462677",
         "sameAs": "https://doi.org/10.5281/zenodo.3462677"
       }
@@ -28582,6 +28582,18 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
         "identifier": "clipr",
         "name": "clipr",
         "provider": {
@@ -28592,31 +28604,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=clipr"
       },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "clisymbols",
-        "name": "clisymbols",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=clisymbols"
-      },
       "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "crayon",
-        "name": "crayon",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=crayon"
-      },
-      "4": {
         "@type": "SoftwareApplication",
         "identifier": "curl",
         "name": "curl",
@@ -28628,7 +28616,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=curl"
       },
-      "5": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "glue",
         "name": "glue",
@@ -28640,7 +28628,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=glue"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "here",
         "name": "here",
@@ -28652,7 +28640,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=here"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -28664,7 +28652,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
@@ -28676,7 +28664,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "9": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "xfun",
         "name": "xfun",
