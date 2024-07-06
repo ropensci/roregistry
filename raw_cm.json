@@ -3311,13 +3311,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "pkgstats",
-    "description": "Static code analyses for R packages using the external code-tagging libraries \"ctags\" and \"gtags\". Static analyses enable packages to be analysed very quickly, generally a couple of seconds at most. The package also provides access to a database generating by applying the main function to the full CRAN archive, enabling the statistical properties of any package to be compared with all other CRAN packages.",
+    "description": "Static code analyses for R packages using the external code-tagging libraries 'ctags' and 'gtags'. Static analyses enable packages to be analysed very quickly, generally a couple of seconds at most. The package also provides access to a database generating by applying the main function to the full 'CRAN' archive, enabling the statistical properties of any package to be compared with all other 'CRAN' packages.",
     "name": "pkgstats: Metrics of R Packages",
     "relatedLink": ["https://docs.ropensci.org/pkgstats/", "https://github.com/ropensci-review-tools/pkgstats"],
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.5.2",
+    "version": "0.1.5.10",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3497,6 +3497,18 @@
     "softwareRequirements": {
       "1": {
         "@type": "SoftwareApplication",
+        "identifier": "ami",
+        "name": "ami",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ami"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
         "identifier": "brio",
         "name": "brio",
         "provider": {
@@ -3507,7 +3519,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=brio"
       },
-      "2": {
+      "3": {
         "@type": "SoftwareApplication",
         "identifier": "checkmate",
         "name": "checkmate",
@@ -3519,7 +3531,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=checkmate"
       },
-      "3": {
+      "4": {
         "@type": "SoftwareApplication",
         "identifier": "dplyr",
         "name": "dplyr",
@@ -3531,7 +3543,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=dplyr"
       },
-      "4": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "fs",
         "name": "fs",
@@ -3543,7 +3555,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=fs"
       },
-      "5": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "igraph",
         "name": "igraph",
@@ -3555,12 +3567,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=igraph"
       },
-      "6": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -3572,7 +3584,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "sys",
         "name": "sys",
@@ -3584,7 +3596,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sys"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -3599,22 +3611,6 @@
       "SystemRequirements": "ctags, global"
     },
     "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "SoftwareSourceCode",
-        "datePublished": "2021",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Mark",
-            "familyName": "Padgham"
-          }
-        ],
-        "name": "pkgstats",
-        "url": "https://github.com/ropensci-review-tools/pkgstats",
-        "description": "R package version 0.0.3"
-      }
-    ],
     "readme": "https://github.com/ropensci-review-tools/pkgstats/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
   },
@@ -4500,14 +4496,14 @@
         "@type": "SoftwareApplication",
         "identifier": "pkgdown",
         "name": "pkgdown",
-        "version": ">= 2.0.1",
+        "version": ">= 2.0.9.9000",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=pkgdown"
+        "sameAs": "https://github.com/r-lib/pkgdown"
       },
       "5": {
         "@type": "SoftwareApplication",
@@ -8721,7 +8717,7 @@
     "codeRepository": "https://github.com/ropensci/beautier",
     "issueTracker": "https://github.com/ropensci/beautier/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.6.12",
+    "version": "2.6.13",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
