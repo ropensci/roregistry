@@ -506,7 +506,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/autotest",
     "issueTracker": "https://github.com/ropensci-review-tools/autotest/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.0.2.208",
+    "version": "0.0.2.209",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -2611,7 +2611,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgcheck",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgcheck/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.2.44",
+    "version": "0.1.2.46",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3336,7 +3336,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.5.10",
+    "version": "0.1.5.14",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4018,7 +4018,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.23",
+    "version": "0.1.0.24",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -45289,7 +45289,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.5.0"
+        "version": ">= 3.6.0"
       },
       "2": {
         "@type": "SoftwareApplication",
@@ -45337,6 +45337,19 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "evaluate",
+        "name": "evaluate",
+        "version": ">= 0.23",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://github.com/r-lib/evaluate"
       },
       "SystemRequirements": null
     },
@@ -82517,6 +82530,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "usethis",
+        "name": "usethis",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=usethis"
       },
       {
         "@type": "SoftwareApplication",
