@@ -21988,11 +21988,6 @@
       },
       "9": {
         "@type": "SoftwareApplication",
-        "identifier": "methods",
-        "name": "methods"
-      },
-      "10": {
-        "@type": "SoftwareApplication",
         "identifier": "patchwork",
         "name": "patchwork",
         "provider": {
@@ -22003,7 +21998,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=patchwork"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "posterior",
         "name": "posterior",
@@ -22015,7 +22010,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=posterior"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -22027,7 +22022,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "13": {
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "rstan",
         "name": "rstan",
@@ -22039,12 +22034,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rstan"
       },
-      "14": {
+      "13": {
         "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "15": {
+      "14": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -22057,7 +22052,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "16": {
+      "15": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
@@ -41385,18 +41380,6 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
-        "identifier": "distill",
-        "name": "distill",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=distill"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "eurostat",
         "name": "eurostat",
         "provider": {
@@ -41723,7 +41706,7 @@
           }
         ],
         "name": "nuts: Convert European Regional Data",
-        "identifier": "https://doi.org/10.5281/zenodo.10573056",
+        "identifier": "10.5281/zenodo.10573056",
         "url": "https://docs.ropensci.org/nuts/",
         "description": "R package version 1.1.0",
         "@id": "https://doi.org/10.5281/zenodo.10573056",
@@ -47127,7 +47110,7 @@
     "codeRepository": "https://github.com/ropensci/phonfieldwork",
     "issueTracker": "https://github.com/ropensci/phonfieldwork/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.0.13",
+    "version": "0.0.16",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
