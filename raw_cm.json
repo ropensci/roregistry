@@ -1234,6 +1234,11 @@
         "familyName": "Nitta",
         "email": "joelnitta@gmail.com",
         "@id": "https://orcid.org/0000-0003-4719-7472"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Pascal",
+        "familyName": "Burkhard"
       }
     ],
     "maintainer": [
@@ -1951,7 +1956,7 @@
     "codeRepository": "https://github.com/r-lib/gert",
     "issueTracker": "https://github.com/r-lib/gert/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -4522,7 +4527,7 @@
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://github.com/r-lib/pkgdown"
+        "sameAs": "https://CRAN.R-project.org/package=pkgdown"
       },
       "5": {
         "@type": "SoftwareApplication",
@@ -4892,7 +4897,7 @@
     "codeRepository": "https://github.com/YuLab-SMU/treeio",
     "issueTracker": "https://github.com/YuLab-SMU/treeio/issues",
     "license": "https://spdx.org/licenses/Artistic-2.0",
-    "version": "1.29.0",
+    "version": "1.29.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -17023,7 +17028,7 @@
     "codeRepository": "https://github.com/ropensci/crul",
     "issueTracker": "https://github.com/ropensci/crul/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31557,7 +31562,7 @@
     "codeRepository": "https://github.com/ropensci/hydroscoper",
     "issueTracker": "https://github.com/ropensci/hydroscoper/issues             ",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31594,7 +31599,7 @@
         "@type": "SoftwareApplication",
         "identifier": "ggplot2",
         "name": "ggplot2",
-        "version": ">= 3.4",
+        "version": ">= 3.5",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
@@ -31691,19 +31696,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "pingr",
-        "name": "pingr",
-        "version": ">= 2.0",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pingr"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "version": ">= 2.1",
@@ -31715,7 +31707,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "jsonlite",
         "name": "jsonlite",
@@ -34973,7 +34965,7 @@
     "codeRepository": "https://github.com/ropensci/mapscanner",
     "issueTracker": "https://github.com/ropensci/mapscanner/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.3",
+    "version": "0.1.0.9",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35384,7 +35376,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "SystemRequirements": "C++11"
+      "SystemRequirements": null
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/mapscanner/blob/HEAD/README.md",
@@ -71824,7 +71816,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.1.9000",
+    "version": "1.7.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -84750,7 +84742,7 @@
     "codeRepository": "https://github.com/ropenscilabs/allcontributors",
     "issueTracker": "https://github.com/ropenscilabs/allcontributors/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0.1",
+    "version": "0.2.0.3",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
