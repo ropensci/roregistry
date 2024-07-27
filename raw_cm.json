@@ -4893,7 +4893,12 @@
     "identifier": "treeio",
     "description": "'treeio' is an R package to make it easier to import and store phylogenetic tree with associated data; and to link external data from different sources to phylogeny. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file and can be served as a platform for merging tree with associated data and converting file formats.",
     "name": "treeio: Base Classes and Functions for Phylogenetic Tree Input and Output",
-    "relatedLink": ["https://github.com/YuLab-SMU/treeio", "https://docs.ropensci.org/treeio/", "https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/", "https://doi.org/10.1093/molbev/msz240"],
+    "relatedLink": [
+      "https://github.com/YuLab-SMU/treeio",
+      "https://docs.ropensci.org/treeio/",
+      "https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/",
+      "https://doi.org/10.1093/molbev/msz240"
+    ],
     "codeRepository": "https://github.com/YuLab-SMU/treeio",
     "issueTracker": "https://github.com/YuLab-SMU/treeio/issues",
     "license": "https://spdx.org/licenses/Artistic-2.0",
@@ -5275,7 +5280,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=yulab.utils"
       },
-      "SystemRequirements": null
+      "SystemRequirements": {}
     },
     "fileSize": "NAKB",
     "citation": [
@@ -5376,7 +5381,10 @@
           "@type": "PublicationIssue",
           "datePublished": "2020",
           "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
+            "@type": [
+              "PublicationVolume",
+              "Periodical"
+            ],
             "volumeNumber": "37",
             "name": "Molecular Biology and Evolution"
           }
@@ -7963,14 +7971,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Rraven",
-        "name": "Rraven",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=Rraven"
+        "name": "Rraven"
       },
       {
         "@type": "SoftwareApplication",
@@ -8119,27 +8120,13 @@
         "@type": "SoftwareApplication",
         "identifier": "warbleR",
         "name": "warbleR",
-        "version": ">= 1.1.30",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=warbleR"
+        "version": ">= 1.1.30"
       },
       "15": {
         "@type": "SoftwareApplication",
         "identifier": "ohun",
         "name": "ohun",
-        "version": ">= 1.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ohun"
+        "version": ">= 1.0.1"
       },
       "SystemRequirements": null
     },
@@ -33860,6 +33847,224 @@
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
+    "identifier": "karel",
+    "description": "This is the R implementation of Karel the robot, a programming language created by Dr. R. E. Pattis at Stanford University in 1981. Karel is an useful tool to teach introductory concepts about general programming, such as algorithmic decomposition, conditional statements, loops, etc., in an interactive and fun way, by writing programs to make Karel the robot achieve certain tasks in the world she lives in. Originally based on Pascal, Karel was implemented in many languages through these decades, including 'Java', 'C++', 'Ruby' and 'Python'. This is the first package implementing Karel in R.",
+    "name": "karel: Learning programming with Karel the robot",
+    "relatedLink": "https://ropensci.github.io/karel/",
+    "codeRepository": "https://github.com/ropensci/karel",
+    "issueTracker": "https://github.com/ropensci/karel/issues/",
+    "license": "https://spdx.org/licenses/GPL-2.0",
+    "version": "0.1.1.9001",
+    "programmingLanguage": {
+      "@type": "ComputerLanguage",
+      "name": "R",
+      "url": "https://r-project.org"
+    },
+    "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Marcos",
+        "familyName": "Prunello",
+        "email": "marcosprunello@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9611-527X"
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@type": "Person",
+        "givenName": "Marcos",
+        "familyName": "Prunello",
+        "email": "marcosprunello@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9611-527X"
+      }
+    ],
+    "maintainer": [
+      {
+        "@type": "Person",
+        "givenName": "Marcos",
+        "familyName": "Prunello",
+        "email": "marcosprunello@gmail.com",
+        "@id": "https://orcid.org/0000-0002-9611-527X"
+      }
+    ],
+    "softwareSuggestions": [
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "testthat",
+        "name": "testthat",
+        "version": ">= 3.0.0",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=testthat"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "vdiffr",
+        "name": "vdiffr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=vdiffr"
+      }
+    ],
+    "softwareRequirements": {
+      "1": {
+        "@type": "SoftwareApplication",
+        "identifier": "R",
+        "name": "R",
+        "version": ">= 3.6.0"
+      },
+      "2": {
+        "@type": "SoftwareApplication",
+        "identifier": "purrr",
+        "name": "purrr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=purrr"
+      },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "dplyr",
+        "name": "dplyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=dplyr"
+      },
+      "4": {
+        "@type": "SoftwareApplication",
+        "identifier": "tidyr",
+        "name": "tidyr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tidyr"
+      },
+      "5": {
+        "@type": "SoftwareApplication",
+        "identifier": "ggplot2",
+        "name": "ggplot2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+      },
+      "6": {
+        "@type": "SoftwareApplication",
+        "identifier": "magrittr",
+        "name": "magrittr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=magrittr"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
+        "identifier": "gganimate",
+        "name": "gganimate",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=gganimate"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "cli",
+        "name": "cli",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=cli"
+      },
+      "SystemRequirements": null
+    },
+    "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "Marcos",
+            "familyName": "Prunello"
+          }
+        ],
+        "name": "karel: Learning programming with Karel the robot",
+        "url": "https://mpru.github.io/karel/"
+      }
+    ],
+    "readme": "https://github.com/ropensci/karel/blob/HEAD/README.md",
+    "review": {
+      "@type": "Review",
+      "url": "https://github.com/ropensci/software-review/issues/620",
+      "provider": "https://ropensci.org"
+    },
+    "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html", "https://www.repostatus.org/#active"]
+  },
+  {
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
     "identifier": "katex",
     "description": "Convert latex math expressions to HTML and 'MathML' for use in markdown documents or package manual pages. The rendering is done in R using the V8 engine (i.e. server-side), which eliminates the need for embedding the 'MathJax' library into your web pages. In addition a 'math-to-rd' wrapper is provided to automatically render beautiful math in R documentation files.",
     "name": "katex: Rendering Math to HTML, 'MathML', or R-Documentation Format",
@@ -42416,12 +42621,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -42531,14 +42730,7 @@
         "@type": "SoftwareApplication",
         "identifier": "warbleR",
         "name": "warbleR",
-        "version": ">= 1.1.32",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=warbleR"
+        "version": ">= 1.1.32"
       },
       "3": {
         "@type": "SoftwareApplication",
@@ -59404,18 +59596,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=testthat"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "vcr",
-        "name": "vcr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=vcr"
       },
       {
         "@type": "SoftwareApplication",
@@ -82469,6 +82649,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
