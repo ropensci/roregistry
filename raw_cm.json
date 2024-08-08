@@ -31456,42 +31456,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "pdftools",
-        "name": "pdftools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pdftools"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "janeaustenr",
-        "name": "janeaustenr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=janeaustenr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "wordcloud2",
-        "name": "wordcloud2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=wordcloud2"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "knitr",
         "name": "knitr",
         "provider": {
@@ -31501,18 +31465,6 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=knitr"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "stopwords",
-        "name": "stopwords",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=stopwords"
       },
       {
         "@type": "SoftwareApplication",
@@ -62854,7 +62806,10 @@
             "familyName": "Karnieli"
           }
         ],
-        "name": "rOPTRAM: an R package for preparing soil moisture grids based on the OPTRAM model"
+        "name": "rOPTRAM: an R package for preparing soil moisture grids based on the OPTRAM model",
+        "identifier": "https://doi.org/10.5281/zenodo.13257767",
+        "@id": "https://doi.org/10.5281/zenodo.13257767",
+        "sameAs": "https://doi.org/10.5281/zenodo.13257767"
       }
     ],
     "readme": "https://github.com/ropensci/rOPTRAM/blob/HEAD/README.md",
