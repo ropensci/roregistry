@@ -1220,6 +1220,13 @@
         "familyName": "Salmon",
         "email": "msmaellesalmon@gmail.com",
         "@id": "https://orcid.org/0000-0002-2815-0399"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Pascal",
+        "familyName": "Burkhard",
+        "email": "pascal.burkhard@gmail.com",
+        "@id": "https://orcid.org/0009-0001-5504-5084"
       }
     ],
     "contributor": [
@@ -1234,11 +1241,6 @@
         "familyName": "Nitta",
         "email": "joelnitta@gmail.com",
         "@id": "https://orcid.org/0000-0003-4719-7472"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Pascal",
-        "familyName": "Burkhard"
       }
     ],
     "maintainer": [
@@ -3341,7 +3343,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/pkgstats",
     "issueTracker": "https://github.com/ropensci-review-tools/pkgstats/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.6",
+    "version": "0.1.6.14",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -3443,6 +3445,18 @@
         "@type": "SoftwareApplication",
         "identifier": "parallel",
         "name": "parallel"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "piggyback",
+        "name": "piggyback",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=piggyback"
       },
       {
         "@type": "SoftwareApplication",
@@ -3605,10 +3619,22 @@
       },
       "7": {
         "@type": "SoftwareApplication",
+        "identifier": "memoise",
+        "name": "memoise",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=memoise"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
         "identifier": "methods",
         "name": "methods"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -3620,7 +3646,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "sys",
         "name": "sys",
@@ -3632,7 +3658,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=sys"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "withr",
         "name": "withr",
@@ -31215,6 +31241,12 @@
         "@type": "Person",
         "givenName": "Jason",
         "familyName": "Heppler"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jordan",
+        "familyName": "Bradford",
+        "email": "jrdnbradford@gmail.com"
       }
     ],
     "maintainer": [
@@ -31728,11 +31760,11 @@
     "identifier": "iheatmapr",
     "description": "Make complex, interactive heatmaps. 'iheatmapr' includes a modular system for iteratively building up complex heatmaps, as well as the iheatmap() function for making relatively standard heatmaps.",
     "name": "iheatmapr: Interactive, Complex Heatmaps",
-    "relatedLink": ["https://docs.ropensci.org/iheatmapr", "https://github.com/ropensci/iheatmapr"],
+    "relatedLink": ["https://docs.ropensci.org/iheatmapr/", "https://github.com/ropensci/iheatmapr"],
     "codeRepository": "https://github.com/ropensci/iheatmapr",
     "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -31949,7 +31981,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.2.0"
+        "version": ">= 3.5.0"
       },
       "2": {
         "@type": "SoftwareApplication",
