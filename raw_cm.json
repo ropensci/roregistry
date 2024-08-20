@@ -8021,7 +8021,14 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "Rraven",
-        "name": "Rraven"
+        "name": "Rraven",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=Rraven"
       },
       {
         "@type": "SoftwareApplication",
@@ -8183,7 +8190,14 @@
         "@type": "SoftwareApplication",
         "identifier": "ohun",
         "name": "ohun",
-        "version": ">= 1.0.2"
+        "version": ">= 1.0.2",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=ohun"
       },
       "SystemRequirements": null
     },
@@ -10975,6 +10989,34 @@
     "applicationCategory": "Antarctic/SouthernOcean",
     "isPartOf": ["https://ropensci.org", "https://scar.org"],
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Sumner"
+          },
+          {
+            "@type": "Person",
+            "givenName": "M.",
+            "familyName": "D."
+          },
+          {
+            "@type": "Organization",
+            "name": "Raymond"
+          },
+          {
+            "@type": "Organization",
+            "name": "B."
+          }
+        ],
+        "name": "The raadtools and bowerbird framework for acquistion and analysis of earth observation data",
+        "url": "https://github.com/AustralianAntarcticDivision/raadtools, https://github.com/ropensci/bowerbird",
+        "description": "R package"
+      }
+    ],
     "readme": "https://github.com/ropensci/bowerbird/blob/HEAD/README.md",
     "review": {
       "@type": "Review",
@@ -25689,12 +25731,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -35803,6 +35839,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -42600,6 +42642,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -72410,19 +72458,6 @@
       },
       {
         "@type": "SoftwareApplication",
-        "identifier": "pingr",
-        "name": "pingr",
-        "version": ">= 2.0.1",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=pingr"
-      },
-      {
-        "@type": "SoftwareApplication",
         "identifier": "pkgload",
         "name": "pkgload",
         "version": ">= 1.1.0",
@@ -78550,12 +78585,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
