@@ -52573,12 +52573,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -62266,7 +62260,7 @@
     "codeRepository": "https://github.com/ropensci/robotstxt",
     "issueTracker": "https://github.com/ropensci/robotstxt/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.13",
+    "version": "0.7.15",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -62387,6 +62381,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=covr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
       }
     ],
     "softwareRequirements": {
@@ -62431,19 +62437,6 @@
       },
       "4": {
         "@type": "SoftwareApplication",
-        "identifier": "future",
-        "name": "future",
-        "version": ">= 1.6.2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=future"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
         "identifier": "future.apply",
         "name": "future.apply",
         "version": ">= 1.0.0",
@@ -62455,7 +62448,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=future.apply"
       },
-      "6": {
+      "5": {
         "@type": "SoftwareApplication",
         "identifier": "magrittr",
         "name": "magrittr",
@@ -62467,12 +62460,12 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=magrittr"
       },
-      "7": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
       },
-      "8": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
@@ -62487,7 +62480,7 @@
       "url": "https://github.com/ropensci/software-review/issues/25",
       "provider": "https://ropensci.org"
     },
-    "developmentStatus": "https://www.repostatus.org/"
+    "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#stable"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
