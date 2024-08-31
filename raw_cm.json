@@ -4429,7 +4429,7 @@
     "codeRepository": "https://github.com/ropensci-org/rotemplate",
     "issueTracker": "https://github.com/ropensci-org/rotemplate/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -38016,13 +38016,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "mregions2",
-    "description": "Explore and retrieve marine geospatial data from the Marine Regions Gazetteer and the Marine Regions Data Products, including the Maritime Boundaries.",
-    "name": "mregions2: Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products",
+    "description": "Explore and retrieve marine geospatial data from the Marine Regions Gazetteer <https://marineregions.org/gazetteer.php?p=webservices> and the Marine Regions Data Products <https://marineregions.org/webservices.php>.",
+    "name": "mregions2: Access Data from Marineregions.org: Gazetteer & Data Products",
     "relatedLink": ["https://github.com/ropensci/mregions2", "https://docs.ropensci.org/mregions2/"],
     "codeRepository": "https://github.com/ropensci/mregions2",
     "issueTracker": "https://github.com/ropensci/mregions2/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -58248,6 +58248,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "curl",
+        "name": "curl",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=curl"
       }
     ],
     "softwareRequirements": {
