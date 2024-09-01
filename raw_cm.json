@@ -7918,6 +7918,12 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -30529,6 +30535,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=tidytext"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       }
     ],
     "softwareRequirements": {
@@ -30536,7 +30554,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 2.10"
+        "version": ">= 4.1"
       },
       "2": {
         "@type": "SoftwareApplication",
@@ -30624,6 +30642,18 @@
       },
       "9": {
         "@type": "SoftwareApplication",
+        "identifier": "rlang",
+        "name": "rlang",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rlang"
+      },
+      "10": {
+        "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
         "provider": {
@@ -30634,7 +30664,19 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "10": {
+      "11": {
+        "@type": "SoftwareApplication",
+        "identifier": "tibble",
+        "name": "tibble",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=tibble"
+      },
+      "12": {
         "@type": "SoftwareApplication",
         "identifier": "urltools",
         "name": "urltools",
@@ -43131,12 +43173,6 @@
         "identifier": "taxizedb",
         "name": "taxizedb",
         "version": ">= 0.1.6",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
         "sameAs": "https://github.com/ropensci/taxizedb"
       },
       "SystemRequirements": null
@@ -62308,12 +62344,6 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Pedro",
-        "familyName": "Baltazar",
-        "email": "pedrobtz@gmail.com"
-      },
-      {
-        "@type": "Person",
         "givenName": "Peter",
         "familyName": "Meissner",
         "email": "retep.meissner@gmail.com"
@@ -62326,6 +62356,12 @@
       }
     ],
     "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Pedro",
+        "familyName": "Baltazar",
+        "email": "pedrobtz@gmail.com"
+      },
       {
         "@type": "Person",
         "givenName": "Oliver",
@@ -62348,9 +62384,9 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Pedro",
-        "familyName": "Baltazar",
-        "email": "pedrobtz@gmail.com"
+        "givenName": "Jordan",
+        "familyName": "Bradford",
+        "email": "jrdnbradford@gmail.com"
       }
     ],
     "softwareSuggestions": [
@@ -74086,12 +74122,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
