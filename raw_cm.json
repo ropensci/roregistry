@@ -30430,8 +30430,8 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": "Harmon",
-        "familyName": "Jon",
+        "givenName": "Jon",
+        "familyName": "Harmon",
         "email": "jonthegeek@gmail.com",
         "@id": "https://orcid.org/0000-0003-4781-4346"
       },
@@ -30459,8 +30459,8 @@
     "maintainer": [
       {
         "@type": "Person",
-        "givenName": "Harmon",
-        "familyName": "Jon",
+        "givenName": "Jon",
+        "familyName": "Harmon",
         "email": "jonthegeek@gmail.com",
         "@id": "https://orcid.org/0000-0003-4781-4346"
       }
@@ -62330,7 +62330,7 @@
     "codeRepository": "https://github.com/ropensci/robotstxt",
     "issueTracker": "https://github.com/ropensci/robotstxt/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.15",
+    "version": "0.7.15.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -66866,12 +66866,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "maintainer": [
       {
         "@type": "Person",
@@ -67286,153 +67280,6 @@
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/rvertnet/blob/HEAD/README.md",
     "developmentStatus": "https://www.repostatus.org/#active"
-  },
-  {
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "identifier": "rWBclimate",
-    "description": "This package will download model predictions from 15 different global circulation models in 20 year intervals from the world bank. Users can also access historical data, and create maps at 2 different spatial scales.",
-    "name": "rWBclimate: A package for accessing World Bank climate data",
-    "relatedLink": "http://github.com/ropensci/rWBclimate",
-    "codeRepository": "https://github.com/ropensci/rWBclimate",
-    "issueTracker": "http://github.com/ropensci/rWBclimate/issues",
-    "license": "https://spdx.org/licenses/MIT",
-    "version": "0.1.5.91",
-    "programmingLanguage": {
-      "@type": "ComputerLanguage",
-      "name": "R",
-      "url": "https://r-project.org"
-    },
-    "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "author": [
-      {
-        "@type": "Person",
-        "givenName": "Edmund",
-        "familyName": "Hart",
-        "email": "edmund.m.hart@gmail.com"
-      }
-    ],
-    "maintainer": [
-      {
-        "@type": "Person",
-        "givenName": "Edmund",
-        "familyName": "Hart",
-        "email": "edmund.m.hart@gmail.com"
-      }
-    ],
-    "softwareSuggestions": [
-      {
-        "@type": "SoftwareApplication",
-        "identifier": "knitr",
-        "name": "knitr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=knitr"
-      }
-    ],
-    "softwareRequirements": {
-      "1": {
-        "@type": "SoftwareApplication",
-        "identifier": "ggplot2",
-        "name": "ggplot2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-      },
-      "2": {
-        "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
-      },
-      "3": {
-        "@type": "SoftwareApplication",
-        "identifier": "plyr",
-        "name": "plyr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=plyr"
-      },
-      "4": {
-        "@type": "SoftwareApplication",
-        "identifier": "rgdal",
-        "name": "rgdal"
-      },
-      "5": {
-        "@type": "SoftwareApplication",
-        "identifier": "jsonlite",
-        "name": "jsonlite",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=jsonlite"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "reshape2",
-        "name": "reshape2",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=reshape2"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
-        "identifier": "sp",
-        "name": "sp",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=sp"
-      },
-      "SystemRequirements": null
-    },
-    "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "SoftwareSourceCode",
-        "datePublished": "2014",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": "Edmund",
-            "familyName": "Hart"
-          }
-        ],
-        "name": "{rWBclimate}: A package for accessing World Bank climate data",
-        "url": "http://www.github.com/ropensci/rwbclimate",
-        "description": "R package version 0.1.5.91"
-      }
-    ],
-    "readme": "https://github.com/ropensci/rWBclimate/blob/HEAD/README.md",
-    "developmentStatus": []
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
