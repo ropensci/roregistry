@@ -8537,8 +8537,9 @@
     ],
     "contributor": [
       {
-        "@type": "Organization",
-        "name": "Jason Griffiths",
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Griffiths",
         "@id": "https://orcid.org/0000-0002-1667-8233"
       },
       {
@@ -30443,6 +30444,12 @@
       },
       {
         "@type": "Person",
+        "givenName": "Jordan",
+        "familyName": "Bradford",
+        "email": "jrdnbradford@gmail.com"
+      },
+      {
+        "@type": "Person",
         "givenName": "David",
         "familyName": "Robinson",
         "email": "admiral.david@gmail.com"
@@ -30596,30 +30603,6 @@
       },
       "5": {
         "@type": "SoftwareApplication",
-        "identifier": "lazyeval",
-        "name": "lazyeval",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=lazyeval"
-      },
-      "6": {
-        "@type": "SoftwareApplication",
-        "identifier": "magrittr",
-        "name": "magrittr",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=magrittr"
-      },
-      "7": {
-        "@type": "SoftwareApplication",
         "identifier": "purrr",
         "name": "purrr",
         "provider": {
@@ -30630,7 +30613,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=purrr"
       },
-      "8": {
+      "6": {
         "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
@@ -30642,7 +30625,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "9": {
+      "7": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -30654,7 +30637,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "10": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -30666,7 +30649,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "11": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -30678,7 +30661,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "12": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "urltools",
         "name": "urltools",
@@ -35697,7 +35680,7 @@
     "codeRepository": "https://github.com/ropensci/mauricer",
     "issueTracker": "https://github.com/ropensci/mauricer/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "2.5.4",
+    "version": "2.5.5",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -35857,7 +35840,7 @@
           }
         ],
         "name": "babette: BEAUti 2, BEAST 2 and Tracer for R",
-        "identifier": "https://doi.org/10.1111/2041-210X.13032",
+        "identifier": "10.1111/2041-210X.13032",
         "@id": "https://doi.org/10.1111/2041-210X.13032",
         "sameAs": "https://doi.org/10.1111/2041-210X.13032",
         "isPartOf": {
@@ -44795,7 +44778,7 @@
     "codeRepository": "https://github.com/ropensci/osmapiR",
     "issueTracker": "https://github.com/ropensci/osmapiR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.0.9000",
+    "version": "0.2.1.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44965,7 +44948,7 @@
         ],
         "name": "osmapiR: An 'OpenStreetMap API' implementation for R",
         "identifier": "10.21105/joss.07151",
-        "description": "R package version 0.2.0.9000 \nhttps://github.com/ropensci/osmapiR",
+        "description": "R package version 0.2.1.9001",
         "pagination": "7151",
         "@id": "https://doi.org/10.21105/joss.07151",
         "sameAs": "https://doi.org/10.21105/joss.07151",
@@ -84939,7 +84922,7 @@
     "codeRepository": "https://github.com/ropenscilabs/deposits",
     "issueTracker": "https://github.com/ropenscilabs/deposits/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.2.1.60",
+    "version": "0.2.1.61",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
