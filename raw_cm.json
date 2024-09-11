@@ -19284,7 +19284,7 @@
     "codeRepository": "https://github.com/ropensci/datefixR",
     "issueTracker": "https://github.com/ropensci/datefixR/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "1.7.0",
+    "version": "1.7.0.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -19640,7 +19640,7 @@
         "name": "{datefixR}: Standardize Dates in Different Formats or with Missing Data",
         "identifier": "10.5281/zenodo.5655311",
         "url": "https://CRAN.R-project.org/package=datefixR",
-        "description": "R package version 1.7.0",
+        "description": "R package version 1.7.0.9000",
         "@id": "https://doi.org/10.5281/zenodo.5655311",
         "sameAs": "https://doi.org/10.5281/zenodo.5655311"
       }
@@ -30328,6 +30328,18 @@
         "@type": "SoftwareApplication",
         "identifier": "utils",
         "name": "utils"
+      },
+      "8": {
+        "@type": "SoftwareApplication",
+        "identifier": "withr",
+        "name": "withr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=withr"
       },
       "SystemRequirements": null
     },
@@ -67761,18 +67773,6 @@
       },
       "8": {
         "@type": "SoftwareApplication",
-        "identifier": "maps",
-        "name": "maps",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=maps"
-      },
-      "9": {
-        "@type": "SoftwareApplication",
         "identifier": "httr",
         "name": "httr",
         "provider": {
@@ -67783,7 +67783,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=httr"
       },
-      "10": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "geosphere",
         "name": "geosphere",
@@ -67795,7 +67795,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=geosphere"
       },
-      "11": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "leaflet",
         "name": "leaflet",
@@ -67807,7 +67807,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=leaflet"
       },
-      "12": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "RCurl",
         "name": "RCurl",
@@ -67818,6 +67818,18 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=RCurl"
+      },
+      "12": {
+        "@type": "SoftwareApplication",
+        "identifier": "maps",
+        "name": "maps",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=maps"
       },
       "SystemRequirements": null
     },
