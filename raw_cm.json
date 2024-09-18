@@ -4073,7 +4073,7 @@
     "codeRepository": "https://github.com/ropensci-review-tools/roreviewapi",
     "issueTracker": "https://github.com/ropensci-review-tools/roreviewapi/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.1.0.55",
+    "version": "0.1.0.56",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18379,7 +18379,7 @@
     "codeRepository": "https://github.com/ropensci/DataPackageR",
     "issueTracker": "https://github.com/ropensci/DataPackageR/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.16.0",
+    "version": "0.16.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -18527,15 +18527,15 @@
       },
       "2": {
         "@type": "SoftwareApplication",
-        "identifier": "crayon",
-        "name": "crayon",
+        "identifier": "cli",
+        "name": "cli",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=crayon"
+        "sameAs": "https://CRAN.R-project.org/package=cli"
       },
       "3": {
         "@type": "SoftwareApplication",
@@ -30618,6 +30618,18 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "readMDTable",
+        "name": "readMDTable",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=readMDTable"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
         "identifier": "readr",
         "name": "readr",
         "provider": {
@@ -30628,7 +30640,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=readr"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "rlang",
         "name": "rlang",
@@ -30640,7 +30652,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=rlang"
       },
-      "8": {
+      "9": {
         "@type": "SoftwareApplication",
         "identifier": "stringr",
         "name": "stringr",
@@ -30652,7 +30664,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=stringr"
       },
-      "9": {
+      "10": {
         "@type": "SoftwareApplication",
         "identifier": "tibble",
         "name": "tibble",
@@ -30664,7 +30676,7 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=tibble"
       },
-      "10": {
+      "11": {
         "@type": "SoftwareApplication",
         "identifier": "urltools",
         "name": "urltools",
