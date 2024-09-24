@@ -29813,14 +29813,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "landscapetools",
-        "name": "landscapetools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=landscapetools"
+        "name": "landscapetools"
       }
     ],
     "softwareRequirements": {
@@ -34264,12 +34257,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Person",
@@ -39640,14 +39627,7 @@
       {
         "@type": "SoftwareApplication",
         "identifier": "landscapetools",
-        "name": "landscapetools",
-        "provider": {
-          "@id": "https://cran.r-project.org",
-          "@type": "Organization",
-          "name": "Comprehensive R Archive Network (CRAN)",
-          "url": "https://cran.r-project.org"
-        },
-        "sameAs": "https://CRAN.R-project.org/package=landscapetools"
+        "name": "landscapetools"
       },
       {
         "@type": "SoftwareApplication",
@@ -71941,7 +71921,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.7.1.9005",
+    "version": "1.7.1.9007",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72524,6 +72504,7 @@
         "@type": "SoftwareApplication",
         "identifier": "ps",
         "name": "ps",
+        "version": ">= 1.8.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
