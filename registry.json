@@ -357,7 +357,7 @@
       "url": "https://github.com/ropensci-review-tools/srr",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-08-27 08:59:16",
+      "date_last_commit": "2024-09-25 09:17:34",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -2413,7 +2413,7 @@
       "url": "https://github.com/ropensci/gutenbergr",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-09-17 16:31:45",
+      "date_last_commit": "2024-09-25 18:41:59",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3331,7 +3331,7 @@
       "url": "https://github.com/ropensci/openalexR",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2024-09-19 14:48:09",
+      "date_last_commit": "2024-09-25 15:04:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3451,7 +3451,7 @@
       "url": "https://github.com/ropensci/osmdata",
       "ropensci_category": "geospatial",
       "ropenscilabs": false,
-      "date_last_commit": "2024-07-25 08:51:18",
+      "date_last_commit": "2024-09-25 11:04:13",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4471,7 +4471,7 @@
       "url": "https://github.com/ropensci/rgbif",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-09-24 10:50:25",
+      "date_last_commit": "2024-09-25 14:15:08",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4599,17 +4599,17 @@
     {
       "name": "rix",
       "description": "Reproducible Data Science Environments with 'Nix'",
-      "details": "Simplifies the creation of reproducible development environments using the 'Nix' package manager. The included `rix()` function generates a complete description of the development environment as a `default.nix` file, which can then be built using 'Nix'. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in 'Nix' software environments for testing and production.",
+      "details": "Simplifies the creation of reproducible data science environments using the 'Nix' package manager, as described in Dolstra (2006) <ISBN 90-393-4130-3>. The included `rix()` function generates a complete description of the environment as a `default.nix` file, which can then be built using 'Nix'. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in 'Nix' software environments for testing and production.",
       "maintainer": "Bruno Rodrigues",
       "keywords": "",
       "github": "https://github.com/ropensci/rix",
       "status": "https://www.repostatus.org#active",
       "onboarding": "https://github.com/ropensci/software-review/issues/625",
-      "on_cran": false,
+      "on_cran": true,
       "on_bioc": false,
       "type": "active",
       "url": "https://github.com/ropensci/rix",
-      "date_last_commit": "2024-09-25 07:40:21",
+      "date_last_commit": "2024-09-26 06:26:57",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -4769,7 +4769,7 @@
       "url": "https://github.com/ropensci/roadoi",
       "ropensci_category": "literature",
       "ropenscilabs": false,
-      "date_last_commit": "2022-02-28 14:26:45",
+      "date_last_commit": "2024-09-26 07:41:32",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5529,7 +5529,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-09-24 20:55:20",
+      "date_last_commit": "2024-09-25 22:15:55",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6595,5 +6595,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-09-25 07:57 UTC"
+  "date": "2024-09-26 07:57 UTC"
 }
