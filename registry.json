@@ -1699,6 +1699,24 @@
       "staff_maintained": false
     },
     {
+      "name": "eDNAjoint",
+      "description": "Joint Modeling of Traditional and Environmental DNA Survey Data",
+      "details": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: https://bookdown.org/abigailkeller/eDNAjoint_vignette/). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
+      "maintainer": "Abigail G. Keller",
+      "keywords": "",
+      "github": "https://github.com/ropensci/eDNAjoint",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/642",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/eDNAjoint",
+      "date_last_commit": "2024-09-21 20:14:26",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "eia",
       "description": "API Wrapper for U.S. Energy Information Administration ('EIA') Open Data",
       "details": "Provides API access to data from the U.S. Energy Information Administration ('EIA') <https://www.eia.gov/>. Use of the EIA's API and this package requires a free API key obtainable at <https://www.eia.gov/opendata/register.php>. This package includes functions for searching the EIA data directory and returning time series and geoset time series datasets. Datasets returned by these functions are provided by default in a tidy format, or alternatively, in more raw formats. It also offers helper functions for working with EIA date strings and time formats and for inspecting different summaries of series metadata. The package also provides control over API key storage and caching of API request results.",
@@ -6595,5 +6613,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-09-27 07:32 UTC"
+  "date": "2024-09-27 07:44 UTC"
 }
