@@ -22430,7 +22430,7 @@
     "identifier": "eDNAjoint",
     "description": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: https://bookdown.org/abigailkeller/eDNAjoint_vignette/). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
     "name": "eDNAjoint: Joint Modeling of Traditional and Environmental DNA Survey Data",
-    "relatedLink": "https://github.com/ropensci/eDNAjoint",
+    "relatedLink": ["https://github.com/ropensci/eDNAjoint", "https://docs.ropensci.org/eDNAjoint"],
     "codeRepository": "https://github.com/ropensci/eDNAjoint",
     "issueTracker": "https://github.com/ropensci/eDNAjoint/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
@@ -31399,12 +31399,6 @@
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
-    "provider": {
-      "@id": "https://cran.r-project.org",
-      "@type": "Organization",
-      "name": "Comprehensive R Archive Network (CRAN)",
-      "url": "https://cran.r-project.org"
-    },
     "author": [
       {
         "@type": "Organization",
@@ -58585,7 +58579,7 @@
     "codeRepository": "https://github.com/ropensci/rgbif",
     "issueTracker": "https://github.com/ropensci/rgbif/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "3.8.1",
+    "version": "3.8.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -58978,7 +58972,7 @@
         ],
         "name": "rgbif: Interface to the Global Biodiversity Information Facility API",
         "url": "https://CRAN.R-project.org/package=rgbif",
-        "description": "R package version 3.8.1"
+        "description": "R package version 3.8.1.1"
       },
       {
         "@type": "ScholarlyArticle",
@@ -64053,13 +64047,13 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "rredlist",
-    "description": "'IUCN' Red List (<http://apiv3.iucnredlist.org/api/v3/docs>) client. The 'IUCN' Red List is a global list of threatened and endangered species. Functions cover all of the Red List 'API' routes. An 'API' key is required.",
+    "description": "'IUCN' Red List (<https://api.iucnredlist.org/>) client. The 'IUCN' Red List is a global list of threatened and endangered species. Functions cover all of the Red List 'API' routes. An 'API' key is required.",
     "name": "rredlist: 'IUCN' Red List Client",
-    "relatedLink": ["https://github.com/ropensci/rredlist", "https://docs.ropensci.org/rredlist/"],
+    "relatedLink": ["https://docs.ropensci.org/rredlist/", "https://github.com/ropensci/rredlist"],
     "codeRepository": "https://github.com/ropensci/rredlist",
     "issueTracker": "https://github.com/ropensci/rredlist/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "0.7.1",
+    "version": "0.7.1.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -64111,6 +64105,18 @@
     "softwareSuggestions": [
       {
         "@type": "SoftwareApplication",
+        "identifier": "spelling",
+        "name": "spelling",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=spelling"
+      },
+      {
+        "@type": "SoftwareApplication",
         "identifier": "testthat",
         "name": "testthat",
         "provider": {
@@ -64133,6 +64139,30 @@
           "url": "https://cran.r-project.org"
         },
         "sameAs": "https://CRAN.R-project.org/package=vcr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "knitr",
+        "name": "knitr",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=knitr"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "identifier": "rmarkdown",
+        "name": "rmarkdown",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
       }
     ],
     "softwareRequirements": {
