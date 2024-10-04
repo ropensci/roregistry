@@ -1422,9 +1422,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "commonmark",
-    "description": "The CommonMark specification defines a rationalized version of markdown syntax. This package uses the 'cmark' reference implementation for converting markdown text into various formats including html, latex and groff man. In addition it exposes the markdown parse tree in xml format. Also includes opt-in support for GFM extensions including tables, autolinks, and strikethrough text.",
+    "description": "The CommonMark specification <https://github.github.com/gfm/> defines a rationalized version of markdown syntax. This package uses the 'cmark' reference implementation for converting markdown text into various formats including html, latex and groff man. In addition it exposes the markdown parse tree in xml format. Also includes opt-in support for GFM extensions including tables, autolinks, and strikethrough text.",
     "name": "commonmark: High Performance CommonMark and Github Markdown Rendering in R",
-    "relatedLink": ["https://docs.ropensci.org/commonmark/", "https://r-lib.r-universe.dev/commonmark", "https://github.github.com/gfm/"],
+    "relatedLink": ["https://docs.ropensci.org/commonmark/", "https://ropensci.r-universe.dev/commonmark"],
     "codeRepository": "https://github.com/r-lib/commonmark",
     "issueTracker": "https://github.com/r-lib/commonmark/issues",
     "license": "https://spdx.org/licenses/BSD-2-Clause",
@@ -6381,7 +6381,7 @@
     "identifier": "antiword",
     "description": "Wraps the 'AntiWord' utility to extract text from Microsoft Word documents. The utility only supports the old 'doc' format, not the new xml based 'docx' format. Use the 'xml2' package to read the latter.",
     "name": "antiword: Extract Text from Microsoft Word Documents",
-    "relatedLink": "https://docs.ropensci.org/antiword/",
+    "relatedLink": ["https://docs.ropensci.org/antiword/", "https://ropensci.r-universe.dev/antiword"],
     "codeRepository": "https://github.com/ropensci/antiword",
     "issueTracker": "https://github.com/ropensci/antiword/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
@@ -14589,8 +14589,9 @@
     "identifier": "cld2",
     "description": "Bindings to Google's C++ library Compact Language Detector 2 (see <https://github.com/cld2owners/cld2#readme> for more information). Probabilistically detects over 80 languages in plain text or HTML. For mixed-language input it returns the top three detected languages and their approximate proportion of the total classified text bytes (e.g. 80% English and 20% French out of 1000 bytes). There is also a 'cld3' package on CRAN which uses a neural network model instead.",
     "name": "cld2: Google's Compact Language Detector 2",
-    "relatedLink": ["https://docs.ropensci.org/cld2/", "https://github.com/cld2owners/cld2"],
+    "relatedLink": ["https://docs.ropensci.org/cld2/", "https://ropensci.r-universe.dev/cld2"],
     "codeRepository": "https://github.com/ropensci/cld2",
+    "issueTracker": "https://github.com/ropensci/cld2/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.2.5",
     "programmingLanguage": {
@@ -14684,7 +14685,7 @@
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/cld2/blob/HEAD/README.md",
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -14694,6 +14695,7 @@
     "name": "cld3: Google's Compact Language Detector 3",
     "relatedLink": ["https://docs.ropensci.org/cld3/", "https://ropensci.r-universe.dev/cld3"],
     "codeRepository": "https://github.com/ropensci/cld3",
+    "issueTracker": "https://github.com/ropensci/cld3/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
     "version": "1.6.1",
     "programmingLanguage": {
@@ -22724,7 +22726,7 @@
     "@type": "SoftwareSourceCode",
     "identifier": "eDNAjoint",
     "description": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: <https://bookdown.org/abigailkeller/eDNAjoint_vignette/>). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
-    "name": "eDNAjoint: Joint Modeling of Traditional and Environmental DNA Survey Data",
+    "name": "eDNAjoint: Joint Modeling of Traditional and Environmental DNA Survey Data in a Bayesian Framework",
     "relatedLink": ["https://github.com/ropensci/eDNAjoint", "https://docs.ropensci.org/eDNAjoint/"],
     "codeRepository": "https://github.com/ropensci/eDNAjoint",
     "issueTracker": "https://github.com/ropensci/eDNAjoint/issues",
@@ -30450,9 +30452,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "graphql",
-    "description": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax and exports the AST in JSON format.",
+    "description": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL <https://graphql.org> syntax and exports the AST in JSON format.",
     "name": "graphql: A GraphQL Query Parser",
-    "relatedLink": ["https://docs.ropensci.org/graphql/", "https://graphql.org", "https://github.com/ropensci/graphql"],
+    "relatedLink": ["https://docs.ropensci.org/graphql/", "https://ropensci.r-universe.dev/graphql"],
     "codeRepository": "https://github.com/ropensci/graphql",
     "issueTracker": "https://github.com/ropensci/graphql/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -30552,7 +30554,7 @@
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/graphql/blob/HEAD/README.md",
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -33888,9 +33890,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "jsonld",
-    "description": "JSON-LD is a light-weight syntax for expressing linked data. It is primarily intended for web-based programming environments, interoperable web services and for storing linked data in JSON-based databases. This package provides bindings to the JavaScript library for converting, expanding and compacting JSON-LD documents.",
+    "description": "JSON-LD <https://www.w3.org/TR/json-ld/> is a light-weight syntax for expressing linked data. It is primarily intended for web-based programming environments, interoperable web services and for storing linked data in JSON-based databases. This package provides bindings to the JavaScript library for converting, expanding and compacting JSON-LD documents.",
     "name": "jsonld: JSON for Linking Data",
-    "relatedLink": ["https://docs.ropensci.org/jsonld", "https://github.com/ropensci/jsonld", "https://www.w3.org/TR/json-ld"],
+    "relatedLink": ["https://docs.ropensci.org/jsonld/", "https://ropensci.r-universe.dev/jsonld"],
     "codeRepository": "https://github.com/ropensci/jsonld",
     "issueTracker": "https://github.com/ropensci/jsonld/issues",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
@@ -33981,7 +33983,7 @@
     },
     "fileSize": "NAKB",
     "readme": "https://github.com/ropensci/jsonld/blob/HEAD/README.md",
-    "developmentStatus": "http://www.repostatus.org/#active"
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -37103,7 +37105,7 @@
     "codeRepository": "https://github.com/ropensci/medrxivr",
     "issueTracker": "https://github.com/ropensci/medrxivr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -44486,7 +44488,7 @@
     "identifier": "opencv",
     "description": "Exposes some of the available 'OpenCV' <https://opencv.org/> algorithms, such as a QR code scanner, and edge, body or face detection. These can either be applied to analyze static images, or to filter live video footage from a camera device.",
     "name": "opencv: Bindings to 'OpenCV' Computer Vision Library",
-    "relatedLink": "https://ropensci.r-universe.dev/opencv",
+    "relatedLink": ["https://docs.ropensci.org/opencv/", "https://ropensci.r-universe.dev/opencv"],
     "codeRepository": "https://github.com/ropensci/opencv",
     "issueTracker": "https://github.com/ropensci/opencv/issues",
     "license": "https://spdx.org/licenses/MIT",
@@ -51313,9 +51315,9 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "identifier": "qpdf",
-    "description": "Content-preserving transformations transformations of PDF files such as split, combine, and compress. This package interfaces directly to the 'qpdf' C++ API and does not require any command line utilities. Note that 'qpdf' does not read actual content from PDF files: to extract text and data you need the 'pdftools' package.",
+    "description": "Content-preserving transformations transformations of PDF files such as split, combine, and compress. This package interfaces directly to the 'qpdf' C++ library <https://qpdf.sourceforge.io/> and does not require any command line utilities. Note that 'qpdf' does not read actual content from PDF files: to extract text and data you need the 'pdftools' package.",
     "name": "qpdf: Split, Combine and Compress PDF Files",
-    "relatedLink": ["https://docs.ropensci.org/qpdf/", "https://ropensci.r-universe.dev/qpdf", "https://qpdf.sourceforge.io/"],
+    "relatedLink": ["https://docs.ropensci.org/qpdf/", "https://ropensci.r-universe.dev/qpdf"],
     "codeRepository": "https://github.com/ropensci/qpdf",
     "issueTracker": "https://github.com/ropensci/qpdf/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
@@ -64491,6 +64493,18 @@
         },
         "sameAs": "https://CRAN.R-project.org/package=jsonlite"
       },
+      "3": {
+        "@type": "SoftwareApplication",
+        "identifier": "lifecycle",
+        "name": "lifecycle",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+      },
       "SystemRequirements": null
     },
     "applicationCategory": "Biodiversity",
@@ -69226,7 +69240,7 @@
     "codeRepository": "https://github.com/ropensci/spatsoc",
     "issueTracker": "https://github.com/ropensci/spatsoc/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "version": "0.2.4.9001",
+    "version": "0.2.5.9000",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72527,7 +72541,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.8.0.9000",
+    "version": "1.8.0.9001",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -75314,7 +75328,7 @@
     "identifier": "tesseract",
     "description": "Bindings to 'Tesseract': a powerful optical character recognition (OCR) engine that supports over 100 languages. The engine is highly configurable in order to tune the detection algorithms and obtain the best possible results.",
     "name": "tesseract: Open Source OCR Engine",
-    "relatedLink": ["https://docs.ropensci.org/tesseract/", "https://github.com/ropensci/tesseract"],
+    "relatedLink": ["https://docs.ropensci.org/tesseract/", "https://ropensci.r-universe.dev/tesseract"],
     "codeRepository": "https://github.com/ropensci/tesseract",
     "issueTracker": "https://github.com/ropensci/tesseract/issues",
     "license": "https://spdx.org/licenses/Apache-2.0",
