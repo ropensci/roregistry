@@ -37105,13 +37105,19 @@
     "codeRepository": "https://github.com/ropensci/medrxivr",
     "issueTracker": "https://github.com/ropensci/medrxivr/issues",
     "license": "https://spdx.org/licenses/GPL-2.0",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
       "url": "https://r-project.org"
     },
     "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+    "provider": {
+      "@id": "https://cran.r-project.org",
+      "@type": "Organization",
+      "name": "Comprehensive R Archive Network (CRAN)",
+      "url": "https://cran.r-project.org"
+    },
     "author": [
       {
         "@type": "Person",
@@ -37368,46 +37374,7 @@
       "SystemRequirements": null
     },
     "fileSize": "NAKB",
-    "citation": [
-      {
-        "@type": "ScholarlyArticle",
-        "datePublished": "2020",
-        "author": [
-          {
-            "@type": "Person",
-            "givenName": ["Luke", "A."],
-            "familyName": "McGuinness"
-          },
-          {
-            "@type": "Person",
-            "givenName": "Lena",
-            "familyName": "Schmidt"
-          }
-        ],
-        "name": "medrxivr: Accessing and searching medRxiv and bioRxiv preprint data in R",
-        "identifier": "10.21105/joss.02651",
-        "url": "https://doi.org/10.21105/joss.02651",
-        "pagination": "2651",
-        "@id": "https://doi.org/10.21105/joss.02651",
-        "sameAs": "https://doi.org/10.21105/joss.02651",
-        "isPartOf": {
-          "@type": "PublicationIssue",
-          "issueNumber": "54",
-          "datePublished": "2020",
-          "isPartOf": {
-            "@type": ["PublicationVolume", "Periodical"],
-            "volumeNumber": "5",
-            "name": "Journal of Open Source Software"
-          }
-        }
-      }
-    ],
     "readme": "https://github.com/ropensci/medrxivr/blob/HEAD/README.md",
-    "review": {
-      "@type": "Review",
-      "url": "https://github.com/ropensci/software-review/issues/380",
-      "provider": "https://ropensci.org"
-    },
     "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
@@ -64510,8 +64477,32 @@
     "applicationCategory": "Biodiversity",
     "isPartOf": "https://ropensci.org",
     "fileSize": "NAKB",
+    "citation": [
+      {
+        "@type": "SoftwareSourceCode",
+        "datePublished": "2024",
+        "author": [
+          {
+            "@type": "Person",
+            "givenName": "William",
+            "familyName": "Gearty"
+          },
+          {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Chamberlain"
+          }
+        ],
+        "name": "rredlist: 'IUCN' Red List Client",
+        "identifier": "10.32614/CRAN.package.rredlist",
+        "url": "https://docs.ropensci.org/rredlist/",
+        "description": "R package version 0.7.1.9000",
+        "@id": "https://doi.org/10.32614/CRAN.package.rredlist",
+        "sameAs": "https://doi.org/10.32614/CRAN.package.rredlist"
+      }
+    ],
     "readme": "https://github.com/ropensci/rredlist/blob/HEAD/README.md",
-    "developmentStatus": []
+    "developmentStatus": "https://www.repostatus.org/#active"
   },
   {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
@@ -69405,10 +69396,22 @@
       },
       "6": {
         "@type": "SoftwareApplication",
+        "identifier": "lwgeom",
+        "name": "lwgeom",
+        "provider": {
+          "@id": "https://cran.r-project.org",
+          "@type": "Organization",
+          "name": "Comprehensive R Archive Network (CRAN)",
+          "url": "https://cran.r-project.org"
+        },
+        "sameAs": "https://CRAN.R-project.org/package=lwgeom"
+      },
+      "7": {
+        "@type": "SoftwareApplication",
         "identifier": "stats",
         "name": "stats"
       },
-      "7": {
+      "8": {
         "@type": "SoftwareApplication",
         "identifier": "units",
         "name": "units",
@@ -72270,6 +72273,12 @@
         "name": "Eli Lilly and Company"
       }
     ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "Eli Lilly and Company"
+      }
+    ],
     "maintainer": [
       {
         "@type": "Person",
@@ -72541,7 +72550,7 @@
     "codeRepository": "https://github.com/ropensci/targets",
     "issueTracker": "https://github.com/ropensci/targets/issues",
     "license": "https://spdx.org/licenses/MIT",
-    "version": "1.8.0.9001",
+    "version": "1.8.0.9002",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -72578,6 +72587,12 @@
       }
     ],
     "copyrightHolder": [
+      {
+        "@type": "Organization",
+        "name": "Eli Lilly and Company"
+      }
+    ],
+    "funder": [
       {
         "@type": "Organization",
         "name": "Eli Lilly and Company"
@@ -76253,7 +76268,7 @@
     "codeRepository": "https://github.com/ropensci/tidyhydat",
     "issueTracker": "https://github.com/ropensci/tidyhydat/issues/",
     "license": "https://spdx.org/licenses/Apache-2.0",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "programmingLanguage": {
       "@type": "ComputerLanguage",
       "name": "R",
@@ -76382,7 +76397,7 @@
         "@type": "SoftwareApplication",
         "identifier": "R",
         "name": "R",
-        "version": ">= 3.4.0"
+        "version": ">= 4.2.0"
       },
       "2": {
         "@type": "SoftwareApplication",
@@ -76451,16 +76466,16 @@
       },
       "7": {
         "@type": "SoftwareApplication",
-        "identifier": "httr",
-        "name": "httr",
-        "version": ">= 1.3.1",
+        "identifier": "httr2",
+        "name": "httr2",
+        "version": ">= 1.0.0",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
           "name": "Comprehensive R Archive Network (CRAN)",
           "url": "https://cran.r-project.org"
         },
-        "sameAs": "https://CRAN.R-project.org/package=httr"
+        "sameAs": "https://CRAN.R-project.org/package=httr2"
       },
       "8": {
         "@type": "SoftwareApplication",
