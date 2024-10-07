@@ -8781,7 +8781,7 @@
     "name": "beastier: Call 'BEAST2'",
     "relatedLink": ["https://docs.ropensci.org/beastier/", "https://github.com/ropensci/beastier/"],
     "codeRepository": "https://github.com/ropensci/beastier",
-    "issueTracker": "https://github.com/ropensci/beastier",
+    "issueTracker": "https://github.com/ropensci/beastier/issues",
     "license": "https://spdx.org/licenses/GPL-3.0",
     "version": "2.5.2",
     "programmingLanguage": {
@@ -28846,12 +28846,62 @@
     "author": [
       {
         "@type": "Person",
-        "givenName": ["See", "AUTHORS"],
-        "familyName": "file."
+        "givenName": "Stefan",
+        "familyName": "Widgren",
+        "email": "stefan.widgren@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5745-2284"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Gabor",
+        "familyName": "Csardi"
       },
       {
-        "@type": "Organization",
-        "name": {}
+        "@type": "Person",
+        "givenName": "Gregory",
+        "familyName": "Jefferis"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jennifer",
+        "familyName": "Bryan"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeroen",
+        "familyName": "Ooms"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jim",
+        "familyName": "Hester"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Blischak"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karthik",
+        "familyName": "Ram"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Carbonetto"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Chamberlain"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thomas",
+        "familyName": "Rosendal"
       }
     ],
     "maintainer": [
@@ -28859,7 +28909,8 @@
         "@type": "Person",
         "givenName": "Stefan",
         "familyName": "Widgren",
-        "email": "stefan.widgren@gmail.com"
+        "email": "stefan.widgren@gmail.com",
+        "@id": "https://orcid.org/0000-0001-5745-2284"
       }
     ],
     "softwareSuggestions": [
@@ -39276,7 +39327,7 @@
         "@type": "SoftwareApplication",
         "identifier": "sf",
         "name": "sf",
-        "version": ">= 1.0.12",
+        "version": ">= 1.0-12",
         "provider": {
           "@id": "https://cran.r-project.org",
           "@type": "Organization",
