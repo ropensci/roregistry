@@ -229,6 +229,23 @@
       "staff_maintained": true
     },
     {
+      "name": "pkgmatch",
+      "description": "Find R Packages Matching Either Descriptions or Other R Packages",
+      "details": "Find R packages matching either descriptions or other R packages.",
+      "maintainer": "Mark Padgham",
+      "keywords": "",
+      "github": "https://github.com/ropensci-review-tools/pkgmatch",
+      "status": "https://www.repostatus.org#wip",
+      "onboarding": "",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "experimental",
+      "url": "https://github.com/ropensci-review-tools/pkgmatch",
+      "date_last_commit": "2024-10-11 07:25:46",
+      "cran_archived": false,
+      "staff_maintained": true
+    },
+    {
       "name": "pkgreviewr",
       "description": "rOpenSci package review project template",
       "details": "Creates files and collects materials necessary to complete an rOpenSci package review. Review files are prepopulated with review package specific metadata. Review package source code is also cloned for local testing and inspection.",
@@ -262,7 +279,7 @@
       "url": "https://github.com/ropensci-review-tools/pkgstats",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-02 14:22:49",
+      "date_last_commit": "2024-10-10 15:14:14",
       "cran_archived": true,
       "staff_maintained": true
     },
@@ -1718,7 +1735,7 @@
     {
       "name": "eDNAjoint",
       "description": "Joint Modeling of Traditional and Environmental DNA Survey Data in a Bayesian Framework",
-      "details": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: <https://bookdown.org/abigailkeller/eDNAjoint_vignette/>). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
+      "details": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: <https://ednajoint.netlify.app/>). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
       "maintainer": "Abigail G. Keller",
       "keywords": "",
       "github": "https://github.com/ropensci/eDNAjoint",
@@ -1730,7 +1747,7 @@
       "url": "https://github.com/ropensci/eDNAjoint",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-10 04:21:37",
+      "date_last_commit": "2024-10-10 18:46:50",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -3089,7 +3106,7 @@
       "url": "https://github.com/ropensci/naijR",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-06 22:40:50",
+      "date_last_commit": "2024-10-10 18:55:39",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5137,7 +5154,7 @@
     {
       "name": "ruODK",
       "description": "An R Client for the ODK Central API",
-      "details": "Access and tidy up data from the 'ODK Central' API. 'ODK Central' is a clearinghouse for digitally captured data <https://docs.getodk.org/central-intro/>. 'ODK Central' and its API are documented at <https://docs.getodk.org/>.",
+      "details": "Access and tidy up data from the 'ODK Central' API. 'ODK Central' is a clearinghouse for digitally captured data using ODK <https://docs.getodk.org/central-intro/>. It manages user accounts and permissions, stores form definitions, and allows data collection clients like 'ODK Collect' to connect to it for form download and submission upload. The 'ODK Central' API is documented at <https://docs.getodk.org/central-api/>.",
       "maintainer": "Florian W. Mayer",
       "keywords": "",
       "github": "https://github.com/ropensci/ruODK",
@@ -5149,7 +5166,7 @@
       "url": "https://github.com/ropensci/ruODK",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-07-22 02:24:05",
+      "date_last_commit": "2024-10-11 07:45:46",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5189,7 +5206,7 @@
       "url": "https://github.com/ropensci/rvertnet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-04-12 05:38:15",
+      "date_last_commit": "2024-10-11 01:23:57",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5569,7 +5586,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-07 17:39:49",
+      "date_last_commit": "2024-10-10 20:44:58",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5589,7 +5606,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-08 19:52:50",
+      "date_last_commit": "2024-10-10 20:41:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6653,5 +6670,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-10-10 07:56 UTC"
+  "date": "2024-10-11 07:56 UTC"
 }
