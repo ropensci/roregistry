@@ -241,7 +241,7 @@
       "on_bioc": false,
       "type": "experimental",
       "url": "https://github.com/ropensci-review-tools/pkgmatch",
-      "date_last_commit": "2024-10-11 07:25:46",
+      "date_last_commit": "2024-10-11 12:22:06",
       "cran_archived": false,
       "staff_maintained": true
     },
@@ -1073,6 +1073,24 @@
       "staff_maintained": false
     },
     {
+      "name": "chopin",
+      "description": "Computation of Spatial Data by Hierarchical and Objective Partitioning of Inputs for Parallel Processing",
+      "details": "Geospatial data computation is parallelized by grid, hierarchy, or raster files. Based on future and mirai parallel backends, terra and sf functions as well as convenience functions in the package can be distributed over multiple threads. The simplest way of parallelizing generic geospatial computation is to start from `par_pad_*` functions to `par_grid`, `par_hierarchy`, or `par_multirasters` functions. Virtually any functions accepting classes in terra or sf packages can be used in the three parallelization functions. A common raster-vector overlay operation is provided as a function `extract_at`, which uses exactextractr, with options for kernel weights for summarizing raster values at vector geometries. Other convenience functions for vector-vector operations including simple areal interpolation (`summarize_aw`) and summation of exponentially decaying weights (`summarize_sedc`) are also provided.",
+      "maintainer": "Insang Song",
+      "keywords": "",
+      "github": "https://github.com/ropensci/chopin",
+      "status": "https://www.repostatus.org#active",
+      "onboarding": "https://github.com/ropensci/software-review/issues/638",
+      "on_cran": false,
+      "on_bioc": false,
+      "type": "active",
+      "url": "https://github.com/ropensci/chopin",
+      "date_last_commit": "2024-10-12 02:23:55",
+      "github_archived": false,
+      "cran_archived": false,
+      "staff_maintained": false
+    },
+    {
       "name": "chromer",
       "description": "Interface to Chromosome Counts Database API",
       "details": "A programmatic interface to the Chromosome Counts Database (<https://taux.evolseq.net/CCDB_web/>), Rice et al. (2014) <doi:10.1111/nph.13191>. This package is part of the 'ROpenSci' suite (<https://ropensci.org>).",
@@ -1736,7 +1754,7 @@
       "name": "eDNAjoint",
       "description": "Joint Modeling of Traditional and Environmental DNA Survey Data in a Bayesian Framework",
       "details": "Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: <https://ednajoint.netlify.app/>). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the 'Stan' probabilistic programming language.",
-      "maintainer": "Abigail G. Keller",
+      "maintainer": "Anon Maintainer",
       "keywords": "",
       "github": "https://github.com/ropensci/eDNAjoint",
       "status": "https://www.repostatus.org#active",
@@ -1747,7 +1765,7 @@
       "url": "https://github.com/ropensci/eDNAjoint",
       "ropensci_category": "stat",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-10 18:46:50",
+      "date_last_commit": "2024-10-11 15:46:53",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5206,7 +5224,7 @@
       "url": "https://github.com/ropensci/rvertnet",
       "ropensci_category": "data-access",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-11 01:23:57",
+      "date_last_commit": "2024-10-11 16:02:32",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5586,7 +5604,7 @@
       "url": "https://github.com/ropensci/tarchetypes",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-10 20:44:58",
+      "date_last_commit": "2024-10-11 16:28:35",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -5606,7 +5624,7 @@
       "url": "https://github.com/ropensci/targets",
       "ropensci_category": "scalereprod",
       "ropenscilabs": false,
-      "date_last_commit": "2024-10-10 20:41:35",
+      "date_last_commit": "2024-10-11 16:27:30",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6406,7 +6424,7 @@
       "url": "https://github.com/ropensci/wikitaxa",
       "ropensci_category": "taxonomy",
       "ropenscilabs": false,
-      "date_last_commit": "2023-01-10 17:45:58",
+      "date_last_commit": "2024-10-11 19:51:21",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": false
@@ -6526,7 +6544,7 @@
       "url": "https://github.com/ropenscilabs/allcontributors",
       "ropensci_category": "scalereprod",
       "ropenscilabs": true,
-      "date_last_commit": "2024-07-17 10:49:39",
+      "date_last_commit": "2024-10-11 15:09:31",
       "github_archived": false,
       "cran_archived": false,
       "staff_maintained": true
@@ -6670,5 +6688,5 @@
       "staff_maintained": false
     }
   ],
-  "date": "2024-10-11 07:56 UTC"
+  "date": "2024-10-12 07:56 UTC"
 }
